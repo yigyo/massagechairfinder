@@ -7,7 +7,7 @@ interface ChairResult {
   url: string
 }
 
-const KLAVIYO_LIST_ID = 'UjnQai'
+const KLAVIYO_LIST_ID = 'WHPYgr'
 const KLAVIYO_API = 'https://a.klaviyo.com/api'
 const KLAVIYO_REVISION = '2024-02-15'
 
