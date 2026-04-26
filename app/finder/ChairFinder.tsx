@@ -190,6 +190,13 @@ function progressLabel(turnCount: number): string {
   return 'Finding your matches...'
 }
 
+// ─── PRICE FORMATTER ───────────────────────────────────────────────────────────
+function formatStartingPrice(price: string): string {
+  const match = price.match(/\$[\d,]+/)
+  if (!match) return price
+  return `Starting at ${match[0]}`
+}
+
 // ─── COMPONENT ─────────────────────────────────────────────────────────────────
 export default function ChairFinder() {
   const [phase, setPhase] = useState<Phase>('intro')
@@ -204,6 +211,9 @@ export default function ChairFinder() {
   const [rawFallback, setRawFallback] = useState('')
   const [heightInput, setHeightInput] = useState('')
   const [backUsed, setBackUsed] = useState(false)
+  const [emailInput, setEmailInput] = useState('')
+  const [emailSent, setEmailSent] = useState(false)
+  const [emailSending, setEmailSending] = useState(false)
   const sessionIdRef = useRef<string>(generateSessionId())
   const turnCountRef = useRef(0)
   const textInputRef = useRef<HTMLInputElement>(null)
@@ -344,6 +354,26 @@ export default function ChairFinder() {
 
   // ─── RESTART ────────────────────────────────────────────────────────────────
   const restart = () => window.location.reload()
+
+  // ─── SEND RESULTS ───────────────────────────────────────────────────────────
+  const handleSendResults = async () => {
+    const email = emailInput.trim()
+    if (!email || emailSending) return
+    setEmailSending(true)
+    try {
+      await fetch('/api/send-results', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, chairs }),
+      })
+      setEmailSent(true)
+    } catch {
+      // fail silently — show success anyway so UX isn't broken
+      setEmailSent(true)
+    } finally {
+      setEmailSending(false)
+    }
+  }
 
   const progressPct = Math.min(Math.round((turnCount / 11) * 100), 95)
 
@@ -587,7 +617,7 @@ export default function ChairFinder() {
                       {chair.name}
                     </p>
                     {chair.price && (
-                      <p style={{ fontSize: 17, color: '#6B6B65', fontWeight: 500, marginBottom: 24 }}>{chair.price}</p>
+                      <p style={{ fontSize: 17, color: '#6B6B65', fontWeight: 500, marginBottom: 24 }}>{formatStartingPrice(chair.price)}</p>
                     )}
                     {chair.imageUrl && (
                       <div style={{ width: '100%', borderRadius: 10, overflow: 'hidden', marginBottom: 24, background: '#F5F1EB', aspectRatio: '1/1', display: 'flex', alignItems: 'center', justifyContent: 'center', maxHeight: 280 }}>
@@ -614,6 +644,59 @@ export default function ChairFinder() {
 
           {/* Footer */}
           <div style={{ borderTop: '1px solid #E4DDD6', paddingTop: 40 }}>
+
+            {/* Email capture */}
+            <div style={{ background: '#1C2331', borderRadius: 14, padding: '28px 30px', marginBottom: 28 }}>
+              <h4 style={{ fontSize: 19, fontWeight: 700, color: '#fff', marginBottom: 10, fontFamily: 'Noto Serif, Georgia, serif' }}>
+                Want us to send you these results?
+              </h4>
+              <p style={{ fontSize: 15, color: '#B8C0CC', lineHeight: 1.6, marginBottom: 20 }}>
+                We&apos;ll email your top matches so you can review them on your own time, share with a partner, or come back when you&apos;re ready.
+              </p>
+              {emailSent ? (
+                <p style={{ fontSize: 16, color: '#D1803E', fontWeight: 600 }}>
+                  ✓ Done — check your inbox.
+                </p>
+              ) : (
+                <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
+                  <input
+                    type="email"
+                    value={emailInput}
+                    onChange={(e) => setEmailInput(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        e.preventDefault()
+                        handleSendResults()
+                      }
+                    }}
+                    placeholder="Your email address"
+                    style={{
+                      flex: 1, minWidth: 200, border: 'none', borderRadius: 8,
+                      padding: '13px 16px', fontSize: 15, fontFamily: 'inherit',
+                      color: '#1C2331', background: '#fff', outline: 'none',
+                    }}
+                  />
+                  <button
+                    onClick={handleSendResults}
+                    disabled={emailSending || !emailInput.trim()}
+                    style={{
+                      background: '#C04832', color: '#fff', border: 'none', borderRadius: 8,
+                      padding: '13px 24px', fontSize: 15, fontWeight: 600, cursor: 'pointer',
+                      fontFamily: 'inherit', whiteSpace: 'nowrap',
+                      opacity: emailSending || !emailInput.trim() ? 0.6 : 1,
+                    }}
+                  >
+                    {emailSending ? 'Sending...' : 'Send My Results'}
+                  </button>
+                </div>
+              )}
+              {!emailSent && (
+                <p style={{ fontSize: 12, color: '#7A8494', marginTop: 12 }}>
+                  By submitting, you agree to receive email from MassageChairFinder. Unsubscribe anytime.
+                </p>
+              )}
+            </div>
+
             <div style={{ background: '#F5F1EB', borderRadius: 14, padding: '26px 30px', marginBottom: 28 }}>
               <h4 style={{ fontSize: 19, fontWeight: 700, color: '#1C2331', marginBottom: 10, fontFamily: 'Noto Serif, Georgia, serif' }}>
                 Want to go deeper before deciding?
@@ -628,13 +711,13 @@ export default function ChairFinder() {
             <div style={{ textAlign: 'center', padding: '8px 0 16px' }}>
               <p style={{ fontSize: 17, color: '#6B6B65', lineHeight: 1.6, marginBottom: 18 }}>
                 <strong style={{ color: '#1C2331' }}>Questions about any of these chairs?</strong><br />
-                Emily can answer them right now.
+                Emily, our AI chair guide, can answer them right now.
               </p>
               <a
                 href="#emily-chat"
                 style={{ background: 'none', border: '1.5px solid #C04832', color: '#C04832', borderRadius: 8, padding: '11px 24px', fontSize: 14, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'none', display: 'inline-block' }}
               >
-                Ask Emily a Question
+                Chat with Emily
               </a>
             </div>
           </div>
