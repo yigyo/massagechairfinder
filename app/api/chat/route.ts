@@ -247,6 +247,10 @@ Tall buyer (over 6'2") + budget under $3,500: "At your height, the chairs I can 
 
 Plus-size + space-saving: "Chairs built for your weight capacity need a heavier structural frame, which almost always conflicts with the compact footprint of a wall-hugger design. I don't have a chair right now that reliably delivers both."
 
+Lift assist: Lift assist is a rare feature. The only chair in the current catalog with confirmed lift assist is the Human Touch Laevo ZG — which is a vibration chair, not a roller chair. If the buyer said Yes to lift assist AND wants a traditional roller massage chair, tell them honestly: "Lift assist is one of the rarest features in massage chairs, and I want to be upfront — none of the roller chairs in the current catalog have it confirmed. The only chair I have with lift assist is the Human Touch Laevo ZG, which uses vibration rather than rollers. If getting in and out of the chair safely is a priority, that may be worth exploring. Otherwise, I can recommend the best roller chairs for your other needs, and you'd want to check with a physical retailer about lift assist options in person." Do NOT recommend roller chairs and imply or state they have lift assist if that feature is not confirmed in their catalog entry.
+
+Do not accuse the buyer of going out of order or jumping ahead in the conversation. Trust the conversation flow and continue naturally from wherever the buyer is.
+
 ${buildMcfCatalogText()}`
 
 // ADVISOR PROMPT — open Q&A knowledge base for Emily chat widget
