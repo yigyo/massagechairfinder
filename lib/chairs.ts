@@ -264,9 +264,9 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '4D', trackLengthIn: 49,
     heightMinIn: 60, heightMaxIn: 72, weightCapacityLbs: 300,
     zeroGravity: true, spaceSaving: true, wallClearanceIn: 2,
-    heat: true, foot: true, calf: true,
+    heat: true, foot: true, calf: true, liftAssist: false,
     petiteConfirmed: true, plusSizeConfirmed: true,
-    aiNotes: 'ONLY confirmed petite chair in catalog — minimum height 5\'0" confirmed.',
+    aiNotes: 'ONLY confirmed petite chair in catalog — minimum height 5\'0" confirmed. No lift assist.',
   },
 
   {
