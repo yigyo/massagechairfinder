@@ -910,4 +910,3 @@ export const MCF_CHAIRS = CHAIRS
 export const GOODWIN_CHAIRS = CHAIRS
   .filter(c => c.active && c.goodwinActive !== false)
   .sort((a, b) => a.priceMin - b.priceMin)
-               
