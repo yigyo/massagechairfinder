@@ -1,9 +1,9 @@
 'use client'
 
-import { useState, useRef, useEffect, useCallback } from 'react'
+import React, { useState, useRef, useCallback } from 'react'
 
 // ─── TYPES ─────────────────────────────────────────────────────────────────────
-type Phase = 'intro' | 'asking' | 'thinking' | 'results'
+type Phase = 'intro' | 'asking' | 'thinking' | 'email_gate'
 
 interface Chair {
   name: string
@@ -204,6 +204,92 @@ function formatStartingPrice(price: string): string {
   return `Starting at ${match[0]}`
 }
 
+// ─── FEATURE TOOLTIPS ──────────────────────────────────────────────────────────
+const FEATURE_TOOLTIPS: Record<string, string> = {
+  'zero gravity': 'The chair reclines until your knees are above your heart, removing spinal compression during the massage.',
+  'heat therapy': 'Heating elements in the backrest warm up during your session to help loosen tight muscles.',
+  'stretching': 'The chair gently extends and pulls your body at the end of a session, similar to assisted stretching from a therapist.',
+  'foot and calf massage': 'Dedicated rollers and airbags work the soles of your feet and calves throughout the massage.',
+  'lift assist': 'The seat tilts forward at the end of a session to help you stand — useful if getting up from a low seat is difficult.',
+  'airbag compression': 'Air-filled chambers inflate and deflate around your arms, legs, and shoulders to apply rhythmic compression pressure.',
+  'body scan': 'The chair maps the length and shape of your spine before the session so rollers follow your unique curve.',
+}
+
+// ─── TOOLTIP COMPONENT ─────────────────────────────────────────────────────────
+function TooltipWord({ term, definition }: { term: string; definition: string }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <span style={{ position: 'relative', display: 'inline' }}>
+      <span
+        style={{ borderBottom: '1.5px dashed #D1803E', cursor: 'help' }}
+        onMouseEnter={() => setOpen(true)}
+        onMouseLeave={() => setOpen(false)}
+        onClick={() => setOpen(o => !o)}
+      >
+        {term}
+      </span>
+      {open && (
+        <span style={{
+          position: 'absolute',
+          bottom: 'calc(100% + 6px)',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          background: '#1C2331',
+          color: '#fff',
+          padding: '8px 12px',
+          borderRadius: 8,
+          fontSize: 13,
+          lineHeight: 1.5,
+          width: 220,
+          zIndex: 100,
+          pointerEvents: 'none',
+          whiteSpace: 'normal',
+          boxShadow: '0 4px 16px rgba(0,0,0,0.15)',
+        }}>
+          {definition}
+        </span>
+      )}
+    </span>
+  )
+}
+
+function renderWithTooltips(text: string): React.ReactNode[] {
+  const entries = Object.entries(FEATURE_TOOLTIPS).sort((a, b) => b[0].length - a[0].length)
+  const escapedKeys = entries.map(([k]) => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+  const regex = new RegExp(`(${escapedKeys.join('|')})`, 'gi')
+  const result: React.ReactNode[] = []
+  let lastIndex = 0
+  let match: RegExpExecArray | null
+  const re = new RegExp(regex.source, 'gi')
+  while ((match = re.exec(text)) !== null) {
+    if (match.index > lastIndex) result.push(text.slice(lastIndex, match.index))
+    const term = match[0]
+    const def = FEATURE_TOOLTIPS[term.toLowerCase()]
+    result.push(def ? <TooltipWord key={match.index} term={term} definition={def} /> : term)
+    lastIndex = match.index + match[0].length
+  }
+  if (lastIndex < text.length) result.push(text.slice(lastIndex))
+  return result.length > 0 ? result : [text]
+}
+
+// ─── QUESTION TYPE DETECTION ───────────────────────────────────────────────────
+function detectQuestionType(questionText: string): string | null {
+  const lower = questionText.toLowerCase()
+  if (lower.includes('pain') || lower.includes('tension') || lower.includes('where do you feel')) return 'pain'
+  if ((lower.includes('height') || lower.includes('how tall')) && !lower.includes('maximum') && !lower.includes('catalog')) return 'height'
+  if (lower.includes('weigh') || (lower.includes('weight') && lower.includes('frame'))) return 'weight'
+  if ((lower.includes('gentle') && lower.includes('firm')) || (lower.includes('picture') && lower.includes('massage'))) return 'pressure'
+  if (lower.includes('budget')) return 'budget'
+  if (lower.includes('tight space') || lower.includes('close to a wall') || (lower.includes('room') && lower.includes('recline'))) return 'room'
+  if (lower.includes('where are you in') || lower.includes('decision to buy') || lower.includes('last one')) return 'timeline'
+  if (lower.includes('heat therapy')) return 'feature_heat'
+  if (lower.includes('zero gravity')) return 'feature_zero_gravity'
+  if (lower.includes('stretching programs') || (lower.includes('stretching') && lower.includes('therapist'))) return 'feature_stretching'
+  if (lower.includes('foot and calf')) return 'feature_foot_calf'
+  if (lower.includes('lift assist') || lower.includes('tilt the seat')) return 'feature_lift_assist'
+  return null
+}
+
 // ─── COMPONENT ─────────────────────────────────────────────────────────────────
 export default function ChairFinder() {
   const [phase, setPhase] = useState<Phase>('intro')
@@ -220,6 +306,9 @@ export default function ChairFinder() {
   const [emailInput, setEmailInput] = useState('')
   const [emailSent, setEmailSent] = useState(false)
   const [emailSending, setEmailSending] = useState(false)
+  const [showDeadEnd, setShowDeadEnd] = useState(false)
+  const [quizAnswers, setQuizAnswers] = useState<Record<string, string>>({})
+  const [quizFeatures, setQuizFeatures] = useState<string[]>([])
   const sessionIdRef = useRef<string>(generateSessionId())
   const turnCountRef = useRef(0)
   const textInputRef = useRef<HTMLInputElement>(null)
@@ -263,6 +352,20 @@ export default function ChairFinder() {
   // ─── HANDLE USER INPUT ──────────────────────────────────────────────────────
   const handleUserInput = useCallback(async (text: string) => {
     if (isStreaming || !text.trim()) return
+
+    // Record quiz answer before sending
+    const qType = detectQuestionType(questionText)
+    if (qType) {
+      if (qType.startsWith('feature_')) {
+        if (text.toLowerCase() === 'yes') {
+          const featureName = qType.replace('feature_', '').replace(/_/g, ' ')
+          setQuizFeatures(prev => prev.includes(featureName) ? prev : [...prev, featureName])
+        }
+      } else {
+        setQuizAnswers(prev => ({ ...prev, [qType]: text }))
+      }
+    }
+
     setIsStreaming(true)
     turnCountRef.current += 1
     setTurnCount(turnCountRef.current)
@@ -278,25 +381,43 @@ export default function ChairFinder() {
       const elapsed = Date.now() - start
       if (elapsed < 800) await new Promise((r) => setTimeout(r, 800 - elapsed))
 
-      if (isRecommendation(raw, turnCountRef.current)) {
+      // Check for dead-end signal from AI
+      const hasDeadEnd = /\[dead_end\]/i.test(raw)
+      const cleanRaw = raw.replace(/\[dead_end\]/gi, '').trim()
+
+      if (hasDeadEnd) {
+        const { text: cleanText } = parseOptions(cleanRaw)
+        setQuestionText(cleanText)
+        setOptions([])
+        setShowTextInput(false)
+        setShowOutOfRange(false)
+        setShowDeadEnd(true)
+        setHeightInput('')
+        setPhase('asking')
+        scrollTop()
+        return
+      }
+
+      if (isRecommendation(cleanRaw, turnCountRef.current)) {
         setThinkingLabel('Finding your best matches...')
         await new Promise((r) => setTimeout(r, 1000))
-        const parsed = parseChairs(raw)
+        const parsed = parseChairs(cleanRaw)
         if (parsed.length > 0) {
           setChairs(parsed)
           setRawFallback('')
         } else {
           setChairs([])
-          setRawFallback(raw.replace(/\[options:[^\]]+\]/gi, '').trim())
+          setRawFallback(cleanRaw.replace(/\[options:[^\]]+\]/gi, '').trim())
         }
-        setPhase('results')
+        setPhase('email_gate')
         scrollTop()
       } else {
-        const { text: cleanText, options: opts } = parseOptions(raw)
+        const { text: cleanText, options: opts } = parseOptions(cleanRaw)
         setQuestionText(cleanText)
         setOptions(opts)
         setShowTextInput(false)
         setShowOutOfRange(false)
+        setShowDeadEnd(false)
         setHeightInput('')
 
         if (opts.length === 0) {
@@ -316,11 +437,12 @@ export default function ChairFinder() {
       setQuestionText('I ran into a connection issue. Please refresh the page and try again.')
       setOptions([])
       setShowTextInput(false)
+      setShowDeadEnd(false)
       setPhase('asking')
     } finally {
       setIsStreaming(false)
     }
-  }, [isStreaming, streamMessage])
+  }, [isStreaming, streamMessage, questionText])
 
   // ─── START ──────────────────────────────────────────────────────────────────
   const startFinder = useCallback(async () => {
@@ -365,6 +487,8 @@ export default function ChairFinder() {
         body: JSON.stringify({
           email,
           chairs: chairs.map(c => ({ ...c, price: formatStartingPrice(c.price) })),
+          quizAnswers,
+          quizFeatures,
         }),
       })
       setEmailSent(true)
@@ -418,7 +542,7 @@ export default function ChairFinder() {
             {isStreaming ? 'Loading...' : 'Find My Chair \u2192'}
           </button>
           <p style={{ marginTop: 24, fontSize: 13, color: '#9B9B95' }}>
-            Takes about 3 minutes &nbsp;&bull;&nbsp; No email required
+            Takes about 3 minutes &nbsp;&bull;&nbsp; Results delivered to your inbox
           </p>
           <hr style={{ border: 'none', borderTop: '1px solid #E8DFD3', margin: '44px 0' }} />
           <div style={{ display: 'flex', justifyContent: 'center', gap: 32, flexWrap: 'wrap' }}>
@@ -447,7 +571,7 @@ export default function ChairFinder() {
 
           {/* Question */}
           <p style={{ fontSize: 'clamp(16px,2.2vw,20px)', fontWeight: 600, color: '#1C2331', lineHeight: 1.6, marginBottom: 36, fontFamily: 'Noto Serif, Georgia, serif' }}>
-            {questionText}
+            {renderWithTooltips(questionText)}
           </p>
 
           {/* Pills */}
@@ -531,8 +655,25 @@ export default function ChairFinder() {
             </div>
           )}
 
-          {/* Bridge "Continue" pill — when no options and not a height question */}
-          {options.length === 0 && !showTextInput && !showOutOfRange && (
+          {/* Dead-end: no chairs available for this user — show Home button only */}
+          {showDeadEnd && (
+            <div style={{ marginTop: 8 }}>
+              <a
+                href="/"
+                style={{
+                  display: 'inline-block',
+                  background: '#1C2331', color: '#fff', textDecoration: 'none',
+                  borderRadius: 10, padding: '14px 32px', fontSize: 16, fontWeight: 600,
+                  fontFamily: 'inherit',
+                }}
+              >
+                Return to Home
+              </a>
+            </div>
+          )}
+
+          {/* Bridge "Continue" pill — when no options and not a height question and not a dead end */}
+          {options.length === 0 && !showTextInput && !showOutOfRange && !showDeadEnd && (
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 12 }}>
               <button
                 disabled={isStreaming}
@@ -576,155 +717,76 @@ export default function ChairFinder() {
         </div>
       )}
 
-      {/* ── RESULTS ────────────────────────────────────────────────────── */}
-      {phase === 'results' && (
-        <div style={{ animation: 'mcfFadeUp 0.45s ease' }}>
-          <div style={{ marginBottom: 36 }}>
-            <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 12 }}>
-              Your results
-            </p>
-            <h2 style={{ fontSize: 'clamp(28px,4vw,38px)', fontWeight: 700, color: '#1C2331', lineHeight: 1.25, fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 12 }}>
-              Your top matches
-            </h2>
-            <p style={{ fontSize: 18, color: '#6B6B65', lineHeight: 1.6 }}>
-              Based on what you told us, here are the chairs we&apos;d recommend first.
-            </p>
-          </div>
-
-          {/* Chair cards */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 20, marginBottom: 48 }}>
-            {rawFallback ? (
-              <div style={{ fontSize: 15, color: '#3D3D3A', lineHeight: 1.75, whiteSpace: 'pre-wrap' }}>{rawFallback}</div>
-            ) : (
-              chairs.map((chair, i) => {
-                const rankLabels = ['Best match', 'Strong alternative', 'Also consider']
-                const cleanBody = chair.body
-                  .replace(/Take a look at the full details[^.]*\./gi, '')
-                  .replace(/The support assistant is there[^.]*\./gi, '')
-                  .replace(/Since you('re| are) ready to move forward[^.]*\./gi, '')
-                  .replace(/There['']s no rush[^.]*\./gi, '')
-                  .replace(/\n{3,}/g, '\n\n')
-                  .trim()
-
-                return (
-                  <div key={chair.name} style={{ background: '#fff', border: '1px solid #E4DDD6', borderRadius: 16, padding: '28px 32px' }}>
-                    <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 10 }}>
-                      {rankLabels[i] || `Option ${i + 1}`}
-                    </p>
-                    <p style={{ fontSize: 24, fontWeight: 700, color: '#1C2331', marginBottom: 6, fontFamily: 'Noto Serif, Georgia, serif', lineHeight: 1.3 }}>
-                      {chair.name}
-                    </p>
-                    {chair.price && (
-                      <p style={{ fontSize: 17, color: '#6B6B65', fontWeight: 500, marginBottom: 24 }}>{formatStartingPrice(chair.price)}</p>
-                    )}
-                    {chair.imageUrl && (
-                      <div style={{ width: '100%', borderRadius: 10, overflow: 'hidden', marginBottom: 24, background: '#F5F1EB', aspectRatio: '1/1', display: 'flex', alignItems: 'center', justifyContent: 'center', maxHeight: 280 }}>
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={chair.imageUrl} alt={chair.name} style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }} loading="lazy" />
-                      </div>
-                    )}
-                    <p style={{ fontSize: 17, color: '#3D3D3A', lineHeight: 1.8, whiteSpace: 'pre-wrap', marginBottom: 28 }}>
-                      {cleanBody}
-                    </p>
-                    <a
-                      href={chair.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ background: '#C04832', color: '#fff', textDecoration: 'none', borderRadius: 8, padding: '13px 28px', fontSize: 16, fontWeight: 600, display: 'inline-block' }}
-                    >
-                      Shop This Chair
-                    </a>
-                  </div>
-                )
-              })
-            )}
-          </div>
-
-          {/* Footer */}
-          <div style={{ borderTop: '1px solid #E4DDD6', paddingTop: 40 }}>
-
-            {/* Email capture */}
-            <div style={{ background: '#1C2331', borderRadius: 14, padding: '28px 30px', marginBottom: 28 }}>
-              <h4 style={{ fontSize: 19, fontWeight: 700, color: '#fff', marginBottom: 10, fontFamily: 'Noto Serif, Georgia, serif' }}>
-                Want us to send you these results?
-              </h4>
-              <p style={{ fontSize: 15, color: '#B8C0CC', lineHeight: 1.6, marginBottom: 20 }}>
-                We&apos;ll email your top matches so you can review them on your own time, share with a partner, or come back when you&apos;re ready.
+      {/* ── EMAIL GATE ─────────────────────────────────────────────────── */}
+      {phase === 'email_gate' && (
+        <div style={{ animation: 'mcfFadeUp 0.45s ease', maxWidth: 560 }}>
+          {!emailSent ? (
+            <>
+              <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 14 }}>
+                Your results are ready
               </p>
-              {emailSent ? (
-                <p style={{ fontSize: 16, color: '#D1803E', fontWeight: 600 }}>
-                  ✓ Done — check your inbox.
-                </p>
-              ) : (
-                <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
-                  <input
-                    type="email"
-                    value={emailInput}
-                    onChange={(e) => setEmailInput(e.target.value)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter') {
-                        e.preventDefault()
-                        handleSendResults()
-                      }
-                    }}
-                    placeholder="Your email address"
-                    style={{
-                      flex: 1, minWidth: 200, border: 'none', borderRadius: 8,
-                      padding: '13px 16px', fontSize: 15, fontFamily: 'inherit',
-                      color: '#1C2331', background: '#fff', outline: 'none',
-                    }}
-                  />
-                  <button
-                    onClick={handleSendResults}
-                    disabled={emailSending || !emailInput.trim()}
-                    style={{
-                      background: '#C04832', color: '#fff', border: 'none', borderRadius: 8,
-                      padding: '13px 24px', fontSize: 15, fontWeight: 600, cursor: 'pointer',
-                      fontFamily: 'inherit', whiteSpace: 'nowrap',
-                      opacity: emailSending || !emailInput.trim() ? 0.6 : 1,
-                    }}
-                  >
-                    {emailSending ? 'Sending...' : 'Send My Results'}
-                  </button>
-                </div>
-              )}
-              {!emailSent && (
-                <p style={{ fontSize: 12, color: '#7A8494', marginTop: 12 }}>
-                  By submitting, you agree to receive email from MassageChairFinder. Unsubscribe anytime.
-                </p>
-              )}
-            </div>
-
-            <div style={{ background: '#F5F1EB', borderRadius: 14, padding: '26px 30px', marginBottom: 28 }}>
-              <h4 style={{ fontSize: 19, fontWeight: 700, color: '#1C2331', marginBottom: 10, fontFamily: 'Noto Serif, Georgia, serif' }}>
-                Want to go deeper before deciding?
-              </h4>
-              <p style={{ fontSize: 16, color: '#6B6B65', lineHeight: 1.65, marginBottom: 16 }}>
-                The Buying Guide covers track types, roller depth, zero gravity, body fit, and room planning in detail. Everything you need to make a confident call.
+              <h2 style={{ fontSize: 'clamp(26px,4vw,36px)', fontWeight: 700, color: '#1C2331', lineHeight: 1.25, fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 14 }}>
+                We found {chairs.length > 0 ? chairs.length : 'a few'} chairs that match your answers.
+              </h2>
+              <p style={{ fontSize: 17, color: '#6B6B65', lineHeight: 1.65, marginBottom: 36 }}>
+                Enter your email and we&apos;ll send your personalized matches straight to your inbox — with pricing, what makes each one right for your situation, and a direct link to shop.
+              </p>
+              <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 14 }}>
+                <input
+                  type="email"
+                  value={emailInput}
+                  onChange={(e) => setEmailInput(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') { e.preventDefault(); handleSendResults() }
+                  }}
+                  placeholder="Your email address"
+                  style={{
+                    flex: 1, minWidth: 220, border: '1.5px solid #D4CFC9', borderRadius: 10,
+                    padding: '14px 16px', fontSize: 16, fontFamily: 'inherit',
+                    color: '#1C2331', background: '#fff', outline: 'none',
+                  }}
+                />
+                <button
+                  onClick={handleSendResults}
+                  disabled={emailSending || !emailInput.trim()}
+                  style={{
+                    background: '#C04832', color: '#fff', border: 'none', borderRadius: 10,
+                    padding: '14px 28px', fontSize: 16, fontWeight: 600, cursor: 'pointer',
+                    fontFamily: 'inherit', whiteSpace: 'nowrap',
+                    opacity: emailSending || !emailInput.trim() ? 0.6 : 1,
+                  }}
+                >
+                  {emailSending ? 'Sending...' : 'Send My Results'}
+                </button>
+              </div>
+              <p style={{ fontSize: 12, color: '#9B9B95' }}>
+                By submitting, you agree to receive email from MassageChairFinder. Unsubscribe anytime.
+              </p>
+              <div style={{ marginTop: 32 }}>
+                <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
+                  Start over with different answers
+                </button>
+              </div>
+            </>
+          ) : (
+            <div style={{ textAlign: 'center', paddingTop: 40 }}>
+              <div style={{ fontSize: 40, marginBottom: 20 }}>✓</div>
+              <h2 style={{ fontSize: 'clamp(24px,4vw,32px)', fontWeight: 700, color: '#1C2331', fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 14 }}>
+                Check your inbox.
+              </h2>
+              <p style={{ fontSize: 17, color: '#6B6B65', lineHeight: 1.65, maxWidth: 420, margin: '0 auto 36px' }}>
+                Your chair matches are on the way. While you wait, the Buying Guide covers everything you need to compare chairs confidently.
               </p>
               <a href="/learn/buying-guide" style={{ color: '#D1803E', fontWeight: 600, fontSize: 16, textDecoration: 'none' }}>
-                Read the Complete Buying Guide &rarr;
+                Read the Buying Guide &rarr;
               </a>
+              <div style={{ marginTop: 36 }}>
+                <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
+                  Start over with different answers
+                </button>
+              </div>
             </div>
-            <div style={{ textAlign: 'center', padding: '8px 0 16px' }}>
-              <p style={{ fontSize: 17, color: '#6B6B65', lineHeight: 1.6, marginBottom: 18 }}>
-                <strong style={{ color: '#1C2331' }}>Questions about any of these chairs?</strong><br />
-                Emily, our AI chair guide, can answer them right now.
-              </p>
-              <a
-                href="#emily-chat"
-                style={{ background: 'none', border: '1.5px solid #C04832', color: '#C04832', borderRadius: 8, padding: '11px 24px', fontSize: 14, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'none', display: 'inline-block' }}
-              >
-                Chat with Emily
-              </a>
-            </div>
-          </div>
-
-          <div style={{ textAlign: 'center', marginTop: 36 }}>
-            <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2 }}>
-              Start over with different answers
-            </button>
-          </div>
+          )}
         </div>
       )}
     </div>

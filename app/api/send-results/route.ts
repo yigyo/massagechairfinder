@@ -43,7 +43,12 @@ async function klaviyoPatch(path: string, body: object) {
 
 export async function POST(req: Request) {
   try {
-    const { email, chairs } = await req.json() as { email: string; chairs: ChairResult[] }
+    const { email, chairs, quizAnswers, quizFeatures } = await req.json() as {
+      email: string
+      chairs: ChairResult[]
+      quizAnswers?: Record<string, string>
+      quizFeatures?: string[]
+    }
 
     if (!email) {
       return Response.json({ ok: false, error: 'Email required' }, { status: 400 })
@@ -70,6 +75,20 @@ export async function POST(req: Request) {
       properties.mcf_third_chair_url   = chair3.url
       properties.mcf_third_chair_price = chair3.price
       properties.mcf_third_chair_body  = chair3.body
+    }
+
+    // Quiz answer properties — used for segmentation and future targeted emails
+    if (quizAnswers) {
+      if (quizAnswers.pain)     properties.mcf_pain     = quizAnswers.pain
+      if (quizAnswers.height)   properties.mcf_height   = quizAnswers.height
+      if (quizAnswers.weight)   properties.mcf_weight   = quizAnswers.weight
+      if (quizAnswers.pressure) properties.mcf_pressure = quizAnswers.pressure
+      if (quizAnswers.budget)   properties.mcf_budget   = quizAnswers.budget
+      if (quizAnswers.room)     properties.mcf_room     = quizAnswers.room
+      if (quizAnswers.timeline) properties.mcf_timeline = quizAnswers.timeline
+    }
+    if (quizFeatures && quizFeatures.length > 0) {
+      properties.mcf_features = quizFeatures.join(', ')
     }
 
     // Step 1: Create profile (returns 409 if already exists)
