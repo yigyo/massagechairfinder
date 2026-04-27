@@ -253,7 +253,7 @@ export const CHAIRS: Chair[] = [
     name: 'Infinity Dynasty 4D',
     brand: 'Infinity',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 4000, priceMax: 6500,
+    priceMin: 11999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',

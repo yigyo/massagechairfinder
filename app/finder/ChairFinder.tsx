@@ -174,11 +174,17 @@ function isHeightQuestion(text: string): boolean {
 
 function isOutOfRangeHeight(text: string): boolean {
   const lower = text.toLowerCase()
-  return (
-    (lower.includes('outside') || lower.includes('beyond') || lower.includes('range') || lower.includes('tallest')) &&
-    (lower.includes('height') || lower.includes('tall') || lower.includes('chair')) &&
-    (lower.includes('double-check') || lower.includes('confirm') || lower.includes('accurate') || lower.includes('verify'))
+  const hasVerification = (
+    lower.includes('double-check') || lower.includes('confirm') || lower.includes('accurate') ||
+    lower.includes('verify') || lower.includes('did you mean') || lower.includes('have that right') ||
+    lower.includes('want to make sure') || lower.includes('just to confirm') || lower.includes('is that right') ||
+    lower.includes('or is your height') || lower.includes('make sure i have')
   )
+  const hasHeightContext = (
+    lower.includes('height') || lower.includes('tall') || lower.includes('feet') || lower.includes('foot') ||
+    /\d'\d/.test(lower)
+  )
+  return hasVerification && hasHeightContext
 }
 
 // ─── PROGRESS LABEL ────────────────────────────────────────────────────────────
@@ -355,7 +361,10 @@ export default function ChairFinder() {
       await fetch('/api/send-results', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, chairs }),
+        body: JSON.stringify({
+          email,
+          chairs: chairs.map(c => ({ ...c, price: formatStartingPrice(c.price) })),
+        }),
       })
       setEmailSent(true)
     } catch {
