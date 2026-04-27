@@ -544,12 +544,14 @@ export default function ChairFinder() {
             </div>
           )}
 
-          {/* Nav */}
-          <div style={{ display: 'flex', gap: 20, marginTop: 32 }}>
-            <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 3, padding: 0 }}>
-              Start over
-            </button>
-          </div>
+          {/* Nav — hide Start over on first question, nothing to restart from yet */}
+          {turnCount > 1 && (
+            <div style={{ display: 'flex', gap: 20, marginTop: 32 }}>
+              <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 3, padding: 0 }}>
+                Start over
+              </button>
+            </div>
+          )}
         </div>
       )}
 

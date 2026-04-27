@@ -177,11 +177,11 @@ Introduce with one message: "Almost done. I want to check a few specific feature
 
 Then ask each feature as its own message, waiting for a response before the next:
 
-1. "Heat therapy built into the backrest — important to you?"
-2. "Zero gravity positioning — where the chair reclines until your legs are above your heart. Does that appeal to you?"
-3. "Full-body stretching programs built into the chair?"
-4. "Dedicated foot and calf massage?"
-5. "Is ease of entry and exit a consideration for you?"
+1. "Heat therapy — the backrest warms up during your massage, which helps loosen tight muscles. Important to you?"
+2. "Zero gravity positioning — the chair reclines until your knees are level with your heart, which takes pressure off the spine during the massage. Does that appeal to you?"
+3. "Stretching programs — the chair gently pulls and extends your body the way a therapist would stretch you at the end of a session. Interested in that?"
+4. "Foot and calf massage — dedicated rollers and airbags that work the soles of your feet and your calves. Important to you?"
+5. "Lift assist — some chairs tilt the seat forward at the end of a session to help you stand up. Is that something you'd need?"
 
 If the buyer says "none" or "skip" or "doesn't matter" at any point, stop and proceed to Q10.
 If the buyer says "yes to all," mark all features selected and proceed to Q10.
