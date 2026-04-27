@@ -446,23 +446,13 @@ export default function ChairFinder() {
 
   // ─── START ──────────────────────────────────────────────────────────────────
   const startFinder = useCallback(async () => {
-    setIsStreaming(true)
-    setThinkingLabel('Setting things up...')
-    setPhase('thinking')
     turnCountRef.current = 0
     setTurnCount(0)
-    scrollTop()
-
-    try {
-      await streamMessage('__start__')
-      setIsStreaming(false)
-      await handleUserInput('Ready to start')
-    } catch (err) {
-      console.error('Start error:', err)
-      setIsStreaming(false)
-      setPhase('intro')
-    }
-  }, [streamMessage, handleUserInput])
+    setQuizAnswers({})
+    setQuizFeatures([])
+    setShowDeadEnd(false)
+    await handleUserInput('__begin__')
+  }, [handleUserInput])
 
   // ─── TEXT INPUT SUBMIT ──────────────────────────────────────────────────────
   const submitTextInput = () => {
@@ -570,7 +560,7 @@ export default function ChairFinder() {
           </div>
 
           {/* Question */}
-          <p style={{ fontSize: 'clamp(16px,2.2vw,20px)', fontWeight: 600, color: '#1C2331', lineHeight: 1.6, marginBottom: 36, fontFamily: 'Noto Serif, Georgia, serif' }}>
+          <p style={{ fontSize: 'clamp(15px,2vw,18px)', fontWeight: 400, color: '#1C2331', lineHeight: 1.7, marginBottom: 36, fontFamily: 'Noto Serif, Georgia, serif' }}>
             {renderWithTooltips(questionText)}
           </p>
 
@@ -726,10 +716,10 @@ export default function ChairFinder() {
                 Your results are ready
               </p>
               <h2 style={{ fontSize: 'clamp(26px,4vw,36px)', fontWeight: 700, color: '#1C2331', lineHeight: 1.25, fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 14 }}>
-                We found {chairs.length > 0 ? chairs.length : 'a few'} chairs that match your answers.
+                We found {chairs.length > 0 ? chairs.length : 'a few'} {chairs.length === 1 ? 'chair' : 'chairs'} that match your answers.
               </h2>
               <p style={{ fontSize: 17, color: '#6B6B65', lineHeight: 1.65, marginBottom: 36 }}>
-                Enter your email and we&apos;ll send your personalized matches straight to your inbox — with pricing, what makes each one right for your situation, and a direct link to shop.
+                Enter your email and we&apos;ll send your personalized matches straight to your inbox, with pricing, what makes each one right for your situation, and a direct link to shop.
               </p>
               <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 14 }}>
                 <input
@@ -760,7 +750,7 @@ export default function ChairFinder() {
                 </button>
               </div>
               <p style={{ fontSize: 12, color: '#9B9B95' }}>
-                By submitting, you agree to receive email from MassageChairFinder. Unsubscribe anytime.
+                By submitting, you agree to receive email from Massage Chair Finder. Unsubscribe anytime.
               </p>
               <div style={{ marginTop: 32 }}>
                 <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
