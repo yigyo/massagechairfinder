@@ -712,7 +712,7 @@ export default function ChairFinder() {
         <div style={{ animation: 'mcfFadeUp 0.45s ease', maxWidth: 560 }}>
           {!emailSent ? (
             <>
-              <p style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 16 }}>
+              <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 16 }}>
                 Your criteria
               </p>
 
@@ -777,11 +777,11 @@ export default function ChairFinder() {
                   {emailSending ? 'Sending...' : 'Send My Results'}
                 </button>
               </div>
-              <p style={{ fontSize: 12, color: '#9B9B95', marginBottom: 20 }}>
-                Your top chairs will arrive in your inbox within a minute.
-              </p>
-              <p style={{ fontSize: 12, color: '#9B9B95' }}>
+              <p style={{ fontSize: 12, color: '#9B9B95', marginBottom: 8 }}>
                 By submitting, you agree to receive email from Massage Chair Finder. Unsubscribe anytime.
+              </p>
+              <p style={{ fontSize: 12, color: '#9B9B95', marginBottom: 20 }}>
+                Your top chairs will arrive in your inbox shortly.
               </p>
               <div style={{ marginTop: 24 }}>
                 <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
