@@ -274,7 +274,7 @@ export const CHAIRS: Chair[] = [
     name: 'Infinity Celebrity 3D/4D',
     brand: 'Infinity',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 3500, priceMax: 5500, priceEstimated: true,
+    priceMin: 7999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateCommission: '10%, 30-day cookie',
@@ -910,3 +910,4 @@ export const MCF_CHAIRS = CHAIRS
 export const GOODWIN_CHAIRS = CHAIRS
   .filter(c => c.active && c.goodwinActive !== false)
   .sort((a, b) => a.priceMin - b.priceMin)
+               

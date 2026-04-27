@@ -184,7 +184,8 @@ function isOutOfRangeHeight(text: string): boolean {
     lower.includes('height') || lower.includes('tall') || lower.includes('feet') || lower.includes('foot') ||
     /\d'\d/.test(lower)
   )
-  return hasVerification && hasHeightContext
+  // Length cap: verification questions are short. Long responses (no-fit explanations) should not show these buttons.
+  return hasVerification && hasHeightContext && text.length < 300
 }
 
 // ─── PROGRESS LABEL ────────────────────────────────────────────────────────────
