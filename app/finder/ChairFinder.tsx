@@ -210,7 +210,6 @@ const FEATURE_TOOLTIPS: Record<string, string> = {
   'heat therapy': 'Heating elements in the backrest warm up during your session to help loosen tight muscles.',
   'stretching': 'The chair gently extends and pulls your body at the end of a session, similar to assisted stretching from a therapist.',
   'foot and calf massage': 'Dedicated rollers and airbags work the soles of your feet and calves throughout the massage.',
-  'lift assist': 'The seat tilts forward at the end of a session to help you stand — useful if getting up from a low seat is difficult.',
   'airbag compression': 'Air-filled chambers inflate and deflate around your arms, legs, and shoulders to apply rhythmic compression pressure.',
   'body scan': 'The chair maps the length and shape of your spine before the session so rollers follow your unique curve.',
 }
@@ -287,7 +286,6 @@ function detectQuestionType(questionText: string): string | null {
   if (lower.includes('zero gravity')) return 'feature_zero_gravity'
   if (lower.includes('stretching programs') || (lower.includes('stretching') && lower.includes('therapist'))) return 'feature_stretching'
   if (lower.includes('foot and calf')) return 'feature_foot_calf'
-  if (lower.includes('lift assist') || lower.includes('tilt the seat')) return 'feature_lift_assist'
   return null
 }
 
