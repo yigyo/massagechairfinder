@@ -243,7 +243,7 @@ export const CHAIRS: Chair[] = [
     heightMaxIn: 72,
     zeroGravity: true, zeroGravityStages: 3, spaceSaving: true, wallClearanceIn: 3,
     heat: true, stretch: true,
-    aiNotes: 'Amazon #1 bestseller. Roller type unconfirmed — do not filter on pressure preference.',
+    aiNotes: 'Top-selling chair in its category. Roller type unconfirmed — do not filter on pressure preference.',
   },
 
   // ── INFINITY ───────────────────────────────────────────────────────────────

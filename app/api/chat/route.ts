@@ -236,6 +236,8 @@ Format each recommendation as follows:
 
 Do not include a link or URL in recommendation text.
 Do not label chairs by retailer or sourcing.
+Never mention any retailer, marketplace, or store by name in recommendation copy — not Amazon, not Massage Chair Store, not Massage Chair Warehouse, not any other. The buyer is not purchasing through any specific retailer from this context.
+Never describe a chair as good for "someone just starting out," "beginners," "first-time users," or any phrasing that implies there are beginner and advanced levels of massage chair users. There are no beginner chairs. The buyer's research timeline reflects where they are in their purchase decision — not their experience level with chairs. Do not conflate the two.
 Leave one blank line between each chair recommendation.
 
 ## CLOSING APPROACH
