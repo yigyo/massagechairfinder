@@ -1,5 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk'
 import { NextRequest } from 'next/server'
+import { buildMcfCatalogText } from '@/lib/catalogText'
 
 export const runtime = 'nodejs'
 export const maxDuration = 60
@@ -79,6 +80,7 @@ Q1 (number of users): [options: Just me | Two of us | More than two]
 Q2 (pain location): [options: Neck and shoulders | Upper and mid-back | Lower back | Lower back, hips, and glutes | Full body | General tension, no specific spot]
 Q3 (goal): [options: Daily pain relief | Workout recovery | Stress and mental fatigue | A mix of all three]
 Q5 (weight): [options: Under 200 lbs | 200 to 260 lbs | 260 to 300 lbs | Over 300 lbs]
+CRITICAL: Always append the Q5 options tag to the weight question, even if the previous turn was a height clarification or out-of-range height confirmation. The weight question always gets these four options with no exceptions.
 Q6 (pressure): [options: Gentle and soothing | Firm pressure | Somewhere in the middle | Never used a massage chair]
 Q7 (budget): [options: Under $3,000 | $3,000 to $5,000 | $5,000 to $8,000 | Over $8,000 | Still deciding]
 Q8 (room space): [options: Needs to fit tight or near a wall | Plenty of room to recline]
@@ -180,7 +182,7 @@ Then ask each feature as its own message, waiting for a response before the next
 2. "Zero gravity positioning — where the chair reclines until your legs are above your heart. Does that appeal to you?"
 3. "Full-body stretching programs built into the chair?"
 4. "Dedicated foot and calf massage?"
-5. "Easy to get in and out of — is mobility getting in and out of the chair a concern for you?"
+5. "Is ease of entry and exit important to you — for yourself or anyone else who'll use the chair?"
 
 If the buyer says "none" or "skip" or "doesn't matter" at any point, stop and proceed to Q10.
 If the buyer says "yes to all," mark all features selected and proceed to Q10.
@@ -252,43 +254,7 @@ Tall buyer (over 6'2") + budget under $3,500: "At your height, the chairs I can 
 
 Plus-size + space-saving: "Chairs built for your weight capacity need a heavier structural frame, which almost always conflicts with the compact footprint of a wall-hugger design. I don't have a chair right now that reliably delivers both."
 
-## COMPLETE CHAIR CATALOG
-
-Only recommend chairs where key specs for the buyer's hard filters are documented.
-
-1. Osaki OS-Champ | $1,249 | SL-Track | 3D | ZG:Yes | Space-saving:Yes | Weight:300lbs | MaxHeight:72" | Heat:Unknown | Foot:Yes | Notes: Do not recommend to petite buyers.
-2. Osaki OS-Pro Yamato | $1,499 | L-Track | 2D | ZG:Yes | Space-saving:Yes | Heat:Yes | Stretch:Yes | Foot:Yes | Calf:Yes | MaxWeight:220lbs | MaxHeight:72" | Notes: No firm pressure. Not for plus-size. Not for petite.
-3. Osaki OS-Pro Admiral II | $3,999 | SL-Track(49") | 3D | ZG:Yes | Space-saving:Yes(2") | Heat:Yes | Foot:Yes | Calf:Yes | HeightRange:62"-73" | Notes: Primary avatar match. Not for petite or tall buyers.
-4. Osaki OS-Pro Maestro LE 2.0 | $5,999-$8,999 | SL-Track | 4D | ZG:Yes | Space-saving:Yes | Heat:Yes | Foot:Yes | HeightRange:Unknown
-5. Osaki OS-Pro 4D DuoMax | $12,999 | SL-Track | 4D dual-mechanism | ZG:Yes | Space-saving:Yes | Heat:Yes | Foot:Yes | Calf:Yes | HeightRange:Unknown | WhiteGlove:Yes
-6. Kahuna LM-6800 | $3,799 | L-Track(45") | ZG:Yes(3) | Space-saving:Yes(3") | Heat:Yes | Stretch:Yes | MaxHeight:72" | Notes: Amazon #1 bestseller.
-7. Kahuna LM-6800S | $3,799 | SL-Track(45") | ZG:Yes(3) | Space-saving:Yes(3") | Heat:Yes | Weight:300lbs
-8. Infinity Dynasty 4D | $4,000-$6,500 | L-Track(49") | 4D | ZG:Yes | Space-saving:Yes(2") | Heat:Yes | Foot:Yes | Calf:Yes | HeightRange:5'0"-72" | Weight:300lbs | Notes: ONLY confirmed petite chair in catalog.
-9. Infinity Celebrity 3D/4D | $3,500-$5,500est | L-Track | 3D/4D hybrid | ZG:Yes | Foot:Yes | HeightRange:Unknown
-10. Infinity Evolution 3D/4D | $4,000-$6,000est | L-Track(49") | 3D/4D | ZG:Yes | Heat:Yes | HeightRange:Unknown
-11. Infinity Genesis Max 4D | $5,000-$7,000est | L-Track | 4D | ZG:Yes | HeightRange:Unknown
-12. Infinity Imperial Syner-D | $8,000-$12,000 | Flex-Track(SL+L hybrid) | 2D/3D/4D adjustable | ZG:Yes | Space-saving:Yes | Stretch:Yes | Foot:Yes | Calf:Yes | HeightRange:62"-78" | Weight:300lbs | Notes: Best tall+space-saving chair (to 6'6").
-13. Human Touch Laevo ZG | $3,999-$4,499 | VIBRATION ONLY (not a roller chair) | ZG:Yes extended | Heat:Yes | LiftAssist:Yes | Notes: For buyers who cannot tolerate roller pressure only. Always disclose it is vibration-based.
-14. Luraco i9 Max Plus | $13,490 | Split L-Track | Stretch:Yes | HeightRange:59"-82" | Weight:300lbs | Notes: Tallest accommodation (to 6'10"). Only USA-made.
-15. Synca JP970 | $4,999 | Track:Unknown | 4D | Notes: Cannot filter on pain location until track confirmed.
-16. Synca JP1100 | $9,999 | Track:Unknown | 4D | ZG:Yes | Heat:Yes(dual)
-17. Daiwa Legacy 4 | $9,500 | L-Track(49") | 3D | ZG:Yes | Space-saving:Yes | Heat:Yes | MaxHeight:78" | Notes: Tall-accommodating to 6'6".
-18. Kyota Genki M380 | $2,999 | Track:Unknown | ZG:Unknown | Notes: Wirecutter Top Pick 2024. Cannot filter on pain location.
-19. Bodyfriend Palace II | $8,099 | SL-Track | 4D | ZG:Yes
-20. Bodyfriend Falcon XD 4D | $8,499 | Track:Unknown | 4D | ZG:Yes
-21. Bodyfriend Phantom II | $8,499 | Track:Unknown | 4D | ZG:Yes
-22. Bodyfriend Phantom Medical Care 4D SL | $11,000 | SL-Track | 4D | PEMF technology
-23. AmaMedics Hilux 4D | $4,999 | L-Track(53") | 4D heated rollers | ZG:Yes(2) | Heat:Yes | Foot:Yes | Calf:Yes
-24. AmaMedics Renew 3D | $1,299 | Track:Unknown | 3D | ZG:Unknown | Clearance model
-25. Ogawa Master Drive LE 4D | $6,000+est | L-Track(54") | 4D | ZG:Yes(2-stage)
-26. Ogawa Master Drive AI 2.0 4D | $7,000+est | L-Track(54") | 4D | ZG:Yes | AI:Yes
-27. Ogawa Active XL 3D | $4,000+est | SL-Track | 3D | ZG:Yes(2-stage) | Stretch:Yes
-28. Inada Robo 4D | $9,999 | S-TRACK ONLY | 4D | ZG:Yes | Heat:Yes | Notes: DO NOT recommend for lower back/hip/glute pain. S-track only.
-29. Inada DreamWave | $6,999 | Track:Unknown | AI:Yes
-30. JPMedics Kumo 4D | $8,499 | L-Track | 4D | Made in Japan
-31. JPMedics KaZe Duo | $12,999 | Track:Unknown | 4D dual-mechanism
-32. Panasonic MAK1 | $8,000+est | Track:Unknown | 4D | Heat:Yes(infrared) | Foot:Yes | AI:Yes
-33. Titan 3D Prestige | $4,999 | SL-Track | 3D | ZG:Yes | Foot:Yes`
+${buildMcfCatalogText()}`
 
 // ADVISOR PROMPT — open Q&A knowledge base for Emily chat widget
 const ADVISOR_PROMPT = `# MASSAGECHAIRFINDER.COM — EMILY AI ADVISOR
@@ -496,3 +462,4 @@ export async function POST(req: NextRequest) {
     return new Response(JSON.stringify({ error: 'Internal server error' }), { status: 500 })
   }
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

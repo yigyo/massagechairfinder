@@ -210,7 +210,6 @@ export default function ChairFinder() {
   const [chairs, setChairs] = useState<Chair[]>([])
   const [rawFallback, setRawFallback] = useState('')
   const [heightInput, setHeightInput] = useState('')
-  const [backUsed, setBackUsed] = useState(false)
   const [emailInput, setEmailInput] = useState('')
   const [emailSent, setEmailSent] = useState(false)
   const [emailSending, setEmailSending] = useState(false)
@@ -323,7 +322,6 @@ export default function ChairFinder() {
     setPhase('thinking')
     turnCountRef.current = 0
     setTurnCount(0)
-    setBackUsed(false)
     scrollTop()
 
     try {
@@ -343,13 +341,6 @@ export default function ChairFinder() {
     if (!val) return
     setShowTextInput(false)
     handleUserInput(val)
-  }
-
-  // ─── BACK ───────────────────────────────────────────────────────────────────
-  const handleBack = () => {
-    if (isStreaming) return
-    setBackUsed(true)
-    handleUserInput('I want to go back and change my last answer. Please ask me that question again.')
   }
 
   // ─── RESTART ────────────────────────────────────────────────────────────────
@@ -545,11 +536,6 @@ export default function ChairFinder() {
 
           {/* Nav */}
           <div style={{ display: 'flex', gap: 20, marginTop: 32 }}>
-            {turnCount > 0 && !backUsed && (
-              <button onClick={handleBack} disabled={isStreaming} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 3, padding: 0 }}>
-                &#8592; Back
-              </button>
-            )}
             <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 3, padding: 0 }}>
               Start over
             </button>
