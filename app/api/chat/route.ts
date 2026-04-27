@@ -73,7 +73,7 @@ The widget will strip this tag from the displayed text and render the options as
 Use the options tag for these specific messages:
 
 Q1 (pain location): [options: Neck and shoulders | Upper and mid-back | Lower back | Lower back, hips, and glutes | Full body | General tension, no specific spot]
-Q3 (goal): [options: Relief from a specific pain I deal with every day | Recovery after workouts or physical activity | Unwinding from stress and mental fatigue | A mix of all of the above]
+Q3 (goal): [options: Daily pain relief | Workout recovery | Stress and mental fatigue | A mix of all three]
 Q5 (weight): [options: Under 200 lbs | 200 to 260 lbs | 260 to 300 lbs | Over 300 lbs]
 CRITICAL: Always append the Q5 options tag to the weight question, even if the previous turn was a height clarification or out-of-range height confirmation. The weight question always gets these four options with no exceptions.
 Q6 (pressure): [options: Gentle and soothing | Firm pressure | Somewhere in the middle | I'm not sure | Depends on the day]
@@ -114,7 +114,7 @@ Tag outputs:
 
 Ask: "What matters most to you about having a massage chair at home?"
 
-Options: Relief from a specific pain I deal with every day / Recovery after workouts or physical activity / Unwinding from stress and mental fatigue / A mix of all of the above
+Options: Daily pain relief / Workout recovery / Stress and mental fatigue / A mix of all three
 
 ### Q4: HEIGHT
 

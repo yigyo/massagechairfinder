@@ -67,6 +67,23 @@ function lookupChairFeatures(chairName: string): Record<string, string> {
   }
 }
 
+// Return a formatted price from the catalog as a fallback when the AI omits it.
+function getCatalogPrice(chairName: string): string {
+  const lowerName = chairName.toLowerCase()
+  const found = CHAIRS.find(c =>
+    c.active &&
+    (c.name.toLowerCase() === lowerName ||
+      (c.goodwinLookupKey && lowerName.includes(c.goodwinLookupKey.toLowerCase())))
+  )
+  if (!found) return ''
+  const fmt = (n: number) => '$' + n.toLocaleString('en-US')
+  if (found.priceMax) {
+    const base = `${fmt(found.priceMin)}-${fmt(found.priceMax)}`
+    return found.priceEstimated ? `${base} est.` : base
+  }
+  return `Starting at ${fmt(found.priceMin)}`
+}
+
 // Apply per-chair feature properties with a given prefix (e.g. "mcf_top_chair")
 function applyChairFeatures(
   properties: Record<string, string>,
@@ -103,21 +120,21 @@ export async function POST(req: Request) {
     if (chair1) {
       properties.mcf_top_chair       = chair1.name
       properties.mcf_top_chair_url   = chair1.url
-      properties.mcf_top_chair_price = chair1.price
+      properties.mcf_top_chair_price = chair1.price || getCatalogPrice(chair1.name)
       properties.mcf_top_chair_body  = chair1.body
       applyChairFeatures(properties, 'mcf_top_chair', chair1)
     }
     if (chair2) {
       properties.mcf_second_chair       = chair2.name
       properties.mcf_second_chair_url   = chair2.url
-      properties.mcf_second_chair_price = chair2.price
+      properties.mcf_second_chair_price = chair2.price || getCatalogPrice(chair2.name)
       properties.mcf_second_chair_body  = chair2.body
       applyChairFeatures(properties, 'mcf_second_chair', chair2)
     }
     if (chair3) {
       properties.mcf_third_chair       = chair3.name
       properties.mcf_third_chair_url   = chair3.url
-      properties.mcf_third_chair_price = chair3.price
+      properties.mcf_third_chair_price = chair3.price || getCatalogPrice(chair3.name)
       properties.mcf_third_chair_body  = chair3.body
       applyChairFeatures(properties, 'mcf_third_chair', chair3)
     }
