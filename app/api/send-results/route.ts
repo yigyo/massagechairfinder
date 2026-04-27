@@ -1,5 +1,7 @@
 export const runtime = 'nodejs'
 
+import { CHAIRS } from '@/lib/chairs'
+
 interface ChairResult {
   name: string
   price: string
@@ -41,6 +43,46 @@ async function klaviyoPatch(path: string, body: object) {
   })
 }
 
+// Look up a chair in the catalog by AI-generated name.
+// Tries exact name match first, then goodwinLookupKey substring match.
+function lookupChairFeatures(chairName: string): Record<string, string> {
+  const lowerName = chairName.toLowerCase()
+  const found = CHAIRS.find(c =>
+    c.active &&
+    (c.name.toLowerCase() === lowerName ||
+      (c.goodwinLookupKey && lowerName.includes(c.goodwinLookupKey.toLowerCase())))
+  )
+  if (!found) return {}
+
+  const yn = (val: boolean | undefined) => val === true ? 'Yes' : val === false ? 'No' : 'Unknown'
+
+  return {
+    heat:        yn(found.heat),
+    zero_gravity: yn(found.zeroGravity),
+    stretching:  yn(found.stretch),
+    foot_calf:   yn(found.foot && found.calf ? true : found.foot === false && found.calf === false ? false : undefined),
+    lift_assist: yn(found.liftAssist),
+    track:       found.track ?? 'Unknown',
+    roller:      found.roller ?? 'Unknown',
+  }
+}
+
+// Apply per-chair feature properties with a given prefix (e.g. "mcf_top_chair")
+function applyChairFeatures(
+  properties: Record<string, string>,
+  prefix: string,
+  chair: ChairResult
+) {
+  const features = lookupChairFeatures(chair.name)
+  if (features.heat)         properties[`${prefix}_heat`]         = features.heat
+  if (features.zero_gravity) properties[`${prefix}_zero_gravity`] = features.zero_gravity
+  if (features.stretching)   properties[`${prefix}_stretching`]   = features.stretching
+  if (features.foot_calf)    properties[`${prefix}_foot_calf`]    = features.foot_calf
+  if (features.lift_assist)  properties[`${prefix}_lift_assist`]  = features.lift_assist
+  if (features.track)        properties[`${prefix}_track`]        = features.track
+  if (features.roller)       properties[`${prefix}_roller`]       = features.roller
+}
+
 export async function POST(req: Request) {
   try {
     const { email, chairs, quizAnswers, quizFeatures } = await req.json() as {
@@ -63,23 +105,27 @@ export async function POST(req: Request) {
       properties.mcf_top_chair_url   = chair1.url
       properties.mcf_top_chair_price = chair1.price
       properties.mcf_top_chair_body  = chair1.body
+      applyChairFeatures(properties, 'mcf_top_chair', chair1)
     }
     if (chair2) {
       properties.mcf_second_chair       = chair2.name
       properties.mcf_second_chair_url   = chair2.url
       properties.mcf_second_chair_price = chair2.price
       properties.mcf_second_chair_body  = chair2.body
+      applyChairFeatures(properties, 'mcf_second_chair', chair2)
     }
     if (chair3) {
       properties.mcf_third_chair       = chair3.name
       properties.mcf_third_chair_url   = chair3.url
       properties.mcf_third_chair_price = chair3.price
       properties.mcf_third_chair_body  = chair3.body
+      applyChairFeatures(properties, 'mcf_third_chair', chair3)
     }
 
     // Quiz answer properties — used for segmentation and future targeted emails
     if (quizAnswers) {
       if (quizAnswers.pain)     properties.mcf_pain     = quizAnswers.pain
+      if (quizAnswers.goal)     properties.mcf_goal     = quizAnswers.goal
       if (quizAnswers.height)   properties.mcf_height   = quizAnswers.height
       if (quizAnswers.weight)   properties.mcf_weight   = quizAnswers.weight
       if (quizAnswers.pressure) properties.mcf_pressure = quizAnswers.pressure

@@ -276,6 +276,7 @@ function renderWithTooltips(text: string): React.ReactNode[] {
 function detectQuestionType(questionText: string): string | null {
   const lower = questionText.toLowerCase()
   if (lower.includes('pain') || lower.includes('tension') || lower.includes('where do you feel')) return 'pain'
+  if (lower.includes('matters most') || lower.includes('having a massage chair at home')) return 'goal'
   if ((lower.includes('height') || lower.includes('how tall')) && !lower.includes('maximum') && !lower.includes('catalog')) return 'height'
   if (lower.includes('weigh') || (lower.includes('weight') && lower.includes('frame'))) return 'weight'
   if ((lower.includes('gentle') && lower.includes('firm')) || (lower.includes('picture') && lower.includes('massage'))) return 'pressure'
@@ -711,16 +712,44 @@ export default function ChairFinder() {
         <div style={{ animation: 'mcfFadeUp 0.45s ease', maxWidth: 560 }}>
           {!emailSent ? (
             <>
-              <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 14 }}>
-                Your results are ready
+              <p style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 16 }}>
+                Your criteria
               </p>
-              <h2 style={{ fontSize: 'clamp(26px,4vw,36px)', fontWeight: 700, color: '#1C2331', lineHeight: 1.25, fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 14 }}>
-                We found {chairs.length > 0 ? chairs.length : 'a few'} {chairs.length === 1 ? 'chair' : 'chairs'} that match your answers.
+
+              {/* Quiz summary table */}
+              <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: 32 }}>
+                <tbody>
+                  {[
+                    { key: 'pain',     label: 'Pain area' },
+                    { key: 'goal',     label: 'Goal' },
+                    { key: 'height',   label: 'Height' },
+                    { key: 'weight',   label: 'Weight' },
+                    { key: 'pressure', label: 'Pressure preference' },
+                    { key: 'budget',   label: 'Budget' },
+                    { key: 'room',     label: 'Room space' },
+                    { key: 'timeline', label: 'Timeline' },
+                  ].filter(row => quizAnswers[row.key]).map((row, i, arr) => (
+                    <tr key={row.key}>
+                      <td style={{ fontSize: 14, color: '#6B6B65', padding: '9px 0', borderBottom: '0.5px solid #E8DFD3', width: '44%' }}>{row.label}</td>
+                      <td style={{ fontSize: 14, color: '#1C2331', fontWeight: 500, padding: '9px 0', borderBottom: '0.5px solid #E8DFD3' }}>{quizAnswers[row.key]}</td>
+                    </tr>
+                  ))}
+                  {quizFeatures.length > 0 && (
+                    <tr>
+                      <td style={{ fontSize: 14, color: '#6B6B65', padding: '9px 0' }}>Features requested</td>
+                      <td style={{ fontSize: 14, color: '#1C2331', fontWeight: 500, padding: '9px 0' }}>
+                        {quizFeatures.map(f => f.split(' ').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')).join(', ')}
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+
+              <h2 style={{ fontSize: 'clamp(24px,4vw,32px)', fontWeight: 700, color: '#1C2331', lineHeight: 1.2, fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 28 }}>
+                We found {chairs.length > 0 ? chairs.length : 'a few'} {chairs.length === 1 ? 'chair' : 'chairs'} matching your needs.
               </h2>
-              <p style={{ fontSize: 17, color: '#6B6B65', lineHeight: 1.65, marginBottom: 36 }}>
-                Enter your email and we&apos;ll send your personalized matches straight to your inbox, with pricing, what makes each one right for your situation, and a direct link to shop.
-              </p>
-              <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 14 }}>
+
+              <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 10 }}>
                 <input
                   type="email"
                   value={emailInput}
@@ -748,10 +777,13 @@ export default function ChairFinder() {
                   {emailSending ? 'Sending...' : 'Send My Results'}
                 </button>
               </div>
+              <p style={{ fontSize: 12, color: '#9B9B95', marginBottom: 20 }}>
+                Your top chairs will arrive in your inbox within a minute.
+              </p>
               <p style={{ fontSize: 12, color: '#9B9B95' }}>
                 By submitting, you agree to receive email from Massage Chair Finder. Unsubscribe anytime.
               </p>
-              <div style={{ marginTop: 32 }}>
+              <div style={{ marginTop: 24 }}>
                 <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
                   Start over with different answers
                 </button>
