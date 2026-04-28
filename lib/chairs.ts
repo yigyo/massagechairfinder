@@ -274,24 +274,25 @@ export const CHAIRS: Chair[] = [
     name: 'Infinity Celebrity 3D/4D',
     brand: 'Infinity',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 7999,
-    affiliateTier: 'A',
-    affiliateRetailer: 'massagechairwarehouse.com',
-    affiliateCommission: '10%, 30-day cookie',
+    priceMin: 7999,  // price confirmed 2026-04-27
+    affiliateTier: null,  // MCW sold out; moved to emassagechair.com — affiliate program unconfirmed
+    affiliateRetailer: 'emassagechair.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://massagechairwarehouse.com/products/infinity-riage-x3-massage-chair',
+    affiliateUrl: 'https://emassagechair.com/products/infinity-celebrity-3d-4d-massage-chair',
+    // previous URL (MCW, sold out): https://massagechairwarehouse.com/products/infinity-riage-x3-massage-chair
     goodwinLookupKey: 'infinity celebrity',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity_celebrity_3d-massage-chair.webp?v=1776836198',
     track: 'L', roller: '3D',
     zeroGravity: true, foot: true,
+    aiNotes: 'Formerly known as Riage X3. Affiliate program at emassagechair.com not yet confirmed — verify and apply.',
   },
 
   {
     id: 'infinity-evolution',
-    name: 'Infinity Evolution 3D/4D',
+    name: 'Infinity Evo Max 4D',
     brand: 'Infinity',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 4000, priceMax: 6000, priceEstimated: true,
+    priceMin: 10999,  // verified 2026-04-27 (on sale from $12,999 MSRP)
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -299,8 +300,9 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://massagechairstore.com/infinity-evolution-max-4d/',
     goodwinLookupKey: 'infinity evolution',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity-evo-max-4d-massage-chair.webp?v=1776902757',
-    track: 'L', roller: '3D', trackLengthIn: 49,
-    zeroGravity: true, heat: true,
+    track: 'L', roller: '4D', trackLengthIn: 49,
+    zeroGravity: true, spaceSaving: true, wallClearanceIn: 2,
+    heat: true, foot: true, calf: true, stretch: true,
   },
 
   {
@@ -308,7 +310,7 @@ export const CHAIRS: Chair[] = [
     name: 'Infinity Genesis Max 4D',
     brand: 'Infinity',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 5000, priceMax: 7000, priceEstimated: true,
+    priceMin: 9299,  // verified 2026-04-27 (on sale from $12,999 MSRP)
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -316,8 +318,9 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://massagechairstore.com/infinity-genesis-max/',
     goodwinLookupKey: 'infinity genesis',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity-genesis-max-4d-massage-chair.webp?v=1776836198',
-    track: 'L', roller: '4D',
-    zeroGravity: true,
+    track: 'L', roller: '4D', trackLengthIn: 49,
+    zeroGravity: true, spaceSaving: true, wallClearanceIn: 2,
+    heat: true, foot: true, calf: true, stretch: true,
   },
 
   {
@@ -593,16 +596,19 @@ export const CHAIRS: Chair[] = [
     name: 'Ogawa Master Drive LE 4D',
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 6000, priceEstimated: true,
-    affiliateTier: 'A',
-    affiliateRetailer: 'massagechairwarehouse.com',
-    affiliateCommission: '10%, 30-day cookie',
+    priceMin: 9999,  // verified 2026-04-27
+    affiliateTier: null,  // MCW relationship no longer active for this chair; easymassagechair.com program unconfirmed
+    affiliateRetailer: 'easymassagechair.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://massagechairwarehouse.com/products/ogawa-master-drive-le-massage-chair',
+    affiliateUrl: 'https://www.easymassagechair.com/ogawa-master-drive-le-4d-sl-track-massage-chair-2-stage-zero-gravity-recline-on-demand-voice-control.html',
+    // moved from MCW (sold out 2026-04-27) to easymassagechair.com ($9,999, in stock) — affiliate program unconfirmed
     goodwinLookupKey: 'ogawa master drive le',  // MUST come before 'ogawa master drive ai'
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Ogawa_Master_Drive_LE_4d-massage-chair.webp?v=1776836198',
-    track: 'L', roller: '4D', trackLengthIn: 54,
+    track: 'SL', roller: '4D',  // track confirmed SL (was incorrectly L)
+    heightMinIn: 62, heightMaxIn: 73, weightCapacityLbs: 320,
     zeroGravity: true, zeroGravityStages: 2,
+    heat: true,
+    aiNotes: 'SL-Track confirmed. Height 5\'2"–6\'1". Weight cap 320 lbs. Affiliate URL sold out as of 2026-04-27 — check for updated URL.',
   },
 
   {
@@ -610,16 +616,18 @@ export const CHAIRS: Chair[] = [
     name: 'Ogawa Master Drive AI 2.0 4D',
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 7000, priceEstimated: true,
-    affiliateTier: 'A',
-    affiliateRetailer: 'massagechairwarehouse.com',
-    affiliateCommission: '10%, 30-day cookie',
+    priceMin: 12999,  // verified 2026-04-27
+    affiliateTier: null,  // MCW relationship no longer active for this chair; easymassagechair.com program unconfirmed
+    affiliateRetailer: 'easymassagechair.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://massagechairwarehouse.com/products/ogawa-master-drive-ai-2-0-massage-chair',
+    affiliateUrl: 'https://www.easymassagechair.com/ogawa-master-drive-ai-4d-sl-track-massage-chair-m5-gen-microprocessors-zero-gravity-recline.html',
+    // moved from MCW (sold out 2026-04-27) to easymassagechair.com ($12,999, in stock) — affiliate program unconfirmed
     goodwinLookupKey: 'ogawa master drive ai',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-master-drive-ai-2_0-4d-massage-chair.jpg?v=1776836198',
-    track: 'L', roller: '4D', trackLengthIn: 54,
-    zeroGravity: true, aiScanning: true,
+    track: 'SL', roller: '4D',  // track confirmed SL (was incorrectly L)
+    heightMinIn: 62, heightMaxIn: 73, weightCapacityLbs: 320,
+    zeroGravity: true, heat: true, aiScanning: true,
+    aiNotes: 'SL-Track confirmed. Height 5\'2"–6\'1". Weight cap 320 lbs. Alexa voice control. Affiliate URL sold out as of 2026-04-27 — check for updated URL.',
   },
 
   {
@@ -627,16 +635,18 @@ export const CHAIRS: Chair[] = [
     name: 'Ogawa Active XL 3D',
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 4000, priceEstimated: true,
-    affiliateTier: 'A',
-    affiliateRetailer: 'massagechairwarehouse.com',
-    affiliateCommission: '10%, 30-day cookie',
+    priceMin: 5899,  // verified 2026-04-27
+    affiliateTier: null,  // MCW relationship no longer active for this chair; easymassagechair.com program unconfirmed
+    affiliateRetailer: 'easymassagechair.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://massagechairwarehouse.com/products/ogawa-active-xl-3d-massage-chair',
+    affiliateUrl: 'https://www.easymassagechair.com/ogawa-active-xl-3d-massage-chair-zero-gravity-air-compression-technology.html',
+    // moved from MCW (sold out 2026-04-27) to easymassagechair.com ($5,899, in stock) — affiliate program unconfirmed
     goodwinLookupKey: 'ogawa active xl',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-active-xl-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '3D',
-    zeroGravity: true, zeroGravityStages: 2, stretch: true,
+    heightMinIn: 60, heightMaxIn: 76, weightCapacityLbs: 320,
+    zeroGravity: true, zeroGravityStages: 2, heat: true, stretch: true,
+    aiNotes: 'Confirmed height 5\'0"–6\'4". Weight cap 320 lbs. Affiliate URL sold out as of 2026-04-27 — check for updated URL.',
   },
 
   {
@@ -748,7 +758,7 @@ export const CHAIRS: Chair[] = [
     name: 'Panasonic MAK1',
     brand: 'Panasonic',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 8000, priceEstimated: true,
+    priceMin: 14499,  // verified 2026-04-27
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairs.com',
     affiliateCommission: '8%, 30-day cookie (ShareASale)',
@@ -756,9 +766,11 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://www.massagechairs.com/products/panasonic-mak1-massage-chair',
     goodwinLookupKey: 'panasonic mak1',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/panasonic-mak1-massage-chair.webp?v=1776958938',
-    track: null, roller: '4D',
-    heat: true, foot: true, aiScanning: true,
-    aiNotes: 'Track unknown — cannot filter on pain location.',
+    track: 'S', roller: '4D',  // S-Track confirmed from massagechairs.com spec sheet
+    heightMinIn: 56, heightMaxIn: 74, weightCapacityLbs: 264,
+    zeroGravity: false,  // confirmed NO zero gravity
+    heat: true, foot: true, calf: true, stretch: true, aiScanning: true,
+    aiNotes: 'S-TRACK ONLY — do not recommend for lower back/hip/glute pain. NO zero gravity. Weight cap 264 lbs. Height 4\'8"–6\'2". Infrared heated rollers (not just lumbar). Made in China. 3-year warranty.',
   },
 
   {
@@ -853,60 +865,4 @@ export const CHAIRS: Chair[] = [
 
   {
     id: 'real-relax-ps3100',
-    name: 'Real Relax PS3100 Premium',
-    brand: 'Real Relax',
-    active: true, goodwinActive: true, mcfActive: false,
-    priceMin: 2000, priceMax: 3000, priceEstimated: true,
-    affiliateTier: 'C',
-    affiliateRetailer: 'amazon.com',
-    affiliateCommission: 'Amazon Associates',
-    goodwinStatus: 'affiliate',
-    affiliateUrl: undefined,
-    track: 'SL', roller: '3D',
-    zeroGravity: true, foot: true,
-    aiNotes: 'Tier C. Surface in Goodwin ONLY when no Tier A or B match exists. Never recommend in MCF.',
-  },
-
-  // ── COZZIA (Physical retail only — no online purchase available) ───────────
-
-  {
-    id: 'cozzia-qi-xe-pro',
-    name: 'Cozzia Qi XE Pro',
-    brand: 'Cozzia',
-    active: true, goodwinActive: false, mcfActive: false,
-    // Physical retail only — no online affiliate purchase available
-    priceMin: 9500, priceEstimated: true,
-    affiliateTier: null, goodwinStatus: 'none',
-    affiliateUrl: undefined,
-    track: 'L', roller: '4D', trackLengthIn: 53,
-    zeroGravity: true, spaceSaving: true, wallClearanceIn: 5,
-    heat: true, foot: true, aiScanning: true,
-    aiNotes: 'PHYSICAL RETAIL ONLY — no online purchase available. Do not recommend until an online affiliate is confirmed.',
-  },
-
-  {
-    id: 'cozzia-qi-xe-pro-duo',
-    name: 'Cozzia Qi XE Pro Duo',
-    brand: 'Cozzia',
-    active: false, goodwinActive: false, mcfActive: false,
-    // Price unknown, physical retail
-    priceMin: 0,
-    affiliateTier: null, goodwinStatus: 'none',
-    track: 'L', roller: '4D',
-    zeroGravity: true, foot: true, aiScanning: true,
-    aiNotes: 'Price unknown and physical retail only — do not recommend.',
-  },
-
-]
-
-// ─── CONVENIENCE EXPORTS ───────────────────────────────────────────────────────
-
-/** All chairs active in MCF, ordered by priceMin. */
-export const MCF_CHAIRS = CHAIRS
-  .filter(c => c.active && c.mcfActive !== false)
-  .sort((a, b) => a.priceMin - b.priceMin)
-
-/** All chairs active in Goodwin, ordered by priceMin. */
-export const GOODWIN_CHAIRS = CHAIRS
-  .filter(c => c.active && c.goodwinActive !== false)
-  .sort((a, b) => a.priceMin - b.priceMin)
+    name: 'Re
