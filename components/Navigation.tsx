@@ -15,7 +15,7 @@ export default function Navigation() {
   const [open, setOpen] = useState(false)
   return (
     <header className="bg-navy text-white sticky top-0 z-50 shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="font-serif text-xl font-bold text-white hover:text-gold transition-colors">
             MassageChairFinder

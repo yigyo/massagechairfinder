@@ -15,10 +15,19 @@ h1, h2, h3, h4 {
 }
 
 a {
-  color: #934713;
+  color: #D1803E;
 }
 
 a:hover {
+  color: #B8692A;
+}
+
+/* Footer links inherit the footer text color so they don't appear gold on navy */
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
   color: #D1803E;
 }
 
@@ -107,13 +116,13 @@ body {
 }
 
 .prose a {
-  color: #934713;
+  color: #D1803E;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
 .prose a:hover {
-  color: #D1803E;
+  color: #B8692A;
 }
 
 .prose > *:first-child {
