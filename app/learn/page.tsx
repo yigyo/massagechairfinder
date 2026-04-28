@@ -33,9 +33,9 @@ export default async function LearnPage() {
   }
 
   return (
-    <div className="section max-w-2xl">
+    <div className="section" style={{maxWidth: '700px'}}>
       <h1 className="text-4xl font-serif mb-2">The Buying Guide</h1>
-      <p className="text-warm-gray mb-10 max-w-2xl">
+      <p className="text-warm-gray mb-10">
         Written for people who are new to massage chairs, not for people who already know the specs.
         Each section answers one question a real buyer asks before committing.
       </p>
