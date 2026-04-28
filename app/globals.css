@@ -7,8 +7,13 @@
     background-color: #F5F1EB;
     color: #3D3D3A;
   }
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.0625rem; /* 17px — slightly above browser default */
+    line-height: 1.7;
+  }
   h1, h2, h3, h4 {
-    font-family: Georgia, serif;
+    font-family: var(--font-noto-serif), Georgia, serif;
     color: #1C2331;
   }
   a {
@@ -24,12 +29,4 @@
     @apply bg-gold text-white px-6 py-3 rounded font-semibold hover:bg-bronze transition-colors;
   }
   .btn-secondary {
-    @apply bg-teal text-white px-6 py-3 rounded font-semibold hover:opacity-90 transition-opacity;
-  }
-  .card {
-    @apply bg-white rounded-lg shadow-sm border border-sand p-6;
-  }
-  .section {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
-  }
-}
+    @apply bg-teal text-white px-6 py-3 rounded font-semibold 

@@ -16,12 +16,6 @@ const config: Config = {
         bronze: '#934713',
       },
       fontFamily: {
-        serif: ['Georgia', 'serif'],
-        sans: ['system-ui', 'sans-serif'],
+        serif: ['var(--font-noto-serif)', 'Georgia', 'serif'],
+        sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
       },
-    },
-  },
-  plugins: [],
-}
-
-export default config
