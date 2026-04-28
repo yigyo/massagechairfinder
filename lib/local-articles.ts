@@ -630,6 +630,157 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 </details>`,
   },
 
+  // ── SECTION 7 ───────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'how-to-buy',
+    title: 'How to Buy a Massage Chair: A Step-by-Step Decision Framework',
+    excerpt: 'The right massage chair for you depends on five decisions made in a specific order: physical need, budget, track type, body fit, and room fit. Make them in the wrong order and you will either overspend or land on a chair that does not solve the problem you bought it for.',
+    order: 7,
+    publishedAt: '2026-04-28',
+    body: `<p>Most massage chair buyers do their research the wrong way. They start with price, browse by brand, and filter by features they have read about but do not fully understand yet. That approach produces two common outcomes: they spend too much on specs that do not matter for their situation, or they spend too little and buy a chair that does not address the physical problem they wanted to solve. This guide gives you the right sequence. Work through it in order and you will arrive at a short list of chairs that actually fit your situation.</p>
+
+<h2>Step 1: Start with your physical needs</h2>
+
+<p>Before you look at a single chair, write down what you are actually trying to fix. Be specific. "Back pain" is not specific enough. Lower back pain that radiates into your hips is different from upper back and shoulder tension that builds up across a workday. Sciatica flares are different from general lumbar stiffness. The distinction matters because different track types address different areas of the body, and track type is the most consequential decision you will make.</p>
+
+<p>The questions that shape track type selection: Is your pain concentrated in the upper and mid back (neck, shoulders, thoracic spine)? Or does it extend into the lower back, glutes, and hips? If the answer is upper-body focused, an S-track chair covers that range well. If the pain extends into the lower back, hips, or radiates down the legs, you need L-track or SL-track coverage — a standard S-track will miss the area you most need to address. If you have pain in both regions, SL-track is almost always the right call. The full explanation of what each track type covers is in the <a href="/learn/track-types">track types guide</a>.</p>
+
+<p>The second physical question: how sensitive are you to massage pressure? Most returns happen because the massage is too rough, not because the chair did not work. If you bruise easily, have fibromyalgia, or are new to massage, pressure sensitivity should be a top criteria — not an afterthought.</p>
+
+<h2>Step 2: Set your real budget</h2>
+
+<p>A useful massage chair starts at roughly $2,500 to $3,000. Below that price, the mechanical systems are entry-level and the massage quality reflects it. The sweet spot for most buyers — good roller technology, SL-track coverage, zero gravity, and solid build quality — runs from $3,500 to $7,000. Above $7,000, you are paying for premium materials, Japanese manufacturing heritage, 4D roller systems, or both. Above $10,000, you are in the ultra-premium segment where the incremental therapeutic improvement is real but increasingly marginal for most buyers.</p>
+
+<p>Set a hard ceiling before you start shortlisting. It is easy to justify stepping up when you are comparing specific chairs and the next model has features that seem relevant. Decide your ceiling in advance so that comparison pressure does not expand your budget by $2,000.</p>
+
+<p>If financing is part of the plan, factor the monthly payment into your real budget rather than looking only at the sticker price. Most major brands and dealers offer 12- to 36-month financing plans, often at 0% APR during promotional periods. A $6,000 chair financed over 24 months at 0% is $250 per month — a meaningful but manageable number for most households that are seriously considering this purchase.</p>
+
+<h2>Step 3: Use track type to cut the catalog in half</h2>
+
+<p>Once you know your physical target area and budget, apply track type as a hard filter. This alone eliminates most of the catalog. If you determined in step 1 that you need lower back and hip coverage, every S-track chair comes off your list regardless of how appealing the other features are. Track type is not a preference — it is a mechanical specification that determines where the massage physically reaches on your body.</p>
+
+<p>The practical outcome: most buyers with lower back pain end up on SL-track. Most buyers with primarily upper-body tension have more flexibility and may find good value in S-track chairs that offer better roller quality at the same price as an SL-track alternative. Use the <a href="/finder">chair finder</a> to filter by track type and budget simultaneously — it will show you what the shortlist actually looks like at your price range.</p>
+
+<h2>Step 4: Verify body fit</h2>
+
+<p>Every massage chair has a published height and weight range. Most buyers confirm they fall within it and move on. The height range deserves more scrutiny than that. A chair rated for users between 5'0" and 6'2" may perform well across that range, or it may be optimized for the middle of it, with buyers at the extremes getting compressed or extended stroke paths that miss their target zones.</p>
+
+<p>The key fit questions: Does the foot roller section reach your calves or does it sit at your ankles? Do the shoulder airbags compress at the right height or do they ride up into your neck? Do the roller heads sit at the correct position along your spine when you are seated? For taller buyers (above 6'0") and petite buyers (below 5'4"), these questions matter enough to verify before purchasing rather than assuming the published range covers them adequately. The full detail on what to check is in the <a href="/learn/body-fit">body fit guide</a>.</p>
+
+<p>One practical safeguard: buy from a dealer with a return window of at least 30 days. An in-home trial eliminates fit uncertainty that no amount of spec research can fully resolve. You will know within the first week whether the chair actually works for your body.</p>
+
+<h2>Step 5: Confirm room fit</h2>
+
+<p>Room fit is the most frequently skipped step and the most reliably regretted one. A massage chair in its upright position typically measures 50 to 56 inches long. In zero-gravity recline, that same chair extends to 65 to 76 inches — more than six feet of floor space. Add 18 to 24 inches behind the chair for clearance and 24 inches on each side for comfortable entry and exit, and the total footprint in reclined use can easily reach 100 square feet.</p>
+
+<p>Measure the room before you order. Confirm the reclined length specifically, not just the upright dimensions. If the chair has a space-saving design (which allows it to recline with less than 4 inches of wall clearance rather than the standard 16 to 24 inches), confirm that feature covers zero-gravity recline, not just a slight lean back. The full measurement guide with diagrams is in the <a href="/learn/room-fit">room fit guide</a>.</p>
+
+<h2>Step 6: Evaluate the purchase itself</h2>
+
+<p>The chair decision and the purchase decision are separate. Once you have a short list of chairs that fit your physical needs, budget, body, and room, the remaining variables are about the transaction:</p>
+
+<p><strong>Warranty.</strong> Look at three numbers separately: structural frame coverage (should be at least 3 years, ideally 5), roller mechanism coverage (often shorter than frame — confirm it is at least 2 years), and parts and labor (often 1 to 2 years). A chair with a strong frame warranty but one-year roller coverage is a meaningful risk on a daily-use item.</p>
+
+<p><strong>Delivery.</strong> Most chairs in this price range include white-glove delivery: the chair is brought into your home, placed in the room you designate, assembled, and tested before the crew leaves. Confirm this is included before purchasing. Curbside delivery for a 250-pound chair is not a viable alternative unless you have the people and equipment to move it yourself.</p>
+
+<p><strong>Return policy.</strong> In-home trial periods vary from 30 to 60 days. Most come with a return shipping fee, typically $200 to $500, which reflects the actual logistics cost of reverse-shipping a large freight item. Budget for this possibility when you buy. A dealer who does not offer any return window on a $5,000 chair is a yellow flag.</p>
+
+<p><strong>Authorized dealer status.</strong> Buying from an authorized dealer matters for warranty enforcement. If the manufacturer does not recognize the seller as an authorized retailer, the warranty may not apply. Verify authorization before purchasing from any unfamiliar seller, particularly on marketplaces where gray-market inventory circulates.</p>
+
+<h2>The buying checklist</h2>
+
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Question to answer</th>
+<th>Where to learn more</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Physical needs</td>
+<td>Where does your pain live — upper back, lower back, hips?</td>
+<td><a href="/learn/track-types">Track types guide</a></td>
+</tr>
+<tr>
+<td>Budget</td>
+<td>What is your ceiling, including delivery and financing?</td>
+<td></td>
+</tr>
+<tr>
+<td>Track type</td>
+<td>S-track, L-track, or SL-track for your pain area?</td>
+<td><a href="/learn/track-types">Track types guide</a></td>
+</tr>
+<tr>
+<td>Roller type</td>
+<td>Is 3D sufficient, or does massage feel require 4D?</td>
+<td><a href="/learn/roller-dimensions">Roller dimensions guide</a></td>
+</tr>
+<tr>
+<td>Zero gravity</td>
+<td>Is two-stage zero gravity important for your use case?</td>
+<td><a href="/learn/zero-gravity">Zero gravity guide</a></td>
+</tr>
+<tr>
+<td>Body fit</td>
+<td>Does the chair's height range fit you well, not just technically?</td>
+<td><a href="/learn/body-fit">Body fit guide</a></td>
+</tr>
+<tr>
+<td>Room fit</td>
+<td>Do you have the space — measured, not estimated?</td>
+<td><a href="/learn/room-fit">Room fit guide</a></td>
+</tr>
+<tr>
+<td>Brand and warranty</td>
+<td>What is the roller mechanism coverage specifically?</td>
+<td><a href="/learn/brands-overview">Brands guide</a></td>
+</tr>
+<tr>
+<td>Delivery</td>
+<td>Is white-glove delivery included?</td>
+<td></td>
+</tr>
+<tr>
+<td>Return window</td>
+<td>Is there a 30+ day in-home trial?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p>If you want to work through the key decisions interactively, the <a href="/finder">chair finder</a> walks through track type, budget, body dimensions, and use case and surfaces a matched recommendation from the catalog.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Is it safe to buy a massage chair on Amazon?</strong></summary>
+<p>It depends on whether the seller is the brand's authorized US distributor. Some brands sell directly on Amazon through their own storefront, which is fine. Third-party Amazon sellers may be selling gray-market inventory — chairs that were not purchased through authorized channels. The risk: the manufacturer may decline the warranty, and replacement parts may not be available. Verify authorized dealer status before purchasing, regardless of the platform.</p>
+</details>
+
+<details>
+<summary><strong>What is white-glove delivery and is it included?</strong></summary>
+<p>White-glove delivery means the delivery crew brings the chair into your home, places it in the designated room, assembles it, and tests it before leaving. For chairs in the $3,000+ range, this is typically included or offered as an add-on. Curbside delivery — where the freight carrier leaves the item at your door — is standard for lower-cost purchases but impractical for a 250-pound massage chair. Confirm delivery type before purchasing.</p>
+</details>
+
+<details>
+<summary><strong>How long does a massage chair last?</strong></summary>
+<p>A well-built chair used daily should last 7 to 15 years with normal maintenance. The roller mechanism and motor are the components most likely to need service. Japanese-manufactured chairs and US-assembled chairs like Luraco tend to have better longevity track records than entry-level Chinese-manufactured chairs. Warranty coverage on the structural frame (3 to 5 years) is a reasonable proxy for how long the manufacturer expects the chair to perform.</p>
+</details>
+
+<details>
+<summary><strong>Should I try a massage chair before buying?</strong></summary>
+<p>If you can, yes — particularly for pressure sensitivity. The most common return reason is that the massage is too intense, and pressure preference is hard to predict without experiencing it. Showroom access varies by brand and region. If you cannot try before buying, look for dealers with a 30-day in-home trial. A week of daily use in your own home gives you far more reliable information about fit than a showroom session.</p>
+</details>
+
+<details>
+<summary><strong>What does a 30-day return cost?</strong></summary>
+<p>Most dealers charge a return shipping fee of $200 to $500 to cover the cost of reverse-shipping a large freight item. Some dealers include the first return at no cost as part of a trial program. Factor this into your planning — if you are on the fence between two chairs, it may be worth trying the one you are less certain about first, with the return option as a practical fallback rather than a theoretical one.</p>
+</details>`,
+  },
+
 ]
 
 // ── HELPERS ─────────────────────────────────────────────────────────────────────────────────
