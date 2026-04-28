@@ -605,7 +605,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',  // track confirmed SL (was incorrectly L)
     heightMinIn: 62, heightMaxIn: 73, weightCapacityLbs: 320,
     zeroGravity: true, zeroGravityStages: 2, heat: true,
-    aiNotes: 'SL-Track confirmed. Height 5'2"-6'1". Weight cap 320 lbs. URL moved from MCW (sold out) to easymassagechair.com.',
+    aiNotes: "SL-Track confirmed. Height 5'2\"-6'1\". Weight cap 320 lbs. URL moved from MCW (sold out) to easymassagechair.com.",
   },
 
   {
@@ -623,7 +623,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',  // track confirmed SL (was incorrectly L)
     heightMinIn: 62, heightMaxIn: 73, weightCapacityLbs: 320,
     zeroGravity: true, heat: true, aiScanning: true,
-    aiNotes: 'SL-Track confirmed. Height 5'2"-6'1". Weight cap 320 lbs. Alexa voice control. URL moved from MCW (sold out) to easymassagechair.com.',
+    aiNotes: "SL-Track confirmed. Height 5'2\"-6'1\". Weight cap 320 lbs. Alexa voice control. URL moved from MCW (sold out) to easymassagechair.com.",
   },
 
   {
@@ -641,7 +641,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '3D',
     heightMinIn: 60, heightMaxIn: 76, weightCapacityLbs: 320,
     zeroGravity: true, zeroGravityStages: 2, heat: true, stretch: true,
-    aiNotes: 'Confirmed height 5'0"-6'4". Weight cap 320 lbs. Designed for larger frames. URL moved from MCW (sold out) to easymassagechair.com.',
+    aiNotes: "Confirmed height 5'0\"-6'4\". Weight cap 320 lbs. Designed for larger frames. URL moved from MCW (sold out) to easymassagechair.com.",
   },
 
   {
@@ -765,7 +765,7 @@ export const CHAIRS: Chair[] = [
     heightMinIn: 56, heightMaxIn: 74, weightCapacityLbs: 264,
     zeroGravity: false,  // confirmed NO zero gravity
     heat: true, foot: true, calf: true, stretch: true, aiScanning: true,
-    aiNotes: 'S-TRACK ONLY — do not recommend for lower back/hip/glute pain. NO zero gravity. Weight cap 264 lbs (not 300). Height 4'8"-6'2". Infrared heated rollers.',
+    aiNotes: "S-TRACK ONLY — do not recommend for lower back/hip/glute pain. NO zero gravity. Weight cap 264 lbs (not 300). Height 4'8\"-6'2\". Infrared heated rollers.",
   },
 
   {
