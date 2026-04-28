@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
   content: ['./app/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
@@ -15,10 +16,12 @@ module.exports = {
         bronze: '#934713',
       },
       fontFamily: {
-        serif: ['Noto Serif', 'Georgia', 'serif'],
-        sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        serif: ['Georgia', 'serif'],
+        sans: ['system-ui', 'sans-serif'],
       },
     },
   },
   plugins: [],
 }
+
+export default config

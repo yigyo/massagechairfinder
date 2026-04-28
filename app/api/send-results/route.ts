@@ -176,29 +176,4 @@ export async function POST(req: Request) {
         await klaviyoPatch(`/profiles/${profileId}/`, {
           data: {
             type: 'profile',
-            id: profileId,
-            attributes: { properties },
-          },
-        })
-      }
-    } else {
-      const text = await createRes.text()
-      throw new Error(`Klaviyo profile error ${createRes.status}: ${text}`)
-    }
-
-    // Step 2: Add profile to massagechairfinder list
-    if (profileId) {
-      await klaviyoPost(`/lists/${KLAVIYO_LIST_ID}/relationships/profiles/`, {
-        data: [{ type: 'profile', id: profileId }],
-      })
-    }
-
-    console.log('[send-results] Klaviyo profile created/updated:', email)
-    return Response.json({ ok: true })
-
-  } catch (err) {
-    console.error('[send-results] Error:', err)
-    // Return success to user — don't surface backend errors in the UI
-    return Response.json({ ok: true })
-  }
-}
+            id: pro
