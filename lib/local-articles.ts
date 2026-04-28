@@ -34,7 +34,127 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'The track type determines where the massage goes — and whether it reaches the parts of your body that actually hurt. Most buyers do not know this until after they buy the wrong chair.',
     order: 1,
     publishedAt: '2026-04-27',
-    body: `<p>Coming soon.</p>`,
+    body: `<p>Most massage chair buyers spend their research time comparing prices, brands, and features. The track type — S-track, L-track, or SL-track — rarely gets the same attention. It should get the most attention of all, because it is the one spec that determines where the massage actually reaches on your body. Buy the wrong track type and no amount of 4D rollers or zero-gravity programs will fix the problem.</p>
+
+<p>This section explains what each track type covers, who each one is right for, and how to match the decision to where you actually hurt.</p>
+
+<h2>What a track is, and why it determines everything</h2>
+
+<p>The track is the physical rail inside the chair that the massage rollers travel along. The rollers move up and down this track — kneading, tapping, and rolling as they go. Whatever the track does not cover, the rollers cannot reach.</p>
+
+<p>This is the fundamental constraint that no feature upgrade can override. A chair with 4D rollers, body scanning, and twelve massage programs is still limited to the section of your spine the track was built to reach. If the track ends at your lower lumbar and your pain is in your sacrum or glutes, the massage stops exactly where you need it most.</p>
+
+<p>Track length is measured in inches. Most chairs fall between 45 and 53 inches. The number tells you the physical distance the rollers can travel. Longer tracks are not automatically better — the question is whether the track covers the right area for your body.</p>
+
+<h2>S-track: neck to lumbar, and that is where it stops</h2>
+
+<p>An S-track follows the natural S-curve of the spine from the base of the neck down to the lumbar region. It is named for the shape it traces. The track curves to match the cervical spine (neck), the thoracic spine (mid-back), and the lumbar spine (lower back), stopping there.</p>
+
+<p>What an S-track covers well: neck tension, shoulder tightness, upper-back knots, and mid-back stiffness. For buyers whose pain lives in the upper half of the back, an S-track chair delivers a precise and effective massage in exactly the right places.</p>
+
+<p>What an S-track does not cover: the sacrum, the glutes, and the backs of the thighs. If your lower back pain extends below the lumbar spine — into the hips, the tailbone area, or down the legs — an S-track chair will stop short of where you need it. This is the most common source of buyer disappointment in the massage chair category.</p>
+
+<p>S-track chairs in our catalog include the <strong>Inada Robo 4D</strong> and the <strong>Panasonic MAK1</strong>. Both are premium chairs with exceptional upper-back and neck massage. Neither is the right choice for buyers with sciatica, hip pain, or lower back pain that radiates downward.</p>
+
+<h2>L-track: extends under the glutes and into the thighs</h2>
+
+<p>An L-track takes the same spine-following path as an S-track but continues past the lumbar and curves under the seat, extending along the glutes and hamstrings. The name comes from the L-shape the extended track creates.</p>
+
+<p>The extension matters because the glutes and piriformis muscles are often the source — or a significant contributor — of lower back pain that radiates into the hips and legs. Sciatica, in particular, frequently involves the piriformis. An S-track chair cannot reach this area. An L-track chair can.</p>
+
+<p>What an L-track covers well: everything an S-track covers, plus the lower back at the sacral level, the glutes, and the upper hamstrings. For buyers with sciatica, hip tightness, or lower back pain that travels into their legs, an L-track chair addresses the anatomy that most needs attention.</p>
+
+<p>The tradeoff is coverage of the upper back. Because the L-track extends so far downward, it sometimes covers slightly less of the upper thoracic and cervical spine compared to a well-designed S-track. This is not a universal rule — it depends on the specific chair and track length — but it is worth noting for buyers whose primary pain is neck or upper-shoulder tension.</p>
+
+<p>L-track chairs in our catalog include the <strong>Infinity Dynasty 4D</strong> (49-inch track), the <strong>Infinity Evo Max 4D</strong> (49-inch track), the <strong>Infinity Genesis Max 4D</strong> (49-inch track), the <strong>AmaMedics Hilux 4D</strong> (53-inch track, the longest confirmed in the catalog), the <strong>Kahuna LM-6800</strong> (45-inch track), and the <strong>Daiwa Legacy 4</strong> (49-inch track). The AmaMedics Hilux's 53-inch track provides the deepest glute and hamstring coverage of any L-track chair we have researched.</p>
+
+<h2>SL-track: full coverage from neck to glutes</h2>
+
+<p>An SL-track combines the full S-curve of the spine with the L-shaped glute extension into a single continuous track. It follows the cervical spine, curves through the thoracic and lumbar, and extends under the seat to cover the sacrum and glutes.</p>
+
+<p>This is the most comprehensive track option available. An SL-track chair covers the upper back and neck as thoroughly as a dedicated S-track chair while also extending into the lower back, sacrum, and glutes the way an L-track does. For buyers with pain in multiple regions — both upper-back tension and lower back or hip discomfort — an SL-track chair is almost always the right choice.</p>
+
+<p>The reason SL-track chairs are not the automatic recommendation for everyone comes down to two factors: price and upper-back precision. SL-track chairs tend to cost more than comparable S-track or L-track chairs because the extended mechanism requires a longer frame and more complex engineering. And for buyers whose pain is exclusively in the neck and upper back, the additional length adds cost without adding benefit.</p>
+
+<p>SL-track chairs in our catalog include the <strong>Osaki OS-Pro Admiral II</strong> (49-inch track), the <strong>Ogawa Master Drive LE 4D</strong>, the <strong>Ogawa Master Drive AI 2.0 4D</strong>, the <strong>Bodyfriend Phantom Medical Care 4D SL</strong>, and the <strong>Ogawa Active XL 3D</strong>. The Admiral II is one of the most-recommended chairs in this category for buyers who want SL-track coverage in the $4,000 range.</p>
+
+<h2>Flex-track: the hybrid approach</h2>
+
+<p>A small number of chairs use a Flex-track, which combines elements of an SL-track and an L-track into a mechanism that can adjust its coverage range. The <strong>Infinity Imperial Syner-D</strong> in our catalog uses this system. It provides both full SL-track coverage and deeper L-track extension depending on the program, giving buyers the versatility of both in a single chair.</p>
+
+<p>Flex-track chairs represent the upper end of the market. The Infinity Imperial Syner-D is priced at $8,000 to $12,000 and is primarily recommended for buyers who want maximum coverage flexibility or who cannot decide between SL and L-track because they have significant pain across multiple zones.</p>
+
+<h2>Track type comparison at a glance</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Track type</th>
+      <th>Coverage area</th>
+      <th>Best for</th>
+      <th>Not ideal for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>S-track</strong></td>
+      <td>Neck, shoulders, upper and mid back, lumbar</td>
+      <td>Neck and upper-back tension, shoulder tightness</td>
+      <td>Sciatica, hip pain, lower back that radiates downward</td>
+    </tr>
+    <tr>
+      <td><strong>L-track</strong></td>
+      <td>Full spine plus glutes and upper hamstrings</td>
+      <td>Sciatica, hip tightness, lower back and glute pain</td>
+      <td>Buyers whose pain is exclusively in the upper back</td>
+    </tr>
+    <tr>
+      <td><strong>SL-track</strong></td>
+      <td>Full spine from neck through glutes</td>
+      <td>Multiple pain zones, both upper and lower back</td>
+      <td>Budget-constrained buyers (costs more for the same roller quality)</td>
+    </tr>
+    <tr>
+      <td><strong>Flex-track</strong></td>
+      <td>Adjustable: SL and deep L coverage</td>
+      <td>Buyers wanting maximum versatility</td>
+      <td>Buyers working with a defined budget</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>How to use track type to make your decision</h2>
+
+<p>Start with where you hurt. Be specific about it.</p>
+
+<p>If your pain is in your neck, shoulders, or upper and mid back — and it stays there — an S-track chair will cover you well. You do not need to pay for the additional length of an SL-track if your lower back and hips are not involved.</p>
+
+<p>If your lower back pain radiates into your hips, tailbone, or down your legs, you need either an L-track or an SL-track. The choice between those two depends on whether you also have significant upper-back or neck tension. If you do, go SL-track. If your upper back is not a major concern, an L-track chair will serve you well and may cost less for comparable roller quality.</p>
+
+<p>If you are not sure where your pain is centered, or if it moves around, the SL-track is the safer choice. It covers more ground and eliminates the risk of buying a chair that stops short of where you need it.</p>
+
+<p>Track type is the decision to make before price. A buyer who falls in love with a specific chair and then discovers it has the wrong track type for their pain has made an expensive mistake. Confirm the track type first, then filter by price, features, and brand within that group.</p>
+
+<p>Use the <a href="/finder">chair finder quiz</a> to filter by pain location — it uses track type as a primary filter based on your answers. If lower back and hip pain is part of your situation, it will surface only L-track and SL-track options. If you want to see how this decision plays out across specific chairs, the <a href="/best/lower-back-pain">best massage chairs for lower back pain</a> list is filtered to SL-track and L-track only.</p>
+
+<p>Once you have confirmed the right track type for your body, the next question is whether the chair will fit your room. That is covered in the <a href="/learn/room-fit">room fit section</a> of this guide.</p>
+
+<h2>Frequently asked questions</h2>
+
+<h3>Is an SL-track always better than an L-track?</h3>
+<p>Not always. An SL-track covers more area, but "more" is only better if that area is where you need the massage. For buyers with sciatica or hip pain and no significant upper-back tension, an L-track chair can deliver equivalent relief in the area that matters while potentially costing less. For buyers with pain across multiple zones, SL-track is the stronger choice.</p>
+
+<h3>What is the difference between an S-track and an L-track in practice?</h3>
+<p>Sit in an S-track chair and the rollers reach from your neck to your lower lumbar and stop. Sit in an L-track chair and the rollers continue past your lower back, curve under the seat, and press into your glutes and hamstrings. If your pain is entirely above the waist, you will not notice the difference. If it is below, you will notice it immediately.</p>
+
+<h3>Do SL-track chairs cost significantly more than L-track chairs?</h3>
+<p>At equivalent roller quality, yes — typically $500 to $1,500 more, depending on the tier. The extended frame and longer mechanism add cost. That said, the price overlap is substantial: there are SL-track chairs at $4,000 and L-track chairs at $10,000. Track type alone does not determine price. Compare within a budget range rather than across the entire market.</p>
+
+<h3>Can a track type be wrong for my height?</h3>
+<p>Yes, indirectly. Track length in inches determines how far the rollers physically travel. A buyer with a long torso in a chair with a short track may find the rollers stop before reaching their full lumbar or sacral region, regardless of track type. If body fit is a concern — particularly for buyers above 6'1" or with long torsos — confirm the track length in inches alongside the track type. The body fit section of this guide covers height and proportion fit in detail.</p>
+
+<h3>What does "4D" have to do with track type?</h3>
+<p>Nothing directly. The track type (S, L, SL) describes the path the rollers follow. The roller dimension (2D, 3D, 4D) describes how the rollers move within that path — 4D rollers can vary their speed and depth during a stroke, adding a more nuanced feel. A chair can be 4D and S-track, or 4D and SL-track. They are independent specifications. Track type determines coverage area; roller dimension determines massage feel.</p>`,
   },
 
   // ── SECTION 2 ───────────────────────────────────────────────────────────────────────────
