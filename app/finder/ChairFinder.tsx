@@ -782,4 +782,32 @@ export default function ChairFinder() {
                 Your top chairs will arrive in your inbox shortly.
               </p>
               <div style={{ marginTop: 24 }}>
-                <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', text
+                <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
+                  Start over with different answers
+                </button>
+              </div>
+            </>
+          ) : (
+            <div style={{ textAlign: 'center', paddingTop: 40 }}>
+              <div style={{ fontSize: 40, marginBottom: 20 }}>✓</div>
+              <h2 style={{ fontSize: 'clamp(24px,4vw,32px)', fontWeight: 700, color: '#1C2331', fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 14 }}>
+                Check your inbox.
+              </h2>
+              <p style={{ fontSize: 17, color: '#6B6B65', lineHeight: 1.65, maxWidth: 420, margin: '0 auto 36px' }}>
+                Your chair matches are on the way. While you wait, the Buying Guide covers everything you need to compare chairs confidently.
+              </p>
+              <a href="/learn/buying-guide" style={{ color: '#D1803E', fontWeight: 600, fontSize: 16, textDecoration: 'none' }}>
+                Read the Buying Guide &rarr;
+              </a>
+              <div style={{ marginTop: 36 }}>
+                <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
+                  Start over with different answers
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
