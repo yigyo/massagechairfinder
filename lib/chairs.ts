@@ -279,12 +279,11 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'emassagechair.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://emassagechair.com/products/infinity-celebrity-3d-4d-massage-chair',
-    // previous URL (MCW, sold out): https://massagechairwarehouse.com/products/infinity-riage-x3-massage-chair
     goodwinLookupKey: 'infinity celebrity',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity_celebrity_3d-massage-chair.webp?v=1776836198',
     track: 'L', roller: '3D',
     zeroGravity: true, foot: true,
-    aiNotes: 'Formerly known as Riage X3. Affiliate program at emassagechair.com not yet confirmed — verify and apply.',
+    aiNotes: 'Formerly known as Riage X3. Affiliate program at emassagechair.com not yet confirmed.',
   },
 
   {
@@ -597,18 +596,16 @@ export const CHAIRS: Chair[] = [
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: true,
     priceMin: 9999,  // verified 2026-04-27
-    affiliateTier: null,  // MCW relationship no longer active for this chair; easymassagechair.com program unconfirmed
+    affiliateTier: null,  // MCW sold out; easymassagechair.com program unconfirmed
     affiliateRetailer: 'easymassagechair.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.easymassagechair.com/ogawa-master-drive-le-4d-sl-track-massage-chair-2-stage-zero-gravity-recline-on-demand-voice-control.html',
-    // moved from MCW (sold out 2026-04-27) to easymassagechair.com ($9,999, in stock) — affiliate program unconfirmed
     goodwinLookupKey: 'ogawa master drive le',  // MUST come before 'ogawa master drive ai'
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Ogawa_Master_Drive_LE_4d-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '4D',  // track confirmed SL (was incorrectly L)
     heightMinIn: 62, heightMaxIn: 73, weightCapacityLbs: 320,
-    zeroGravity: true, zeroGravityStages: 2,
-    heat: true,
-    aiNotes: 'SL-Track confirmed. Height 5\'2"–6\'1". Weight cap 320 lbs. Affiliate URL sold out as of 2026-04-27 — check for updated URL.',
+    zeroGravity: true, zeroGravityStages: 2, heat: true,
+    aiNotes: 'SL-Track confirmed. Height 5'2"-6'1". Weight cap 320 lbs. URL moved from MCW (sold out) to easymassagechair.com.',
   },
 
   {
@@ -617,17 +614,16 @@ export const CHAIRS: Chair[] = [
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: true,
     priceMin: 12999,  // verified 2026-04-27
-    affiliateTier: null,  // MCW relationship no longer active for this chair; easymassagechair.com program unconfirmed
+    affiliateTier: null,  // MCW sold out; easymassagechair.com program unconfirmed
     affiliateRetailer: 'easymassagechair.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.easymassagechair.com/ogawa-master-drive-ai-4d-sl-track-massage-chair-m5-gen-microprocessors-zero-gravity-recline.html',
-    // moved from MCW (sold out 2026-04-27) to easymassagechair.com ($12,999, in stock) — affiliate program unconfirmed
     goodwinLookupKey: 'ogawa master drive ai',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-master-drive-ai-2_0-4d-massage-chair.jpg?v=1776836198',
     track: 'SL', roller: '4D',  // track confirmed SL (was incorrectly L)
     heightMinIn: 62, heightMaxIn: 73, weightCapacityLbs: 320,
     zeroGravity: true, heat: true, aiScanning: true,
-    aiNotes: 'SL-Track confirmed. Height 5\'2"–6\'1". Weight cap 320 lbs. Alexa voice control. Affiliate URL sold out as of 2026-04-27 — check for updated URL.',
+    aiNotes: 'SL-Track confirmed. Height 5'2"-6'1". Weight cap 320 lbs. Alexa voice control. URL moved from MCW (sold out) to easymassagechair.com.',
   },
 
   {
@@ -636,17 +632,16 @@ export const CHAIRS: Chair[] = [
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: true,
     priceMin: 5899,  // verified 2026-04-27
-    affiliateTier: null,  // MCW relationship no longer active for this chair; easymassagechair.com program unconfirmed
+    affiliateTier: null,  // MCW sold out; easymassagechair.com program unconfirmed
     affiliateRetailer: 'easymassagechair.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.easymassagechair.com/ogawa-active-xl-3d-massage-chair-zero-gravity-air-compression-technology.html',
-    // moved from MCW (sold out 2026-04-27) to easymassagechair.com ($5,899, in stock) — affiliate program unconfirmed
     goodwinLookupKey: 'ogawa active xl',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-active-xl-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '3D',
     heightMinIn: 60, heightMaxIn: 76, weightCapacityLbs: 320,
     zeroGravity: true, zeroGravityStages: 2, heat: true, stretch: true,
-    aiNotes: 'Confirmed height 5\'0"–6\'4". Weight cap 320 lbs. Affiliate URL sold out as of 2026-04-27 — check for updated URL.',
+    aiNotes: 'Confirmed height 5'0"-6'4". Weight cap 320 lbs. Designed for larger frames. URL moved from MCW (sold out) to easymassagechair.com.',
   },
 
   {
@@ -770,7 +765,7 @@ export const CHAIRS: Chair[] = [
     heightMinIn: 56, heightMaxIn: 74, weightCapacityLbs: 264,
     zeroGravity: false,  // confirmed NO zero gravity
     heat: true, foot: true, calf: true, stretch: true, aiScanning: true,
-    aiNotes: 'S-TRACK ONLY — do not recommend for lower back/hip/glute pain. NO zero gravity. Weight cap 264 lbs. Height 4\'8"–6\'2". Infrared heated rollers (not just lumbar). Made in China. 3-year warranty.',
+    aiNotes: 'S-TRACK ONLY — do not recommend for lower back/hip/glute pain. NO zero gravity. Weight cap 264 lbs (not 300). Height 4'8"-6'2". Infrared heated rollers.',
   },
 
   {
@@ -865,4 +860,60 @@ export const CHAIRS: Chair[] = [
 
   {
     id: 'real-relax-ps3100',
-    name: 'Re
+    name: 'Real Relax PS3100 Premium',
+    brand: 'Real Relax',
+    active: true, goodwinActive: true, mcfActive: false,
+    priceMin: 2000, priceMax: 3000, priceEstimated: true,
+    affiliateTier: 'C',
+    affiliateRetailer: 'amazon.com',
+    affiliateCommission: 'Amazon Associates',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: undefined,
+    track: 'SL', roller: '3D',
+    zeroGravity: true, foot: true,
+    aiNotes: 'Tier C. Surface in Goodwin ONLY when no Tier A or B match exists. Never recommend in MCF.',
+  },
+
+  // ── COZZIA (Physical retail only — no online purchase available) ───────────
+
+  {
+    id: 'cozzia-qi-xe-pro',
+    name: 'Cozzia Qi XE Pro',
+    brand: 'Cozzia',
+    active: true, goodwinActive: false, mcfActive: false,
+    // Physical retail only — no online affiliate purchase available
+    priceMin: 9500, priceEstimated: true,
+    affiliateTier: null, goodwinStatus: 'none',
+    affiliateUrl: undefined,
+    track: 'L', roller: '4D', trackLengthIn: 53,
+    zeroGravity: true, spaceSaving: true, wallClearanceIn: 5,
+    heat: true, foot: true, aiScanning: true,
+    aiNotes: 'PHYSICAL RETAIL ONLY — no online purchase available. Do not recommend until an online affiliate is confirmed.',
+  },
+
+  {
+    id: 'cozzia-qi-xe-pro-duo',
+    name: 'Cozzia Qi XE Pro Duo',
+    brand: 'Cozzia',
+    active: false, goodwinActive: false, mcfActive: false,
+    // Price unknown, physical retail
+    priceMin: 0,
+    affiliateTier: null, goodwinStatus: 'none',
+    track: 'L', roller: '4D',
+    zeroGravity: true, foot: true, aiScanning: true,
+    aiNotes: 'Price unknown and physical retail only — do not recommend.',
+  },
+
+]
+
+// ─── CONVENIENCE EXPORTS ───────────────────────────────────────────────────────
+
+/** All chairs active in MCF, ordered by priceMin. */
+export const MCF_CHAIRS = CHAIRS
+  .filter(c => c.active && c.mcfActive !== false)
+  .sort((a, b) => a.priceMin - b.priceMin)
+
+/** All chairs active in Goodwin, ordered by priceMin. */
+export const GOODWIN_CHAIRS = CHAIRS
+  .filter(c => c.active && c.goodwinActive !== false)
+  .sort((a, b) => a.priceMin - b.priceMin)
