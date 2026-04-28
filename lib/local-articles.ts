@@ -160,11 +160,94 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
   // ── SECTION 2 ───────────────────────────────────────────────────────────────────────────
   {
     slug: 'roller-dimensions',
-    title: 'Roller Dimensions Explained: Width, Stroke, and Why Your Height Matters',
-    excerpt: 'Roller width and stroke length are the two specs that determine how well a chair covers your back. Here is what they mean and how to read them.',
+    title: '3D vs. 4D Massage Chair Rollers: What the Numbers Actually Mean',
+    excerpt: '3D and 4D refer to how the rollers move, not how many rollers a chair has. 3D rollers extend toward your body to vary pressure depth. 4D adds speed and rhythm variation that mimics a human therapist\'s hands. For most buyers, 3D is sufficient. 4D matters when massage feel is a top priority.',
     order: 2,
-    publishedAt: '2026-04-27',
-    body: `<p>Coming soon.</p>`,
+    publishedAt: '2026-04-28',
+    body: `<p>The "3D" or "4D" label on a massage chair is one of the most commonly misread specs in the category. It sounds like it refers to the number of rollers. It does not. It describes how the rollers move, specifically the range of motion they have and whether that motion includes variable speed. Understanding the difference takes about five minutes and it will change how you read every product page you look at from here on.</p>
+
+<h2>What the "D" actually stands for</h2>
+
+<p>The "D" stands for dimension, as in axis of movement. Each generation of roller technology added a new axis:</p>
+
+<p><strong>2D rollers</strong> move on a flat plane: up and down the spine, and side to side. They deliver a consistent stroke but cannot vary how deeply they engage your back muscles. Pressure intensity is fixed. Most entry-level chairs under $2,000 use 2D roller systems.</p>
+
+<p><strong>3D rollers</strong> add a third axis: they can extend outward toward your body or retract away from it. This is depth control. A 3D chair lets you dial in how firmly the rollers press into your back, from a light surface touch to deep-tissue pressure. This is the feature that makes the difference between a massage that skims the surface and one that actually reaches the muscle tissue underneath. The majority of chairs in the $3,000 to $8,000 range use 3D rollers.</p>
+
+<p><strong>4D rollers</strong> build on 3D by adding a fourth variable: speed variation. In a 3D chair, the rollers move at a consistent pace throughout a program. In a 4D chair, the rollers can slow down, pause, speed up, and pulse unevenly, approximating the rhythm of a human therapist's hands. The goal is to eliminate the "mechanical" quality that some buyers notice in standard roller systems. The Ogawa Master Drive LE and the AmaMedics Hilux 4D are current examples of 4D systems in the catalog.</p>
+
+<h2>Does 3D vs. 4D actually change how the massage feels?</h2>
+
+<p>Yes, but only in a specific way. The depth control in a 3D chair is the more functionally significant upgrade over 2D. Moving from 3D to 4D is a refinement of massage feel, not a structural change in what the chair can do.</p>
+
+<p>Most buyers who try a quality 3D chair find it entirely satisfying. The consistent stroke and adjustable depth deliver genuine therapeutic value for back pain, tension, and circulation. The Kahuna LM-6800, for example, is a well-regarded 3D chair that buyers with chronic lower back pain report using daily without any sense that they are missing something.</p>
+
+<p>The buyers for whom 4D makes a noticeable difference tend to be in one of two groups. The first group has experienced regular professional massage and is attuned to the rhythm variation a human therapist provides. For them, the mechanical consistency of even a good 3D system can feel slightly off. The second group has tried massage chairs before and found the experience "too robotic" to use regularly. For those buyers, 4D rhythm variation is not a luxury feature but a practical answer to a usage problem.</p>
+
+<p>For first-time buyers primarily focused on relief from lower back pain, shoulder tension, or sciatica, 3D is the right call. The pressure depth control is what matters for that goal, and 3D delivers it.</p>
+
+<h2>What is roller width, and why does it matter separately?</h2>
+
+<p>Roller width is a different spec from roller dimension, and it is frequently overlooked. It refers to how wide the roller track spans across your back, measured from one roller head to the other. Most chairs fall in the range of 10 to 13 centimeters. The difference matters for shoulder coverage.</p>
+
+<p>A roller track that is too narrow for your frame will miss the outer muscle groups along the shoulders and upper back, concentrating pressure near the spine but leaving the broader muscle tissue unaddressed. A track that is too wide for a narrow frame will do the opposite, with the rollers riding past the spine entirely on one side or the other.</p>
+
+<p>Most manufacturers do not publish roller width prominently. It is often buried in the technical specifications if it appears at all. Buyers with shoulder width above 18 inches, or anyone who has tried a massage chair and found that it did not address their shoulder and upper back tension, should specifically look up the roller span before committing to a purchase.</p>
+
+<p>Some chairs offer adjustable roller width, which addresses this problem directly. The Luraco i9 Max Plus is one of the few chairs that allows the user to set roller width to their body measurements. For broader-framed buyers, adjustable roller width is worth treating as a shortlist criterion, not a nice-to-have.</p>
+
+<h2>How roller specs interact with your body</h2>
+
+<p>Depth control (3D) matters most for buyers who need firm, targeted pressure into dense muscle tissue, which generally means larger-framed buyers or anyone with significant chronic tension in the lumbar or thoracic muscles. A 3D roller at maximum extension reaches further into the back than a 2D roller at its hardest setting. If previous chair experiences have felt "not firm enough," depth control is the spec to look at.</p>
+
+<p>Roller width matters for shoulder coverage regardless of height. A buyer who is 5'4" with broad shoulders has the same roller width concern as a buyer who is 6'2" with narrow shoulders. They are different variables.</p>
+
+<p>For petite buyers, the concern sometimes runs the other direction: a roller mechanism engineered for a larger frame may sit too wide to engage the correct pressure points on a narrower back. This is one of the reasons the body fit guide covers manufacturer-stated height and weight ranges: the roller geometry is calibrated for a physical range, and buyers near the edges of that range should verify fit before purchasing. The <a href="/learn/body-fit">body fit guide</a> covers this in detail.</p>
+
+<h2>When 4D is worth the premium</h2>
+
+<p>4D chairs typically run $500 to $1,500 more than comparable 3D models with similar track type, zero gravity, and air massage systems. That premium is justified in specific situations and not in others.</p>
+
+<p>It is likely worth it if: you have experienced regular professional massage and find mechanical consistency noticeable; you have tried a 3D chair and the rhythm felt too repetitive to use regularly; or massage feel is genuinely a top priority alongside (not instead of) the therapeutic functions.</p>
+
+<p>It is probably not worth it if: this is your first massage chair; your primary goal is lower back pain relief rather than a spa-quality massage experience; or the price difference puts meaningful pressure on your budget. The therapeutic value of a well-engineered 3D chair for back pain, sciatica, and tension relief is not diminished by not having 4D rhythm variation.</p>
+
+<p>One practical note: 4D systems have more mechanical complexity than 3D. That is not a reason to avoid them, but it is a reason to confirm that the warranty terms cover the roller mechanism specifically, and for how long.</p>
+
+<h2>How to use this when comparing chairs</h2>
+
+<p>When you are looking at a product page and see "3D" or "4D" listed, here is a practical read: if the chair is 3D and falls in your budget with the track type and zero gravity configuration you need, the roller dimension is not a reason to disqualify it. If you are comparing two chairs that are otherwise equal and one is 4D, ask yourself honestly whether feel matters enough to you to pay the difference. If you have tried a massage chair before and the rhythm bothered you, the answer is probably yes.</p>
+
+<p>The more practically important roller spec to research is width, particularly if you have broad shoulders or have previously found that chairs did not address your upper back and shoulder tension. That spec is worth looking up specifically rather than assuming it is covered.</p>
+
+<p>If you are still narrowing your options, the <a href="/finder">chair finder</a> walks through track type, body dimensions, and budget before surfacing a recommendation. Roller dimension questions are part of the logic. You can also look at the <a href="/best/lower-back-pain">best chairs for lower back pain</a> collection, where most of the featured chairs are 3D or 4D with SL-track.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Does a 4D massage chair have more rollers than a 3D?</strong></summary>
+<p>No. 4D refers to the roller's range of motion, specifically the addition of variable speed and rhythm. Most massage chairs have two or four roller heads regardless of whether they are rated 3D or 4D. The "D" describes how the rollers move, not how many there are.</p>
+</details>
+
+<details>
+<summary><strong>Can I adjust the depth on a 3D massage chair?</strong></summary>
+<p>Yes. Depth control is the defining feature of 3D rollers. Most 3D chairs allow you to adjust roller extension from a shallow surface stroke to a deeper, more penetrating pressure, typically through a dial or touchscreen setting. The range varies by model.</p>
+</details>
+
+<details>
+<summary><strong>Is 4D worth the extra cost?</strong></summary>
+<p>For most buyers, no. The therapeutic value of a quality 3D chair for back pain and tension relief is comparable. 4D matters most for buyers who have tried massage chairs and found the mechanical rhythm unsatisfying, or who come from regular professional massage and notice the rhythm difference. If that is not your situation, the premium is better spent on track type or zero gravity configuration.</p>
+</details>
+
+<details>
+<summary><strong>What roller width do I need?</strong></summary>
+<p>There is no universal answer, but the practical test is whether the rollers land on the muscle groups on either side of your spine or ride past them. Buyers with shoulder width above 18 inches should specifically check the roller span spec. If the manufacturer does not publish it, contact them directly before purchasing. A few chairs, including the Luraco i9 Max Plus, offer adjustable roller width, which eliminates the fit problem entirely.</p>
+</details>
+
+<details>
+<summary><strong>Does roller dimension affect durability or warranty coverage?</strong></summary>
+<p>The roller mechanism is typically covered under the structural warranty, which ranges from one to five years depending on the manufacturer. 4D systems have additional mechanical complexity due to the variable-speed motor. When comparing warranties on 4D chairs, confirm that the roller mechanism is specifically covered and for how long, rather than assuming the coverage matches a simpler system.</p>
+</details>`,
   },
 
   // ── SECTION 3 ───────────────────────────────────────────────────────────────────────────
