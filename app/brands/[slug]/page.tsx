@@ -70,8 +70,8 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
                     <h3 className="text-xl font-serif font-semibold text-navy group-hover:text-gold transition-colors mb-1">
                       {chair.name}
                     </h3>
-                    {chair.trackType && (
-                      <p className="text-warm-gray text-sm">{chair.trackType} track &middot; {chair.rollerType || '3D'} rollers</p>
+                    {chair.track && (
+                      <p className="text-warm-gray text-sm">{chair.track} track &middot; {chair.roller || '3D'} rollers</p>
                     )}
                   </div>
                   <div className="text-right shrink-0">
