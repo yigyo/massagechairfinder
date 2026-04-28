@@ -33,7 +33,7 @@ export default async function LearnPage() {
   }
 
   return (
-    <div className="section max-w-3xl">
+    <div className="section max-w-2xl">
       <h1 className="text-4xl font-serif mb-2">The Buying Guide</h1>
       <p className="text-warm-gray mb-10 max-w-2xl">
         Written for people who are new to massage chairs, not for people who already know the specs.

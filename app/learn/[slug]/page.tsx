@@ -33,7 +33,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   if (article.body === '<p>Coming soon.</p>') notFound()
 
   return (
-    <div className="section max-w-2xl">
+    <div className="section max-w-xl">
       <div className="mb-6">
         <Link href="/learn" className="text-bronze hover:text-gold text-sm">
           &larr; Buying Guide

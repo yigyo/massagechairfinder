@@ -1,4 +1,4 @@
-// ─── LOCAL ARTICLE CONTENT ─────────────────────────────────────────────────
+// ─── LOCAL ARTICLE CONTENT ─────────────────────────────────────────────
 //
 // Single source of truth for buying guide articles.
 // These are served when Strapi is unavailable (or not configured).
@@ -27,37 +27,311 @@ export interface LocalArticle {
 
 export const LOCAL_ARTICLES: LocalArticle[] = [
 
-  // ── SECTION 1 ─────────────────────────────────────────────────────────────
+  // ── SECTION 1 ───────────────────────────────────────────────────────────────────────────
   {
     slug: 'track-types',
     title: 'S-Track vs L-Track vs SL-Track: The Most Important Decision You Will Make',
     excerpt: 'The track type determines where the massage goes — and whether it reaches the parts of your body that actually hurt. Most buyers do not know this until after they buy the wrong chair.',
     order: 1,
     publishedAt: '2026-04-27',
-    body: `<p>Coming soon.</p>`,
+    body: `<p>Most massage chair buyers spend their research time comparing prices, brands, and features. The track type — S-track, L-track, or SL-track — rarely gets the same attention. It should get the most attention of all, because it is the one spec that determines where the massage actually reaches on your body. Buy the wrong track type and no amount of 4D rollers or zero-gravity programs will fix the problem.</p>
+
+<p>This section explains what each track type covers, who each one is right for, and how to match the decision to where you actually hurt.</p>
+
+<h2>What a track is, and why it determines everything</h2>
+
+<p>The track is the physical rail inside the chair that the massage rollers travel along. The rollers move up and down this track — kneading, tapping, and rolling as they go. Whatever the track does not cover, the rollers cannot reach.</p>
+
+<p>This is the fundamental constraint that no feature upgrade can override. A chair with 4D rollers, body scanning, and twelve massage programs is still limited to the section of your spine the track was built to reach. If the track ends at your lower lumbar and your pain is in your sacrum or glutes, the massage stops exactly where you need it most.</p>
+
+<p>Track length is measured in inches. Most chairs fall between 45 and 53 inches. The number tells you the physical distance the rollers can travel. Longer tracks are not automatically better — the question is whether the track covers the right area for your body.</p>
+
+<h2>S-track: neck to lumbar, and that is where it stops</h2>
+
+<p>An S-track follows the natural S-curve of the spine from the base of the neck down to the lumbar region. It is named for the shape it traces. The track curves to match the cervical spine (neck), the thoracic spine (mid-back), and the lumbar spine (lower back), stopping there.</p>
+
+<p>What an S-track covers well: neck tension, shoulder tightness, upper-back knots, and mid-back stiffness. For buyers whose pain lives in the upper half of the back, an S-track chair delivers a precise and effective massage in exactly the right places.</p>
+
+<p>What an S-track does not cover: the sacrum, the glutes, and the backs of the thighs. If your lower back pain extends below the lumbar spine — into the hips, the tailbone area, or down the legs — an S-track chair will stop short of where you need it. This is the most common source of buyer disappointment in the massage chair category.</p>
+
+<p>S-track chairs in our catalog include the <strong>Inada Robo 4D</strong> and the <strong>Panasonic MAK1</strong>. Both are premium chairs with exceptional upper-back and neck massage. Neither is the right choice for buyers with sciatica, hip pain, or lower back pain that radiates downward.</p>
+
+<h2>L-track: extends under the glutes and into the thighs</h2>
+
+<p>An L-track takes the same spine-following path as an S-track but continues past the lumbar and curves under the seat, extending along the glutes and hamstrings. The name comes from the L-shape the extended track creates.</p>
+
+<p>The extension matters because the glutes and piriformis muscles are often the source — or a significant contributor — of lower back pain that radiates into the hips and legs. Sciatica, in particular, frequently involves the piriformis. An S-track chair cannot reach this area. An L-track chair can.</p>
+
+<p>What an L-track covers well: everything an S-track covers, plus the lower back at the sacral level, the glutes, and the upper hamstrings. For buyers with sciatica, hip tightness, or lower back pain that travels into their legs, an L-track chair addresses the anatomy that most needs attention.</p>
+
+<p>The tradeoff is coverage of the upper back. Because the L-track extends so far downward, it sometimes covers slightly less of the upper thoracic and cervical spine compared to a well-designed S-track. This is not a universal rule — it depends on the specific chair and track length — but it is worth noting for buyers whose primary pain is neck or upper-shoulder tension.</p>
+
+<p>L-track chairs in our catalog include the <strong>Infinity Dynasty 4D</strong> (49-inch track), the <strong>Infinity Evo Max 4D</strong> (49-inch track), the <strong>Infinity Genesis Max 4D</strong> (49-inch track), the <strong>AmaMedics Hilux 4D</strong> (53-inch track, the longest confirmed in the catalog), the <strong>Kahuna LM-6800</strong> (45-inch track), and the <strong>Daiwa Legacy 4</strong> (49-inch track). The AmaMedics Hilux's 53-inch track provides the deepest glute and hamstring coverage of any L-track chair we have researched.</p>
+
+<h2>SL-track: full coverage from neck to glutes</h2>
+
+<p>An SL-track combines the full S-curve of the spine with the L-shaped glute extension into a single continuous track. It follows the cervical spine, curves through the thoracic and lumbar, and extends under the seat to cover the sacrum and glutes.</p>
+
+<p>This is the most comprehensive track option available. An SL-track chair covers the upper back and neck as thoroughly as a dedicated S-track chair while also extending into the lower back, sacrum, and glutes the way an L-track does. For buyers with pain in multiple regions — both upper-back tension and lower back or hip discomfort — an SL-track chair is almost always the right choice.</p>
+
+<p>The reason SL-track chairs are not the automatic recommendation for everyone comes down to two factors: price and upper-back precision. SL-track chairs tend to cost more than comparable S-track or L-track chairs because the extended mechanism requires a longer frame and more complex engineering. And for buyers whose pain is exclusively in the neck and upper back, the additional length adds cost without adding benefit.</p>
+
+<p>SL-track chairs in our catalog include the <strong>Osaki OS-Pro Admiral II</strong> (49-inch track), the <strong>Ogawa Master Drive LE 4D</strong>, the <strong>Ogawa Master Drive AI 2.0 4D</strong>, the <strong>Bodyfriend Phantom Medical Care 4D SL</strong>, and the <strong>Ogawa Active XL 3D</strong>. The Admiral II is one of the most-recommended chairs in this category for buyers who want SL-track coverage in the $4,000 range.</p>
+
+<h2>Flex-track: the hybrid approach</h2>
+
+<p>A small number of chairs use a Flex-track, which combines elements of an SL-track and an L-track into a mechanism that can adjust its coverage range. The <strong>Infinity Imperial Syner-D</strong> in our catalog uses this system. It provides both full SL-track coverage and deeper L-track extension depending on the program, giving buyers the versatility of both in a single chair.</p>
+
+<p>Flex-track chairs represent the upper end of the market. The Infinity Imperial Syner-D is priced at $8,000 to $12,000 and is primarily recommended for buyers who want maximum coverage flexibility or who cannot decide between SL and L-track because they have significant pain across multiple zones.</p>
+
+<h2>Track type comparison at a glance</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Track type</th>
+      <th>Coverage area</th>
+      <th>Best for</th>
+      <th>Not ideal for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>S-track</strong></td>
+      <td>Neck, shoulders, upper and mid back, lumbar</td>
+      <td>Neck and upper-back tension, shoulder tightness</td>
+      <td>Sciatica, hip pain, lower back that radiates downward</td>
+    </tr>
+    <tr>
+      <td><strong>L-track</strong></td>
+      <td>Full spine plus glutes and upper hamstrings</td>
+      <td>Sciatica, hip tightness, lower back and glute pain</td>
+      <td>Buyers whose pain is exclusively in the upper back</td>
+    </tr>
+    <tr>
+      <td><strong>SL-track</strong></td>
+      <td>Full spine from neck through glutes</td>
+      <td>Multiple pain zones, both upper and lower back</td>
+      <td>Budget-constrained buyers (costs more for the same roller quality)</td>
+    </tr>
+    <tr>
+      <td><strong>Flex-track</strong></td>
+      <td>Adjustable: SL and deep L coverage</td>
+      <td>Buyers wanting maximum versatility</td>
+      <td>Buyers working with a defined budget</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>How to use track type to make your decision</h2>
+
+<p>Start with where you hurt. Be specific about it.</p>
+
+<p>If your pain is in your neck, shoulders, or upper and mid back — and it stays there — an S-track chair will cover you well. You do not need to pay for the additional length of an SL-track if your lower back and hips are not involved.</p>
+
+<p>If your lower back pain radiates into your hips, tailbone, or down your legs, you need either an L-track or an SL-track. The choice between those two depends on whether you also have significant upper-back or neck tension. If you do, go SL-track. If your upper back is not a major concern, an L-track chair will serve you well and may cost less for comparable roller quality.</p>
+
+<p>If you are not sure where your pain is centered, or if it moves around, the SL-track is the safer choice. It covers more ground and eliminates the risk of buying a chair that stops short of where you need it.</p>
+
+<p>Track type is the decision to make before price. A buyer who falls in love with a specific chair and then discovers it has the wrong track type for their pain has made an expensive mistake. Confirm the track type first, then filter by price, features, and brand within that group.</p>
+
+<p>Use the <a href="/finder">chair finder quiz</a> to filter by pain location — it uses track type as a primary filter based on your answers. If lower back and hip pain is part of your situation, it will surface only L-track and SL-track options. If you want to see how this decision plays out across specific chairs, the <a href="/best/lower-back-pain">best massage chairs for lower back pain</a> list is filtered to SL-track and L-track only.</p>
+
+<p>Once you have confirmed the right track type for your body, the next question is whether the chair will fit your room. That is covered in the <a href="/learn/room-fit">room fit section</a> of this guide.</p>
+
+<h2>Frequently asked questions</h2>
+
+<h3>Is an SL-track always better than an L-track?</h3>
+<p>Not always. An SL-track covers more area, but "more" is only better if that area is where you need the massage. For buyers with sciatica or hip pain and no significant upper-back tension, an L-track chair can deliver equivalent relief in the area that matters while potentially costing less. For buyers with pain across multiple zones, SL-track is the stronger choice.</p>
+
+<h3>What is the difference between an S-track and an L-track in practice?</h3>
+<p>Sit in an S-track chair and the rollers reach from your neck to your lower lumbar and stop. Sit in an L-track chair and the rollers continue past your lower back, curve under the seat, and press into your glutes and hamstrings. If your pain is entirely above the waist, you will not notice the difference. If it is below, you will notice it immediately.</p>
+
+<h3>Do SL-track chairs cost significantly more than L-track chairs?</h3>
+<p>At equivalent roller quality, yes — typically $500 to $1,500 more, depending on the tier. The extended frame and longer mechanism add cost. That said, the price overlap is substantial: there are SL-track chairs at $4,000 and L-track chairs at $10,000. Track type alone does not determine price. Compare within a budget range rather than across the entire market.</p>
+
+<h3>Can a track type be wrong for my height?</h3>
+<p>Yes, indirectly. Track length in inches determines how far the rollers physically travel. A buyer with a long torso in a chair with a short track may find the rollers stop before reaching their full lumbar or sacral region, regardless of track type. If body fit is a concern — particularly for buyers above 6'1" or with long torsos — confirm the track length in inches alongside the track type. The body fit section of this guide covers height and proportion fit in detail.</p>
+
+<h3>What does "4D" have to do with track type?</h3>
+<p>Nothing directly. The track type (S, L, SL) describes the path the rollers follow. The roller dimension (2D, 3D, 4D) describes how the rollers move within that path — 4D rollers can vary their speed and depth during a stroke, adding a more nuanced feel. A chair can be 4D and S-track, or 4D and SL-track. They are independent specifications. Track type determines coverage area; roller dimension determines massage feel.</p>`,
   },
 
-  // ── SECTION 2 ─────────────────────────────────────────────────────────────
+  // ── SECTION 2 ───────────────────────────────────────────────────────────────────────────
   {
     slug: 'roller-dimensions',
-    title: 'Roller Dimensions Explained: Width, Stroke, and Why Your Height Matters',
-    excerpt: 'Roller width and stroke length are the two specs that determine how well a chair covers your back. Here is what they mean and how to read them.',
+    title: '3D vs. 4D Massage Chair Rollers: What the Numbers Actually Mean',
+    excerpt: '3D and 4D refer to how the rollers move, not how many rollers a chair has. 3D rollers extend toward your body to vary pressure depth. 4D adds speed and rhythm variation that mimics a human therapist\'s hands. For most buyers, 3D is sufficient. 4D matters when massage feel is a top priority.',
     order: 2,
-    publishedAt: '2026-04-27',
-    body: `<p>Coming soon.</p>`,
+    publishedAt: '2026-04-28',
+    body: `<p>The "3D" or "4D" label on a massage chair is one of the most commonly misread specs in the category. It sounds like it refers to the number of rollers. It does not. It describes how the rollers move, specifically the range of motion they have and whether that motion includes variable speed. Understanding the difference takes about five minutes and it will change how you read every product page you look at from here on.</p>
+
+<h2>What the "D" actually stands for</h2>
+
+<p>The "D" stands for dimension, as in axis of movement. Each generation of roller technology added a new axis:</p>
+
+<p><strong>2D rollers</strong> move on a flat plane: up and down the spine, and side to side. They deliver a consistent stroke but cannot vary how deeply they engage your back muscles. Pressure intensity is fixed. Most entry-level chairs under $2,000 use 2D roller systems.</p>
+
+<p><strong>3D rollers</strong> add a third axis: they can extend outward toward your body or retract away from it. This is depth control. A 3D chair lets you dial in how firmly the rollers press into your back, from a light surface touch to deep-tissue pressure. This is the feature that makes the difference between a massage that skims the surface and one that actually reaches the muscle tissue underneath. The majority of chairs in the $3,000 to $8,000 range use 3D rollers.</p>
+
+<p><strong>4D rollers</strong> build on 3D by adding a fourth variable: speed variation. In a 3D chair, the rollers move at a consistent pace throughout a program. In a 4D chair, the rollers can slow down, pause, speed up, and pulse unevenly, approximating the rhythm of a human therapist's hands. The goal is to eliminate the "mechanical" quality that some buyers notice in standard roller systems. The Ogawa Master Drive LE and the AmaMedics Hilux 4D are current examples of 4D systems in the catalog.</p>
+
+<h2>Does 3D vs. 4D actually change how the massage feels?</h2>
+
+<p>Yes, but only in a specific way. The depth control in a 3D chair is the more functionally significant upgrade over 2D. Moving from 3D to 4D is a refinement of massage feel, not a structural change in what the chair can do.</p>
+
+<p>Most buyers who try a quality 3D chair find it entirely satisfying. The consistent stroke and adjustable depth deliver genuine therapeutic value for back pain, tension, and circulation. The Kahuna LM-6800, for example, is a well-regarded 3D chair that buyers with chronic lower back pain report using daily without any sense that they are missing something.</p>
+
+<p>The buyers for whom 4D makes a noticeable difference tend to be in one of two groups. The first group has experienced regular professional massage and is attuned to the rhythm variation a human therapist provides. For them, the mechanical consistency of even a good 3D system can feel slightly off. The second group has tried massage chairs before and found the experience "too robotic" to use regularly. For those buyers, 4D rhythm variation is not a luxury feature but a practical answer to a usage problem.</p>
+
+<p>For first-time buyers primarily focused on relief from lower back pain, shoulder tension, or sciatica, 3D is the right call. The pressure depth control is what matters for that goal, and 3D delivers it.</p>
+
+<h2>What is roller width, and why does it matter separately?</h2>
+
+<p>Roller width is a different spec from roller dimension, and it is frequently overlooked. It refers to how wide the roller track spans across your back, measured from one roller head to the other. Most chairs fall in the range of 10 to 13 centimeters. The difference matters for shoulder coverage.</p>
+
+<p>A roller track that is too narrow for your frame will miss the outer muscle groups along the shoulders and upper back, concentrating pressure near the spine but leaving the broader muscle tissue unaddressed. A track that is too wide for a narrow frame will do the opposite, with the rollers riding past the spine entirely on one side or the other.</p>
+
+<p>Most manufacturers do not publish roller width prominently. It is often buried in the technical specifications if it appears at all. Buyers with shoulder width above 18 inches, or anyone who has tried a massage chair and found that it did not address their shoulder and upper back tension, should specifically look up the roller span before committing to a purchase.</p>
+
+<p>Some chairs offer adjustable roller width, which addresses this problem directly. The Luraco i9 Max Plus is one of the few chairs that allows the user to set roller width to their body measurements. For broader-framed buyers, adjustable roller width is worth treating as a shortlist criterion, not a nice-to-have.</p>
+
+<h2>How roller specs interact with your body</h2>
+
+<p>Depth control (3D) matters most for buyers who need firm, targeted pressure into dense muscle tissue, which generally means larger-framed buyers or anyone with significant chronic tension in the lumbar or thoracic muscles. A 3D roller at maximum extension reaches further into the back than a 2D roller at its hardest setting. If previous chair experiences have felt "not firm enough," depth control is the spec to look at.</p>
+
+<p>Roller width matters for shoulder coverage regardless of height. A buyer who is 5'4" with broad shoulders has the same roller width concern as a buyer who is 6'2" with narrow shoulders. They are different variables.</p>
+
+<p>For petite buyers, the concern sometimes runs the other direction: a roller mechanism engineered for a larger frame may sit too wide to engage the correct pressure points on a narrower back. This is one of the reasons the body fit guide covers manufacturer-stated height and weight ranges: the roller geometry is calibrated for a physical range, and buyers near the edges of that range should verify fit before purchasing. The <a href="/learn/body-fit">body fit guide</a> covers this in detail.</p>
+
+<h2>When 4D is worth the premium</h2>
+
+<p>4D chairs typically run $500 to $1,500 more than comparable 3D models with similar track type, zero gravity, and air massage systems. That premium is justified in specific situations and not in others.</p>
+
+<p>It is likely worth it if: you have experienced regular professional massage and find mechanical consistency noticeable; you have tried a 3D chair and the rhythm felt too repetitive to use regularly; or massage feel is genuinely a top priority alongside (not instead of) the therapeutic functions.</p>
+
+<p>It is probably not worth it if: this is your first massage chair; your primary goal is lower back pain relief rather than a spa-quality massage experience; or the price difference puts meaningful pressure on your budget. The therapeutic value of a well-engineered 3D chair for back pain, sciatica, and tension relief is not diminished by not having 4D rhythm variation.</p>
+
+<p>One practical note: 4D systems have more mechanical complexity than 3D. That is not a reason to avoid them, but it is a reason to confirm that the warranty terms cover the roller mechanism specifically, and for how long.</p>
+
+<h2>How to use this when comparing chairs</h2>
+
+<p>When you are looking at a product page and see "3D" or "4D" listed, here is a practical read: if the chair is 3D and falls in your budget with the track type and zero gravity configuration you need, the roller dimension is not a reason to disqualify it. If you are comparing two chairs that are otherwise equal and one is 4D, ask yourself honestly whether feel matters enough to you to pay the difference. If you have tried a massage chair before and the rhythm bothered you, the answer is probably yes.</p>
+
+<p>The more practically important roller spec to research is width, particularly if you have broad shoulders or have previously found that chairs did not address your upper back and shoulder tension. That spec is worth looking up specifically rather than assuming it is covered.</p>
+
+<p>If you are still narrowing your options, the <a href="/finder">chair finder</a> walks through track type, body dimensions, and budget before surfacing a recommendation. Roller dimension questions are part of the logic. You can also look at the <a href="/best/lower-back-pain">best chairs for lower back pain</a> collection, where most of the featured chairs are 3D or 4D with SL-track.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Does a 4D massage chair have more rollers than a 3D?</strong></summary>
+<p>No. 4D refers to the roller's range of motion, specifically the addition of variable speed and rhythm. Most massage chairs have two or four roller heads regardless of whether they are rated 3D or 4D. The "D" describes how the rollers move, not how many there are.</p>
+</details>
+
+<details>
+<summary><strong>Can I adjust the depth on a 3D massage chair?</strong></summary>
+<p>Yes. Depth control is the defining feature of 3D rollers. Most 3D chairs allow you to adjust roller extension from a shallow surface stroke to a deeper, more penetrating pressure, typically through a dial or touchscreen setting. The range varies by model.</p>
+</details>
+
+<details>
+<summary><strong>Is 4D worth the extra cost?</strong></summary>
+<p>For most buyers, no. The therapeutic value of a quality 3D chair for back pain and tension relief is comparable. 4D matters most for buyers who have tried massage chairs and found the mechanical rhythm unsatisfying, or who come from regular professional massage and notice the rhythm difference. If that is not your situation, the premium is better spent on track type or zero gravity configuration.</p>
+</details>
+
+<details>
+<summary><strong>What roller width do I need?</strong></summary>
+<p>There is no universal answer, but the practical test is whether the rollers land on the muscle groups on either side of your spine or ride past them. Buyers with shoulder width above 18 inches should specifically check the roller span spec. If the manufacturer does not publish it, contact them directly before purchasing. A few chairs, including the Luraco i9 Max Plus, offer adjustable roller width, which eliminates the fit problem entirely.</p>
+</details>
+
+<details>
+<summary><strong>Does roller dimension affect durability or warranty coverage?</strong></summary>
+<p>The roller mechanism is typically covered under the structural warranty, which ranges from one to five years depending on the manufacturer. 4D systems have additional mechanical complexity due to the variable-speed motor. When comparing warranties on 4D chairs, confirm that the roller mechanism is specifically covered and for how long, rather than assuming the coverage matches a simpler system.</p>
+</details>`,
   },
 
-  // ── SECTION 3 ─────────────────────────────────────────────────────────────
+  // ── SECTION 3 ───────────────────────────────────────────────────────────────────────────
   {
     slug: 'zero-gravity',
     title: 'Zero Gravity: What It Actually Does and When It Is Worth It',
     excerpt: 'Zero gravity is one of the most marketed features in massage chairs. Here is what the position actually does to your spine, and when it matters enough to be a deciding factor.',
     order: 3,
-    publishedAt: '2026-04-27',
-    body: `<p>Coming soon.</p>`,
+    publishedAt: '2026-04-28',
+    body: `<p>Zero gravity is one of the most-marketed features in the massage chair category. It appears prominently on product pages, in advertising, and in sales conversations. It is also one of the most frequently misunderstood features — and understanding it takes about three minutes. Here is what zero gravity actually does, when it matters for the kind of relief you are looking for, and when it is not the differentiating factor it is often presented as.</p>
+
+<h2>What zero gravity actually is</h2>
+
+<p>Zero gravity is a reclining position, not a massage technique. When a chair enters zero gravity, it tilts backward so that your knees rise above the level of your heart. Your weight is distributed across the full length of the chair rather than concentrated through the base of your spine, the way it is when you sit upright. The effect is a significant reduction in spinal load.</p>
+
+<p>The term comes from NASA research on the body position that reduces physical stress on astronauts during launch. In that position, with knees elevated and weight evenly distributed, the spine experiences close to neutral gravitational load. Massage chair manufacturers adapted this position because it turns out to be the most comfortable position for receiving a massage, not just a useful posture for astronauts.</p>
+
+<p>What zero gravity does to your body during a massage: it opens the spinal vertebrae slightly, reducing compression between discs. It takes pressure off the lumbar muscles that are chronically engaged when you sit upright. It allows the legs to relax fully rather than bearing the weight of the lower half of the body. Buyers with chronic lower back pain consistently report that zero gravity recline is among the features they use most — not because the massage is different in this position, but because their body is more receptive to it.</p>
+
+<h2>Single-stage vs two-stage zero gravity</h2>
+
+<p>Chairs describe their zero gravity recline in one or two stages. The distinction matters in practice.</p>
+
+<p>A single-stage zero gravity chair has one preset reclined position where the knees are above the heart. The chair reclines to that angle and stops. Most chairs in the $3,000 to $5,000 range offer single-stage zero gravity.</p>
+
+<p>A two-stage zero gravity chair adds a second, deeper recline — a further tilt backward that brings the body closer to fully horizontal and elevates the legs higher. In the second stage, the spinal decompression is more pronounced and the sensation of weight reduction is noticeably greater. Most buyers who use two-stage zero gravity regularly describe the second stage as the position where the massage feels most effective.</p>
+
+<p>Among the chairs in our catalog with confirmed two-stage zero gravity: the <strong>Kahuna LM-6800</strong>, the <strong>Kahuna LM-6800S</strong>, the <strong>AmaMedics Hilux 4D</strong>, the <strong>Ogawa Master Drive LE 4D</strong>, and the <strong>Ogawa Active XL 3D</strong>. If two-stage is important to you, confirm it in the specifications — not all chairs are explicit about stage count in their marketing materials.</p>
+
+<h2>Zero gravity vs a zero gravity recliner</h2>
+
+<p>This is a common search because many buyers are comparing a standalone zero gravity recliner (the kind sold for $300 to $800 at furniture stores) against a full massage chair that includes the position. The comparison is worth making directly.</p>
+
+<p>A zero gravity recliner achieves the same knee-above-heart body position and delivers the same spinal decompression benefit. If that postural benefit is the primary goal, a zero gravity recliner is a valid and significantly cheaper option. Where it differs from a massage chair is that it provides no active massage. The relief comes entirely from the body position, not from mechanical stimulation of the muscles.</p>
+
+<p>A zero gravity massage chair delivers the postural benefit of the reclining position and combines it with active roller massage, airbag compression, heat therapy, and other mechanisms that work on the muscles and soft tissue directly. For buyers with muscular tension, chronic pain, or specific therapeutic goals, the combination is meaningfully different from the position alone.</p>
+
+<p>The practical guidance: if your primary goal is general relaxation and lower back decompression after a long day, and you are working with a limited budget, a zero gravity recliner accomplishes the postural part. If your goal is muscular relief — tension in the back, neck, or hips that requires active pressure to release — the massage chair delivers something the recliner cannot.</p>
+
+<h2>When zero gravity meaningfully changes the experience</h2>
+
+<p>For buyers with lower back pain, particularly pain related to disc compression or prolonged sitting, the zero gravity position often makes the difference between a massage that feels effective and one that feels merely pleasant. In an upright or conventional reclined position, the lumbar muscles are still bearing some load. In zero gravity, they are not. A massage reaching compressed lumbar tissue in a deloaded position can access muscles that would otherwise be partially guarded.</p>
+
+<p>For buyers with circulation issues in the legs — swelling, heaviness, or fatigue from prolonged standing or sitting — the elevated leg position in zero gravity promotes venous return, which is why many buyers report their legs feeling noticeably lighter after a session.</p>
+
+<p>For buyers whose primary complaint is neck and shoulder tension, zero gravity is less critical. The upper body receives the same roller massage in any reclining position. The specific benefit of zero gravity is concentrated in the lower back and legs, so buyers whose pain lives in the upper half of the back may not notice a significant difference between zero gravity and standard recline.</p>
+
+<h2>Which chairs do not have zero gravity</h2>
+
+<p>Most massage chairs priced above $3,000 include zero gravity. It has become a near-standard feature at this price point. The notable exception in our catalog is the <strong>Panasonic MAK1</strong>, priced at $14,499. This is worth noting specifically because the MAK1 is a premium chair that omits zero gravity entirely — a deliberate design decision by Panasonic rather than a cost-saving measure. Buyers who consider the MAK1 should be aware that zero gravity is not part of the experience.</p>
+
+<p>Below $3,000, zero gravity becomes less consistent. Some entry-level chairs include it; others do not. If zero gravity is important to your use case, confirm it in the specifications before purchasing rather than assuming it is present.</p>
+
+<h2>How to use this when making your decision</h2>
+
+<p>Zero gravity should move up your priority list if lower back decompression or leg fatigue is part of what you are hoping the chair addresses. In that case, look for two-stage zero gravity specifically — the second stage provides noticeably more relief than single-stage for buyers with significant lower back involvement.</p>
+
+<p>Zero gravity can stay lower on your priority list if your pain is primarily in the neck, shoulders, or upper back, and your main goal is muscular tension relief in that area. The feature will still be comfortable and useful, but it is not the differentiating factor for upper-body pain the way track type is.</p>
+
+<p>If you are comparing chairs and one has zero gravity while another does not at the same price, the one with zero gravity is almost always the better choice for long-term daily use. The position simply makes the chair more comfortable to spend 20 to 30 minutes in, regardless of where your specific pain is.</p>
+
+<p>Use the <a href="/finder">chair finder quiz</a> to filter by zero gravity alongside your other criteria. If lower back pain or leg fatigue is part of your situation, it surfaces only chairs with confirmed zero gravity and flags which ones include two-stage. For buyers specifically focused on lower back relief, the <a href="/best/lower-back-pain">best massage chairs for lower back pain</a> page is filtered to SL-track and L-track chairs, the majority of which include zero gravity.</p>
+
+<p>The track type decision — which part of your body the massage actually reaches — is the prior question. Zero gravity determines how comfortable and effective the massage is once you have the right track. That decision is covered in the <a href="/learn/track-types">track types section</a> of this guide.</p>
+
+<h2>Frequently asked questions</h2>
+
+<h3>Does zero gravity actually reduce back pain?</h3>
+<p>The zero gravity position reduces spinal compression by distributing body weight more evenly. For buyers with disc-related lower back pain or pain that comes from prolonged sitting, this decompression is often described as immediate and significant relief. It does not treat the underlying cause of chronic pain, but it reduces the mechanical load on the lower spine during the session, which allows the massage component to be more effective on the surrounding muscles.</p>
+
+<h3>How long should you sit in zero gravity?</h3>
+<p>Most buyers use zero gravity for the full duration of a massage session, typically 15 to 30 minutes. There is no standard medical guideline on duration. For buyers new to the position, starting with shorter sessions and increasing over time is a practical approach, particularly for those with existing spinal conditions who should consult a physician before regular use.</p>
+
+<h3>Is two-stage zero gravity worth the extra cost?</h3>
+<p>For buyers with lower back pain, sciatica, or leg fatigue, two-stage zero gravity is a meaningful upgrade. The second stage provides noticeably more spinal decompression and is the position most buyers with these conditions report using most often. For buyers whose primary goal is upper-back and neck massage, the difference between single and two-stage is less significant, and the cost premium may not be justified.</p>
+
+<h3>Can anyone use a zero gravity massage chair?</h3>
+<p>Most buyers can. Buyers with certain conditions — recent spinal surgery, severe osteoporosis, or conditions where the Trendelenburg (inverted) position is contraindicated — should consult a physician before using a zero gravity chair. The position is passive and low-impact for most people, but it is worth checking with a doctor if you have a pre-existing spinal condition.</p>
+
+<h3>What is the difference between zero gravity and standard recline?</h3>
+<p>Standard recline tilts the chair backward while the legs remain below or level with the torso. Zero gravity goes further, raising the legs so that the knees are above the heart. This additional elevation is what distributes the body's weight evenly across the chair and produces the spinal decompression effect. A chair reclined to 45 degrees without leg elevation is not zero gravity, regardless of the angle.</p>`,
   },
 
-  // ── SECTION 4 ─────────────────────────────────────────────────────────────
+  // ── SECTION 4 ───────────────────────────────────────────────────────────────────────────
   {
     slug: 'body-fit',
     title: 'How to Size a Massage Chair for Your Body',
@@ -151,23 +425,365 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Consider shoulder width if you have had fit issues before, or if you are broadly built. The Ogawa Active XL is the only chair in our catalog specifically engineered for this. Most other chairs assume a standard frame.</p>
 
-<p>Track type, roller intensity, and features can all be decided after you have confirmed the chair fits your body. A chair with every feature you want that does not fit correctly is still the wrong chair.</p>
-                 `,
+<p>Track type, roller intensity, and features can all be decided after you have confirmed the chair fits your body. A chair with every feature you want that does not fit correctly is still the wrong chair.</p>`,
   },
 
-  // ── SECTION 5 ─────────────────────────────────────────────────────────────
+  // ── SECTION 5 ───────────────────────────────────────────────────────────────────────────
   {
     slug: 'room-fit',
     title: 'Room Fit: How Much Space a Massage Chair Actually Needs',
     excerpt: 'Space-saving chairs still need space. Here is how to measure your room correctly, what wall clearance actually means, and how to pick a chair that fits before it is delivered.',
     order: 5,
-    publishedAt: '2026-04-27',
-    body: `<p>Coming soon.</p>`,
+    publishedAt: '2026-04-28',
+    body: `<p>Most massage chairs arrive larger than buyers expect. In its upright position, a typical full-size chair runs between 50 and 56 inches long and 28 to 32 inches wide. Those dimensions are manageable for most dedicated rooms. What surprises buyers is the reclined measurement: when a full-size massage chair reaches its zero-gravity position, it extends to between 65 and 76 inches in length. That is over six feet of occupied floor, and it does not include the clearance you need around the chair to get in and out comfortably.</p>
+
+<p>This section is a practical measuring guide. It covers the two numbers that determine whether a chair fits in your space, what wall clearance means and how space-saving technology changes it, and how to verify fit before you commit.</p>
+
+<h2>The two footprint numbers that actually matter</h2>
+
+<p>Every massage chair has two meaningful footprints: the space it occupies when you are sitting upright, and the space it occupies when fully reclined.</p>
+
+<p>Manufacturers typically publish one set of dimensions. That number almost always describes the upright position. It is the smaller, more favorable number, and it will not tell you whether the chair will work in your room once you begin using it.</p>
+
+<p>In the upright position, most full-size massage chairs run between 50 and 56 inches long and 28 to 32 inches wide. These are workable dimensions for a dedicated room. The problem is that when a chair reclines to zero gravity, it extends forward from the base. A chair that is 52 inches long when upright may reach 72 inches when reclined. If the foot of the chair was already close to a wall or a piece of furniture when you sat down, it will hit something when you try to recline.</p>
+
+<p>Before you buy, find the reclined footprint in the product specifications. Not all manufacturers publish it prominently, but it is the number that determines whether the chair will actually work in your space. If you cannot find it listed, contact the retailer and ask for the fully reclined length before ordering.</p>
+
+<h2>Wall clearance: what "space-saving" actually means</h2>
+
+<p>Traditional massage chairs require 12 to 18 inches of clearance between the back of the chair and the wall. As the chair reclines, the backrest swings backward before the leg rest extends forward. If the chair is too close to the wall, the backrest cannot complete that rearward arc and the reclining mechanism stalls.</p>
+
+<p>Space-saving chairs, also called zero-wall or wall-hugger chairs, solve this differently. Instead of swinging backward as they recline, these chairs slide the seat forward on a track. The backrest stays close to the wall while the leg rest extends in front of the user. The mechanical result is that the chair needs only a few inches of clearance from the wall rather than a foot and a half.</p>
+
+<p>Among the chairs in our catalog with confirmed wall clearance measurements, the range is narrow but the distinction matters. Several models require only 2 inches from the wall: the <strong>Osaki OS-Pro Admiral II</strong>, the <strong>Infinity Dynasty 4D</strong>, the <strong>Infinity Evo Max 4D</strong>, and the <strong>Infinity Genesis Max 4D</strong>. The <strong>Kahuna LM-6800</strong> and <strong>Kahuna LM-6800S</strong> require 3 inches. These figures come from manufacturer specifications and describe the minimum clearance the reclining mechanism needs to function correctly.</p>
+
+<p>The practical difference is significant for room planning. A traditional chair positioned 15 inches from the wall uses 15 inches of floor space the chair itself does not occupy. A space-saving chair at 2 inches from the wall reclaims that floor entirely. In a room where every foot matters, this is often the difference between a chair that fits and one that does not.</p>
+
+<h2>How much total floor space does a massage chair need?</h2>
+
+<p>Floor space planning requires more than matching the chair's dimensions to the room's dimensions. A massage chair is not furniture you walk past. You sit in it, stand up from it, and typically move around it. The chair's footprint is the starting point, not the complete picture.</p>
+
+<p>For comfortable use, allow at least 18 inches of clearance on each side of the chair. This gives you room to step in from either side and to exit when the footrest is extended. A chair positioned against a side wall with less clearance than that becomes awkward to get in and out of over time, and in practice, awkward chairs get used less.</p>
+
+<p>A practical planning rule: take the reclined length of the chair you are considering, add 18 inches to each side for lateral clearance, and confirm the front of the reclined footrest does not extend into furniture or a wall. That combined rectangle is the floor area your chair effectively requires.</p>
+
+<p>For a typical mid-range chair with a reclined footprint of 70 inches long by 30 inches wide, this works out to roughly 8 feet by 7.5 feet of dedicated floor space. A 10 by 10 foot room accommodates a massage chair comfortably. A 9 by 9 foot room will work with careful positioning. Rooms smaller than 8 feet in either dimension are worth measuring carefully against the specific chair's published dimensions before purchasing.</p>
+
+<h2>Zero gravity and what it does to the reclined footprint</h2>
+
+<p>Most massage chairs priced above $3,000 include zero-gravity recline. This position tilts the chair so that your knees rise above your heart, redistributing spinal load more evenly. It is one of the most-used features buyers report after purchase, and it affects room planning in a specific way.</p>
+
+<p>Zero-gravity recline extends the chair's footprint more than standard recline. The leg rest rises and extends forward while the backrest drops back. Two-stage zero gravity, which is standard on most mid-range and upper-range chairs, extends the leg rest further than single-stage, producing the longest reclined footprint of any position the chair is capable of reaching.</p>
+
+<p>If you plan to use zero gravity regularly, and most buyers do, the zero-gravity reclined dimensions are the ones worth planning around. Many manufacturers publish only the standard reclined dimensions. When in doubt, ask the retailer for the zero-gravity footprint specifically. The difference between a standard recline and a full zero-gravity position can be 4 to 6 inches of additional length, which is enough to matter in a tight room.</p>
+
+<h2>How to measure your room before you buy</h2>
+
+<p>The most reliable way to verify fit before ordering is to tape the chair's reclined footprint on your floor. This takes less than five minutes and removes guesswork entirely.</p>
+
+<p>Measure the space where you intend to place the chair, accounting for the wall clearance you will need behind it. Mark the chair's reclined length and width on the floor with painter's tape. Then walk around it. Stand at the foot and confirm there is nothing in the path of where the leg rest will extend. Check that each side has at least 18 inches of comfortable clearance. If the taped layout works well, the chair will fit. If it feels tight or awkward with tape on the floor, it will feel tighter with a chair in place.</p>
+
+<p>Also measure your doorways. Most massage chairs are 28 to 32 inches wide. Most interior doorways are 32 to 36 inches wide, which accommodates delivery without difficulty. Narrower doorways, which appear in older homes and tight hallways, are worth measuring against the specific chair's width before scheduling delivery. White-glove delivery services typically assess access before attempting installation, but confirming it yourself in advance avoids any surprises on delivery day.</p>
+
+<h2>Small rooms: what actually works</h2>
+
+<p>The most common question in this category is whether a massage chair can work in a smaller dedicated space: a converted office, a guest room being repurposed, or a bonus room that doubles as something else.</p>
+
+<p>The short answer is yes, with the right chair. A space-saving chair with 2 to 3 inches of wall clearance, positioned in a corner so that two walls bound the back and one side, leaves the remaining two sides open for entry. Corner placement gives up nothing in functionality and recovers significant floor space compared to center-of-room positioning.</p>
+
+<p>If space-saving is a firm requirement for your room, the <a href="/best/small-spaces">best massage chairs for small spaces</a> on our site are filtered specifically for confirmed space-saving specifications. You can also use the <a href="/finder">chair finder quiz</a> to filter by room constraints alongside your other criteria, which keeps the results focused on chairs that will actually fit your situation.</p>
+
+<p>One practical note on room sharing: the room does not have to be used exclusively for the massage chair. Many buyers set up in the corner of a home office or a media room. What matters is that the chair's reclined footprint and entry clearance are not blocked by other furniture. The chair coexists fine with other uses of the space as long as those measurements are respected.</p>
+
+<h2>How to use room fit to narrow your choices</h2>
+
+<p>Room fit is most useful as a filter before you evaluate any other specs. Here is how to apply it in practice.</p>
+
+<p>Start with the space you have. Measure the room and identify where the chair would realistically sit. Note the wall it will back against, the natural entry path, and whether there is room for a side table. The placement that feels right during a walkthrough is almost always the right placement.</p>
+
+<p>Then determine whether space-saving is a requirement. If the intended wall position has 14 or more inches of clearance behind it, most chairs will work. If you have 6 inches or less, you are looking specifically at space-saving chairs. At 2 to 3 inches of clearance, you need a confirmed zero-wall chair with a verified wall clearance spec from the manufacturer, not just a marketing description.</p>
+
+<p>Once room fit is confirmed, move to the other sections of this guide. A chair that fits your room perfectly but does not fit <a href="/learn/body-fit">your body</a> is still the wrong chair. Room fit is a gate, not a recommendation.</p>
+
+<h2>Frequently asked questions</h2>
+
+<h3>Can I put a massage chair against the wall?</h3>
+<p>Not with a traditional chair, and not directly against it. Traditional massage chairs need 12 to 18 inches of clearance to recline. Space-saving chairs, also called zero-wall chairs, are specifically engineered to recline with as little as 2 to 3 inches from the wall. If your room requires placement close to a wall, look only at chairs with a confirmed space-saving or zero-wall specification and verify the exact clearance measurement with the retailer before ordering.</p>
+
+<h3>How much space does a zero-gravity chair need when reclined?</h3>
+<p>Most full-size chairs with zero-gravity recline extend to between 65 and 76 inches in length when in the zero-gravity position. Two-stage zero gravity typically produces the longest reclined footprint. Take that length, add the wall clearance required behind the chair and at least 18 inches of lateral clearance on each side, and you have the total floor area to plan around.</p>
+
+<h3>What doorway width do I need for delivery?</h3>
+<p>Most massage chairs are 28 to 32 inches wide. Standard interior doorways are 32 to 36 inches wide, which accommodates most chairs without difficulty. Measure the narrowest doorway or hallway on the path from your front door to the intended room. If any passageway is under 32 inches, confirm the specific chair's width with the retailer before ordering. White-glove delivery services will typically flag access issues before the delivery date.</p>
+
+<h3>Will a massage chair work in a small apartment?</h3>
+<p>A space-saving chair can work in an apartment if the room is at least 8 by 8 feet and you plan placement carefully. Corner positioning helps by using two walls to bound the chair's back and one side, leaving the remaining sides accessible for entry. The <a href="/finder">chair finder</a> on this site allows filtering by space constraints so you can identify chairs that are realistically sized for smaller rooms.</p>
+
+<h3>Do I need to prepare my floor before installation?</h3>
+<p>Most massage chairs work on any standard flooring, including hardwood, carpet, laminate, and tile. Thicker carpet can cause slight instability in some chairs during operation. On hard floors, a chair mat is optional but reduces any tendency for the chair to shift. Most white-glove delivery services position and level the chair during setup and will advise you if they notice any flooring issues.</p>`,
+  },
+
+  // ── SECTION 6 ───────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'brands-overview',
+    title: 'Massage Chair Brands Compared: What Each Brand Actually Stands For',
+    excerpt: 'There are roughly 15 active massage chair brands selling in the US. Some share manufacturing facilities under different names. Others have decades of independent engineering behind them. Here is what the brand name on a chair actually tells you — and what it does not.',
+    order: 6,
+    publishedAt: '2026-04-28',
+    body: `<p>Brand name is one of the most searched terms in the massage chair category — and one of the least useful shortcuts for most buyers. "Is Osaki a good brand?" and "Is Infinity worth the money?" are questions that sound like they have yes or no answers. They do not. What the brand tells you depends on which model you are looking at, what price range you are shopping in, and what you are optimizing for. This guide explains what the major brands actually represent so that brand becomes a useful filter rather than a confusing variable.</p>
+
+<h2>Why brand matters differently in this category</h2>
+
+<p>In most consumer electronics, brand is a proxy for quality control and design philosophy. In massage chairs, brand carries two additional pieces of information: where the chair is manufactured and how well the company supports its products after the sale.</p>
+
+<p>Parts availability matters more for a $6,000 massage chair than it does for a $200 appliance. A chair that breaks outside its warranty period needs serviceable replacement parts. Brands that have been in the US market for more than a decade typically have better parts infrastructure than newer entrants. Warranty terms also vary significantly across brands, and the coverage gap between a one-year and a five-year structural warranty on a high-ticket purchase is not trivial.</p>
+
+<p>The second thing brand signals — less reliably but usefully — is engineering heritage. Japanese-manufactured brands have a track record for massage quality that goes back decades, built on a domestic market with high standards for therapeutic technology. That heritage is real, though it comes at a price premium. US-distributed brands that manufacture in China have improved substantially over the past ten years. The gap is narrower than it was, but not gone.</p>
+
+<h2>Osaki and Infinity: the two dominant US distributors</h2>
+
+<p>Osaki and Infinity are the two brands you will encounter most frequently when shopping in the US market. Both operate as US-based distributors with manufacturing in China. Both offer broad catalogs that span budget entry-level chairs to high-end premium models. Neither is a monolithic quality statement. The right way to think about them is as umbrella brands rather than engineering lineages.</p>
+
+<p><strong>Osaki</strong> is the larger of the two in terms of catalog breadth. The Osaki OS-Pro Admiral II ($3,999) is a reliable mid-range SL-track chair that consistently ranks well for value. The Osaki OS-Pro Maestro LE 2.0 ($5,999 to $8,999) steps up in roller quality and program depth. At the top, the Osaki OS-Pro 4D DuoMax ($12,999) is a dual-roller premium system. Osaki also owns the Titan brand, which shares manufacturing with Osaki but is positioned as the value line — functionally similar chairs at lower prices with fewer features and shorter warranty terms.</p>
+
+<p><strong>Infinity</strong> skews toward the higher end. The Infinity Dynasty 4D ($11,999) and the Infinity Imperial Syner-D ($8,000 to $12,000) are serious chairs targeted at buyers who want near-luxury performance without crossing into the ultra-premium Japanese segment. Infinity's mid-range options fill the $5,000 to $9,000 range with competitive feature sets.</p>
+
+<p>For buyers comparing Osaki and Infinity directly: the brands are more similar than the marketing suggests. Evaluate specific models head-to-head rather than treating one brand as categorically superior. Both back their products with US-based customer support and parts availability, which matters for a purchase in this price range.</p>
+
+<h2>Japanese heritage brands: Inada, Panasonic, Synca, JPMedics</h2>
+
+<p>Japanese-made chairs occupy a distinct tier in the market. They cost more, they are harder to find in physical showrooms, and they have a customer base that is unusually loyal. The reasons are real.</p>
+
+<p><strong>Inada</strong> has been manufacturing massage chairs in Japan since 1962. The DreamWave uses a proprietary S-track system with a motion that mimics a Thai massage stretch. The Robo 4D adds 4D roller technology to that heritage. Inada chairs are not the right buy for everyone — they are Japanese-made and priced accordingly, starting around $6,999 — but for buyers who have tried multiple chairs and found them unsatisfying, Inada consistently earns the strongest responses from that group.</p>
+
+<p><strong>Panasonic</strong> brings consumer electronics manufacturing discipline to the category. The Real Pro series chairs are engineered with a precision that is hard to find elsewhere. The Panasonic MAK1, notably, is a $14,499 chair with no zero-gravity recline. That is not an oversight. Panasonic optimized for therapeutic effectiveness in the upright and slight-recline position rather than adding features at the expense of massage quality. Buyers who research Panasonic tend to be specification-driven and unimpressed by feature counts.</p>
+
+<p><strong>Synca</strong> is Japanese-designed and comes in at a more accessible price point. The JP970 ($4,999) and JP1100 ($9,999) are well-regarded for build quality and massage feel relative to their price. Synca is a strong consideration for buyers who want Japanese design sensibility without the full Inada premium.</p>
+
+<p><strong>JPMedics</strong> targets the ultra-premium segment with the Kumo 4D ($8,499), KaZe Duo ($12,999), and Kozue 5D ($14,999). The brand positions itself around Japanese craftsmanship and therapeutic depth.</p>
+
+<h2>Luraco: the only major US-assembled brand</h2>
+
+<p>Luraco assembles its chairs in Arlington, Texas. The i9 Max Plus ($13,490) is their flagship, and it is legitimately differentiated from Chinese-manufactured chairs in ways that matter: US assembly means more straightforward parts availability, domestic warranty service, and no supply chain delays for replacements. Luraco also publishes its specification data more thoroughly than most competitors. The i9 Max Plus is confirmed to accommodate users up to 6'10" — the tallest verified range in the current catalog — and offers adjustable roller width, which almost no other brand provides.</p>
+
+<p>Luraco is not the right choice for every buyer. The price puts it in the ultra-premium segment and the design aesthetic is more clinical than sanctuary. But for buyers who prioritize domestic manufacturing, long-term serviceability, and precise body fit, it is the most differentiated option available.</p>
+
+<h2>Mid-range value brands: Kahuna, AmaMedics, Kyota</h2>
+
+<p><strong>Kahuna</strong> built its reputation on the LM-6800 series, which has become one of the most-reviewed chairs in the $3,000 to $4,000 range. The LM-6800S ($3,799) is a consistent recommendation for buyers with lower back and hip pain who need SL-track coverage without a large budget outlay. Kahuna is not an innovative brand and does not need to be. The LM-6800 earned its position by being reliable and effective at a price point where many competitors underdeliver.</p>
+
+<p><strong>AmaMedics</strong> spans budget and mid-range with the Renew 3D ($1,299) at entry level and the Hilux 4D ($4,999) as their flagship. The Hilux 4D is a credible 4D chair at a price significantly below what Japanese brands charge for the same roller technology. Buyers who want 4D performance without a five-figure budget should look at it closely.</p>
+
+<p><strong>Kyota</strong> sits in the $2,999 range with the Genki M380. It is a reasonable option in its price tier but does not have the track record or parts availability of Kahuna at a similar price point.</p>
+
+<h2>Premium design-forward brands: Bodyfriend, Ogawa, Daiwa</h2>
+
+<p><strong>Bodyfriend</strong> is a South Korean brand with a strong medical device positioning. Several of their chairs have FDA 510(k) clearance as medical devices, which is unusual in the category. The Phantom Medical Care 4D SL ($11,000) and the Phantom II ($8,499) are serious chairs targeted at buyers who want clinical credibility alongside luxury design. Bodyfriend is one of the few brands where the chair functions as a design statement as well as a therapeutic tool.</p>
+
+<p><strong>Ogawa</strong> is a Malaysian brand with strong engineering and a premium design sensibility. The Master Drive LE 4D and Master Drive AI 2.0 4D sit in the $6,000 to $10,000 range and are consistently well-reviewed for massage quality. Both offer the two-stage zero gravity configuration that is worth looking for in this price tier.</p>
+
+<p><strong>Daiwa</strong> offers the Legacy 4 ($9,500), a well-built premium chair that receives strong buyer feedback particularly for full-body coverage and program quality.</p>
+
+<h2>Human Touch: a different philosophy</h2>
+
+<p>Human Touch is a US-based brand that takes a different approach to roller motion. Rather than a standard oval roller path, Human Touch uses a figure-eight motion designed to more closely replicate a therapist's hand movement. The Laevo ZG ($3,999 to $4,499) is their current primary offering.</p>
+
+<p>The figure-eight roller path produces a noticeably different massage feel. Some buyers prefer it strongly; others find the standard oval more effective. Human Touch is worth trying in person if you have showroom access or are purchasing through a dealer with a return window. It is not better or worse than standard roller systems — it is different enough that personal preference matters.</p>
+
+<h2>Budget brands: Real Relax and Titan</h2>
+
+<p><strong>Real Relax</strong> occupies the $1,500 to $4,500 range with chairs that deliver basic massage functions at accessible prices. The build quality reflects the price point. For buyers who can stretch to $3,000 to $4,000, the step up to Kahuna or AmaMedics delivers a meaningfully different experience in build quality and massage effectiveness.</p>
+
+<p><strong>Titan</strong> shares manufacturing with Osaki. The 3D Prestige ($4,999) is a value-positioned version of mid-range Osaki designs. If budget is the primary constraint and a Titan model has the track type and features you need, the Osaki connection provides reasonable comfort on parts availability.</p>
+
+<h2>How to use brand as a filter, not a destination</h2>
+
+<p>The most useful way to apply brand to your decision is as a final filter after you have already narrowed by track type, budget, and body fit — not as a starting point. A buyer who determines they need an SL-track chair in the $4,000 to $6,000 range has already eliminated most of the catalog. Within the remaining options, brand becomes a tiebreaker: warranty depth, parts availability, and whether the US support infrastructure is strong enough to justify the purchase.</p>
+
+<p>If you are still narrowing by use case and budget, the <a href="/finder">chair finder</a> is the faster path. If you already know the track type and price range, the <a href="/best/lower-back-pain">best chairs for lower back pain</a> and the <a href="/learn/track-types">track type guide</a> will help you evaluate specific models within your shortlist.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Is Osaki a good brand?</strong></summary>
+<p>Yes, in the specific sense that Osaki backs its products with US-based customer support, reasonable parts availability, and multi-year warranties on structural components. Whether a specific Osaki model is the right chair for your situation depends on the model, your track type requirement, and your budget. Osaki is not a quality guarantee — it is a brand with a reliable track record and a broad enough catalog that most buyers can find a model worth evaluating.</p>
+</details>
+
+<details>
+<summary><strong>What is the difference between Osaki and Titan?</strong></summary>
+<p>Osaki and Titan share a parent company and manufacturing facilities. Titan is the value line — similar mechanical systems at lower prices with fewer features and shorter warranty coverage. If you are comparing an Osaki and a Titan model that appear similar, the Osaki version will typically have better warranty terms and more program options.</p>
+</details>
+
+<details>
+<summary><strong>Are Japanese massage chair brands worth the premium?</strong></summary>
+<p>For buyers who are serious about massage quality and have the budget, yes. Japanese-manufactured chairs — particularly Inada and Panasonic — have a track record for therapeutic effectiveness and build longevity that the best Chinese-manufactured chairs are still catching up to. The premium is real: typically $2,000 to $5,000 more than a comparable Chinese-manufactured model. Whether it is justified depends on how central massage quality is to your goal versus features, design, or price.</p>
+</details>
+
+<details>
+<summary><strong>Which brand has the best warranty?</strong></summary>
+<p>Luraco offers some of the strongest warranty coverage in the market, which is part of what justifies the price premium for a US-assembled product. Among the larger-catalog brands, Osaki and Infinity both offer multi-year structural warranties on their mid-range and premium models. Warranty terms vary by model, not just brand — check the roller mechanism and structural frame coverage separately from parts and labor, since those often differ.</p>
+</details>
+
+<details>
+<summary><strong>Can I try a massage chair before buying?</strong></summary>
+<p>Showroom access varies significantly by brand and region. Osaki and Infinity have the widest dealer networks in the US. Luraco sells direct. Japanese brands like Inada and Panasonic are harder to find in physical showrooms. For brands you cannot try in person, the 30-day in-home trial offered by many dealers is the practical alternative. It gives you time to evaluate the chair in your actual living environment, which tells you more than a five-minute showroom session anyway.</p>
+</details>`,
+  },
+
+  // ── SECTION 7 ───────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'how-to-buy',
+    title: 'How to Buy a Massage Chair: A Step-by-Step Decision Framework',
+    excerpt: 'The right massage chair for you depends on five decisions made in a specific order: physical need, budget, track type, body fit, and room fit. Make them in the wrong order and you will either overspend or land on a chair that does not solve the problem you bought it for.',
+    order: 7,
+    publishedAt: '2026-04-28',
+    body: `<p>Most massage chair buyers do their research the wrong way. They start with price, browse by brand, and filter by features they have read about but do not fully understand yet. That approach produces two common outcomes: they spend too much on specs that do not matter for their situation, or they spend too little and buy a chair that does not address the physical problem they wanted to solve. This guide gives you the right sequence. Work through it in order and you will arrive at a short list of chairs that actually fit your situation.</p>
+
+<h2>Step 1: Start with your physical needs</h2>
+
+<p>Before you look at a single chair, write down what you are actually trying to fix. Be specific. "Back pain" is not specific enough. Lower back pain that radiates into your hips is different from upper back and shoulder tension that builds up across a workday. Sciatica flares are different from general lumbar stiffness. The distinction matters because different track types address different areas of the body, and track type is the most consequential decision you will make.</p>
+
+<p>The questions that shape track type selection: Is your pain concentrated in the upper and mid back (neck, shoulders, thoracic spine)? Or does it extend into the lower back, glutes, and hips? If the answer is upper-body focused, an S-track chair covers that range well. If the pain extends into the lower back, hips, or radiates down the legs, you need L-track or SL-track coverage — a standard S-track will miss the area you most need to address. If you have pain in both regions, SL-track is almost always the right call. The full explanation of what each track type covers is in the <a href="/learn/track-types">track types guide</a>.</p>
+
+<p>The second physical question: how sensitive are you to massage pressure? Most returns happen because the massage is too rough, not because the chair did not work. If you bruise easily, have fibromyalgia, or are new to massage, pressure sensitivity should be a top criteria — not an afterthought.</p>
+
+<h2>Step 2: Set your real budget</h2>
+
+<p>A useful massage chair starts at roughly $2,500 to $3,000. Below that price, the mechanical systems are entry-level and the massage quality reflects it. The sweet spot for most buyers — good roller technology, SL-track coverage, zero gravity, and solid build quality — runs from $3,500 to $7,000. Above $7,000, you are paying for premium materials, Japanese manufacturing heritage, 4D roller systems, or both. Above $10,000, you are in the ultra-premium segment where the incremental therapeutic improvement is real but increasingly marginal for most buyers.</p>
+
+<p>Set a hard ceiling before you start shortlisting. It is easy to justify stepping up when you are comparing specific chairs and the next model has features that seem relevant. Decide your ceiling in advance so that comparison pressure does not expand your budget by $2,000.</p>
+
+<p>If financing is part of the plan, factor the monthly payment into your real budget rather than looking only at the sticker price. Most major brands and dealers offer 12- to 36-month financing plans, often at 0% APR during promotional periods. A $6,000 chair financed over 24 months at 0% is $250 per month — a meaningful but manageable number for most households that are seriously considering this purchase.</p>
+
+<h2>Step 3: Use track type to cut the catalog in half</h2>
+
+<p>Once you know your physical target area and budget, apply track type as a hard filter. This alone eliminates most of the catalog. If you determined in step 1 that you need lower back and hip coverage, every S-track chair comes off your list regardless of how appealing the other features are. Track type is not a preference — it is a mechanical specification that determines where the massage physically reaches on your body.</p>
+
+<p>The practical outcome: most buyers with lower back pain end up on SL-track. Most buyers with primarily upper-body tension have more flexibility and may find good value in S-track chairs that offer better roller quality at the same price as an SL-track alternative. Use the <a href="/finder">chair finder</a> to filter by track type and budget simultaneously — it will show you what the shortlist actually looks like at your price range.</p>
+
+<h2>Step 4: Verify body fit</h2>
+
+<p>Every massage chair has a published height and weight range. Most buyers confirm they fall within it and move on. The height range deserves more scrutiny than that. A chair rated for users between 5'0" and 6'2" may perform well across that range, or it may be optimized for the middle of it, with buyers at the extremes getting compressed or extended stroke paths that miss their target zones.</p>
+
+<p>The key fit questions: Does the foot roller section reach your calves or does it sit at your ankles? Do the shoulder airbags compress at the right height or do they ride up into your neck? Do the roller heads sit at the correct position along your spine when you are seated? For taller buyers (above 6'0") and petite buyers (below 5'4"), these questions matter enough to verify before purchasing rather than assuming the published range covers them adequately. The full detail on what to check is in the <a href="/learn/body-fit">body fit guide</a>.</p>
+
+<p>One practical safeguard: buy from a dealer with a return window of at least 30 days. An in-home trial eliminates fit uncertainty that no amount of spec research can fully resolve. You will know within the first week whether the chair actually works for your body.</p>
+
+<h2>Step 5: Confirm room fit</h2>
+
+<p>Room fit is the most frequently skipped step and the most reliably regretted one. A massage chair in its upright position typically measures 50 to 56 inches long. In zero-gravity recline, that same chair extends to 65 to 76 inches — more than six feet of floor space. Add 18 to 24 inches behind the chair for clearance and 24 inches on each side for comfortable entry and exit, and the total footprint in reclined use can easily reach 100 square feet.</p>
+
+<p>Measure the room before you order. Confirm the reclined length specifically, not just the upright dimensions. If the chair has a space-saving design (which allows it to recline with less than 4 inches of wall clearance rather than the standard 16 to 24 inches), confirm that feature covers zero-gravity recline, not just a slight lean back. The full measurement guide with diagrams is in the <a href="/learn/room-fit">room fit guide</a>.</p>
+
+<h2>Step 6: Evaluate the purchase itself</h2>
+
+<p>The chair decision and the purchase decision are separate. Once you have a short list of chairs that fit your physical needs, budget, body, and room, the remaining variables are about the transaction:</p>
+
+<p><strong>Warranty.</strong> Look at three numbers separately: structural frame coverage (should be at least 3 years, ideally 5), roller mechanism coverage (often shorter than frame — confirm it is at least 2 years), and parts and labor (often 1 to 2 years). A chair with a strong frame warranty but one-year roller coverage is a meaningful risk on a daily-use item.</p>
+
+<p><strong>Delivery.</strong> Most chairs in this price range include white-glove delivery: the chair is brought into your home, placed in the room you designate, assembled, and tested before the crew leaves. Confirm this is included before purchasing. Curbside delivery for a 250-pound chair is not a viable alternative unless you have the people and equipment to move it yourself.</p>
+
+<p><strong>Return policy.</strong> In-home trial periods vary from 30 to 60 days. Most come with a return shipping fee, typically $200 to $500, which reflects the actual logistics cost of reverse-shipping a large freight item. Budget for this possibility when you buy. A dealer who does not offer any return window on a $5,000 chair is a yellow flag.</p>
+
+<p><strong>Authorized dealer status.</strong> Buying from an authorized dealer matters for warranty enforcement. If the manufacturer does not recognize the seller as an authorized retailer, the warranty may not apply. Verify authorization before purchasing from any unfamiliar seller, particularly on marketplaces where gray-market inventory circulates.</p>
+
+<h2>The buying checklist</h2>
+
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Question to answer</th>
+<th>Where to learn more</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Physical needs</td>
+<td>Where does your pain live — upper back, lower back, hips?</td>
+<td><a href="/learn/track-types">Track types guide</a></td>
+</tr>
+<tr>
+<td>Budget</td>
+<td>What is your ceiling, including delivery and financing?</td>
+<td></td>
+</tr>
+<tr>
+<td>Track type</td>
+<td>S-track, L-track, or SL-track for your pain area?</td>
+<td><a href="/learn/track-types">Track types guide</a></td>
+</tr>
+<tr>
+<td>Roller type</td>
+<td>Is 3D sufficient, or does massage feel require 4D?</td>
+<td><a href="/learn/roller-dimensions">Roller dimensions guide</a></td>
+</tr>
+<tr>
+<td>Zero gravity</td>
+<td>Is two-stage zero gravity important for your use case?</td>
+<td><a href="/learn/zero-gravity">Zero gravity guide</a></td>
+</tr>
+<tr>
+<td>Body fit</td>
+<td>Does the chair's height range fit you well, not just technically?</td>
+<td><a href="/learn/body-fit">Body fit guide</a></td>
+</tr>
+<tr>
+<td>Room fit</td>
+<td>Do you have the space — measured, not estimated?</td>
+<td><a href="/learn/room-fit">Room fit guide</a></td>
+</tr>
+<tr>
+<td>Brand and warranty</td>
+<td>What is the roller mechanism coverage specifically?</td>
+<td><a href="/learn/brands-overview">Brands guide</a></td>
+</tr>
+<tr>
+<td>Delivery</td>
+<td>Is white-glove delivery included?</td>
+<td></td>
+</tr>
+<tr>
+<td>Return window</td>
+<td>Is there a 30+ day in-home trial?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p>If you want to work through the key decisions interactively, the <a href="/finder">chair finder</a> walks through track type, budget, body dimensions, and use case and surfaces a matched recommendation from the catalog.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Is it safe to buy a massage chair on Amazon?</strong></summary>
+<p>It depends on whether the seller is the brand's authorized US distributor. Some brands sell directly on Amazon through their own storefront, which is fine. Third-party Amazon sellers may be selling gray-market inventory — chairs that were not purchased through authorized channels. The risk: the manufacturer may decline the warranty, and replacement parts may not be available. Verify authorized dealer status before purchasing, regardless of the platform.</p>
+</details>
+
+<details>
+<summary><strong>What is white-glove delivery and is it included?</strong></summary>
+<p>White-glove delivery means the delivery crew brings the chair into your home, places it in the designated room, assembles it, and tests it before leaving. For chairs in the $3,000+ range, this is typically included or offered as an add-on. Curbside delivery — where the freight carrier leaves the item at your door — is standard for lower-cost purchases but impractical for a 250-pound massage chair. Confirm delivery type before purchasing.</p>
+</details>
+
+<details>
+<summary><strong>How long does a massage chair last?</strong></summary>
+<p>A well-built chair used daily should last 7 to 15 years with normal maintenance. The roller mechanism and motor are the components most likely to need service. Japanese-manufactured chairs and US-assembled chairs like Luraco tend to have better longevity track records than entry-level Chinese-manufactured chairs. Warranty coverage on the structural frame (3 to 5 years) is a reasonable proxy for how long the manufacturer expects the chair to perform.</p>
+</details>
+
+<details>
+<summary><strong>Should I try a massage chair before buying?</strong></summary>
+<p>If you can, yes — particularly for pressure sensitivity. The most common return reason is that the massage is too intense, and pressure preference is hard to predict without experiencing it. Showroom access varies by brand and region. If you cannot try before buying, look for dealers with a 30-day in-home trial. A week of daily use in your own home gives you far more reliable information about fit than a showroom session.</p>
+</details>
+
+<details>
+<summary><strong>What does a 30-day return cost?</strong></summary>
+<p>Most dealers charge a return shipping fee of $200 to $500 to cover the cost of reverse-shipping a large freight item. Some dealers include the first return at no cost as part of a trial program. Factor this into your planning — if you are on the fence between two chairs, it may be worth trying the one you are less certain about first, with the return option as a practical fallback rather than a theoretical one.</p>
+</details>`,
   },
 
 ]
 
-// ── HELPERS ───────────────────────────────────────────────────────────────────
+// ── HELPERS ─────────────────────────────────────────────────────────────────────────────────
 
 /** All articles sorted by display order. */
 export const PUBLISHED_ARTICLES = LOCAL_ARTICLES.sort((a, b) => a.order - b.order)
