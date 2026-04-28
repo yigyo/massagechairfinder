@@ -419,14 +419,14 @@ export default async function ChairPage({ params }: { params: { slug: string } }
         {/* Track type section */}
         <div className="mb-10">
           <h2 className="text-2xl font-serif text-navy mb-3">{trackInfo.heading}</h2>
-          <p className="text-charcoal leading-relaxed max-w-3xl">{trackInfo.body}</p>
+          <p className="text-charcoal leading-relaxed max-w-2xl">{trackInfo.body}</p>
         </div>
 
         {/* Roller section */}
         {rollerInfo && (
           <div className="mb-10">
             <h2 className="text-2xl font-serif text-navy mb-3">{rollerInfo.heading}</h2>
-            <p className="text-charcoal leading-relaxed max-w-3xl">{rollerInfo.body}</p>
+            <p className="text-charcoal leading-relaxed max-w-2xl">{rollerInfo.body}</p>
           </div>
         )}
 
@@ -448,7 +448,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
         {/* Body fit */}
         <div className="mb-10">
           <h2 className="text-2xl font-serif text-navy mb-3">Will it fit your body?</h2>
-          <p className="text-charcoal leading-relaxed max-w-3xl">{bodyFitSummary(c)}</p>
+          <p className="text-charcoal leading-relaxed max-w-2xl">{bodyFitSummary(c)}</p>
           {(!c.heightMinIn && !c.heightMaxIn && !c.weightCapacityLbs) && (
             <p className="text-sm text-warm-gray mt-3">
               Not sure if this chair fits? <Link href="/finder" className="text-bronze hover:text-gold">Take our chair finder quiz</Link> — it filters by your height and weight.
@@ -459,7 +459,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
         {/* Room fit */}
         <div className="mb-10">
           <h2 className="text-2xl font-serif text-navy mb-3">Will it fit your room?</h2>
-          <p className="text-charcoal leading-relaxed max-w-3xl">{roomFitSummary(c)}</p>
+          <p className="text-charcoal leading-relaxed max-w-2xl">{roomFitSummary(c)}</p>
           <p className="text-sm text-warm-gray mt-3">
             Need help planning your space? See our <Link href="/learn/room-fit" className="text-bronze hover:text-gold">room fit guide</Link>.
           </p>
