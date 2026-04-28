@@ -1,38 +1,100 @@
-import { getBrandBySlug } from '@/lib/strapi'
-import ChairCard from '@/components/ChairCard'
+import { getLocalBrand, getBrandSlugs } from '@/lib/local-brands'
+import { CHAIRS } from '@/lib/chairs'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  try {
-    const res = await getBrandBySlug(params.slug)
-    const b = res.data?.[0]?.attributes || res.data?.[0]
-    if (!b) return {}
-    return { title: `${b.name} Massage Chairs`, description: b.description || '' }
-  } catch { return {} }
+export async function generateStaticParams() {
+  return getBrandSlugs().map(slug => ({ slug }))
 }
 
-export default async function BrandPage({ params }: { params: { slug: string } }) {
-  let brand: any = null
-  try {
-    const res = await getBrandBySlug(params.slug)
-    brand = res.data?.[0]?.attributes || res.data?.[0]
-  } catch { notFound() }
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const brand = getLocalBrand(params.slug)
+  if (!brand) return {}
+  return {
+    title: brand.seoTitle,
+    description: brand.seoDescription,
+  }
+}
+
+export default function BrandPage({ params }: { params: { slug: string } }) {
+  const brand = getLocalBrand(params.slug)
   if (!brand) notFound()
 
-  const chairs = brand.chairs?.data || brand.chairs || []
+  // Chairs for this brand — match on brand name (case-insensitive slug comparison)
+  const brandName = brand.name
+  const chairs = CHAIRS.filter(
+    c => c.active && c.mcfActive !== false && c.brand === brandName
+  ).sort((a, b) => a.priceMin - b.priceMin)
 
   return (
-    <div className="section">
-      <div className="mb-4"><Link href="/brands" className="text-bronze hover:text-gold text-sm">← All brands</Link></div>
-      <h1 className="text-4xl font-serif mb-2">{brand.name}</h1>
-      {brand.description && <p className="text-warm-gray mb-8 max-w-2xl">{brand.description}</p>}
+    <div className="section" style={{ maxWidth: '900px' }}>
+      <div className="mb-6">
+        <Link href="/brands" className="text-bronze hover:text-gold text-sm">
+          &larr; All Brands
+        </Link>
+      </div>
+
+      <h1 className="text-4xl font-serif mb-3">{brand.name} Massage Chairs</h1>
+      <p className="text-warm-gray text-lg mb-2">{brand.tagline}</p>
+
+      <div className="flex flex-wrap gap-4 mb-8 text-sm text-warm-gray">
+        <span><strong className="text-charcoal">Price range:</strong> {brand.priceRange}</span>
+        <span><strong className="text-charcoal">Origin:</strong> {brand.origin}</span>
+        <span><strong className="text-charcoal">Warranty:</strong> {brand.warrantyNote}</span>
+      </div>
+
+      <div className="prose prose-lg max-w-none prose-headings:font-serif mb-10">
+        {brand.description.map((para, i) => (
+          <div key={i} dangerouslySetInnerHTML={{ __html: para }} />
+        ))}
+      </div>
+
+      <div className="bg-sand/40 rounded-lg p-4 mb-10 text-sm">
+        <strong className="text-navy">Best for:</strong>{' '}
+        <span className="text-charcoal">{brand.bestFor}</span>
+      </div>
+
       {chairs.length > 0 && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {chairs.map((chair: any) => <ChairCard key={chair.id} chair={chair} />)}
-        </div>
+        <section>
+          <h2 className="text-2xl font-serif mb-6">{brand.name} Chairs We Have Reviewed</h2>
+          <div className="space-y-4">
+            {chairs.map(chair => (
+              <Link
+                key={chair.id}
+                href={`/chairs/${chair.id}`}
+                className="card hover:shadow-md transition-shadow group block"
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <h3 className="text-xl font-serif font-semibold text-navy group-hover:text-gold transition-colors mb-1">
+                      {chair.name}
+                    </h3>
+                    {chair.trackType && (
+                      <p className="text-warm-gray text-sm">{chair.trackType} track &middot; {chair.rollerType || '3D'} rollers</p>
+                    )}
+                  </div>
+                  <div className="text-right shrink-0">
+                    <span className="text-gold font-semibold">
+                      ${chair.priceMin.toLocaleString()}
+                      {chair.priceMax && chair.priceMax > chair.priceMin ? ` – $${chair.priceMax.toLocaleString()}` : ''}
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
       )}
+
+      <div className="mt-10 pt-8 border-t border-sand flex flex-col sm:flex-row gap-4 text-sm">
+        <Link href="/finder" className="text-bronze hover:text-gold font-medium">
+          Not sure {brand.name} is right for you? Take the chair finder quiz &rarr;
+        </Link>
+        <Link href="/learn/brands-overview" className="text-bronze hover:text-gold font-medium">
+          Compare all brands &rarr;
+        </Link>
+      </div>
     </div>
   )
 }
