@@ -161,18 +161,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     title: 'Room Fit: How Much Space a Massage Chair Actually Needs',
     excerpt: 'Space-saving chairs still need space. Here is how to measure your room correctly, what wall clearance actually means, and how to pick a chair that fits before it is delivered.',
     order: 5,
-    publishedAt: '2026-04-27',
-    body: `<p>Coming soon.</p>`,
-  },
+    publishedAt: '2026-04-28',
+    body: `<p>Most massage chairs arrive larger than buyers expect. In its upright position, a typical full-size chair runs between 50 and 56 inches long and 28 to 32 inches wide. Those dimensions are manageable for most dedicated rooms. What surprises buyers is the reclined measurement: when a full-size massage chair reaches its zero-gravity position, it extends to between 65 and 76 inches in length. That is over six feet of occupied floor, and it does not include the clearance you need around the chair to get in and out comfortably.</p>
 
-]
-
-// ── HELPERS ───────────────────────────────────────────────────────────────────
-
-/** All articles sorted by display order. */
-export const PUBLISHED_ARTICLES = LOCAL_ARTICLES.sort((a, b) => a.order - b.order)
-
-/** Look up a single article by slug. Returns undefined if not found. */
-export function getLocalArticle(slug: string): LocalArticle | undefined {
-  return LOCAL_ARTICLES.find(a => a.slug === slug)
-}
+<p>This section is a practical measuring guide
