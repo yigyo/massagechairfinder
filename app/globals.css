@@ -2,40 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    background-color: #F5F1EB;
-    color: #3D3D3A;
-  }
-  h1, h2, h3, h4 {
-    font-family: 'Noto Serif', Georgia, serif;
-    color: #1C2331;
-  }
-  a {
-    color: #934713;
-  }
-  a:hover {
-    color: #D1803E;
-  }
+/* ── Base element styles ─────────────────────────────────────────────────── */
+
+html {
+  background-color: #F5F1EB;
+  color: #3D3D3A;
 }
 
-@layer components {
-  .btn-primary {
-    @apply bg-gold text-white px-6 py-3 rounded font-semibold hover:bg-bronze transition-colors;
-  }
-  .btn-secondary {
-    @apply bg-teal text-white px-6 py-3 rounded font-semibold hover:opacity-90 transition-opacity;
-  }
-  .card {
-    @apply bg-white rounded-lg shadow-sm border border-sand p-6;
-  }
-  .section {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
-  }
+h1, h2, h3, h4 {
+  font-family: 'Noto Serif', Georgia, serif;
+  color: #1C2331;
 }
 
-/* ── Body and article typography ────────────────────────────────────────── */
-/* Plain CSS outside @layer — avoids PostCSS @layer parsing issues.         */
+a {
+  color: #934713;
+}
+
+a:hover {
+  color: #D1803E;
+}
+
+/* ── Component classes ───────────────────────────────────────────────────── */
+
+.btn-primary {
+  @apply bg-gold text-white px-6 py-3 rounded font-semibold hover:bg-bronze transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-teal text-white px-6 py-3 rounded font-semibold hover:opacity-90 transition-opacity;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-sm border border-sand p-6;
+}
+
+.section {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
+}
+
+/* ── Body and article typography ─────────────────────────────────────────── */
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -43,7 +48,7 @@ body {
   line-height: 1.7;
 }
 
-/* Article prose styles — replaces @tailwindcss/typography (not installed) */
+/* Article prose styles */
 
 .prose {
   font-size: 1.125rem;
@@ -142,4 +147,32 @@ body {
 
 .prose tr:nth-child(even) td {
   background-color: #faf7f3;
+}
+
+/* Details/summary for FAQ sections */
+
+.prose details {
+  border: 1px solid #E8DFD3;
+  border-radius: 6px;
+  padding: 0.75em 1em;
+  margin-bottom: 0.75em;
+}
+
+.prose details summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.25em 0;
+}
+
+.prose details summary::-webkit-details-marker {
+  display: none;
+}
+
+.prose details[open] summary {
+  margin-bottom: 0.75em;
+}
+
+.prose details p {
+  margin-bottom: 0;
+  color: #3D3D3A;
 }
