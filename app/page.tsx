@@ -15,28 +15,28 @@ export default async function HomePage() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ minHeight: '680px' }}>
-        {/* Background image — anchored to top so full head is always visible */}
+        {/* Background image — 30% vertical offset shows full head + most of chair */}
         <img
           src="/hero.webp"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover"
-          style={{ objectPosition: '50% 0%' }}
+          style={{ objectPosition: '50% 30%' }}
         />
-        {/* Gradient: transparent at top (man's face), dark at bottom (text area) */}
+        {/* Gradient: dark on right (text panel), transparent on left (model + chair) */}
         <div className="absolute inset-0" style={{
-          background: 'linear-gradient(to top, rgba(28,35,49,0.97) 0%, rgba(28,35,49,0.85) 20%, rgba(28,35,49,0.3) 44%, transparent 62%)'
+          background: 'linear-gradient(to left, rgba(28,35,49,0.96) 30%, rgba(28,35,49,0.75) 50%, rgba(28,35,49,0.15) 72%, transparent 88%)'
         }} />
-        {/* Content pinned to bottom — well below his face */}
-        <div className="relative z-10 flex flex-col justify-end min-h-[680px] px-4 pb-14">
-          <div className="max-w-3xl mx-auto w-full text-center text-white">
+        {/* Content column — right side, vertically centered */}
+        <div className="relative z-10 flex items-center justify-end min-h-[680px] px-6 md:px-16">
+          <div className="w-full max-w-md text-left text-white">
             <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4 leading-tight">
               Find the massage chair that fits your body, your space, and your budget.
             </h1>
-            <p className="text-lg mb-8 max-w-xl mx-auto" style={{ color: '#E8DFD3' }}>
+            <p className="text-lg mb-8" style={{ color: '#E8DFD3' }}>
               Independent comparisons and honest guidance. No showrooms, no pressure, no guesswork.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/finder" className="btn-primary text-center">
                 Find My Chair
               </Link>
