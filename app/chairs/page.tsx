@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 function getTrackLabel(track: string | null | undefined): string {
   if (!track) return ''
   const map: Record<string, string> = { SL: 'SL-Track', L: 'L-Track', S: 'S-Track', Flex: 'Flex-Track' }
-  return map[track] || track
+  return map[track] || ''
 }
 
 export default function ChairsPage() {
@@ -42,11 +42,17 @@ export default function ChairsPage() {
               </h2>
               <div className="mt-auto flex items-center justify-between gap-2">
                 <div className="flex gap-2 flex-wrap">
-                  {trackLabel && (
-                    <span className="text-xs bg-navy text-white px-2 py-0.5 rounded-full">{trackLabel}</span>
-                  )}
-                  {chair.roller && (
-                    <span className="text-xs bg-teal text-white px-2 py-0.5 rounded-full">{chair.roller}</span>
+                  {chair.vibrationOnly ? (
+                    <span className="text-xs border border-warm-gray text-warm-gray px-2 py-0.5 rounded-full">Vibration</span>
+                  ) : (
+                    <>
+                      {trackLabel && (
+                        <span className="text-xs bg-navy text-white px-2 py-0.5 rounded-full">{trackLabel}</span>
+                      )}
+                      {chair.roller && (
+                        <span className="text-xs bg-teal text-white px-2 py-0.5 rounded-full">{chair.roller}</span>
+                      )}
+                    </>
                   )}
                 </div>
                 <span className="text-sm font-semibold text-gold shrink-0">{priceLabel}</span>

@@ -129,8 +129,8 @@ export const CHAIRS: Chair[] = [
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-champ-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '3D',
     heightMaxIn: 72, weightCapacityLbs: 300,
-    zeroGravity: true, spaceSaving: true, foot: true,
-    aiNotes: 'Do not recommend to petite buyers (minimum height unknown).',
+    zeroGravity: true, spaceSaving: true, heat: true, foot: true, calf: true,
+    aiNotes: 'Heat confirmed (lumbar heating section on retailer page). Do not recommend to petite buyers (minimum height unknown).',
   },
 
   {
@@ -583,9 +583,11 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://osakimassagechair.com/products/amamedic-renew',
     goodwinLookupKey: 'amamedics renew',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/amamedic-renew-massage-chair.webp?v=1776904815',
-    track: null, roller: '3D',
+    track: 'SL', roller: '3D',
+    zeroGravity: true, zeroGravityStages: 3,
+    heat: true, foot: true, calf: true, aiScanning: true,
     clearance: true,
-    aiNotes: 'Clearance model. Track type unknown — cannot filter on pain location.',
+    aiNotes: 'Clearance model. SL-track confirmed (retailer listing). Features verified from product page April 2026.',
   },
 
   // ── OGAWA ──────────────────────────────────────────────────────────────────

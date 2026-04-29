@@ -367,26 +367,38 @@ export default async function ChairPage({ params }: { params: { slug: string } }
 
               {/* Key specs pills */}
               <div className="flex flex-wrap gap-2 my-4">
-                {!c.vibrationOnly && c.track && (
-                  <span className="bg-navy text-white text-xs font-medium px-3 py-1 rounded-full">{getTrackLabel(c)}</span>
-                )}
-                {c.roller && (
-                  <span className="bg-teal text-white text-xs font-medium px-3 py-1 rounded-full">{c.roller} Roller</span>
+                {c.vibrationOnly ? (
+                  <span className="border border-warm-gray text-warm-gray text-xs font-medium px-3 py-1 rounded-full">Vibration Therapy</span>
+                ) : (
+                  <>
+                    {c.track && (
+                      <span className="bg-navy text-white text-xs font-medium px-3 py-1 rounded-full">{getTrackLabel(c)}</span>
+                    )}
+                    {c.roller && (
+                      <span className="bg-teal text-white text-xs font-medium px-3 py-1 rounded-full">{c.roller} Roller</span>
+                    )}
+                  </>
                 )}
                 {c.zeroGravity && (
-                  <span className="bg-sand text-charcoal text-xs font-medium px-3 py-1 rounded-full">Zero Gravity</span>
+                  <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Zero Gravity</span>
+                )}
+                {c.heat && (
+                  <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Heat Therapy</span>
                 )}
                 {c.spaceSaving && (
-                  <span className="bg-sand text-charcoal text-xs font-medium px-3 py-1 rounded-full">Space-Saving</span>
+                  <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Space-Saving</span>
+                )}
+                {c.aiScanning && (
+                  <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Body Scan</span>
                 )}
                 {c.madeInUSA && (
-                  <span className="bg-terra text-white text-xs font-medium px-3 py-1 rounded-full">Made in USA</span>
+                  <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">Made in USA</span>
                 )}
                 {c.petiteConfirmed && (
-                  <span className="bg-gold text-white text-xs font-medium px-3 py-1 rounded-full">Petite-Confirmed</span>
+                  <span className="border border-gold text-gold text-xs font-medium px-3 py-1 rounded-full">Petite-Friendly</span>
                 )}
                 {c.tallConfirmed && (
-                  <span className="bg-gold text-white text-xs font-medium px-3 py-1 rounded-full">Tall-Confirmed</span>
+                  <span className="border border-gold text-gold text-xs font-medium px-3 py-1 rounded-full">Tall-Friendly</span>
                 )}
               </div>
             </div>
@@ -411,7 +423,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
         </div>
 
         {/* Quick take */}
-        <div className="bg-linen border-l-4 border-gold px-6 py-5 rounded-r-xl mb-12">
+        <div className="bg-linen border-l-4 border-gold px-6 py-5 rounded-r-xl mb-12 max-w-2xl">
           <p className="text-sm font-semibold text-warm-gray uppercase tracking-wide mb-2">Quick take</p>
           <p className="text-charcoal leading-relaxed">{verdict}</p>
         </div>
@@ -433,15 +445,15 @@ export default async function ChairPage({ params }: { params: { slug: string } }
         {/* Features */}
         {features.length > 0 && (
           <div className="mb-10">
-            <h2 className="text-2xl font-serif text-navy mb-4">What's included</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <h2 className="text-2xl font-serif text-navy mb-4">What&apos;s included</h2>
+            <ul className="space-y-2 max-w-xs">
               {features.map(f => (
-                <div key={f} className="flex items-center gap-2 text-sm text-charcoal">
-                  <span className="text-teal font-bold">✓</span>
-                  {f}
-                </div>
+                <li key={f} className="flex items-center gap-3 text-sm text-charcoal">
+                  <span className="text-teal font-bold flex-shrink-0">&#10003;</span>
+                  <span>{f}</span>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         )}
 
@@ -503,7 +515,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
 
         {/* FAQ */}
         {faqs.length > 0 && (
-          <div className="mb-12">
+          <div className="mb-12 max-w-2xl">
             <h2 className="text-2xl font-serif text-navy mb-6">Common questions</h2>
             <div className="space-y-5">
               {faqs.map(({ q, a }) => (
@@ -517,7 +529,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
         )}
 
         {/* Internal links */}
-        <div className="bg-sand rounded-xl p-6 mb-8">
+        <div className="bg-sand rounded-xl p-6 mb-8 max-w-lg">
           <p className="font-semibold text-charcoal mb-4">Keep researching</p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/finder" className="text-center py-2 px-5 rounded text-sm font-semibold border border-gold text-gold hover:bg-gold hover:text-white transition-colors">
