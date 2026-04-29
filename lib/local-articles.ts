@@ -141,20 +141,30 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h2>Frequently asked questions</h2>
 
-<h3>Is an SL-track always better than an L-track?</h3>
+<details>
+<summary><strong>Is an SL-track always better than an L-track?</strong></summary>
 <p>Not always. An SL-track covers more area, but "more" is only better if that area is where you need the massage. For buyers with sciatica or hip pain and no significant upper-back tension, an L-track chair can deliver equivalent relief in the area that matters while potentially costing less. For buyers with pain across multiple zones, SL-track is the stronger choice.</p>
+</details>
 
-<h3>What is the difference between an S-track and an L-track in practice?</h3>
+<details>
+<summary><strong>What is the difference between an S-track and an L-track in practice?</strong></summary>
 <p>Sit in an S-track chair and the rollers reach from your neck to your lower lumbar and stop. Sit in an L-track chair and the rollers continue past your lower back, curve under the seat, and press into your glutes and hamstrings. If your pain is entirely above the waist, you will not notice the difference. If it is below, you will notice it immediately.</p>
+</details>
 
-<h3>Do SL-track chairs cost significantly more than L-track chairs?</h3>
+<details>
+<summary><strong>Do SL-track chairs cost significantly more than L-track chairs?</strong></summary>
 <p>At equivalent roller quality, yes — typically $500 to $1,500 more, depending on the tier. The extended frame and longer mechanism add cost. That said, the price overlap is substantial: there are SL-track chairs at $4,000 and L-track chairs at $10,000. Track type alone does not determine price. Compare within a budget range rather than across the entire market.</p>
+</details>
 
-<h3>Can a track type be wrong for my height?</h3>
+<details>
+<summary><strong>Can a track type be wrong for my height?</strong></summary>
 <p>Yes, indirectly. Track length in inches determines how far the rollers physically travel. A buyer with a long torso in a chair with a short track may find the rollers stop before reaching their full lumbar or sacral region, regardless of track type. If body fit is a concern — particularly for buyers above 6'1" or with long torsos — confirm the track length in inches alongside the track type. The body fit section of this guide covers height and proportion fit in detail.</p>
+</details>
 
-<h3>What does "4D" have to do with track type?</h3>
-<p>Nothing directly. The track type (S, L, SL) describes the path the rollers follow. The roller dimension (2D, 3D, 4D) describes how the rollers move within that path — 4D rollers can vary their speed and depth during a stroke, adding a more nuanced feel. A chair can be 4D and S-track, or 4D and SL-track. They are independent specifications. Track type determines coverage area; roller dimension determines massage feel.</p>`,
+<details>
+<summary><strong>What does "4D" have to do with track type?</strong></summary>
+<p>Nothing directly. The track type (S, L, SL) describes the path the rollers follow. The roller dimension (2D, 3D, 4D) describes how the rollers move within that path — 4D rollers can vary their speed and depth during a stroke, adding a more nuanced feel. A chair can be 4D and S-track, or 4D and SL-track. They are independent specifications. Track type determines coverage area; roller dimension determines massage feel.</p>
+</details>`,
   },
 
   // ── SECTION 2 ───────────────────────────────────────────────────────────────────────────
@@ -315,20 +325,30 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h2>Frequently asked questions</h2>
 
-<h3>Does zero gravity actually reduce back pain?</h3>
+<details>
+<summary><strong>Does zero gravity actually reduce back pain?</strong></summary>
 <p>The zero gravity position reduces spinal compression by distributing body weight more evenly. For buyers with disc-related lower back pain or pain that comes from prolonged sitting, this decompression is often described as immediate and significant relief. It does not treat the underlying cause of chronic pain, but it reduces the mechanical load on the lower spine during the session, which allows the massage component to be more effective on the surrounding muscles.</p>
+</details>
 
-<h3>How long should you sit in zero gravity?</h3>
+<details>
+<summary><strong>How long should you sit in zero gravity?</strong></summary>
 <p>Most buyers use zero gravity for the full duration of a massage session, typically 15 to 30 minutes. There is no standard medical guideline on duration. For buyers new to the position, starting with shorter sessions and increasing over time is a practical approach, particularly for those with existing spinal conditions who should consult a physician before regular use.</p>
+</details>
 
-<h3>Is two-stage zero gravity worth the extra cost?</h3>
+<details>
+<summary><strong>Is two-stage zero gravity worth the extra cost?</strong></summary>
 <p>For buyers with lower back pain, sciatica, or leg fatigue, two-stage zero gravity is a meaningful upgrade. The second stage provides noticeably more spinal decompression and is the position most buyers with these conditions report using most often. For buyers whose primary goal is upper-back and neck massage, the difference between single and two-stage is less significant, and the cost premium may not be justified.</p>
+</details>
 
-<h3>Can anyone use a zero gravity massage chair?</h3>
+<details>
+<summary><strong>Can anyone use a zero gravity massage chair?</strong></summary>
 <p>Most buyers can. Buyers with certain conditions — recent spinal surgery, severe osteoporosis, or conditions where the Trendelenburg (inverted) position is contraindicated — should consult a physician before using a zero gravity chair. The position is passive and low-impact for most people, but it is worth checking with a doctor if you have a pre-existing spinal condition.</p>
+</details>
 
-<h3>What is the difference between zero gravity and standard recline?</h3>
-<p>Standard recline tilts the chair backward while the legs remain below or level with the torso. Zero gravity goes further, raising the legs so that the knees are above the heart. This additional elevation is what distributes the body's weight evenly across the chair and produces the spinal decompression effect. A chair reclined to 45 degrees without leg elevation is not zero gravity, regardless of the angle.</p>`,
+<details>
+<summary><strong>What is the difference between zero gravity and standard recline?</strong></summary>
+<p>Standard recline tilts the chair backward while the legs remain below or level with the torso. Zero gravity goes further, raising the legs so that the knees are above the heart. This additional elevation is what distributes the body's weight evenly across the chair and produces the spinal decompression effect. A chair reclined to 45 degrees without leg elevation is not zero gravity, regardless of the angle.</p>
+</details>`,
   },
 
   // ── SECTION 4 ───────────────────────────────────────────────────────────────────────────
@@ -507,20 +527,30 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h2>Frequently asked questions</h2>
 
-<h3>Can I put a massage chair against the wall?</h3>
+<details>
+<summary><strong>Can I put a massage chair against the wall?</strong></summary>
 <p>Not with a traditional chair, and not directly against it. Traditional massage chairs need 12 to 18 inches of clearance to recline. Space-saving chairs, also called zero-wall chairs, are specifically engineered to recline with as little as 2 to 3 inches from the wall. If your room requires placement close to a wall, look only at chairs with a confirmed space-saving or zero-wall specification and verify the exact clearance measurement with the retailer before ordering.</p>
+</details>
 
-<h3>How much space does a zero-gravity chair need when reclined?</h3>
+<details>
+<summary><strong>How much space does a zero-gravity chair need when reclined?</strong></summary>
 <p>Most full-size chairs with zero-gravity recline extend to between 65 and 76 inches in length when in the zero-gravity position. Two-stage zero gravity typically produces the longest reclined footprint. Take that length, add the wall clearance required behind the chair and at least 18 inches of lateral clearance on each side, and you have the total floor area to plan around.</p>
+</details>
 
-<h3>What doorway width do I need for delivery?</h3>
+<details>
+<summary><strong>What doorway width do I need for delivery?</strong></summary>
 <p>Most massage chairs are 28 to 32 inches wide. Standard interior doorways are 32 to 36 inches wide, which accommodates most chairs without difficulty. Measure the narrowest doorway or hallway on the path from your front door to the intended room. If any passageway is under 32 inches, confirm the specific chair's width with the retailer before ordering. White-glove delivery services will typically flag access issues before the delivery date.</p>
+</details>
 
-<h3>Will a massage chair work in a small apartment?</h3>
+<details>
+<summary><strong>Will a massage chair work in a small apartment?</strong></summary>
 <p>A space-saving chair can work in an apartment if the room is at least 8 by 8 feet and you plan placement carefully. Corner positioning helps by using two walls to bound the chair's back and one side, leaving the remaining sides accessible for entry. The <a href="/finder">chair finder</a> on this site allows filtering by space constraints so you can identify chairs that are realistically sized for smaller rooms.</p>
+</details>
 
-<h3>Do I need to prepare my floor before installation?</h3>
-<p>Most massage chairs work on any standard flooring, including hardwood, carpet, laminate, and tile. Thicker carpet can cause slight instability in some chairs during operation. On hard floors, a chair mat is optional but reduces any tendency for the chair to shift. Most white-glove delivery services position and level the chair during setup and will advise you if they notice any flooring issues.</p>`,
+<details>
+<summary><strong>Do I need to prepare my floor before installation?</strong></summary>
+<p>Most massage chairs work on any standard flooring, including hardwood, carpet, laminate, and tile. Thicker carpet can cause slight instability in some chairs during operation. On hard floors, a chair mat is optional but reduces any tendency for the chair to shift. Most white-glove delivery services position and level the chair during setup and will advise you if they notice any flooring issues.</p>
+</details>`,
   },
 
   // ── SECTION 6 ───────────────────────────────────────────────────────────────────────────
