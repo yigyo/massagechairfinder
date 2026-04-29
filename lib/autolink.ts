@@ -63,4 +63,29 @@ export function autolink(html: string, currentSlug?: string): string {
         // Word-boundary check: character before and after must be non-alphanumeric
         const charBefore = result[idx - 1]
         const charAfter = result[idx + linkText.length]
-        const
+        const okBefore = !charBefore || /[^a-zA-Z0-9]/.test(charBefore)
+        const okAfter = !charAfter || /[^a-zA-Z0-9]/.test(charAfter)
+        if (!okBefore || !okAfter) continue
+
+        result =
+          result.slice(0, idx) +
+          `<a href="${href}">${linkText}</a>` +
+          result.slice(idx + linkText.length)
+        linked.add(linkText)
+
+        // Mark every substring of the just-linked text as already-linked so
+        // that brand-name prefixes (e.g. "Inada" inside "Inada Robo 4D") cannot
+        // receive a separate link on this page. Enforces the rule: product
+        // names link to the product page only; the brand name is not linked
+        // separately on the same mention.
+        for (const other of linkMap) {
+          if (other.text !== linkText && linkText.includes(other.text)) {
+            linked.add(other.text)
+          }
+        }
+      }
+
+      return result
+    }
+  )
+}
