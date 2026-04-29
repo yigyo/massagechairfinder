@@ -10,7 +10,7 @@ export default function Footer() {
               Massage Chair Finder
             </Link>
             <p className="mt-3 text-sm text-warm-gray leading-relaxed">
-              Independent guidance for one of the most considered purchases you will make for your home and your body.
+              Find the chair that fits your body, your space, and your budget.
             </p>
           </div>
           <div>
