@@ -43,14 +43,14 @@ export default function ChairsPage() {
               <div className="mt-auto flex items-center justify-between gap-2">
                 <div className="flex gap-2 flex-wrap">
                   {chair.vibrationOnly ? (
-                    <span className="text-xs border border-warm-gray text-warm-gray px-2 py-0.5 rounded-full">Vibration</span>
+                    <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">Vibration</span>
                   ) : (
                     <>
                       {trackLabel && (
-                        <span className="text-xs bg-navy text-white px-2 py-0.5 rounded-full">{trackLabel}</span>
+                        <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">{trackLabel}</span>
                       )}
                       {chair.roller && (
-                        <span className="text-xs bg-teal text-white px-2 py-0.5 rounded-full">{chair.roller}</span>
+                        <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">{chair.roller}</span>
                       )}
                     </>
                   )}

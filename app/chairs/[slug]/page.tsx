@@ -368,37 +368,37 @@ export default async function ChairPage({ params }: { params: { slug: string } }
               {/* Key specs pills */}
               <div className="flex flex-wrap gap-2 my-4">
                 {c.vibrationOnly ? (
-                  <span className="border border-warm-gray text-warm-gray text-xs font-medium px-3 py-1 rounded-full">Vibration Therapy</span>
+                  <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">Vibration Therapy</span>
                 ) : (
                   <>
                     {c.track && (
-                      <span className="bg-navy text-white text-xs font-medium px-3 py-1 rounded-full">{getTrackLabel(c)}</span>
+                      <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">{getTrackLabel(c)}</span>
                     )}
                     {c.roller && (
-                      <span className="bg-teal text-white text-xs font-medium px-3 py-1 rounded-full">{c.roller} Roller</span>
+                      <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">{c.roller} Roller</span>
                     )}
                   </>
                 )}
                 {c.zeroGravity && (
-                  <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Zero Gravity</span>
+                  <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">Zero Gravity</span>
                 )}
                 {c.heat && (
-                  <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Heat Therapy</span>
+                  <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">Heat Therapy</span>
                 )}
                 {c.spaceSaving && (
-                  <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Space-Saving</span>
+                  <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">Space-Saving</span>
                 )}
                 {c.aiScanning && (
-                  <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Body Scan</span>
+                  <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">Body Scan</span>
                 )}
                 {c.madeInUSA && (
                   <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">Made in USA</span>
                 )}
                 {c.petiteConfirmed && (
-                  <span className="border border-gold text-gold text-xs font-medium px-3 py-1 rounded-full">Petite-Friendly</span>
+                  <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">Petite-Friendly</span>
                 )}
                 {c.tallConfirmed && (
-                  <span className="border border-gold text-gold text-xs font-medium px-3 py-1 rounded-full">Tall-Friendly</span>
+                  <span className="border border-terra text-terra text-xs font-medium px-3 py-1 rounded-full">Tall-Friendly</span>
                 )}
               </div>
             </div>
@@ -414,9 +414,6 @@ export default async function ChairPage({ params }: { params: { slug: string } }
                 >
                   Shop This Chair
                 </a>
-                <p className="text-xs text-warm-gray text-center">
-                  Opens at {c.affiliateRetailer || 'retailer site'}. We may earn a commission.
-                </p>
               </div>
             )}
           </div>
@@ -521,7 +518,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
               {faqs.map(({ q, a }) => (
                 <div key={q} className="border-b border-sand pb-5">
                   <p className="font-semibold text-charcoal mb-2">{q}</p>
-                  <p className="text-warm-gray leading-relaxed text-sm">{a}</p>
+                  <p className="text-warm-gray leading-relaxed text-base">{a}</p>
                 </div>
               ))}
             </div>
