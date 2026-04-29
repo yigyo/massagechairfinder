@@ -17,7 +17,7 @@ export default async function HomePage() {
       <section className="relative overflow-hidden" style={{ minHeight: '600px' }}>
         {/* Background image */}
         <img
-          src="/massage-chair-finder-hero-image.png"
+          src="/hero.webp"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover object-center"
