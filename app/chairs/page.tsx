@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Browse 33 massage chairs researched and compared by track type, price, and use case.',
 }
 
-function getTrackLabel(track: string | undefined): string {
+function getTrackLabel(track: string | null | undefined): string {
   if (!track) return ''
   const map: Record<string, string> = { SL: 'SL-Track', L: 'L-Track', S: 'S-Track', Flex: 'Flex-Track' }
   return map[track] || track
