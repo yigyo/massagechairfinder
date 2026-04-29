@@ -9,6 +9,11 @@
 //   - Skips text inside existing <a> tags
 //   - Does not self-link (pass currentSlug to exclude the current page's entity)
 //   - Word-boundary aware (won't partial-match inside a longer word)
+//   - When a chair name is linked, all substrings of that name (e.g. the brand
+//     prefix "Inada" inside "Inada Robo 4D") are marked as already-linked so
+//     they cannot receive a separate brand-page link on the same page. Product
+//     names always link to the product page; brand-only links are reserved for
+//     standalone brand mentions that do not accompany a model name.
 
 import { CHAIRS } from './chairs'
 import { LOCAL_BRANDS } from './local-brands'
@@ -58,18 +63,4 @@ export function autolink(html: string, currentSlug?: string): string {
         // Word-boundary check: character before and after must be non-alphanumeric
         const charBefore = result[idx - 1]
         const charAfter = result[idx + linkText.length]
-        const okBefore = !charBefore || /[^a-zA-Z0-9]/.test(charBefore)
-        const okAfter = !charAfter || /[^a-zA-Z0-9]/.test(charAfter)
-        if (!okBefore || !okAfter) continue
-
-        result =
-          result.slice(0, idx) +
-          `<a href="${href}">${linkText}</a>` +
-          result.slice(idx + linkText.length)
-        linked.add(linkText)
-      }
-
-      return result
-    }
-  )
-}
+        const
