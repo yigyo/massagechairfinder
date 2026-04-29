@@ -1,5 +1,5 @@
 import { getArticleBySlug } from '@/lib/strapi'
-import { getLocalArticle } from '@/lib/local-articles'
+import { getLocalArticle, PUBLISHED_ARTICLES } from '@/lib/local-articles'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { autolink } from '@/lib/autolink'
@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 export default async function ArticlePage({ params }: { params: { slug: string } }) {
-  let article: { title: string; excerpt?: string; body: string } | null = null
+  let article: { title: string; excerpt?: string; body: string; slug?: string } | null = null
 
   try {
     const res = await getArticleBySlug(params.slug)
@@ -33,6 +33,11 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   if (!article) notFound()
   if (article.body === '<p>Coming soon.</p>') notFound()
 
+  // Prev / next navigation
+  const currentIndex = PUBLISHED_ARTICLES.findIndex(a => a.slug === params.slug)
+  const prev = currentIndex > 0 ? PUBLISHED_ARTICLES[currentIndex - 1] : null
+  const next = currentIndex < PUBLISHED_ARTICLES.length - 1 ? PUBLISHED_ARTICLES[currentIndex + 1] : null
+
   return (
     <div className="section" style={{maxWidth: '700px'}}>
       <div className="mb-6">
@@ -46,8 +51,34 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       )}
       <div
         className="prose prose-lg max-w-none prose-headings:font-serif prose-a:text-bronze hover:prose-a:text-gold"
-        dangerouslySetInnerHTML={{ __html: autolink(article.body, article.slug) }}
+        dangerouslySetInnerHTML={{ __html: autolink(article.body, params.slug) }}
       />
+
+      {/* Article pagination */}
+      <nav className="mt-12 pt-8 border-t border-sand grid grid-cols-3 gap-4 text-sm">
+        <div>
+          {prev && (
+            <Link href={`/learn/${prev.slug}`} className="text-bronze hover:text-gold group">
+              <span className="block text-warm-gray text-xs mb-1">&larr; Previous</span>
+              <span className="group-hover:underline">{prev.title.split(':')[0]}</span>
+            </Link>
+          )}
+        </div>
+        <div className="text-center">
+          <Link href="/learn" className="text-bronze hover:text-gold">
+            <span className="block text-warm-gray text-xs mb-1">Buying Guide</span>
+            <span>All sections</span>
+          </Link>
+        </div>
+        <div className="text-right">
+          {next && (
+            <Link href={`/learn/${next.slug}`} className="text-bronze hover:text-gold group">
+              <span className="block text-warm-gray text-xs mb-1">Next &rarr;</span>
+              <span className="group-hover:underline">{next.title.split(':')[0]}</span>
+            </Link>
+          )}
+        </div>
+      </nav>
     </div>
   )
 }
