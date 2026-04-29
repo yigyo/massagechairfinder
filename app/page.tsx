@@ -23,14 +23,14 @@ export default async function HomePage() {
           className="absolute inset-0 w-full h-full object-cover"
           style={{ objectPosition: '50% 30%' }}
         />
-        {/* Gradient: dark on right (text panel), transparent on left (model + chair) */}
+        {/* Gradient: right panel dark enough for text, translucent enough to see room behind */}
         <div className="absolute inset-0" style={{
-          background: 'linear-gradient(to left, rgba(28,35,49,0.96) 30%, rgba(28,35,49,0.75) 50%, rgba(28,35,49,0.15) 72%, transparent 88%)'
+          background: 'linear-gradient(to left, rgba(28,35,49,0.82) 28%, rgba(28,35,49,0.72) 42%, rgba(28,35,49,0.08) 68%, transparent 84%)'
         }} />
         {/* Content column — right side, vertically centered */}
         <div className="relative z-10 flex items-center justify-end min-h-[680px] px-6 md:px-16">
           <div className="w-full max-w-md text-left text-white">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4 leading-tight">
+            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4 leading-tight text-white" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.35)' }}>
               Find the massage chair that fits your body, your space, and your budget.
             </h1>
             <p className="text-lg mb-8" style={{ color: '#E8DFD3' }}>
