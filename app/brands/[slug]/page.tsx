@@ -2,6 +2,7 @@ import { getLocalBrand, getBrandSlugs } from '@/lib/local-brands'
 import { CHAIRS } from '@/lib/chairs'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import { autolink } from '@/lib/autolink'
 import type { Metadata } from 'next'
 
 export async function generateStaticParams() {
@@ -46,7 +47,7 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
 
       <div className="prose prose-lg max-w-none prose-headings:font-serif mb-10">
         {brand.description.map((para, i) => (
-          <div key={i} dangerouslySetInnerHTML={{ __html: para }} />
+          <div key={i} dangerouslySetInnerHTML={{ __html: autolink(para, brand.slug) }} />
         ))}
       </div>
 

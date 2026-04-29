@@ -2,6 +2,7 @@ import { getArticleBySlug } from '@/lib/strapi'
 import { getLocalArticle } from '@/lib/local-articles'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import { autolink } from '@/lib/autolink'
 import type { Metadata } from 'next'
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
@@ -45,7 +46,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       )}
       <div
         className="prose prose-lg max-w-none prose-headings:font-serif prose-a:text-bronze hover:prose-a:text-gold"
-        dangerouslySetInnerHTML={{ __html: article.body }}
+        dangerouslySetInnerHTML={{ __html: autolink(article.body, article.slug) }}
       />
     </div>
   )
