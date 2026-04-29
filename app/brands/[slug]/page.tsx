@@ -39,10 +39,19 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
       <h1 className="text-4xl font-serif mb-3">{brand.name} Massage Chairs</h1>
       <p className="text-warm-gray text-lg mb-2">{brand.tagline}</p>
 
-      <div className="flex flex-wrap gap-4 mb-8 text-sm text-warm-gray">
-        <span><strong className="text-charcoal">Price range:</strong> {brand.priceRange}</span>
-        <span><strong className="text-charcoal">Origin:</strong> {brand.origin}</span>
-        <span><strong className="text-charcoal">Warranty:</strong> {brand.warrantyNote}</span>
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+        <div className="bg-white border border-sand rounded-xl px-5 py-4">
+          <p className="text-xs font-semibold text-warm-gray uppercase tracking-wide mb-1">Price Range</p>
+          <p className="text-charcoal font-medium text-sm">{brand.priceRange}</p>
+        </div>
+        <div className="bg-white border border-sand rounded-xl px-5 py-4">
+          <p className="text-xs font-semibold text-warm-gray uppercase tracking-wide mb-1">Origin</p>
+          <p className="text-charcoal font-medium text-sm">{brand.origin}</p>
+        </div>
+        <div className="bg-white border border-sand rounded-xl px-5 py-4">
+          <p className="text-xs font-semibold text-warm-gray uppercase tracking-wide mb-1">Warranty</p>
+          <p className="text-charcoal font-medium text-sm">{brand.warrantyNote}</p>
+        </div>
       </div>
 
       <div className="prose prose-lg max-w-none prose-headings:font-serif mb-10">
@@ -90,7 +99,7 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
 
       <div className="mt-10 pt-8 border-t border-sand flex flex-col sm:flex-row gap-4 text-sm">
         <Link href="/finder" className="text-bronze hover:text-gold font-medium">
-          Not sure {brand.name} is right for you? Take the chair finder quiz &rarr;
+          Not sure {brand.name} is right for you? Use the Chair Finder &rarr;
         </Link>
         <Link href="/learn/brands-overview" className="text-bronze hover:text-gold font-medium">
           Compare all brands &rarr;

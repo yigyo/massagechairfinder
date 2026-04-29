@@ -8,24 +8,23 @@ const navLinks = [
   { label: 'Best For...', href: '/best' },
   { label: 'By Brand', href: '/brands' },
   { label: 'Buying Guide', href: '/learn' },
-  { label: 'Chair Finder', href: '/finder' },
 ]
 
 export default function Navigation() {
   const [open, setOpen] = useState(false)
   return (
-    <header className="bg-navy text-white sticky top-0 z-50 shadow-md">
+    <header className="bg-white border-b border-sand sticky top-0 z-50 shadow-sm">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="font-serif text-xl font-bold text-white hover:text-gold transition-colors">
-            MassageChairFinder
+          <Link href="/" className="font-serif text-xl font-bold text-navy hover:text-gold transition-colors">
+            Massage Chair Finder
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm text-sand hover:text-gold transition-colors"
+                className="text-sm text-charcoal hover:text-gold transition-colors"
               >
                 {link.label}
               </Link>
@@ -35,7 +34,7 @@ export default function Navigation() {
             Find My Chair
           </Link>
           <button
-            className="md:hidden text-white"
+            className="md:hidden text-charcoal"
             onClick={() => setOpen(!open)}
             aria-label="Toggle menu"
           >
@@ -48,17 +47,24 @@ export default function Navigation() {
         </div>
       </div>
       {open && (
-        <div className="md:hidden bg-navy border-t border-white/10 px-4 pb-4">
+        <div className="md:hidden bg-white border-t border-sand px-4 pb-4">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="block py-2 text-sand hover:text-gold transition-colors"
+              className="block py-2 text-charcoal hover:text-gold transition-colors"
             >
               {link.label}
             </Link>
           ))}
+          <Link
+            href="/finder"
+            onClick={() => setOpen(false)}
+            className="block mt-3 btn-primary text-center py-2 px-4 text-sm"
+          >
+            Find My Chair
+          </Link>
         </div>
       )}
     </header>

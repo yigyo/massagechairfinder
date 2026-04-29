@@ -1,50 +1,67 @@
-import { getChairs } from '@/lib/strapi'
-import ChairCard from '@/components/ChairCard'
+import { MCF_CHAIRS } from '@/lib/chairs'
+import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'All Massage Chairs',
-  description: 'Browse our complete catalog of massage chairs — compared by track type, price, and use case.',
+  description: 'Browse 33 massage chairs researched and compared by track type, price, and use case.',
 }
 
-const TRACK_FILTERS = ['All', 'SL-Track', 'L-Track', 'S-Track']
-const PRICE_FILTERS = [
-  { label: 'All prices', max: Infinity },
-  { label: 'Under $2,000', max: 2000 },
-  { label: '$2,000–$4,000', min: 2000, max: 4000 },
-  { label: '$4,000–$7,000', min: 4000, max: 7000 },
-  { label: '$7,000+', min: 7000 },
-]
+function getTrackLabel(track: string | undefined): string {
+  if (!track) return ''
+  const map: Record<string, string> = { SL: 'SL-Track', L: 'L-Track', S: 'S-Track', Flex: 'Flex-Track' }
+  return map[track] || track
+}
 
-export default async function ChairsPage() {
-  let chairs: any[] = []
-  try {
-    const res = await getChairs()
-    chairs = res.data || []
-  } catch {
-    // Strapi not connected — empty state
-  }
+export default function ChairsPage() {
+  const chairs = MCF_CHAIRS.filter(c => c.active !== false).sort((a, b) => a.priceMin - b.priceMin)
 
   return (
     <div className="section">
       <h1 className="text-4xl font-serif mb-2">All Massage Chairs</h1>
-      <p className="text-warm-gray mb-8 max-w-2xl">
-        {chairs.length > 0
-          ? `${chairs.length} chairs researched, compared, and ranked by use case.`
-          : 'Our full catalog is loading — check back shortly.'}
+      <p className="text-warm-gray mb-10 max-w-2xl">
+        {chairs.length} chairs researched and compared. Sorted by price, low to high.
       </p>
 
-      {chairs.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {chairs.map((chair: any) => (
-            <ChairCard key={chair.id} chair={chair} />
-          ))}
-        </div>
-      ) : (
-        <div className="card text-center py-16 text-warm-gray">
-          Catalog coming soon.
-        </div>
-      )}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        {chairs.map((chair) => {
+          const trackLabel = getTrackLabel(chair.track)
+          const priceLabel = chair.priceMax && chair.priceMax > chair.priceMin
+            ? '$' + chair.priceMin.toLocaleString() + ' - $' + chair.priceMax.toLocaleString()
+            : '$' + chair.priceMin.toLocaleString()
+
+          return (
+            <Link
+              key={chair.id}
+              href={'/chairs/' + chair.id}
+              className="card hover:shadow-md transition-shadow group flex flex-col"
+            >
+              <p className="text-xs font-medium text-warm-gray uppercase tracking-wide mb-1">{chair.brand}</p>
+              <h2 className="text-lg font-serif font-semibold text-navy group-hover:text-gold transition-colors mb-3 leading-snug">
+                {chair.name}
+              </h2>
+              <div className="mt-auto flex items-center justify-between gap-2">
+                <div className="flex gap-2 flex-wrap">
+                  {trackLabel && (
+                    <span className="text-xs bg-navy text-white px-2 py-0.5 rounded-full">{trackLabel}</span>
+                  )}
+                  {chair.roller && (
+                    <span className="text-xs bg-teal text-white px-2 py-0.5 rounded-full">{chair.roller}</span>
+                  )}
+                </div>
+                <span className="text-sm font-semibold text-gold shrink-0">{priceLabel}</span>
+              </div>
+            </Link>
+          )
+        })}
+      </div>
+
+      <div className="mt-12 bg-sand rounded-xl p-6 text-center">
+        <p className="text-charcoal font-medium mb-3">Not sure which chair fits your situation?</p>
+        <Link href="/finder" className="btn-primary inline-block">
+          Find My Chair
+        </Link>
+      </div>
     </div>
   )
 }

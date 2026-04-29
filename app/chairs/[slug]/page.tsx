@@ -267,7 +267,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
           <Link href="/chairs" className="text-bronze hover:text-gold text-sm">← All chairs</Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div className="relative h-80 bg-sand rounded-lg overflow-hidden">
+          <div className="relative h-80 bg-white rounded-lg overflow-hidden border border-sand">
             {strapiChair.imageUrl ? (
               <Image src={strapiChair.imageUrl} alt={strapiChair.name} fill className="object-contain p-6" />
             ) : (
@@ -349,7 +349,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
         {/* Hero */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
           {/* Image */}
-          <div className="relative h-80 bg-sand rounded-xl overflow-hidden">
+          <div className="relative h-80 bg-white rounded-xl overflow-hidden border border-sand">
             {c.goodwinImageUrl ? (
               <Image src={c.goodwinImageUrl} alt={c.name + ' massage chair'} fill className="object-contain p-6" />
             ) : (
@@ -412,7 +412,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
 
         {/* Quick take */}
         <div className="bg-linen border-l-4 border-gold px-6 py-5 rounded-r-xl mb-12">
-          <p className="text-sm font-semibold text-warm-gray uppercase tracking-wide mb-2">The quick take</p>
+          <p className="text-sm font-semibold text-warm-gray uppercase tracking-wide mb-2">Quick take</p>
           <p className="text-charcoal leading-relaxed">{verdict}</p>
         </div>
 
@@ -467,7 +467,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
 
         {/* Spec table */}
         <div className="mb-12">
-          <h2 className="text-2xl font-serif text-navy mb-4">Full specifications</h2>
+          <h2 className="text-2xl font-serif text-navy mb-4">Specs</h2>
           <div className="card overflow-hidden p-0 border border-sand">
             <table className="w-full text-sm">
               <tbody>
@@ -520,23 +520,21 @@ export default async function ChairPage({ params }: { params: { slug: string } }
         <div className="bg-sand rounded-xl p-6 mb-8">
           <p className="font-semibold text-charcoal mb-4">Keep researching</p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <Link href="/finder" className="btn-primary text-center py-2 px-5 rounded text-sm font-semibold">
-              Find my chair →
+            <Link href="/finder" className="text-center py-2 px-5 rounded text-sm font-semibold border border-gold text-gold hover:bg-gold hover:text-white transition-colors">
+              Find my chair
             </Link>
-            {guideLink && (
-              <Link href={guideLink.href} className="text-center py-2 px-5 rounded text-sm font-semibold border border-gold text-gold hover:bg-gold hover:text-white transition-colors">
-                {guideLink.label}
-              </Link>
-            )}
-            <Link href={'/brands/' + brandSlug} className="text-center py-2 px-5 rounded text-sm font-semibold border border-bronze text-bronze hover:bg-bronze hover:text-white transition-colors">
-              All {c.brand} chairs →
+            <Link href="/learn" className="text-center py-2 px-5 rounded text-sm font-semibold border border-gold text-gold hover:bg-gold hover:text-white transition-colors">
+              Buying Guide
+            </Link>
+            <Link href={'/brands/' + brandSlug} className="text-center py-2 px-5 rounded text-sm font-semibold border border-gold text-gold hover:bg-gold hover:text-white transition-colors">
+              All {c.brand} chairs
             </Link>
           </div>
         </div>
 
         {/* Disclosure */}
         <p className="text-xs text-warm-gray">
-          MassageChairFinder is reader-supported. We may earn a commission if you purchase through links on this page — at no extra cost to you.{' '}
+          Massage Chair Finder is reader-supported. We may earn a commission if you purchase through links on this page, at no extra cost to you.{' '}
           <Link href="/disclosure" className="underline hover:text-bronze">See our disclosure policy.</Link>
         </p>
 

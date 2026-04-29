@@ -8,7 +8,7 @@ export default async function HomePage() {
     const res = await getFeaturedChairs()
     featuredChairs = res.data || []
   } catch {
-    // Strapi not connected yet — show static shell
+    // Strapi not connected yet -- show static shell
   }
 
   return (
@@ -20,14 +20,14 @@ export default async function HomePage() {
             Find the massage chair that fits your body, your space, and your budget.
           </h1>
           <p className="text-xl text-sand mb-10 max-w-2xl mx-auto">
-            Independent comparisons and honest guidance — no showrooms, no pressure, no guesswork.
+            Independent comparisons and honest guidance. No showrooms, no pressure, no guesswork.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/finder" className="btn-primary text-center">
-              Take the Chair Finder Quiz
+              Find My Chair
             </Link>
             <Link
-              href="/learn/massage-chair-buying-guide"
+              href="/learn"
               className="border border-sand text-sand px-6 py-3 rounded font-semibold hover:bg-white hover:text-navy transition-colors text-center"
             >
               Read the Buying Guide
@@ -40,7 +40,6 @@ export default async function HomePage() {
       <section className="bg-sand py-6 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-8 text-sm text-warm-gray text-center">
           <span>50+ chairs researched and compared</span>
-          <span>Independent — not paid by brands</span>
           <span>Covers $800 to $10,000+</span>
           <span>Updated regularly</span>
         </div>
@@ -93,16 +92,16 @@ export default async function HomePage() {
         </section>
       )}
 
-      {/* Quiz CTA */}
+      {/* Chair Finder CTA */}
       <section className="bg-teal text-white py-16 px-4">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-serif mb-4">Not sure where to start?</h2>
           <p className="text-lg mb-8 opacity-90">
-            Answer 10 quick questions about your body, space, and budget. We'll narrow it down to
+            Answer 10 quick questions about your body, space, and budget. We will narrow it down to
             the chairs most likely to work for you.
           </p>
           <Link href="/finder" className="bg-white text-teal px-8 py-4 rounded font-semibold hover:bg-sand transition-colors inline-block">
-            Take the Chair Finder Quiz — free, 3 minutes
+            Find My Chair (free, takes 3 minutes)
           </Link>
         </div>
       </section>
@@ -111,14 +110,13 @@ export default async function HomePage() {
       <section className="section">
         <h2 className="text-3xl font-serif mb-2">The Buying Guide</h2>
         <p className="text-warm-gray mb-8">
-          Everything you need to make a confident decision — written for people who are new to massage chairs,
-          not for people who already know the specs.
+          Everything you need to make a confident decision.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {[
             { title: 'S-Track vs L-Track vs SL-Track', href: '/learn/track-types', desc: 'The single most important decision in buying a massage chair.' },
             { title: 'How to choose roller dimensions', href: '/learn/roller-dimensions', desc: 'Width, stroke length, and why they matter for back pain.' },
-            { title: 'Zero gravity explained', href: '/learn/zero-gravity', desc: 'What it actually does — and when it matters.' },
+            { title: 'Zero gravity explained', href: '/learn/zero-gravity', desc: 'What it actually does and when it matters.' },
             { title: 'How to size a chair for your body', href: '/learn/body-fit', desc: 'Height, weight, and shoulder width considerations.' },
           ].map((item) => (
             <Link key={item.href} href={item.href} className="card hover:shadow-md transition-shadow group">
@@ -131,7 +129,7 @@ export default async function HomePage() {
         </div>
         <div className="mt-8">
           <Link href="/learn" className="text-bronze font-semibold hover:text-gold">
-            Read the full buying guide →
+            Read the full buying guide &rarr;
           </Link>
         </div>
       </section>

@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Massage Chair Buying Guide',
-  description: 'Everything you need to make a confident decision — track types, roller dimensions, zero gravity, body fit, and room fit.',
+  description: 'Covers the decisions that matter most: track type, body fit, room fit, pressure intensity, and budget.',
 }
 
 export default async function LearnPage() {
@@ -34,10 +34,9 @@ export default async function LearnPage() {
 
   return (
     <div className="section" style={{maxWidth: '700px'}}>
-      <h1 className="text-4xl font-serif mb-2">The Buying Guide</h1>
+      <h1 className="text-4xl font-serif mb-2">Massage Chair Buying Guide</h1>
       <p className="text-warm-gray mb-10">
-        Written for people who are new to massage chairs, not for people who already know the specs.
-        Each section answers one question a real buyer asks before committing.
+        Covers the decisions that matter most: track type, body fit, room fit, pressure intensity, and budget.
       </p>
       <div className="space-y-4">
         {articles.map((article) => {
