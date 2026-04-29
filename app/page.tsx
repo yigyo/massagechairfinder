@@ -14,24 +14,36 @@ export default async function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-navy text-white py-24 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">
-            Find the massage chair that fits your body, your space, and your budget.
-          </h1>
-          <p className="text-xl text-sand mb-10 max-w-2xl mx-auto">
-            Independent comparisons and honest guidance. No showrooms, no pressure, no guesswork.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/finder" className="btn-primary text-center">
-              Find My Chair
-            </Link>
-            <Link
-              href="/learn"
-              className="border border-sand text-sand px-6 py-3 rounded font-semibold hover:bg-white hover:text-navy transition-colors text-center"
-            >
-              Read the Buying Guide
-            </Link>
+      <section className="relative overflow-hidden" style={{ minHeight: '600px' }}>
+        {/* Background image */}
+        <img
+          src="/hero.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+        />
+        {/* Overlay: navy at 55% so image reads through but text stays clean */}
+        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(28,35,49,0.55)' }} />
+        {/* Content */}
+        <div className="relative z-10 flex items-center justify-center min-h-[600px] px-4 py-24">
+          <div className="max-w-4xl mx-auto text-center text-white">
+            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">
+              Find the massage chair that fits your body, your space, and your budget.
+            </h1>
+            <p className="text-xl mb-10 max-w-2xl mx-auto" style={{ color: '#E8DFD3' }}>
+              Independent comparisons and honest guidance. No showrooms, no pressure, no guesswork.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/finder" className="btn-primary text-center">
+                Find My Chair
+              </Link>
+              <Link
+                href="/learn"
+                className="border border-sand text-sand px-6 py-3 rounded font-semibold hover:bg-white hover:text-navy transition-colors text-center"
+              >
+                Read the Buying Guide
+              </Link>
+            </div>
           </div>
         </div>
       </section>
