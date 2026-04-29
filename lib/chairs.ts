@@ -723,7 +723,7 @@ export const CHAIRS: Chair[] = [
     track: 'S', roller: '3D',
     heightMinIn: 60, heightMaxIn: 77, weightCapacityLbs: 300,
     heat: true, stretch: true, aiScanning: true,
-    aiNotes: '30" S-Track. 3D Quad Style Roller (3 depth levels). Heat: lumbar and seat. Full-body stretch. 5'0"-6'5", 300 lbs.',
+    aiNotes: `30" S-Track. 3D Quad Style Roller (3 depth levels). Heat: lumbar and seat. Full-body stretch. 5'0"-6'5", 300 lbs.`,
   },
 
   // ── JPMEDICS ───────────────────────────────────────────────────────────────
