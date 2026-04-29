@@ -14,23 +14,26 @@ export default async function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden" style={{ minHeight: '600px' }}>
-        {/* Background image */}
+      <section className="relative overflow-hidden" style={{ minHeight: '680px' }}>
+        {/* Background image — anchored to top so full head is always visible */}
         <img
           src="/hero.webp"
           alt=""
           aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover object-center"
+          className="absolute inset-0 w-full h-full object-cover"
+          style={{ objectPosition: '50% 0%' }}
         />
-        {/* Overlay: navy at 55% so image reads through but text stays clean */}
-        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(28,35,49,0.55)' }} />
-        {/* Content */}
-        <div className="relative z-10 flex items-center justify-center min-h-[600px] px-4 py-24">
-          <div className="max-w-4xl mx-auto text-center text-white">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">
+        {/* Gradient: transparent at top (man's face), dark at bottom (text area) */}
+        <div className="absolute inset-0" style={{
+          background: 'linear-gradient(to top, rgba(28,35,49,0.97) 0%, rgba(28,35,49,0.85) 20%, rgba(28,35,49,0.3) 44%, transparent 62%)'
+        }} />
+        {/* Content pinned to bottom — well below his face */}
+        <div className="relative z-10 flex flex-col justify-end min-h-[680px] px-4 pb-14">
+          <div className="max-w-3xl mx-auto w-full text-center text-white">
+            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4 leading-tight">
               Find the massage chair that fits your body, your space, and your budget.
             </h1>
-            <p className="text-xl mb-10 max-w-2xl mx-auto" style={{ color: '#E8DFD3' }}>
+            <p className="text-lg mb-8 max-w-xl mx-auto" style={{ color: '#E8DFD3' }}>
               Independent comparisons and honest guidance. No showrooms, no pressure, no guesswork.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
