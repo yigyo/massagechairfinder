@@ -219,17 +219,18 @@ export const CHAIRS: Chair[] = [
     name: 'Kahuna LM-6800S',
     brand: 'Kahuna',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 3799,
+    priceMin: 2499,
     affiliateTier: 'A',
     affiliateRetailer: 'kahunachair.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://kahunachair.com/lm-6800s-2/',
     goodwinLookupKey: 'kahuna lm-6800s',  // MUST come before 'kahuna lm-6800' in lookup
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/kahuna-lm-6800S-massage-chair.jpg?v=1776902669',
-    track: 'SL', roller: null, trackLengthIn: 45,
-    weightCapacityLbs: 300,
+    track: 'SL', roller: '2D', trackLengthIn: 45,
+    heightMinIn: 60, heightMaxIn: 72, weightCapacityLbs: 200,
     zeroGravity: true, zeroGravityStages: 3, spaceSaving: true, wallClearanceIn: 3, heat: true,
-    aiNotes: 'Roller type unconfirmed — do not filter on pressure preference.',
+    foot: true, calf: true, stretch: true, aiScanning: true,
+    aiNotes: 'SL-Track. 2D roller. Verified from kahunachair.com April 2026.',
   },
 
   {
@@ -244,11 +245,11 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://kahunachair.com/product/kahuna-massage-chair-basic-l-track-full-body-kahuna-massage-chair-lm-6800-black/',
     goodwinLookupKey: 'kahuna lm-6800',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/kahuna-lm-6800-massage-chair.jpg?v=1776836198',
-    track: 'L', roller: null, trackLengthIn: 45,
-    heightMaxIn: 72,
-    zeroGravity: true, zeroGravityStages: 3, spaceSaving: true, wallClearanceIn: 3,
-    heat: true, stretch: true,
-    aiNotes: 'Top-selling chair in its category. Roller type unconfirmed — do not filter on pressure preference.',
+    track: 'L', roller: '2D', trackLengthIn: 45,
+    heightMinIn: 60, heightMaxIn: 72, weightCapacityLbs: 200,
+    zeroGravity: true, zeroGravityStages: 2, spaceSaving: true, wallClearanceIn: 3,
+    heat: true, foot: true, calf: true, stretch: true,
+    aiNotes: 'Top-selling L-Track entry chair. 2D roller. Verified from kahunachair.com April 2026.',
   },
 
   // ── INFINITY ───────────────────────────────────────────────────────────────
@@ -287,8 +288,10 @@ export const CHAIRS: Chair[] = [
     goodwinLookupKey: 'infinity celebrity',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity_celebrity_3d-massage-chair.webp?v=1776836198',
     track: 'L', roller: '3D',
-    zeroGravity: true, foot: true,
-    aiNotes: 'Formerly known as Riage X3. Affiliate program at emassagechair.com not yet confirmed.',
+    heightMinIn: 54, heightMaxIn: 76, weightCapacityLbs: 300,
+    zeroGravity: true, heat: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'Formerly known as Riage X3. Affiliate program at emassagechair.com not yet confirmed. Verified specs April 2026.',
   },
 
   {
@@ -342,10 +345,10 @@ export const CHAIRS: Chair[] = [
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Infinity_Imperial_syner-d-massage-chair.jpg?v=1776836198',
     track: 'Flex', roller: '4D',  // Flex-Track: SL+L hybrid
     heightMinIn: 62, heightMaxIn: 78, weightCapacityLbs: 300,
-    zeroGravity: true, spaceSaving: true,
-    stretch: true, foot: true, calf: true,
+    zeroGravity: true, spaceSaving: true, wallClearanceIn: 2, heat: true,
+    foot: true, calf: true, stretch: true, aiScanning: true,
     tallConfirmed: true, plusSizeConfirmed: true,
-    aiNotes: 'Flex-Track (SL+L hybrid). Best tall+space-saving chair — confirmed to 6\'6". 5-year warranty.',
+    aiNotes: 'Flex-Track (SL+L hybrid). Best tall+space-saving chair, confirmed to 6\'6". 5-year warranty. Verified from massagechairstore.com April 2026.',
   },
 
   // ── HUMAN TOUCH ────────────────────────────────────────────────────────────
@@ -364,6 +367,7 @@ export const CHAIRS: Chair[] = [
     goodwinLookupKey: 'human touch laevo',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/human-touch-laevo-zg-massage-chair.webp?v=1776836198',
     track: 'vibration', roller: null,
+    weightCapacityLbs: 285,
     zeroGravity: true, heat: true, liftAssist: true,
     vibrationOnly: true,
     aiNotes: 'VIBRATION ONLY — not a roller chair. Always disclose this. Only recommend to buyers who cannot tolerate roller pressure. Never recommend to buyers seeking deep tissue or firm massage.',
@@ -384,11 +388,11 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair',
     goodwinLookupKey: 'luraco i9',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/luraco-i9_max-massage-chair.jpg?v=1776836198',
-    track: 'L', roller: null,  // Split L-Track; roller type unconfirmed
+    track: 'L', roller: '3D',
     heightMinIn: 59, heightMaxIn: 82, weightCapacityLbs: 300,
-    stretch: true,
+    zeroGravity: true, heat: true, foot: true, calf: true, stretch: true, aiScanning: true,
     tallConfirmed: true, plusSizeConfirmed: true, madeInUSA: true,
-    aiNotes: 'Tallest chair in catalog — confirmed to 6\'10". Only USA-manufactured massage chair. 10-year warranty. Roller type unconfirmed — do not filter on pressure preference.',
+    aiNotes: 'Tallest chair in catalog, confirmed to 6\'10". Only USA-manufactured massage chair. 10-year warranty. Split L-Track with 3D roller. Verified April 2026.',
   },
 
   // ── SYNCA ──────────────────────────────────────────────────────────────────
@@ -406,8 +410,10 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://syncamassagechair.com/products/jp970',
     goodwinLookupKey: 'synca jp970',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/synca-jp970-massage-chair.webp?v=1776836197',
-    track: null, roller: '4D',
-    aiNotes: 'Track type unknown — cannot filter on pain location (lower back/hip/glute). Do not recommend for lower back/hip/glute pain without confirming track.',
+    track: 'S', roller: '4D',
+    heightMinIn: 60, heightMaxIn: 75, weightCapacityLbs: 285,
+    heat: true, foot: true, calf: true, aiScanning: true,
+    aiNotes: 'S-Track. 4D roller. Verified from syncamassagechair.com April 2026.',
   },
 
   {
@@ -423,9 +429,11 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://syncamassagechair.com/products/jp1100',
     goodwinLookupKey: 'synca jp1100',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/synca-jp1100-massage-chair.webp?v=1776836198',
-    track: null, roller: '4D',
-    zeroGravity: true, heat: true,
-    aiNotes: 'Track type unknown — cannot filter on pain location.',
+    track: 'S', roller: '4D',
+    weightCapacityLbs: 300,
+    zeroGravity: false, heat: true, foot: true, aiScanning: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'S-Track. 4D roller. No zero gravity. 300 lb capacity. Verified from syncamassagechair.com April 2026.',
   },
 
   {
@@ -457,10 +465,11 @@ export const CHAIRS: Chair[] = [
     goodwinLookupKey: 'daiwa legacy',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/daiwa-legacy-4-massage-chair.webp?v=1776836198',
     track: 'L', roller: '3D', trackLengthIn: 49,
-    heightMaxIn: 78,
-    zeroGravity: true, spaceSaving: true, heat: true,
-    tallConfirmed: true,
-    aiNotes: 'Tall-accommodating — confirmed to 6\'6".',
+    heightMinIn: 56, heightMaxIn: 78, weightCapacityLbs: 300,
+    zeroGravity: true, zeroGravityStages: 2, spaceSaving: true, wallClearanceIn: 3.25, heat: true,
+    foot: true, calf: true, aiScanning: true,
+    tallConfirmed: true, plusSizeConfirmed: true,
+    aiNotes: 'Tall-accommodating, confirmed to 6\'6". 300 lb capacity. Verified from massagechairheaven.com April 2026.',
   },
 
   // ── KYOTA ──────────────────────────────────────────────────────────────────
@@ -478,8 +487,11 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
     goodwinLookupKey: 'kyota genki',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Kyota-Genki-M380-massage-chair.jpg?v=1776836198',
-    track: null, roller: null,
-    aiNotes: 'Wirecutter Top Pick 2024. Track type unknown — cannot filter on pain location. ZG unconfirmed.',
+    track: 'L', roller: '2D',
+    heightMaxIn: 77, weightCapacityLbs: 330,
+    zeroGravity: true, heat: true, foot: true, calf: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'Wirecutter Top Pick 2024. L-Track. 2D roller. 330 lb capacity. Verified from massagechairstore.com April 2026.',
   },
 
   // ── BODYFRIEND ─────────────────────────────────────────────────────────────
@@ -498,8 +510,9 @@ export const CHAIRS: Chair[] = [
     goodwinLookupKey: 'bodyfriend phantom medical',  // MUST come before 'bodyfriend phantom'
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend_phantom_medical-massage-chair.webp?v=1776904169',
     track: 'SL', roller: '4D',
+    zeroGravity: true, spaceSaving: true, heat: true, foot: true, calf: true,
     pemf: true,
-    aiNotes: 'Includes PEMF (pulsed electromagnetic field) therapy — mention only if buyer asks about advanced wellness tech.',
+    aiNotes: 'Includes PEMF (pulsed electromagnetic field) therapy. Mention only if buyer asks about advanced wellness tech.',
   },
 
   {
@@ -515,9 +528,11 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://recovathlete.com/products/bodyfriend-phantom-ii-massage-chair',
     goodwinLookupKey: 'bodyfriend phantom',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-phantom-ii-massage-chair.jpg?v=1776903999',
-    track: null, roller: '4D',
-    zeroGravity: true,
-    aiNotes: 'Track type unknown — cannot filter on pain location.',
+    track: 'SL', roller: '4D',
+    weightCapacityLbs: 335,
+    zeroGravity: true, heat: true, foot: true, calf: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-Track. 335 lb capacity. Verified from recovathlete.com April 2026.',
   },
 
   {
@@ -534,7 +549,10 @@ export const CHAIRS: Chair[] = [
     goodwinLookupKey: 'bodyfriend palace',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-palace-ii-massage_chair.webp?v=1776904391',
     track: 'SL', roller: '4D',
-    zeroGravity: true,
+    weightCapacityLbs: 300,
+    zeroGravity: true, heat: true, foot: true, calf: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-Track. 300 lb capacity. Verified from recovathlete.com April 2026.',
   },
 
   {
@@ -550,9 +568,10 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://www.amazon.com/Bodyfriend-Recliner-Patented-Technology-Acupressure/dp/B0D97TGBYS',
     goodwinLookupKey: 'bodyfriend falcon',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-falcon-massage-chair.jpg?v=1776904610',
-    track: null, roller: '4D',
-    zeroGravity: true,
-    aiNotes: 'Track type unknown — cannot filter on pain location.',
+    track: 'SL', roller: '4D',
+    weightCapacityLbs: 265,
+    zeroGravity: true, heat: true, foot: true, calf: true, stretch: true,
+    aiNotes: 'SL-Track. 4D roller. Verified from Amazon product listing April 2026.',
   },
 
   // ── AMAMEDICS ──────────────────────────────────────────────────────────────
@@ -570,9 +589,12 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://osakimassagechair.com/products/amamedic-hilux-4d',
     goodwinLookupKey: 'amamedics hilux',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/amamedic-hilux-massage-chair.webp?v=1776836198',
-    track: 'L', roller: '4D', trackLengthIn: 53,
-    zeroGravity: true, zeroGravityStages: 2, heat: true, foot: true, calf: true,
-    aiNotes: 'Heated rollers (not just lumbar heat — rollers themselves are heated).',
+    track: 'SL', roller: '4D', trackLengthIn: 53,
+    heightMinIn: 59, heightMaxIn: 79, weightCapacityLbs: 270,
+    zeroGravity: true, zeroGravityStages: 2, spaceSaving: true, wallClearanceIn: 4.7, heat: true,
+    foot: true, calf: true, stretch: true,
+    tallConfirmed: true,
+    aiNotes: 'Heated rollers (not just lumbar heat - rollers themselves are heated). SL-Track confirmed from osakimassagechair.com April 2026.',
   },
 
   {
@@ -589,7 +611,8 @@ export const CHAIRS: Chair[] = [
     goodwinLookupKey: 'amamedics renew',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/amamedic-renew-massage-chair.webp?v=1776904815',
     track: 'SL', roller: '3D',
-    zeroGravity: true, zeroGravityStages: 3,
+    weightCapacityLbs: 250,
+    zeroGravity: true, zeroGravityStages: 3, spaceSaving: true, wallClearanceIn: 4,
     heat: true, foot: true, calf: true, aiScanning: true,
     clearance: true,
     aiNotes: 'Clearance model. SL-track confirmed (retailer listing). Features verified from product page April 2026.',
@@ -697,9 +720,10 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://massagechairwarehouse.com/products/inada-dreamwave-massage-chair',
     goodwinLookupKey: 'inada dreamwave',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/inada-dreamwave-massage-chair.webp?v=1776836198',
-    track: null, roller: null,
-    aiScanning: true,
-    aiNotes: 'Track and roller type unknown — cannot filter on pain location or pressure preference.',
+    track: 'S', roller: '3D',
+    heightMinIn: 60, heightMaxIn: 77, weightCapacityLbs: 300,
+    heat: true, stretch: true, aiScanning: true,
+    aiNotes: '30" S-Track. 3D Quad Style Roller (3 depth levels). Heat: lumbar and seat. Full-body stretch. 5'0"-6'5", 300 lbs.',
   },
 
   // ── JPMEDICS ───────────────────────────────────────────────────────────────
@@ -718,8 +742,11 @@ export const CHAIRS: Chair[] = [
     goodwinLookupKey: 'jpmedics kumo',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/jpmedics-kumo-4d-massage-chair.webp?v=1776836197',
     track: 'L', roller: '4D',
+    heightMaxIn: 75, weightCapacityLbs: 320,
+    zeroGravity: true, heat: true, foot: true, calf: true, stretch: true, aiScanning: true,
+    plusSizeConfirmed: true,
     madeInUSA: false,  // Made in Japan
-    aiNotes: 'Made in Japan. Highly regarded in the $8,000–$9,000 range.',
+    aiNotes: 'Made in Japan. Highly regarded in the $8,000-$9,000 range. 320 lb capacity. Verified from massagechairwarehouse.com April 2026.',
   },
 
   {
@@ -735,8 +762,11 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://massagechairwarehouse.com/collections/jpmedics',
     goodwinLookupKey: 'jpmedics kaze',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/jpmedics-kaze-duo-massage-chair.webp?v=1776836198',
-    track: null, roller: '4D',
-    aiNotes: 'Track unknown. Dual 4D roller mechanism. URL is a collection page — update when dedicated product page is confirmed.',
+    track: 'L', roller: '4D',
+    heightMinIn: 60, heightMaxIn: 75, weightCapacityLbs: 320,
+    zeroGravity: true, spaceSaving: true, wallClearanceIn: 1, heat: true, foot: true, calf: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'L-Track. Dual 4D roller mechanism. 320 lb capacity. Verified from massagechairwarehouse.com April 2026.',
   },
 
   {
@@ -815,7 +845,10 @@ export const CHAIRS: Chair[] = [
     goodwinLookupKey: 'titan 3d prestige',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/titan-3d-prestige-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '3D',
-    zeroGravity: true, foot: true,
+    heightMaxIn: 75, weightCapacityLbs: 260,
+    zeroGravity: true, spaceSaving: true, wallClearanceIn: 1, heat: true,
+    foot: true, calf: true, stretch: true,
+    aiNotes: 'SL-Track. Space-saving (1" clearance). Verified from titanchair.com April 2026.',
   },
 
   {
