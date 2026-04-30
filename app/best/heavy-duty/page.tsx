@@ -152,7 +152,7 @@ export default function BestHeavyDutyPage() {
             : null
           return (
             <div key={chair.id} className="card">
-              <div className="flex flex-wrap items-baseline gap-3 mb-1">
+              <div className="flex flex-wrap items-baseline gap-3 mb-3">
                 <span className="text-xs font-semibold text-teal uppercase tracking-wide">
                   {i + 1}. {editorial?.label}
                 </span>
