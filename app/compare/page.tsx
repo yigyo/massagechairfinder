@@ -14,13 +14,34 @@ const COMPARISONS = [
     tier: 'Under $3,000',
     summary: 'Both SL-track entry chairs. The Admiral II has a 3D roller and higher weight capacity. The LM-6800S costs $500 less and adds stretch programs.',
   },
-]
-
-const COMING_SOON = [
-  { chairA: 'Synca JP970', chairB: 'Kahuna LM-6800', tier: '$3,000 to $4,000' },
-  { chairA: 'Infinity Dynasty 4D', chairB: 'Infinity Genesis Max 4D', tier: '$10,000 and above' },
-  { chairA: 'Inada DreamWave', chairB: 'JPMedics Kumo 4D', tier: '$8,000 to $12,000' },
-  { chairA: 'Luraco i9 Max Plus', chairB: 'Panasonic MAK1', tier: '$8,000 and above' },
+  {
+    slug: 'synca-jp970-vs-kahuna-lm-6800',
+    chairA: 'Synca JP970',
+    chairB: 'Kahuna LM-6800',
+    tier: '$3,500 to $5,000',
+    summary: 'The JP970 costs $1,200 more and has a 4D roller. The LM-6800 uses an L-track that reaches the hips and glutes. Track type drives this decision.',
+  },
+  {
+    slug: 'inada-dreamwave-vs-jpmedics-kumo-4d',
+    chairA: 'Inada DreamWave',
+    chairB: 'JPMedics Kumo 4D',
+    tier: '$6,500 to $9,000',
+    summary: 'A legacy S-track chair versus a modern L-track with zero gravity. Both are made in Japan. The right choice depends on where your pain lives.',
+  },
+  {
+    slug: 'infinity-dynasty-4d-vs-infinity-genesis-max-4d',
+    chairA: 'Infinity Dynasty 4D',
+    chairB: 'Infinity Genesis Max 4D',
+    tier: '$9,000 to $12,000',
+    summary: 'Same brand, same L-track 4D specs, $2,700 apart. The Dynasty confirms petite and plus-size fit. The Genesis Max is the stronger value for typical buyers.',
+  },
+  {
+    slug: 'luraco-i9-max-plus-vs-panasonic-mak1',
+    chairA: 'Luraco i9 Max Plus',
+    chairB: 'Panasonic MAK1',
+    tier: '$13,000 and above',
+    summary: 'The i9 Max Plus is Made in USA, has L-track and zero gravity, and costs $1,000 less. The MAK1 has no zero gravity and an S-track. A clear case for most buyers.',
+  },
 ]
 
 export default function ComparePage() {
@@ -33,8 +54,7 @@ export default function ComparePage() {
         matter for the decision, who each chair fits, and a direct recommendation.
       </p>
 
-      <h2 className="text-xl font-serif font-semibold text-navy mb-4">Available comparisons</h2>
-      <div className="grid grid-cols-1 gap-4 mb-12">
+      <div className="grid grid-cols-1 gap-4">
         {COMPARISONS.map(c => (
           <Link
             key={c.slug}
@@ -51,22 +71,6 @@ export default function ComparePage() {
             </div>
             <p className="text-warm-gray text-sm">{c.summary}</p>
           </Link>
-        ))}
-      </div>
-
-      <h2 className="text-xl font-serif font-semibold text-navy mb-4">Coming soon</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {COMING_SOON.map(c => (
-          <div key={c.chairA} className="card opacity-60">
-            <div className="flex items-start justify-between gap-2 mb-1">
-              <span className="text-base font-serif font-semibold text-navy">
-                {c.chairA} <span className="text-gold">vs</span> {c.chairB}
-              </span>
-              <span className="shrink-0 bg-navy text-white text-xs font-medium px-2.5 py-1 rounded-full whitespace-nowrap">
-                {c.tier}
-              </span>
-            </div>
-          </div>
         ))}
       </div>
 
