@@ -23,7 +23,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best entry heavy-duty',
-    why: 'The Genki M380 is confirmed at 330 lbs with a plusSizeConfirmed designation and is a Wirecutter Top Pick for 2024. L-track covers the glutes and thighs. At $2,999, it is the most affordable chair in the catalog with a verified high-capacity rating. Zero gravity, heat, foot and calf massage, 2D rollers.',
+    why: 'The Genki M380 is confirmed at 330 lbs with a Plus Size Confirmed designation and is a Wirecutter Top Pick for 2024. L-track covers the glutes and thighs. At $2,999, it is the most affordable chair in the catalog with a verified high-capacity rating. Zero gravity, heat, foot and calf massage, 2D rollers.',
   },
   'ogawa-active-xl': {
     label: 'Best SL-track for larger frames',
@@ -31,7 +31,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'bodyfriend-phantom-ii': {
     label: 'Highest weight capacity in the catalog',
-    why: 'The Phantom II has the highest confirmed weight capacity in the catalog at 335 lbs, with a plusSizeConfirmed designation from the retailer. SL-track, 4D rollers, heat. Height compatibility data is not confirmed from the retailer spec page. Buyers who need both high weight capacity and confirmed height fit should verify directly with the retailer before purchasing.',
+    why: 'The Phantom II has the highest confirmed weight capacity in the catalog at 335 lbs, with a Plus Size Confirmed designation from the retailer. SL-track, 4D rollers, heat. Height compatibility data is not confirmed from the retailer spec page. Buyers who need both high weight capacity and confirmed height fit should verify directly with the retailer before purchasing.',
   },
   'jpmedics-kumo-4d': {
     label: 'Best premium L-track for heavy-duty',
@@ -65,7 +65,7 @@ export default function BestHeavyDutyPage() {
 
       <h1 className="text-4xl font-serif mb-4">Best Heavy-Duty Massage Chairs</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        Weight capacity in massage chairs is often underreported. A chair rated at 300 lbs is not necessarily engineered to deliver full massage effectiveness at that weight. The roller mechanism may not achieve full depth under higher loads, and the frame may be at the edge of its design tolerance. The chairs below are verified at 300 lbs or above with plusSizeConfirmed validation from retailer spec pages.
+        Weight capacity in massage chairs is often underreported. A chair rated at 300 lbs is not necessarily engineered to deliver full massage effectiveness at that weight. The roller mechanism may not achieve full depth under higher loads, and the frame may be at the edge of its design tolerance. The chairs below are verified at 300 lbs or above with Plus Size Confirmed validation from retailer spec pages.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
         Updated April 2026. All five chairs below are confirmed at 300 lbs or above. Height data is noted where available from verified sources.
@@ -80,7 +80,7 @@ export default function BestHeavyDutyPage() {
           Chairs with 320-lb or higher capacity are generally engineered with more mechanical headroom. A 250-lb buyer in a 320-lb-capacity chair will often experience stronger, more consistent roller pressure than in a 300-lb-max chair at the same settings, because the mechanism is not working near its upper limit.
         </p>
         <p className="text-charcoal leading-relaxed">
-          The plusSizeConfirmed designation used in this catalog means the retailer has specifically verified effective performance at or near the maximum weight rating, not just structural safety.
+          The Plus Size Confirmed designation used in this catalog means the retailer has specifically verified effective performance at or near the maximum weight rating, not just structural safety.
         </p>
       </div>
 
@@ -167,7 +167,7 @@ export default function BestHeavyDutyPage() {
                   <h3 className="text-xl font-serif font-semibold text-navy mb-1">
                     <Link href={`/chairs/${chair.id}`} className="hover:text-gold transition-colors">{chair.name}</Link>
                   </h3>
-                  <p className="text-gold font-semibold text-sm mb-3">{priceLabel}</p>
+                  <p className="text-charcoal font-semibold text-sm mb-3">{priceLabel}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {chair.track && chair.track !== 'vibration' && (
                       <span className="border border-navy text-navy text-xs font-medium px-3 py-1 rounded-full">{chair.track}-Track</span>
@@ -190,7 +190,7 @@ export default function BestHeavyDutyPage() {
                       <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Space-Saving</span>
                     )}
                   </div>
-                  <p className="text-charcoal text-sm leading-relaxed mb-4">{editorial?.why}</p>
+                  <p className="text-charcoal text-base leading-relaxed mb-4">{editorial?.why}</p>
                   <div className="flex flex-wrap gap-4 mb-4">
                     {heightRange && <span className="text-xs text-warm-gray">Height: {heightRange}</span>}
                     {chair.weightCapacityLbs ? <span className="text-xs text-warm-gray">Capacity: {chair.weightCapacityLbs} lbs</span> : null}

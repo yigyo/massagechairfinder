@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 
 const navLinks = [
@@ -16,7 +17,14 @@ export default function Navigation() {
     <header className="bg-white border-b border-sand sticky top-0 z-50 shadow-sm">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="font-serif text-xl font-bold text-navy hover:text-gold transition-colors">
+          <Link href="/" className="flex items-center gap-2 font-serif text-xl font-bold text-navy hover:text-gold transition-colors">
+            <Image
+              src="/GMC-logo-icon-1024x1024.png"
+              alt="Massage Chair Finder logo"
+              width={32}
+              height={32}
+              className="h-8 w-8 flex-shrink-0"
+            />
             Massage Chair Finder
           </Link>
           <nav className="hidden md:flex items-center gap-6">
@@ -56,17 +64,4 @@ export default function Navigation() {
               className="block py-2 text-charcoal hover:text-gold transition-colors"
             >
               {link.label}
-            </Link>
-          ))}
-          <Link
-            href="/finder"
-            onClick={() => setOpen(false)}
-            className="block mt-3 btn-primary text-center py-2 px-4 text-sm"
-          >
-            Find My Chair
-          </Link>
-        </div>
-      )}
-    </header>
-  )
-}
+            </
