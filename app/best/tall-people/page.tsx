@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs for Tall People (2026)',
-  description: 'Massage chairs for tall buyers must confirm effective coverage at heights of 6'3" and above, not just structural clearance. Five chairs verified for buyers 6'3" to 6'10".',
+  description: "Massage chairs for tall buyers must confirm effective coverage at heights of 6'3\" and above, not just structural clearance. Five chairs verified for buyers 6'3\" to 6'10\".",
 }
 
 const PICK_IDS = [
