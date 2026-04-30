@@ -78,13 +78,13 @@ export default function BestSciaticaPage() {
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">
           Why track type is the primary filter for sciatica
         </h2>
-        <p className="text-charcoal text-sm leading-relaxed mb-3">
+        <p className="text-charcoal leading-relaxed mb-3">
           The sciatic nerve exits the lumbar spine and runs beneath the piriformis muscle in the glutes. Tension in the piriformis, or inflammation at the sacral level, is a common trigger for sciatic pain. Massage chairs that reach the glutes apply direct, repeated pressure to the muscles involved. S-track chairs stop at the lumbar and cannot access this area at all.
         </p>
-        <p className="text-charcoal text-sm leading-relaxed mb-3">
+        <p className="text-charcoal leading-relaxed mb-3">
           Between L-track and SL-track, the difference is upper-back coverage. L-track chairs extend well under the glutes and into the thighs, but some L-track designs reduce upper-shoulder reach to accommodate the longer lower extension. SL-track chairs maintain full spine coverage from the neck through the lumbar and into the glutes. For buyers with pain across both the upper back and the lower body, SL-track is the better fit. For buyers whose primary concern is the glutes and lower back only, L-track chairs can be equally effective and sometimes more affordable at equivalent roller quality.
         </p>
-        <p className="text-charcoal text-sm leading-relaxed">
+        <p className="text-charcoal leading-relaxed">
           Zero gravity positioning amplifies the effect. When the chair reclines into zero gravity, body weight distributes forward, reducing compression on the lumbar discs and sacral joints. The roller reaches the decompressed spine more effectively than in an upright seated position. All five chairs below include zero gravity.
         </p>
       </div>
@@ -96,7 +96,7 @@ export default function BestSciaticaPage() {
           <table className="w-full text-sm border-collapse">
             <thead>
               <tr className="border-b-2 border-sand">
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
+                <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
@@ -119,7 +119,7 @@ export default function BestSciaticaPage() {
                   : 'No'
                 return (
                   <tr key={chair.id} className={i % 2 === 0 ? 'bg-white' : 'bg-sand/40'}>
-                    <td className="py-3 pr-5">
+                    <td className="py-3 pl-4 pr-5">
                       <Link href={`/chairs/${chair.id}`} className="text-navy hover:text-gold font-medium transition-colors">
                         {chair.name}
                       </Link>
@@ -252,13 +252,13 @@ export default function BestSciaticaPage() {
       {/* Editorial close */}
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
-        <p className="text-charcoal text-sm leading-relaxed mb-3">
+        <p className="text-charcoal leading-relaxed mb-3">
           The right chair depends on your height, weight, and where the pain actually concentrates. If your sciatica primarily involves the glutes and upper hamstrings with little upper-back involvement, the JPMedics Kumo 4D&apos;s L-track extension may outperform an SL-track chair for your specific situation. If you also have significant neck or upper-back tension, SL-track is the stronger choice.
         </p>
-        <p className="text-charcoal text-sm leading-relaxed mb-3">
+        <p className="text-charcoal leading-relaxed mb-3">
           Weight capacity matters more for sciatica buyers than many realize. A chair operating near its weight limit often delivers less effective massage because the roller mechanism cannot achieve full depth. If your weight is within 30 lbs of a chair&apos;s listed capacity, consider the next tier up.
         </p>
-        <p className="text-charcoal text-sm leading-relaxed">
+        <p className="text-charcoal leading-relaxed">
           The{' '}
           <Link href="/learn/track-types" className="text-bronze hover:text-gold transition-colors">
             track types guide
