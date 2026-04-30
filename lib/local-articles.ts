@@ -556,8 +556,8 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
   // ── SECTION 6 ───────────────────────────────────────────────────────────────────────────
   {
     slug: 'brands-overview',
-    title: 'Massage Chair Brands Compared: What Each Brand Actually Stands For',
-    excerpt: 'There are roughly 15 active massage chair brands selling in the US. Some share manufacturing facilities under different names. Others have decades of independent engineering behind them. Here is what the brand name on a chair actually tells you — and what it does not.',
+    title: 'Massage Chair Brands Compared: Who Makes What and Why It Matters',
+    excerpt: 'There are roughly 15 active massage chair brands selling in the US. Some share manufacturing facilities under different names. Others have decades of independent engineering behind them. Here is what the brand behind a chair actually tells you about build quality, warranty, and long-term support.',
     order: 6,
     publishedAt: '2026-04-28',
     body: `<p>Brand name is one of the most searched terms in the massage chair category — and one of the least useful shortcuts for most buyers. "Is Osaki a good brand?" and "Is Infinity worth the money?" are questions that sound like they have yes or no answers. They do not. What the brand tells you depends on which model you are looking at, what price range you are shopping in, and what you are optimizing for. This guide explains what the major brands actually represent so that brand becomes a useful filter rather than a confusing variable.</p>
