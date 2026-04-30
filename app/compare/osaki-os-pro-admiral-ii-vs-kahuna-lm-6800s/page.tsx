@@ -31,7 +31,7 @@ export default function AdmiralVsLM6800SPage() {
       {/* Chair image comparison */}
       <div className="grid grid-cols-2 gap-4 mb-10">
         <div className="text-center">
-          <div className="rounded-lg overflow-hidden bg-sand mb-3" style={{ aspectRatio: '4/3' }}>
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
             <Image
               src="https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-admiral-gray-massage-chair.webp?v=1776836197"
               alt="Osaki OS-Pro Admiral II massage chair"
@@ -44,7 +44,7 @@ export default function AdmiralVsLM6800SPage() {
           <p className="text-sm text-charcoal">$2,999</p>
         </div>
         <div className="text-center">
-          <div className="rounded-lg overflow-hidden bg-sand mb-3" style={{ aspectRatio: '4/3' }}>
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
             <Image
               src="https://cdn.shopify.com/s/files/1/0661/9758/5995/files/kahuna-lm-6800S-massage-chair.jpg?v=1776902669"
               alt="Kahuna LM-6800S massage chair"
