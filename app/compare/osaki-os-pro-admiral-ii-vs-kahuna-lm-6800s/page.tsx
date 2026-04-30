@@ -56,7 +56,7 @@ export default function AdmiralVsLM6800SPage() {
               ['Track type', 'SL-track', 'SL-track'],
               ['Track length', '49 inches', '45 inches'],
               ['Roller type', '3D', '2D'],
-              ['Height range', '5'2" to 6'1"', '5'0" to 6'0"'],
+              ['Height range', "5'2\" to 6'1\"", "5'0\" to 6'0\""],
               ['Weight capacity', '270 lbs', '200 lbs'],
               ['Zero gravity', 'Yes', 'Yes (3 positions)'],
               ['Space saving', 'Yes (2" from wall)', 'Yes (3" from wall)'],
