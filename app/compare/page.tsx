@@ -41,11 +41,13 @@ export default function ComparePage() {
             href={`/compare/${c.slug}`}
             className="card hover:shadow-md transition-shadow group block"
           >
-            <div className="flex items-start justify-between gap-2 mb-1">
+            <div className="flex items-start justify-between gap-3 mb-2">
               <h3 className="text-lg font-serif font-semibold text-navy group-hover:text-gold transition-colors">
-                {c.chairA} vs {c.chairB}
+                {c.chairA} <span className="text-gold">vs</span> {c.chairB}
               </h3>
-              <span className="text-charcoal text-sm shrink-0 font-medium">{c.tier}</span>
+              <span className="shrink-0 bg-navy text-white text-xs font-medium px-2.5 py-1 rounded-full whitespace-nowrap">
+                {c.tier}
+              </span>
             </div>
             <p className="text-warm-gray text-sm">{c.summary}</p>
           </Link>
@@ -58,9 +60,11 @@ export default function ComparePage() {
           <div key={c.chairA} className="card opacity-60">
             <div className="flex items-start justify-between gap-2 mb-1">
               <span className="text-base font-serif font-semibold text-navy">
-                {c.chairA} vs {c.chairB}
+                {c.chairA} <span className="text-gold">vs</span> {c.chairB}
               </span>
-              <span className="text-charcoal text-xs shrink-0 font-medium">{c.tier}</span>
+              <span className="shrink-0 bg-navy text-white text-xs font-medium px-2.5 py-1 rounded-full whitespace-nowrap">
+                {c.tier}
+              </span>
             </div>
           </div>
         ))}
@@ -68,7 +72,7 @@ export default function ComparePage() {
 
       <div className="mt-10 pt-8 border-t border-sand text-sm text-warm-gray">
         <p>
-          Not sure which chair tier to be comparing? Use the{' '}
+          Not sure which chair tier to be comparing? Use the{" "}
           <Link href="/finder" className="text-bronze hover:text-gold">chair finder quiz</Link> to
           narrow your options by pain profile, budget, and body fit first.
         </p>
