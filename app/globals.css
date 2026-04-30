@@ -52,7 +52,7 @@ footer a:hover {
 /* ── Body and article typography ─────────────────────────────────────────── */
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, system-ui, sans-serif;
   font-size: 1.0625rem;
   line-height: 1.7;
 }
