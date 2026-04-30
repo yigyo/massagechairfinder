@@ -1,6 +1,5 @@
 'use client'
 import Link from 'next/link'
-import Image from 'next/image'
 import { useState } from 'react'
 
 const navLinks = [
@@ -18,9 +17,9 @@ export default function Navigation() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 font-serif text-xl font-bold text-navy hover:text-gold transition-colors">
-            <Image
+            <img
               src="/GMC-logo-icon-1024x1024.png"
-              alt="Massage Chair Finder logo"
+              alt=""
               width={32}
               height={32}
               className="h-8 w-8 flex-shrink-0"
@@ -64,4 +63,7 @@ export default function Navigation() {
               className="block py-2 text-charcoal hover:text-gold transition-colors"
             >
               {link.label}
-            </
+            </Link>
+          ))}
+          <Link
+            href="/fin
