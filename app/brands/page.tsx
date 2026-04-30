@@ -36,7 +36,7 @@ export default function BrandsPage() {
               <h2 className="text-xl font-serif font-semibold text-navy group-hover:text-gold transition-colors">
                 {brand.name}
               </h2>
-              <span className="text-charcoal text-sm shrink-0 font-medium">{brand.priceRange}</span>
+              <span className="shrink-0 bg-navy text-white text-xs font-medium px-2.5 py-1 rounded-full whitespace-nowrap">{brand.priceRange}</span>
             </div>
             <p className="text-warm-gray text-sm">{brand.tagline}</p>
           </Link>
