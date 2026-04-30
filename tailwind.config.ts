@@ -19,3 +19,9 @@ const config: Config = {
         serif: ['var(--font-noto-serif)', 'Georgia', 'serif'],
         sans: ['Helvetica Neue', 'Helvetica', 'system-ui', 'sans-serif'],
       },
+    },
+  },
+  plugins: [],
+}
+
+export default config
