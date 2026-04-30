@@ -55,7 +55,7 @@ export default function ChairsPage() {
                     </>
                   )}
                 </div>
-                <span className="text-sm font-semibold text-gold shrink-0">{priceLabel}</span>
+                <span className="text-sm font-semibold text-charcoal shrink-0">{priceLabel}</span>
               </div>
             </Link>
           )
