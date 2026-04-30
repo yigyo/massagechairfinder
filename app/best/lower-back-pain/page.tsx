@@ -190,10 +190,10 @@ export default function BestLowerBackPainPage() {
 
                   {/* Feature pills */}
                   <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="bg-navy text-white text-xs font-medium px-3 py-1 rounded-full">
+                    <span className="border border-navy text-navy text-xs font-medium px-3 py-1 rounded-full">
                       {chair.track}-Track
                     </span>
-                    <span className="bg-teal text-white text-xs font-medium px-3 py-1 rounded-full">
+                    <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">
                       {chair.roller}
                     </span>
                     {chair.zeroGravity && (

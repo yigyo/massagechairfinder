@@ -170,10 +170,10 @@ export default function BestHeavyDutyPage() {
                   <p className="text-gold font-semibold text-sm mb-3">{priceLabel}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {chair.track && chair.track !== 'vibration' && (
-                      <span className="bg-navy text-white text-xs font-medium px-3 py-1 rounded-full">{chair.track}-Track</span>
+                      <span className="border border-navy text-navy text-xs font-medium px-3 py-1 rounded-full">{chair.track}-Track</span>
                     )}
                     {chair.roller && (
-                      <span className="bg-teal text-white text-xs font-medium px-3 py-1 rounded-full">{chair.roller}</span>
+                      <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">{chair.roller}</span>
                     )}
                     {chair.zeroGravity && (
                       <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">
