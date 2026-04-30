@@ -91,7 +91,7 @@ export default function DynastyVsGenesisMaxPage() {
               ['Heat therapy', 'Yes', 'Yes'],
               ['Foot and calf', 'Yes', 'Yes'],
               ['Stretch programs', 'Not confirmed', 'Yes'],
-              ['Petite confirmed', 'Yes (from 5'0")', 'Not confirmed'],
+              ["Petite confirmed", "Yes (from 5'0\")", "Not confirmed"],
               ['Plus-size confirmed', 'Yes (to 300 lbs)', 'Not confirmed'],
             ].map(([spec, a, b], i) => (
               <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>

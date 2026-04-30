@@ -92,7 +92,7 @@ export default function LuracoVsMAK1Page() {
               ['Foot and calf', 'Yes', 'Yes'],
               ['Stretch programs', 'Yes', 'Yes'],
               ['Body scanning', 'Yes', 'Yes'],
-              ['Tall confirmed', 'Yes (to 6'10")', 'No'],
+              ["Tall confirmed", "Yes (to 6'10\")", "No"],
               ['Country of origin', 'USA (Irving, Texas)', 'Japan'],
               ['Warranty', '10 years', 'Standard'],
             ].map(([spec, a, b], i) => (
