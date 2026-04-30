@@ -66,4 +66,14 @@ export default function Navigation() {
             </Link>
           ))}
           <Link
-            href="/fin
+            href="/finder"
+            onClick={() => setOpen(false)}
+            className="block mt-3 btn-primary text-center py-2 px-4 text-sm"
+          >
+            Find My Chair
+          </Link>
+        </div>
+      )}
+    </header>
+  )
+}
