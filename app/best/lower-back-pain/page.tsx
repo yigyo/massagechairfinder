@@ -186,7 +186,7 @@ export default function BestLowerBackPainPage() {
                       {chair.name}
                     </Link>
                   </h3>
-                  <p className="text-charcoal font-semibold text-sm mb-3">{priceLabel}</p>
+                  <p className="text-gold font-semibold text-sm mb-3">{priceLabel}</p>
 
                   {/* Feature pills */}
                   <div className="flex flex-wrap gap-2 mb-4">
@@ -219,7 +219,7 @@ export default function BestLowerBackPainPage() {
                   </div>
 
                   {/* Editorial */}
-                  <p className="text-charcoal text-base leading-relaxed mb-4">
+                  <p className="text-charcoal text-sm leading-relaxed mb-4">
                     {editorial?.why}
                   </p>
 

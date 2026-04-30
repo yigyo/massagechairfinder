@@ -165,7 +165,7 @@ export default function BestUnder3000Page() {
                   <h3 className="text-xl font-serif font-semibold text-navy mb-1">
                     <Link href={`/chairs/${chair.id}`} className="hover:text-gold transition-colors">{chair.name}</Link>
                   </h3>
-                  <p className="text-charcoal font-semibold text-sm mb-3">{priceLabel}</p>
+                  <p className="text-gold font-semibold text-sm mb-3">{priceLabel}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {chair.track && chair.track !== 'vibration' && (
                       <span className="border border-navy text-navy text-xs font-medium px-3 py-1 rounded-full">{chair.track}-Track</span>
@@ -188,7 +188,7 @@ export default function BestUnder3000Page() {
                       <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Space-Saving</span>
                     )}
                   </div>
-                  <p className="text-charcoal text-base leading-relaxed mb-4">{editorial?.why}</p>
+                  <p className="text-charcoal text-sm leading-relaxed mb-4">{editorial?.why}</p>
                   <div className="flex flex-wrap gap-4 mb-4">
                     {heightRange && <span className="text-xs text-warm-gray">Height: {heightRange}</span>}
                     {chair.weightCapacityLbs ? <span className="text-xs text-warm-gray">Capacity: {chair.weightCapacityLbs} lbs</span> : null}
