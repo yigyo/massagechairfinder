@@ -1,22 +1,11 @@
 import type { Metadata } from 'next'
-import { Noto_Serif } from 'next/font/google'
 import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import GoogleAnalytics from '@/components/GoogleAnalytics'
-import ScrollTracker from '@/components/ScrollTracker'
-
-const notoSerif = Noto_Serif({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  variable: '--font-noto-serif',
-  display: 'swap',
-})
 
 export const metadata: Metadata = {
   title: {
-    default: 'Massage Chair Finder -- Find the Right Chair for Your Body',
+    default: 'Massage Chair Finder — Find the Right Chair for Your Body',
     template: '%s | Massage Chair Finder',
   },
   description:
@@ -46,14 +35,12 @@ const siteSchema = JSON.stringify({
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={notoSerif.variable}>
+    <html lang="en">
       <body className="bg-linen text-charcoal min-h-screen flex flex-col">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: siteSchema }}
         />
-        <GoogleAnalytics />
-        <ScrollTracker />
         <Navigation />
         <main className="flex-1">{children}</main>
         <Footer />
