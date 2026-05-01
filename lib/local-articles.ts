@@ -957,6 +957,81 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>To see SL-track coverage in the context of a buying decision, the <a href="/learn/track-types">track types guide</a> covers all three track types with recommendations by pain location. The <a href="/finder">chair finder</a> uses track type as a primary filter based on your pain profile, body dimensions, and budget.</p>`,
   },
 
+  // ── 4D ROLLERS GLOSSARY ─────────────────────────────────────────────────────────────────
+  {
+    slug: '4d-rollers',
+    title: 'What Is a 4D Massage Chair Roller?',
+    excerpt: 'A 4D massage chair roller adds variable speed and rhythm to the depth control you get with a 3D roller. The rollers can slow down, pause, and accelerate unevenly, approximating the rhythm variation a human therapist applies. For most buyers treating back pain or tension, 3D is sufficient. 4D matters when feel is a priority alongside function.',
+    order: 9,
+    publishedAt: '2026-04-30',
+    body: `<p>A 4D massage chair roller is a 3D roller with one additional capability: variable speed. In a 3D chair, the rollers move at a consistent pace as they travel up and down your spine, adjusting depth but not rhythm. In a 4D chair, the rollers can slow down, speed up, pause, and pulse with uneven timing. The goal is to replicate the quality that distinguishes a skilled massage therapist's hands from a mechanical system: the sense that the pressure is listening to your body rather than executing a fixed program.</p>
+
+<p>That is the full technical definition. Whether it matters for your buying decision depends on what you are trying to solve and how attuned you are to massage feel versus massage function.</p>
+
+<h2>How 4D differs from 2D and 3D</h2>
+
+<p>To understand what 4D adds, it helps to know what came before it. Each generation of roller technology added a new axis of movement.</p>
+
+<p><strong>2D rollers</strong> move in two directions: up and down the track, and side to side. Pressure is fixed. The massage delivers a consistent stroke at a consistent depth, which is adequate for general relaxation but limited for buyers with significant back tension or chronic pain.</p>
+
+<p><strong>3D rollers</strong> add depth control. The roller head can extend outward toward your body or retract away, letting you dial in how firmly the rollers press into your back. This is the upgrade that actually matters therapeutically for most buyers. Moving from 2D to 3D means the difference between a massage that works the surface and one that reaches into the muscle tissue. The majority of chairs in the $3,000 to $8,000 range use 3D systems.</p>
+
+<p><strong>4D rollers</strong> keep everything 3D offers and add speed variation. The rollers still extend and retract for depth control. They still travel the full length of the track. What changes is the timing: a 4D system can decelerate into a tense area, hold pressure briefly, and then resume with a different rhythm. The resulting sensation is less metronome, more hands.</p>
+
+<p>Importantly, 4D does not add more rollers, a longer track, or better air massage. It changes only one variable: how consistently or inconsistently the rollers move through time. For a deeper comparison of these systems, the <a href="/learn/roller-dimensions">roller dimensions guide</a> covers the full 2D, 3D, and 4D spectrum with spec context and catalog examples.</p>
+
+<h2>What 4D rhythm variation actually feels like</h2>
+
+<p>This is where descriptions get difficult, because the difference between 3D and 4D is perceptual rather than structural. Buyers who notice it describe the distinction in similar terms: a 3D chair feels like it is running a program, while a 4D chair feels like it is responding to you.</p>
+
+<p>In practice, that means a 4D system might slow its stroke when it reaches a tight area, apply sustained pressure for a beat longer, and then accelerate through a less tense region. The variation is subtle on a single pass. Over a 25-minute session, it accumulates into something that feels markedly less repetitive.</p>
+
+<p>For buyers who have never used a massage chair, this distinction may not register as significant until they have experienced both. For buyers who have tried a quality 3D chair and found themselves mentally tuning out the rhythm after a few minutes, 4D is often exactly what they were missing.</p>
+
+<p>The practical threshold for whether 4D matters to you: if you have had regular professional massage and are calibrated to how a skilled therapist adjusts pressure and pace, you will likely notice and appreciate 4D. If your primary concern is back pain relief and you are less focused on the sensory experience of the massage itself, a well-configured 3D chair will deliver comparable therapeutic results.</p>
+
+<h2>Which chairs use 4D roller systems</h2>
+
+<p>4D roller chairs currently in our catalog include the <strong>Ogawa Master Drive LE 4D</strong>, the <strong>Ogawa Master Drive AI 2.0 4D</strong>, the <strong>AmaMedics Hilux 4D</strong>, the <strong>Infinity Dynasty 4D</strong>, the <strong>Infinity Evo Max 4D</strong>, the <strong>Infinity Genesis Max 4D</strong>, and the <strong>Bodyfriend Phantom Medical Care 4D SL</strong>.</p>
+
+<p>These chairs are spread across multiple track types. The Ogawa Master Drive LE and AmaMedics Hilux use SL-track with 4D rollers. The Infinity Dynasty 4D and Evo Max 4D use L-track. The Bodyfriend Phantom uses an SL-track configuration. Track type is a separate and often more consequential decision than roller dimension for buyers with specific pain locations. If you are choosing between an SL-track 3D chair and an L-track 4D chair, track coverage should be the deciding variable, not roller type. The <a href="/learn/track-types">track types guide</a> explains this in full.</p>
+
+<p>Price-wise, 4D chairs in the current catalog run from roughly $4,000 to $9,000 depending on track type, brand, and additional features like zero gravity, heated rollers, and extended warranty terms. The 4D premium over a comparable 3D chair in the same product line is typically $500 to $1,500.</p>
+
+<h2>Who benefits from 4D, and who does not need it</h2>
+
+<p>4D is worth the premium in a few specific situations. You will likely notice and value it if you have experienced regular professional massage and are calibrated to rhythm variation. You will also benefit if you have tried a massage chair before and found the mechanical consistency distracting enough to reduce how often you used it. A chair that does not get used delivers no therapeutic value regardless of its specs, so if feel is the variable that determines daily use, it is a legitimate functional priority.</p>
+
+<p>4D is likely not necessary if this is your first massage chair, if your primary goal is lower back pain relief or sciatica management rather than a therapeutic massage experience, or if the budget difference between 3D and 4D would require compromising on track type or zero gravity. For buyers in that category, a quality SL-track 3D chair at $3,500 to $5,000 will address the physical goals more effectively than an L-track 4D chair at the same price point.</p>
+
+<p>One practical consideration worth noting: 4D systems have more mechanical complexity than 3D. The variable-speed motor adds moving parts. This is not a reason to avoid 4D chairs, but it is a reason to check that the warranty covers the roller mechanism specifically and for how long, particularly on chairs at the lower end of the 4D price range. The <a href="/learn/how-to-buy">how to buy guide</a> covers warranty evaluation as part of the purchase decision framework.</p>
+
+<p>If you are still narrowing your options, the <a href="/finder">chair finder</a> factors in pain profile, budget, and body dimensions to surface a recommendation. You can also browse the <a href="/best/lower-back-pain">best chairs for lower back pain</a> collection, which includes both 3D and 4D options with track type and zero gravity noted for each.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Does 4D mean the chair has four rollers?</strong></summary>
+<p>No. 4D refers to the roller's range of motion, specifically the addition of variable speed and rhythm. Most massage chairs have two or four roller heads regardless of whether the system is rated 3D or 4D. The number describes how the rollers move, not how many there are.</p>
+</details>
+
+<details>
+<summary><strong>Is 4D better than 3D for back pain?</strong></summary>
+<p>Not specifically. The depth control in a 3D roller is what delivers therapeutic pressure into muscle tissue, and 4D keeps that capability while adding rhythm variation. For buyers treating lower back pain, sciatica, or chronic tension, the track type and zero gravity configuration matter more than whether the roller is 3D or 4D. A quality 3D SL-track chair will outperform a 4D S-track chair for lower back pain, regardless of roller generation.</p>
+</details>
+
+<details>
+<summary><strong>What is the difference between 4D and humanoid massage technology?</strong></summary>
+<p>Some manufacturers market their roller systems as "humanoid," "AI-powered," or "intelligent" massage. These terms typically describe a 4D system paired with body-scanning software that adjusts pressure and speed based on the user's body map. The underlying roller mechanism is 4D. The intelligence layer adjusts the program in real time based on detected body shape and tension. Ogawa's Master Drive AI 2.0 is an example of this combination.</p>
+</details>
+
+<details>
+<summary><strong>Can I feel the difference between 3D and 4D in a showroom?</strong></summary>
+<p>Yes, but it typically requires spending at least 10 to 15 minutes on each chair, not a 2-minute test. The rhythm difference in 4D becomes apparent once the novelty of the massage wears off and you start noticing how the chair transitions between areas. In a brief showroom visit, both systems may feel satisfying and similar. If you have access to extended testing, a full program on each type is worth the time before a $5,000 to $7,000 purchase.</p>
+</details>`,
+  },
+
+
 ]
 
 // ── HELPERS ─────────────────────────────────────────────────────────────────────────────────
