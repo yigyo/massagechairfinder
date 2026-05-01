@@ -34,6 +34,8 @@ export interface Chair {
   active:         boolean  // false = discontinued, exclude from all recommendations
   goodwinActive:  boolean  // false = exclude from Goodwin quiz
   mcfActive:      boolean  // false = exclude from MCF finder
+  inStock?:        boolean  // undefined = in stock; false = currently OOS (chair may return)
+  alternativeIds?: string[] // IDs of recommended alternatives shown on OOS/discontinued pages
 
   // ─ Pricing ───────────────────────────────────────────────────────────────
   priceMin:        number   // lowest listed/estimated price in USD
@@ -224,6 +226,8 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'kahunachair.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://kahunachair.com/lm-6800s-2/',
+    inStock: false,
+    alternativeIds: ['osaki-os-pro-admiral-ii'],
     goodwinLookupKey: 'kahuna lm-6800s',  // MUST come before 'kahuna lm-6800' in lookup
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/kahuna-lm-6800S-massage-chair.jpg?v=1776902669',
     track: 'SL', roller: '2D', trackLengthIn: 45,
@@ -243,6 +247,8 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'kahunachair.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://kahunachair.com/product/kahuna-massage-chair-basic-l-track-full-body-kahuna-massage-chair-lm-6800-black/',
+    inStock: false,
+    alternativeIds: ['kyota-genki-m380'],
     goodwinLookupKey: 'kahuna lm-6800',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/kahuna-lm-6800-massage-chair.jpg?v=1776836198',
     track: 'L', roller: '2D', trackLengthIn: 45,
@@ -427,6 +433,7 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '8%+, 30-day cookie (direct)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://syncamassagechair.com/products/jp1100',
+    alternativeIds: ['panasonic-mak1', 'panasonic-maf1'],
     goodwinLookupKey: 'synca jp1100',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/synca-jp1100-massage-chair.webp?v=1776836198',
     track: 'S', roller: '4D',
@@ -446,6 +453,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A', goodwinStatus: 'affiliate',
     track: null, roller: '4D',
     zeroGravity: true, spaceSaving: true, wallClearanceIn: 0,
+    alternativeIds: ['panasonic-maf1'],
     aiNotes: 'DISCONTINUED — do not recommend.',
   },
 
@@ -689,6 +697,8 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'easymassagechair.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.easymassagechair.com/ogawa-active-xl-3d-massage-chair-zero-gravity-air-compression-technology.html',
+    inStock: false,
+    alternativeIds: ['titan-3d-prestige'],
     goodwinLookupKey: 'ogawa active xl',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-active-xl-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '3D',
@@ -707,6 +717,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A', goodwinStatus: 'affiliate',
     track: 'SL', roller: '2D',
     zeroGravity: true, heat: true,
+    alternativeIds: ['osaki-os-pro-admiral-ii'],
     aiNotes: 'DISCONTINUED — do not recommend.',
   },
 
@@ -741,6 +752,8 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '10%, 30-day cookie',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://massagechairwarehouse.com/products/inada-dreamwave-massage-chair',
+    inStock: false,
+    alternativeIds: ['panasonic-maf1'],
     goodwinLookupKey: 'inada dreamwave',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/inada-dreamwave-massage-chair.webp?v=1776836198',
     track: 'S', roller: '3D',
@@ -859,6 +872,7 @@ export const CHAIRS: Chair[] = [
     priceMin: 5000, priceMax: 7000, priceEstimated: true,
     affiliateTier: 'A', goodwinStatus: 'affiliate',
     track: null, roller: '3D', aiScanning: true,
+    alternativeIds: ['panasonic-maf1'],
     aiNotes: 'DISCONTINUED — do not recommend.',
   },
 
@@ -871,6 +885,7 @@ export const CHAIRS: Chair[] = [
     priceMin: 4000, priceMax: 6000, priceEstimated: true,
     affiliateTier: 'A', goodwinStatus: 'affiliate',
     track: null, roller: '3D',
+    alternativeIds: ['panasonic-maf1'],
     aiNotes: 'DISCONTINUED — do not recommend.',
   },
 
@@ -928,6 +943,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A', goodwinStatus: 'affiliate',
     track: null, roller: '3D',
     zeroGravity: true, heat: true,
+    alternativeIds: ['titan-pro-vigor-4d'],
     aiNotes: 'No dedicated product page confirmed — do not recommend.',
   },
 
@@ -1008,6 +1024,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: null, goodwinStatus: 'none',
     track: 'L', roller: '4D',
     zeroGravity: true, foot: true, aiScanning: true,
+    alternativeIds: ['jpmedics-kaze-duo'],
     aiNotes: 'Price unknown and physical retail only — do not recommend.',
   },
 
