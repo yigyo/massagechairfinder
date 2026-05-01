@@ -829,6 +829,28 @@ export const CHAIRS: Chair[] = [
   },
 
   {
+    id: 'panasonic-maf1',
+    name: 'Panasonic MAF1',
+    brand: 'Panasonic',
+    active: true, goodwinActive: true, mcfActive: true,
+    priceMin: 5999,  // verified 2026-05-01 from primemassagechairs.com
+    affiliateTier: 'A',
+    affiliateRetailer: 'primemassagechairs.com',
+    affiliateCommission: 'Prime Massage Chairs referral program',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://www.primemassagechairs.com/products/panasonic-maf1-massage-chair',
+    goodwinLookupKey: 'panasonic maf1',
+    goodwinImageUrl: 'https://www.primemassagechairs.com/cdn/shop/files/Panasonic-MAF1-Massage-Chair-in-Midnight-Black_700x700.jpg?v=1717195461',
+    track: 'S', roller: '4D',
+    heightMinIn: 56, heightMaxIn: 74, weightCapacityLbs: 264,
+    zeroGravity: false,
+    spaceSaving: true,
+    heat: true, foot: true, calf: true, stretch: true,
+    aiScanning: true,
+    aiNotes: "S-TRACK ONLY — do not recommend for lower back/hip/glute pain. NO zero gravity. Compact 27\" wide. 4D roller. Heated massage heads. Zengineered Panasonic craftsmanship. Verified from primemassagechairs.com 2026-05-01.",
+  },
+
+  {
     id: 'panasonic-maj7',
     name: 'Panasonic MAJ7 Real Pro Ultra',
     brand: 'Panasonic',
