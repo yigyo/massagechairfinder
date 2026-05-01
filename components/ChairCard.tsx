@@ -83,7 +83,7 @@ export default function ChairCard({ chair }: Props) {
         <span className="font-semibold text-navy">{price}</span>
         <div className="flex gap-2">
           <Link href={`/chairs/${slug}`} className="text-sm text-bronze hover:text-gold font-medium transition-colors">
-            Details ->
+            Details {'->'}
           </Link>
           {primaryLink && (
             <a
