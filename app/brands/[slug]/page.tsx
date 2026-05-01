@@ -60,7 +60,7 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
         ))}
       </div>
 
-      <div className="bg-sand/40 rounded-lg p-4 mb-10 text-sm">
+      <div className="bg-sand/40 rounded-lg p-4 mb-10">
         <strong className="text-navy">Best for:</strong>{' '}
         <span className="text-charcoal">{brand.bestFor}</span>
       </div>
