@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
+import ScrollTracker from '@/components/ScrollTracker'
 
 export const metadata: Metadata = {
   title: {
@@ -37,6 +39,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="bg-linen text-charcoal min-h-screen flex flex-col">
+        <GoogleAnalytics />
+        <ScrollTracker />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: siteSchema }}
