@@ -279,7 +279,7 @@ export const CHAIRS: Chair[] = [
     id: 'infinity-celebrity',
     name: 'Infinity Celebrity 3D/4D',
     brand: 'Infinity',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // emassagechair.com not on approved retailer list 2026-05-01
     priceMin: 7999,  // price confirmed 2026-04-27
     affiliateTier: null,  // MCW sold out; moved to emassagechair.com — affiliate program unconfirmed
     affiliateRetailer: 'emassagechair.com',
