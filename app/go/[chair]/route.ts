@@ -5,7 +5,7 @@ export async function GET(
   req: NextRequest,
   { params }: { params: { chair: string } }
 ) {
-  const chair = CHAIRS.find(c => c.id === params.chair && c.active && c.mcfActive)
+  const chair = CHAIRS.find(c => c.id === params.chair && c.active)
   if (!chair?.affiliateUrl) {
     return NextResponse.redirect(new URL('/chairs/' + params.chair, req.url))
   }

@@ -520,6 +520,15 @@ export default async function ChairPage({ params }: { params: { slug: string } }
           </div>
         </div>
 
+        {/* OOS alternatives (between hero and quick take) */}
+        {isOOS && (
+          <AlternativesPanel
+            alts={alternatives}
+            title="Looking for something available now?"
+            body="This chair is temporarily out of stock. These are the closest alternatives we recommend while you wait."
+          />
+        )}
+
         {/* Quick take */}
         <div className="bg-linen border-l-4 border-gold px-6 py-5 rounded-r-xl mb-12 max-w-2xl">
           <p className="text-sm font-semibold text-warm-gray uppercase tracking-wide mb-2">Quick take</p>
@@ -610,15 +619,6 @@ export default async function ChairPage({ params }: { params: { slug: string } }
             </table>
           </div>
         </div>
-
-        {/* OOS alternatives (after specs) */}
-        {isOOS && (
-          <AlternativesPanel
-            alts={alternatives}
-            title="Looking for something available now?"
-            body="This chair is temporarily out of stock. These are the closest alternatives we recommend while you wait."
-          />
-        )}
 
         {/* FAQ */}
         {faqs.length > 0 && (
