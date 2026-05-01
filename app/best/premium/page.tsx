@@ -4,15 +4,15 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Premium Massage Chairs Over $5,000 (2026)',
-  description: 'Above $5,000, massage chairs differentiate by roller sophistication, confirmed body fit range, and warranty coverage. Five chairs selected from $5,899 to $9,999 across distinct use cases.',
+  description: 'Above $5,000, massage chairs differentiate by roller sophistication, confirmed body fit range, and warranty coverage. Five chairs selected from $5,999 to $13,490 across distinct use cases.',
 }
 
 const PICK_IDS = [
-  'ogawa-active-xl',
+  'titan-pro-vigor-4d',
   'infinity-imperial-syner-d',
   'jpmedics-kumo-4d',
   'daiwa-legacy-4',
-  'ogawa-master-drive-le',
+  'osaki-os-pro-maestro-le',
 ]
 
 interface Editorial {
@@ -21,25 +21,25 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'ogawa-active-xl': {
-    label: 'Best entry premium, wide body fit',
-    why: 'The Active XL 3D is the first chair in the catalog where a confirmed height range (5\'0" to 6\'4") and a high weight capacity (320 lbs) combine at a sub-$6,000 price. SL-track, 3D rollers, two-stage zero gravity, heat. For buyers who have outgrown the mid-tier\'s body fit confirmations or need a higher weight capacity, this is where the premium catalog starts.',
+  'titan-pro-vigor-4d': {
+    label: 'Best entry premium, SL-track 4D',
+    why: 'The Titan Pro-Vigor 4D is the entry point for SL-track 4D roller quality in the premium tier at $5,999. 4D rollers vary speed and depth within each stroke, a step beyond the fixed-depth 3D mechanisms in the mid-tier. Two-stage zero gravity, heated rollers, calf and foot massage, full-body stretch, space-saving 3.9-inch wall clearance, body scanning. Confirmed 5'0" to 6'2", 260 lbs. For buyers who want 4D roller quality and full-spine coverage without crossing into the $7,000 range, this is where the premium catalog starts.',
   },
   'infinity-imperial-syner-d': {
     label: 'Best Flex-track, widest height range',
-    why: 'The Syner-D uses a Flex-track mechanism, a hybrid between SL and L-track that adjusts its coverage range between programs. Confirmed for 5\'2" to 6\'6", one of the widest height ranges in this catalog. 4D rollers, space-saving 2-inch wall clearance, 5-year warranty, body scanning, 300 lbs. Price varies by retailer; confirmed range is $8,000 to $12,000.',
+    why: "The Syner-D uses a Flex-track mechanism, a hybrid between SL and L-track that adjusts its coverage range between programs. Confirmed for 5'2\" to 6'6\", one of the widest height ranges in this catalog. 4D rollers, space-saving 2-inch wall clearance, 5-year warranty, body scanning, 300 lbs. Price varies by retailer; confirmed range is $8,000 to $12,000.",
   },
   'jpmedics-kumo-4d': {
     label: 'Best for lower body focus, made in Japan',
-    why: 'The Kumo 4D is an L-track chair with 4D rollers, made in Japan, confirmed at 320 lbs. For buyers whose primary pain is in the lower back, glutes, and hamstrings, an L-track with 4D roller depth delivers more focused coverage of that zone than a longer SL-track at the same price. Made in Japan typically correlates with stricter manufacturing tolerances at this tier. Up to 6\'3".',
+    why: "The Kumo 4D is an L-track chair with 4D rollers, made in Japan, confirmed at 320 lbs. For buyers whose primary pain is in the lower back, glutes, and hamstrings, an L-track with 4D roller depth delivers more focused coverage of that zone than a longer SL-track at the same price. Made in Japan typically correlates with stricter manufacturing tolerances at this tier. Up to 6'3\".",
   },
   'daiwa-legacy-4': {
     label: 'Best for tall buyers who need L-track',
-    why: 'The Legacy 4 has a 49-inch L-track confirmed from 4\'8" to 6\'6", space-saving 3.25-inch wall clearance, two-stage zero gravity, and body scanning. For buyers taller than 6\'3" who need a well-confirmed body fit, this is the chair in this price range. 3D rollers, 300 lbs.',
+    why: "The Legacy 4 has a 49-inch L-track confirmed from 4'8\" to 6'6\", space-saving 3.25-inch wall clearance, two-stage zero gravity, and body scanning. For buyers taller than 6'3\" who need a well-confirmed body fit, this is the chair in this price range. 3D rollers, 300 lbs.",
   },
-  'ogawa-master-drive-le': {
-    label: 'Best full-coverage SL-track with 4D',
-    why: 'The Master Drive LE 4D combines SL-track, 4D rollers, and a 320-lb weight capacity at $9,999. Confirmed 5\'2" to 6\'1". Two-stage zero gravity, space-saving recline. For buyers who want the full spine-to-glute coverage of SL-track with 4D roller quality and do not need to accommodate heights above 6\'1", this is the pick.',
+  'osaki-os-pro-maestro-le': {
+    label: 'Best premium SL-track with body scanning',
+    why: "The Maestro LE delivers SL-track, 4D rollers, and body scanning at $8,999. Space-saving 5-inch wall clearance. Body scanning positions the roller precisely at the cervical vertebrae before each session, which matters more at 4D speeds where roller placement errors are amplified. For buyers who want 4D coverage accuracy across the full spine, this is the pick. 260 lb capacity, confirmed 5'2\" to 6'1\".",
   },
 }
 
@@ -68,7 +68,7 @@ export default function BestPremiumPage() {
         Above $5,000, the massage chair category differentiates primarily by roller sophistication, body fit confirmation, and build longevity rather than track coverage. Most premium chairs are SL-track, L-track, or Flex-track, and all include zero gravity. The meaningful questions at this tier are which roller mechanism, how well-confirmed is the body fit, and what the warranty actually covers.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated April 2026. For the highest-tier chairs above $10,000, see the full{' '}
+        Updated May 2026. For the highest-tier chairs above $10,000, see the full{' '}
         <Link href="/chairs" className="text-bronze hover:text-gold transition-colors">chair catalog</Link>.
       </p>
 
@@ -214,10 +214,10 @@ export default function BestPremiumPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If full-spine coverage matters (neck through glutes), the Master Drive LE 4D or the Syner-D are the picks depending on height range. If lower back and glute focus is the priority, the Kumo 4D&apos;s L-track 4D combination is more targeted.
+          If full-spine coverage matters (neck through glutes), the Titan Pro-Vigor 4D at $5,999 is the entry point, and the Maestro LE at $8,999 adds body scanning accuracy at the higher end. If lower back and glute focus is the priority, the Kumo 4D&apos;s L-track 4D combination is more targeted.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          If you are above 6'3&quot; and in the premium tier, the Daiwa Legacy 4 is confirmed to 6'6&quot; and the Syner-D to 6'6&quot; as well. The Ogawa Active XL is confirmed to 6'4&quot;.
+          If you are above 6&apos;3&quot; and in the premium tier, the Daiwa Legacy 4 is confirmed to 6&apos;6&quot; and the Syner-D to 6&apos;6&quot; as well. Both are the right options for tall buyers at this tier.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}

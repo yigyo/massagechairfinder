@@ -4,12 +4,12 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs $3,000 to $5,000 (2026)',
-  description: 'The $3,000 to $5,000 range offers 4D rollers, specialist S-track options, and the widest confirmed body fit ranges in the mid-tier. Four chairs selected across distinct use cases.',
+  description: 'The $3,000 to $5,000 range offers 4D rollers, S-track specialist options, and the widest confirmed body fit ranges in the mid-tier. Four chairs selected across distinct use cases.',
 }
 
 const PICK_IDS = [
-  'kahuna-lm-6800',
-  'synca-jp970',
+  'kyota-genki-m380',
+  'panasonic-maf1',
   'amamedics-hilux-4d',
   'titan-3d-prestige',
 ]
@@ -20,21 +20,21 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'kahuna-lm-6800': {
-    label: 'Best L-track entry',
-    why: 'The LM-6800 is the original Kahuna L-track model. L-track reaches under the glutes and into the thighs. Confirmed 5\'0" to 6\'0", 200 lbs. Space-saving 3-inch wall clearance. Two-stage zero gravity. 2D rollers. For buyers in that body range who want L-track glute coverage at $3,799, this is the pick. Note the 200-lb weight limit: buyers above that should look at the AmaMedics Hilux 4D below.',
+  'kyota-genki-m380': {
+    label: 'Best L-track entry for this tier',
+    why: "The Genki M380 is technically a $2,999 chair, sitting just under this range, but it earns its spot here for buyers who are primarily choosing on capacity and L-track coverage rather than roller sophistication. Confirmed 6'5\" and 330 lbs with a Plus Size Confirmed designation, a Wirecutter Top Pick for 2024. L-track reaches under the glutes and into the thighs. 2D rollers. For buyers who want confirmed high-capacity L-track coverage and a reliable retailer at or near this price tier, this is the starting pick.",
   },
-  'synca-jp970': {
-    label: 'Best for neck and shoulder focus',
-    why: 'The JP970 is an S-track chair with 4D rollers, designed for buyers whose primary pain is in the neck, shoulders, and upper back. S-track channels the full roller path through the upper body rather than extending it into the lower back. Body scanning adjusts to shoulder height. Confirmed 5\'0" to 6\'3", 285 lbs. If lower back pain is part of the picture alongside neck pain, see the Hilux 4D below instead.',
+  'panasonic-maf1': {
+    label: 'Best S-track for neck and upper-back focus',
+    why: "The Panasonic MAF1 is the S-track specialist recommendation in this range at $5,999. S-track focuses the entire roller path on the cervical spine and thoracic vertebrae, which is the right design when pain is concentrated in the neck and upper back with no lower-back involvement. 4D rollers, infrared-heated massage heads, confirmed 4'8\" to 6'2\" and 264 lbs, space-saving recline. Note: no zero gravity. Panasonic's engineering prioritizes roller precision over recline positions. This replaces the Synca JP970 as the S-track specialist recommendation at this tier.",
   },
   'amamedics-hilux-4d': {
     label: 'Best SL-track 4D, widest body fit',
-    why: 'The Hilux 4D has the widest confirmed height range at this price tier (4\'11" to 6\'7") and a 53-inch track, one of the longer SL-track systems in the catalog. The 4D roller varies speed and depth within each stroke. A distinctive feature: the rollers themselves are heated, meaning heat follows the roller path throughout the session rather than staying fixed at the lumbar. For buyers who need SL-track coverage with 4D quality and want confidence the chair fits their height, this is the pick.',
+    why: "The Hilux 4D has the widest confirmed height range at this price tier (4'11\" to 6'7\") and a 53-inch track, one of the longer SL-track systems in the catalog. The 4D roller varies speed and depth within each stroke. A distinctive feature: the rollers themselves are heated, meaning heat follows the roller path throughout the session rather than staying fixed at the lumbar. For buyers who need SL-track coverage with 4D quality and want confidence the chair fits their height, this is the pick.",
   },
   'titan-3d-prestige': {
     label: 'Best for small spaces',
-    why: 'The Titan 3D Prestige has 1-inch wall clearance, the tightest in the SL-track category at this price. For buyers in this range whose primary constraint is room size, the Prestige is the only SL-track 3D chair at $4,999 that can sit flush against a wall. Full-body stretch and heat confirmed. Up to 6\'3", 260 lbs.',
+    why: "The Titan 3D Prestige has 1-inch wall clearance, the tightest in the SL-track category at this price. For buyers in this range whose primary constraint is room size, the Prestige is the only SL-track 3D chair at $4,999 that can sit flush against a wall. Full-body stretch and heat confirmed. Up to 6'3\", 260 lbs.",
   },
 }
 
@@ -60,10 +60,10 @@ export default function Best3000To5000Page() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs: $3,000 to $5,000</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        The $3,000 to $5,000 range is where the catalog diverges by use case. At $3,799 you get an L-track chair with verified body fit. At $4,999 you have three distinct options: a dedicated S-track specialist for neck and shoulder focus, a 4D SL-track chair with the widest confirmed height range in this tier, and a 3D SL-track with 1-inch wall clearance. The right pick depends entirely on your pain pattern and room constraints.
+        The $3,000 to $5,000 range is where the catalog diverges by use case. For L-track coverage at high body capacity, the Kyota Genki M380 sits at the entry of this tier. At $4,999 and $5,999 you have two distinct options: a 4D SL-track chair with the widest confirmed height range in this tier, an S-track specialist for neck and upper-back focus, and a 3D SL-track with 1-inch wall clearance. The right pick depends entirely on your pain pattern and room constraints.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated April 2026. Note: the Osaki OS-Pro Admiral II at $2,999 remains one of the most competitive chairs in the full catalog. If your budget is flexible downward, it is worth considering alongside these picks. See the{' '}
+        Updated May 2026. Note: the Osaki OS-Pro Admiral II at $2,999 remains one of the most competitive chairs in the full catalog. If your budget is flexible downward, it is worth considering alongside these picks. See the{' '}
         <Link href="/best/under-3000" className="text-bronze hover:text-gold transition-colors">under-$3,000 page</Link>.
       </p>
 
@@ -209,10 +209,10 @@ export default function Best3000To5000Page() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your pain is neck and shoulders only, the Synca JP970 is the pick in this tier. If your pain spans the full back or is concentrated in the lower back, the Hilux 4D covers more ground with better roller quality. If room size is the constraint, the Titan Prestige is the only 1-inch wall clearance option in the SL-track category at this price.
+          If your pain is neck and shoulders only, the Panasonic MAF1 is the S-track specialist in this tier. If your pain spans the full back or is concentrated in the lower back, the Hilux 4D covers more ground with better roller quality. If room size is the constraint, the Titan Prestige is the only 1-inch wall clearance option in the SL-track category at this price.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          For buyers above 6'3&quot; or above 270 lbs, the Hilux 4D accommodates the widest range. For buyers above 285 lbs who want the S-track option, the JP970&apos;s 285-lb limit is a constraint to check before purchasing.
+          For buyers above 6&apos;3&quot; or above 270 lbs, the Hilux 4D accommodates the widest range. Note that the Panasonic MAF1 does not include zero gravity, which is a trade-off worth confirming before purchasing.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}

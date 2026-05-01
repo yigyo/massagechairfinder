@@ -4,13 +4,12 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs for Neck and Shoulder Pain (2026)',
-  description: 'The best massage chairs for neck and shoulder pain depend on whether pain is isolated to the upper body or also involves the lower back. Five chairs selected across S-track and SL-track for every budget.',
+  description: 'The best massage chairs for neck and shoulder pain depend on whether pain is isolated to the upper body or also involves the lower back. Four chairs selected across S-track and SL-track for every budget.',
 }
 
 const PICK_IDS = [
   'osaki-os-pro-admiral-ii',
-  'synca-jp970',
-  'inada-dreamwave',
+  'panasonic-maf1',
   'osaki-os-pro-maestro-le',
   'panasonic-mak1',
 ]
@@ -23,15 +22,11 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'osaki-os-pro-admiral-ii': {
     label: 'Best for neck and lower back together',
-    why: 'The Admiral II is the right starting point for buyers whose neck and shoulder pain accompanies desk-work lower back tension. SL-track covers both zones in one pass. Body scanning adjusts the roller starting position to the individual\'s neck and shoulder anatomy before each session, which matters for cervical coverage accuracy. 3D rollers allow pressure depth adjustment. Confirmed 5\'2" to 6\'1", 270 lbs.',
+    why: "The Admiral II is the right starting point for buyers whose neck and shoulder pain accompanies desk-work lower back tension. SL-track covers both zones in one pass. Body scanning adjusts the roller starting position to the individual's neck and shoulder anatomy before each session, which matters for cervical coverage accuracy. 3D rollers allow pressure depth adjustment. Confirmed 5'2\" to 6'1\", 270 lbs.",
   },
-  'synca-jp970': {
+  'panasonic-maf1': {
     label: 'Best S-track mid-range',
-    why: 'The JP970 is an S-track chair with 4D rollers. For buyers whose pain is exclusively in the neck and upper back, an S-track chair at this price point delivers more focused upper-body technique than an SL-track that splits its roller path across the full spine. Body scanning adjusts the roller start position to shoulder height. Confirmed 5\'0" to 6\'3", 285 lbs.',
-  },
-  'inada-dreamwave': {
-    label: 'Best S-track specialist',
-    why: 'Inada is a Japanese brand with a long reputation for neck and shoulder massage technique. The DreamWave uses a proprietary 3D roller design and a dedicated S-track that prioritizes thoracic and cervical coverage. It does not extend below the lumbar. For buyers with neck, shoulder, and upper-back tension as the primary concern and who want a chair with proven upper-body technique, this is the pick. Confirmed 5\'0" to 6\'5", 300 lbs.',
+    why: "The Panasonic MAF1 is a compact S-track chair with 4D rollers, confirmed for 4'8\" to 6'2\" and 264 lbs. Space-saving recline. At $5,999, it is the mid-range S-track specialist in the catalog. S-track focuses the full roller path on the neck, shoulders, and upper back without extending into the lower body, which is the right design when pain is concentrated above the lumbar. The rollers are infrared-heated, meaning heat follows the massage path rather than staying fixed at one zone. Note: no zero gravity on this model.",
   },
   'osaki-os-pro-maestro-le': {
     label: 'Premium full-coverage',
@@ -39,7 +34,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'panasonic-mak1': {
     label: 'Premium S-track',
-    why: 'The MAK1 is a Japanese-engineered chair with S-track and 4D rollers, confirmed 4\'8" to 6\'2" and 264 lbs. A distinguishing feature: the rollers themselves are infrared-heated, meaning heat travels with the roller path rather than from a fixed lumbar pad. Panasonic positions this as a medical-grade device. Note: there is no zero gravity on this chair. Panasonic\'s engineering prioritizes roller precision and upper-body technique over recline positions. For buyers focused entirely on neck and shoulder work, that is a reasonable trade.',
+    why: "The MAK1 is a Japanese-engineered chair with S-track and 4D rollers, confirmed 4'8\" to 6'2\" and 264 lbs. A distinguishing feature: the rollers themselves are infrared-heated, meaning heat travels with the roller path rather than from a fixed lumbar pad. Panasonic positions this as a medical-grade device. Note: there is no zero gravity on this chair. Panasonic's engineering prioritizes roller precision and upper-body technique over recline positions. For buyers focused entirely on neck and shoulder work, that is a reasonable trade.",
   },
 }
 
@@ -68,7 +63,7 @@ export default function BestNeckShouldersPage() {
         Neck and shoulder tension is the second most common pain location for massage chair buyers. Massage chairs address it through two mechanisms: roller-based kneading along the cervical spine and thoracic vertebrae, and airbag compression around the shoulders. Both depend on the chair fitting the buyer accurately and on the roller track covering the upper body correctly.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated April 2026. If your neck pain also involves lower back tension, SL-track chairs are the better fit. If your pain is exclusively upper body, a dedicated S-track chair often delivers stronger technique at equivalent price points.
+        Updated May 2026. If your neck pain also involves lower back tension, SL-track chairs are the better fit. If your pain is exclusively upper body, a dedicated S-track chair often delivers stronger technique at equivalent price points.
       </p>
 
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
@@ -221,7 +216,7 @@ export default function BestNeckShouldersPage() {
           may be a better reference. Most of those picks use SL-track, which covers both zones.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          If pressure sensitivity is a concern, note that the neck and upper cervical area is the zone most likely to feel rough on a first session. All chairs above have adjustable pressure. Start at the lowest setting for neck work and increase gradually over multiple sessions.
+          If pressure sensitivity is a concern, note that the neck and upper cervical area is the zone most likely to feel rough on a first session. All chairs above have adjustable pressure. Start at the lowest setting for neck work and increase gradually over multiple sessions. The two Panasonic models do not include zero gravity, which is a trade-off worth noting for buyers who want full spinal decompression alongside neck work.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}

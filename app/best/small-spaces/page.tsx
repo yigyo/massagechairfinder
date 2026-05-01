@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'kahuna-lm-6800s',
+  'amamedics-renew-3d',
   'osaki-os-pro-admiral-ii',
   'titan-3d-prestige',
   'infinity-imperial-syner-d',
@@ -21,25 +21,25 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'kahuna-lm-6800s': {
-    label: 'Most affordable with confirmed body fit',
-    why: 'The LM-6800S requires 3 inches of wall clearance and is confirmed for 5\'0" to 6\'0" and 200 lbs. At $2,499, it is the most affordable space-saving SL-track chair in the catalog with verified body compatibility data. Three-stage zero gravity. For buyers who need an affordable small-space chair with real fit confirmation, this is the starting pick.',
+  'amamedics-renew-3d': {
+    label: 'Most affordable space-saving pick',
+    why: 'The Renew 3D is the most affordable space-saving chair in the catalog at $1,299. Four-inch wall clearance, SL-track, 3D rollers with adjustable pressure depth, three-stage zero gravity, body scanning, and lumbar heat. Currently a clearance model. For buyers whose primary constraint is budget and who need a chair that can sit near a wall, this is the entry point. 250-lb weight capacity.',
   },
   'osaki-os-pro-admiral-ii': {
     label: 'Best value',
-    why: 'The Admiral II has 2-inch wall clearance, the tightest in the under-$4,000 range. SL-track, 3D rollers, 49-inch track, body scanning. The combination of strong therapeutic specs with minimal footprint requirements makes this the best value in the space-saving category. Confirmed 5\'2" to 6\'1", 270 lbs.',
+    why: "The Admiral II has 2-inch wall clearance, the tightest in the under-$4,000 range. SL-track, 3D rollers, 49-inch track, body scanning. The combination of strong therapeutic specs with minimal footprint requirements makes this the best value in the space-saving category. Confirmed 5'2\" to 6'1\", 270 lbs.",
   },
   'titan-3d-prestige': {
     label: 'Smallest footprint in SL-track',
-    why: 'The Titan 3D Prestige requires 1 inch of wall clearance, the tightest in the SL-track category. At $4,999, it represents the price point where SL-track, 3D rollers, space-saving recline, and zero gravity all converge. Heat and full-body stretch confirmed. Confirmed up to 6\'3", 260 lbs.',
+    why: 'The Titan 3D Prestige requires 1 inch of wall clearance, the tightest in the SL-track category. At $4,999, it represents the price point where SL-track, 3D rollers, space-saving recline, and zero gravity all converge. Heat and full-body stretch confirmed. Confirmed up to 6'3", 260 lbs.',
   },
   'infinity-imperial-syner-d': {
     label: 'Premium with widest confirmed height range',
-    why: 'The Syner-D uses a Flex-track mechanism, a hybrid between SL and L-track that adjusts its coverage range between programs. It requires 2 inches of wall clearance and is confirmed for 5\'2" to 6\'6", one of the widest height ranges among space-saving chairs. 4D rollers, 300 lbs, 5-year warranty, body scanning. Price varies by retailer; the confirmed range is $8,000 to $12,000.',
+    why: "The Syner-D uses a Flex-track mechanism, a hybrid between SL and L-track that adjusts its coverage range between programs. It requires 2 inches of wall clearance and is confirmed for 5'2\" to 6'6\", one of the widest height ranges among space-saving chairs. 4D rollers, 300 lbs, 5-year warranty, body scanning. Price varies by retailer; the confirmed range is $8,000 to $12,000.",
   },
   'jpmedics-kaze-duo': {
     label: 'Premium 1-inch clearance',
-    why: 'The KaZe Duo combines 1-inch wall clearance with a dual 4D roller mechanism and a 320-lb weight capacity. For buyers who want the tightest possible wall clearance at the premium tier with high weight capacity, this is the pick. L-track provides strong glute and thigh coverage. Confirmed 5\'0" to 6\'3".',
+    why: "The KaZe Duo combines 1-inch wall clearance with a dual 4D roller mechanism and a 320-lb weight capacity. For buyers who want the tightest possible wall clearance at the premium tier with high weight capacity, this is the pick. L-track provides strong glute and thigh coverage. Confirmed 5'0\" to 6'3\".",
   },
 }
 
@@ -68,7 +68,7 @@ export default function BestSmallSpacesPage() {
         Most massage chairs require 12 to 18 inches of clearance behind them to recline. Space-saving models use a wall-hugging mechanism that slides the chair base forward as it reclines, reducing the required wall clearance to as little as 1 inch. For buyers fitting a chair into a smaller room, alcove, or dedicated corner, this specification matters more than almost any other.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated April 2026. All five chairs below have confirmed wall clearance of 3 inches or less. Wall clearance measurements reflect the gap needed when the chair is at maximum recline.
+        Updated May 2026. All five chairs below have confirmed wall clearance of 4 inches or less. Wall clearance measurements reflect the gap needed when the chair is at maximum recline.
       </p>
 
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
@@ -218,10 +218,10 @@ export default function BestSmallSpacesPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your budget is under $3,000, the Admiral II at $2,999 with 2-inch clearance is the strongest therapeutic option. If budget is under $2,500, the Kahuna LM-6800S at $2,499 with 3-inch clearance is the pick, assuming you fall within its confirmed 5'0&quot; to 6'0&quot; height range.
+          If your budget is under $1,500, the AmaMedics Renew 3D at $1,299 with 4-inch clearance is the entry pick. If budget allows $2,999, the Admiral II at 2-inch clearance is the stronger therapeutic option with a longer track and higher weight capacity.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          For taller buyers (above 6'1&quot;) who also need a small-space chair, the Syner-D is confirmed to 6'6&quot; and the KaZe Duo to 6'3&quot;. Both require 1 to 2 inches of wall clearance.
+          For taller buyers (above 6&apos;1&quot;) who also need a small-space chair, the Syner-D is confirmed to 6&apos;6&quot; and the KaZe Duo to 6&apos;3&quot;. Both require 1 to 2 inches of wall clearance.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}

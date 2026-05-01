@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const PICK_IDS = [
   'kyota-genki-m380',
-  'ogawa-active-xl',
+  'kyota-yugana-m780',
   'bodyfriend-phantom-ii',
   'jpmedics-kumo-4d',
   'luraco-i9-max-plus',
@@ -25,9 +25,9 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best entry heavy-duty',
     why: 'The Genki M380 is confirmed at 330 lbs with a Plus Size Confirmed designation and is a Wirecutter Top Pick for 2024. L-track covers the glutes and thighs. At $2,999, it is the most affordable chair in the catalog with a verified high-capacity rating. Zero gravity, heat, foot and calf massage, 2D rollers.',
   },
-  'ogawa-active-xl': {
-    label: 'Best SL-track for larger frames',
-    why: 'The Active XL 3D is confirmed for 5\'0" to 6\'4" and 320 lbs, combining high weight capacity with a wide height range. SL-track covers the full spine and glutes, which matters for heavier buyers because lower-back load often concentrates at the sacrum and glutes. 3D rollers, two-stage zero gravity, heat.',
+  'kyota-yugana-m780': {
+    label: 'Best mid-premium heavy-duty',
+    why: "The Yugana M780 4D is confirmed at 300 lbs with a Plus Size Confirmed designation. L-track with 4D rollers, space-saving 2-inch wall clearance, TrueFit body scanning, heat, and a 49-inch track. Confirmed 4'8\" to 6'2\". At $7,999, it fills the mid-premium gap between the Genki M380 and the premium-tier options below. For buyers who need verified Plus Size capacity alongside 4D roller depth and a space-saving footprint, this is the pick.",
   },
   'bodyfriend-phantom-ii': {
     label: 'Highest weight capacity in the catalog',
@@ -35,11 +35,11 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'jpmedics-kumo-4d': {
     label: 'Best premium L-track for heavy-duty',
-    why: 'The Kumo 4D is confirmed at 320 lbs with a deep L-track extension. For heavier buyers whose primary pain is in the lower back, glutes, and hamstrings, L-track with 4D roller depth delivers targeted coverage at the right zone. Made in Japan, which at this price tier typically means tighter manufacturing tolerances and longer service intervals. Up to 6\'3".',
+    why: "The Kumo 4D is confirmed at 320 lbs with a deep L-track extension. For heavier buyers whose primary pain is in the lower back, glutes, and hamstrings, L-track with 4D roller depth delivers targeted coverage at the right zone. Made in Japan, which at this price tier typically means tighter manufacturing tolerances and longer service intervals. Up to 6'3\".",
   },
   'luraco-i9-max-plus': {
     label: 'Wide body fit, made in USA',
-    why: 'The Luraco is confirmed at 300 lbs and 6\'10", the widest body fit range in the catalog. Relevant for heavier buyers who are also tall. The only USA-manufactured massage chair in the catalog, with a 10-year warranty. L-track, 3D rollers, body scanning, heat, zero gravity, full-body stretch.',
+    why: "The Luraco is confirmed at 300 lbs and 6'10\", the widest body fit range in the catalog. Relevant for heavier buyers who are also tall. The only USA-manufactured massage chair in the catalog, with a 10-year warranty. L-track, 3D rollers, body scanning, heat, zero gravity, full-body stretch.",
   },
 }
 
@@ -68,7 +68,7 @@ export default function BestHeavyDutyPage() {
         Weight capacity in massage chairs is often underreported. A chair rated at 300 lbs is not necessarily engineered to deliver full massage effectiveness at that weight. The roller mechanism may not achieve full depth under higher loads, and the frame may be at the edge of its design tolerance. The chairs below are verified at 300 lbs or above with Plus Size Confirmed validation from retailer spec pages.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated April 2026. All five chairs below are confirmed at 300 lbs or above. Height data is noted where available from verified sources.
+        Updated May 2026. All five chairs below are confirmed at 300 lbs or above. Height data is noted where available from verified sources.
       </p>
 
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
@@ -216,10 +216,10 @@ export default function BestHeavyDutyPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For buyers at or below 330 lbs who want the most affordable confirmed option, the Kyota Genki M380 at $2,999 is the pick. For buyers who also need SL-track full-spine coverage, the Ogawa Active XL at $5,899 covers both requirements.
+          For buyers at or below 330 lbs who want the most affordable confirmed option, the Kyota Genki M380 at $2,999 is the pick. For buyers who want 4D roller quality alongside high capacity and a space-saving footprint, the Yugana M780 at $7,999 is the mid-premium step up.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          The Phantom II has the highest capacity (335 lbs) but lacks confirmed height data. If weight is the primary concern and height fit is secondary, it is the pick. If you need both confirmed, the Ogawa Active XL (5'0&quot; to 6'4&quot;, 320 lbs) or Luraco (4'11&quot; to 6'10&quot;, 300 lbs) are better-documented options.
+          The Phantom II has the highest capacity (335 lbs) but lacks confirmed height data. If weight is the primary concern and height fit is secondary, it is the pick. If you need both confirmed, the Yugana M780 (4&apos;8&quot; to 6&apos;2&quot;, 300 lbs) or Luraco (4&apos;11&quot; to 6&apos;10&quot;, 300 lbs) are better-documented options.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}

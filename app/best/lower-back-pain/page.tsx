@@ -4,13 +4,15 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs for Lower Back Pain (2026)',
-  description: 'The best massage chairs for lower back pain use SL-track rollers that cover the lumbar spine, sacrum, and glutes in one continuous path. Five chairs selected across every budget from $1,299 to $9,999.',
+  description: 'The best massage chairs for lower back pain use SL-track rollers that cover the lumbar spine, sacrum, and glutes in one continuous path. Five chairs selected across every budget from $1,299 to $8,999.',
 }
 
 const PICK_IDS = [
   'amamedics-renew-3d',
   'osaki-os-pro-admiral-ii',
   'amamedics-hilux-4d',
+  'titan-pro-vigor-4d',
+  'osaki-os-pro-maestro-le',
 ]
 
 interface Editorial {
@@ -28,11 +30,21 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best at $3,000',
     why: "The Admiral II has a 49-inch track, the longest SL-track in its price range. The additional length means the roller extends further under the glutes than shorter designs. For lower back pain cases with any sacral or glute involvement, that extra coverage matters. Body scanning positions the rollers to the individual's spinal curve before each session. The 3D roller system allows pressure adjustment from light to firm. Confirmed 5'2\" to 6'1\", 270 lbs.",
   },
+
   'amamedics-hilux-4d': {
     label: 'Best for wide body fit, 4D at mid-range',
     why: "The Hilux 4D has the widest confirmed height range in the catalog at 4'11\" to 6'7\", which matters for lower back buyers who need to confirm the 53-inch roller track will reach their specific lumbar anatomy. The 4D roller adds variable speed and rhythm to each stroke, producing a more nuanced feel than fixed-speed 3D rollers. A distinctive feature: the rollers themselves are heated on this chair, not just a separate lumbar pad, which allows heat to follow the roller path throughout the session.",
   },
 
+  'titan-pro-vigor-4d': {
+    label: 'Best at $6,000, 4D roller',
+    why: 'The Pro-Vigor 4D is the most affordable 4D SL-track chair in the catalog at $5,999. The 4D roller mechanism varies speed and depth within each stroke, a step up from the fixed-depth 3D rollers common at this price tier. Two-stage zero gravity, space-saving 3.9-inch wall clearance. Heat, calf, foot, and stretch programs are all confirmed. For lower back buyers who want 4D roller quality without crossing into the $8,000 range, this is the pick.',
+  },
+
+  'osaki-os-pro-maestro-le': {
+    label: 'Best premium SL-track',
+    why: 'The Maestro LE is a 4D SL-track chair with body scanning, lumbar heat, and space-saving 5-inch wall clearance at $8,999. The 4D roller system varies both depth and speed across the full spine-to-glute SL-track path. For lower back buyers who want the complete combination of premium roller quality and confirmed full-coverage SL-track without crossing into the $10,000 range, this is the pick. 260 lb capacity.',
+  },
 }
 
 function fmtFt(inches: number): string {
@@ -62,10 +74,10 @@ export default function BestLowerBackPainPage() {
         Chronic lower back pain is the primary reason most massage chair buyers start researching. It typically involves the lumbar vertebrae, the sacroiliac joint, and the surrounding musculature. All three respond to the kind of sustained, repeated pressure a quality massage chair delivers across multiple daily sessions. SL-track is the right starting point for most lower back pain cases because the lumbar region connects directly to the sacrum, and sacral tension is often part of the picture even when buyers describe the pain as strictly lower back.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated April 2026. If your lower back pain radiates into the glutes, thighs, or feet, see the{' '}
+        Updated May 2026. If your lower back pain radiates into the glutes, thighs, or feet, see the{' '}
         <Link href="/best/sciatica" className="text-bronze hover:text-gold transition-colors">
           best chairs for sciatica
-        </Link>{' '}
+        </Link>{'  '}
         instead. All five chairs below are SL-track with zero gravity.
       </p>
 
@@ -107,7 +119,7 @@ export default function BestLowerBackPainPage() {
             <tbody>
               {picks.map((chair, i) => {
                 const heightRange = chair.heightMinIn && chair.heightMaxIn
-                  ? `${fmtFt(chair.heightMinIn)} – ${fmtFt(chair.heightMaxIn)}`
+                  ? `${fmtFt(chair.heightMinIn)} -- ${fmtFt(chair.heightMaxIn)}`
                   : chair.heightMaxIn
                   ? `Up to ${fmtFt(chair.heightMaxIn)}`
                   : 'Not confirmed'
@@ -145,10 +157,10 @@ export default function BestLowerBackPainPage() {
         {picks.map((chair, i) => {
           const editorial = EDITORIAL[chair.id]
           const priceLabel = chair.priceMax && chair.priceMax > chair.priceMin
-            ? `$${chair.priceMin.toLocaleString()} – $${chair.priceMax.toLocaleString()}`
+            ? `$${chair.priceMin.toLocaleString()} -- $${chair.priceMax.toLocaleString()}`
             : `$${chair.priceMin.toLocaleString()}`
           const heightRange = chair.heightMinIn && chair.heightMaxIn
-            ? `${fmtFt(chair.heightMinIn)} – ${fmtFt(chair.heightMaxIn)}`
+            ? `${fmtFt(chair.heightMinIn)} -- ${fmtFt(chair.heightMaxIn)}`
             : chair.heightMaxIn
             ? `Up to ${fmtFt(chair.heightMaxIn)}`
             : null
@@ -161,7 +173,6 @@ export default function BestLowerBackPainPage() {
                 </span>
               </div>
               <div className="flex flex-col sm:flex-row gap-6">
-                {/* Image */}
                 {chair.goodwinImageUrl && (
                   <div className="flex-shrink-0 w-full sm:w-36 h-36 bg-white border border-sand rounded-lg overflow-hidden">
                     <img
@@ -171,7 +182,6 @@ export default function BestLowerBackPainPage() {
                     />
                   </div>
                 )}
-                {/* Content */}
                 <div className="flex-1 min-w-0">
                   <h3 className="text-xl font-serif font-semibold text-navy mb-1">
                     <Link href={`/chairs/${chair.id}`} className="hover:text-gold transition-colors">
@@ -180,7 +190,6 @@ export default function BestLowerBackPainPage() {
                   </h3>
                   <p className="text-charcoal font-semibold text-sm mb-3">{priceLabel}</p>
 
-                  {/* Feature pills */}
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="border border-navy text-navy text-xs font-medium px-3 py-1 rounded-full">
                       {chair.track}-Track
@@ -210,12 +219,10 @@ export default function BestLowerBackPainPage() {
                     )}
                   </div>
 
-                  {/* Editorial */}
                   <p className="text-charcoal text-base leading-relaxed mb-4">
                     {editorial?.why}
                   </p>
 
-                  {/* Specs row */}
                   <div className="flex flex-wrap gap-4 mb-4">
                     {heightRange && (
                       <span className="text-xs text-warm-gray">Height: {heightRange}</span>
@@ -231,7 +238,6 @@ export default function BestLowerBackPainPage() {
                     )}
                   </div>
 
-                  {/* CTAs */}
                   <div className="flex flex-wrap items-center gap-3">
                     {chair.affiliateUrl && (
                       <a
@@ -261,28 +267,28 @@ export default function BestLowerBackPainPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your lower back pain also radiates into the glutes, back of the thighs, or legs, that is sciatic involvement and you should read the{' '}
+          If your lower back pain also radiates into the glutes, back of the thighs, or legs, that is sciatic involvement and you should read the{'  '}
           <Link href="/best/sciatica" className="text-bronze hover:text-gold transition-colors">
             best chairs for sciatica
-          </Link>{' '}
+          </Link>{'  '}
           instead. That page uses the same SL-track requirement but pays more attention to under-seat extension depth and thigh reach.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If your lower back is sensitive and you are unsure whether you want firm or gentle pressure, start at entry level and adjust upward. The 3D and 4D roller picks above all have pressure controls. Most buyers with chronic lower back pain find they need a lighter setting than they expect for the first few weeks, then increase once the area has adapted.
         </p>
         <p className="text-charcoal leading-relaxed">
-          The{' '}
+          The{'  '}
           <Link href="/learn/track-types" className="text-bronze hover:text-gold transition-colors">
             track types guide
-          </Link>{' '}
-          explains the S, L, and SL-track decision with body diagrams. The{' '}
+          </Link>{'  '}
+          explains the S, L, and SL-track decision with body diagrams. The{'  '}
           <Link href="/learn/zero-gravity" className="text-bronze hover:text-gold transition-colors">
             zero gravity guide
-          </Link>{' '}
-          covers how decompression positioning works and what to look for across different recline stages. To see all available chairs filtered by price and specs, the{' '}
+          </Link>{'  '}
+          covers how decompression positioning works and what to look for across different recline stages. To see all available chairs filtered by price and specs, the{'  '}
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">
             chair finder
-          </Link>{' '}
+          </Link>{'  '}
           takes about three minutes.
         </p>
       </div>
