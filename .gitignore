@@ -4,3 +4,7 @@ node_modules/
 .env*.local
 *.log
 .DS_Store
+
+# Analytics credentials -- never commit
+analytics/service-account-key.json
+analytics/digests/

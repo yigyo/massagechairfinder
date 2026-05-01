@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useRef, useCallback } from 'react'
+import { finderStart, finderEmailSubmit, finderComplete, emailOptIn } from '@/lib/gtag'
 
 // ─── TYPES ─────────────────────────────────────────────────────────────────────
 type Phase = 'intro' | 'asking' | 'thinking' | 'email_gate'
@@ -404,9 +405,11 @@ export default function ChairFinder() {
         if (parsed.length > 0) {
           setChairs(parsed)
           setRawFallback('')
+          finderComplete(parsed.length)
         } else {
           setChairs([])
           setRawFallback(cleanRaw.replace(/\[options:[^\]]+\]/gi, '').trim())
+          finderComplete(0)
         }
         setPhase('email_gate')
         scrollTop()
@@ -450,6 +453,7 @@ export default function ChairFinder() {
     setQuizAnswers({})
     setQuizFeatures([])
     setShowDeadEnd(false)
+    finderStart()
     await handleUserInput('__begin__')
   }, [handleUserInput])
 
@@ -469,6 +473,8 @@ export default function ChairFinder() {
     const email = emailInput.trim()
     if (!email || emailSending) return
     setEmailSending(true)
+    finderEmailSubmit(chairs.length)
+    emailOptIn('finder')
     try {
       await fetch('/api/send-results', {
         method: 'POST',

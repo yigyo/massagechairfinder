@@ -1,6 +1,9 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { Chair } from '@/lib/types'
+import { affiliateClick } from '@/lib/gtag'
 
 interface Props {
   chair: any // Strapi response shape before normalization
@@ -22,6 +25,16 @@ export default function ChairCard({ chair }: Props) {
   // Best primary retailer link
   const links: any[] = c.retailerLinks || []
   const primaryLink = links.find((l: any) => l.isAvailable) || links[0]
+
+  function handleShopClick() {
+    affiliateClick({
+      chairSlug: slug || '',
+      chairName: c.name || '',
+      brand: c.brand || '',
+      retailer: primaryLink?.retailerName || 'unknown',
+      price: c.price,
+    })
+  }
 
   return (
     <div className="card hover:shadow-md transition-shadow flex flex-col">
@@ -70,7 +83,7 @@ export default function ChairCard({ chair }: Props) {
         <span className="font-semibold text-navy">{price}</span>
         <div className="flex gap-2">
           <Link href={`/chairs/${slug}`} className="text-sm text-bronze hover:text-gold font-medium transition-colors">
-            Details →
+            Details ->
           </Link>
           {primaryLink && (
             <a
@@ -78,6 +91,7 @@ export default function ChairCard({ chair }: Props) {
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm btn-primary py-1 px-3"
+              onClick={handleShopClick}
             >
               Shop
             </a>
