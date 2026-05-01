@@ -716,39 +716,6 @@ export default function ChairFinder() {
         <div style={{ animation: 'mcfFadeUp 0.45s ease', maxWidth: 560 }}>
           {!emailSent ? (
             <>
-              <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 16 }}>
-                Your criteria
-              </p>
-
-              {/* Quiz summary table */}
-              <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: 32 }}>
-                <tbody>
-                  {[
-                    { key: 'pain',     label: 'Pain area' },
-                    { key: 'goal',     label: 'Goal' },
-                    { key: 'height',   label: 'Height' },
-                    { key: 'weight',   label: 'Weight' },
-                    { key: 'pressure', label: 'Pressure preference' },
-                    { key: 'budget',   label: 'Budget' },
-                    { key: 'room',     label: 'Room space' },
-                    { key: 'timeline', label: 'Timeline' },
-                  ].filter(row => quizAnswers[row.key]).map((row, i, arr) => (
-                    <tr key={row.key}>
-                      <td style={{ fontSize: 14, color: '#6B6B65', padding: '9px 0', borderBottom: '0.5px solid #E8DFD3', width: '44%' }}>{row.label}</td>
-                      <td style={{ fontSize: 14, color: '#1C2331', fontWeight: 500, padding: '9px 0', borderBottom: '0.5px solid #E8DFD3' }}>{quizAnswers[row.key]}</td>
-                    </tr>
-                  ))}
-                  {quizFeatures.length > 0 && (
-                    <tr>
-                      <td style={{ fontSize: 14, color: '#6B6B65', padding: '9px 0' }}>Features requested</td>
-                      <td style={{ fontSize: 14, color: '#1C2331', fontWeight: 500, padding: '9px 0' }}>
-                        {quizFeatures.map(f => f.split(' ').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')).join(', ')}
-                      </td>
-                    </tr>
-                  )}
-                </tbody>
-              </table>
-
               <h2 style={{ fontSize: 'clamp(24px,4vw,32px)', fontWeight: 700, color: '#1C2331', lineHeight: 1.2, fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 28 }}>
                 We found {chairs.length > 0 ? chairs.length : 'a few'} {chairs.length === 1 ? 'chair' : 'chairs'} matching your needs.
               </h2>
@@ -787,7 +754,42 @@ export default function ChairFinder() {
               <p style={{ fontSize: 12, color: '#9B9B95', marginBottom: 20 }}>
                 Your top chairs will arrive in your inbox shortly.
               </p>
-              <div style={{ marginTop: 24 }}>
+
+              {/* Your criteria -- moved below email capture */}
+              <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 16 }}>
+                Your criteria
+              </p>
+
+              {/* Quiz summary table */}
+              <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: 32 }}>
+                <tbody>
+                  {[
+                    { key: 'pain',     label: 'Pain area' },
+                    { key: 'goal',     label: 'Goal' },
+                    { key: 'height',   label: 'Height' },
+                    { key: 'weight',   label: 'Weight' },
+                    { key: 'pressure', label: 'Pressure preference' },
+                    { key: 'budget',   label: 'Budget' },
+                    { key: 'room',     label: 'Room space' },
+                    { key: 'timeline', label: 'Timeline' },
+                  ].filter(row => quizAnswers[row.key]).map((row, i, arr) => (
+                    <tr key={row.key}>
+                      <td style={{ fontSize: 14, color: '#6B6B65', padding: '9px 0', borderBottom: '0.5px solid #E8DFD3', width: '44%' }}>{row.label}</td>
+                      <td style={{ fontSize: 14, color: '#1C2331', fontWeight: 500, padding: '9px 0', borderBottom: '0.5px solid #E8DFD3' }}>{quizAnswers[row.key]}</td>
+                    </tr>
+                  ))}
+                  {quizFeatures.length > 0 && (
+                    <tr>
+                      <td style={{ fontSize: 14, color: '#6B6B65', padding: '9px 0' }}>Features requested</td>
+                      <td style={{ fontSize: 14, color: '#1C2331', fontWeight: 500, padding: '9px 0' }}>
+                        {quizFeatures.map(f => f.split(' ').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')).join(', ')}
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+
+              <div style={{ marginTop: 8 }}>
                 <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
                   Start over with different answers
                 </button>
