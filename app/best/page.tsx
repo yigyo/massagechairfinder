@@ -13,6 +13,7 @@ const categories = [
   { label: 'Small Spaces', slug: 'small-spaces', desc: 'Space-saving models — some need as little as 2 inches from the wall.' },
   { label: 'Under $2,000', slug: 'under-2000', desc: 'Entry-level chairs that still deliver meaningful relief.' },
   { label: 'Under $3,000', slug: 'under-3000', desc: 'The sweet spot for most buyers — strong features without flagship pricing.' },
+  { label: 'Under $5,000', slug: 'under-5000', desc: 'Where SL-track gains 4D rollers and body fit ranges widen. The five best uses of this budget.' },
   { label: '$3,000–$5,000', slug: '3000-to-5000', desc: 'Mid-range flagships with SL-track, 4D rollers, and serious build quality.' },
   { label: 'Premium ($5,000+)', slug: 'premium', desc: 'Top-of-market chairs for buyers who want the best and want it to last.' },
   { label: 'Tall People', slug: 'tall-people', desc: 'Chairs with extended roller stroke and generous height accommodation.' },
