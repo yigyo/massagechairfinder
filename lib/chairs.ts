@@ -137,7 +137,7 @@ export const CHAIRS: Chair[] = [
     id: 'osaki-os-pro-yamato',
     name: 'Osaki OS-Pro Yamato',
     brand: 'Osaki',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // OOS confirmed 2026-05-01
     priceMin: 2999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairheaven.com',
@@ -218,7 +218,7 @@ export const CHAIRS: Chair[] = [
     id: 'kahuna-lm-6800s',
     name: 'Kahuna LM-6800S',
     brand: 'Kahuna',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // OOS confirmed 2026-05-01
     priceMin: 2499,
     affiliateTier: 'A',
     affiliateRetailer: 'kahunachair.com',
@@ -237,7 +237,7 @@ export const CHAIRS: Chair[] = [
     id: 'kahuna-lm-6800',
     name: 'Kahuna LM-6800',
     brand: 'Kahuna',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // OOS confirmed 2026-05-01
     priceMin: 3799,
     affiliateTier: 'A',
     affiliateRetailer: 'kahunachair.com',
@@ -380,7 +380,7 @@ export const CHAIRS: Chair[] = [
     name: 'Luraco i9 Max Plus',
     brand: 'Luraco',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 13490,
+    priceMin: 11990,  // updated from 13490, confirmed 2026-05-01
     affiliateTier: null,
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateCommission: '10%, 30-day cookie',
@@ -401,7 +401,7 @@ export const CHAIRS: Chair[] = [
     id: 'synca-jp970',
     name: 'Synca JP970',
     brand: 'Synca',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // removed from syncamassagechair.com; no approved retailer URL 2026-05-01
     priceMin: 4999,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -420,7 +420,7 @@ export const CHAIRS: Chair[] = [
     id: 'synca-jp1100',
     name: 'Synca JP1100',
     brand: 'Synca',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // discontinued confirmed 2026-05-01
     priceMin: 9999,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -500,7 +500,7 @@ export const CHAIRS: Chair[] = [
     id: 'bodyfriend-phantom-medical',
     name: 'Bodyfriend Phantom Medical Care 4D SL',
     brand: 'Bodyfriend',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // OOS 2026-05-01; recovathlete.com not on approved retailer list
     priceMin: 11000,
     affiliateTier: null,
     affiliateRetailer: 'recovathlete.com',
@@ -539,7 +539,7 @@ export const CHAIRS: Chair[] = [
     id: 'bodyfriend-palace-ii',
     name: 'Bodyfriend Palace II',
     brand: 'Bodyfriend',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // OOS 2026-05-01; recovathlete.com not on approved retailer list
     priceMin: 8099,
     affiliateTier: null,
     affiliateRetailer: 'recovathlete.com',
@@ -624,7 +624,7 @@ export const CHAIRS: Chair[] = [
     id: 'ogawa-master-drive-le',
     name: 'Ogawa Master Drive LE 4D',
     brand: 'Ogawa',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // OOS everywhere; easymassagechair.com not approved
     priceMin: 9999,  // verified 2026-04-27
     affiliateTier: null,  // MCW sold out; easymassagechair.com program unconfirmed
     affiliateRetailer: 'easymassagechair.com',
@@ -642,7 +642,7 @@ export const CHAIRS: Chair[] = [
     id: 'ogawa-master-drive-ai',
     name: 'Ogawa Master Drive AI 2.0 4D',
     brand: 'Ogawa',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // OOS everywhere; easymassagechair.com not approved
     priceMin: 12999,  // verified 2026-04-27
     affiliateTier: null,  // MCW sold out; easymassagechair.com program unconfirmed
     affiliateRetailer: 'easymassagechair.com',
@@ -660,7 +660,7 @@ export const CHAIRS: Chair[] = [
     id: 'ogawa-active-xl',
     name: 'Ogawa Active XL 3D',
     brand: 'Ogawa',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // OOS everywhere; easymassagechair.com not approved
     priceMin: 5899,  // verified 2026-04-27
     affiliateTier: null,  // MCW sold out; easymassagechair.com program unconfirmed
     affiliateRetailer: 'easymassagechair.com',
@@ -693,7 +693,7 @@ export const CHAIRS: Chair[] = [
     id: 'inada-robo-4d',
     name: 'Inada Robo 4D',
     brand: 'Inada',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // OOS confirmed 2026-05-01
     priceMin: 9999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairwarehouse.com',
@@ -711,7 +711,7 @@ export const CHAIRS: Chair[] = [
     id: 'inada-dreamwave',
     name: 'Inada DreamWave',
     brand: 'Inada',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // OOS confirmed 2026-05-01
     priceMin: 6999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairwarehouse.com',
@@ -733,7 +733,7 @@ export const CHAIRS: Chair[] = [
     name: 'JPMedics Kumo 4D',
     brand: 'JPMedics',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 8499,
+    priceMin: 10999,  // updated from 8499, confirmed 2026-05-01
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateCommission: '10%, 30-day cookie',
@@ -759,7 +759,7 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateCommission: '10%, 30-day cookie',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://massagechairwarehouse.com/collections/jpmedics',
+    affiliateUrl: 'https://massagechairwarehouse.com/products/jpmedics-kumo',  // direct product page, confirmed in-stock 2026-05-01
     goodwinLookupKey: 'jpmedics kaze',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/jpmedics-kaze-duo-massage-chair.webp?v=1776836198',
     track: 'L', roller: '4D',

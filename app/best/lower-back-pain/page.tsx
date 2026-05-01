@@ -9,10 +9,8 @@ export const metadata: Metadata = {
 
 const PICK_IDS = [
   'amamedics-renew-3d',
-  'kahuna-lm-6800s',
   'osaki-os-pro-admiral-ii',
   'amamedics-hilux-4d',
-  'ogawa-master-drive-le',
 ]
 
 interface Editorial {
@@ -25,10 +23,7 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best entry option',
     why: 'Most chairs at $1,299 pair SL-track coverage with 2D rollers, which cannot vary their pressure depth. The Renew 3D is one of the few entry chairs with genuine 3D roller capability, meaning adjustable pressure depth. For lower back buyers whose pain responds better to firmer pressure, that adjustment matters. Three-stage zero gravity, space-saving recline (4-inch wall clearance), body scanning, and lumbar heat are all confirmed from the retailer page. Currently available as a clearance model.',
   },
-  'kahuna-lm-6800s': {
-    label: 'Best at $2,500',
-    why: "The LM-6800S has a 45-inch SL-track with three-stage zero gravity, more decompression positions than most chairs in this price range. Each successive zero gravity stage reduces lumbar disc compression further, which is the mechanism most relevant to lower back pain. Confirmed for 5'0\" to 6'0\" and up to 200 lbs. Buyers at or close to 200 lbs should consider the Admiral II above for its higher weight capacity.",
-  },
+
   'osaki-os-pro-admiral-ii': {
     label: 'Best at $3,000',
     why: "The Admiral II has a 49-inch track, the longest SL-track in its price range. The additional length means the roller extends further under the glutes than shorter designs. For lower back pain cases with any sacral or glute involvement, that extra coverage matters. Body scanning positions the rollers to the individual's spinal curve before each session. The 3D roller system allows pressure adjustment from light to firm. Confirmed 5'2\" to 6'1\", 270 lbs.",
@@ -37,10 +32,7 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best for wide body fit, 4D at mid-range',
     why: "The Hilux 4D has the widest confirmed height range in the catalog at 4'11\" to 6'7\", which matters for lower back buyers who need to confirm the 53-inch roller track will reach their specific lumbar anatomy. The 4D roller adds variable speed and rhythm to each stroke, producing a more nuanced feel than fixed-speed 3D rollers. A distinctive feature: the rollers themselves are heated on this chair, not just a separate lumbar pad, which allows heat to follow the roller path throughout the session.",
   },
-  'ogawa-master-drive-le': {
-    label: 'Premium pick',
-    why: "The Master Drive LE 4D combines SL-track coverage, 4D rollers, and a 320 lb weight capacity at a price that positions it as a long-term therapeutic tool rather than a wellness appliance. For buyers with chronic, severe lower back pain who are looking for the closest home equivalent to professional soft tissue work, this is the pick. Confirmed 5'2\" to 6'1\". Voice control and two-stage zero gravity are included.",
-  },
+
 }
 
 function fmtFt(inches: number): string {
