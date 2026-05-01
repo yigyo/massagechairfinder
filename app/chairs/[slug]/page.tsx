@@ -252,14 +252,19 @@ function AlternativesPanel({
   alts,
   title,
   body,
+  subtle = false,
 }: {
   alts: Chair[]
   title: string
   body: string
+  subtle?: boolean
 }) {
   if (!alts.length) return null
+  const outerClass = subtle
+    ? 'mb-10 pt-6 border-t border-sand'
+    : 'mb-10 rounded-xl border border-gold bg-linen px-6 py-5'
   return (
-    <div className="mb-10 rounded-xl border border-gold bg-linen px-6 py-5">
+    <div className={outerClass}>
       <h3 className="font-serif text-lg font-semibold text-navy mb-1">{title}</h3>
       <p className="text-sm text-charcoal mb-5">{body}</p>
       <div className="flex flex-col gap-3">
@@ -526,6 +531,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
             alts={alternatives}
             title="Looking for something available now?"
             body="This chair is temporarily out of stock. These are the closest alternatives we recommend while you wait."
+            subtle={true}
           />
         )}
 
