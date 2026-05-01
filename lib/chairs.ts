@@ -494,6 +494,29 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'Wirecutter Top Pick 2024. L-Track. 2D roller. 330 lb capacity. Verified from massagechairstore.com April 2026.',
   },
 
+  {
+    id: 'kyota-yugana-m780',
+    name: 'Kyota Yugana M780 4D',
+    brand: 'Kyota',
+    active: true, goodwinActive: true, mcfActive: true,
+    priceMin: 7999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'massagechairwarehouse.com',
+    affiliateCommission: 'Affiliatly',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://massagechairwarehouse.com/products/kyota-yugana-m780-4d-massage-chair',
+    goodwinLookupKey: 'kyota yugana',
+    goodwinImageUrl: 'https://massagechairwarehouse.com/cdn/shop/files/Kyota_YuganaM780_1_1_700x700.jpg?v=1734725044',
+    track: 'L', roller: '4D',
+    trackLengthIn: 49,
+    heightMinIn: 56, heightMaxIn: 74, weightCapacityLbs: 300,
+    plusSizeConfirmed: true,
+    zeroGravity: true, spaceSaving: true, wallClearanceIn: 2,
+    heat: true, foot: true, calf: true,
+    aiScanning: true,
+    aiNotes: 'L-Track 49". 4D roller. 300 lb capacity. Space-saving 2" clearance. TrueFit body scanning. Verified from massagechairwarehouse.com 2026-05-01.',
+  },
+
   // ── BODYFRIEND ─────────────────────────────────────────────────────────────
 
   {
@@ -849,6 +872,28 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, spaceSaving: true, wallClearanceIn: 1, heat: true,
     foot: true, calf: true, stretch: true,
     aiNotes: 'SL-Track. Space-saving (1" clearance). Verified from titanchair.com April 2026.',
+  },
+
+  {
+    id: 'titan-pro-vigor-4d',
+    name: 'Titan Pro-Vigor 4D',
+    brand: 'Titan',
+    active: true, goodwinActive: true, mcfActive: true,
+    priceMin: 5999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'massagechairwarehouse.com',
+    affiliateCommission: 'Affiliatly',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://massagechairwarehouse.com/products/titan-pro-vigor-4d-massage-chair',
+    goodwinLookupKey: 'titan pro vigor',
+    goodwinImageUrl: 'https://massagechairwarehouse.com/cdn/shop/products/Vigor_Black_Perspective_1000x100_833e048a-3782-4c24-bda3-145b0593c8bd_700x700.jpg?v=1679594044',
+    track: 'SL', roller: '4D',
+    heightMinIn: 60, heightMaxIn: 74, weightCapacityLbs: 260,
+    zeroGravity: true, zeroGravityStages: 2,
+    spaceSaving: true, wallClearanceIn: 3.9,
+    heat: true, foot: true, calf: true, stretch: true,
+    aiScanning: true,
+    aiNotes: 'SL-Track. 4D Quad Style roller. 2-stage zero gravity. Heated rollers. Space-saving 3.9" clearance. Verified from massagechairwarehouse.com 2026-05-01.',
   },
 
   {
