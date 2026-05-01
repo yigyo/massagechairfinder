@@ -23,7 +23,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'titan-pro-vigor-4d': {
     label: 'Best entry premium, SL-track 4D',
-    why: 'The Titan Pro-Vigor 4D is the entry point for SL-track 4D roller quality in the premium tier at $5,999. 4D rollers vary speed and depth within each stroke, a step beyond the fixed-depth 3D mechanisms in the mid-tier. Two-stage zero gravity, heated rollers, calf and foot massage, full-body stretch, space-saving 3.9-inch wall clearance, body scanning. Confirmed 5'0" to 6'2", 260 lbs. For buyers who want 4D roller quality and full-spine coverage without crossing into the $7,000 range, this is where the premium catalog starts.',
+    why: "The Titan Pro-Vigor 4D is the entry point for SL-track 4D roller quality in the premium tier at $5,999. 4D rollers vary speed and depth within each stroke, a step beyond the fixed-depth 3D mechanisms in the mid-tier. Two-stage zero gravity, heated rollers, calf and foot massage, full-body stretch, space-saving 3.9-inch wall clearance, body scanning. Confirmed 5'0\" to 6'2\", 260 lbs. For buyers who want 4D roller quality and full-spine coverage without crossing into the $7,000 range, this is where the premium catalog starts.",
   },
   'infinity-imperial-syner-d': {
     label: 'Best Flex-track, widest height range',

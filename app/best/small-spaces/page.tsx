@@ -31,7 +31,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'titan-3d-prestige': {
     label: 'Smallest footprint in SL-track',
-    why: 'The Titan 3D Prestige requires 1 inch of wall clearance, the tightest in the SL-track category. At $4,999, it represents the price point where SL-track, 3D rollers, space-saving recline, and zero gravity all converge. Heat and full-body stretch confirmed. Confirmed up to 6'3", 260 lbs.',
+    why: "The Titan 3D Prestige requires 1 inch of wall clearance, the tightest in the SL-track category. At $4,999, it represents the price point where SL-track, 3D rollers, space-saving recline, and zero gravity all converge. Heat and full-body stretch confirmed. Confirmed up to 6'3\", 260 lbs.",
   },
   'infinity-imperial-syner-d': {
     label: 'Premium with widest confirmed height range',

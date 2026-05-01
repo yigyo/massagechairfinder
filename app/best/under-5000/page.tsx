@@ -35,7 +35,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'titan-pro-vigor-4d': {
     label: 'Best SL-track 4D near this budget',
-    why: 'The Titan Pro-Vigor 4D is a 4D SL-track chair at $5,999, just above the $5,000 ceiling. It is the most affordable 4D SL-track option in the catalog. 4D rollers vary speed and depth within each stroke, a step beyond the fixed-depth 3D mechanisms in the mid-tier. Two-stage zero gravity, heated rollers, calf and foot massage, full-body stretch, body scanning, space-saving 3.9-inch wall clearance. Confirmed 5'0" to 6'2", 260 lbs.',
+    why: "The Titan Pro-Vigor 4D is a 4D SL-track chair at $5,999, just above the $5,000 ceiling. It is the most affordable 4D SL-track option in the catalog. 4D rollers vary speed and depth within each stroke, a step beyond the fixed-depth 3D mechanisms in the mid-tier. Two-stage zero gravity, heated rollers, calf and foot massage, full-body stretch, body scanning, space-saving 3.9-inch wall clearance. Confirmed 5'0\" to 6'2\", 260 lbs.",
   },
   'amamedics-hilux-4d': {
     label: 'Best SL-track 4D, widest body fit',
