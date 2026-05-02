@@ -1331,7 +1331,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: undefined,  // URL pending -- wishrockrelaxation.com added to affiliate program 2026-05-01
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-active-xl-3d-massage-chair-og-6300'',
     track: 'SL', roller: '3D',
     weightCapacityLbs: 320,
     zeroGravity: true, heat: true, foot: true,
@@ -1348,7 +1348,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: undefined,  // URL pending -- wishrockrelaxation.com added to affiliate program 2026-05-01
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-le-4d-3d-massage-chair-og-8901'',
     track: 'SL', roller: '4D', trackLengthIn: 53,
     spaceSaving: true, wallClearanceIn: 1,
     weightCapacityLbs: 320,
@@ -1366,7 +1366,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: undefined,  // URL pending -- wishrockrelaxation.com added to affiliate program 2026-05-01
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-active-xl-duo-3d-massage-chair-og-6400'',
     track: 'SL', roller: '3D',
     spaceSaving: true, wallClearanceIn: 11,
     weightCapacityLbs: 320,
@@ -1384,7 +1384,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: undefined,  // URL pending -- wishrockrelaxation.com added to affiliate program 2026-05-01
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-master-drive-ai-2-0-4d-massage-chair-og-8801'',
     track: 'SL', roller: '4D',
     spaceSaving: true, wallClearanceIn: 4,
     weightCapacityLbs: 320,
@@ -1402,7 +1402,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: undefined,  // URL pending -- wishrockrelaxation.com added to affiliate program 2026-05-01
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-4d-3d-massage-chair-og-8900'',
     track: 'SL', roller: '4D',
     spaceSaving: true, wallClearanceIn: 1,
     weightCapacityLbs: 320,
@@ -1420,10 +1420,10 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: false, mcfActive: true,
     priceMin: 2899,
     priceMax: 2999,
-    affiliateTier: null,  // affiliate program not yet confirmed via relaxe.co
+    affiliateTier: 'A',
     affiliateRetailer: 'relaxe.co',
     goodwinStatus: 'affiliate',
-    affiliateUrl: undefined,
+    affiliateUrl: 'https://relaxe.co/collections/massage/products/shiatsu-massage-chair',
     track: 'SL', roller: '2D', trackLengthIn: 53,
     spaceSaving: true, wallClearanceIn: 2,
     weightCapacityLbs: 330,
