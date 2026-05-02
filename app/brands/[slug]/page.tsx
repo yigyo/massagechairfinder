@@ -83,6 +83,13 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
                     {chair.track && (
                       <p className="text-warm-gray text-sm">{chair.track} track &middot; {chair.roller || '3D'} rollers</p>
                     )}
+                    {chair.reviewRating && (
+                      <p className="text-xs text-warm-gray mt-1">
+                        <span className="text-gold">{"★".repeat(Math.round(chair.reviewRating))}</span>
+                        {" "}{chair.reviewRating.toFixed(1)}
+                        {chair.reviewCount ? " · " + chair.reviewCount.toLocaleString() + " reviews" : ""}
+                      </p>
+                    )}
                   </div>
                   <div className="text-right shrink-0">
                     <span className="text-gold font-semibold">

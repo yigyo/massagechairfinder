@@ -332,9 +332,9 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: false, mcfActive: false,  // no retailer with affiliate program confirmed 2026-05-02
     priceMin: 7999,  // price confirmed 2026-04-27
     affiliateTier: null,
-    affiliateRetailer: null,
-    goodwinStatus: null,
-    affiliateUrl: null,
+    affiliateRetailer: 'massagechairplanet.com',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://www.massagechairplanet.com/products/infinity-celebrity-elite-4d-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0549/1562/9252/files/infinity-celebrity-3d-4d-massage-chair-black-45_202ad998-9d7b-4459-93f2-d7592e391ad5.jpg',
     goodwinLookupKey: 'infinity celebrity',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity_celebrity_3d-massage-chair.webp?v=1776836198',

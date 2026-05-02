@@ -603,6 +603,15 @@ export default async function ChairPage({ params }: { params: { slug: string } }
               </div>
             </div>
 
+            {/* Rating line — shown when reviewRating exists */}
+            {c.reviewRating && (
+              <p className="text-sm text-warm-gray mt-3">
+                <span className="text-gold">{"★".repeat(Math.round(c.reviewRating))}</span>
+                {" "}{c.reviewRating.toFixed(1)}
+                {c.reviewCount ? " · " + c.reviewCount.toLocaleString() + " reviews" : ""}
+              </p>
+            )}
+
             {/* CTA: hidden for discontinued, live for active and OOS */}
             {!isDiscontinued && c.affiliateUrl && (
               <div className="mt-4 space-y-3">
