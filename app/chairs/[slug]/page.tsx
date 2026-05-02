@@ -441,8 +441,8 @@ export default async function ChairPage({ params }: { params: { slug: string } }
         <div className={`grid grid-cols-1 md:grid-cols-2 gap-10 mb-14${isDiscontinued ? ' opacity-75' : ''}`}>
           {/* Image */}
           <div className="relative h-80 bg-white rounded-xl overflow-hidden border border-sand">
-            {c.goodwinImageUrl ? (
-              <Image src={c.goodwinImageUrl} alt={c.name + ' massage chair'} fill className="object-contain p-6" />
+            {(c.imageUrl || c.goodwinImageUrl) ? (
+              <Image src={c.imageUrl || c.goodwinImageUrl!} alt={c.name + ' massage chair'} fill className="object-contain p-6" />
             ) : (
               <div className="flex items-center justify-center h-full text-warm-gray text-sm">Photo coming soon</div>
             )}
