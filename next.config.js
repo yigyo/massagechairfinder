@@ -5,9 +5,37 @@ const nextConfig = {
   },
   images: {
     remotePatterns: [
+      // Internal/CMS image sources
       { protocol: 'https', hostname: 'cdn.shopify.com' },
       { protocol: 'https', hostname: '**.strapi.io' },
       { protocol: 'https', hostname: '**.up.railway.app' },
+
+      // Common third-party image CDNs used by wellness/furniture brands
+      { protocol: 'https', hostname: '**.cloudfront.net' },
+      { protocol: 'https', hostname: '**.imgix.net' },
+      { protocol: 'https', hostname: '**.myshopify.com' },
+
+      // Affiliate retailer domains -- add new entries here as affiliate relationships expand
+      { protocol: 'https', hostname: 'wishrockrelaxation.com' },
+      { protocol: 'https', hostname: '**.wishrockrelaxation.com' },
+      { protocol: 'https', hostname: 'relaxe.co' },
+      { protocol: 'https', hostname: '**.relaxe.co' },
+      { protocol: 'https', hostname: 'kahunachair.com' },
+      { protocol: 'https', hostname: '**.kahunachair.com' },
+      { protocol: 'https', hostname: 'syncamassagechair.com' },
+      { protocol: 'https', hostname: '**.syncamassagechair.com' },
+      { protocol: 'https', hostname: 'osakimassagechair.com' },
+      { protocol: 'https', hostname: '**.osakimassagechair.com' },
+      { protocol: 'https', hostname: 'amamedics.com' },
+      { protocol: 'https', hostname: '**.amamedics.com' },
+      { protocol: 'https', hostname: 'jpmedics.com' },
+      { protocol: 'https', hostname: '**.jpmedics.com' },
+      { protocol: 'https', hostname: 'infinitymassagechairs.com' },
+      { protocol: 'https', hostname: '**.infinitymassagechairs.com' },
+      { protocol: 'https', hostname: 'luraco.com' },
+      { protocol: 'https', hostname: '**.luraco.com' },
+      { protocol: 'https', hostname: 'inbalancemassage.com' },
+      { protocol: 'https', hostname: '**.inbalancemassage.com' },
     ],
   },
   webpack: (config) => {
