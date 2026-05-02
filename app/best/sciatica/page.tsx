@@ -12,6 +12,7 @@ const PICK_IDS = [
   'kyota-genki-m380',
   'osaki-os-pro-admiral-ii',
   'jpmedics-kumo-4d',
+  'ergotec-et-180-pluto',
 ]
 
 interface Editorial {

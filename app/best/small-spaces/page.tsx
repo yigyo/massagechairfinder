@@ -14,6 +14,7 @@ const PICK_IDS = [
   'titan-3d-prestige',
   'infinity-imperial-syner-d',
   'jpmedics-kaze-duo',
+  'relaxonchair-mk-v-plus',
 ]
 
 interface Editorial {

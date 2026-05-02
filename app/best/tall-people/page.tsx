@@ -13,6 +13,7 @@ const PICK_IDS = [
   'infinity-imperial-syner-d',
   'daiwa-legacy-4',
   'luraco-i9-max-plus',
+  'positive-posture-brio-sport',
 ]
 
 interface Editorial {

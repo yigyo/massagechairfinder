@@ -11,6 +11,8 @@ const PICK_IDS = [
   'osaki-os-champ',
   'synca-wellness-circ',
   'amamedics-renew-3d',
+  'relaxonchair-rio',
+  'relaxonchair-jasper',
 ]
 
 interface Editorial {

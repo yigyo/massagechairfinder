@@ -15,6 +15,7 @@ const PICK_IDS = [
   'kanji-4d-shogun-duo',
   'jpmedics-kumo-4d',
   'luraco-i9-max-plus',
+  'ergotec-et-180-pluto',
 ]
 
 interface Editorial {

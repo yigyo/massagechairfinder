@@ -13,6 +13,7 @@ const PICK_IDS = [
   'jpmedics-kumo-4d',
   'daiwa-legacy-4',
   'osaki-os-pro-maestro-le',
+  'positive-posture-brio-plus',
 ]
 
 interface Editorial {

@@ -12,6 +12,8 @@ const PICK_IDS = [
   'panasonic-maf1',
   'amamedics-hilux-4d',
   'titan-3d-prestige',
+  'relaxonchair-vita-3d',
+  'sharper-image-relieve-3d',
 ]
 
 interface Editorial {

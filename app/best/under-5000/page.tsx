@@ -13,6 +13,7 @@ const PICK_IDS = [
   'panasonic-maf1',
   'titan-pro-vigor-4d',
   'amamedics-hilux-4d',
+  'sharper-image-relieve-3d',
 ]
 
 interface Editorial {
