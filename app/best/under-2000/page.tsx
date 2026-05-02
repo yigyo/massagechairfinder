@@ -4,11 +4,12 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs Under $2,000 (2026)',
-  description: 'Two SL-track massage chairs are available under $2,000 in our catalog, both at $1,299. Here is what you get at this price point, where the limits are, and when it is worth spending more.',
+  description: 'Three chairs under $2,000, all with SL-track and zero gravity. Here is what you get at this price point, where the limits are, and when it is worth spending more.',
 }
 
 const PICK_IDS = [
   'osaki-os-champ',
+  'synca-wellness-circ',
   'amamedics-renew-3d',
 ]
 
@@ -21,6 +22,10 @@ const EDITORIAL: Record<string, Editorial> = {
   'osaki-os-champ': {
     label: 'Entry SL-track, higher weight capacity',
     why: 'The OS-Champ is an SL-track chair with two-stage zero gravity, lumbar heat, foot and calf massage, and a 260-lb weight capacity at $1,299. The 9-inch wall clearance is larger than the Renew 3D and requires more room planning. For buyers who prioritize weight capacity or are between the two and want the more established model, this is the pick.',
+  },
+  'synca-wellness-circ': {
+    label: 'Entry with 3D rollers and SL-track',
+    why: 'The CirC is priced at $1,299 and uses a 3D roller mechanism on a 34-inch SL-track with zero gravity and lumbar heat. The 34-inch track is shorter than most SL-track chairs and suits average-height users best. 3D rollers allow pressure depth adjustment that 2D chairs at this price do not offer. For buyers who want roller control at the entry price point, this is the pick. Sold via syncamassagechair.com.',
   },
   'amamedics-renew-3d': {
     label: 'Entry with 3D rollers and tighter wall clearance',

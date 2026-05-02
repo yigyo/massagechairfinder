@@ -4,12 +4,14 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs Under $3,000 (2026)',
-  description: 'From $1,299 to $2,999, the best massage chairs offer SL-track coverage, zero gravity, and improving roller quality. Four chairs selected across the full under-$3,000 range.',
+  description: 'From $1,299 to $2,999, the best massage chairs offer SL-track coverage, zero gravity, and improving roller quality. Six chairs selected across the full under-$3,000 range.',
 }
 
 const PICK_IDS = [
   'osaki-os-champ',
+  'synca-wellness-circ-plus',
   'amamedics-renew-3d',
+  'relaxe-shiatsu',
   'kyota-genki-m380',
   'osaki-os-pro-admiral-ii',
 ]
@@ -24,9 +26,17 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Entry at $1,299',
     why: 'The OS-Champ offers SL-track coverage, two-stage zero gravity, lumbar heat, and a 260-lb weight capacity at the lowest price in the catalog. For buyers whose budget tops out at $1,300, this is the pick. 2D rollers, 9-inch wall clearance.',
   },
+  'synca-wellness-circ-plus': {
+    label: 'Best space-saving under $2,000',
+    why: 'The CirC+ at $1,899 is a 3D SL-track chair with space-saving 6-inch wall clearance, zero gravity, and heat. The 45.5-inch track is longer than the base CirC and more appropriate for taller buyers. For buyers who need a chair that can sit near a wall at under $2,000, this is the pick. Sold via syncamassagechair.com.',
+  },
   'amamedics-renew-3d': {
     label: 'Entry with 3D rollers',
     why: 'At the same $1,299 price as the OS-Champ, the Renew 3D includes a 3D roller mechanism with adjustable pressure depth, three-stage zero gravity, and 4-inch wall clearance. For buyers who expect to need precise pressure control, 3D at entry price is a meaningful differentiator. Currently a clearance model. 250-lb capacity.',
+  },
+  'relaxe-shiatsu': {
+    label: 'Best for larger buyers under $3,000',
+    why: 'The Relaxe Shiatsu is confirmed at 330 lbs with a 53-inch SL-track and space-saving 2-inch wall clearance, priced at $2,899 to $2,999. The weight capacity is the highest in the under-$3,000 range, making it the strongest option for buyers who exceed 260 or 270 lbs. Confirmed height range of 61 to 76 inches (5'1" to 6'4"). 2D rollers, zero gravity, heat. Sold via relaxe.co.',
   },
   'kyota-genki-m380': {
     label: 'Best for tall or heavier buyers',

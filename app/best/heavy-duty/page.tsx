@@ -4,13 +4,15 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Heavy-Duty Massage Chairs (2026)',
-  description: 'Heavy-duty massage chairs are verified for 300 lbs or above with confirmed effective performance, not just structural clearance. Five chairs selected from $2,999 to $13,490.',
+  description: 'Heavy-duty massage chairs verified for 300 lbs or above with confirmed performance. Seven chairs selected from $2,999 to $14,999.',
 }
 
 const PICK_IDS = [
   'kyota-genki-m380',
+  'inner-balance-jin-2',
   'kyota-yugana-m780',
   'bodyfriend-phantom-ii',
+  'kanji-4d-shogun-duo',
   'jpmedics-kumo-4d',
   'luraco-i9-max-plus',
 ]
@@ -25,6 +27,10 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best entry heavy-duty',
     why: 'The Genki M380 is confirmed at 330 lbs with a Plus Size Confirmed designation and is a Wirecutter Top Pick for 2024. L-track covers the glutes and thighs. At $2,999, it is the most affordable chair in the catalog with a verified high-capacity rating. Zero gravity, heat, foot and calf massage, 2D rollers.',
   },
+  'inner-balance-jin-2': {
+    label: 'Best space-saving heavy-duty under $4,000',
+    why: 'The Jin 2.0 is confirmed at 300 lbs with 2-inch wall clearance, SL-track, and a 3-stage zero gravity system at $3,999. For buyers who need 300-lb capacity, a smaller room footprint, and deeper recline stages without spending $7,000 or more, this is the pick. 2D rollers, heat. Distributed via syncamassagechair.com.',
+  },
   'kyota-yugana-m780': {
     label: 'Best mid-premium heavy-duty',
     why: "The Yugana M780 4D is confirmed at 300 lbs with a Plus Size Confirmed designation. L-track with 4D rollers, space-saving 2-inch wall clearance, TrueFit body scanning, heat, and a 49-inch track. Confirmed 4'8\" to 6'2\". At $7,999, it fills the mid-premium gap between the Genki M380 and the premium-tier options below. For buyers who need verified Plus Size capacity alongside 4D roller depth and a space-saving footprint, this is the pick.",
@@ -36,6 +42,10 @@ const EDITORIAL: Record<string, Editorial> = {
   'jpmedics-kumo-4d': {
     label: 'Best premium L-track for heavy-duty',
     why: "The Kumo 4D is confirmed at 320 lbs with a deep L-track extension. For heavier buyers whose primary pain is in the lower back, glutes, and hamstrings, L-track with 4D roller depth delivers targeted coverage at the right zone. Made in Japan, which at this price tier typically means tighter manufacturing tolerances and longer service intervals. Up to 6'3\".",
+  },
+  'kanji-4d-shogun-duo': {
+    label: 'Highest-tech heavy-duty option',
+    why: 'The Kanji 4D Shogun Duo is confirmed at 330 lbs with a dual 8D Flex-track roller system and space-saving 5.5-inch wall clearance at $14,999. For buyers whose weight exceeds 300 lbs and who also want the most capable roller technology available, this is the only premium heavy-duty option in the catalog with both specifications confirmed. Distributed by Osaki.',
   },
   'luraco-i9-max-plus': {
     label: 'Wide body fit, made in USA',

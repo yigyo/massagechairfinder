@@ -4,11 +4,12 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs for Small Spaces (2026)',
-  description: 'Space-saving massage chairs require as little as 1 inch of wall clearance by sliding forward as they recline. Five chairs selected for wall clearance, therapeutic specs, and verified body fit.',
+  description: 'Space-saving massage chairs require as little as 1 inch of wall clearance by sliding forward as they recline. Six chairs selected for wall clearance, therapeutic specs, and verified body fit.',
 }
 
 const PICK_IDS = [
   'amamedics-renew-3d',
+  'inner-balance-jin',
   'osaki-os-pro-admiral-ii',
   'titan-3d-prestige',
   'infinity-imperial-syner-d',
@@ -24,6 +25,10 @@ const EDITORIAL: Record<string, Editorial> = {
   'amamedics-renew-3d': {
     label: 'Most affordable space-saving pick',
     why: 'The Renew 3D is the most affordable space-saving chair in the catalog at $1,299. Four-inch wall clearance, SL-track, 3D rollers with adjustable pressure depth, three-stage zero gravity, body scanning, and lumbar heat. Currently a clearance model. For buyers whose primary constraint is budget and who need a chair that can sit near a wall, this is the entry point. 250-lb weight capacity.',
+  },
+  'inner-balance-jin': {
+    label: 'Best space-saving under $2,000',
+    why: 'The Inner Balance Jin requires only 2 inches of wall clearance and is confirmed at 300 lbs, making it the only chair under $2,000 in the catalog that combines near-zero wall clearance with plus-size capacity. SL-track, 2D rollers, zero gravity, heat. For buyers whose weight exceeds 250 lbs and who need tight wall clearance, this fills a gap the entry-level chairs cannot. $1,999.',
   },
   'osaki-os-pro-admiral-ii': {
     label: 'Best value',
