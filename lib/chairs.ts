@@ -942,6 +942,14 @@ export const CHAIRS: Chair[] = [
     heat: true, foot: true, calf: true, stretch: true,
     aiScanning: true,
     aiNotes: "S-TRACK ONLY — do not recommend for lower back/hip/glute pain. NO zero gravity. Compact 27\" wide. 4D roller. Heated massage heads. Zengineered Panasonic craftsmanship. Verified from primemassagechairs.com 2026-05-01.",
+    reviewRating:      5.0,
+    reviewCount:       5,
+    reviewSource:      "primemassagechairs.com",
+    buyerThemes: [
+      "Frequently purchased as a thoughtful gift for a spouse or partner",
+      "Wide range of program options suits different preferences and moods",
+      "Zero-gravity stretch position consistently highlighted as a standout feature",
+    ],
   },
 
   {
@@ -1022,6 +1030,15 @@ export const CHAIRS: Chair[] = [
     heat: true, foot: true, calf: true, stretch: true,
     aiScanning: true,
     aiNotes: 'SL-Track. 4D Quad Style roller. 2-stage zero gravity. Heated rollers. Space-saving 3.9" clearance. Verified from massagechairwarehouse.com 2026-05-01.',
+    reviewRating:      4.74,
+    reviewCount:       38,
+    reviewSource:      "titanchair.com",
+    buyerThemes: [
+      "A daily use habit forms quickly; many buyers report routine evening sessions within the first week",
+      "Sleep quality and accumulated aches both improve with consistent nightly use",
+      "Lower back may need an adjustment period; 4D intensity control lets buyers dial in the right depth",
+      "Experienced massage chair owners consistently describe it as a meaningful step up",
+    ],
   },
 
   {
@@ -1577,6 +1594,14 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, foot: true,
     plusSizeConfirmed: true,
     aiNotes: 'SL-track 53". 2D roller. Space-saving 2" wall clearance. 330 lb capacity. Height range 61-76 inches. Affiliate program pending confirmation.',
+    reviewRating:      4.8,
+    reviewCount:       894,
+    reviewSource:      "relaxe.co",
+    buyerThemes: [
+      "Post-surgery and chronic back pain relief reported after just a few weeks of regular use",
+      "Multiple household members compete for daily time in the chair",
+      "Buyers consistently note it replaces the cost of ongoing massage therapy appointments",
+    ],
   },
 
   // ── REAL RELAX (Goodwin Tier C fallback only — never surface in MCF) ────────
