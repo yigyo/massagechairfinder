@@ -1602,7 +1602,7 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://www.relaxonchair.com/products/rio-massage-recliner-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/2261/7893/products/relaxonchair-rio-massage-recliner-chair-black-free-shipping-202204.jpg',
     track: 'SL', roller: null,
-    zeroGravity: true, heat: true, footRollers: true,
+    zeroGravity: true, heat: true, foot: true,
     aiNotes: 'Entry-level SL-track at $999. Zero gravity, heat, foot rollers. Good starting point for budget buyers who still want SL coverage.',
   },
 
@@ -1618,7 +1618,7 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://www.relaxonchair.com/products/jasper-full-body-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/2261/7893/files/relaxonchair-jasper-full-body-massage-chair-main-202405.jpg',
     track: 'SL', roller: null,
-    zeroGravity: true, heat: true, footRollers: true,
+    zeroGravity: true, heat: true, foot: true,
     aiNotes: 'SL-track, zero gravity, heat, foot rollers. Mid-entry price with full-spine coverage.',
   },
 
@@ -1634,7 +1634,7 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://www.relaxonchair.com/products/mk-ii-plus-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/2261/7893/products/mk-2-plus-full-body-massage-chair-chocolate-free-shipping-202304.jpg',
     track: 'L', roller: null,
-    zeroGravity: true, heat: true, footRollers: true,
+    zeroGravity: true, heat: true, foot: true,
     aiNotes: 'L-track extends under glutes. Zero gravity, heat, foot rollers. Good lower-back and hip option at $1,999.',
   },
 
@@ -1683,7 +1683,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: 'https://cdn.shopify.com/s/files/1/2261/7893/products/MK-V-Plus-full-body-massage-chair-black-202102.jpg',
     track: 'L', roller: null,
     spaceSaving: true, wallClearanceIn: 3.5,
-    zeroGravity: true, heat: true, footRollers: true,
+    zeroGravity: true, heat: true, foot: true,
     aiNotes: 'L-track space-saving design (3.5" wall clearance). Zero gravity, heat, foot rollers. Good for rooms with limited wall space.',
   },
 
@@ -1768,7 +1768,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: 'https://cdn.shopify.com/s/files/1/0737/9625/6030/files/Ergotec_ET180_1.jpg',
     track: 'L', roller: '3D',
     weightCapacityLbs: 320,
-    zeroGravity: false, heat: true, stretch: true, footRollers: true,
+    zeroGravity: false, heat: true, stretch: true, foot: true,
     aiNotes: 'L-track 3D at $1,999. 320 lb weight capacity. Heat, stretch, foot rollers. Strong value entry for buyers needing higher weight support.',
   },
 
@@ -1907,7 +1907,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: 'https://cdn.shopify.com/s/files/1/0737/9625/6030/products/MedicalBreakThrough8Plus_1.jpg',
     track: null, roller: '4D',
     weightCapacityLbs: 300,
-    zeroGravity: true, heat: false, stretch: true, aiScanning: true, footRollers: true,
+    zeroGravity: true, heat: false, stretch: true, aiScanning: true, foot: true,
     aiNotes: '4D massage, zero gravity, full body scan, stretch, open-foot rollers. 300 lb capacity.',
   },
 
@@ -1976,7 +1976,7 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://www.massagechairwarehouse.com/products/positive-posture-brio-plus-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0737/9625/6030/products/positive-posture-brio-plus-2.jpg',
     track: 'L', roller: '4D',
-    zeroGravity: false, heat: true, footRollers: true,
+    zeroGravity: false, heat: true, foot: true,
     aiNotes: 'L-track 4D with heat and foot rollers. Premium positioning at $7,999. Positive Posture focuses on ergonomic support and spinal alignment.',
   },
 
@@ -1993,7 +1993,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: 'https://cdn.shopify.com/s/files/1/0737/9625/6030/products/positive-posture-brio-sport-3.jpg',
     track: 'L', roller: '4D', trackLengthIn: 47,
     heightMinIn: 60, heightMaxIn: 77, weightCapacityLbs: 265,
-    zeroGravity: false, heat: true, footRollers: true,
+    zeroGravity: false, heat: true, foot: true,
     aiNotes: 'L-track 47" length. 4D roller, heat, foot rollers. Fits 5\'0" to 6\'5". 265 lb weight capacity. Sport-focused recovery positioning.',
   },
 
@@ -2027,7 +2027,7 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://www.massagechairwarehouse.com/products/sharper-image-relieve-3d-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0737/9625/6030/products/sharper-image-relieve-3d-4.jpg',
     track: 'L', roller: '3D',
-    zeroGravity: true, heat: true, footRollers: true,
+    zeroGravity: true, heat: true, foot: true,
     aiNotes: 'L-track 3D with zero gravity, heat, and foot rollers. Sharper Image brand sold through MCW at $4,499.',
   },
 
@@ -2043,7 +2043,7 @@ export const CHAIRS: Chair[] = [
     affiliateUrl: 'https://www.massagechairwarehouse.com/products/sharper-image-revival-zero-gravity-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0737/9625/6030/products/sharper-image-revival-4.jpg',
     track: 'L', roller: null,
-    zeroGravity: true, heat: true, footRollers: true,
+    zeroGravity: true, heat: true, foot: true,
     aiNotes: 'L-track with zero gravity, heat, and foot rollers. Roller dimension not specified. Entry point to the Sharper Image massage chair line at $3,999.',
   },
 
@@ -2114,7 +2114,7 @@ export const CHAIRS: Chair[] = [
     imageWhiteBg: false,
     track: 'L', roller: '4D',
     spaceSaving: true,
-    zeroGravity: true, heat: true, footRollers: true, aiScanning: true,
+    zeroGravity: true, heat: true, foot: true, aiScanning: true,
     aiNotes: 'L-track 4D at $5,499. 2-level zero gravity. Lumbar heat. Reflexology foot rollers. TrueFit body scanning. Zero Wall Fit space-saving technology. 3-year warranty. Sold via Massage Chair Heaven.',
   },
 
@@ -2132,7 +2132,7 @@ export const CHAIRS: Chair[] = [
     imageWhiteBg: false,
     track: 'SL', roller: '4D',
     spaceSaving: true,
-    zeroGravity: true, heat: true, footRollers: true, aiScanning: true,
+    zeroGravity: true, heat: true, foot: true, aiScanning: true,
     aiNotes: 'SL-track 4D at $6,999. 2-level zero gravity. Lumbar heat. Dual reflexology foot rollers plus kneading calf rollers. TrueFit body scanning. Zero Wall Fit space-saving. 3-year warranty. Sold via Massage Chair Heaven.',
   },
 
