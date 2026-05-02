@@ -36,7 +36,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'relaxe-shiatsu': {
     label: 'Best for larger buyers under $3,000',
-    why: 'The Relaxe Shiatsu is confirmed at 330 lbs with a 53-inch SL-track and space-saving 2-inch wall clearance, priced at $2,899 to $2,999. The weight capacity is the highest in the under-$3,000 range, making it the strongest option for buyers who exceed 260 or 270 lbs. Confirmed height range of 61 to 76 inches (5'1" to 6'4"). 2D rollers, zero gravity, heat. Sold via relaxe.co.',
+    why: 'The Relaxe Shiatsu is confirmed at 330 lbs with a 53-inch SL-track and space-saving 2-inch wall clearance, priced at $2,899 to $2,999. The weight capacity is the highest in the under-$3,000 range, making it the strongest option for buyers who exceed 260 or 270 lbs. Confirmed height range of 61 to 76 inches. 2D rollers, zero gravity, heat. Sold via relaxe.co.',
   },
   'kyota-genki-m380': {
     label: 'Best for tall or heavier buyers',
