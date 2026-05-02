@@ -33,6 +33,14 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Entry with 3D rollers and tighter wall clearance',
     why: 'The Renew 3D costs the same as the OS-Champ but includes a 3D roller mechanism, meaning adjustable pressure depth. For buyers who expect their lower back to be sensitive and want more control over massage intensity, 3D rollers provide a wider adjustment range than 2D. Space-saving recline (4-inch wall clearance), three-stage zero gravity, body scanning, and lumbar heat are confirmed. Currently a clearance model. 250-lb weight capacity.',
   },
+  'relaxonchair-rio': {
+    label: 'Lowest-priced SL-track in the catalog',
+    why: "The Relax On Chair RIO is an SL-track chair at $999 with zero gravity, lumbar heat, and foot rollers. At $999, it is the most affordable SL-track option in the catalog. Full-spine coverage from neck to glutes, zero gravity recline, heat, and foot massage are all confirmed at this price. 2D rollers are standard at this tier. No confirmed height or weight capacity data from the retailer spec page. For buyers who want SL-track coverage at the lowest available price, this is the starting point.",
+  },
+  'relaxonchair-jasper': {
+    label: 'SL-track step-up at $1,599',
+    why: "The Relax On Chair Jasper is an SL-track chair at $1,599 with zero gravity, lumbar heat, and foot rollers. The core specs match the RIO, with the Jasper positioned as a step up in build within the Relax On Chair line rather than a change in roller architecture. 2D rollers. No confirmed height or weight capacity data from the retailer spec page. For buyers whose budget lands between the $999 entry tier and the $1,999 range, this fills the mid-tier slot.",
+  },
 }
 
 function fmtFt(inches: number): string {
@@ -152,9 +160,9 @@ export default function BestUnder2000Page() {
                 </span>
               </div>
               <div className="flex flex-col sm:flex-row gap-6">
-                {chair.goodwinImageUrl && (
+                {(chair.goodwinImageUrl || chair.imageUrl) && (
                   <div className="flex-shrink-0 w-full sm:w-36 h-36 bg-white border border-sand rounded-lg overflow-hidden">
-                    <img src={chair.goodwinImageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
+                    <img src={chair.goodwinImageUrl || chair.imageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
                   </div>
                 )}
                 <div className="flex-1 min-w-0">

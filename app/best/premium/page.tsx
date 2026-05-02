@@ -42,6 +42,10 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best premium SL-track with body scanning',
     why: "The Maestro LE delivers SL-track, 4D rollers, and body scanning at $8,999. Space-saving 5-inch wall clearance. Body scanning positions the roller precisely at the cervical vertebrae before each session, which matters more at 4D speeds where roller placement errors are amplified. For buyers who want 4D coverage accuracy across the full spine, this is the pick. 260 lb capacity, confirmed 5'2\" to 6'1\".",
   },
+  'positive-posture-brio-plus': {
+    label: 'L-track 4D with ergonomic focus',
+    why: "The Positive Posture Brio Plus is an L-track chair with 4D rollers, heat, and foot massage at $7,999. Positive Posture designs its chairs around spinal alignment and ergonomic seating geometry rather than feature quantity, which shapes how the roller path and recline position interact. No zero gravity on this model. For buyers in the premium range who prioritize L-track glute coverage and 4D roller depth from a brand with a distinct ergonomic design approach, this is the pick.",
+  },
 }
 
 function fmtFt(inches: number): string {
@@ -157,9 +161,9 @@ export default function BestPremiumPage() {
                 </span>
               </div>
               <div className="flex flex-col sm:flex-row gap-6">
-                {chair.goodwinImageUrl && (
+                {(chair.goodwinImageUrl || chair.imageUrl) && (
                   <div className="flex-shrink-0 w-full sm:w-36 h-36 bg-white border border-sand rounded-lg overflow-hidden">
-                    <img src={chair.goodwinImageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
+                    <img src={chair.goodwinImageUrl || chair.imageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
                   </div>
                 )}
                 <div className="flex-1 min-w-0">

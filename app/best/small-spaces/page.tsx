@@ -47,6 +47,10 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Premium 1-inch clearance',
     why: "The KaZe Duo combines 1-inch wall clearance with a dual 4D roller mechanism and a 320-lb weight capacity. For buyers who want the tightest possible wall clearance at the premium tier with high weight capacity, this is the pick. L-track provides strong glute and thigh coverage. Confirmed 5'0\" to 6'3\".",
   },
+  'relaxonchair-mk-v-plus': {
+    label: 'L-track with 3.5-inch wall clearance under $2,500',
+    why: "The MK-V Plus is an L-track chair with zero gravity, heat, and foot massage at $2,499, with a 3.5-inch wall clearance. L-track extends under the glutes and thighs, adding lower-body coverage beyond what SL-track chairs at this price typically deliver. For buyers in the mid-price range who need L-track glute coverage in a smaller room, this fills a gap between the SL-track space-saving options below and the 3D-roller chairs above.",
+  },
 }
 
 function fmtFt(inches: number): string {
@@ -166,9 +170,9 @@ export default function BestSmallSpacesPage() {
                 </span>
               </div>
               <div className="flex flex-col sm:flex-row gap-6">
-                {chair.goodwinImageUrl && (
+                {(chair.goodwinImageUrl || chair.imageUrl) && (
                   <div className="flex-shrink-0 w-full sm:w-36 h-36 bg-white border border-sand rounded-lg overflow-hidden">
-                    <img src={chair.goodwinImageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
+                    <img src={chair.goodwinImageUrl || chair.imageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
                   </div>
                 )}
                 <div className="flex-1 min-w-0">

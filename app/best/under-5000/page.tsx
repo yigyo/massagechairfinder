@@ -42,6 +42,10 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best SL-track 4D, widest body fit',
     why: "The Hilux 4D has the widest confirmed height range at this price tier (4'11\" to 6'7\") and a 53-inch track, one of the longer SL-track systems in the catalog. The 4D roller varies speed and depth within each stroke. A distinctive feature: the rollers themselves are heated, meaning heat follows the roller path throughout the session rather than staying fixed at the lumbar. For buyers who need SL-track coverage with 4D quality and want confidence the chair fits their height, this is the pick.",
   },
+  'sharper-image-relieve-3d': {
+    label: 'L-track 3D at $4,499',
+    why: "The Sharper Image Relieve 3D is an L-track chair with 3D rollers, zero gravity, heat, and foot massage at $4,499. L-track extends under the glutes and into the thighs, adding lower-body coverage that SL-track chairs in this tier do not reach as deeply. 3D rollers allow pressure depth adjustment. Sold through Massage Chair Warehouse. No confirmed height or weight capacity data from the retailer spec page.",
+  },
 }
 
 function fmtFt(inches: number): string {
@@ -159,9 +163,9 @@ export default function BestUnder5000Page() {
                 </span>
               </div>
               <div className="flex flex-col sm:flex-row gap-6">
-                {chair.goodwinImageUrl && (
+                {(chair.goodwinImageUrl || chair.imageUrl) && (
                   <div className="flex-shrink-0 w-full sm:w-36 h-36 bg-white border border-sand rounded-lg overflow-hidden">
-                    <img src={chair.goodwinImageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
+                    <img src={chair.goodwinImageUrl || chair.imageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
                   </div>
                 )}
                 <div className="flex-1 min-w-0">

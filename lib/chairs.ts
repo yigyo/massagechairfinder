@@ -423,7 +423,7 @@ export const CHAIRS: Chair[] = [
     id: 'synca-jp970',
     name: 'Synca JP970',
     brand: 'Synca Wellness',
-    active: true, goodwinActive: false, mcfActive: false,  // removed from syncamassagechair.com; no approved retailer URL 2026-05-01
+    active: false, goodwinActive: false, mcfActive: false,  // discontinued 2026-05-02; product page redirects to homepage
     priceMin: 4999,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -1028,7 +1028,7 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'syncamassagechair.com',
     affiliateCommission: '8%+, 30-day cookie (direct)',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://syncamassagechair.com/products/circ-3',
+    affiliateUrl: 'https://syncamassagechair.com/products/circ3',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0855/7959/6065/files/black_38498ed3-f44a-43df-b96c-2a8eb95bbb16.png',
     track: 'SL', roller: '2D', trackLengthIn: 47,
     weightCapacityLbs: 300,
@@ -1679,7 +1679,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: null,
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
-    affiliateUrl: 'https://www.relaxonchair.com/products/mk-v-plus-full-body-massage-chair',
+    affiliateUrl: 'https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black',
     imageUrl: 'https://cdn.shopify.com/s/files/1/2261/7893/products/MK-V-Plus-full-body-massage-chair-black-202102.jpg',
     track: 'L', roller: null,
     spaceSaving: true, wallClearanceIn: 3.5,

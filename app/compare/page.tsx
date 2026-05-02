@@ -15,20 +15,6 @@ const COMPARISONS = [
     summary: 'Both SL-track entry chairs. The Admiral II has a 3D roller and higher weight capacity. The LM-6800S costs $500 less and adds stretch programs.',
   },
   {
-    slug: 'synca-jp970-vs-kahuna-lm-6800',
-    chairA: 'Synca JP970',
-    chairB: 'Kahuna LM-6800',
-    tier: '$3,500 to $5,000',
-    summary: 'The JP970 costs $1,200 more and has a 4D roller. The LM-6800 uses an L-track that reaches the hips and glutes. Track type drives this decision.',
-  },
-  {
-    slug: 'inada-dreamwave-vs-jpmedics-kumo-4d',
-    chairA: 'Inada DreamWave',
-    chairB: 'JPMedics Kumo 4D',
-    tier: '$6,500 to $9,000',
-    summary: 'A legacy S-track chair versus a modern L-track with zero gravity. Both are made in Japan. The right choice depends on where your pain lives.',
-  },
-  {
     slug: 'infinity-dynasty-4d-vs-infinity-genesis-max-4d',
     chairA: 'Infinity Dynasty 4D',
     chairB: 'Infinity Genesis Max 4D',

@@ -37,6 +37,10 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Premium pick',
     why: 'The Kumo 4D uses an L-track rather than SL-track, but its under-seat extension reaches deeper into the thigh than most SL-track designs. For buyers whose sciatica pain extends into the hamstrings, that extra lower-body reach can matter more than upper-back coverage. The 4D roller mechanism varies speed and depth within each stroke, producing a more nuanced glute and lumbar massage than fixed-depth rollers. Made in Japan, 320 lb capacity.',
   },
+  'ergotec-et-180-pluto': {
+    label: 'Best 3D L-track under $2,000',
+    why: "The Ergotec ET-180 Pluto is an L-track chair with 3D rollers, heat, stretch, and foot massage at $1,999. For sciatica buyers, the L-track covers the glutes and thighs where sciatic compression originates. The 3D roller mechanism allows pressure depth adjustment, which matters for buyers who are sensitive to deep-tissue work and want to increase intensity gradually. 320-lb weight capacity. No zero gravity on this model, which is the main tradeoff versus the SL-track chairs above.",
+  },
 }
 
 function fmtFt(inches: number): string {
@@ -156,9 +160,9 @@ export default function BestSciaticaPage() {
                 </span>
               </div>
               <div className="flex flex-col sm:flex-row gap-6">
-                {chair.goodwinImageUrl && (
+                {(chair.goodwinImageUrl || chair.imageUrl) && (
                   <div className="flex-shrink-0 w-full sm:w-36 h-36 bg-white border border-sand rounded-lg overflow-hidden">
-                    <img src={chair.goodwinImageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
+                    <img src={chair.goodwinImageUrl || chair.imageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
                   </div>
                 )}
                 <div className="flex-1 min-w-0">

@@ -52,6 +52,10 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Wide body fit, made in USA',
     why: "The Luraco is confirmed at 300 lbs and 6'10\", the widest body fit range in the catalog. Relevant for heavier buyers who are also tall. The only USA-manufactured massage chair in the catalog, with a 10-year warranty. L-track, 3D rollers, body scanning, heat, zero gravity, full-body stretch.",
   },
+  'ergotec-et-180-pluto': {
+    label: 'Highest capacity under $2,000',
+    why: "The Ergotec ET-180 Pluto carries a 320-lb weight capacity at $1,999, the most affordable chair in this list. L-track covers the glutes and thighs, 3D rollers allow pressure depth adjustment, and the chair includes heat, stretch, and foot massage. No zero gravity, which is the main tradeoff versus the higher-priced picks above. For buyers whose primary concern is weight capacity at the lowest accessible price, this is the entry point.",
+  },
 }
 
 function fmtFt(inches: number): string {
@@ -169,9 +173,9 @@ export default function BestHeavyDutyPage() {
                 </span>
               </div>
               <div className="flex flex-col sm:flex-row gap-6">
-                {chair.goodwinImageUrl && (
+                {(chair.goodwinImageUrl || chair.imageUrl) && (
                   <div className="flex-shrink-0 w-full sm:w-36 h-36 bg-white border border-sand rounded-lg overflow-hidden">
-                    <img src={chair.goodwinImageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
+                    <img src={chair.goodwinImageUrl || chair.imageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
                   </div>
                 )}
                 <div className="flex-1 min-w-0">

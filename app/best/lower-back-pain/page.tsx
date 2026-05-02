@@ -173,10 +173,10 @@ export default function BestLowerBackPainPage() {
                 </span>
               </div>
               <div className="flex flex-col sm:flex-row gap-6">
-                {chair.goodwinImageUrl && (
+                {(chair.goodwinImageUrl || chair.imageUrl) && (
                   <div className="flex-shrink-0 w-full sm:w-36 h-36 bg-white border border-sand rounded-lg overflow-hidden">
                     <img
-                      src={chair.goodwinImageUrl}
+                      src={chair.goodwinImageUrl || chair.imageUrl}
                       alt={chair.name}
                       className="w-full h-full object-contain p-2"
                     />

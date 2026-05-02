@@ -42,6 +42,10 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Tallest confirmed in the catalog',
     why: 'The Luraco i9 Max Plus is confirmed for buyers up to 6\'10", the highest verified maximum height in this catalog. It is the only massage chair in the catalog manufactured in the United States. L-track with 3D rollers, zero gravity, body scanning, heat, stretch, 10-year warranty, 300 lbs. For buyers above 6\'6" who need confirmed fit data, this is the only chair in the catalog that documents their height range.',
   },
+  'positive-posture-brio-sport': {
+    label: 'Wide confirmed height fit, L-track 4D',
+    why: "The Positive Posture Brio Sport is confirmed for buyers from 5'0\" to 6'5\" with a 47-inch L-track, 4D rollers, heat, and foot massage at $8,999. The 47-inch track length combined with the confirmed height range means the roller path is designed to reach the true lumbar on taller bodies. 265-lb weight capacity. No zero gravity on this model. For tall buyers who want confirmed height fit with 4D roller depth at the premium tier, this is the documented-fit option.",
+  },
 }
 
 function fmtFt(inches: number): string {
@@ -159,9 +163,9 @@ export default function BestTallPeoplePage() {
                 </span>
               </div>
               <div className="flex flex-col sm:flex-row gap-6">
-                {chair.goodwinImageUrl && (
+                {(chair.goodwinImageUrl || chair.imageUrl) && (
                   <div className="flex-shrink-0 w-full sm:w-36 h-36 bg-white border border-sand rounded-lg overflow-hidden">
-                    <img src={chair.goodwinImageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
+                    <img src={chair.goodwinImageUrl || chair.imageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
                   </div>
                 )}
                 <div className="flex-1 min-w-0">
