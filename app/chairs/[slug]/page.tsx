@@ -306,6 +306,80 @@ function AlternativesPanel({
   )
 }
 
+// ─── WHAT BUYERS REPORT ─────────────────────────────────────────────────────
+
+function StarRating({ rating }: { rating: number }) {
+  const stars = Math.round(rating)
+  return (
+    <span
+      className="text-gold text-lg leading-none tracking-tight"
+      aria-label={rating + " out of 5 stars"}
+    >
+      {"★".repeat(stars) + "☆".repeat(5 - stars)}
+    </span>
+  )
+}
+
+function WhatBuyersReport({ chair }: { chair: Chair }) {
+  if (!chair.reviewRating) return null
+  const rating = chair.reviewRating
+  const count  = chair.reviewCount || 0
+  const domain = chair.reviewSource || ""
+  return (
+    <div className="mb-12 max-w-2xl">
+      <h2 className="text-2xl font-serif text-navy mb-4">What buyers report</h2>
+      <div className="flex items-center gap-3 mb-4 flex-wrap">
+        <StarRating rating={rating} />
+        <span className="font-semibold text-charcoal">{rating.toFixed(1)}</span>
+        {count > 0 && (
+          <span className="text-warm-gray text-sm">
+            {count.toLocaleString()}{" "}{count === 1 ? "review" : "reviews"}
+            {domain ? (
+              <>
+                {" "}at{" "}
+                {chair.affiliateUrl ? (
+                  <a
+                    href={chair.affiliateUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-bronze hover:text-gold underline"
+                  >
+                    {domain}
+                  </a>
+                ) : (
+                  <span>{domain}</span>
+                )}
+              </>
+            ) : null}
+          </span>
+        )}
+      </div>
+      {chair.awards && chair.awards.length > 0 && (
+        <div className="flex flex-wrap gap-2 mb-4">
+          {chair.awards.map(award => (
+            <span
+              key={award}
+              className="text-xs font-semibold px-3 py-1 rounded-full bg-linen border border-gold text-gold"
+            >
+              {award}
+            </span>
+          ))}
+        </div>
+      )}
+      {chair.buyerThemes && chair.buyerThemes.length > 0 && (
+        <ul className="space-y-2 mt-2">
+          {chair.buyerThemes.map(theme => (
+            <li key={theme} className="flex items-start gap-3 text-sm text-charcoal">
+              <span className="text-teal font-bold flex-shrink-0 mt-0.5">&#10003;</span>
+              <span>{theme}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  )
+}
+
 // ─── PAGE ─────────────────────────────────────────────────────────────────────
 
 export default async function ChairPage({ params }: { params: { slug: string } }) {
@@ -396,6 +470,15 @@ export default async function ChairPage({ params }: { params: { slug: string } }
       availability,
       url: c.affiliateUrl || 'https://massagechairfinder.com/chairs/' + params.slug,
     },
+    ...(c.reviewRating ? {
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: c.reviewRating,
+        reviewCount: c.reviewCount || 1,
+        bestRating: 5,
+        worstRating: 1,
+      },
+    } : {}),
   }
 
   return (
@@ -636,6 +719,9 @@ export default async function ChairPage({ params }: { params: { slug: string } }
             </table>
           </div>
         </div>
+
+        {/* What buyers report */}
+        <WhatBuyersReport chair={c} />
 
         {/* FAQ */}
         {faqs.length > 0 && (

@@ -93,6 +93,14 @@ export interface Chair {
 
   // ─ AI notes ──────────────────────────────────────────────────────────────
   aiNotes?: string  // rules for the AI: "DO NOT recommend for lower back/hip pain — S-track only"
+
+  // -- Social proof -------------------------------------------------------------
+    reviewRating?:      number    // e.g. 4.8 -- aggregate star rating
+    reviewCount?:       number    // e.g. 312 -- total review count at source
+    reviewSource?:      string    // domain only, e.g. "amazon.com"
+    awards?:            string[]  // e.g. ["Wirecutter Top Pick 2024"]
+    buyerThemes?:       string[]  // 2-4 synthesized recurring themes (no verbatim quotes)
+    expertEndorsement?: string    // attributed public expert quote if found
 }
 
 // ─── HELPERS ───────────────────────────────────────────────────────────────────
@@ -138,6 +146,14 @@ export const CHAIRS: Chair[] = [
     heightMaxIn: 72, weightCapacityLbs: 260,
     zeroGravity: true, zeroGravityStages: 2, spaceSaving: true, wallClearanceIn: 9, heat: true, foot: true, calf: true,
     aiNotes: 'Heat confirmed (lumbar heating section on retailer page). Do not recommend to petite buyers (minimum height unknown).',
+    reviewRating:      4.7,
+    reviewCount:       10,
+    reviewSource:      "osakimassagechair.com",
+    buyerThemes: [
+      "Daily use relieves accumulated aches and pains over weeks and months",
+      "Performs well above its price point, even for buyers used to pricier models",
+      "Extendable footrest accommodates different leg lengths; air compression is a standout",
+    ],
   },
 
   {
@@ -179,6 +195,15 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, spaceSaving: true, wallClearanceIn: 2,
     heat: true, foot: true, calf: true, aiScanning: true,
     aiNotes: 'Primary avatar match. Not for petite buyers (min 62"). Not for tall buyers (max 73").',
+    reviewRating:      4.0,
+    reviewCount:       13,
+    reviewSource:      "osakimassagechair.com",
+    buyerThemes: [
+      "Zero gravity mode relieves lower back pressure for buyers who use it daily",
+      "Full-body airbag compression covers the whole body in a single session",
+      "Easy to operate out of the box; the whole household picks it up quickly",
+      "Auto programs offer enough variety to stay interesting over time",
+    ],
   },
 
   {
@@ -199,6 +224,15 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 260,
     zeroGravity: true, spaceSaving: true, wallClearanceIn: 5,
     heat: true, foot: true, calf: true, aiScanning: true,
+    reviewRating:      4.7,
+    reviewCount:       19,
+    reviewSource:      "osakimassagechair.com",
+    buyerThemes: [
+      "4D rollers are genuinely strong; start at lower intensity until you find your setting",
+      "Lower back massage combined with heat is the most-cited relief combination",
+      "Foot massage quality is frequently called out as exceptional",
+      "Controls have a brief learning curve but most buyers settle in within a few sessions",
+    ],
   },
 
   {
@@ -415,6 +449,14 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, foot: true, calf: true, stretch: true, aiScanning: true,
     tallConfirmed: true, plusSizeConfirmed: true, madeInUSA: true,
     aiNotes: 'Tallest chair in catalog, confirmed to 6\'10". Only USA-manufactured massage chair. 10-year warranty. Split L-Track with 3D roller. Verified April 2026.',
+    reviewRating:      5.0,
+    reviewCount:       4,
+    reviewSource:      "massagechairwarehouse.com",
+    buyerThemes: [
+      "Body scanning correctly locates the neck rather than the shoulder blades, unlike other premium chairs tested",
+      "Per-user settings saved by name, so each household member has their own profile",
+      "Owners who tested multiple high-end chairs consistently rate this one highest for accuracy and feel",
+    ],
   },
 
   // ── SYNCA ──────────────────────────────────────────────────────────────────
@@ -649,6 +691,14 @@ export const CHAIRS: Chair[] = [
     foot: true, calf: true, stretch: true,
     tallConfirmed: true,
     aiNotes: 'Heated rollers (not just lumbar heat - rollers themselves are heated). SL-Track confirmed from osakimassagechair.com April 2026.',
+    reviewRating:      4.8,
+    reviewCount:       5,
+    reviewSource:      "osakimassagechair.com",
+    buyerThemes: [
+      "Pressure adjustability stands out, from gentle recovery to firm deep tissue",
+      "Delivers noticeable post-work stress relief, especially for desk-hour tension",
+      "Massage strength and movement feel stronger than similarly priced chairs",
+    ],
   },
 
   {
@@ -941,6 +991,14 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, spaceSaving: true, wallClearanceIn: 1, heat: true,
     foot: true, calf: true, stretch: true,
     aiNotes: 'SL-Track. Space-saving (1" clearance). Verified from titanchair.com April 2026.',
+    reviewRating:      3.2,
+    reviewCount:       5,
+    reviewSource:      "titanchair.com",
+    buyerThemes: [
+      "Works as a first massage chair; basic auto functions operate as expected",
+      "Assembly and delivery through standard doorways can be challenging",
+      "Some buyers report durability concerns past the two to three year mark",
+    ],
   },
 
   {
@@ -998,6 +1056,14 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '3D', trackLengthIn: 34,
     zeroGravity: true, heat: true, foot: true,
     aiNotes: 'SL-track 34". Entry-level chair. Compact track length -- best for average-height users with upper and mid-back focus.',
+    reviewRating:      5.0,
+    reviewCount:       5,
+    reviewSource:      "syncamassagechair.com",
+    buyerThemes: [
+      "Used daily by multiple household members over years without mechanical issues",
+      "Relieves back pain and improves sleep when used as a pre-bedtime routine",
+      "Works well for recovery from physical training and active lifestyles",
+    ],
   },
 
   {
@@ -1016,6 +1082,14 @@ export const CHAIRS: Chair[] = [
     spaceSaving: true, wallClearanceIn: 6,
     zeroGravity: true, heat: true, foot: true,
     aiNotes: 'SL-track 45.5". Space-saving 6" wall clearance. Good entry-to-mid option for smaller rooms.',
+    reviewRating:      5.0,
+    reviewCount:       8,
+    reviewSource:      "syncamassagechair.com",
+    buyerThemes: [
+      "Compact and visually appealing without the bulk of larger full-feature chairs",
+      "Multiple settings handle different session goals, from gentle relaxation to firm massage",
+      "Zero gravity recline delivers noticeable pressure relief in a smaller footprint",
+    ],
   },
 
   {
@@ -1074,6 +1148,14 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, foot: true,
     plusSizeConfirmed: true,
     aiNotes: 'SL-track. 2D roller. Space-saving 2" wall clearance. 300 lb capacity. Inner Balance brand distributed via Synca Wellness.',
+    reviewRating:      5.0,
+    reviewCount:       9,
+    reviewSource:      "syncamassagechair.com",
+    buyerThemes: [
+      "Recommended for daily back pain management and whole-body relaxation",
+      "Customer service is frequently cited alongside the product itself",
+      "Works well as a pre-bedtime routine for winding down after demanding days",
+    ],
   },
 
   {
@@ -1095,6 +1177,14 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, foot: true,
     plusSizeConfirmed: true,
     aiNotes: 'SL-track. 2D roller. 3-stage zero gravity. Space-saving 2" wall clearance. 300 lb capacity. Upgraded Jin with deeper recline stages.',
+    reviewRating:      4.9,
+    reviewCount:       8,
+    reviewSource:      "syncamassagechair.com",
+    buyerThemes: [
+      "Couples and seniors with chronic back issues report 20 to 30 minute sessions deliver real relief",
+      "Family members with mobility limitations find daily use accessible and beneficial",
+      "Customer service is responsive and resolves issues effectively",
+    ],
   },
 
   // ── FUJIIRYOKI ─────────────────────────────────────────────────────────────
@@ -1685,6 +1775,14 @@ export const CHAIRS: Chair[] = [
     spaceSaving: true, wallClearanceIn: 3.5,
     zeroGravity: true, heat: true, foot: true,
     aiNotes: 'L-track space-saving design (3.5" wall clearance). Zero gravity, heat, foot rollers. Good for rooms with limited wall space.',
+    reviewRating:      4.3,
+    reviewCount:       6,
+    reviewSource:      "relaxonchair.com",
+    buyerThemes: [
+      "Buyers report canceling ongoing therapy appointments after regular chair use",
+      "Heating massage is the most praised feature for back pain relief",
+      "Daily household use by multiple family members over several years",
+    ],
   },
 
   {
@@ -1978,6 +2076,12 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '4D',
     zeroGravity: false, heat: true, foot: true,
     aiNotes: 'L-track 4D with heat and foot rollers. Premium positioning at $7,999. Positive Posture focuses on ergonomic support and spinal alignment.',
+    reviewRating:      5.0,
+    reviewCount:       1,
+    reviewSource:      "massagechairwarehouse.com",
+    buyerThemes: [
+      "Buyers with arthritis, back pain, and leg pain report daily use without missing a session",
+    ],
   },
 
   {
@@ -1995,6 +2099,14 @@ export const CHAIRS: Chair[] = [
     heightMinIn: 60, heightMaxIn: 77, weightCapacityLbs: 265,
     zeroGravity: false, heat: true, foot: true,
     aiNotes: 'L-track 47" length. 4D roller, heat, foot rollers. Fits 5\'0" to 6\'5". 265 lb weight capacity. Sport-focused recovery positioning.',
+    reviewRating:      5.0,
+    reviewCount:       4,
+    reviewSource:      "massagechairwarehouse.com",
+    buyerThemes: [
+      "Post-workout recovery is the primary use case, with deep tissue and hip airbags for stretching",
+      "Programmed routines vary meaningfully, providing a different experience each session",
+      "Quick sessions immediately after exercise are the standout use pattern",
+    ],
   },
 
   {

@@ -186,6 +186,14 @@ export default function BestNeckShouldersPage() {
                     )}
                   </div>
                   <p className="text-charcoal text-base leading-relaxed mb-4">{editorial?.why}</p>
+                  {chair.reviewRating && (
+                    <p className="text-sm text-warm-gray mb-3">
+                      <span className="text-gold">{"\u2605".repeat(Math.round(chair.reviewRating))}</span>
+                      {" "}{chair.reviewRating.toFixed(1)}
+                      {chair.reviewCount ? " · " + chair.reviewCount.toLocaleString() + " reviews" : ""}
+                      {chair.reviewSource ? " at " + chair.reviewSource : ""}
+                    </p>
+                  )}
                   <div className="flex flex-wrap gap-4 mb-4">
                     {heightRange && <span className="text-xs text-warm-gray">Height: {heightRange}</span>}
                     {chair.weightCapacityLbs ? <span className="text-xs text-warm-gray">Capacity: {chair.weightCapacityLbs} lbs</span> : null}

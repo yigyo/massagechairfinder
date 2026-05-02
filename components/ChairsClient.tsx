@@ -65,6 +65,13 @@ function ChairRow({ chair, oos = false }: { chair: Chair; oos?: boolean }) {
       <h2 className="text-lg font-serif font-semibold text-navy group-hover:text-gold transition-colors mb-3 leading-snug">
         {chair.name}
       </h2>
+      {chair.reviewRating && (
+        <p className="text-xs text-warm-gray mb-3">
+          <span className="text-gold">{"★".repeat(Math.round(chair.reviewRating))}</span>
+          {" "}{chair.reviewRating.toFixed(1)}
+          {chair.reviewCount ? " · " + chair.reviewCount.toLocaleString() + " reviews" : ""}
+        </p>
+      )}
       <div className="mt-auto flex items-center justify-between gap-2">
         <div className="flex gap-2 flex-wrap">
           {chair.vibrationOnly ? (
