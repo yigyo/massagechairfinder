@@ -377,6 +377,160 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     ],
   },
 
+  {
+    slug: "ohco",
+    name: "OHCO",
+    tagline: "A Japanese-heritage luxury brand with flagship 4D SL-track chairs sold exclusively through Johnson Fitness.",
+    priceRange: "$8,000 and above",
+    origin: "Designed by OHCO, manufactured in partnership with Japanese engineering teams; sold in the US through Johnson Fitness",
+    warrantyNote: "Confirm warranty terms with Johnson Fitness at point of purchase.",
+    bestFor: "Buyers at the $8,000 and above tier who want Japanese design sensibility, 4D SL-track technology, and the service infrastructure of a major US fitness retailer behind the purchase.",
+    seoTitle: "OHCO Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "OHCO makes premium 4D SL-track massage chairs with Japanese design heritage, sold through Johnson Fitness. Here is what to know before you buy.",
+    description: [
+      "<p>OHCO is a premium massage chair brand developed with Japanese engineering heritage, positioned at the upper tier of the US market. The brand's M8 series sits at the intersection of Japanese design precision and the accessibility of a major US retail channel through Johnson Fitness. OHCO chairs are not widely distributed, which means buyers generally encounter the brand through the Johnson Fitness network rather than through broader specialty retailers.</p>",
+      "<p>The M8 Neo LE uses a 4D SL-track roller system with dual zero-gravity positioning, full-body air compression, and body scan technology. At approximately $8,499, it competes against chairs from Fujiiryoki, Panasonic, and Inada in the Japanese-influenced premium tier. Buyers choosing between OHCO and those options are comparing US retail service support versus direct Japanese manufacturer infrastructure. OHCO's distribution through Johnson Fitness means that warranty service and parts access follow Johnson Fitness's national support network.</p>",
+      "<p>OHCO is the right brand to evaluate if you want premium 4D SL-track technology with the backing of a major US fitness retailer, and your budget is $8,000 or above. Buyers who are committed to fully Japanese-manufactured chairs should also compare the OHCO directly against the Fujiiryoki EC-3900 and Inada DreamWave before deciding. The price point is similar; the difference is distribution, service network, and design origin.</p>",
+    ],
+  },
+
+  {
+    slug: "relax-on-chair",
+    name: "Relax On Chair",
+    tagline: "A value-focused brand with one of the broadest entry-to-premium lineups in the catalog, from $999 to $6,499.",
+    priceRange: "$999 to $6,499",
+    origin: "US-sold brand; chairs manufactured in China",
+    warrantyNote: "Confirm warranty terms per model on relaxonchair.com before purchase.",
+    bestFor: "Buyers in the $1,000 to $3,500 range who want a full-featured chair without premium brand markup. The Relax On Chair lineup is one of the most complete value options in the catalog across SL-track, L-track, 3D, and 4D roller categories.",
+    seoTitle: "Relax On Chair Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Relax On Chair offers massage chairs from $999 to $6,499 across SL-track, L-track, 3D, and 4D roller options. Here is how the lineup breaks down and who each model is right for.",
+    description: [
+      "<p>Relax On Chair offers one of the broadest lineups among value-tier massage chair brands in the US market, ranging from the $999 RIO entry recliner to the $6,499 YUKON-4D flagship. Most buyers encounter the brand through search rather than retail presence, as Relax On Chair sells direct through its own website. The brand's strength is price-to-feature density: buyers who need zero gravity, SL-track coverage, and heat at under $3,000 will find more options in the Relax On Chair lineup than in most competing brands at the same price tier.</p>",
+      "<p>The lineup segments clearly. Entry models (RIO, Jasper, MK-II Plus, MK-Classic) cover $999 to $2,299 and offer L-track or SL-track coverage with zero gravity and heat. Mid-tier models (MK-III, MK-V Plus, ION-3D) step up to $2,299 to $3,299 and introduce space-saving options and 3D rollers. The VITA-3D at $3,499 and YUKON-4D at $6,499 represent the brand's 3D and 4D flagship options respectively. Buyers should note that roller dimension labeling (3D, 4D) can vary in implementation between brands, and comparing specific range-of-motion specs against other brands at the same tier is worthwhile before deciding.</p>",
+      "<p>Relax On Chair is a strong candidate for buyers whose priorities are feature completeness at the lowest possible price, and who are comfortable purchasing from a direct-to-consumer channel without a physical retail showroom. Buyers who want to sit in a chair before buying, or who prioritize brand service infrastructure, may want to consider brands with broader physical retail presence. For buyers making a research-based online purchase, the Relax On Chair lineup offers more covered comparisons per dollar than most alternatives in the $1,000 to $3,500 range.</p>",
+    ],
+  },
+
+  {
+    slug: "ceragem",
+    name: "Ceragem",
+    tagline: "A Korean thermal therapy brand using heated jade ball technology rather than traditional massage rollers.",
+    priceRange: "$12,999",
+    origin: "South Korea",
+    warrantyNote: "Confirm warranty terms with the retailer before purchase at this price tier.",
+    bestFor: "Buyers seeking thermal spinal therapy rather than traditional roller massage. Best for buyers with heat sensitivity or spinal conditions where thermal treatment has been recommended, not for buyers looking for deep-tissue or pressure-based roller massage.",
+    seoTitle: "Ceragem Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Ceragem makes thermal jade ball therapy chairs rather than traditional roller massage chairs. Here is what the M10 offers at $12,999 and who it is right for.",
+    description: [
+      "<p>Ceragem is a South Korean company whose products differ fundamentally from conventional massage chairs. Rather than using roller mechanisms on a track, Ceragem chairs use heated jade or carbon-ceramic balls that travel along the spine and apply thermal pressure to specific points. The M10 is the brand's flagship model at $12,999, and it combines this thermal ball technology with body scanning to position the therapy elements according to each user's individual spinal measurements.</p>",
+      "<p>This distinction matters when comparing Ceragem against conventional chairs at similar price points. A $12,999 traditional roller chair from Fujiiryoki or Panasonic delivers fundamentally different sensory experience: roller-based deep-tissue pressure and kneading along a fixed track. The Ceragem M10 delivers warming penetration along the spine without roller compression. Buyers who have been recommended thermal spinal therapy, who find roller massage too intense, or who are managing specific spinal conditions may find the Ceragem approach more suitable. Buyers seeking conventional massage chair features like kneading, air compression, or glute coverage will not find those in the Ceragem M10.</p>",
+      "<p>Ceragem chairs require careful consideration at this price point because they serve a specific therapeutic niche rather than general massage chair needs. Before purchasing the M10, it is worth confirming with your physician whether thermal jade therapy is appropriate for your specific condition. If your primary goal is back pain relief through traditional deep-tissue roller massage, a conventional chair from the catalog at a lower price point is likely a better fit.</p>",
+    ],
+  },
+
+  {
+    slug: "ergotec",
+    name: "Ergotec",
+    tagline: "A value L-track brand with a 3D roller option at $1,999 and one of the highest weight capacities in the entry tier.",
+    priceRange: "$1,999",
+    origin: "US-sold brand; chairs manufactured in China",
+    warrantyNote: "Confirm warranty terms with the retailer before purchase.",
+    bestFor: "Buyers in the $1,500 to $2,500 range who need a higher weight capacity than most entry-tier chairs offer, or who want L-track coverage with 3D roller technology without spending $3,000.",
+    seoTitle: "Ergotec Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Ergotec offers an L-track 3D massage chair at $1,999 with 320-pound weight capacity. Here is what the ET-180 Pluto offers and who it is right for.",
+    description: [
+      "<p>Ergotec is a value massage chair brand currently represented in the catalog by the ET-180 Pluto at $1,999. The Pluto's most notable specification relative to its price is its 320-pound weight capacity, which exceeds the 265 to 300 pound capacity typical of most chairs in the $1,500 to $2,500 range. For buyers who are above 280 pounds and want an L-track chair with 3D roller technology, the ET-180 Pluto is one of the few options available under $2,500.</p>",
+      "<p>The ET-180 Pluto uses an L-track roller path, which extends under the glutes and upper thighs in addition to covering the full spine. For buyers whose primary complaint is lower back pain that radiates into the hips or glutes, L-track coverage offers more complete contact than S-track alternatives. The 3D roller mechanism allows depth adjustment, which matters for buyers with pressure sensitivity. The chair also includes heat therapy and a full-body stretch function. At $1,999, this combination of L-track, 3D rollers, and 320-pound capacity is difficult to match from other brands at the same price point.</p>",
+      "<p>Ergotec is a lesser-known brand, and the catalog currently includes only a single model. Buyers should factor brand longevity and parts availability into their decision at any price point. If a 320-pound capacity is not a requirement, the Relax On Chair MK-II Plus and Relax On Chair MK-Classic offer L-track coverage at the same price with a more established direct-sales track record. If capacity is a specific need, the ET-180 Pluto is worth close evaluation.</p>",
+    ],
+  },
+
+  {
+    slug: "koyo",
+    name: "Koyo",
+    tagline: "A niche Japanese-made 4D massage chair at $7,999, emphasizing precision engineering from Japan.",
+    priceRange: "$7,999",
+    origin: "Japan",
+    warrantyNote: "Confirm warranty terms with the retailer before purchase.",
+    bestFor: "Buyers at the $7,000 to $9,000 tier who specifically want Japanese-manufactured quality and 4D roller technology, and who do not require zero gravity positioning.",
+    seoTitle: "Koyo Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Koyo makes a Japanese-manufactured 4D massage chair at $7,999. Here is what the 303TS offers and who it is right for.",
+    description: [
+      "<p>Koyo is a Japanese massage chair manufacturer with limited distribution in the US market. The brand is not widely covered in English-language reviews, which makes independent specification verification more difficult than for larger Japanese brands like Fujiiryoki, Panasonic, or Inada. The 303TS is currently the only Koyo model in the catalog, priced at $7,999 and sold through specialty retailers including Massage Chair Warehouse.</p>",
+      "<p>The 303TS uses a 4D roller mechanism, placing it in the same technical tier as chairs from Human Touch, Osaki, and Panasonic in the $7,000 to $9,000 range. Japanese manufacturing at this price point typically correlates with quieter motor operation, more conservative ergonomic calibration, and longer-term component durability relative to similarly priced Chinese-manufactured alternatives. However, Koyo's smaller distribution footprint means that US service infrastructure is less proven than it is for the larger Japanese brands. Buyers should confirm parts availability and warranty service procedures before purchasing.</p>",
+      "<p>Koyo is worth considering if you are specifically looking for Japanese-made 4D technology in the $7,000 to $8,500 range and the larger brand alternatives (Fujiiryoki EC-3900, Panasonic MAJ7) do not fit your requirements. If zero gravity positioning is important to your use case, confirm whether the 303TS includes that feature before purchasing, as it was not confirmed in our available product data. Buyers who prioritize well-established service networks should give more weight to brands with longer US retail histories at this price tier.</p>",
+    ],
+  },
+
+  {
+    slug: "medical-breakthrough",
+    name: "Medical Breakthrough",
+    tagline: "A doctor-endorsed brand with a broad lineup from $2,249 to $14,649, focused on medical-grade therapeutic outcomes.",
+    priceRange: "$2,249 to $14,649",
+    origin: "US brand; chairs manufactured in China",
+    warrantyNote: "3-year warranty across all models. Confirm terms with the retailer.",
+    bestFor: "Buyers who respond to medical credentialing and want a brand that frames massage therapy in clinical terms, across a broad price range from entry-level to premium. Not appropriate for buyers who prioritize track type specifics, as most MB models do not publish track type in product data.",
+    seoTitle: "Medical Breakthrough Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Medical Breakthrough offers 4D massage chairs from $2,249 to $14,649, developed with physician input. Here is how the lineup breaks down and who each model is right for.",
+    description: [
+      "<p>Medical Breakthrough is a US brand that markets its chairs as developed in collaboration with physicians, emphasizing pain reduction, posture correction, and sleep improvement as primary outcomes. The brand offers one of the widest price ranges of any brand in the catalog, from the MB5 at $2,249 to the MB9 Plus at $14,649, all using 4D roller systems with zero gravity positioning, body scanning, and full-body stretch programs. The consistent 4D specification across the entire lineup is notable, as most brands reserve 4D rollers for mid-tier and premium models.</p>",
+      "<p>The MB lineup scales by features and structural refinements rather than fundamental technology changes. Entry models (MB5, MB6) include the core 4D roller, zero gravity, and scan functions. Mid-tier models (MB7, MB8) add weight capacity, additional programs, and more refined cushioning. Premium models (MB9, MB9 Plus, MBX) include more sophisticated air compression systems, additional zero gravity positions, and in the case of the MBX, a confirmed L-track roller path. One caveat for buyers comparing chairs by track type: most Medical Breakthrough models do not publish track type explicitly in their product documentation, which makes side-by-side track comparison with other brands more difficult. If track type is a primary decision criterion, verify with the retailer before purchase.</p>",
+      "<p>Medical Breakthrough chairs carry a 3-year warranty across the lineup, which is competitive at the entry and mid tiers where 1-year warranties are common. The brand's direct marketing to buyers with pain-management goals means the language used in product descriptions is more clinical than most competitors. Buyers who want straightforward, evidence-based framing of what a massage chair does and does not accomplish will appreciate the approach. Buyers who want to compare specs in standard industry terms (SL-track vs. L-track, specific track lengths, exact roller path dimensions) will need to do more independent research before committing at the higher price points in the MB lineup.</p>",
+    ],
+  },
+
+  {
+    slug: "positive-posture",
+    name: "Positive Posture",
+    tagline: "An ergonomics-focused brand with L-track 4D chairs at $7,999 and $8,999, emphasizing spinal alignment alongside massage.",
+    priceRange: "$2,499 to $8,999",
+    origin: "US brand; chairs manufactured in China",
+    warrantyNote: "Confirm warranty terms with the retailer before purchase.",
+    bestFor: "Buyers at $7,000 and above who want L-track 4D technology with an ergonomics-first design philosophy rather than a feature-maximalist approach. The Brio Plus and Brio Sport compete at the same tier as Osaki, Human Touch, and Kahuna premium models.",
+    seoTitle: "Positive Posture Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Positive Posture makes L-track 4D massage chairs from $2,499 to $8,999, focused on spinal alignment and ergonomic support. Here is how the lineup breaks down.",
+    description: [
+      "<p>Positive Posture is a massage chair brand that positions ergonomic spinal support as its central design principle rather than feature count or roller technology dimensions. The brand's two flagship models, the Brio Plus at $7,999 and the Brio Sport at $8,999, both use L-track 4D roller systems with heat and foot rollers. The Brio Sport adds a 47-inch track length and a specific height range fit (5 ft 0 in to 6 ft 5 in) with a 265-pound weight capacity. The Solara at $2,499 represents the brand's entry-level option, with more modest specifications.</p>",
+      "<p>At $7,999 to $8,999, the Brio Plus and Brio Sport compete directly against Osaki and Kahuna's premium L-track models. Buyers comparing these chairs are evaluating L-track path length, roller depth feedback, weight capacity, and service network. The Brio Sport's published track length of 47 inches and height range are useful for buyers at the edges of standard fit, particularly taller buyers above 6 ft 2 in who find that some chairs' roller paths end before reaching their lumbar zone. Confirming fit at this price tier is important regardless of brand.</p>",
+      "<p>Positive Posture is a smaller brand than Osaki or Kahuna, which means US service infrastructure is less extensive. Buyers who prioritize long-term service availability should factor that into their comparison. For buyers whose primary concern is ergonomic alignment quality at $7,000 to $9,000, the Brio Plus and Brio Sport are worth including in the evaluation set alongside the Osaki OS-Pro Premier and Kahuna Dios 8800. The design emphasis is different enough from feature-maximalist competitors to make direct specification comparison only partially useful.</p>",
+    ],
+  },
+
+  {
+    slug: "sharper-image",
+    name: "Sharper Image",
+    tagline: "A recognizable lifestyle brand with L-track massage chairs at $3,999 and $4,499, sold through specialty retailers.",
+    priceRange: "$3,999 to $4,499",
+    origin: "US brand; chairs manufactured in China",
+    warrantyNote: "Confirm warranty terms with the retailer before purchase.",
+    bestFor: "Buyers in the $3,500 to $4,999 range who want an L-track chair with zero gravity and heat from a recognizable brand name. Best for buyers who place value on brand familiarity alongside product specifications.",
+    seoTitle: "Sharper Image Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Sharper Image offers L-track massage chairs at $3,999 and $4,499 with zero gravity and heat. Here is what the Revival and Relieve 3D offer and who they are right for.",
+    description: [
+      "<p>Sharper Image is a well-known US consumer electronics and lifestyle brand. Its massage chairs, the Revival at $3,999 and the Relieve 3D at $4,499, are distributed through specialty retailers including Massage Chair Warehouse. Both models use L-track roller paths and include zero gravity positioning, heat, and foot rollers. The Relieve 3D steps up to a 3D roller mechanism, while the Revival does not publish a specific roller dimension.</p>",
+      "<p>At $3,999 to $4,499, these chairs compete against the Kahuna Dios 6800 and the Synca Wellness JP970 in the mid-range L-track and SL-track tier. Buyers comparing these options are weighing brand familiarity (Sharper Image) against the deeper massage chair specialization that brands like Kahuna and Synca bring to the category. Sharper Image's brand recognition is an asset for buyers who want the reassurance of a name they know, but massage chair specialists tend to offer more refined roller calibration at equivalent price points.</p>",
+      "<p>The Sharper Image lineup is a reasonable starting point for buyers who are new to the category and value brand trust alongside product specifications. Buyers who are deeper into their research and comparing specific roller technology, track coverage, and fit parameters will likely find the Kahuna and Synca options more fully documented and more thoroughly reviewed. Both Sharper Image chairs carry the practical advantage of L-track path coverage at under $4,500, which is the right category for buyers whose pain focus includes the hips and glutes alongside the upper back.</p>",
+    ],
+  },
+
+  {
+    slug: "svago",
+    name: "Svago",
+    tagline: "A zero gravity recliner specialist offering air compression and vibration models from $1,499 to $3,499, without roller massage.",
+    priceRange: "$1,499 to $3,499",
+    origin: "US brand; chairs manufactured in China",
+    warrantyNote: "Confirm warranty terms with the retailer before purchase.",
+    bestFor: "Buyers who want zero gravity positioning and heat for relaxation or circulation support, but do not want or cannot tolerate traditional roller massage. Also good for buyers with a limited budget who want a quality recliner experience rather than deep-tissue work.",
+    seoTitle: "Svago Zero Gravity Recliners: Brand Overview and Buying Guide",
+    seoDescription: "Svago makes zero gravity recliners with heat and air compression from $1,499 to $3,499. These are not roller massage chairs. Here is what each model offers and who they are right for.",
+    description: [
+      "<p>Svago is a zero gravity recliner brand that does not make traditional roller massage chairs. This is the most important thing to understand before evaluating the Svago lineup: the ZGR, Newton, and Lite 2 all use air compression and vibration massage rather than a roller track. There are no rollers traveling along your spine in a Svago chair. Instead, these chairs inflate and deflate air cells to create compression pressure at the shoulders, arms, hips, calves, and feet, while vibration motors provide surface-level stimulation at the lumbar and back cushion.</p>",
+      "<p>For buyers who specifically want zero gravity positioning for circulation support, recovery from foot or leg swelling, or simply deep relaxation in an elevated recliner position, Svago chairs do that well. The zero gravity angle distributes body weight across the chair without concentrating pressure at any single point, which can ease lower back load for buyers who find upright sitting aggravates their pain. The Newton at $3,499 adds a more sophisticated air cell system than the ZGR at $2,199, and the Lite 2 at $1,499 focuses on lumbar vibration as the primary massage element.</p>",
+      "<p>Svago is not the right choice for buyers whose primary need is deep-tissue roller massage, kneading, or shiatsu-style point pressure. A buyer with chronic lower back pain who needs the sensation of rollers working along the lumbar spine will not find that in a Svago chair. However, for buyers who cannot tolerate roller pressure due to spinal sensitivity, hypersensitivity to deep touch, or physical conditions that rule out mechanical massage, a Svago zero gravity recliner may be the most appropriate chair in the catalog. It is also a reasonable option as a second chair or a living room recliner alongside a primary massage chair.</p>",
+    ],
+  },
+
+
 ]
 
 export function getLocalBrand(slug: string): LocalBrand | undefined {
