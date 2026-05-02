@@ -57,6 +57,7 @@ export interface Chair {
   // Must be specific enough to not collide. Order matters: list "lm-6800s" before
   // "lm-6800", "phantom medical" before "phantom", "master drive le" before "master drive ai".
   imageUrl?:         string  // Primary product image URL (affiliate retailer CDN)
+  imageWhiteBg?:     boolean // false = lifestyle/room shot (no white container); omit = assume white bg
   goodwinLookupKey?: string
   goodwinImageUrl?:  string  // Shopify CDN image URL (upload to Shopify Files first)
 
@@ -131,6 +132,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://osakimassagechair.com/products/osaki-os-champ',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0727/1609/1700/files/osaki-os-champ-black-gray-256077.jpg',
+    imageWhiteBg: false,
     goodwinLookupKey: 'osaki os-champ',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-champ-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '2D',
@@ -171,6 +173,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://osakimassagechair.com/products/osaki-os-pro-admiral-ii',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0727/1609/1700/files/osaki-os-pro-admiral-ii-black-silver-593783_f6238283-590b-4eb4-ad3a-4ba77faf253f.jpg',
+    imageWhiteBg: false,
     goodwinLookupKey: 'osaki os-pro admiral ii',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-admiral-gray-massage-chair.webp?v=1776836197',
     track: 'SL', roller: '3D', trackLengthIn: 49,
@@ -192,6 +195,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://osakimassagechair.com/products/osaki-os-pro-maestro-le',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0727/1609/1700/files/osaki-os-pro-maestro-le-black-364903.jpg',
+    imageWhiteBg: false,
     goodwinLookupKey: 'osaki os-pro maestro',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-maestro-massage-chair.webp?v=1776836390',
     track: 'SL', roller: '4D',
@@ -212,6 +216,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://osakimassagechair.com/products/os-pro-4d-duomax',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0727/1609/1700/files/2000px_DuoMax_Life_Thumbnail_Beige_recolored.jpg',
+    imageWhiteBg: false,
     goodwinLookupKey: 'osaki os-pro 4d duomax',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-4d-duomax-massage-chair.webp?v=1776836197',
     track: 'SL', roller: '4D',
@@ -384,6 +389,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.humantouch.com/products/laevo',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0672/3167/8641/files/laevo-zg-chair-with-lift-assist-9714692.jpg',
+    imageWhiteBg: false,
     goodwinLookupKey: 'human touch laevo',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/human-touch-laevo-zg-massage-chair.webp?v=1776836198',
     track: 'vibration', roller: null,
@@ -557,6 +563,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://recovathlete.com/products/bodyfriend-phantom-medical-care-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0422/3942/6712/files/phantom_medical_care_massage_chair.webp',
+    imageWhiteBg: false,
     goodwinLookupKey: 'bodyfriend phantom medical',  // MUST come before 'bodyfriend phantom'
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend_phantom_medical-massage-chair.webp?v=1776904169',
     track: 'SL', roller: '4D',
@@ -577,6 +584,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://recovathlete.com/products/bodyfriend-phantom-ii-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0422/3942/6712/files/phantom_white_600_2.jpg',
+    imageWhiteBg: false,
     goodwinLookupKey: 'bodyfriend phantom',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-phantom-ii-massage-chair.jpg?v=1776903999',
     track: 'SL', roller: '4D',
@@ -598,6 +606,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://recovathlete.com/products/bodyfriend-palace-2-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0422/3942/6712/files/Bodyfriend_Palace_II_massage_chair_in_blue_front_view.webp',
+    imageWhiteBg: false,
     goodwinLookupKey: 'bodyfriend palace',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-palace-ii-massage_chair.webp?v=1776904391',
     track: 'SL', roller: '4D',
@@ -640,6 +649,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://osakimassagechair.com/products/amamedic-hilux-4d',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0727/1609/1700/files/Hilux-brown-main.jpg',
+    imageWhiteBg: false,
     goodwinLookupKey: 'amamedics hilux',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/amamedic-hilux-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '4D', trackLengthIn: 53,
@@ -662,6 +672,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://osakimassagechair.com/products/amamedic-renew',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0727/1609/1700/files/amamedic-renew-black-817142_388fb2ae-74f7-434c-b77a-e46f82f9ef98.jpg',
+    imageWhiteBg: false,
     goodwinLookupKey: 'amamedics renew',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/amamedic-renew-massage-chair.webp?v=1776904815',
     track: 'SL', roller: '3D',
@@ -860,6 +871,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.massagechairs.com/products/panasonic-mak1-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0539/1790/9187/files/MAK1-UPRIGHT-45_-BLACK_6b5cb854-7c21-4b82-bb44-b12b3520884b.png',
+    imageWhiteBg: false,
     goodwinLookupKey: 'panasonic mak1',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/panasonic-mak1-massage-chair.webp?v=1776958938',
     track: 'S', roller: '4D',  // S-Track confirmed from massagechairs.com spec sheet
@@ -932,6 +944,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://titanchair.com/products/titan-3d-prestige',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0086/1297/0558/files/titan-3d-prestige-black-3647663.webp',
+    imageWhiteBg: false,
     goodwinLookupKey: 'titan 3d prestige',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/titan-3d-prestige-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '3D',
@@ -1318,6 +1331,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://osakimassagechair.com/products/ador-3d-allure',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0727/1609/1700/files/1-1.Allure-thumbnail-1000x1000Large.jpg',
+    imageWhiteBg: false,
     track: 'SL', roller: '3D',
     weightCapacityLbs: 260,
     zeroGravity: true, heat: true, foot: true,
@@ -1338,6 +1352,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://osakimassagechair.com/products/theramedic-flex',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0727/1609/1700/files/theramedic-flex-brown-222638_7d1eedac-d766-42b2-b521-e14038de0845.jpg',
+    imageWhiteBg: false,
     track: 'Flex', roller: '2D',
     spaceSaving: true, wallClearanceIn: 4,
     weightCapacityLbs: 260,
@@ -1359,6 +1374,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://osakimassagechair.com/products/kanji-4d-shogun-duo',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0727/1609/1700/files/shogun_1500px_taupe_model.webp',
+    imageWhiteBg: false,
     track: 'Flex', roller: '8D',  // dual 4D+4D roller system ("Duo" = two independent 4D units)
     spaceSaving: true, wallClearanceIn: 6,
     weightCapacityLbs: 330,
@@ -1477,6 +1493,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://relaxe.co/collections/massage/products/shiatsu-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0166/6619/8070/files/CopyofCopyofCopyofCopyofThisChairSavedMyBack_10.png',
+    imageWhiteBg: false,
     track: 'SL', roller: '2D', trackLengthIn: 53,
     spaceSaving: true, wallClearanceIn: 2,
     weightCapacityLbs: 330,
