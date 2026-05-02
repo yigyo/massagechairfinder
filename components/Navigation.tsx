@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useState } from 'react'
+import SearchBar from '@/components/SearchBar'
 
 const navLinks = [
   { label: 'All Chairs', href: '/chairs' },
@@ -37,9 +38,12 @@ export default function Navigation() {
               </Link>
             ))}
           </nav>
-          <Link href="/finder" className="hidden md:inline-block btn-primary text-sm py-2 px-4">
-            Find My Chair
-          </Link>
+          <div className="hidden md:flex items-center gap-2">
+            <SearchBar variant="header" />
+            <Link href="/finder" className="btn-primary text-sm py-2 px-4">
+              Find My Chair
+            </Link>
+          </div>
           <button
             className="md:hidden text-charcoal"
             onClick={() => setOpen(!open)}
@@ -65,6 +69,9 @@ export default function Navigation() {
               {link.label}
             </Link>
           ))}
+          <div className="mt-3">
+            <SearchBar variant="footer" placeholder="Search chairs, guides, brands..." />
+          </div>
           <Link
             href="/finder"
             onClick={() => setOpen(false)}
