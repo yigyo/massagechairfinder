@@ -329,12 +329,12 @@ export const CHAIRS: Chair[] = [
     id: 'infinity-celebrity',
     name: 'Infinity Celebrity 3D/4D',
     brand: 'Infinity',
-    active: true, goodwinActive: false, mcfActive: false,  // emassagechair.com not on approved retailer list 2026-05-01
+    active: true, goodwinActive: false, mcfActive: false,  // no retailer with affiliate program confirmed 2026-05-02
     priceMin: 7999,  // price confirmed 2026-04-27
-    affiliateTier: null,  // MCW sold out; moved to emassagechair.com — affiliate program unconfirmed
-    affiliateRetailer: 'emassagechair.com',
-    goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://emassagechair.com/products/infinity-celebrity-3d-4d-massage-chair',
+    affiliateTier: null,
+    affiliateRetailer: null,
+    goodwinStatus: null,
+    affiliateUrl: null,
     imageUrl: 'https://cdn.shopify.com/s/files/1/0549/1562/9252/files/infinity-celebrity-3d-4d-massage-chair-black-45_202ad998-9d7b-4459-93f2-d7592e391ad5.jpg',
     goodwinLookupKey: 'infinity celebrity',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity_celebrity_3d-massage-chair.webp?v=1776836198',
@@ -342,7 +342,7 @@ export const CHAIRS: Chair[] = [
     heightMinIn: 54, heightMaxIn: 76, weightCapacityLbs: 300,
     zeroGravity: true, heat: true, foot: true,
     plusSizeConfirmed: true,
-    aiNotes: 'Formerly known as Riage X3. Affiliate program at emassagechair.com not yet confirmed. Verified specs April 2026.',
+    aiNotes: 'Formerly known as Riage X3. No active affiliate retailer as of 2026-05-02. Verified specs April 2026.',
   },
 
   {
