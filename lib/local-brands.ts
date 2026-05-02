@@ -71,8 +71,8 @@ export const LOCAL_BRANDS: LocalBrand[] = [
   {
     slug: "kahuna",
     name: "Kahuna",
-    tagline: "Reliable SL-track chairs at the $3,799 price point, with yoga stretch programs and consistent body scanning.",
-    priceRange: "$3,799",
+    tagline: "SL-track chairs from $3,799 to $16,999, now with the extended Dios line featuring 4D rollers and tracks up to 56 inches.",
+    priceRange: "$3,799 to $16,999",
     origin: "South Korea; distributed in the US",
     warrantyNote: "Typically 3 years parts, 1 year labor. Confirm before purchase.",
     bestFor: "Buyers in the $3,000 to $4,500 range who want SL-track coverage and do not need 4D roller technology.",
@@ -85,22 +85,6 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     ],
   },
 
-  {
-    slug: "inada",
-    name: "Inada",
-    tagline: "A Japanese brand with decades in the category, known for build quality and longevity over feature density.",
-    priceRange: "$6,999 to $9,999",
-    origin: "Japan",
-    warrantyNote: "Typically 3 years comprehensive. Confirm per model.",
-    bestFor: "Buyers who prioritize long-term reliability and quiet operation over maximum feature count, and who are comfortable spending $7,000 to $10,000.",
-    seoTitle: "Inada Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "Inada is one of the oldest Japanese massage chair brands. Here is what the brand stands for, which models are available, and who they are right for.",
-    description: [
-      "<p>Inada has been manufacturing massage chairs in Japan since the 1960s, which makes it one of the oldest names in the category. That history shows up in the product: Inada chairs are built to last, engineered with tighter tolerances than most of the market, and noticeably quieter in operation than chairs at similar or higher price points. The DreamWave at $6,999 and the Robo 4D at $9,999 represent the two ends of their current US catalog.</p>",
-      "<p>The DreamWave uses a 3D roller system with what Inada calls a DreamWave motion, which adds a lateral swaying movement to the standard vertical roller path. Buyers who find conventional massage chairs too mechanical or too rhythmically predictable often respond well to this. The Robo 4D steps up to 4D roller technology and adds Inada's most advanced body scanning, which adjusts roller position not just to shoulder height but to spinal curvature. For buyers with scoliosis or irregular spinal geometry, this precision matters more than it would for a typical buyer.</p>",
-      "<p>Inada's positioning is not about features per dollar. Other brands at these price points offer more airbags, more programs, more recline positions. Inada's argument is durability and precision, and the long-term cost calculation for a buyer who will use the chair daily for ten or more years shifts in their favor when you account for repair frequency. If longevity and quiet, precise operation are your primary criteria, Inada belongs on your shortlist.</p>",
-    ],
-  },
 
   {
     slug: "jpmedics",
@@ -119,22 +103,6 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     ],
   },
 
-  {
-    slug: "synca",
-    name: "Synca",
-    tagline: "Japanese-designed chairs with clean aesthetics, competitive at $4,999 and $9,999.",
-    priceRange: "$4,999 to $9,999",
-    origin: "Japan; distributed in the US",
-    warrantyNote: "Typically 3 years comprehensive. Confirm per model.",
-    bestFor: "Buyers who want Japanese engineering at a mid-range price, or who are prioritizing aesthetics alongside massage quality.",
-    seoTitle: "Synca Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "Synca makes Japanese-designed massage chairs with a clean aesthetic. Here is what the JP970 and JP1100 offer and who they are right for.",
-    description: [
-      "<p>Synca occupies a specific niche: Japanese-engineered massage chairs at price points that undercut most Japanese competitors. The JP970 at $4,999 offers a 4D SL-track system with body scanning, airbag coverage, and heated backrest at a price roughly $3,000 to $4,000 below comparable Japanese-origin chairs from Inada or JPMedics. The JP1100 at $9,999 steps up to a more comprehensive airbag system and extended SL-track coverage.</p>",
-      "<p>The Synca aesthetic is notably cleaner than most massage chairs. Most chairs in the category are visually complex, with visible mechanical elements and heavily contoured foam. Synca's design philosophy leans toward European minimalism, which matters to a segment of buyers for whom the chair will live in a room where aesthetics have already been considered carefully. This is not a performance differentiator, but it is a real one for buyers who have rejected other chairs because they looked out of place in the intended room.</p>",
-      "<p>The JP970 is the more interesting value in the lineup. At $4,999 with 4D rollers and SL-track coverage, it sits in a price range where most competitors are offering 3D technology. Buyers whose budget is $4,500 to $5,500 and who want Japanese engineering and SL-track coverage should include the JP970 in their shortlist. The JP1100 competes against a stronger field at $9,999, where Inada and JPMedics are also reasonable options depending on what the buyer is optimizing for.</p>",
-    ],
-  },
 
   {
     slug: "panasonic",
@@ -173,8 +141,8 @@ export const LOCAL_BRANDS: LocalBrand[] = [
   {
     slug: "ogawa",
     name: "Ogawa",
-    tagline: "A Malaysian brand with strong feature density at each price point, from $5,899 to $12,999.",
-    priceRange: "$5,899 to $12,999",
+    tagline: "A Malaysian brand with strong feature density at each price point, from $5,199 to $15,999.",
+    priceRange: "$5,199 to $15,999",
     origin: "Malaysia",
     warrantyNote: "Confirm per model before purchase.",
     bestFor: "Buyers looking for high feature-to-price ratios at the $5,000 to $10,000 level, or buyers interested in AI-personalized massage at the flagship tier.",
@@ -269,6 +237,143 @@ export const LOCAL_BRANDS: LocalBrand[] = [
       "<p>AmaMedics is a smaller US-distributed brand with two distinct products: the Renew 3D at $1,299 and the Hilux 4D at $4,999. The gap between them in both price and capability is significant, which means they serve two quite different buyer profiles. The Renew 3D is the lowest-priced chair in the current catalog, and at that price point, expectations should be calibrated accordingly: the massage is functional, the coverage is limited to an S-track, and the build quality reflects the price.</p>",
       "<p>The Hilux 4D at $4,999 is a more capable chair. It uses a 4D roller mechanism on an SL-track, which puts it in the same configuration tier as the Synca JP970 at the same price. Buyers comparing the two should evaluate them directly on body scanning accuracy and roller feel, as those are the meaningful differentiators at this price point.</p>",
       "<p>AmaMedics is not a brand with a defining engineering philosophy or a long market history. It is a practical option for buyers at the entry level of the market, or for buyers in the $4,500 to $5,500 range who are comparing 4D SL-track options and want to consider a less-recognized brand before committing to a larger name. Parts availability and service infrastructure are worth verifying before purchase, as with any smaller distributor at this price tier.</p>",
+    ],
+  },
+
+
+  {
+    slug: "synca-wellness",
+    name: "Synca Wellness",
+    tagline: "A Japanese-designed brand family spanning entry-level to premium, with chairs from $1,299 to $9,999.",
+    priceRange: "$1,299 to $9,999",
+    origin: "Japan; distributed in the US",
+    warrantyNote: "Typically 3 years comprehensive. Confirm per model before purchase.",
+    bestFor: "Buyers who want Japanese engineering across a wide budget range, from entry-level SL-track at $1,299 to a 4D flagship at $9,999. The CirC+ is the standout value in the entry segment.",
+    seoTitle: "Synca Wellness Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Synca Wellness makes Japanese-designed massage chairs from $1,299 to $9,999. Here is what the CirC, CirC+, CirC 3, and Kurodo offer and who they are right for.",
+    description: [
+      "<p>Synca Wellness is a Japanese-designed brand distributed in the US with a range that spans the entry level through the premium tier. The JP970 remains the brand's most established model at $4,999, with a 4D S-track system and a history of consistent performance reviews. The newer CirC line extends the brand downward into the $1,299 to $1,999 range, making Synca Wellness one of the few Japanese-affiliated brands accessible to buyers who are not yet ready to spend $4,000 or more.</p>",
+      "<p>The CirC at $1,299 is a genuine SL-track chair at the lowest price point in the category. Its 34-inch track length is compact and best suited to average-height users, but the SL-track configuration is more coverage than most chairs at this price provide. The CirC+ at $1,899 extends the track to 45.5 inches and adds a space-saving mechanism that requires only 6 inches of wall clearance, making it one of the more practical options for buyers with constrained room placement. The CirC 3 at $1,999 adds a 300-pound weight capacity.</p>",
+      "<p>At the top of the lineup, the Kurodo at $9,999 is a Made in Japan 4D SL-track chair with AI body scanning. It competes in a tier that includes strong options from JPMedics, Inada, and Panasonic, and should be evaluated against those alternatives before purchase. For buyers whose budget is under $2,500, the CirC line represents the brand's most distinctive value. For buyers between $4,500 and $5,500, the JP970 remains the core recommendation.</p>",
+    ],
+  },
+
+  {
+    slug: "inner-balance",
+    name: "Inner Balance",
+    tagline: "Space-saving SL-track chairs distributed by Synca Wellness, with a strong 300-pound capacity across the lineup.",
+    priceRange: "$1,999 to $3,999",
+    origin: "Distributed in the US via Synca Wellness",
+    warrantyNote: "Confirm per model before purchase.",
+    bestFor: "Buyers who need space-saving wall clearance and 300-pound capacity without going above $4,000. The Jin 2.0 is the stronger chair; the Jin is the accessible entry point.",
+    seoTitle: "Inner Balance Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Inner Balance makes space-saving SL-track massage chairs with 300-pound capacity from $1,999 to $3,999. Here is what the Jin and Jin 2.0 offer.",
+    description: [
+      "<p>Inner Balance is a brand distributed through Synca Wellness, focused specifically on the intersection of space-saving design and higher weight capacity. Both current models, the Jin at $1,999 and the Jin 2.0 at $3,999, use SL-track rollers and require only 2 inches of wall clearance during recline. The 2-inch wall clearance is among the tightest in the category, and both chairs carry a confirmed 300-pound weight limit.</p>",
+      "<p>The Jin is the entry point. It uses a 2D roller system on an SL-track with zero-gravity positioning and heated elements. At $1,999, it is one of the few zero-gravity SL-track chairs available below $2,500, and its weight capacity makes it accessible to buyers who find most mid-range chairs limited to 265 or 280 pounds. The Jin 2.0 at $3,999 upgrades to a 3-stage zero gravity system, which extends the recline range significantly and is meaningfully different in feel from single-stage recline.</p>",
+      "<p>Inner Balance chairs are a strong recommendation for buyers who have already identified that wall clearance is a binding constraint, or who are specifically shopping for plus-size capacity under $4,000. They are not the right recommendation for buyers whose priority is roller technology, where 2D rollers at $2,000 to $4,000 fall behind what competitors offer in 3D and 4D at similar prices. Evaluate the Jin 2.0 against the Synca Wellness CirC 3 and the Infinity Celebrity before finalizing a decision in this price range.</p>",
+    ],
+  },
+
+  {
+    slug: "fujiiryoki",
+    name: "Fujiiryoki",
+    tagline: "A Japanese manufacturer with proprietary Flex-track technology and 5D rollers, from $3,999 to $14,999.",
+    priceRange: "$3,999 to $14,999",
+    origin: "Japan; distributed in the US via Synca Wellness",
+    warrantyNote: "Confirm per model before purchase.",
+    bestFor: "Buyers who want Japanese engineering with advanced roller technology. S-track models suit upper-back focused buyers; Flex-track models suit buyers who want full-body adaptability. Budget should be at least $4,000.",
+    seoTitle: "Fujiiryoki Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Fujiiryoki makes Japanese massage chairs with Flex-track and 5D roller technology from $3,999 to $14,999. Here is what each model offers and who it is right for.",
+    description: [
+      "<p>Fujiiryoki is a Japanese massage chair manufacturer with one of the most distinctive technology lineups in the current US market. Their catalog divides cleanly into two track types: S-track models using 5D rollers, and Flex-track models using 4D and 8D roller systems. The distinction matters for buyers. S-track chairs cover the upper and mid-back well but stop at the lumbar, making them best suited to buyers whose pain is concentrated in the neck, shoulders, and upper back. Flex-track chairs use a flexible rail system that adapts to the curvature of individual users, providing more consistent contact across different body shapes.</p>",
+      "<p>The S-track lineup, including the JP-3000 and Cyber Relax Ai at $10,999 and the Cyber Relax Ai Executive at $12,999, uses 5D roller technology. 5D rollers add a dimension of movement beyond standard 4D, creating a more varied and natural-feeling pressure pattern. These models are Made in Japan and position themselves at the upper end of the premium tier. For buyers whose pain profile is strictly upper-back and shoulder focused, they represent a serious option at this price point.</p>",
+      "<p>The Flex-track lineup covers more ground. The Calm Plus at $3,999 is the most accessible entry into Fujiiryoki technology, using a 4D roller on a Flex-track with a smaller footprint than most of the lineup. The Cyber Relax Elite at $9,999 and Cyber Relax Pro at $14,999 move into flagship territory, with the Pro featuring a dual 8D roller system and space-saving wall clearance. For buyers who have already identified Flex-track adaptability as a priority and whose budget extends into the premium range, the Fujiiryoki Flex-track lineup has no direct equivalent in the catalog.</p>",
+    ],
+  },
+
+  {
+    slug: "dcore",
+    name: "DCORE",
+    tagline: "Ultra-premium Japanese chairs with L-track and SL-track systems, starting at $11,499.",
+    priceRange: "$11,499 to $16,999",
+    origin: "Japan; distributed in the US via Synca Wellness",
+    warrantyNote: "Confirm per model before purchase.",
+    bestFor: "Buyers spending $11,000 or more who prioritize Japanese manufacturing, build quality, and clean aesthetics. The CIRRUS-JP and STRATUS-JP suit buyers with lower-back focus; the D.Core 2 suits buyers who want full-body SL-track coverage at the flagship level.",
+    seoTitle: "DCORE Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "DCORE makes ultra-premium Japanese massage chairs from $11,499 to $16,999. Here is what the STRATUS-JP, CIRRUS-JP, and D.Core 2 offer and who they are right for.",
+    description: [
+      "<p>DCORE is a Japanese manufacturer at the top of the premium segment, with three current US models ranging from $11,499 to $16,999. All three are Made in Japan. The brand's positioning is built around build quality, minimal aesthetic design, and roller precision rather than feature density. Buyers comparing DCORE to competitors in this price range will typically find fewer headline features and more refined execution of the core ones.</p>",
+      "<p>The STRATUS-JP at $11,499 and CIRRUS-JP at $12,999 both use L-track roller systems with 3D roller mechanisms. L-track coverage extends under the glutes and into the upper thighs, making both models appropriate for buyers whose lower back pain radiates downward. The STRATUS-JP is the entry point into the DCORE lineup. The CIRRUS-JP offers incremental upgrades at $1,500 more, and buyers comparing the two should evaluate the specific differences against their use case before choosing.</p>",
+      "<p>The D.Core 2 at $16,999 uses an SL-track system, extending coverage further up the back than the L-track models while maintaining the lower-body coverage. At $16,999, it is among the most expensive chairs in the catalog. The case for the D.Core 2 is not feature count. It is Japanese craftsmanship, quiet operation, and longevity for buyers who will use the chair daily for a decade or more. Compare directly against the Luraco i9 Max Plus and the Panasonic MAK1 before making a decision at this tier.</p>",
+    ],
+  },
+
+  {
+    slug: "ador",
+    name: "Ador",
+    tagline: "A value-focused brand distributed by Osaki, with a 3D SL-track option at $4,999.",
+    priceRange: "$4,999",
+    origin: "US distributor (distributed by Osaki); chairs manufactured in China",
+    warrantyNote: "Confirm per model before purchase.",
+    bestFor: "Buyers in the $4,500 to $5,500 range who want SL-track coverage with Osaki's distribution network behind the purchase.",
+    seoTitle: "Ador Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Ador is a massage chair brand distributed by Osaki. Here is what the 3D Allure offers at $4,999 and who it is right for.",
+    description: [
+      "<p>Ador is a brand distributed through Osaki's US network, currently represented by the 3D Allure at $4,999. As an Osaki-distributed brand, the Ador 3D Allure benefits from the same parts availability and service infrastructure that backs the Osaki OS-Pro line, which is a meaningful practical advantage for a $5,000 purchase.</p>",
+      "<p>The 3D Allure uses a 3D roller mechanism on an SL-track, with a 260-pound weight capacity and zero-gravity positioning. At $4,999, it competes against the Synca Wellness JP970, the Kahuna Dios 6800, and the Kyota chairs in the mid-range. Buyers comparing options at this price point should evaluate the Allure against these alternatives directly, as the 3D roller technology is the principal area where the Allure trails the JP970's 4D mechanism.</p>",
+      "<p>Ador is currently a single-model brand in our catalog, which limits the range of buyer profiles it can serve. If your budget is firmly at $4,999 and you want an SL-track chair with Osaki's support network, the 3D Allure is a reasonable option. If your budget extends to $5,500 and 4D rollers are important, look at the JP970 before deciding.</p>",
+    ],
+  },
+
+  {
+    slug: "theramedic",
+    name: "Theramedic",
+    tagline: "A Flex-track option at $3,499 with space-saving wall clearance, distributed by Osaki.",
+    priceRange: "$3,499",
+    origin: "US distributor (distributed by Osaki); chairs manufactured in China",
+    warrantyNote: "Confirm per model before purchase.",
+    bestFor: "Buyers in the $3,000 to $4,000 range who specifically want Flex-track adaptability and space-saving placement, and who do not need a higher weight capacity than 260 pounds.",
+    seoTitle: "Theramedic Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Theramedic offers a Flex-track massage chair at $3,499 with space-saving wall clearance. Here is what the Flex offers and who it is right for.",
+    description: [
+      "<p>Theramedic is an Osaki-distributed brand currently represented by a single model, the Flex, at $3,499. The Flex uses a Flex-track system, which is relatively unusual in the $3,000 to $4,000 price range. Most chairs at this price use conventional S-track or SL-track rails. Flex-track technology uses a flexible guide rail that adapts to the curvature of individual users, which can deliver better contact consistency for buyers whose body shape sits outside the average that standard rails are calibrated for.</p>",
+      "<p>The Flex also includes a space-saving mechanism requiring 4 inches of wall clearance, a 260-pound weight limit, and a 2D roller mechanism. The 2D roller is the most significant trade-off at this price. Buyers who are comparing the Theramedic Flex against 3D options like the Kahuna Dios 6800 are choosing between Flex-track adaptability and roller depth control. Neither is clearly superior for every buyer, but 2D rollers offer less adjustable intensity than 3D, which matters if massage pressure sensitivity is important to you.</p>",
+      "<p>The Theramedic Flex fills a specific gap: Flex-track technology with space-saving design below $4,000. If those two features are on your checklist and your budget is under $4,000, it is worth a close look. If Flex-track is not a specific priority, the Kahuna Dios 6800 and Synca Wellness CirC+ both offer comparable coverage with 3D and 4D rollers at similar or lower prices.</p>",
+    ],
+  },
+
+  {
+    slug: "kanji",
+    name: "Kanji",
+    tagline: "A premium Flex-track brand distributed by Osaki, with a dual 8D roller system and 330-pound capacity at $14,999.",
+    priceRange: "$14,999",
+    origin: "US distributor (distributed by Osaki); chairs manufactured in China",
+    warrantyNote: "Confirm per model before purchase.",
+    bestFor: "Buyers spending $14,000 or more who want a Flex-track dual-roller system with the highest weight capacity in the catalog. Best for plus-size buyers or buyers who prioritize dual-roller intensity at the premium tier.",
+    seoTitle: "Kanji Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Kanji makes a Flex-track massage chair with dual 8D rollers and 330-pound capacity at $14,999. Here is what the 4D Shogun Duo offers and who it is right for.",
+    description: [
+      "<p>Kanji is an Osaki-distributed premium brand currently represented by the 4D Shogun Duo at $14,999. The Shogun Duo is one of the few chairs in the catalog that uses a dual roller system, with two independent 4D roller mechanisms operating simultaneously, marketed as an 8D configuration. This is different from a single high-dimensional roller in a meaningful way: two roller units can cover different zones of the back at the same time, rather than a single unit moving through one path.</p>",
+      "<p>The Shogun Duo uses a Flex-track system with space-saving wall clearance of approximately 5.5 inches. Its 330-pound weight capacity is the highest confirmed in the current catalog, which makes it one of the few premium chairs accessible to buyers above 300 pounds. At $14,999, it competes against Japanese flagship models from Fujiiryoki, DCORE, and Panasonic. Buyers comparing it against those options are making a trade-off between the Shogun Duo's dual-roller intensity and the Japanese engineering heritage and quieter operation that define that tier.</p>",
+      "<p>Kanji's case is the combination of premium Flex-track technology, dual-roller coverage, and plus-size capacity in a single chair. If your weight is above 300 pounds and your budget is $14,000 or higher, the Shogun Duo is the most capable option available. For buyers under 280 pounds, the Japanese alternatives at this price point are worth comparing directly on build quality and long-term reliability before choosing.</p>",
+    ],
+  },
+
+  {
+    slug: "relaxe",
+    name: "Relaxe",
+    tagline: "A direct-to-consumer brand with an SL-track entry at $2,899, built for buyers from 5 ft 1 in to 6 ft 4 in.",
+    priceRange: "$2,899 to $2,999",
+    origin: "Sold direct via relaxe.co",
+    warrantyNote: "Confirm per model before purchase.",
+    bestFor: "Buyers in the $2,500 to $3,000 range who want a 53-inch SL-track, 330-pound capacity, and near-wall placement. One of the most accessible full-coverage SL-track chairs in the catalog.",
+    seoTitle: "Relaxe Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Relaxe offers an SL-track shiatsu massage chair at $2,899 with 53-inch track length and 330-pound capacity. Here is what the Shiatsu offers and who it is right for.",
+    description: [
+      "<p>Relaxe is a direct-to-consumer brand selling via relaxe.co, currently represented by a single model: the Shiatsu, priced at $2,899 to $2,999. At this price, the specifications stand out. The Shiatsu uses a 53-inch SL-track, near the upper end of what mid-range chairs offer, with space-saving 2-inch wall clearance and a confirmed 330-pound weight capacity. That combination of full SL-track coverage, tight wall clearance, and high weight limit at under $3,000 is unusual in the market.</p>",
+      "<p>The roller mechanism is 2D, which is the expected trade-off at this price. Buyers who prioritize roller depth control and adjustable intensity will need to spend more for 3D or 4D technology. But buyers whose primary needs are full SL-track coverage and space-saving placement, without a hard requirement for advanced roller dimensions, will find the Shiatsu competitive against similarly priced options. The confirmed height range of 61 to 76 inches covers most buyers from 5 ft 1 in to 6 ft 4 in.</p>",
+      "<p>Relaxe is a newer brand in the catalog, and long-term service and warranty support are worth confirming directly with the company before purchase. As with any direct-to-consumer brand, the absence of a broad retail distribution network means that parts and service depend entirely on the brand's own infrastructure. If that represents acceptable risk for a sub-$3,000 purchase, the Relaxe Shiatsu is worth including in your comparison at this price tier.</p>",
     ],
   },
 

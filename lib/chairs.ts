@@ -19,7 +19,9 @@
 // ─── TYPES ─────────────────────────────────────────────────────────────────────
 
 export type Track        = 'S' | 'L' | 'SL' | 'Flex' | 'vibration' | null
-export type Roller       = '2D' | '3D' | '4D' | '5D' | null
+// Roller dimension type -- add new values here as industry marketing terms evolve.
+// 6D = dual 3D roller systems; 8D = dual 4D roller systems; further values may emerge.
+export type Roller       = '2D' | '3D' | '4D' | '5D' | '6D' | '8D' | null
 export type PriceTier    = 'entry' | 'mid' | 'upper-mid' | 'premium'
 export type AffiliateTier = 'A' | 'B' | 'C' | null
 export type GoodwinStatus = 'supplier' | 'affiliate' | 'none'
@@ -406,7 +408,7 @@ export const CHAIRS: Chair[] = [
   {
     id: 'synca-jp970',
     name: 'Synca JP970',
-    brand: 'Synca',
+    brand: 'Synca Wellness',
     active: true, goodwinActive: false, mcfActive: false,  // removed from syncamassagechair.com; no approved retailer URL 2026-05-01
     priceMin: 4999,
     affiliateTier: 'A',
@@ -425,7 +427,7 @@ export const CHAIRS: Chair[] = [
   {
     id: 'synca-jp1100',
     name: 'Synca JP1100',
-    brand: 'Synca',
+    brand: 'Synca Wellness',
     active: false, goodwinActive: false, mcfActive: false,  // discontinued confirmed 2026-05-01
     priceMin: 9999,
     affiliateTier: 'A',
@@ -446,7 +448,7 @@ export const CHAIRS: Chair[] = [
   {
     id: 'synca-kagra',
     name: 'Synca Kagra 4D',
-    brand: 'Synca',
+    brand: 'Synca Wellness',
     active: false, goodwinActive: false, mcfActive: false,
     // DISCONTINUED
     priceMin: 0,
@@ -727,7 +729,7 @@ export const CHAIRS: Chair[] = [
     id: 'inada-robo-4d',
     name: 'Inada Robo 4D',
     brand: 'Inada',
-    active: true, goodwinActive: false, mcfActive: false,  // OOS confirmed 2026-05-01
+    active: false, goodwinActive: false, mcfActive: false,  // deactivated 2026-05-01 -- brand no longer has active US product line
     priceMin: 9999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairwarehouse.com',
@@ -745,7 +747,7 @@ export const CHAIRS: Chair[] = [
     id: 'inada-dreamwave',
     name: 'Inada DreamWave',
     brand: 'Inada',
-    active: true, goodwinActive: false, mcfActive: false,  // OOS confirmed 2026-05-01
+    active: false, goodwinActive: false, mcfActive: false,  // deactivated 2026-05-01 -- brand no longer has active US product line
     priceMin: 6999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairwarehouse.com',
@@ -945,6 +947,490 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true,
     alternativeIds: ['titan-pro-vigor-4d'],
     aiNotes: 'No dedicated product page confirmed — do not recommend.',
+  },
+
+
+  // ── SYNCA WELLNESS (entry and mid-range chairs from syncamassagechair.com) ──
+
+  {
+    id: 'synca-wellness-circ',
+    name: 'Synca Wellness CirC',
+    brand: 'Synca Wellness',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1299,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/circ',
+    track: 'SL', roller: '3D', trackLengthIn: 34,
+    zeroGravity: true, heat: true, foot: true,
+    aiNotes: 'SL-track 34". Entry-level chair. Compact track length -- best for average-height users with upper and mid-back focus.',
+  },
+
+  {
+    id: 'synca-wellness-circ-plus',
+    name: 'Synca Wellness CirC+',
+    brand: 'Synca Wellness',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1899,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/circ-plus',
+    track: 'SL', roller: '3D', trackLengthIn: 45,
+    spaceSaving: true, wallClearanceIn: 6,
+    zeroGravity: true, heat: true, foot: true,
+    aiNotes: 'SL-track 45.5". Space-saving 6" wall clearance. Good entry-to-mid option for smaller rooms.',
+  },
+
+  {
+    id: 'synca-wellness-circ-3',
+    name: 'Synca Wellness CirC 3',
+    brand: 'Synca Wellness',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/circ-3',
+    track: 'SL', roller: '2D', trackLengthIn: 47,
+    weightCapacityLbs: 300,
+    zeroGravity: true, heat: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-track 47". 2D roller. 300 lb capacity. Entry-level choice for plus-size buyers on a budget.',
+  },
+
+  {
+    id: 'synca-wellness-kurodo',
+    name: 'Synca Wellness Kurodo',
+    brand: 'Synca Wellness',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 9999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/kurodo',
+    track: 'SL', roller: '4D',
+    zeroGravity: true, heat: true, foot: true, aiScanning: true,
+    aiNotes: 'SL-track. 4D roller. Made in Japan. Premium Synca Wellness flagship.',
+  },
+
+  // ── INNER BALANCE ───────────────────────────────────────────────────────────
+
+  {
+    id: 'inner-balance-jin',
+    name: 'Inner Balance Jin',
+    brand: 'Inner Balance',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/jin',
+    track: 'SL', roller: '2D',
+    spaceSaving: true, wallClearanceIn: 2,
+    weightCapacityLbs: 300,
+    zeroGravity: true, heat: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-track. 2D roller. Space-saving 2" wall clearance. 300 lb capacity. Inner Balance brand distributed via Synca Wellness.',
+  },
+
+  {
+    id: 'inner-balance-jin-2',
+    name: 'Inner Balance Jin 2.0',
+    brand: 'Inner Balance',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 3999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/jin-2',
+    track: 'SL', roller: '2D',
+    spaceSaving: true, wallClearanceIn: 2,
+    weightCapacityLbs: 300,
+    zeroGravityStages: 3,
+    zeroGravity: true, heat: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-track. 2D roller. 3-stage zero gravity. Space-saving 2" wall clearance. 300 lb capacity. Upgraded Jin with deeper recline stages.',
+  },
+
+  // ── FUJIIRYOKI ─────────────────────────────────────────────────────────────
+
+  {
+    id: 'fujiiryoki-jp3000',
+    name: 'Fujiiryoki JP-3000',
+    brand: 'Fujiiryoki',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 10999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/jp-3000',
+    track: 'S', roller: '5D',
+    zeroGravity: true, heat: true, aiScanning: true,
+    aiNotes: 'S-Track ONLY. 5D roller. Made in Japan. DO NOT recommend for lower back, hip, or glute pain -- S-track stops at the lumbar.',
+  },
+
+  {
+    id: 'fujiiryoki-cyber-relax-ai',
+    name: 'Fujiiryoki Cyber Relax Ai',
+    brand: 'Fujiiryoki',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 10999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/cyber-relax-ai',
+    track: 'S', roller: '5D',
+    zeroGravity: true, heat: true, aiScanning: true,
+    aiNotes: 'S-Track ONLY. 5D roller. Made in Japan. DO NOT recommend for lower back, hip, or glute pain -- S-track stops at the lumbar.',
+  },
+
+  {
+    id: 'fujiiryoki-cyber-relax-ai-executive',
+    name: 'Fujiiryoki Cyber Relax Ai Executive',
+    brand: 'Fujiiryoki',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 12999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/cyber-relax-ai-executive',
+    track: 'S', roller: '5D',
+    zeroGravity: true, heat: true, aiScanning: true,
+    aiNotes: 'S-Track ONLY. 5D roller. Made in Japan. Executive upgrade over standard Cyber Relax Ai. DO NOT recommend for lower back, hip, or glute pain -- S-track stops at the lumbar.',
+  },
+
+  {
+    id: 'fujiiryoki-calm-plus',
+    name: 'Fujiiryoki Calm Plus',
+    brand: 'Fujiiryoki',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 3999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/calm-plus',
+    track: 'Flex', roller: '4D',
+    zeroGravity: true, heat: true, foot: true,
+    aiNotes: 'Flex-track. 4D roller. Mid-range Fujiiryoki with flexible track that adapts to body contour.',
+  },
+
+  {
+    id: 'fujiiryoki-cyber-relax-elite',
+    name: 'Fujiiryoki Cyber Relax Elite',
+    brand: 'Fujiiryoki',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 9999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/cyber-relax-elite',
+    track: 'Flex', roller: '4D',
+    zeroGravity: true, heat: true, aiScanning: true,
+    aiNotes: 'Flex-track. 4D roller. Premium Fujiiryoki with flexible track. Strong option for buyers who want full-body coverage with advanced Japanese engineering.',
+  },
+
+  {
+    id: 'fujiiryoki-cyber-relax-pro',
+    name: 'Fujiiryoki Cyber Relax Pro',
+    brand: 'Fujiiryoki',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 14999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/cyber-relax-pro',
+    track: 'Flex', roller: '8D',  // dual 4D+4D roller system
+    spaceSaving: true, wallClearanceIn: 4,
+    zeroGravity: true, heat: true, aiScanning: true,
+    aiNotes: 'Flex-track. 8D dual roller system (two independent 4D roller units). Space-saving 4" wall clearance. Top-tier Fujiiryoki. Recommend for buyers who want Japanese engineering at the flagship level.',
+  },
+
+  // ── DCORE ──────────────────────────────────────────────────────────────────
+
+  {
+    id: 'dcore-d-core-2',
+    name: 'DCORE D.Core 2',
+    brand: 'DCORE',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 16999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/d-core-2',
+    track: 'SL', roller: '3D',
+    zeroGravity: true, heat: true, aiScanning: true,
+    aiNotes: 'SL-track. 3D roller. Made in Japan. DCORE flagship. Ultra-premium segment. Best for buyers who prioritize Japanese craftsmanship at the highest tier.',
+  },
+
+  {
+    id: 'dcore-cirrus-jp',
+    name: 'DCORE CIRRUS-JP',
+    brand: 'DCORE',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 12999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/cirrus-jp',
+    track: 'L', roller: '3D',
+    zeroGravity: true, heat: true,
+    aiNotes: 'L-track. 3D roller. Made in Japan. Strong lower-back and hip coverage at the premium tier.',
+  },
+
+  {
+    id: 'dcore-stratus-jp',
+    name: 'DCORE STRATUS-JP',
+    brand: 'DCORE',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 11499,
+    affiliateTier: 'A',
+    affiliateRetailer: 'syncamassagechair.com',
+    affiliateCommission: '8%+, 30-day cookie (direct)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://syncamassagechair.com/products/stratus-jp',
+    track: 'L', roller: '3D',
+    zeroGravity: true, heat: true,
+    aiNotes: 'L-track. 3D roller. Made in Japan. Entry point into the DCORE premium lineup. Good lower-back and hip coverage.',
+  },
+
+  // ── KAHUNA (Dios line additions) ────────────────────────────────────────────
+
+  {
+    id: 'kahuna-dios-6800',
+    name: 'Kahuna Dios 6800',
+    brand: 'Kahuna',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 3799,
+    affiliateTier: 'A',
+    affiliateRetailer: 'kahunachair.com',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://kahunachair.com/products/dios-6800',
+    track: 'SL', roller: '4D', trackLengthIn: 50,
+    zeroGravity: true, heat: true, foot: true,
+    aiNotes: 'SL-track 50". 4D roller. Strong mid-range Kahuna. Good value SL option in the $3k-$4k range.',
+  },
+
+  {
+    id: 'kahuna-dios-1288',
+    name: 'Kahuna Dios 1288',
+    brand: 'Kahuna',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 16999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'kahunachair.com',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://kahunachair.com/products/dios-1288',
+    inStock: false,
+    track: 'SL', roller: '4D', trackLengthIn: 54,
+    zeroGravity: true, heat: true, foot: true, aiScanning: true,
+    aiNotes: 'SL-track 54". 4D roller. Currently pre-order. Kahuna flagship -- ultra-long track, strong option for tall buyers.',
+  },
+
+  {
+    id: 'kahuna-dios-flexa',
+    name: 'Kahuna Dios Flexa',
+    brand: 'Kahuna',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 8499,
+    priceMax: 11999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'kahunachair.com',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://kahunachair.com/products/dios-flexa',
+    inStock: false,
+    track: 'SL', roller: '4D', trackLengthIn: 56,
+    stretch: true,
+    zeroGravity: true, heat: true, foot: true,
+    aiNotes: 'SL-track 56". 4D roller. Full-body stretch to 181 degrees. Currently pre-order. Among the longest SL tracks in the catalog -- excellent for tall buyers and full-body stretch.',
+  },
+
+  // ── ADOR ───────────────────────────────────────────────────────────────────
+
+  {
+    id: 'ador-3d-allure',
+    name: 'Ador 3D Allure',
+    brand: 'Ador',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 4999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'osakimassagechair.com',
+    affiliateCommission: '5% (Rakuten)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://osakimassagechair.com/products/ador-3d-allure',
+    track: 'SL', roller: '3D',
+    weightCapacityLbs: 260,
+    zeroGravity: true, heat: true, foot: true,
+    aiNotes: 'SL-track. 3D roller. 260 lb weight capacity. Distributed by Osaki. Good mid-range SL option.',
+  },
+
+  // ── THERAMEDIC ─────────────────────────────────────────────────────────────
+
+  {
+    id: 'theramedic-flex',
+    name: 'Theramedic Flex',
+    brand: 'Theramedic',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 3499,
+    affiliateTier: 'A',
+    affiliateRetailer: 'osakimassagechair.com',
+    affiliateCommission: '5% (Rakuten)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://osakimassagechair.com/products/theramedic-flex',
+    track: 'Flex', roller: '2D',
+    spaceSaving: true, wallClearanceIn: 4,
+    weightCapacityLbs: 260,
+    zeroGravity: true, heat: true, foot: true,
+    aiNotes: 'Flex-track. 2D roller. Space-saving 4" wall clearance. 260 lb capacity. Distributed by Osaki. Good option for buyers who want Flex-track at a mid-range price.',
+  },
+
+  // ── KANJI ──────────────────────────────────────────────────────────────────
+
+  {
+    id: 'kanji-4d-shogun-duo',
+    name: 'Kanji 4D Shogun Duo',
+    brand: 'Kanji',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 14999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'osakimassagechair.com',
+    affiliateCommission: '5% (Rakuten)',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://osakimassagechair.com/products/kanji-4d-shogun-duo',
+    track: 'Flex', roller: '8D',  // dual 4D+4D roller system ("Duo" = two independent 4D units)
+    spaceSaving: true, wallClearanceIn: 6,
+    weightCapacityLbs: 330,
+    zeroGravity: true, heat: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'Flex-track. 8D dual roller system (two independent 4D roller units). Space-saving 5.5" wall clearance. 330 lb capacity -- one of the highest in the catalog. Distributed by Osaki. Strong premium option for plus-size buyers.',
+  },
+
+  // ── OGAWA (Wish Rock Relaxation) ───────────────────────────────────────────
+
+  {
+    id: 'ogawa-og6300',
+    name: 'Ogawa OG-6300',
+    brand: 'Ogawa',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 5899,
+    affiliateTier: 'A',
+    affiliateRetailer: 'wishrockrelaxation.com',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: undefined,  // URL pending -- wishrockrelaxation.com added to affiliate program 2026-05-01
+    track: 'SL', roller: '3D',
+    weightCapacityLbs: 320,
+    zeroGravity: true, heat: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-track. 3D roller. 320 lb capacity. Via Wish Rock Relaxation.',
+  },
+
+  {
+    id: 'ogawa-og8901',
+    name: 'Ogawa OG-8901',
+    brand: 'Ogawa',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 9499,
+    affiliateTier: 'A',
+    affiliateRetailer: 'wishrockrelaxation.com',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: undefined,  // URL pending -- wishrockrelaxation.com added to affiliate program 2026-05-01
+    track: 'SL', roller: '4D', trackLengthIn: 53,
+    spaceSaving: true, wallClearanceIn: 1,
+    weightCapacityLbs: 320,
+    zeroGravity: true, heat: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-track 53". Dual roller system (4D primary). Near-zero wall clearance (1"). 320 lb capacity. Via Wish Rock Relaxation.',
+  },
+
+  {
+    id: 'ogawa-og6400',
+    name: 'Ogawa OG-6400',
+    brand: 'Ogawa',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 5199,
+    affiliateTier: 'A',
+    affiliateRetailer: 'wishrockrelaxation.com',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: undefined,  // URL pending -- wishrockrelaxation.com added to affiliate program 2026-05-01
+    track: 'SL', roller: '3D',
+    spaceSaving: true, wallClearanceIn: 11,
+    weightCapacityLbs: 320,
+    zeroGravity: true, heat: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-track. Dual roller system (3D primary). Space-saving 11" wall clearance. 320 lb capacity. Via Wish Rock Relaxation.',
+  },
+
+  {
+    id: 'ogawa-og8801',
+    name: 'Ogawa OG-8801',
+    brand: 'Ogawa',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 12999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'wishrockrelaxation.com',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: undefined,  // URL pending -- wishrockrelaxation.com added to affiliate program 2026-05-01
+    track: 'SL', roller: '4D',
+    spaceSaving: true, wallClearanceIn: 4,
+    weightCapacityLbs: 320,
+    zeroGravity: true, heat: true, aiScanning: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-track. 4D roller. Space-saving 4" wall clearance. 320 lb capacity. Via Wish Rock Relaxation.',
+  },
+
+  {
+    id: 'ogawa-og8900',
+    name: 'Ogawa OG-8900',
+    brand: 'Ogawa',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 15999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'wishrockrelaxation.com',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: undefined,  // URL pending -- wishrockrelaxation.com added to affiliate program 2026-05-01
+    track: 'SL', roller: '4D',
+    spaceSaving: true, wallClearanceIn: 1,
+    weightCapacityLbs: 320,
+    zeroGravity: true, heat: true, aiScanning: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-track. Dual roller system (4D primary). Near-zero wall clearance (1"). 320 lb capacity. Via Wish Rock Relaxation.',
+  },
+
+  // ── RELAXE ─────────────────────────────────────────────────────────────────
+
+  {
+    id: 'relaxe-shiatsu',
+    name: 'Relaxe Shiatsu',
+    brand: 'Relaxe',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 2899,
+    priceMax: 2999,
+    affiliateTier: null,  // affiliate program not yet confirmed via relaxe.co
+    affiliateRetailer: 'relaxe.co',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: undefined,
+    track: 'SL', roller: '2D', trackLengthIn: 53,
+    spaceSaving: true, wallClearanceIn: 2,
+    weightCapacityLbs: 330,
+    heightMinIn: 61, heightMaxIn: 76,
+    zeroGravity: true, heat: true, foot: true,
+    plusSizeConfirmed: true,
+    aiNotes: 'SL-track 53". 2D roller. Space-saving 2" wall clearance. 330 lb capacity. Height range 61-76 inches. Affiliate program pending confirmation.',
   },
 
   // ── REAL RELAX (Goodwin Tier C fallback only — never surface in MCF) ────────
