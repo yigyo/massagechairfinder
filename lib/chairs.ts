@@ -837,8 +837,8 @@ export const CHAIRS: Chair[] = [
     id: 'jpmedics-kozue-5d',
     name: 'JPMedics Kozue 5D',
     brand: 'JPMedics',
-    active: true, goodwinActive: true, mcfActive: false,
-    // Goodwin only — no confirmed online affiliate retailer found for MCF
+    active: false, goodwinActive: false, mcfActive: false,
+    // Removed: no affiliate URL confirmed for MCF or Goodwin
     priceMin: 14999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -1969,7 +1969,7 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '4D', trackLengthIn: 47,
     heightMinIn: 60, heightMaxIn: 77, weightCapacityLbs: 265,
     zeroGravity: false, heat: true, footRollers: true,
-    aiNotes: 'L-track 47" length. 4D roller, heat, foot rollers. Fits 5'0" to 6'5". 265 lb weight capacity. Sport-focused recovery positioning.',
+    aiNotes: 'L-track 47" length. 4D roller, heat, foot rollers. Fits 5\'0" to 6\'5". 265 lb weight capacity. Sport-focused recovery positioning.',
   },
 
   {
@@ -2167,7 +2167,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: null,
     heightMaxIn: 75, weightCapacityLbs: 250,
     zeroGravity: false, heat: true, aiScanning: true,
-    aiNotes: 'SL-track built for larger users: fits up to 6'3" and 250 lbs. Auto shoulder recognition for body scan. Heat. No zero gravity. Good option for taller buyers in the $2,000-$2,500 range.',
+    aiNotes: 'SL-track built for larger users: fits up to 6\'3" and 250 lbs. Auto shoulder recognition for body scan. Heat. No zero gravity. Good option for taller buyers in the $2,000-$2,500 range.',
   },
 
   {
