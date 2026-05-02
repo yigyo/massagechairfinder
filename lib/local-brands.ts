@@ -388,9 +388,9 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     seoTitle: "OHCO Massage Chairs: Brand Overview and Buying Guide",
     seoDescription: "OHCO makes premium 4D SL-track massage chairs with Japanese design heritage, sold through Johnson Fitness. Here is what to know before you buy.",
     description: [
-      "<p>OHCO is a premium massage chair brand developed with Japanese engineering heritage, positioned at the upper tier of the US market. The brand's M8 series sits at the intersection of Japanese design precision and the accessibility of a major US retail channel through Johnson Fitness. OHCO chairs are not widely distributed, which means buyers generally encounter the brand through the Johnson Fitness network rather than through broader specialty retailers.</p>",
-      "<p>The M8 Neo LE uses a 4D SL-track roller system with dual zero-gravity positioning, full-body air compression, and body scan technology. At approximately $8,499, it competes against chairs from Fujiiryoki, Panasonic, and Inada in the Japanese-influenced premium tier. Buyers choosing between OHCO and those options are comparing US retail service support versus direct Japanese manufacturer infrastructure. OHCO's distribution through Johnson Fitness means that warranty service and parts access follow Johnson Fitness's national support network.</p>",
-      "<p>OHCO is the right brand to evaluate if you want premium 4D SL-track technology with the backing of a major US fitness retailer, and your budget is $8,000 or above. Buyers who are committed to fully Japanese-manufactured chairs should also compare the OHCO directly against the Fujiiryoki EC-3900 and Inada DreamWave before deciding. The price point is similar; the difference is distribution, service network, and design origin.</p>",
+      "<p>OHCO is a premium massage chair brand with Japanese design heritage, sold exclusively through Johnson Fitness in the US. The brand offers two M.8 NEO models: the M.8 NEO at $14,999 and the M.8 NEO LE at $18,000. Both use 4D SL-track roller systems with zero gravity and body scanning. The LE adds premium leather, a more refined air compression system, and additional program options over the standard M.8 NEO. Buyers choosing between the two are paying $3,000 for the LE's materials and feature refinements, not a fundamentally different massage mechanism.</p>",
+      "<p>OHCO chairs are not widely distributed, which means buyers generally encounter the brand through Johnson Fitness rather than through specialty massage chair retailers. Johnson Fitness is a major US fitness equipment retailer with national service infrastructure, which is meaningful for a $15,000 to $18,000 purchase. Buyers comparing OHCO against Japanese alternatives like Fujiiryoki or Inada are evaluating comparable engineering heritage with different distribution and service network models. OHCO's Johnson Fitness backing provides more accessible service points across the US than most direct-import Japanese brands.</p>",
+      "<p>OHCO is worth evaluating if your budget is $14,000 or higher and you want 4D SL-track technology with the service support of an established US retailer. Buyers who are committed to fully Japanese-manufactured chairs should compare the M.8 NEO directly against the Fujiiryoki EC-3900 and Inada DreamWave at comparable price points before deciding. The engineering origin is similar; the practical difference is service network and the specific feel of each brand's roller calibration.</p>",
     ],
   },
 
@@ -527,6 +527,41 @@ export const LOCAL_BRANDS: LocalBrand[] = [
       "<p>Svago is a zero gravity recliner brand that does not make traditional roller massage chairs. This is the most important thing to understand before evaluating the Svago lineup: the ZGR, Newton, and Lite 2 all use air compression and vibration massage rather than a roller track. There are no rollers traveling along your spine in a Svago chair. Instead, these chairs inflate and deflate air cells to create compression pressure at the shoulders, arms, hips, calves, and feet, while vibration motors provide surface-level stimulation at the lumbar and back cushion.</p>",
       "<p>For buyers who specifically want zero gravity positioning for circulation support, recovery from foot or leg swelling, or simply deep relaxation in an elevated recliner position, Svago chairs do that well. The zero gravity angle distributes body weight across the chair without concentrating pressure at any single point, which can ease lower back load for buyers who find upright sitting aggravates their pain. The Newton at $3,499 adds a more sophisticated air cell system than the ZGR at $2,199, and the Lite 2 at $1,499 focuses on lumbar vibration as the primary massage element.</p>",
       "<p>Svago is not the right choice for buyers whose primary need is deep-tissue roller massage, kneading, or shiatsu-style point pressure. A buyer with chronic lower back pain who needs the sensation of rollers working along the lumbar spine will not find that in a Svago chair. However, for buyers who cannot tolerate roller pressure due to spinal sensitivity, hypersensitivity to deep touch, or physical conditions that rule out mechanical massage, a Svago zero gravity recliner may be the most appropriate chair in the catalog. It is also a reasonable option as a second chair or a living room recliner alongside a primary massage chair.</p>",
+    ],
+  },
+
+
+  {
+    slug: "rockertech",
+    name: "RockerTech",
+    tagline: "A value-premium brand with L-track and SL-track 4D chairs at $5,499 and $6,999, sold through Massage Chair Heaven.",
+    priceRange: "$5,499 to $6,999",
+    origin: "US brand; chairs manufactured in China",
+    warrantyNote: "3-year warranty included on all models.",
+    bestFor: "Buyers in the $5,000 to $7,500 range who want a 4D roller chair with zero gravity, heat, foot rollers, and body scanning without spending $8,000 or more. The Sensation adds SL-track over the Bliss's L-track at a $1,500 premium.",
+    seoTitle: "RockerTech Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "RockerTech offers L-track and SL-track 4D massage chairs at $5,499 and $6,999 with zero gravity, heat, and body scanning. Here is how the Bliss and Sensation compare.",
+    description: [
+      "<p>RockerTech is a massage chair brand sold primarily through Massage Chair Heaven, a US specialty retailer. The brand currently offers two models: the Bliss at $5,499 and the Sensation 4D at $6,999. Both use 4D roller mechanisms, which is notable at this price tier where many competing chairs use 3D. Both also include lumbar heat, reflexology foot rollers, body scanning (TrueFit), zero gravity, and Zero Wall Fit space-saving technology. The 3-year warranty included on both models is competitive against most brands in this range, where 1 to 2 year warranties are more common.</p>",
+      "<p>The core difference between the two models is the track type. The Bliss uses an L-track, which extends under the glutes and upper thighs and is better suited for buyers whose pain focuses on the lower back, hips, or sacrum area. The Sensation uses an SL-track, covering from the neck all the way down to the glutes and offering broader coverage for buyers whose tension spans the full back. Buyers deciding between the two should consider where their primary pain is located first, then evaluate whether the $1,500 price difference is justified by the additional upper-back coverage the SL-track provides.</p>",
+      "<p>RockerTech chairs compete at a price point where several well-established brands operate, including Kahuna, Kyota, and Osaki. Buyers comparing options at $5,500 to $7,000 should evaluate track length, body fit dimensions, and service support in parallel. RockerTech's distribution through Massage Chair Heaven means warranty service and parts go through that retailer rather than the manufacturer directly. Confirming Massage Chair Heaven's service policies before purchasing is a reasonable step for a $6,000 to $7,000 investment.</p>",
+    ],
+  },
+
+  {
+    slug: "nouhaus",
+    name: "Nouhaus",
+    tagline: "A Korean design brand with Red Dot Award-winning SL-track chairs from $1,499 to $3,999, sold direct via nouhaus.com.",
+    priceRange: "$1,499 to $3,999",
+    origin: "South Korea; sold direct via nouhaus.com",
+    warrantyNote: "Confirm warranty terms on nouhaus.com before purchase.",
+    bestFor: "Buyers who value aesthetic design and Korean engineering alongside massage function. The Nouhaus lineup is strongest at $2,999 to $3,999 where the Luna and Orbit bring Red Dot Award design with 3D rollers and zero gravity. Entry buyers at $1,499 get the Red Dot-recognized New Classic with SL-track and heat.",
+    seoTitle: "Nouhaus Massage Chairs: Brand Overview and Buying Guide",
+    seoDescription: "Nouhaus offers Red Dot Award-winning SL-track massage chairs from $1,499 to $3,999. Here is how the New Classic, Aurora, Nou Campo, Luna, and Orbit compare.",
+    description: [
+      "<p>Nouhaus is a South Korean brand that sells direct to US consumers via nouhaus.com. The brand has won multiple Red Dot Awards for product design, which reflects its emphasis on aesthetics alongside function. The lineup runs from the New Classic at $1,499 to the Orbit at $3,999, with four models in between at $2,299 and $2,999. All Nouhaus massage chairs use SL-track (which the brand calls S and L-track) except the Orbit, whose track type is not specified in available product documentation.</p>",
+      "<p>The lineup has clear segments. The New Classic ($1,499) offers SL-track and heat for buyers who do not need zero gravity. The Aurora ($2,299) adds zero gravity in a compact footprint. The Nou Campo ($2,299) is built for taller users, fitting up to 6 feet 3 inches and 250 pounds. The Luna ($2,999) steps up to a 3D roller mechanism with ThermoMassage heat at three intensity levels. The Orbit ($3,999) is the flagship, using 3D rollers, zero gravity, premium top-grain leather, and a proprietary body recognition system. For buyers comparing Nouhaus against other brands in the $2,000 to $4,000 range, the design distinction is real but so is the direct-brand trade-off: service depends entirely on Nouhaus's own support infrastructure.</p>",
+      "<p>Nouhaus is a good fit for buyers who are specifically drawn to design-forward chairs and want to buy direct from the brand. The Red Dot Awards are a genuine independent design credential, not marketing language. Buyers who prioritize long-term service infrastructure or want to purchase through an established specialty retailer with proven support should weigh the direct-to-consumer model carefully at higher price points. At $1,499 to $2,299, the risk is lower. At $3,999 for the Orbit, confirming Nouhaus's return and service policy before committing is worthwhile.</p>",
     ],
   },
 

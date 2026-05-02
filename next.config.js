@@ -40,6 +40,10 @@ const nextConfig = {
       { protocol: 'https', hostname: '**.massagechairstore.com' },
       { protocol: 'https', hostname: 'recovathlete.com' },
       { protocol: 'https', hostname: '**.recovathlete.com' },
+      { protocol: 'https', hostname: 'www.johnsonfitness.com' },
+      { protocol: 'https', hostname: 'johnsonfitness.com' },
+      { protocol: 'https', hostname: 'www.massagechairheaven.com' },
+      { protocol: 'https', hostname: 'massagechairheaven.com' },
     ],
   },
   webpack: (config) => {
