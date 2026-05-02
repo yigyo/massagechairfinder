@@ -36,6 +36,10 @@ const nextConfig = {
       { protocol: 'https', hostname: '**.luraco.com' },
       { protocol: 'https', hostname: 'inbalancemassage.com' },
       { protocol: 'https', hostname: '**.inbalancemassage.com' },
+      { protocol: 'https', hostname: 'massagechairstore.com' },
+      { protocol: 'https', hostname: '**.massagechairstore.com' },
+      { protocol: 'https', hostname: 'recovathlete.com' },
+      { protocol: 'https', hostname: '**.recovathlete.com' },
     ],
   },
   webpack: (config) => {

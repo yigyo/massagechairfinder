@@ -679,50 +679,50 @@ export const CHAIRS: Chair[] = [
     id: 'ogawa-master-drive-le',
     name: 'Ogawa Master Drive LE 4D',
     brand: 'Ogawa',
-    active: true, goodwinActive: false, mcfActive: false,  // OOS everywhere; easymassagechair.com not approved
-    priceMin: 9999,  // verified 2026-04-27
-    affiliateTier: null,  // MCW sold out; easymassagechair.com program unconfirmed
-    affiliateRetailer: 'easymassagechair.com',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 9399,  // wishrockrelaxation.com verified 2026-05-02
+    affiliateTier: 'A',
+    affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://www.easymassagechair.com/ogawa-master-drive-le-4d-sl-track-massage-chair-2-stage-zero-gravity-recline-on-demand-voice-control.html',
-    imageUrl: 'https://www.easymassagechair.com/media/catalog/product/cache/e332a986e93fa06c748ea869c5d77701/o/g/ogawa_master_drive_le_beige.jpg',
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-le-4d-3d-massage-chair-og-8901',
+    imageUrl: 'https://cdn.shopify.com/s/files/1/1509/5162/files/900x900_0000s_0009_ogawa-master-drive-duo-le-black-champagne-angled-view.jpg',
     goodwinLookupKey: 'ogawa master drive le',  // MUST come before 'ogawa master drive ai'
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Ogawa_Master_Drive_LE_4d-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '4D',  // track confirmed SL (was incorrectly L)
     heightMinIn: 62, heightMaxIn: 73, weightCapacityLbs: 320,
     zeroGravity: true, zeroGravityStages: 2, heat: true,
-    aiNotes: "SL-Track confirmed. Height 5'2\"-6'1\". Weight cap 320 lbs. URL moved from MCW (sold out) to easymassagechair.com.",
+    aiNotes: "SL-Track confirmed. Height 5'2\"-6'1\". Weight cap 320 lbs. WishRock affiliate (A-tier). Dual-track: 4D upper + 3D glutes simultaneously.",
   },
 
   {
     id: 'ogawa-master-drive-ai',
     name: 'Ogawa Master Drive AI 2.0 4D',
     brand: 'Ogawa',
-    active: true, goodwinActive: false, mcfActive: false,  // OOS everywhere; easymassagechair.com not approved
-    priceMin: 12999,  // verified 2026-04-27
-    affiliateTier: null,  // MCW sold out; easymassagechair.com program unconfirmed
-    affiliateRetailer: 'easymassagechair.com',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 12999,  // wishrockrelaxation.com verified 2026-05-02
+    affiliateTier: 'A',
+    affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://www.easymassagechair.com/ogawa-master-drive-ai-4d-sl-track-massage-chair-m5-gen-microprocessors-zero-gravity-recline.html',
-    imageUrl: 'https://www.easymassagechair.com/media/catalog/product/cache/e332a986e93fa06c748ea869c5d77701/m/a/marter_drive_2_black.jpg',
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-master-drive-ai-2-0-4d-massage-chair-og-8801',
+    imageUrl: 'https://cdn.shopify.com/s/files/1/1509/5162/files/OgawaMasterDriveAI2.04DMassageChair_OG-8801.jpg',
     goodwinLookupKey: 'ogawa master drive ai',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-master-drive-ai-2_0-4d-massage-chair.jpg?v=1776836198',
     track: 'SL', roller: '4D',  // track confirmed SL (was incorrectly L)
     heightMinIn: 62, heightMaxIn: 73, weightCapacityLbs: 320,
     zeroGravity: true, heat: true, aiScanning: true,
-    aiNotes: "SL-Track confirmed. Height 5'2\"-6'1\". Weight cap 320 lbs. Alexa voice control. URL moved from MCW (sold out) to easymassagechair.com.",
+    aiNotes: "SL-Track confirmed. Height 5'2\"-6'1\". Weight cap 320 lbs. WishRock affiliate (A-tier). Alexa voice control, AI body scan, 4D SL-track.",
   },
 
   {
     id: 'ogawa-active-xl',
     name: 'Ogawa Active XL 3D',
     brand: 'Ogawa',
-    active: true, goodwinActive: false, mcfActive: false,  // OOS everywhere; easymassagechair.com not approved
-    priceMin: 5899,  // verified 2026-04-27
-    affiliateTier: null,  // MCW sold out; easymassagechair.com program unconfirmed
-    affiliateRetailer: 'easymassagechair.com',
+    active: true, goodwinActive: false, mcfActive: false,  // no affiliate partner available
+    priceMin: 5899,
+    affiliateTier: null,
+    affiliateRetailer: undefined,
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://www.easymassagechair.com/ogawa-active-xl-3d-massage-chair-zero-gravity-air-compression-technology.html',
+    affiliateUrl: undefined,
     inStock: false,
     alternativeIds: ['titan-3d-prestige'],
     goodwinLookupKey: 'ogawa active xl',
@@ -730,7 +730,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '3D',
     heightMinIn: 60, heightMaxIn: 76, weightCapacityLbs: 320,
     zeroGravity: true, zeroGravityStages: 2, heat: true, stretch: true,
-    aiNotes: "Confirmed height 5'0\"-6'4\". Weight cap 320 lbs. Designed for larger frames. URL moved from MCW (sold out) to easymassagechair.com.",
+    aiNotes: "Confirmed height 5'0\"-6'4\". Weight cap 320 lbs. No affiliate partner currently. Check wishrockrelaxation.com or osakimassagechair.com for availability.",
   },
 
   {
@@ -1267,6 +1267,7 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'kahunachair.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://kahunachair.com/products/dios-6800',
+    imageUrl: 'https://kahunachair.com/wp-content/uploads/2025/01/dios_6800_1200x1200_01102025.jpg',
     track: 'SL', roller: '4D', trackLengthIn: 50,
     zeroGravity: true, heat: true, foot: true,
     aiNotes: 'SL-track 50". 4D roller. Strong mid-range Kahuna. Good value SL option in the $3k-$4k range.',
