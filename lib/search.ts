@@ -252,7 +252,7 @@ const CONDITION_ARTICLE_MAP: Array<{ keywords: string[], slugs: string[] }> = [
 ]
 
 function tierScore(c: Chair): number {
-  const p = c.priceRetail ?? 0
+  const p = c.priceMin ?? 0
   if (p >= 5000) return 1
   if (p >= 3000) return 2
   if (p >= 2000) return 3
@@ -263,7 +263,7 @@ function chairToResult(c: Chair): SearchResult {
   return {
     type: 'chair',
     title: c.name,
-    subtitle: c.brand + ' · $' + (c.priceRetail?.toLocaleString() ?? 'N/A'),
+    subtitle: c.brand + ' · $' + (c.priceMin?.toLocaleString() ?? 'N/A'),
     href: '/chairs/' + c.slug,
   }
 }
