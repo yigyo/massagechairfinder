@@ -37,12 +37,12 @@ export default function Navigation() {
                 {link.label}
               </Link>
             ))}
-          </nav>
-          <div className="hidden md:flex items-center gap-2">
-            <SearchBar variant="header" />
             <Link href="/finder" className="btn-primary text-sm py-2 px-4">
               Find My Chair
             </Link>
+          </nav>
+          <div className="hidden md:flex items-center">
+            <SearchBar variant="header" />
           </div>
           <button
             className="md:hidden text-charcoal"
@@ -70,7 +70,7 @@ export default function Navigation() {
             </Link>
           ))}
           <div className="mt-3">
-            <SearchBar variant="footer" placeholder="Search chairs, guides, brands..." />
+            <SearchBar variant="footer" placeholder="Search ..." />
           </div>
           <Link
             href="/finder"

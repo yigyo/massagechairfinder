@@ -7,7 +7,7 @@ interface SearchBarProps {
   placeholder?: string
 }
 
-export default function SearchBar({ variant = 'header', placeholder = 'Search chairs, brands, guides...' }: SearchBarProps) {
+export default function SearchBar({ variant = 'header', placeholder = 'Search ...' }: SearchBarProps) {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
