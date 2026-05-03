@@ -14,6 +14,8 @@ const PICK_IDS = [
   'daiwa-legacy-4',
   'osaki-os-pro-maestro-le',
   'positive-posture-brio-plus',
+  'daiwa-black-panther-supreme-hybrid',
+  'daiwa-pegasus-hybrid',
 ]
 
 interface Editorial {
@@ -45,6 +47,14 @@ const EDITORIAL: Record<string, Editorial> = {
   'positive-posture-brio-plus': {
     label: 'L-track 4D with ergonomic focus',
     why: "The Positive Posture Brio Plus is an L-track chair with 4D rollers, heat, and foot massage at $7,999. Positive Posture designs its chairs around spinal alignment and ergonomic seating geometry rather than feature quantity, which shapes how the roller path and recline position interact. No zero gravity on this model. For buyers in the premium range who prioritize L-track glute coverage and 4D roller depth from a brand with a distinct ergonomic design approach, this is the pick.",
+  },
+  'daiwa-black-panther-supreme-hybrid': {
+    label: 'Widest confirmed fit range in catalog, HybriFlex SL-track',
+    why: "The Black Panther Supreme Hybrid is confirmed for 4 foot 8 inches to 6 foot 6 inches at 300 lbs, the broadest verified body range of any chair in this catalog at any price. The HybriFlex track is an SL-track variant engineered to extend glute coverage further than a standard SL-track while maintaining full neck reach. 3D rollers, heat, stretch, zero gravity, foot rollers. At $15,500, this is the pick for buyers who have been denied fit confidence on other expensive chairs because of height or weight. It is also the ceiling of this catalog in terms of confirmed reach.",
+  },
+  'daiwa-pegasus-hybrid': {
+    label: 'Extended SL-track, 8-roller simultaneous contact',
+    why: "The Pegasus Hybrid uses an extended SL-track and deploys 8 rollers simultaneously, meaning the chair contacts twice the surface area per pass compared to a standard 4-roller mechanism. For buyers whose primary complaint is that massage chairs cover too little of the back per stroke, this is the mechanical answer. 3D rollers, heat, stretch, zero gravity, foot and calf rollers. Confirmed 4 foot 8 inches to 6 foot 1 inch, 265 lbs. At $12,000 via Massage Chair Heaven.",
   },
 }
 

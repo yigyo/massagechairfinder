@@ -14,6 +14,7 @@ const PICK_IDS = [
   'relaxe-shiatsu',
   'kyota-genki-m380',
   'osaki-os-pro-admiral-ii',
+  'kahuna-hm-5000',
 ]
 
 interface Editorial {
@@ -45,6 +46,10 @@ const EDITORIAL: Record<string, Editorial> = {
   'osaki-os-pro-admiral-ii': {
     label: 'Best overall under $3,000',
     why: "The Admiral II is the strongest chair in this tier on pure therapeutic specs. A 49-inch SL-track (longest in the under-$3,000 range), 3D rollers with adjustable depth, body scanning, 2-inch wall clearance, and confirmed 5'2\" to 6'1\", 270 lbs. For buyers in that height and weight range who want the most capable chair available without crossing $3,000, this is the pick.",
+  },
+  'kahuna-hm-5000': {
+    label: 'Best SL-track under $2,500, space-saving',
+    why: "At $2,000, the HM-5000 is the only SL-track chair in this price tier with a space-saving recline mechanism. SL-track coverage means the roller path extends from the neck all the way under the glutes, which L-track chairs at this price also offer, but the HM-5000 combines that with a compact footprint and zero gravity. Foot and calf massage, hip airbags, 290 lb capacity, confirmed up to 6 foot 2 inches. A strong starting chair for buyers who are not ready to spend above $2,500 but do not want to compromise on track type.",
   },
 }
 

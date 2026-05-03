@@ -12,8 +12,8 @@ const PICK_IDS = [
   'panasonic-maf1',
   'amamedics-hilux-4d',
   'titan-3d-prestige',
-  'relaxonchair-vita-3d',
   'sharper-image-relieve-3d',
+  'kahuna-hm-078',
 ]
 
 interface Editorial {
@@ -38,13 +38,13 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best for small spaces',
     why: "The Titan 3D Prestige has 1-inch wall clearance, the tightest in the SL-track category at this price. For buyers in this range whose primary constraint is room size, the Prestige is the only SL-track 3D chair at $4,999 that can sit flush against a wall. Full-body stretch and heat confirmed. Up to 6'3\", 260 lbs.",
   },
-  'relaxonchair-vita-3d': {
-    label: 'SL-track 3D at $3,499',
-    why: "The Relax On Chair VITA-3D is an SL-track chair with 3D rollers, zero gravity, and heat at $3,499. The 3D roller mechanism allows adjustable pressure depth, the primary upgrade over 2D chairs in the tier below. SL-track covers the full spine from neck through lumbar and into the glutes. No confirmed height or weight capacity data from the retailer spec page. For buyers who want SL-track 3D roller depth at the entry of this tier, this is the straightforward pick.",
-  },
   'sharper-image-relieve-3d': {
     label: 'L-track 3D at $4,499',
     why: "The Sharper Image Relieve 3D is an L-track chair with 3D rollers, zero gravity, heat, and foot massage at $4,499. L-track extends under the glutes and into the thighs, the specification that matters for buyers whose lower back pain radiates into the hips or hamstrings. 3D rollers allow depth adjustment. Distributed through Massage Chair Warehouse. No confirmed height or weight capacity data from the retailer spec page. For buyers who need L-track glute coverage with 3D roller depth at this tier, this is the pick.",
+  },
+  'kahuna-hm-078': {
+    label: 'Best 350 lb capacity in range, SL-track 4D',
+    why: "The HM-078 Hubot carries a 350 lb weight limit, the highest of any chair in this price range, without sacrificing track type or roller quality. SL-track 4D roller means full-spine coverage from neck through glutes. Space-saving design requires minimal wall clearance. Heat, zero gravity, foot rollers, AI body scanning, voice control. Confirmed up to 6 foot 2 inches at 350 lbs. For larger buyers who need a genuine SL-track 4D chair under $5,000 with confirmed weight support, this is the pick.",
   },
 }
 

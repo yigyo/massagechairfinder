@@ -16,6 +16,7 @@ const PICK_IDS = [
   'jpmedics-kumo-4d',
   'luraco-i9-max-plus',
   'ergotec-et-180-pluto',
+  'kahuna-hm-078',
 ]
 
 interface Editorial {
@@ -55,6 +56,10 @@ const EDITORIAL: Record<string, Editorial> = {
   'ergotec-et-180-pluto': {
     label: 'Highest capacity under $2,000',
     why: "The Ergotec ET-180 Pluto carries a 320-lb weight capacity at $1,999, the most affordable chair in this list. L-track covers the glutes and thighs, 3D rollers allow pressure depth adjustment, and the chair includes heat, stretch, and foot massage. No zero gravity, which is the main tradeoff versus the higher-priced picks above. For buyers whose primary concern is weight capacity at the lowest accessible price, this is the entry point.",
+  },
+  'kahuna-hm-078': {
+    label: 'Highest weight cap under $5,000, SL-track 4D',
+    why: "At 350 lbs, the HM-078 Hubot has the highest confirmed weight capacity of any SL-track chair under $5,000 in this catalog. SL-track 4D roller with heat, zero gravity, foot massage, AI body scanning, and space-saving recline. Confirmed up to 6 foot 2 inches. For buyers over 300 lbs who want SL-track coverage and 4D roller depth without spending above $5,000, this is the first pick to check.",
   },
 }
 

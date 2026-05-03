@@ -15,6 +15,7 @@ const PICK_IDS = [
   'infinity-imperial-syner-d',
   'jpmedics-kaze-duo',
   'relaxonchair-mk-v-plus',
+  'kahuna-hm-5000',
 ]
 
 interface Editorial {
@@ -50,6 +51,10 @@ const EDITORIAL: Record<string, Editorial> = {
   'relaxonchair-mk-v-plus': {
     label: 'L-track with 3.5-inch wall clearance under $2,500',
     why: "The MK-V Plus is an L-track chair with zero gravity, heat, and foot massage at $2,499, with a 3.5-inch wall clearance. L-track extends under the glutes and thighs, adding lower-body coverage beyond what SL-track chairs at this price typically deliver. For buyers in the mid-price range who need L-track glute coverage in a smaller room, this fills a gap between the SL-track space-saving options below and the 3D-roller chairs above.",
+  },
+  'kahuna-hm-5000': {
+    label: 'Best entry-price SL-track in a compact footprint',
+    why: "The HM-5000 is an SL-track chair in a space-saving footprint at $2,000, a combination that essentially does not exist at this price elsewhere. Most chairs at $2,000 are S-track or L-track with shorter roller paths. The HM-5000 delivers full-spine SL-track coverage, zero gravity, foot and calf massage, and hip airbags in a compact design that reclines in place. Confirmed up to 6 foot 2 inches at 290 lbs. For buyers who want SL-track coverage with a tight budget and limited floor space, this is the entry point.",
   },
 }
 

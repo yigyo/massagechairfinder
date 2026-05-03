@@ -13,6 +13,7 @@ const PICK_IDS = [
   'osaki-os-pro-admiral-ii',
   'jpmedics-kumo-4d',
   'ergotec-et-180-pluto',
+  'kahuna-dios-7300',
 ]
 
 interface Editorial {
@@ -40,6 +41,10 @@ const EDITORIAL: Record<string, Editorial> = {
   'ergotec-et-180-pluto': {
     label: 'Best 3D L-track under $2,000',
     why: "The Ergotec ET-180 Pluto is an L-track chair with 3D rollers, heat, stretch, and foot massage at $1,999. For sciatica buyers, the L-track covers the glutes and thighs where sciatic compression originates. The 3D roller mechanism allows pressure depth adjustment, which matters for buyers who are sensitive to deep-tissue work and want to increase intensity gradually. 320-lb weight capacity. No zero gravity on this model, which is the main tradeoff versus the SL-track chairs above.",
+  },
+  'kahuna-dios-7300': {
+    label: 'Dual-track SL roller, coverage into glutes and hips',
+    why: "Sciatica pain often originates at the piriformis and gluteal muscles, not just the lumbar. The Dios-7300 addresses this with a 7D dual-track SL roller that extends coverage through the full lumbar, sacrum, and into the glutes simultaneously from two independent roller assemblies. Heat to the lumbar and legs, zero gravity, foot and calf rollers, AI body scanning. For buyers whose sciatica is worst in the glutes or down the hamstring, the SL extension combined with the dual-roller system gives more targeted coverage than a standard 4D SL-track at this price. Under $8,000 via Wish Rock Relaxation.",
   },
 }
 

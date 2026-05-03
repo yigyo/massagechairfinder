@@ -13,6 +13,7 @@ const PICK_IDS = [
   'amamedics-hilux-4d',
   'titan-pro-vigor-4d',
   'osaki-os-pro-maestro-le',
+  'kahuna-dios-7300',
 ]
 
 interface Editorial {
@@ -44,6 +45,10 @@ const EDITORIAL: Record<string, Editorial> = {
   'osaki-os-pro-maestro-le': {
     label: 'Best premium SL-track',
     why: 'The Maestro LE is a 4D SL-track chair with body scanning, lumbar heat, and space-saving 5-inch wall clearance at $8,999. The 4D roller system varies both depth and speed across the full spine-to-glute SL-track path. For lower back buyers who want the complete combination of premium roller quality and confirmed full-coverage SL-track without crossing into the $10,000 range, this is the pick. 260 lb capacity.',
+  },
+  'kahuna-dios-7300': {
+    label: 'Best dual-track roller for lower back, under $8,000',
+    why: "The Dios-7300 uses a 7D dual-track roller system, a Kahuna mechanism where two independent roller assemblies move simultaneously through the SL-track path. For buyers with chronic lower back pain, this means the chair can target multiple vertebral segments at the same time rather than sequentially, which changes how the massage feels and how much of the lumbar and sacral region is covered per pass. SL-track extends under the glutes. Heat, zero gravity, foot and calf rollers, AI body scan, voice control. Under $8,000 via Wish Rock Relaxation.",
   },
 }
 

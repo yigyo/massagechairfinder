@@ -14,6 +14,7 @@ const PICK_IDS = [
   'titan-pro-vigor-4d',
   'amamedics-hilux-4d',
   'sharper-image-relieve-3d',
+  'kahuna-hm-078',
 ]
 
 interface Editorial {
@@ -45,6 +46,10 @@ const EDITORIAL: Record<string, Editorial> = {
   'sharper-image-relieve-3d': {
     label: 'L-track 3D at $4,499',
     why: "The Sharper Image Relieve 3D is an L-track chair with 3D rollers, zero gravity, heat, and foot massage at $4,499. L-track extends under the glutes and into the thighs, adding lower-body coverage that SL-track chairs in this tier do not reach as deeply. 3D rollers allow pressure depth adjustment. Sold through Massage Chair Warehouse. No confirmed height or weight capacity data from the retailer spec page.",
+  },
+  'kahuna-hm-078': {
+    label: 'Best for larger buyers, SL-track 4D, space-saving',
+    why: "The HM-078 Hubot earns a spot here specifically because it combines SL-track 4D roller quality with a 350 lb weight limit in a space-saving footprint under $5,000. Most SL-track chairs in this range top out at 265 or 300 lbs. Heat, zero gravity, foot rollers, AI body scanning. Confirmed up to 6 foot 2 inches. If you are over 280 lbs and need a full-spine SL-track chair, this is where to start.",
   },
 }
 
