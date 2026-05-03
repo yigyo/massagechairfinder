@@ -45,7 +45,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'sharper-image-relieve-3d': {
     label: 'L-track 3D at $4,499',
-    why: "The Sharper Image Relieve 3D is an L-track chair with 3D rollers, zero gravity, heat, and foot massage at $4,499. L-track extends under the glutes and into the thighs, adding lower-body coverage that SL-track chairs in this tier do not reach as deeply. 3D rollers allow pressure depth adjustment. Sold through Massage Chair Warehouse. No confirmed height or weight capacity data from the retailer spec page.",
+    why: "The Sharper Image Relieve 3D is an L-track chair with 3D rollers, zero gravity, heat, and foot massage at $4,499. L-track extends under the glutes and into the thighs, adding lower-body coverage that SL-track chairs in this tier do not reach as deeply. 3D rollers allow pressure depth adjustment. No confirmed height or weight capacity data from the retailer spec page.",
   },
   'kahuna-hm-078': {
     label: 'Best for larger buyers, SL-track 4D, space-saving',

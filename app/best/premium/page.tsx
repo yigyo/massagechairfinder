@@ -54,7 +54,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'daiwa-pegasus-hybrid': {
     label: 'Extended SL-track, 8-roller simultaneous contact',
-    why: "The Pegasus Hybrid uses an extended SL-track and deploys 8 rollers simultaneously, meaning the chair contacts twice the surface area per pass compared to a standard 4-roller mechanism. For buyers whose primary complaint is that massage chairs cover too little of the back per stroke, this is the mechanical answer. 3D rollers, heat, stretch, zero gravity, foot and calf rollers. Confirmed 4 foot 8 inches to 6 foot 1 inch, 265 lbs. At $12,000 via Massage Chair Heaven.",
+    why: "The Pegasus Hybrid uses an extended SL-track and deploys 8 rollers simultaneously, meaning the chair contacts twice the surface area per pass compared to a standard 4-roller mechanism. For buyers whose primary complaint is that massage chairs cover too little of the back per stroke, this is the mechanical answer. 3D rollers, heat, stretch, zero gravity, foot and calf rollers. Confirmed 4 foot 8 inches to 6 foot 1 inch, 265 lbs.",
   },
 }
 

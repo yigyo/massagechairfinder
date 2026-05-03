@@ -28,7 +28,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'panasonic-maf1': {
     label: 'Best S-track for neck and upper-back focus',
-    why: "The Panasonic MAF1 is the S-track specialist recommendation in this range at $5,999. S-track focuses the entire roller path on the cervical spine and thoracic vertebrae, which is the right design when pain is concentrated in the neck and upper back with no lower-back involvement. 4D rollers, infrared-heated massage heads, confirmed 4'8\" to 6'2\" and 264 lbs, space-saving recline. Note: no zero gravity. Panasonic's engineering prioritizes roller precision over recline positions. This replaces the Synca JP970 as the S-track specialist recommendation at this tier.",
+    why: "The Panasonic MAF1 is the S-track specialist recommendation in this range at $5,999. S-track focuses the entire roller path on the cervical spine and thoracic vertebrae, which is the right design when pain is concentrated in the neck and upper back with no lower-back involvement. 4D rollers, infrared-heated massage heads, confirmed 4'8\" to 6'2\" and 264 lbs, space-saving recline. Note: no zero gravity. Panasonic's engineering prioritizes roller precision over recline positions.",
   },
   'amamedics-hilux-4d': {
     label: 'Best SL-track 4D, widest body fit',
@@ -40,7 +40,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'sharper-image-relieve-3d': {
     label: 'L-track 3D at $4,499',
-    why: "The Sharper Image Relieve 3D is an L-track chair with 3D rollers, zero gravity, heat, and foot massage at $4,499. L-track extends under the glutes and into the thighs, the specification that matters for buyers whose lower back pain radiates into the hips or hamstrings. 3D rollers allow depth adjustment. Distributed through Massage Chair Warehouse. No confirmed height or weight capacity data from the retailer spec page. For buyers who need L-track glute coverage with 3D roller depth at this tier, this is the pick.",
+    why: "The Sharper Image Relieve 3D is an L-track chair with 3D rollers, zero gravity, heat, and foot massage at $4,499. L-track extends under the glutes and into the thighs, the specification that matters for buyers whose lower back pain radiates into the hips or hamstrings. 3D rollers allow depth adjustment. No confirmed height or weight capacity data from the retailer spec page. For buyers who need L-track glute coverage with 3D roller depth at this tier, this is the pick.",
   },
   'kahuna-hm-078': {
     label: 'Best 350 lb capacity in range, SL-track 4D',

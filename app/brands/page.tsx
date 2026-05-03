@@ -20,7 +20,7 @@ export default function BrandsPage() {
     <div className="section" style={{ maxWidth: '900px' }}>
       <h1 className="text-4xl font-serif mb-3">Massage Chair Brands</h1>
       <p className="text-warm-gray mb-10 max-w-2xl">
-        There are roughly 15 active brands selling massage chairs in the US. Some share manufacturing
+        We cover {brands.length} massage chair brands in this catalog. Some share manufacturing
         facilities under different names. Others have decades of independent engineering behind them.
         Here is what each brand actually stands for.
       </p>
