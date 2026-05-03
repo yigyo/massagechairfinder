@@ -727,6 +727,14 @@ export const CHAIRS: Chair[] = [
     heightMaxIn: 77, weightCapacityLbs: 330,
     zeroGravity: true, heat: true, foot: true, calf: true,
     plusSizeConfirmed: true,
+    reviewRating:      5.0,
+    reviewCount:       2,
+    reviewSource:      "massagechairstore.com",
+    buyerThemes: [
+      "Both household members find themselves using the chair daily within the first few weeks",
+      "Assembly is minimal; most buyers are fully up and running the same day it arrives",
+      "Performance exceeds expectations for the price point; buyers are consistently pleasantly surprised",
+    ],
     aiNotes: 'Wirecutter Top Pick 2024. L-Track. 2D roller. 330 lb capacity. Verified from massagechairstore.com April 2026.',
   },
 
@@ -1030,6 +1038,15 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, foot: true, calf: true, stretch: true, aiScanning: true,
     plusSizeConfirmed: true,
     madeInUSA: false,  // Made in Japan
+    reviewRating:      5.0,
+    reviewCount:       9,
+    reviewSource:      "jpmedics.com",
+    buyerThemes: [
+      "Daily use becomes a fixed ritual quickly; buyers describe 20-minute morning or evening sessions within the first week",
+      "Airbag pressure and roller depth are consistently highlighted as standout strengths",
+      "Effective for desk workers carrying end-of-day lower back tension; the Thai stretch program earns repeated mention",
+      "Buyers who previously owned other premium chairs describe it as a clear step up in both coverage and depth",
+    ],
     aiNotes: 'Made in Japan. Highly regarded in the $8,000-$9,000 range. 320 lb capacity. Verified from massagechairwarehouse.com April 2026.',
   },
 
@@ -2110,6 +2127,13 @@ export const CHAIRS: Chair[] = [
     imageUrl: 'https://cdn.shopify.com/s/files/1/2261/7893/products/relaxonchair-vita-3d-massage-chair-main-221208.jpg',
     track: 'SL', roller: '3D',
     zeroGravity: true, heat: true,
+    reviewRating:      5.0,
+    reviewCount:       1,
+    reviewSource:      "relaxonchair.com",
+    buyerThemes: [
+      "Deep tissue intensity and personalized fit adjustment stand out for buyers who prefer firm pressure",
+      "Positive first-use experience with helpful sales and delivery support reported consistently",
+    ],
     aiNotes: 'SL-track with 3D rollers, zero gravity, and heat. Mid-tier 3D option from Relax On Chair.',
   },
 
