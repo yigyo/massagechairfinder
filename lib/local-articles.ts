@@ -557,7 +557,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
   {
     slug: 'brands-overview',
     title: 'Massage Chair Brands Compared: Who Makes What and Why It Matters',
-    excerpt: 'There are roughly 15 active massage chair brands selling in the US. Some share manufacturing facilities under different names. Others have decades of independent engineering behind them. Here is what the brand behind a chair actually tells you about build quality, warranty, and long-term support.',
+    excerpt: 'More than 35 massage chair brands are actively selling in the US market. Some share manufacturing facilities under different names. Others have decades of independent engineering behind them. Here is what the brand behind a chair actually tells you about build quality, warranty, and long-term support.',
     order: 6,
     publishedAt: '2026-04-28',
     body: `<p>Brand name is one of the most searched terms in the massage chair category — and one of the least useful shortcuts for most buyers. "Is Osaki a good brand?" and "Is Infinity worth the money?" are questions that sound like they have yes or no answers. They do not. What the brand tells you depends on which model you are looking at, what price range you are shopping in, and what you are optimizing for. This guide explains what the major brands actually represent so that brand becomes a useful filter rather than a confusing variable.</p>
@@ -625,6 +625,31 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p><strong>Real Relax</strong> occupies the $1,500 to $4,500 range with chairs that deliver basic massage functions at accessible prices. The build quality reflects the price point. For buyers who can stretch to $3,000 to $4,000, the step up to Kahuna or AmaMedics delivers a meaningfully different experience in build quality and massage effectiveness.</p>
 
 <p><strong>Titan</strong> shares manufacturing with Osaki. The 3D Prestige ($4,999) is a value-positioned version of mid-range Osaki designs. If budget is the primary constraint and a Titan model has the track type and features you need, the Osaki connection provides reasonable comfort on parts availability.</p>
+
+
+<h2>Additional brands in the current catalog</h2>
+
+<p>The brands covered above represent the most-purchased and most-researched names in the US market. The full catalog includes additional brands worth knowing, particularly for buyers shopping specific price points or features.</p>
+
+<p><strong>Fujiiryoki</strong> is one of the oldest massage chair manufacturers in Japan, founded in 1954. Their chairs are distributed in the US through Synca Wellness and span from the Calm Plus ($3,999) to the Cyber Relax Pro ($14,999). The brand shares the Japanese engineering heritage of Inada and Panasonic. Buyers considering Japanese-manufactured chairs at the premium tier should include Fujiiryoki models in their evaluation.</p>
+
+<p><strong>DCORE</strong> is a Japanese-manufactured premium brand with the Cirrus-JP ($12,999) and Stratus-JP ($11,499). Both are SL-track chairs built to Japanese manufacturing standards. DCORE is a strong consideration for buyers in the $11,000 to $13,000 range who want Japanese build quality with full SL-track coverage.</p>
+
+<p><strong>OHCO</strong> occupies the ultra-premium tier with the M.8 NEO LE ($18,000), one of the highest-priced chairs in the US market. It is positioned alongside Panasonic and JPMedics for buyers with no ceiling on budget.</p>
+
+<p><strong>Medical Breakthrough</strong> is a direct-to-consumer brand with a broad catalog spanning $4,249 to $14,649 across ten models. The brand markets aggressively and backs its chairs with strong warranty terms. The naming convention (Medical Breakthrough 6, 7, 8, 9, X) maps loosely to feature tier. Worth evaluating in the $5,000 to $9,000 range where their models compete with Osaki and Infinity mid-range options.</p>
+
+<p><strong>Positive Posture</strong> offers the Brio Sport ($8,999) and Brio Plus ($7,999), both targeting the $8,000 tier with a focus on posture and spinal alignment. The brand has a strong physical therapy partnership background.</p>
+
+<p><strong>Svago</strong> straddles the line between zero gravity recliners and light massage chairs. The ZGR ($2,199) and Newton ($3,499) are not heavy-duty massage chairs in the same sense as an SL-track system -- they are zero gravity recliners with massage functions. Relevant for buyers who want the zero gravity positioning benefit at a lower price than a full massage chair delivers.</p>
+
+<p><strong>Nouhaus</strong> covers the $2,299 to $3,999 range with five models including the Aurora, Nou Campo, Luna, and Orbit. Entry and mid-range competition for buyers who find the Kahuna LM-6800S range interesting.</p>
+
+<p><strong>Sharper Image</strong> offers the Relieve 3D ($2,499) and Revival ($3,999) as brand-name entry points. The Sharper Image name carries consumer recognition that helps with buyer confidence at lower price points.</p>
+
+<p><strong>Inner Balance</strong> covers the entry to mid-range with the Jin ($1,999) and Jin 2.0 ($3,999). Reasonable options in the under-$4,000 tier.</p>
+
+<p>Smaller brand entries in the catalog also include Relaxe, Cozzia, RockerTech, Ador, Ergotec, Ceragem, and Theramedic. These brands have limited catalog depth or newer US market presence. Evaluate specific models on their own merits rather than treating brand as a quality proxy in this tier.</p>
 
 <h2>How to use brand as a filter, not a destination</h2>
 

@@ -18,6 +18,8 @@ const categories = [
   { label: 'Premium ($5,000+)', slug: 'premium', desc: 'Top-of-market chairs for buyers who want the best and want it to last.' },
   { label: 'Tall People', slug: 'tall-people', desc: 'Chairs with extended roller stroke and generous height accommodation.' },
   { label: 'Heavy-Duty', slug: 'heavy-duty', desc: 'High weight-capacity models with reinforced frames.' },
+  { label: 'Seniors', slug: 'seniors', desc: 'Zero gravity, gentle pressure, and heat. Chairs verified for ease of use and long-term daily relief.' },
+  { label: 'Petite Buyers', slug: 'petite-buyers', desc: 'Chairs confirmed for buyers under 5\'2\" — verified height data, not just a spec sheet maximum.' },
 ]
 
 export default function BestPage() {
