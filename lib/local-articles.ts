@@ -1056,6 +1056,242 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 </details>`,
   },
 
+  // ── SECTION 11 ──────────────────────────────────────────────────────────────────────────────
+  {
+    slug: "body-scanning",
+    title: "What Is Body Scanning in a Massage Chair?",
+    excerpt: "Body scanning uses infrared or ultrasonic sensors to map your spine before each session. It adjusts where the roller starts and how far it travels to fit your actual body proportions, not an assumed average.",
+    order: 11,
+    publishedAt: "2026-05-03",
+    body: `<p>Body scanning is one of the most practically useful features in a massage chair, and one of the least understood. Before a session begins, sensors built into the chair detect the position of your shoulders and the length of your spine. The chair uses that data to set the roller start point and stroke length for your body specifically. A buyer at 5 foot 1 inch and a buyer at 6 foot 2 inches sitting in the same chair will get meaningfully different roller positions if body scanning is doing its job.</p>
+
+<h2>How body scanning actually works</h2>
+
+<p>Most chairs use infrared sensors mounted in the backrest. As the chair raises into the start position, the sensors sweep downward from the headrest to the base of the back, detecting where the shoulder blades are and how far the spine extends. Some chairs also detect shoulder width to center the roller path. The scan typically takes 10 to 30 seconds before the main program begins.</p>
+
+<p>A small number of higher-end chairs use ultrasonic sensing instead of infrared. The distinction matters primarily for accuracy at the edges of the height range. Infrared sensors can lose precision at very short or very tall body proportions. Ultrasonic sensors perform more consistently across a wider range.</p>
+
+<p>After the scan, the chair stores a body profile for that session. Some chairs allow you to save multiple profiles for different users. If two people of significantly different heights share the same chair, the ability to scan separately for each session is worth having.</p>
+
+<h2>Why it matters more than most buyers realize</h2>
+
+<p>Massage chair specs list maximum and minimum height ranges, but those numbers describe who can sit in the chair, not who gets optimal roller coverage. A chair designed for buyers from 5 foot 2 inches to 6 foot 2 inches has its default roller start position calibrated for that center range. A buyer at 5 foot 0 inches in that same chair, without body scanning, may find the roller lands at mid-back rather than the cervical spine, and the lumbar roller sits higher than the true lumbar vertebrae.</p>
+
+<p>Body scanning corrects for this by reading your actual proportions before each session rather than running a preset roller path. For buyers at the shorter or taller end of the chair's rated range, this is the difference between a chair that actually works and one that reliably misses the areas that need it most.</p>
+
+<h2>Should you prioritize body scanning?</h2>
+
+<p>Body scanning adds meaningful value in three situations. First, if your height is below 5 foot 2 inches or above 6 foot 2 inches, the chair's default roller path is not calibrated for you, and scanning compensates for that. Second, if multiple people of significantly different heights share the chair, scanning ensures each user gets coverage suited to their body rather than whoever last used it. Third, if you have a shorter-than-average torso relative to your height, scanning catches that where height alone does not.</p>
+
+<p>For buyers who fall squarely within the standard height range and are the primary user, body scanning is a useful feature but not the most important decision variable. Track type, roller quality, and pressure range tend to matter more for the typical buyer. The <a href="/learn/track-types">track types guide</a> covers the decisions that affect more buyers more significantly.</p>
+
+<h2>What body scanning does not do</h2>
+
+<p>Body scanning adjusts the roller path position. It does not adjust roller width to match shoulder width in most chairs. It does not detect pain points or automatically select programs suited to your tension patterns. Some chairs marketed with "AI" features combine body scanning with pressure detection during the session, but those are separate capabilities. Body scanning is specifically the pre-session spine mapping step.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Does every massage chair have body scanning?</strong></summary>
+<p>No. Entry-level chairs in the under-$2,500 range typically do not include body scanning. Mid-range chairs from $3,500 upward increasingly include it. It is nearly universal on chairs above $6,000. If body scanning matters for your situation, verify it on the spec sheet before purchasing.</p>
+</details>
+
+<details>
+<summary><strong>How accurate is body scanning?</strong></summary>
+<p>Accurate enough to make a real difference for most buyers, but not flawless. Infrared scanning can be less precise at height extremes. In practice, most buyers with body scanning report that the roller positioning feels significantly more accurate than chairs they have used without it.</p>
+</details>
+
+<details>
+<summary><strong>Do I need body scanning if I am average height?</strong></summary>
+<p>It helps but is not the most critical feature if you fall within the standard 5 foot 2 inch to 6 foot 2 inch range. Track type and roller quality will have a more direct impact on your experience. If you are outside that range or sharing with someone significantly taller or shorter, body scanning becomes more important.</p>
+</details>
+
+<p>If body fit is a concern in your decision, the <a href="/learn/body-fit">body fit guide</a> covers height and weight fit in more depth, and the <a href="/finder">chair finder</a> filters by confirmed height ranges across the full catalog.</p>`,
+  },
+
+  // ── SECTION 12 ──────────────────────────────────────────────────────────────────────────────
+  {
+    slug: "wall-hugger",
+    title: "What Is a Wall Hugger Massage Chair?",
+    excerpt: "A wall hugger massage chair reclines by sliding the seat forward rather than tilting backward. The result is a chair that can operate within 2 to 6 inches of the wall, compared to 10 to 18 inches for a standard reclining chair.",
+    order: 12,
+    publishedAt: "2026-05-03",
+    body: `<p>A wall hugger massage chair uses a space-saving recline mechanism that moves the seat forward as it reclines rather than pushing the backrest backward. In a standard reclining chair, fully reclining kicks the back of the chair backward, requiring 10 to 18 inches of clearance between the chair and whatever is behind it. A wall hugger moves in the opposite direction: the seat slides forward, so the back of the chair barely moves. Most wall hugger models require between 2 and 6 inches of wall clearance.</p>
+
+<h2>Why wall clearance matters more than footprint</h2>
+
+<p>Buyers often look at a chair's dimensions and assume the listed footprint tells the whole story. It does not. A chair that is 50 inches long in the upright position may need to extend to 75 inches when fully reclined in zero gravity. If 25 of those inches have to push backward, you need a room layout that accommodates that extension behind the chair.</p>
+
+<p>The practical implication is significant for common placements: against a bedroom wall, in an alcove, in a home office corner, or in any room where the chair sits close to a wall or piece of furniture. In those setups, a standard recline mechanism often cannot recline at all without hitting the wall. The wall hugger design solves that by using floor space in front of the chair rather than behind it.</p>
+
+<h2>What the trade-off is</h2>
+
+<p>Wall hugger chairs require more clearance in front of the chair when reclining. If you place a coffee table or other furniture in front of the chair, it needs to be far enough away to allow the seat to slide forward. In a typical living room where the chair faces a TV wall, this usually works well. In a small bedroom where the foot of the chair points toward a closet or wall, it can be a constraint.</p>
+
+<p>The other consideration is that the recline mechanism in a space-saving chair adds mechanical complexity. More components means more potential points of maintenance over the life of the chair. This has not been a consistent quality issue across the catalog, but it is worth noting that the cheapest wall hugger chairs sometimes compromise on mechanism quality.</p>
+
+<h2>How to check wall clearance specs</h2>
+
+<p>The relevant spec is listed as wall clearance in inches, sometimes called space-saving clearance. In the MCF catalog, this is confirmed from retailer spec pages rather than manufacturer marketing materials. The <a href="/best/small-spaces">best chairs for small spaces</a> page specifically filters for low-clearance models.</p>
+
+<p>A confirmed clearance of 2 inches means the chair can operate with the back of the chair 2 inches from the wall. Some chairs list 0 inches, meaning they can technically operate flush to the wall, though a small buffer is still advisable to protect the wall surface during repeated use.</p>
+
+<h2>Who benefits most from a wall hugger design</h2>
+
+<p>Buyers placing the chair in a bedroom, in a home office, or in any room where wall proximity is a constraint. Seniors who want the chair near a wall for easy entry and exit. Buyers in apartments or smaller homes where the available floor area limits placement options. Buyers who want zero gravity recline without rearranging a room around the chair.</p>
+
+<p>If you have a dedicated space with open clearance behind the chair, wall hugger versus standard recline is a secondary consideration. The <a href="/learn/room-fit">room fit guide</a> walks through how to measure your space and match it to chair dimensions, including recline clearance requirements.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Is a wall hugger the same as a space saver?</strong></summary>
+<p>Yes. Space saver, zero-wall, wall hugger, and minimal clearance are different names for the same recline mechanism design. The naming varies by brand and retailer.</p>
+</details>
+
+<details>
+<summary><strong>Do all massage chairs in the small spaces category use wall hugger mechanisms?</strong></summary>
+<p>Most do, but not all. Some compact chairs are small enough in overall footprint to fit in tight rooms while using a standard recline. Check the wall clearance spec specifically rather than relying on "small spaces" categorization alone.</p>
+</details>
+
+<details>
+<summary><strong>Does the wall hugger mechanism affect massage quality?</strong></summary>
+<p>No. The recline mechanism is entirely separate from the roller system and massage programming. A wall hugger chair delivers the same massage as a standard recline chair with the same roller and track specifications.</p>
+</details>
+
+<p>Use the <a href="/finder">chair finder</a> to filter by wall clearance alongside your other requirements, or browse <a href="/best/small-spaces">best chairs for small spaces</a> for pre-filtered picks.</p>`,
+  },
+
+  // ── SECTION 13 ──────────────────────────────────────────────────────────────────────────────
+  {
+    slug: "airbag-massage",
+    title: "Airbag Massage: What It Does and Whether You Need It",
+    excerpt: "Airbag massage uses inflatable chambers to compress and release different parts of the body. It is a different therapeutic mechanism from roller massage, and most mid-range and premium chairs combine both systems.",
+    order: 13,
+    publishedAt: "2026-05-03",
+    body: `<p>Airbag massage works by inflating and deflating air chambers positioned against different parts of the body. When an airbag inflates, it applies compression pressure to the area it contacts. When it deflates, the pressure releases. A sequence of inflation and deflation, often in overlapping waves, creates a compression massage that is distinct in feel and therapeutic mechanism from roller massage.</p>
+
+<h2>Where airbags are placed</h2>
+
+<p>Coverage varies significantly across chairs and price points. Common placements include the shoulders and upper arms, the hands and forearms, the seat and hip area, the calves, and the feet. Some chairs extend airbag coverage to the thighs. The shoulder airbags in most mid-range and premium chairs are designed to immobilize the upper body during the session, which allows the roller to apply pressure more effectively because the body is not shifting away from the contact point.</p>
+
+<p>Airbag count is listed in specs and is often used in marketing comparisons: "50 airbags vs 32 airbags." The count is a proxy for coverage breadth, but placement matters more than raw count. A chair with 30 well-positioned airbags will typically provide better coverage than one with 50 poorly placed chambers. Evaluate the body areas covered rather than the airbag number when comparing specs.</p>
+
+<h2>How airbag massage differs from roller massage</h2>
+
+<p>Roller massage moves through tissue: the rollers travel up and down the spine, applying pressure at different points along the path. The therapeutic mechanism is closest to deep tissue kneading or Swedish strokes. Airbag massage does not move. It applies and releases compression at fixed points on the body. The therapeutic mechanism is closer to lymphatic drainage massage or circulation-focused compression therapy.</p>
+
+<p>The two systems address different needs and are designed to complement each other. Rollers address muscle tissue along the spine and glutes. Airbags address the extremities (arms, calves, feet) and the lateral body areas that the roller track does not reach. In a well-designed chair, both systems run simultaneously or in coordinated sequence during a session.</p>
+
+<h2>Who benefits most from airbag coverage</h2>
+
+<p>Buyers with circulation issues, leg swelling, or fatigue in the arms and calves get the most direct benefit from airbag coverage. The compression and release cycle promotes venous return, which is why calf and foot airbag coverage is often highlighted for buyers with desk jobs or long periods of standing. Buyers who travel frequently or experience leg swelling on long flights often find calf airbag coverage particularly effective for recovery.</p>
+
+<p>Airbag shoulder coverage benefits almost all buyers because it stabilizes the body during the roller portion of the session. Without shoulder airbags, the body can shift slightly as the roller moves, reducing the effective pressure at any given point. With shoulder airbags engaged, the body stays positioned against the roller path consistently.</p>
+
+<h2>Buyers who need airbag coverage exclusively</h2>
+
+<p>Some buyers cannot tolerate roller pressure regardless of intensity setting: those with significant osteoporosis, fibromyalgia, active nerve compression, or post-surgical hardware. For these buyers, airbag-only chairs or vibration massage chairs are the appropriate alternative. The <a href="/best/seniors">best chairs for seniors</a> page covers the Human Touch Laevo ZG, which uses airbag compression and vibration without any roller mechanism.</p>
+
+<h2>Do you need it?</h2>
+
+<p>Airbag massage coverage in the arms, calves, and feet adds genuine value and is worth prioritizing if those areas are part of your recovery or relaxation goals. Shoulder airbags add structural value to every session regardless of your specific pain focus. Absent any particular need, airbag coverage is a standard feature of mid-range and premium chairs and is rarely a meaningful differentiator at the $4,000 and above tier, where it is almost universally included.</p>
+
+<p>At the entry level under $3,000, airbag coverage varies more significantly. If calf and foot compression are important to you, check the specific coverage areas on the model you are evaluating rather than assuming coverage is included.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Can I adjust airbag intensity separately from roller intensity?</strong></summary>
+<p>On most mid-range and premium chairs, yes. Airbag intensity, roller intensity, and heat are typically separate adjustable parameters. Entry-level chairs may offer fewer independent controls.</p>
+</details>
+
+<details>
+<summary><strong>Does airbag count matter?</strong></summary>
+<p>Less than marketing suggests. What matters is whether the chair has airbag coverage in the specific areas you care about: shoulders, arms, calves, feet, hips. Check the coverage areas, not the count.</p>
+</details>
+
+<details>
+<summary><strong>Is airbag massage safe for everyone?</strong></summary>
+<p>For most buyers, yes. Buyers with active deep vein thrombosis, significant varicose veins, or compromised circulation should consult a physician before using compression massage. The same applies to buyers with pacemakers or other implanted medical devices in areas that would be covered by airbags.</p>
+</details>
+
+<p>The <a href="/learn/roller-dimensions">roller dimensions guide</a> covers the mechanical massage side of the equation, and the <a href="/finder">chair finder</a> filters by specific features including airbag coverage area.</p>`,
+  },
+
+  // ── SECTION 14 ──────────────────────────────────────────────────────────────────────────────
+  {
+    slug: "why-massage-chairs-are-expensive",
+    title: "Why Are Massage Chairs So Expensive?",
+    excerpt: "A quality massage chair costs $3,000 to $10,000. The price reflects precision mechanical engineering, multi-year warranty infrastructure, and a product built to operate daily for a decade. Here is what the money actually buys.",
+    order: 14,
+    publishedAt: "2026-05-03",
+    body: `<p>The most common question from buyers early in the research process is some version of: why does this cost so much? A $6,000 massage chair is a real number. The sticker shock is understandable. The answer is not that the margins are high or that you are paying for branding. A well-made massage chair is a piece of precision mechanical engineering designed to run daily for ten or more years. When you break down what goes into one, the price makes more sense.</p>
+
+<h2>The roller mechanism is the core cost driver</h2>
+
+<p>The roller system in a quality massage chair is a multi-axis mechanical assembly that has to move in three or four dimensions under consistent load, session after session, for years. The rollers travel a fixed track while simultaneously adjusting depth into muscle tissue (the 3D or 4D function), varying speed, and in 4D systems, changing rhythm patterns. The components that do this work include drive motors, precision gears, roller heads, and control boards that coordinate the motion across axes.</p>
+
+<p>In a cheap chair, these components are lower-grade: lighter motors, less precise tolerances, foam and plastic assemblies that compress and wear faster. A cheap chair often feels fine in the first few months and noticeably different within two years. The drive belt that controls roller movement is the first thing to go. Replacement parts for entry-level chairs are often unavailable after the brand moves on to the next model.</p>
+
+<p>In a quality mid-range or premium chair, the roller mechanism is engineered for durability. The motors are heavier and quieter. The gear tolerances are tighter. The roller heads are designed to distribute force evenly rather than concentrating it at contact points that wear. This is the primary reason a $5,000 chair delivers a different experience from a $1,200 chair, not just on day one but on day one thousand.</p>
+
+<h2>Track engineering adds significant cost at the SL level</h2>
+
+<p>An S-track follows a simple curve from the neck to the lumbar. An L-track or SL-track has to extend under the seat and curve beneath the glutes while still maintaining roller contact with the body throughout the transition. That geometry requires a longer track, a more complex mounting system, and a roller mechanism that can navigate the curve without losing pressure or alignment.</p>
+
+<p>SL-track chairs cost more than S-track chairs at equivalent quality levels because the engineering and manufacturing cost is genuinely higher. The longer track also means more material and a larger footprint, which affects shipping and handling costs. When you see an SL-track chair for significantly less than other SL-track chairs in the same category, the cut is almost always in the roller mechanism quality, the motor, or the frame construction.</p>
+
+<h2>Warranty infrastructure is a real cost embedded in the price</h2>
+
+<p>A five-year structural warranty on a massage chair means the manufacturer has committed to supporting parts and repair labor for five years. That requires domestic parts inventory, trained service technicians, and a logistics network to get replacement components to buyers across the country. For brands like Luraco (US-assembled in Texas) and Osaki (US-based distribution with parts warehouses), this infrastructure is a real ongoing cost that is built into the chair price.</p>
+
+<p>Chairs that are significantly cheaper often have shorter warranty terms and less parts availability. When the control board fails at year three on a $1,500 chair, the replacement part often does not exist or costs a significant fraction of a new chair. The embedded warranty cost in a premium chair is, in part, protection against that outcome.</p>
+
+<h2>Japanese manufacturing commands a genuine premium</h2>
+
+<p>Japanese-manufactured brands like Inada, Panasonic, and Fujiiryoki are more expensive than Chinese-manufactured equivalents not because of brand prestige but because of actual manufacturing cost differentials. Labor costs in Japan are higher. Quality control standards are more stringent. The domestic Japanese massage chair market has historically demanded a higher therapeutic standard than export markets, and the engineering reflects that.</p>
+
+<p>The gap between the best Japanese-made chairs and the best Chinese-manufactured chairs has narrowed over the past decade. But it has not closed. For buyers who have tried multiple chairs and found them unsatisfying, the Japanese tier is where the meaningful upgrade lives.</p>
+
+<h2>The ten-year cost comparison</h2>
+
+<p>A $6,000 massage chair used daily for ten years costs $600 per year, or $1.64 per session. A single chiropractic session typically runs $65 to $100 with insurance. Three sessions per month at $80 is $2,880 per year. Over ten years, that is $28,800 in sessions that address the symptom rather than providing ownership of the solution.</p>
+
+<p>The math is not the only consideration. Some buyers need chiropractic care that a massage chair cannot replace. But for the significant portion of buyers whose chiropractor visits address chronic tension and lower back pain rather than structural adjustment, the ownership comparison is worth running honestly.</p>
+
+<h2>What you actually get at each price tier</h2>
+
+<p>Under $2,500: entry-level S-track or L-track chairs with 2D rollers, basic airbag coverage, and short warranty terms. Viable for light use and lower physical demands, but not for buyers with significant chronic pain or daily use expectations.</p>
+
+<p>$2,500 to $4,000: the entry to mid-range tier. SL-track becomes available, roller quality improves, zero gravity and heat are standard. The Kahuna LM-6800S and Osaki OS-Pro Admiral II live here. These are capable chairs for the core buyer.</p>
+
+<p>$4,000 to $7,000: meaningful step up in roller quality (3D and 4D), better airbag coverage, body scanning, improved warranty terms. Chairs like the AmaMedics Hilux 4D and Infinity Dynasty 4D. This is the range where daily serious use becomes a realistic expectation.</p>
+
+<p>$7,000 to $14,000: premium and ultra-premium. Japanese-manufactured chairs, US-assembled options like Luraco, and top-tier Chinese-manufactured models from Ogawa and Bodyfriend. Built for a decade of daily use with strong parts availability.</p>
+
+<p>Above $14,000: a small category of chairs where the incremental therapeutic improvement over the $10,000 tier is real but increasingly marginal for most buyers. Worth considering only for buyers who have already owned and used mid-premium chairs and are making an informed upgrade decision.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Why do some chairs at the same price vary so much in quality?</strong></summary>
+<p>Primarily because of where manufacturers cut costs in their components. A chair can hit a target price by using a lower-grade motor, cheaper foam density, or a shorter roller track while keeping the feature count high on paper. Comparing roller type, track type, and warranty terms side by side tells you more than price alone.</p>
+</details>
+
+<details>
+<summary><strong>Is there a point where paying more does not improve the massage?</strong></summary>
+<p>Yes. For most buyers, the therapeutic benefit plateaus somewhere in the $6,000 to $8,000 range. Above that, you are primarily paying for manufacturing heritage, materials quality, and longevity rather than a noticeably better massage in the first session. The exception is buyers with specific therapeutic needs who have found mid-range chairs insufficient after extended use.</p>
+</details>
+
+<details>
+<summary><strong>Are there good options under $3,000?</strong></summary>
+<p>Yes. The Kahuna LM-6800S at $2,499 and the Kyota Genki M380 at $2,999 are both legitimate chairs with SL-track and L-track coverage respectively. The limitation is roller quality and warranty depth rather than the core massage experience. For buyers who cannot stretch further, these are real options worth considering. See the <a href="/best/under-3000">best chairs under $3,000</a> for the full comparison.</p>
+</details>
+
+<p>The <a href="/learn/how-to-buy">buying framework guide</a> walks through the decision sequence from physical need through budget and track type. The <a href="/learn/brands-overview">brands overview</a> explains what each brand name actually tells you about build quality and support. The <a href="/finder">chair finder</a> filters the full catalog by your specific requirements.</p>`,
+  },
+
 
 ]
 
