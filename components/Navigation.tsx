@@ -67,11 +67,9 @@ const navLinks: NavLink[] = [
     label: 'Compare',
     href: '/compare',
     children: [
-      { label: 'Inada DreamWave vs JPMedics Kumo 4D',           href: '/compare/inada-dreamwave-vs-jpmedics-kumo-4d' },
       { label: 'Infinity Dynasty 4D vs Infinity Genesis Max 4D', href: '/compare/infinity-dynasty-4d-vs-infinity-genesis-max-4d' },
       { label: 'Luraco i9 Max Plus vs Panasonic MAK1',          href: '/compare/luraco-i9-max-plus-vs-panasonic-mak1' },
       { label: 'Osaki OS-Pro Admiral II vs Kahuna LM-6800S',    href: '/compare/osaki-os-pro-admiral-ii-vs-kahuna-lm-6800s' },
-      { label: 'Synca JP970 vs Kahuna LM-6800',                 href: '/compare/synca-jp970-vs-kahuna-lm-6800' },
     ],
   },
   { label: 'Buying Guide', href: '/learn' },
@@ -144,7 +142,7 @@ export default function Navigation() {
                   <div className="hidden group-hover:block absolute top-full left-0 pt-2 z-50">
                     <div className={
                       "bg-white rounded-xl shadow-lg border border-sand py-2 " +
-                      (link.label === 'By Brand' ? "grid grid-cols-2 gap-x-2 min-w-[280px] px-2" : "flex flex-col min-w-[220px]")
+                      (link.label === 'By Brand' ? "grid grid-cols-2 gap-x-4 min-w-[360px] px-3" : "flex flex-col min-w-[220px]")
                     }>
                       {link.children.map((child) => (
                         <Link
