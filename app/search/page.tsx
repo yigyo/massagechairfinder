@@ -17,12 +17,14 @@ export function generateMetadata({ searchParams }: Props): Metadata {
 }
 
 const TYPE_LABELS: Record<SearchResult['type'], string> = {
+  collection: 'Best Picks',
   chair: 'Chair',
   article: 'Guide',
   brand: 'Brand',
 }
 
 const TYPE_BADGE_COLORS: Record<SearchResult['type'], string> = {
+  collection: 'bg-terra-cotta text-white',
   chair: 'bg-navy text-white',
   article: 'bg-teal text-white',
   brand: 'bg-gold text-white',
@@ -63,8 +65,8 @@ function ResultSection({ title, results }: { title: string; results: SearchResul
 
 export default function SearchPage({ searchParams }: Props) {
   const q = (searchParams.q || '').trim()
-  const { chairs, articles, brands } = runSearch(q)
-  const total = chairs.length + articles.length + brands.length
+  const { collections, chairs, articles, brands } = runSearch(q)
+  const total = collections.length + chairs.length + articles.length + brands.length
 
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -103,6 +105,7 @@ export default function SearchPage({ searchParams }: Props) {
 
       {total > 0 && (
         <>
+          <ResultSection title="Best Picks" results={collections} />
           <ResultSection title="Chairs" results={chairs} />
           <ResultSection title="Buying Guides" results={articles} />
           <ResultSection title="Brands" results={brands} />

@@ -3,7 +3,7 @@ import { LOCAL_ARTICLES } from './local-articles'
 import { LOCAL_BRANDS } from './local-brands'
 
 export interface SearchResult {
-  type: 'chair' | 'article' | 'brand'
+  type: 'chair' | 'article' | 'brand' | 'collection'
   title: string
   subtitle?: string
   href: string
@@ -75,9 +75,89 @@ function scoreArticle(title: string, excerpt: string, body: string, q: string): 
   return 0
 }
 
+// ── Best-for collection pages ──────────────────────────────────────────────────
+// These are the /best/[slug] curated pick pages. They surface at the top of
+// search results when the query matches a condition or category.
+
+interface BestPage {
+  slug: string
+  title: string
+  description: string
+  keywords: string[]
+}
+
+const BEST_PAGES: BestPage[] = [
+  {
+    slug: 'sciatica',
+    title: 'Best Massage Chairs for Sciatica',
+    description: 'L-track and SL-track models that extend under the glutes and into the thighs — the anatomy sciatica requires.',
+    keywords: ['sciatica', 'sciatic', 'sciatic nerve', 'hip pain', 'glute', 'piriformis', 'radiating leg pain'],
+  },
+  {
+    slug: 'lower-back-pain',
+    title: 'Best Massage Chairs for Lower Back Pain',
+    description: 'SL-track chairs that reach the lumbar and hips — the right call for 80% of buyers.',
+    keywords: ['lower back pain', 'lower back', 'lumbar', 'back pain', 'lumbar pain', 'sacrum'],
+  },
+  {
+    slug: 'neck-shoulders',
+    title: 'Best Massage Chairs for Neck and Shoulders',
+    description: 'Chairs with serious upper-body airbag coverage and deep neck rollers.',
+    keywords: ['neck', 'shoulder', 'neck pain', 'neck and shoulder', 'upper back', 'trapezius'],
+  },
+  {
+    slug: 'small-spaces',
+    title: 'Best Massage Chairs for Small Spaces',
+    description: 'Space-saving models — some need as little as 2 inches from the wall.',
+    keywords: ['small space', 'space saving', 'apartment', 'wall clearance', 'compact', 'wall hugger', 'tight space'],
+  },
+  {
+    slug: 'under-2000',
+    title: 'Best Massage Chairs Under $2,000',
+    description: 'Entry-level chairs that still deliver meaningful relief.',
+    keywords: ['under 2000', 'budget', 'affordable', 'cheap', 'entry level', '1000', '1500', '2000'],
+  },
+  {
+    slug: 'under-3000',
+    title: 'Best Massage Chairs Under $3,000',
+    description: 'The sweet spot for most buyers — strong features without flagship pricing.',
+    keywords: ['under 3000', '3000', '2500'],
+  },
+  {
+    slug: 'under-5000',
+    title: 'Best Massage Chairs Under $5,000',
+    description: 'Where SL-track gains 4D rollers and body fit ranges widen.',
+    keywords: ['under 5000', '5000', '4000'],
+  },
+  {
+    slug: '3000-to-5000',
+    title: 'Best Massage Chairs $3,000 to $5,000',
+    description: 'Mid-range flagships with SL-track, 4D rollers, and serious build quality.',
+    keywords: ['3000 to 5000', '3000 5000', 'mid range', '3500', '4000', '4500'],
+  },
+  {
+    slug: 'tall-people',
+    title: 'Best Massage Chairs for Tall People',
+    description: 'Chairs with extended roller stroke and generous height accommodation.',
+    keywords: ['tall', 'tall people', 'tall person', 'height', '6 foot', '6 feet', 'long torso'],
+  },
+  {
+    slug: 'heavy-duty',
+    title: 'Best Heavy-Duty Massage Chairs',
+    description: 'High weight-capacity models with reinforced frames.',
+    keywords: ['heavy duty', 'plus size', 'weight capacity', 'heavy', '300 lbs', 'large person', 'bariatric'],
+  },
+  {
+    slug: 'premium',
+    title: 'Best Premium Massage Chairs ($5,000+)',
+    description: 'Top-of-market chairs for buyers who want the best and want it to last.',
+    keywords: ['premium', 'luxury', 'high end', 'best chair', 'top of the line', '6000', '7000', '8000', '10000'],
+  },
+]
+
 // ── Condition → chair spec mappings ────────────────────────────────────────────
-// sparse: true  = rare feature (<40% of chairs) → show condition-matched chairs
-// sparse: false = common feature (>60% of chairs) → show articles only, not chairs
+// sparse: true  = rare feature (<40% of chairs) -> show condition-matched chairs
+// sparse: false = common feature (>60% of chairs) -> show articles only, not chairs
 
 const CONDITION_CHAIR_FILTERS: Array<{
   keywords: string[]
@@ -90,104 +170,131 @@ const CONDITION_CHAIR_FILTERS: Array<{
     sparse: true,
   },
   {
-    keywords: ['neck', 'shoulder', 'upper back', 'cervical', 'trapezius', 'traps', 'thoracic'],
-    filter: c => c.track === 'S' || c.track === 'SL',
-    sparse: true,
-  },
-  {
-    keywords: ['lower back', 'lumbar', 'back pain', 'lower back pain', 'lumbago'],
-    filter: c => c.track === 'SL' || c.track === 'L' || c.track === 'S',
-    sparse: true,
-  },
-  {
-    keywords: ['zero gravity', 'zero-gravity', 'weightless', 'anti gravity', 'anti-gravity'],
-    filter: c => c.zeroGravity === true,
-    sparse: false,  // most chairs have zero gravity
-  },
-  {
-    keywords: ['space saving', 'small space', 'wall hugger', 'tight space', 'small room', 'apartment'],
+    keywords: ['space saving', 'space-saving', 'small space', 'compact', 'apartment', 'wall hugger'],
     filter: c => c.spaceSaving === true,
     sparse: true,
   },
   {
-    keywords: ['heat', 'heated', 'heat therapy', 'warming', 'warmth'],
-    filter: c => c.heat === true,
-    sparse: false,  // most chairs have heat
+    keywords: ['tall', 'tall person', 'tall people', 'height', '6 foot', '6 feet'],
+    filter: c => (c.heightMaxIn ?? 0) >= 76,
+    sparse: true,
   },
   {
-    keywords: ['tall', 'tall person', 'tall people', '6 foot', '6 feet', 'big and tall'],
-    filter: c => (c.heightMaxIn ?? 0) >= 76,
+    keywords: ['heavy', 'heavy duty', 'plus size', 'weight capacity', '300 lbs', 'large person'],
+    filter: c => (c.weightCapacityLbs ?? 0) >= 280,
+    sparse: true,
+  },
+  {
+    keywords: ['zero gravity', 'zero-gravity', 'weightless', 'zero g'],
+    filter: c => c.zeroGravity === true,
+    sparse: false,
+  },
+  {
+    keywords: ['heat', 'heated', 'heat therapy', 'warming', 'lumbar heat'],
+    filter: c => c.heat === true,
+    sparse: false,
+  },
+  {
+    keywords: ['4d', '4d rollers', '4d massage'],
+    filter: c => c.rollerDimension === '4D',
+    sparse: true,
+  },
+  {
+    keywords: ['sl track', 'sl-track', 'full body', 'full coverage'],
+    filter: c => c.track === 'SL',
+    sparse: true,
+  },
+  {
+    keywords: ['l track', 'l-track'],
+    filter: c => c.track === 'L',
+    sparse: true,
+  },
+  {
+    keywords: ['lower back', 'lower back pain', 'lumbar', 'back pain'],
+    filter: c => c.track === 'SL' || c.track === 'L',
     sparse: true,
   },
 ]
 
-// Condition → article slugs (always surfaced, bypass text score threshold)
 const CONDITION_ARTICLE_MAP: Array<{ keywords: string[], slugs: string[] }> = [
   {
     keywords: ['sciatica', 'hip', 'glute', 'lower back', 'back pain', 'lumbar', 'sacrum', 'sl track', 'l track', 's track', 'track type'],
     slugs: ['track-types', 'sl-track'],
   },
   {
-    keywords: ['zero gravity', 'weightless', 'recline', 'anti gravity', 'zero-gravity'],
+    keywords: ['zero gravity', 'zero-gravity', 'weightless'],
     slugs: ['zero-gravity'],
   },
   {
-    keywords: ['heat', 'heated', 'warmth', 'heat therapy'],
-    slugs: ['heat-therapy'],
+    keywords: ['heat', 'heated', 'heat therapy'],
+    slugs: ['heat-therapy', 'zero-gravity'],
   },
   {
-    keywords: ['height', 'weight', 'body', 'tall', 'shoulder width', 'petite', 'large frame'],
-    slugs: ['body-fit'],
-  },
-  {
-    keywords: ['room', 'space', 'dimensions', 'wall clearance', 'apartment', 'small space'],
-    slugs: ['room-fit'],
-  },
-  {
-    keywords: ['roller', '4d', '3d', '2d', '5d', 'intensity', 'pressure', 'deep tissue'],
+    keywords: ['4d', '4d rollers', 'roller', 'roller dimension', 'roller depth'],
     slugs: ['roller-dimensions', '4d-rollers'],
   },
   {
-    keywords: ['brand', 'manufacturer', 'maker'],
-    slugs: ['brands-overview'],
+    keywords: ['body fit', 'body size', 'height', 'weight', 'tall', 'shoulder width'],
+    slugs: ['body-fit'],
   },
   {
-    keywords: ['buy', 'buying', 'how to choose', 'decision', 'tips', 'guide'],
-    slugs: ['how-to-buy'],
+    keywords: ['room', 'space', 'size', 'dimensions', 'floor space', 'room size'],
+    slugs: ['room-fit'],
+  },
+  {
+    keywords: ['sl track', 'sl-track', 'full body'],
+    slugs: ['sl-track', 'track-types'],
+  },
+  {
+    keywords: ['lower back', 'lower back pain', 'lumbar', 'back pain'],
+    slugs: ['track-types'],
   },
 ]
 
-// ── Chair result helper ─────────────────────────────────────────────────────────
-
-function chairToResult(chair: Chair): SearchResult {
-  const priceLabel = chair.priceMin
-    ? '$' + chair.priceMin.toLocaleString() + (chair.priceMax ? ' to $' + chair.priceMax.toLocaleString() : '')
-    : ''
-  return {
-    type: 'chair',
-    title: chair.name,
-    subtitle: [chair.brand, priceLabel].filter(Boolean).join(' · '),
-    href: '/chairs/' + chair.id,
-  }
+function tierScore(c: Chair): number {
+  const p = c.priceRetail ?? 0
+  if (p >= 5000) return 1
+  if (p >= 3000) return 2
+  if (p >= 2000) return 3
+  return 4
 }
 
-const TIER_ORDER: Record<string, number> = { A: 0, B: 1, C: 2 }
-function tierScore(c: Chair): number {
-  return c.affiliateTier ? (TIER_ORDER[c.affiliateTier] ?? 3) : 4
+function chairToResult(c: Chair): SearchResult {
+  return {
+    type: 'chair',
+    title: c.name,
+    subtitle: c.brand + ' · $' + (c.priceRetail?.toLocaleString() ?? 'N/A'),
+    href: '/chairs/' + c.slug,
+  }
 }
 
 // ── Main search function ────────────────────────────────────────────────────────
 
-export function runSearch(query: string): {
+export function runSearch(rawQuery: string): {
+  collections: SearchResult[]
   chairs: SearchResult[]
   articles: SearchResult[]
   brands: SearchResult[]
 } {
-  const q = query.trim()
-  if (!q || q.length < 2) return { chairs: [], articles: [], brands: [] }
+  const q = normalize(rawQuery)
+  if (!q) return { collections: [], chairs: [], articles: [], brands: [] }
 
   const seenChairIds = new Set<string>()
   const seenArticleSlugs = new Set<string>()
+
+  // ── Step 0: Best-for collection pages (always shown first) ────────────────
+  const collections: SearchResult[] = []
+  for (const page of BEST_PAGES) {
+    const matches = page.keywords.some(kw => fuzzyMatches(kw, q))
+    if (matches) {
+      collections.push({
+        type: 'collection',
+        title: page.title,
+        subtitle: page.description,
+        href: '/best/' + page.slug,
+      })
+    }
+  }
 
   // ── Step 1: Chairs — direct name/brand text match ─────────────────────────
   const nameMatchChairs: SearchResult[] = []
@@ -266,5 +373,5 @@ export function runSearch(query: string): {
 
   const allChairs = [...nameMatchChairs, ...conditionChairs.slice(0, Math.max(0, 12 - nameMatchChairs.length))]
 
-  return { chairs: allChairs, articles, brands }
+  return { collections, chairs: allChairs, articles, brands }
 }
