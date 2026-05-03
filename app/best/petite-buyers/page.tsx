@@ -4,7 +4,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Best Massage Chairs for Petite Buyers (2026)",
-  description: "Most massage chairs are designed for buyers 5'2" and taller. For buyers under 5'2", confirmed height fit data matters more than a spec sheet maximum. Six picks with verified small-body accommodation.",
+  description: "Most massage chairs are designed for buyers 5'2\" and taller. For buyers under 5'2\", confirmed height fit data matters more than a spec sheet maximum. Six picks with verified small-body accommodation.",
 }
 
 const PICK_IDS = [
@@ -35,7 +35,7 @@ const EDITORIAL: Record<string, Editorial> = {
     why: "The Panasonic MAF1 is confirmed from 4 foot 8 inches to 6 foot 2 inches and measures just 27 inches wide, the most compact full-featured chair in the catalog. S-track covers the neck through the lumbar. No zero gravity and no L or SL extension, which means it is not the right pick for buyers with lower back pain that radiates into the hips. But for petite buyers managing upper and mid-back tension who also have limited room width, the MAF1 is purpose-built. Panasonic manufacturing heritage, 264-lb capacity. At $5,999.",
   },
   "daiwa-majesty-2d": {
-    label: "Best L-track confirmed to 4'8"",
+    label: "Best L-track confirmed to 4'8\"",
     why: "The Majesty 2D is confirmed from 4 foot 8 inches to 6 foot 6 inches, the shortest confirmed lower bound of any L-track chair in the catalog. Double reflexology foot rollers, 42 airbags, two-stage zero gravity, 265-lb capacity. The L-track covers the full spine and extends under the glutes, making this a legitimate option for petite buyers with lower back and hip pain rather than just upper back issues. At $6,000, the 2D roller is the tradeoff for the confirmed height range and Daiwa build quality.",
   },
   "kyota-yugana-m780": {
