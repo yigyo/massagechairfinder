@@ -49,7 +49,7 @@ const EDITORIAL: Record<string, Editorial> = {
     why: "The Positive Posture Brio Sport is confirmed for buyers from 5'0\" to 6'5\" with a 47-inch L-track, 4D rollers, heat, and foot massage at $8,999. The 47-inch track length combined with the confirmed height range means the roller path is designed to reach the true lumbar on taller bodies. 265-lb weight capacity. No zero gravity on this model. For tall buyers who want confirmed height fit with 4D roller depth at the premium tier, this is the documented-fit option.",
   },
   'daiwa-black-panther-supreme-hybrid': {
-    label: 'Widest confirmed height range: 4'8" to 6'6"',
+    label: 'Widest confirmed height range: 4\'8" to 6\'6"',
     why: "The Black Panther Supreme Hybrid is confirmed for 4 foot 8 inches to 6 foot 6 inches at 300 lbs, the broadest verified height range in this catalog. The HybriFlex track extends further under the glutes than a standard SL-track, which matters more for taller buyers because the distance from the neck to the tailbone is longer and most chairs do not reach the full length. Heat, stretch, zero gravity, 3D rollers, foot rollers. At $15,500, this is the premium pick for tall buyers who cannot find a chair that actually fits.",
   },
   'kahuna-sm-7300s': {
