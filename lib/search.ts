@@ -264,7 +264,7 @@ function chairToResult(c: Chair): SearchResult {
     type: 'chair',
     title: c.name,
     subtitle: c.brand + ' · $' + (c.priceMin?.toLocaleString() ?? 'N/A'),
-    href: '/chairs/' + c.slug,
+    href: '/chairs/' + c.id,
   }
 }
 
