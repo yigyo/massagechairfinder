@@ -1,9 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { CHAIRS } from '@/lib/chairs'
-import { LOCAL_ARTICLES } from '@/lib/local-articles'
-import { LOCAL_BRANDS } from '@/lib/local-brands'
-import type { SearchResult } from '@/app/api/search/route'
+import { runSearch } from '@/lib/search'
+import type { SearchResult } from '@/lib/search'
 
 interface Props {
   searchParams: { q?: string }
@@ -16,61 +14,6 @@ export function generateMetadata({ searchParams }: Props): Metadata {
     description: 'Search massage chairs, buying guides, and brands on Massage Chair Finder.',
     robots: { index: false },
   }
-}
-
-function normalize(s: string) {
-  return s.toLowerCase().replace(/[^a-z0-9 ]/g, ' ')
-}
-
-function matches(haystack: string, needle: string) {
-  return normalize(haystack).includes(normalize(needle))
-}
-
-function runSearch(q: string): { chairs: SearchResult[]; articles: SearchResult[]; brands: SearchResult[] } {
-  const chairs: SearchResult[] = []
-  const articles: SearchResult[] = []
-  const brands: SearchResult[] = []
-
-  if (!q || q.length < 2) return { chairs, articles, brands }
-
-  for (const chair of CHAIRS) {
-    if (!chair.active || !chair.mcfActive) continue
-    if (matches(chair.name, q) || matches(chair.brand, q)) {
-      const priceLabel = chair.priceMin
-        ? '$' + chair.priceMin.toLocaleString() + (chair.priceMax ? ' to $' + chair.priceMax.toLocaleString() : '')
-        : ''
-      chairs.push({
-        type: 'chair',
-        title: chair.name,
-        subtitle: [chair.brand, priceLabel].filter(Boolean).join(' · '),
-        href: '/chairs/' + chair.id,
-      })
-    }
-  }
-
-  for (const article of LOCAL_ARTICLES) {
-    if (matches(article.title, q) || matches(article.excerpt, q)) {
-      articles.push({
-        type: 'article',
-        title: article.title,
-        subtitle: article.excerpt.slice(0, 120) + (article.excerpt.length > 120 ? '...' : ''),
-        href: '/learn/' + article.slug,
-      })
-    }
-  }
-
-  for (const brand of LOCAL_BRANDS) {
-    if (matches(brand.name, q) || matches(brand.tagline, q)) {
-      brands.push({
-        type: 'brand',
-        title: brand.name,
-        subtitle: brand.priceRange,
-        href: '/brands/' + brand.slug,
-      })
-    }
-  }
-
-  return { chairs, articles, brands }
 }
 
 const TYPE_LABELS: Record<SearchResult['type'], string> = {
@@ -140,8 +83,8 @@ export default function SearchPage({ searchParams }: Props) {
 
       {!q && (
         <p className="text-charcoal text-sm">
-          Enter a search term to find chairs, buying guide articles, or brand pages. Try searching for a brand
-          like "Osaki" or a condition like "sciatica" or "lower back pain".
+          Enter a search term to find chairs, buying guide articles, or brand pages. Try searching for a
+          brand like "Osaki", a condition like "sciatica" or "lower back pain", or a feature like "zero gravity".
         </p>
       )}
 
@@ -150,13 +93,9 @@ export default function SearchPage({ searchParams }: Props) {
           <p className="font-medium text-navy">Not sure where to start?</p>
           <p>
             Use the{' '}
-            <Link href="/finder" className="text-gold hover:underline">
-              Chair Finder
-            </Link>{' '}
+            <Link href="/finder" className="text-gold hover:underline">Chair Finder</Link>{' '}
             to answer a few questions and get a personalized recommendation, or browse the{' '}
-            <Link href="/learn" className="text-gold hover:underline">
-              Buying Guide
-            </Link>{' '}
+            <Link href="/learn" className="text-gold hover:underline">Buying Guide</Link>{' '}
             to learn what to look for.
           </p>
         </div>
