@@ -196,7 +196,7 @@ const CONDITION_CHAIR_FILTERS: Array<{
   },
   {
     keywords: ['4d', '4d rollers', '4d massage'],
-    filter: c => c.rollerDimension === '4D',
+    filter: c => c.roller === '4D',
     sparse: true,
   },
   {
