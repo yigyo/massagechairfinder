@@ -13,7 +13,7 @@ export default function Footer() {
             <p className="mt-3 text-sm text-warm-gray leading-relaxed">
               Find the chair that fits your body, your space, and your budget.
             </p>
-            <SearchBar variant="footer" />
+            <SearchBar />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 md:flex-1">
             <div>
