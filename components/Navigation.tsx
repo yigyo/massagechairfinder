@@ -61,7 +61,7 @@ export default function Navigation() {
             Massage Chair Finder
           </Link>
 
-          {/* Desktop nav + CTA */}
+          {/* Desktop nav + CTA + search icon */}
           <nav className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (
               <Link
@@ -75,18 +75,16 @@ export default function Navigation() {
             <Link href="/finder" className="btn-primary text-sm py-2 px-4">
               Find My Chair
             </Link>
+            <button
+              type="button"
+              onClick={() => setSearchOpen(v => !v)}
+              aria-label={searchOpen ? 'Close search' : 'Open search'}
+              aria-expanded={searchOpen}
+              className="flex items-center justify-center p-2 text-charcoal hover:text-gold transition-colors"
+            >
+              {searchOpen ? <CloseIcon /> : <SearchIcon />}
+            </button>
           </nav>
-
-          {/* Desktop search icon */}
-          <button
-            type="button"
-            onClick={() => setSearchOpen(v => !v)}
-            aria-label="Open search"
-            aria-expanded={searchOpen}
-            className="hidden md:flex items-center justify-center p-2 text-charcoal hover:text-gold transition-colors"
-          >
-            {searchOpen ? <CloseIcon /> : <SearchIcon />}
-          </button>
 
           {/* Mobile hamburger */}
           <button
@@ -103,37 +101,38 @@ export default function Navigation() {
         </div>
       </div>
 
-      {/* Desktop search dropdown -- absolutely positioned below header, no layout impact */}
+      {/* Desktop search -- centered floating card, 100px below header */}
       {searchOpen && (
-        <div className="hidden md:block absolute top-full left-0 right-0 bg-white border-b border-sand shadow-lg">
-          <div className="max-w-2xl mx-auto px-4 py-4">
-            <form onSubmit={handleSearchSubmit} className="flex items-center gap-2">
-              <div className="relative flex-1">
-                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-warm-gray pointer-events-none">
-                  <SearchIcon />
-                </span>
-                <input
-                  ref={inputRef}
-                  type="search"
-                  value={query}
-                  onChange={e => setQuery(e.target.value)}
-                  onKeyDown={handleSearchKey}
-                  placeholder="Search chairs, brands, conditions..."
-                  aria-label="Search the site"
-                  className="w-full pl-9 pr-4 py-2.5 text-sm rounded-lg border border-sand bg-linen text-charcoal placeholder-warm-gray focus:outline-none focus:ring-2 focus:ring-gold focus:border-gold transition-colors"
-                />
-              </div>
-              <button
-                type="submit"
-                className="btn-primary text-sm py-2.5 px-5 shrink-0"
-              >
-                Search
-              </button>
-            </form>
-            <p className="mt-2 text-xs text-warm-gray">
-              Try: "Osaki", "sciatica", "zero gravity", "space saving", or a chair name
-            </p>
-          </div>
+        <div
+          className="hidden md:block absolute left-1/2 -translate-x-1/2 w-[540px] max-w-[calc(100vw-2rem)] bg-white rounded-2xl shadow-2xl border border-sand p-5 z-50"
+          style={{ top: 'calc(100% + 100px)' }}
+        >
+          <form onSubmit={handleSearchSubmit} className="flex items-center gap-2">
+            <div className="relative flex-1">
+              <span className="absolute left-3 top-1/2 -translate-y-1/2 text-warm-gray pointer-events-none">
+                <SearchIcon />
+              </span>
+              <input
+                ref={inputRef}
+                type="search"
+                value={query}
+                onChange={e => setQuery(e.target.value)}
+                onKeyDown={handleSearchKey}
+                placeholder="Search ..."
+                aria-label="Search the site"
+                className="w-full pl-9 pr-4 py-2.5 text-sm rounded-lg border border-sand bg-linen text-charcoal placeholder-warm-gray focus:outline-none focus:ring-2 focus:ring-gold focus:border-gold transition-colors"
+              />
+            </div>
+            <button
+              type="submit"
+              className="shrink-0 text-sm py-2.5 px-5 rounded-lg border border-gold text-gold bg-transparent hover:bg-gold hover:text-white transition-colors"
+            >
+              Search
+            </button>
+          </form>
+          <p className="mt-2 text-xs text-warm-gray">
+            Try: "Osaki", "sciatica", "zero gravity", "space saving", or a chair name
+          </p>
         </div>
       )}
 
