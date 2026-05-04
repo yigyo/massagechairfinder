@@ -86,7 +86,7 @@ export default function ComparePage() {
               ['Foot Rollers', 'Yes', 'Yes'],
               ['Stretch Programs', 'Not specified', 'Yes'],
               ['Space-Saving', 'Yes', 'Yes'],
-            ].map(([spec, a, b]) => (
+            ].map(([spec, a, b], i) => (
               <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>

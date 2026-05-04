@@ -83,7 +83,7 @@ export default function ComparePage() {
               ['Body Scanning', 'Yes', 'Not specified'],
               ['Foot Rollers', 'Yes', 'Not specified'],
               ['Roller Depth Control', 'Fixed (2D)', 'Variable (4D)'],
-            ].map(([spec, a, b]) => (
+            ].map(([spec, a, b], i) => (
               <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>

@@ -88,7 +88,7 @@ export default function ComparePage() {
               ['Stretch (Inversion)', 'Yes (power inversion)', 'Not specified'],
               ['Body Scanning', 'Not specified', 'Yes'],
               ['Manufacturing', 'Not Japan', 'Made in Japan'],
-            ].map(([spec, a, b]) => (
+            ].map(([spec, a, b], i) => (
               <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>

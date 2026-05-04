@@ -82,7 +82,7 @@ export default function ComparePage() {
               ['Body Scanning', 'Yes', 'Yes'],
               ['Space-Saving', 'No', 'Yes'],
               ['Voice Control', 'No', 'Yes'],
-            ].map(([spec, a, b]) => (
+            ].map(([spec, a, b], i) => (
               <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>

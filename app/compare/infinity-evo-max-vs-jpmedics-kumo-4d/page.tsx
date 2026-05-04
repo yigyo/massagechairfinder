@@ -86,7 +86,7 @@ export default function ComparePage() {
               ['Plus-Size Verified', 'Not confirmed', 'Yes'],
               ['Manufacturing', 'China', 'Japan'],
               ['Review Rating', 'Not available', '5.0 (9 reviews)'],
-            ].map(([spec, a, b]) => (
+            ].map(([spec, a, b], i) => (
               <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>
