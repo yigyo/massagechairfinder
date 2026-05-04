@@ -84,6 +84,27 @@ const COMPARISONS = [
     tier: '$11,000',
     summary: 'Same price, both L-track 4D. The Evo Max needs only 2 inches of wall clearance. The Kumo 4D confirms 320 lb plus-size fit, supports buyers to 6'3", and is made in Japan.',
   },
+  {
+    slug: 'ogawa-og6400-vs-titan-pro-vigor-4d',
+    chairA: 'Ogawa Active XL Duo 3D',
+    chairB: 'Titan Pro-Vigor 4D',
+    tier: '$5,000 to $6,000',
+    summary: 'The Ogawa is $800 less with 320 lb plus-size fit and 11-inch wall clearance. The Pro-Vigor 4D adds heated rollers and 4D precision for buyers under 260 lbs.',
+  },
+  {
+    slug: 'kahuna-sm-7300s-vs-relaxonchair-yukon-4d',
+    chairA: 'Kahuna SM-7300S',
+    chairB: 'Relax On Chair YUKON-4D',
+    tier: '$6,500 to $7,000',
+    summary: '$500 apart. The SM-7300S adds 3-stage zero gravity and heat to lumbar, calves, and feet. The YUKON-4D delivers 4D roller precision at the lower price.',
+  },
+  {
+    slug: 'daiwa-relax-2-zero-3d-vs-synca-jp3000',
+    chairA: 'Daiwa Relax 2 Zero 3D',
+    chairB: 'Synca JP-3000',
+    tier: '$9,000 to $11,000',
+    summary: 'Both S-track for upper and mid-back. The Daiwa costs $2,000 less with confirmed 4'8" to 6'6" fit. The JP-3000 has a 5D roller and Japanese manufacturing.',
+  },
 ]
 
 export default function ComparePage() {

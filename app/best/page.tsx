@@ -22,6 +22,9 @@ const categories = [
   { label: 'Petite Buyers', slug: 'petite-buyers', desc: 'Chairs confirmed for buyers under 5\'2\" — verified height data, not just a spec sheet maximum.' },
 ,
   { label: 'Athlete Recovery', slug: 'athlete-recovery', desc: 'SL-track and L-track 4D chairs for post-training recovery. Verified glute and leg coverage.' },
+    { label: 'Arthritis', slug: 'arthritis', desc: 'Chairs with 4D pressure control, multi-zone heat, and zero gravity for arthritic buyers across price tiers.' },
+    { label: 'Under $10,000', slug: 'under-10000', desc: 'The best $7,000 to $10,000 chairs. Where 4D quality peaks before diminishing returns.' },
+    { label: 'Office Workers', slug: 'office-workers', desc: 'SL-track chairs for neck, upper back, and posture relief from desk work. Entry-level to premium.' },
 ]
 
 export default function BestPage() {
