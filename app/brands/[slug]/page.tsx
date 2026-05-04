@@ -22,11 +22,16 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
   const brand = getLocalBrand(params.slug)
   if (!brand) notFound()
 
-  // Chairs for this brand — match on brand name (case-insensitive slug comparison)
+  // All chairs for this brand — active in stock first (by price), OOS last (by price)
   const brandName = brand.name
-  const chairs = CHAIRS.filter(
-    c => c.active && c.mcfActive !== false && c.brand === brandName
-  ).sort((a, b) => a.priceMin - b.priceMin)
+  const allBrandChairs = CHAIRS.filter(
+    c => c.active && c.brand === brandName
+  ).sort((a, b) => {
+    const aOos = a.mcfActive === false
+    const bOos = b.mcfActive === false
+    if (aOos !== bOos) return aOos ? 1 : -1
+    return a.priceMin - b.priceMin
+  })
 
   return (
     <div className="section" style={{ maxWidth: '900px' }}>
@@ -65,41 +70,51 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
         <span className="text-charcoal">{brand.bestFor}</span>
       </div>
 
-      {chairs.length > 0 && (
+      {allBrandChairs.length > 0 && (
         <section>
           <h2 className="text-2xl font-serif mb-6">{brand.name} Chairs We Have Reviewed</h2>
           <div className="space-y-4">
-            {chairs.map(chair => (
-              <Link
-                key={chair.id}
-                href={`/chairs/${chair.id}`}
-                className="card hover:shadow-md transition-shadow group block"
-              >
-                <div className="flex items-start justify-between gap-4">
-                  <div>
-                    <h3 className="text-xl font-serif font-semibold text-navy group-hover:text-gold transition-colors mb-1">
-                      {chair.name}
-                    </h3>
-                    {chair.track && (
-                      <p className="text-warm-gray text-sm">{chair.track} track &middot; {chair.roller || '3D'} rollers</p>
-                    )}
-                    {chair.reviewRating && (
-                      <p className="text-xs text-warm-gray mt-1">
-                        <span className="text-gold">{"★".repeat(Math.round(chair.reviewRating))}</span>
-                        {" "}{chair.reviewRating.toFixed(1)}
-                        {chair.reviewCount ? " · " + chair.reviewCount.toLocaleString() + " reviews" : ""}
-                      </p>
-                    )}
+            {allBrandChairs.map(chair => {
+              const isOos = chair.mcfActive === false
+              return (
+                <Link
+                  key={chair.id}
+                  href={`/chairs/${chair.id}`}
+                  className={`card hover:shadow-md transition-shadow group block${isOos ? ' opacity-60' : ''}`}
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-1">
+                        <h3 className="text-xl font-serif font-semibold text-navy group-hover:text-gold transition-colors">
+                          {chair.name}
+                        </h3>
+                        {isOos && (
+                          <span className="text-xs font-semibold px-2 py-0.5 rounded-full border border-terra/40 text-terra bg-white shrink-0">
+                            Out of Stock
+                          </span>
+                        )}
+                      </div>
+                      {chair.track && (
+                        <p className="text-warm-gray text-sm">{chair.track} track &middot; {chair.roller || '3D'} rollers</p>
+                      )}
+                      {chair.reviewRating && (
+                        <p className="text-xs text-warm-gray mt-1">
+                          <span className="text-gold">{"\u2605".repeat(Math.round(chair.reviewRating))}</span>
+                          {" "}{chair.reviewRating.toFixed(1)}
+                          {chair.reviewCount ? " · " + chair.reviewCount.toLocaleString() + " reviews" : ""}
+                        </p>
+                      )}
+                    </div>
+                    <div className="text-right shrink-0">
+                      <span className="text-gold font-semibold">
+                        ${chair.priceMin.toLocaleString()}
+                        {chair.priceMax && chair.priceMax > chair.priceMin ? ` – $${chair.priceMax.toLocaleString()}` : ''}
+                      </span>
+                    </div>
                   </div>
-                  <div className="text-right shrink-0">
-                    <span className="text-gold font-semibold">
-                      ${chair.priceMin.toLocaleString()}
-                      {chair.priceMax && chair.priceMax > chair.priceMin ? ` – $${chair.priceMax.toLocaleString()}` : ''}
-                    </span>
-                  </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              )
+            })}
           </div>
         </section>
       )}
