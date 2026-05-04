@@ -24,7 +24,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "kyota-yugana-m780": {
     label: "Best space-saving L-track at this tier",
-    why: "The Kyota Yugana M780 4D earns its position here on three factors that are rare in combination at $7,999: an L-track that extends into the glutes for lower back and hip coverage, a 4'8" minimum height that makes it one of the most accessible chairs for petite buyers in this price range, and 2 inches of required wall clearance. For buyers who need glute and hip coverage, have a smaller room or a lower body height, and want a strong L-track without paying $10,000+, the Yugana is the clearest recommendation in this list. 300 lb capacity.",
+    why: "The Kyota Yugana M780 4D earns its position here on three factors that are rare in combination at $7,999: an L-track that extends into the glutes for lower back and hip coverage, a 4'8\" minimum height that makes it one of the most accessible chairs for petite buyers in this price range, and 2 inches of required wall clearance. For buyers who need glute and hip coverage, have a smaller room or a lower body height, and want a strong L-track without paying $10,000+, the Yugana is the clearest recommendation in this list. 300 lb capacity.",
   },
   "kahuna-dios-7300": {
     label: "Best SL-track with advanced roller at this tier",
