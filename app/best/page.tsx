@@ -20,7 +20,6 @@ const categories = [
   { label: 'Heavy-Duty', slug: 'heavy-duty', desc: 'High weight-capacity models with reinforced frames.' },
   { label: 'Seniors', slug: 'seniors', desc: 'Zero gravity, gentle pressure, and heat. Chairs verified for ease of use and long-term daily relief.' },
   { label: 'Petite Buyers', slug: 'petite-buyers', desc: 'Chairs confirmed for buyers under 5\'2\" — verified height data, not just a spec sheet maximum.' },
-,
   { label: 'Athlete Recovery', slug: 'athlete-recovery', desc: 'SL-track and L-track 4D chairs for post-training recovery. Verified glute and leg coverage.' },
     { label: 'Arthritis', slug: 'arthritis', desc: 'Chairs with 4D pressure control, multi-zone heat, and zero gravity for arthritic buyers across price tiers.' },
     { label: 'Under $10,000', slug: 'under-10000', desc: 'The best $7,000 to $10,000 chairs. Where 4D quality peaks before diminishing returns.' },
