@@ -49,18 +49,6 @@ export default function ComparePage() {
           <p className="text-sm text-charcoal">$4,399</p>
         </div>
       </div>
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/1509/5162/files/1_abc8530f-f118-4faa-9e79-60ef80fbab95.jpg?v=1728486141"
-            alt="Kahuna HM-078 Hubot 4D"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Kahuna HM-078 Hubot 4D</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$4,399</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 4D | 350 lbs | Space-saving</p>
-        </div>
-      </div>
 
       <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
         <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>

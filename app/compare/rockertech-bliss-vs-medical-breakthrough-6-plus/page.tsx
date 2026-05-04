@@ -49,18 +49,6 @@ export default function ComparePage() {
           <p className="text-sm text-charcoal">$5,499</p>
         </div>
       </div>
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/MedicalBreakthrough6Plus_1.jpg"
-            alt="Medical Breakthrough 6 Plus"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Medical Breakthrough 6 Plus</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$5,499</p>
-          <p className="text-sm text-warm-gray mt-1">L-track | 4D | 300 lbs | Stretch programs</p>
-        </div>
-      </div>
 
       <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
         <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>

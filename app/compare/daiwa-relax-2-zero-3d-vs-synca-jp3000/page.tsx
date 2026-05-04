@@ -55,18 +55,6 @@ export default function ComparePage() {
           <p className="text-sm text-charcoal">$10,999</p>
         </div>
       </div>
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/0855/7959/6065/files/jp3000-brown_02ca2815-cce9-41b3-bfb5-f7b3f0fac5ae.jpg"
-            alt="Synca JP-3000"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Synca JP-3000</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$10,999</p>
-          <p className="text-sm text-warm-gray mt-1">S-track | 5D | Made in Japan</p>
-        </div>
-      </div>
 
       <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
         <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>

@@ -49,18 +49,6 @@ export default function ComparePage() {
           <p className="text-sm text-charcoal">$8,499</p>
         </div>
       </div>
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-falcon-massage-chair.jpg?v=1776904610"
-            alt="Bodyfriend Falcon XD 4D"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Bodyfriend Falcon XD 4D</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$8,499</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 4D | 265 lbs | Stretch programs</p>
-        </div>
-      </div>
 
       <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
         <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
