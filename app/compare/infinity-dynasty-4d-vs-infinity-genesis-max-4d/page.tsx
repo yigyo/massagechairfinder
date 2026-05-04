@@ -68,7 +68,7 @@ export default function DynastyVsGenesisMaxPage() {
         </p>
       </div>
 
-      <h2 className="text-2xl font-serif mb-4">Specs side by side</h2>
+      <h2 className="text-2xl font-serif mb-4">Specs Compared</h2>
       <div className="overflow-x-auto mb-10">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -183,18 +183,24 @@ export default function DynastyVsGenesisMaxPage() {
       </div>
 
       <h2 className="text-2xl font-serif mb-3">Bottom line</h2>
-      <p className="text-charcoal mb-4">
+      <p className="text-charcoal mb-8">
         The Genesis Max is the right starting point for most buyers comparing these two chairs.
         It delivers the same core massage technology at $2,700 less. The Dynasty justifies
         its premium for buyers who need verified fit at the edges of the size range: petite
         buyers under 5 feet 2 inches and buyers close to or above 280 lbs. For everyone
         in between, the Genesis Max is the smarter purchase.
       </p>
-      <p className="text-charcoal mb-8">
-        Looking at other options in the premium tier? The{' '}
-        <Link href="/finder" className="text-bronze hover:text-gold">chair finder quiz</Link> covers
-        the full catalog and surfaces chairs based on your pain profile, body fit, and budget.
-      </p>
+      <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
+        <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
+        <p className="text-charcoal text-sm mb-4">
+          Answer a few questions about your body, pain profile, and budget. The Chair Finder
+          surfaces the chairs most likely to work for your specific situation.
+        </p>
+        <Link href="/finder" className="inline-block text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" style={{ background: '#D1803E' }}>
+          Open the Chair Finder
+        </Link>
+      </div>
 
       <div className="border-t border-sand pt-8">
         <h3 className="text-lg font-serif mb-3 text-navy">Learn more</h3>

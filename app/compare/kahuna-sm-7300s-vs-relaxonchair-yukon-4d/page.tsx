@@ -45,8 +45,8 @@ export default function ComparePage() {
         </div>
       </div>
 
-      <div className="card bg-navy text-white mb-10">
-        <h2 className="text-xl font-serif font-semibold mb-3">Quick Verdict</h2>
+      <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
+        <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
         <p className="mb-3">
           For buyers who want the deepest zero gravity decompression, the most heat coverage (lumbar, calf, and feet), and a thorough multi-roller massage at a familiar price from a well-known brand, the Kahuna SM-7300S is the right call. It is a more traditional approach to massage chair design executed at a high level.
         </p>
@@ -122,13 +122,18 @@ export default function ComparePage() {
         </div>
       </div>
 
-      <div className="card bg-navy text-white text-center mt-8">
-        <p className="text-lg font-serif mb-2">Not sure which approach fits your pain pattern?</p>
-        <p className="text-sm text-sand mb-4">The chair finder quiz asks about your specific pain location, heat preferences, and pressure sensitivity.</p>
-        <Link href="/finder" className="inline-block bg-gold text-white font-semibold px-8 py-3 rounded hover:bg-amber-600 transition-colors">
-          Take the Chair Finder Quiz
+      <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
+        <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
+        <p className="text-charcoal text-sm mb-4">
+          Answer a few questions about your body, pain profile, and budget. The Chair Finder
+          surfaces the chairs most likely to work for your specific situation.
+        </p>
+        <Link href="/finder" className="inline-block text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" style={{ background: '#D1803E' }}>
+          Open the Chair Finder
         </Link>
       </div>
-    </div>
+
+</div>
   )
 }
