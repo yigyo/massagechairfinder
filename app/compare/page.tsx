@@ -56,6 +56,34 @@ const COMPARISONS = [
     tier: '$6,500 to $7,000',
     summary: 'Both SL-track 4D, $500 apart. The Sensation adds TrueFit body scanning and dual reflexology foot rollers. The YUKON prioritizes precision pressure control.',
   },
+  {
+    slug: 'medical-breakthrough-6-vs-kahuna-hm-078',
+    chairA: 'Medical Breakthrough 6',
+    chairB: 'Kahuna HM-078 Hubot 4D',
+    tier: '$4,000 to $4,500',
+    summary: 'L-track 4D at $4,249 vs SL-track 4D at $4,399. The MB6 covers glutes and hips. The HM-078 adds space-saving recline, foot rollers, and a 350 lb weight capacity.',
+  },
+  {
+    slug: 'rockertech-bliss-vs-medical-breakthrough-6-plus',
+    chairA: 'RockerTech Bliss',
+    chairB: 'Medical Breakthrough 6 Plus',
+    tier: '$5,500',
+    summary: 'Same price, same L-track 4D. The Bliss adds Zero Wall Fit space-saving and reflexology foot rollers. The MB6 Plus adds stretch programs and a confirmed 300 lb capacity.',
+  },
+  {
+    slug: 'bodyfriend-phantom-ii-vs-bodyfriend-falcon-xd',
+    chairA: 'Bodyfriend Phantom II',
+    chairB: 'Bodyfriend Falcon XD 4D',
+    tier: '$8,500',
+    summary: 'Same brand, same price, both SL-track 4D. The Phantom II supports 335 lbs with verified plus-size fit. The Falcon XD adds stretch programs for buyers under 265 lbs.',
+  },
+  {
+    slug: 'infinity-evo-max-vs-jpmedics-kumo-4d',
+    chairA: 'Infinity Evo Max 4D',
+    chairB: 'JPMedics Kumo 4D',
+    tier: '$11,000',
+    summary: 'Same price, both L-track 4D. The Evo Max needs only 2 inches of wall clearance. The Kumo 4D confirms 320 lb plus-size fit, supports buyers to 6'3", and is made in Japan.',
+  },
 ]
 
 export default function ComparePage() {
