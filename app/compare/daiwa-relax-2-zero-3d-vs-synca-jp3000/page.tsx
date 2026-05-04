@@ -104,7 +104,7 @@ export default function ComparePage() {
         S-track chairs are the right choice for buyers whose pain is in the upper and mid-back: thoracic tension, cervical stiffness, shoulder blade tightness, and postural pain from desk work or driving. The S-track follows the natural cervical and thoracic curve precisely, delivering roller contact that an SL-track or L-track sometimes approximates less accurately in the upper back.
       </p>
       <p className="mb-8">
-        Both the Daiwa and the JP-3000 reflect a therapeutic philosophy focused on spinal precision rather than full-body coverage. Buyers who have used S-track chairs from Inada, Panasonic, or Fujiiryoki and found that the upper back focus is exactly what they need will find both chairs to be strong options in this tradition.
+        Both the Daiwa and the JP-3000 reflect a therapeutic philosophy focused on spinal precision rather than full-body coverage. Buyers who have used S-track chairs from Panasonic or Fujiiryoki and found that the upper back focus is exactly what they need will find both chairs to be strong options in this tradition.
       </p>
 
       <h2 className="text-2xl font-serif font-semibold mb-4">Body Fit: Daiwa's Confirmed Range</h2>
