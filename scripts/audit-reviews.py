@@ -5,40 +5,37 @@ scripts/audit-reviews.py
 Review data refresh tool for the MCF twice-weekly catalog audit.
 
 Run from the massagechairfinder repo root:
-    python3 scripts/audit-reviews.py
+    python3 scripts/audit-reviews.py               # dry run, report only
+    python3 scripts/audit-reviews.py --apply        # report + apply to chairs.ts
+    python3 scripts/audit-reviews.py --list-manual  # output JSON of Chrome-MCP chairs
+    python3 scripts/audit-reviews.py --apply-manual \'[{"id":"...","reviewRating":5.0,"reviewCount":3}]\'
 
-What it does
-------------
-1. Reads all mcfActive chairs from lib/chairs.ts
-2. For each chair, attempts to fetch the current review rating and count
-   from the affiliate retailer using whichever method works for that retailer:
-     - syncamassagechair.com : Yotpo public bottomline API
-     - massagechairstore.com : JSON-LD aggregateRating in @graph
-     - amazon.com            : aria-label regex on product page
-     - massagechairwarehouse / recovathlete / primemassagechairs : Judge.me badge attrs
-3. Compares fetched data to current chairs.ts values
-4. Reports three categories:
-     UPDATED : review count or rating changed since last audit
-     NEW     : chair now has reviews but had none in chairs.ts
-     NO DATA : could not extract review data (JS-rendered or 0 reviews)
-5. Applies updates to chairs.ts in place (via direct Python file write)
-   Only writes if --apply flag is passed.
+Audit workflow (twice-weekly)
+-----------------------------
+Phase 1 — automated (Python):
+    python3 scripts/audit-reviews.py --apply
+    This handles: syncamassagechair.com (Yotpo API), massagechairstore.com (JSON-LD),
+    amazon.com (aria-label), massagechairwarehouse / recovathlete / primemassagechairs /
+    osakimassagechair.com (Judge.me static badge).
 
-Usage
------
-    python3 scripts/audit-reviews.py            # dry run, report only
-    python3 scripts/audit-reviews.py --apply    # report + apply changes to chairs.ts
+Phase 2 — Chrome MCP (Claude runs this automatically during audit sessions):
+    python3 scripts/audit-reviews.py --list-manual
+    For each chair in the JSON output, Claude navigates to the URL, scrolls
+    the AliReviews widget into view, waits for it to render, reads the rating
+    and count, then calls:
+    python3 scripts/audit-reviews.py --apply-manual \'[{"id":"...","reviewRating":4.9,"reviewCount":5}]\'
 
-NOTES
------
-- massagechairheaven.com uses AliReviews (fully JS-rendered, no API).
-  Those chairs are listed as MANUAL CHECK required — use Chrome MCP to load
-  the page and read the star count from the rendered widget.
-- wishrockrelaxation.com shows a store-level aggregate rating (same 4.86/7
-  for every product). Skip — it is not product-specific review data.
-- The syncamassagechair.com Yotpo app key is embedded in the loader URL.
-  It is re-detected from the page automatically each run, so a key rotation
-  won't silently break the script.
+Domain coverage
+---------------
+    syncamassagechair.com          Yotpo public bottomline API
+    massagechairstore.com          JSON-LD aggregateRating in @graph
+    amazon.com                     aria-label regex
+    massagechairwarehouse.com      Judge.me static badge attrs
+    recovathlete.com               Judge.me static badge attrs
+    primemassagechairs.com         Judge.me static badge attrs
+    osakimassagechair.com          Judge.me static badge attrs (confirmed in static HTML)
+    massagechairheaven.com         AliReviews — Chrome MCP phase (lazy JS, needs scrollIntoView + 6s wait)
+    wishrockrelaxation.com         SKIP — store-level aggregate, not product-specific
 """
 
 import sys
@@ -48,7 +45,11 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
-APPLY = "--apply" in sys.argv
+APPLY        = "--apply" in sys.argv
+LIST_MANUAL  = "--list-manual" in sys.argv
+_am_idx      = next((i for i, a in enumerate(sys.argv) if a == "--apply-manual"), None)
+APPLY_MANUAL = sys.argv[_am_idx + 1] if _am_idx is not None else None
+
 CHAIRS_TS = "lib/chairs.ts"
 HEADERS = {
     "User-Agent": (
@@ -57,6 +58,7 @@ HEADERS = {
     ),
     "Accept-Language": "en-US,en;q=0.9",
 }
+
 
 # ── Retailer review-fetch methods ─────────────────────────────────────────────
 
@@ -71,33 +73,24 @@ def _fetch(url, timeout=12):
 def fetch_yotpo(affiliate_url):
     """
     syncamassagechair.com and other Yotpo stores.
-    1. Load the product page to get the Yotpo app_key + product_id.
-    2. Call the public bottomline API — no auth needed.
+    Re-detects app key from the page loader URL each run (survives key rotation).
     """
     html = _fetch(affiliate_url)
     if not html:
         return None, None
-
-    # Extract app key from loader URL
     key_match = re.search(
-        r'cdn-widgetsrepository\.yotpo\.com/v1/loader/([A-Za-z0-9_-]{20,})',
+        r"cdn-widgetsrepository\.yotpo\.com/v1/loader/([A-Za-z0-9_-]{20,})",
         html
     )
     if not key_match:
         return None, None
     app_key = key_match.group(1)
-
-    # Extract product ID
     soup = BeautifulSoup(html, "html.parser")
     el = soup.find(attrs={"data-yotpo-product-id": True})
     if not el:
         return None, None
     product_id = el.get("data-yotpo-product-id")
-
-    # Call bottomline API
-    api_url = (
-        f"https://api.yotpo.com/products/{app_key}/{product_id}/bottomline"
-    )
+    api_url = f"https://api.yotpo.com/products/{app_key}/{product_id}/bottomline"
     try:
         r = requests.get(api_url, headers=HEADERS, timeout=8)
         if r.status_code != 200:
@@ -141,7 +134,6 @@ def fetch_jsonld(affiliate_url):
                     )))
                     if rv and rc > 0:
                         return round(float(rv), 2), rc
-                # Standalone AggregateRating node
                 if node.get("@type") == "AggregateRating":
                     rv = node.get("ratingValue")
                     rc_raw = (
@@ -151,8 +143,6 @@ def fetch_jsonld(affiliate_url):
                     )
                     rc = int(float(str(rc_raw)))
                     if rv and rc > 0:
-                        # Reject store-level aggregates (same count on all pages)
-                        # Wishrockrelaxation uses this pattern — skip description check
                         desc = node.get("description", "")
                         if "Automatic" in desc:
                             return None, None
@@ -171,7 +161,7 @@ def fetch_amazon(affiliate_url):
     if not html:
         return None, None
     m = re.search(
-        r'aria-label="([0-9.]+) out of 5 stars with (\d[\d,]+) reviews?"',
+        r"aria-label=\"([0-9.]+) out of 5 stars with (\d[\d,]+) reviews?\"",
         html, re.I
     )
     if m:
@@ -184,8 +174,8 @@ def fetch_amazon(affiliate_url):
 
 def fetch_jdgm(affiliate_url):
     """
-    Judge.me stores (massagechairwarehouse, recovathlete, primemassagechairs).
-    Reads data-average-rating and data-number-of-reviews from jdgm-prev-badge.
+    Judge.me stores: massagechairwarehouse, recovathlete, primemassagechairs,
+    osakimassagechair.com (confirmed: badge attrs are in static HTML, not JS-injected).
     """
     html = _fetch(affiliate_url)
     if not html:
@@ -209,34 +199,31 @@ def fetch_jdgm(affiliate_url):
 # ── Domain -> fetch method mapping ───────────────────────────────────────────
 
 DOMAIN_METHODS = {
-    "syncamassagechair.com":      fetch_yotpo,
-    "massagechairstore.com":      fetch_jsonld,
-    "amazon.com":                  fetch_amazon,
-    "www.amazon.com":              fetch_amazon,
-    "massagechairwarehouse.com":   fetch_jdgm,
-    "www.massagechairwarehouse.com": fetch_jdgm,
-    "recovathlete.com":            fetch_jdgm,
-    "www.recovathlete.com":        fetch_jdgm,
-    "primemassagechairs.com":      fetch_jdgm,
-    "www.primemassagechairs.com":  fetch_jdgm,
+    "syncamassagechair.com":        fetch_yotpo,
+    "massagechairstore.com":        fetch_jsonld,
+    "amazon.com":                   fetch_amazon,
+    "www.amazon.com":               fetch_amazon,
+    "massagechairwarehouse.com":    fetch_jdgm,
+    "www.massagechairwarehouse.com":fetch_jdgm,
+    "recovathlete.com":             fetch_jdgm,
+    "www.recovathlete.com":         fetch_jdgm,
+    "primemassagechairs.com":       fetch_jdgm,
+    "www.primemassagechairs.com":   fetch_jdgm,
+    "osakimassagechair.com":        fetch_jdgm,
+    "www.osakimassagechair.com":    fetch_jdgm,
 }
 
-# Domains known to use JS-rendered review apps with no accessible API.
-# These require manual review via Chrome MCP.
-MANUAL_CHECK_DOMAINS = {
+# massagechairheaven.com uses AliReviews — fully lazy JS, no public API.
+# Handled via Chrome MCP in Phase 2 (--list-manual / --apply-manual).
+CHROME_MCP_DOMAINS = {
     "massagechairheaven.com",
     "www.massagechairheaven.com",
-    # osakimassagechair.com uses an older Yotpo embed with no extractable key
-    "osakimassagechair.com",
-    "www.osakimassagechair.com",
 }
 
-# Domains confirmed to have no real per-product review data (skip silently).
+# Store-level aggregate ratings not tied to individual products — skip silently.
 SKIP_DOMAINS = {
-    # Store-level aggregate rating — not product-specific
     "wishrockrelaxation.com",
     "www.wishrockrelaxation.com",
-    # syncamassagechair.com subdomain pattern covers fujiiryoki too
 }
 
 
@@ -247,17 +234,19 @@ def parse_chairs(path):
         content = f.read()
 
     chairs = []
-    # Split into blocks between top-level { braces
     blocks = re.split(r"(?=\{\s*id:)", content)
     for block in blocks:
-        id_m = re.search(r"id:\s*['\"](.+?)['\"]", block)
+        id_m = re.search(r"id:\s*[\'\"]([\w-]+)[\'\"]", block)
         if not id_m:
             continue
         if "mcfActive: true" not in block:
             continue
         chair_id = id_m.group(1)
 
-        url_m = re.search(r"affiliateUrl:\s*['\"](.+?)['\"]", block)
+        name_m = re.search(r"name:\s*[\'\"](.*?)[\'\"]", block)
+        chair_name = name_m.group(1) if name_m else chair_id
+
+        url_m = re.search(r"affiliateUrl:\s*[\'\"](https?://.*?)[\'\"]", block)
         affiliate_url = url_m.group(1) if url_m else None
 
         rv_m = re.search(r"reviewRating:\s*([0-9.]+)", block)
@@ -267,6 +256,7 @@ def parse_chairs(path):
 
         chairs.append({
             "id": chair_id,
+            "name": chair_name,
             "affiliateUrl": affiliate_url,
             "currentRating": current_rv,
             "currentCount": current_rc,
@@ -279,21 +269,9 @@ def parse_chairs(path):
 def apply_update(content, chair_id, new_rv, new_rc):
     """
     Update or insert reviewRating / reviewCount for a chair in chairs.ts.
+    Scopes replacement to the specific chair block to prevent cross-chair edits.
     """
-    # Try to update existing fields first
-    updated = False
-
-    # Replace existing reviewRating value
-    def replace_rv(m):
-        nonlocal updated
-        updated = True
-        return f"reviewRating: {new_rv},"
-
-    def replace_rc(m):
-        return f"reviewCount: {new_rc},"
-
-    # Find the chair block to scope replacements
-    pattern = rf"(id:\s*['\"]{{0}}['\"]\s*,.*?mcfActive:\s*true\s*,)".format(
+    pattern = rf"(id:\s*[\'\"]{{0}}[\'\"]\s*,.*?mcfActive:\s*true\s*,)".format(
         re.escape(chair_id)
     )
     m = re.search(pattern, content, re.DOTALL)
@@ -315,12 +293,10 @@ def apply_update(content, chair_id, new_rv, new_rc):
     block = content[block_start : block_end + 1]
 
     if "reviewRating" in block:
-        # Update existing values
         new_block = re.sub(r"reviewRating:\s*[0-9.]+,", f"reviewRating: {new_rv},", block)
         new_block = re.sub(r"reviewCount:\s*\d+,", f"reviewCount: {new_rc},", new_block)
         content = content[:block_start] + new_block + content[block_end + 1 :]
     else:
-        # Insert after mcfActive: true,
         insert_pos = m.end()
         insert_text = f"\n  reviewRating: {new_rv},\n  reviewCount: {new_rc},"
         content = content[:insert_pos] + insert_text + content[insert_pos:]
@@ -328,11 +304,105 @@ def apply_update(content, chair_id, new_rv, new_rc):
     return content, True
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# ── --list-manual mode ────────────────────────────────────────────────────────
+
+def run_list_manual():
+    """
+    Output a JSON array of chairs that require Chrome MCP review fetching.
+    Claude reads this during an audit session and fetches each URL automatically.
+
+    Chrome MCP fetch instructions for massagechairheaven.com (AliReviews):
+      1. navigate to url
+      2. wait 6 seconds for page load
+      3. javascript: document.querySelector("[id*=\'alireviews\']").scrollIntoView()
+      4. wait 6 more seconds for lazy widget to render
+      5. javascript: document.querySelector("[id*=\'alireviews\']").innerText
+      6. Parse: first numeric line = reviewRating, "Based on X reviews" = reviewCount
+         If "Based on 0 reviews" or widget empty -> no data for this chair
+    """
+    chairs, _ = parse_chairs(CHAIRS_TS)
+    result = []
+    for chair in chairs:
+        url = chair["affiliateUrl"]
+        if not url:
+            continue
+        domain = urlparse(url).netloc.replace("www.", "")
+        full_domain = urlparse(url).netloc
+        if full_domain in CHROME_MCP_DOMAINS or domain in {
+            d.replace("www.", "") for d in CHROME_MCP_DOMAINS
+        }:
+            result.append({
+                "id": chair["id"],
+                "name": chair["name"],
+                "url": url,
+                "domain": domain,
+                "currentRating": chair["currentRating"],
+                "currentCount": chair["currentCount"],
+            })
+    print(json.dumps(result, indent=2))
+
+
+# ── --apply-manual mode ───────────────────────────────────────────────────────
+
+def run_apply_manual(raw_json):
+    """
+    Accept Chrome MCP results and apply them to chairs.ts.
+    Input JSON: [{"id": "...", "reviewRating": 4.9, "reviewCount": 5}, ...]
+    """
+    try:
+        items = json.loads(raw_json)
+    except Exception as e:
+        print(f"ERROR: could not parse JSON: {e}")
+        sys.exit(1)
+
+    _, content = parse_chairs(CHAIRS_TS)
+    chairs_map = {c["id"]: c for c in parse_chairs(CHAIRS_TS)[0]}
+
+    applied = 0
+    skipped = 0
+    for item in items:
+        cid = item.get("id")
+        new_rv = item.get("reviewRating")
+        new_rc = item.get("reviewCount")
+        if not cid or new_rv is None or new_rc is None or new_rc == 0:
+            print(f"  SKIP (no data): {cid}")
+            skipped += 1
+            continue
+        new_rv = round(float(new_rv), 2)
+        new_rc = int(new_rc)
+        cur = chairs_map.get(cid, {})
+        if cur.get("currentRating") == new_rv and cur.get("currentCount") == new_rc:
+            print(f"  UNCHANGED: {cid} ({new_rv}/{new_rc})")
+            skipped += 1
+            continue
+        content, ok = apply_update(content, cid, new_rv, new_rc)
+        if ok:
+            applied += 1
+            action = "UPDATED" if cur.get("currentRating") else "NEW"
+            print(f"  {action}: {cid} -> {new_rv} / {new_rc}")
+        else:
+            print(f"  FAILED: {cid} — block not found")
+
+    with open(CHAIRS_TS, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"\nchairs.ts written. {applied} change(s) applied, {skipped} skipped.")
+    print("Next step: commit via git plumbing workflow, then verify Vercel build.")
+
+
+# ── Main (Phase 1 — automated fetch) ─────────────────────────────────────────
 
 def main():
+    if LIST_MANUAL:
+        run_list_manual()
+        return
+
+    if APPLY_MANUAL is not None:
+        run_apply_manual(APPLY_MANUAL)
+        return
+
     print("=" * 60)
-    print("MCF Review Data Audit")
+    print("MCF Review Data Audit — Phase 1 (automated)")
     print("=" * 60)
     if APPLY:
         print("Mode: APPLY (changes will be written to chairs.ts)")
@@ -343,10 +413,10 @@ def main():
     chairs, content = parse_chairs(CHAIRS_TS)
     print(f"Loaded {len(chairs)} mcfActive chairs from chairs.ts\n")
 
-    updated = []   # (id, old_rv, old_rc, new_rv, new_rc)
-    new_data = []  # (id, new_rv, new_rc) — chairs that had none before
-    no_data = []   # (id, reason)
-    manual = []    # (id, domain)
+    updated  = []
+    new_data = []
+    no_data  = []
+    chrome_mcp = []
 
     for chair in chairs:
         chair_id = chair["id"]
@@ -367,10 +437,10 @@ def main():
             no_data.append((chair_id, f"skip ({domain} — store-level rating only)"))
             continue
 
-        if full_domain in MANUAL_CHECK_DOMAINS or domain in {
-            d.replace("www.", "") for d in MANUAL_CHECK_DOMAINS
+        if full_domain in CHROME_MCP_DOMAINS or domain in {
+            d.replace("www.", "") for d in CHROME_MCP_DOMAINS
         }:
-            manual.append((chair_id, domain))
+            chrome_mcp.append((chair_id, domain))
             continue
 
         fetch_fn = DOMAIN_METHODS.get(full_domain) or DOMAIN_METHODS.get(domain)
@@ -392,54 +462,49 @@ def main():
             new_data.append((chair_id, new_rv, new_rc))
         elif new_rv != cur_rv or new_rc != cur_rc:
             updated.append((chair_id, cur_rv, cur_rc, new_rv, new_rc))
-        # else: unchanged — no action
 
-    # ── Report ────────────────────────────────────────────────────────────────
-
+    # Report
     print()
     print("=" * 60)
-    print("RESULTS")
+    print("PHASE 1 RESULTS")
     print("=" * 60)
 
     if updated:
-        print(f"\nUPDATED ({len(updated)} chair(s)) — rating or count changed:")
+        print(f"\nUPDATED ({len(updated)}) — rating or count changed:")
         for cid, old_rv, old_rc, nrv, nrc in updated:
             print(f"  {cid}: {old_rv}/{old_rc} -> {nrv}/{nrc}")
     else:
-        print("\nUPDATED: none (all existing ratings are current)")
+        print("\nUPDATED: none")
 
     if new_data:
-        print(f"\nNEW DATA ({len(new_data)} chair(s)) — now have reviews, previously none:")
+        print(f"\nNEW DATA ({len(new_data)}) — reviews found, previously none:")
         for cid, nrv, nrc in new_data:
             print(f"  {cid}: {nrv} / {nrc}")
     else:
         print("\nNEW DATA: none")
 
-    if manual:
-        print(f"\nMANUAL CHECK REQUIRED ({len(manual)} chair(s)) — JS-rendered reviews:")
-        for cid, domain in manual:
-            print(f"  {cid} ({domain}) — use Chrome MCP to load page and read star widget")
+    if chrome_mcp:
+        print(f"\nPHASE 2 REQUIRED ({len(chrome_mcp)}) — Chrome MCP fetch (massagechairheaven.com):")
+        for cid, domain in chrome_mcp:
+            print(f"  {cid} ({domain})")
+        print("  Run: python3 scripts/audit-reviews.py --list-manual")
+        print("  Then Claude fetches each URL and runs: --apply-manual \'[...]\' ")
 
-    print(f"\nNO DATA: {len(no_data)} chairs (0 reviews, fetch failed, or method skipped)")
+    print(f"\nNO DATA: {len(no_data)} chairs (0 reviews, fetch failed, or skipped)")
 
-    # ── Apply ─────────────────────────────────────────────────────────────────
-
+    # Apply
     changes = updated + [(cid, None, None, rv, rc) for cid, rv, rc in new_data]
-
     if not changes:
         print("\nNothing to apply.")
         return
-
     if not APPLY:
-        print(f"\nDry run complete. Run with --apply to write {len(changes)} change(s) to chairs.ts.")
+        print(f"\nDry run. Run with --apply to write {len(changes)} change(s).")
         return
 
-    print(f"\nApplying {len(changes)} change(s) to chairs.ts...")
+    print(f"\nApplying {len(changes)} change(s)...")
     applied = 0
     for item in changes:
-        cid = item[0]
-        new_rv = item[3]
-        new_rc = item[4]
+        cid, _, _, new_rv, new_rc = item[0], item[1], item[2], item[3], item[4]
         content, ok = apply_update(content, cid, new_rv, new_rc)
         if ok:
             applied += 1
@@ -451,7 +516,7 @@ def main():
         f.write(content)
 
     print(f"\nchairs.ts written. {applied}/{len(changes)} changes applied.")
-    print("Next step: commit via git plumbing workflow, then verify Vercel build.")
+    print("Next step: run Phase 2 (--list-manual), then commit.")
 
 
 if __name__ == "__main__":
