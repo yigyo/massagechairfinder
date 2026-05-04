@@ -128,10 +128,10 @@ export default function AdmiralVsKahunaPage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Admiral II if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You weigh over 200 lbs</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You have chronic lower back pain and want roller depth variation</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You plan daily use and want better long-term mechanical durability</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>The $500 difference is within your budget</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You weigh over 200 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You have chronic lower back pain and want roller depth variation</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You plan daily use and want better long-term mechanical durability</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>The $500 difference is within your budget</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/osaki-os-pro-admiral-ii" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Admiral II</a>
@@ -140,10 +140,10 @@ export default function AdmiralVsKahunaPage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the LM-6800S if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Your budget is firm at $2,499</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are under 180 lbs</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>A stretch program is specifically important for hip flexor or lumbar traction</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are under 5&apos;2&quot; (it accommodates 5&apos;0&quot; vs the Admiral&apos;s 5&apos;2&quot; minimum)</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Your budget is firm at $2,499</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are under 180 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>A stretch program is specifically important for hip flexor or lumbar traction</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are under 5&apos;2&quot; (it accommodates 5&apos;0&quot; vs the Admiral&apos;s 5&apos;2&quot; minimum)</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/kahuna-lm-6800s" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the LM-6800S</a>

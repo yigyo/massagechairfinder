@@ -121,10 +121,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Ogawa OG-6400 if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You weigh over 250 lbs or want verified plus-size fit</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Budget is a consideration and 3D roller quality is sufficient</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Your room has only 11 inches of wall clearance but not tight enough for the Vigor's 3.9"</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You want to save $800 and the roller type difference is not important</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You weigh over 250 lbs or want verified plus-size fit</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Budget is a consideration and 3D roller quality is sufficient</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Your room has only 11 inches of wall clearance but not tight enough for the Vigor's 3.9"</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want to save $800 and the roller type difference is not important</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/ogawa-og6400" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the OG-6400</a>
@@ -133,10 +133,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Titan Pro-Vigor 4D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You weigh under 250 lbs and are between 5'0" and 6'2"</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Heated rollers are a priority for your pain relief routine</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>4D roller depth control and stretch programs matter to you</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Your room is very tight -- the 3.9" wall clearance is the main practical advantage</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You weigh under 250 lbs and are between 5'0" and 6'2"</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Heated rollers are a priority for your pain relief routine</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>4D roller depth control and stretch programs matter to you</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Your room is very tight -- the 3.9" wall clearance is the main practical advantage</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/titan-pro-vigor-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>

@@ -155,9 +155,9 @@ export default function DynastyVsGenesisMaxPage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Dynasty if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You are under 5 feet 2 inches and need verified petite fit. The Dynasty confirms from 5 feet 0 inches.</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You are over 280 lbs and want confirmed weight clearance. The Dynasty is verified to 300 lbs.</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Body fit certainty matters more than the $2,700 price difference.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are under 5 feet 2 inches and need verified petite fit. The Dynasty confirms from 5 feet 0 inches.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are over 280 lbs and want confirmed weight clearance. The Dynasty is verified to 300 lbs.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Body fit certainty matters more than the $2,700 price difference.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://massagechairstore.com/infinity-dynasty-4d/" target="_blank" rel="noopener noreferrer"
@@ -169,9 +169,9 @@ export default function DynastyVsGenesisMaxPage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Genesis Max if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are in the typical size range (roughly 5 feet 4 inches to 6 feet, under 280 lbs). The $2,700 savings buys nothing extra for you.</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Stretch programs matter to you. The Genesis Max confirms them; the Dynasty does not.</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You want the Infinity L-track 4D experience at the best available price point.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are in the typical size range (roughly 5 feet 4 inches to 6 feet, under 280 lbs). The $2,700 savings buys nothing extra for you.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Stretch programs matter to you. The Genesis Max confirms them; the Dynasty does not.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You want the Infinity L-track 4D experience at the best available price point.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://massagechairstore.com/infinity-genesis-max/" target="_blank" rel="noopener noreferrer"

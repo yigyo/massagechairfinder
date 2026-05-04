@@ -123,10 +123,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Infinity Evo Max 4D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Your room has very limited rear clearance (under 6 inches)</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You are an average-sized buyer without confirmed fit concerns</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You are already familiar with the Infinity brand and its dealer network</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Space-saving recline is the primary decision variable</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Your room has very limited rear clearance (under 6 inches)</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are an average-sized buyer without confirmed fit concerns</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are already familiar with the Infinity brand and its dealer network</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Space-saving recline is the primary decision variable</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/infinity-evolution" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Evo Max 4D</a>
@@ -135,10 +135,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the JPMedics Kumo 4D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You weigh over 250 lbs or stand above 6'0"</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Japanese manufacturing and quality longevity matter to you</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You want a chair with a strong verified review track record</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Room space behind the chair is not a constraint</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You weigh over 250 lbs or stand above 6'0"</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Japanese manufacturing and quality longevity matter to you</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You want a chair with a strong verified review track record</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Room space behind the chair is not a constraint</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/jpmedics-kumo-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Kumo 4D</a>

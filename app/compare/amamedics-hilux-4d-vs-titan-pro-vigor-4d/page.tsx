@@ -131,10 +131,10 @@ export default function HiluxVsVigorPage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Hilux 4D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You want the best value in the SL-track 4D tier</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You are under 5&apos;0&quot; or weigh over 260 lbs</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Heated roller performance is a primary criterion</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Room placement is not tightly constrained</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want the best value in the SL-track 4D tier</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are under 5&apos;0&quot; or weigh over 260 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Heated roller performance is a primary criterion</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Room placement is not tightly constrained</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/amamedics-hilux-4d" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Hilux 4D</a>
@@ -143,10 +143,10 @@ export default function HiluxVsVigorPage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Pro-Vigor 4D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>The chair needs to fit within 4 inches of a wall</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are placing the chair in a bedroom or tight space</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are 5&apos;0&quot; or taller and under 260 lbs</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>The space-saving design justifies the $1,000 premium for your room</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>The chair needs to fit within 4 inches of a wall</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are placing the chair in a bedroom or tight space</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are 5&apos;0&quot; or taller and under 260 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>The space-saving design justifies the $1,000 premium for your room</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/titan-pro-vigor-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>

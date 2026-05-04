@@ -132,10 +132,10 @@ export default function YukonVsSensationPage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the YUKON-4D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Your primary focus is back and hip pain, not foot relief</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Precision pressure control is the most important feature for your use case</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>The $500 savings is relevant to your budget</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You are in the middle of the height range and body scanning precision matters less</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Your primary focus is back and hip pain, not foot relief</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Precision pressure control is the most important feature for your use case</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>The $500 savings is relevant to your budget</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are in the middle of the height range and body scanning precision matters less</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/relaxonchair-yukon-4d" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the YUKON-4D</a>
@@ -144,10 +144,10 @@ export default function YukonVsSensationPage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Sensation 4D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You run, stand for long hours, or have plantar fasciitis</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are shorter than 5&apos;3&quot; or taller than 6&apos;0&quot; and want precise body scan calibration</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Dual foot roller coverage is a feature you will use regularly</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Advanced body scanning is a priority for your household</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You run, stand for long hours, or have plantar fasciitis</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are shorter than 5&apos;3&quot; or taller than 6&apos;0&quot; and want precise body scan calibration</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Dual foot roller coverage is a feature you will use regularly</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Advanced body scanning is a priority for your household</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/rockertech-sensation-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Sensation 4D</a>

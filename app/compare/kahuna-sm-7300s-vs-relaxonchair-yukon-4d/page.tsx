@@ -110,10 +110,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Kahuna SM-7300S if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Heat in the calves and feet matters for your circulation or arthritis</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Three-stage zero gravity decompression is a priority</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You prefer broad back coverage over precision pressure tuning</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Stretch programs and body scanning are important to you</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Heat in the calves and feet matters for your circulation or arthritis</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Three-stage zero gravity decompression is a priority</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You prefer broad back coverage over precision pressure tuning</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Stretch programs and body scanning are important to you</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/kahuna-sm-7300s" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the SM-7300S</a>
@@ -122,10 +122,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the YUKON-4D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>4D roller precision and session-by-session depth control matter</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You want the lower price while staying in the SL-track tier</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Your pain is concentrated in a specific spinal region</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Lumbar heat is sufficient and calf/foot heat is not a priority</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>4D roller precision and session-by-session depth control matter</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You want the lower price while staying in the SL-track tier</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Your pain is concentrated in a specific spinal region</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Lumbar heat is sufficient and calf/foot heat is not a priority</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/relaxonchair-yukon-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the YUKON-4D</a>

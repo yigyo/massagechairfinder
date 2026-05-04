@@ -114,10 +114,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Phantom II if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You weigh more than 250 lbs</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Plus-size fit verification matters to your decision</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Stretch programs are not a priority</span></li>
-            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You want the higher capacity option as a long-term purchase</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You weigh more than 250 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Plus-size fit verification matters to your decision</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Stretch programs are not a priority</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want the higher capacity option as a long-term purchase</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/bodyfriend-phantom-ii" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Phantom II</a>
@@ -126,10 +126,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Falcon XD if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You weigh under 250 lbs</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Stretch programs are a priority for recovery or decompression</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You have tight hip flexors or do strength training</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are comparing against other SL-track 4D chairs in the $8,000-$9,000 tier</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You weigh under 250 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Stretch programs are a priority for recovery or decompression</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You have tight hip flexors or do strength training</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are comparing against other SL-track 4D chairs in the $8,000-$9,000 tier</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/bodyfriend-falcon-xd" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Falcon XD</a>
