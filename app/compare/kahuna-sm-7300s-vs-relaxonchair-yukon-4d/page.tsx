@@ -99,26 +99,30 @@ export default function ComparePage() {
       <p className="mb-8">
         The SM-7300S includes three-stage zero gravity, which allows a deeper recline than the standard two-stage system. At maximum recline, spinal decompression is more complete. Combined with heat that extends to the calves and feet, the SM-7300S provides more thorough circulatory support during a session. For buyers with poor lower-limb circulation or who want maximum spinal decompression, these two features are meaningful advantages over the YUKON-4D.
       </p>
-
-      <h2 className="text-2xl font-serif font-semibold mb-4">Who Should Buy Each Chair</h2>
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card border-l-4 border-gold">
-          <h3 className="font-semibold text-navy mb-3">Buy the Kahuna SM-7300S if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>Heat in the calves and feet matters for your circulation or arthritis</li>
-            <li>Three-stage zero gravity decompression is a priority</li>
-            <li>You prefer broad back coverage over precision pressure tuning</li>
-            <li>Stretch programs and body scanning are important to you</li>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
+          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Kahuna SM-7300S if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Heat in the calves and feet matters for your circulation or arthritis</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Three-stage zero gravity decompression is a priority</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You prefer broad back coverage over precision pressure tuning</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Stretch programs and body scanning are important to you</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/kahuna-sm-7300s" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the SM-7300S</a>
+          </div>
         </div>
-        <div className="card border-l-4 border-teal">
-          <h3 className="font-semibold text-navy mb-3">Buy the YUKON-4D if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>4D roller precision and session-by-session depth control matter</li>
-            <li>You want the lower price while staying in the SL-track tier</li>
-            <li>Your pain is concentrated in a specific spinal region</li>
-            <li>Lumbar heat is sufficient and calf/foot heat is not a priority</li>
+        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
+          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the YUKON-4D if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>4D roller precision and session-by-session depth control matter</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You want the lower price while staying in the SL-track tier</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Your pain is concentrated in a specific spinal region</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Lumbar heat is sufficient and calf/foot heat is not a priority</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/relaxonchair-yukon-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the YUKON-4D</a>
+          </div>
         </div>
       </div>
 

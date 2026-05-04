@@ -108,26 +108,30 @@ export default function ComparePage() {
       <p className="mb-8">
         Bodyfriend is a Korean brand with a reputation for precise 4D roller tuning and a softer default pressure profile relative to their roller power. This makes both chairs particularly well-suited for buyers who have found other chairs in this price range too intense. The SL-track on both models covers the full spine from neck through the lumbar and extends into the upper glutes, which is the right coverage for buyers with both upper and lower back tension.
       </p>
-
-      <h2 className="text-2xl font-serif font-semibold mb-4">Who Should Buy Each Chair</h2>
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card border-l-4 border-gold">
-          <h3 className="font-semibold text-navy mb-3">Buy the Phantom II if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>You weigh more than 250 lbs</li>
-            <li>Plus-size fit verification matters to your decision</li>
-            <li>Stretch programs are not a priority</li>
-            <li>You want the higher capacity option as a long-term purchase</li>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
+          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Phantom II if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You weigh more than 250 lbs</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Plus-size fit verification matters to your decision</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Stretch programs are not a priority</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You want the higher capacity option as a long-term purchase</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/bodyfriend-phantom-ii" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Phantom II</a>
+          </div>
         </div>
-        <div className="card border-l-4 border-teal">
-          <h3 className="font-semibold text-navy mb-3">Buy the Falcon XD if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>You weigh under 250 lbs</li>
-            <li>Stretch programs are a priority for recovery or decompression</li>
-            <li>You have tight hip flexors or do strength training</li>
-            <li>You are comparing against other SL-track 4D chairs in the $8,000-$9,000 tier</li>
+        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
+          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Falcon XD if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You weigh under 250 lbs</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Stretch programs are a priority for recovery or decompression</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You have tight hip flexors or do strength training</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You are comparing against other SL-track 4D chairs in the $8,000-$9,000 tier</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/bodyfriend-falcon-xd" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Falcon XD</a>
+          </div>
         </div>
       </div>
 

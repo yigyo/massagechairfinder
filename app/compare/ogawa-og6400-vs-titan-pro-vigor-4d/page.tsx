@@ -113,26 +113,30 @@ export default function ComparePage() {
       <p className="mb-8">
         The Ogawa OG-6400 uses a dual 3D roller system with a primary roller and a secondary roller for additional coverage. The Pro-Vigor 4D uses a single 4D roller with variable speed and rhythm. For buyers who use auto programs primarily, both approaches produce a thorough massage. For buyers who want session-by-session fine-tuning of pressure depth and pace, the 4D system provides more control.
       </p>
-
-      <h2 className="text-2xl font-serif font-semibold mb-4">Who Should Buy Each Chair</h2>
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card border-l-4 border-gold">
-          <h3 className="font-semibold text-navy mb-3">Buy the Ogawa OG-6400 if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>You weigh over 250 lbs or want verified plus-size fit</li>
-            <li>Budget is a consideration and 3D roller quality is sufficient</li>
-            <li>Your room has only 11 inches of wall clearance but not tight enough for the Vigor's 3.9"</li>
-            <li>You want to save $800 and the roller type difference is not important</li>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
+          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Ogawa OG-6400 if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You weigh over 250 lbs or want verified plus-size fit</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Budget is a consideration and 3D roller quality is sufficient</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Your room has only 11 inches of wall clearance but not tight enough for the Vigor's 3.9"</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You want to save $800 and the roller type difference is not important</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/ogawa-og6400" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the OG-6400</a>
+          </div>
         </div>
-        <div className="card border-l-4 border-teal">
-          <h3 className="font-semibold text-navy mb-3">Buy the Titan Pro-Vigor 4D if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>You weigh under 250 lbs and are between 5'0" and 6'2"</li>
-            <li>Heated rollers are a priority for your pain relief routine</li>
-            <li>4D roller depth control and stretch programs matter to you</li>
-            <li>Your room is very tight -- the 3.9" wall clearance is the main practical advantage</li>
+        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
+          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Titan Pro-Vigor 4D if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You weigh under 250 lbs and are between 5'0" and 6'2"</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Heated rollers are a priority for your pain relief routine</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>4D roller depth control and stretch programs matter to you</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Your room is very tight -- the 3.9" wall clearance is the main practical advantage</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/titan-pro-vigor-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>
+          </div>
         </div>
       </div>
 

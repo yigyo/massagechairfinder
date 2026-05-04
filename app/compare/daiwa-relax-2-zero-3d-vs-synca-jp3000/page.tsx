@@ -116,26 +116,30 @@ export default function ComparePage() {
       <p className="mb-8">
         The Daiwa Relax 2 Zero 3D includes a power inversion stretch program that tilts the chair to decompress the spine through a combination of recline angle and footrest elevation. For buyers with spinal compression or disc-related upper back pain, inversion stretch is a meaningful therapeutic addition. The JP-3000 does not confirm stretch programs in its published feature set.
       </p>
-
-      <h2 className="text-2xl font-serif font-semibold mb-4">Who Should Buy Each Chair</h2>
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card border-l-4 border-gold">
-          <h3 className="font-semibold text-navy mb-3">Buy the Daiwa Relax 2 Zero 3D if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>You want S-track upper back coverage at a $2,000 lower price</li>
-            <li>You need confirmed fit at taller or heavier ranges</li>
-            <li>Inversion stretch for spinal decompression is a priority</li>
-            <li>Manufacturing origin is less important than confirmed body fit</li>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
+          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Daiwa Relax 2 Zero 3D if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You want S-track upper back coverage at a $2,000 lower price</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You need confirmed fit at taller or heavier ranges</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Inversion stretch for spinal decompression is a priority</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Manufacturing origin is less important than confirmed body fit</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/daiwa-relax-2-zero-3d" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Relax 2 Zero 3D</a>
+          </div>
         </div>
-        <div className="card border-l-4 border-teal">
-          <h3 className="font-semibold text-navy mb-3">Buy the Synca JP-3000 if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>Japanese manufacturing quality is important to your long-term investment</li>
-            <li>5D roller sophistication and rhythm variation are priorities</li>
-            <li>You are comparing against other Japanese S-track chairs (Panasonic, Fujiiryoki)</li>
-            <li>Body scanning is important for accurate cervical positioning</li>
+        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
+          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Synca JP-3000 if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Japanese manufacturing quality is important to your long-term investment</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>5D roller sophistication and rhythm variation are priorities</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You are comparing against other Japanese S-track chairs (Panasonic, Fujiiryoki)</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Body scanning is important for accurate cervical positioning</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/synca-wellness-jp3000" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Synca JP-3000</a>
+          </div>
         </div>
       </div>
 

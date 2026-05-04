@@ -128,27 +128,31 @@ export default function YuganaVsMaestroPage() {
         The Osaki brand also has one of the stronger domestic service networks, which
         matters for long-term warranty support.
       </p>
-
-      <h2 className="text-2xl font-serif mb-3">Who should buy which</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
-        <div className="bg-sand rounded-xl p-5">
-          <p className="font-semibold text-navy mb-2">Choose the Yugana M780 if:</p>
-          <ul className="text-sm text-charcoal space-y-1.5">
-            <li>The chair must fit within 3 inches of a wall</li>
-            <li>You are shorter than 5&apos;0&quot;</li>
-            <li>You weigh over 260 lbs</li>
-            <li>Your pain is primarily lower back and glutes rather than upper back</li>
-            <li>The $1,000 savings matters to your budget</li>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
+          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Yugana M780 if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>The chair must fit within 3 inches of a wall</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You are shorter than 5&apos;0&quot;</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You weigh over 260 lbs</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Your pain is primarily lower back and glutes rather than upper back</span></li>
+            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>The $1,000 savings matters to your budget</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/kyota-yugana-m780" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Yugana M780</a>
+          </div>
         </div>
-        <div className="bg-sand rounded-xl p-5">
-          <p className="font-semibold text-navy mb-2">Choose the Maestro LE 2.0 if:</p>
-          <ul className="text-sm text-charcoal space-y-1.5">
-            <li>You have both upper and lower back pain and need full SL-track coverage</li>
-            <li>Shoulder and upper arm airbag compression is a priority</li>
-            <li>You weigh under 260 lbs</li>
-            <li>Strong domestic service support is important for your purchase decision</li>
+        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
+          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Maestro LE 2.0 if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You have both upper and lower back pain and need full SL-track coverage</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Shoulder and upper arm airbag compression is a priority</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You weigh under 260 lbs</span></li>
+            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Strong domestic service support is important for your purchase decision</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/osaki-os-pro-maestro-le" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Maestro LE 2.0</a>
+          </div>
         </div>
       </div>
 
