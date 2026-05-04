@@ -327,7 +327,7 @@ function WhatBuyersReport({ chair }: { chair: Chair }) {
   const domain = chair.reviewSource || ""
   return (
     <div className="mb-12 max-w-2xl">
-      <h2 className="text-2xl font-serif text-navy mb-4">What buyers report</h2>
+      <h2 className="text-2xl font-serif text-navy mb-4">What buyers are saying</h2>
       <div className="flex items-center gap-3 mb-4 flex-wrap">
         <StarRating rating={rating} />
         <span className="font-semibold text-charcoal">{rating.toFixed(1)}</span>
@@ -718,7 +718,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
           </div>
         </div>
 
-        {/* What buyers report */}
+        {/* What buyers are saying */}
         <WhatBuyersReport chair={c} />
 
         {/* FAQ */}

@@ -677,11 +677,6 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <details>
 <summary><strong>Which brand has the best warranty?</strong></summary>
 <p>Luraco offers some of the strongest warranty coverage in the market, which is part of what justifies the price premium for a US-assembled product. Among the larger-catalog brands, Osaki and Infinity both offer multi-year structural warranties on their mid-range and premium models. Warranty terms vary by model, not just brand — check the roller mechanism and structural frame coverage separately from parts and labor, since those often differ.</p>
-</details>
-
-<details>
-<summary><strong>Can I try a massage chair before buying?</strong></summary>
-<p>The 30-day in-home trial offered by most major dealers is the most practical option for evaluating fit — and more useful than a brief test session in most cases. A week of daily use in your actual home, on your own schedule, tells you far more about whether a chair solves your specific problem than any five-minute evaluation would. If fit uncertainty is the main thing holding you back, the in-home trial period is the right tool for resolving it.</p>
 </details>`,
   },
 
