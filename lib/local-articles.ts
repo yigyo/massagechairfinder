@@ -1512,6 +1512,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 </details>
 
 <p>The <a href="/learn/airbag-massage">airbag massage guide</a> explains coverage zones and what to look for when comparing chairs on this dimension. The <a href="/learn/body-scanning">body scanning guide</a> explains how the chair calibrates to your body each session. The <a href="/finder">chair finder</a> builds your full recommendation based on pain profile, budget, and physical requirements.</p>`,
+  },
   {
     slug: "how-long-do-massage-chairs-last",
     title: "How Long Do Massage Chairs Last?",
@@ -1732,7 +1733,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
   {
     slug: "massage-chairs-made-in-usa",
     title: "Made in USA Massage Chairs: What the Label Actually Means",
-    excerpt: ""Made in USA" means different things depending on who is saying it. For massage chairs, there are five distinct levels of domestic involvement, from chairs designed in the US but built entirely overseas to chairs genuinely assembled in the United States. Here is how to read the label honestly.",
+    excerpt: `"Made in USA" means different things depending on who is saying it. For massage chairs, there are five distinct levels of domestic involvement, from chairs designed in the US but built entirely overseas to chairs genuinely assembled in the United States. Here is how to read the label honestly.`,
     order: 23,
     publishedAt: "2026-05-03",
     body: `<p>The phrase "Made in USA" means different things in the massage chair industry depending on who is using it. There are no industry-standard disclosure requirements that prevent a US-based brand from making vague domestic claims about chairs that are manufactured entirely overseas. Understanding the actual levels of domestic involvement helps you evaluate what you are buying and what the warranty and service claims behind it are worth.</p>
@@ -2207,7 +2208,6 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>The <a href="/learn/how-long-do-massage-chairs-last">lifespan guide</a> explains what mechanical wear looks like and when a chair is at end of life. The <a href="/learn/brands-overview">brands overview</a> covers which brands have domestic service infrastructure for post-warranty support. The <a href="/finder">chair finder</a> includes new chairs across price ranges including options at the lower tiers that compete with refurbished pricing.</p>`,
   },
-  },
 
   {
     slug: 'how-to-use-a-massage-chair',
@@ -2515,7 +2515,6 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     `,
   },
 
-  },
 
   {
     slug: 'massage-chairs-for-arthritis',
@@ -2761,7 +2760,6 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     `,
   },
 
-  },
 
 ]
 
