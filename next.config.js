@@ -46,6 +46,15 @@ const nextConfig = {
       { protocol: 'https', hostname: 'massagechairheaven.com' },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/chairs/fujiiryoki-jp3000',
+        destination: '/chairs/synca-wellness-jp3000',
+        permanent: true,
+      },
+    ]
+  },
   webpack: (config) => {
     // Fix: SyntaxError (21:9) in globals.css.webpack[javascript/auto]
     // Sucrase fails parsing the source map object embedded by css-loader.
