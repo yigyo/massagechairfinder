@@ -113,7 +113,7 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     warrantyNote: "3 years comprehensive. Confirm before purchase.",
     bestFor: "Buyers for whom Japanese brand heritage, precision body scanning, and ultra-quiet operation are worth the category's second-highest price point.",
     seoTitle: "Panasonic Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "Panasonic makes two current massage chairs in the US market: the MAF1 at $5,999 and the MAK1 at $14,499. Here is what each offers and who they suit." and who it is right for.",
+    seoDescription: "Panasonic makes two current massage chairs in the US market: the MAF1 at $5,999 and the MAK1 at $14,499. Here is what each offers and who they suit.",
     description: [
       "<p>Panasonic has been building massage chairs in Japan longer than most brands in the category have existed. Their current US lineup includes two chairs: the MAF1 at $5,999, an S-track 4D chair aimed at buyers who want Japanese engineering at a more accessible price point, and the MAK1 at $14,499, their flagship.ent US offering is a single model, the MAK1, priced at $14,499. That price places it near the top of the market, and the MAK1 justifies that position primarily through body scanning precision and build quality rather than feature count.</p>",
       "<p>The MAK1's body scanning system is among the most detailed in the category. It maps spinal curvature, shoulder width, and body proportions before each session and adjusts roller path and pressure accordingly. For buyers with irregular posture, significant asymmetry, or conditions where roller precision matters clinically, this level of scanning accuracy is functionally meaningful. The chair is also quieter in operation than virtually any other chair in the market, which reflects Panasonic's engineering discipline as an electronics manufacturer.</p>",
@@ -128,7 +128,7 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     priceRange: "$8,100 to $8,499",
     origin: "South Korea",
     warrantyNote: "Confirm per model before purchase.",
-    bestFor: "Buyers in the $8,000 to $9,000 range who want Korean engineering with a premium aesthetic and medical-grade positioning. The Phantom II at $8,100 is the entry point; the Falcon XD at $8,499 adds stretch programs."ositioning on select models.",
+    bestFor: "Buyers in the $8,000 to $9,000 range who want Korean engineering with a premium aesthetic and medical-grade positioning. The Phantom II at $8,100 is the entry point; the Falcon XD at $8,499 adds stretch programs.",
     seoTitle: "Bodyfriend Massage Chairs: Brand Overview and Buying Guide",
     seoDescription: "Bodyfriend is a Korean luxury massage chair brand with medical-grade models. Here is what to expect and who their chairs are right for.",
     description: [
@@ -196,7 +196,7 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     priceRange: "$2,999 to $7,999",
     origin: "US distributor (related to Osaki); chairs manufactured in China",
     warrantyNote: "Confirm per model before purchase.",
-    bestFor: "Buyers who want Osaki distribution and service coverage. The Genki M380 at $2,999 suits entry-level buyers; the Yugana M780 at $7,999 suits mid-to-premium buyers who want 4D L-track technology with Japanese brand heritage." behind it.",
+    bestFor: "Buyers who want Osaki distribution and service coverage. The Genki M380 at $2,999 suits entry-level buyers; the Yugana M780 at $7,999 suits mid-to-premium buyers who want 4D L-track technology with Japanese brand heritage.",
     seoTitle: "Kyota Massage Chairs: Brand Overview and Buying Guide",
     seoDescription: "Kyota offers entry-level massage chairs with Osaki's distribution network. Here is what the Genki M380 offers and who it is right for.",
     description: [
@@ -215,7 +215,7 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     warrantyNote: "Confirm per model before purchase.",
     bestFor: "Buyers in the $9,000 to $10,000 range who want a Japanese-influenced chair with heat therapy emphasis.",
     seoTitle: "Daiwa Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "Daiwa makes Japanese-influenced premium massage chairs ranging from $6,000 to $15,500 across nine current models. Here is what the lineup offers and who each chair suits best."who it is right for.",
+    seoDescription: "Daiwa makes Japanese-influenced premium massage chairs ranging from $6,000 to $15,500 across nine current models. Here is what the lineup offers and who each chair suits best.",
     description: [
       "<p>Daiwa is a Japanese-influenced brand distributed in the US with a wide current lineup ranging from $6,000 to $15,500. The catalog spans nine models, from the Majesty 2D at the entry point through the Black Panther Supreme Hybrid at the top. Heat therapy emphasis and advanced roller technology are consistent across the line.$9,500. The Legacy 4 uses a 4D roller system on an SL-track with a thermal massage system that integrates heat more extensively than most chairs in the market, applying warmth not just to the lumbar area but throughout the roller path. For buyers whose primary complaint involves muscle tension that responds well to heat, this emphasis on thermal massage is a genuine differentiator.</p>",
       "<p>The Legacy 4 sits in a price tier that includes strong competition from JPMedics and Ogawa. Against those alternatives, Daiwa's case is the thermal massage emphasis and a roller mechanism that runs quieter than average. Buyers who are specifically looking for more extensive heat integration in a 4D SL-track chair at this price point will find the Legacy 4 is the most direct answer to that need.</p>",
@@ -232,7 +232,7 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     warrantyNote: "Confirm per model before purchase.",
     bestFor: "Mid-range buyers evaluating 4D SL-track options at $4,999 who want Osaki distribution and service coverage.",
     seoTitle: "AmaMedics Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "AmaMedics offers a 4D SL-track massage chair at $4,999, the Hilux 4D. Here is what to expect and who it suits best."ux 4D and who they are right for.",
+    seoDescription: "AmaMedics offers a 4D SL-track massage chair at $4,999, the Hilux 4D. Here is what to expect and who it suits best.",
     description: [
       "<p>AmaMedics is a smaller US-distributed brand currently represented by one active model: the Hilux 4D at $4,999. As an Osaki-distributed brand, it carries the same parts and service infrastructure as the broader Osaki network.4,999. The gap between them in both price and capability is significant, which means they serve two quite different buyer profiles. The Renew 3D is the lowest-priced chair in the current catalog, and at that price point, expectations should be calibrated accordingly: the massage is functional, the coverage is limited to an S-track, and the build quality reflects the price.</p>",
       "<p>The Hilux 4D at $4,999 is a more capable chair. It uses a 4D roller mechanism on an SL-track, which puts it in the same configuration tier as the Synca JP970 at the same price. Buyers comparing the two should evaluate them directly on body scanning accuracy and roller feel, as those are the meaningful differentiators at this price point.</p>",
@@ -248,9 +248,9 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     priceRange: "$1,299 to $10,999",
     origin: "Japan; distributed in the US",
     warrantyNote: "Typically 3 years comprehensive. Confirm per model before purchase.",
-    bestFor: "Buyers who want Japanese engineering across a wide budget range, from entry-level SL-track at $1,299 to a 4D flagship at $10,999."lagship at $9,999. The CirC+ is the standout value in the entry segment.",
+    bestFor: "Buyers who want Japanese engineering across a wide budget range, from entry-level SL-track at $1,299 to a 4D flagship at $10,999.",
     seoTitle: "Synca Wellness Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "Synca Wellness makes Japanese-designed massage chairs from $1,299 to $10,999. Here is what the CirC, CirC Plus, CirC 3, Kurodo, and JP3000 offer and who each suits."C+, CirC 3, and Kurodo offer and who they are right for.",
+    seoDescription: "Synca Wellness makes Japanese-designed massage chairs from $1,299 to $10,999. Here is what the CirC, CirC Plus, CirC 3, Kurodo, and JP3000 offer and who each suits.",
     description: [
       "<p>Synca Wellness is a Japanese-designed brand distributed in the US with a range that spans the entry level through the premium tier. The JP970 remains the brand's most established model at $4,999, with a 4D S-track system and a history of consistent performance reviews. The newer CirC line extends the brand downward into the $1,299 to $1,999 range, making Synca Wellness one of the few Japanese-affiliated brands accessible to buyers who are not yet ready to spend $4,000 or more.</p>",
       "<p>The CirC at $1,299 is a genuine SL-track chair at the lowest price point in the category. Its 34-inch track length is compact and best suited to average-height users, but the SL-track configuration is more coverage than most chairs at this price provide. The CirC+ at $1,899 extends the track to 45.5 inches and adds a space-saving mechanism that requires only 6 inches of wall clearance, making it one of the more practical options for buyers with constrained room placement. The CirC 3 at $1,999 adds a 300-pound weight capacity.</p>",
@@ -369,7 +369,7 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     warrantyNote: "Confirm per model before purchase.",
     bestFor: "Buyers in the $2,500 to $3,000 range who want a 53-inch SL-track, 330-pound capacity, and near-wall placement. One of the most accessible full-coverage SL-track chairs in the catalog.",
     seoTitle: "Relaxe Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "Relaxe offers an SL-track shiatsu massage chair at $2,999 with 53-inch track length and 330-pound capacity, sold direct to consumers. Here is what to expect."ity. Here is what the Shiatsu offers and who it is right for.",
+    seoDescription: "Relaxe offers an SL-track shiatsu massage chair at $2,999 with 53-inch track length and 330-pound capacity, sold direct to consumers. Here is what to expect.",
     description: [
       "<p>Relaxe is a direct-to-consumer brand selling via relaxe.co, currently represented by a single model: the Shiatsu, priced at $2,999. At this price, the specifications stand out. The Shiatsu uses a 53-inch SL-track, near the upper end of what mid-range chairs offer, with space-saving 2-inch wall clearance and a confirmed 330-pound weight capacity. That combination of full SL-track coverage, tight wall clearance, and high weight limit at under $3,000 is unusual in the market.</p>",
       "<p>The roller mechanism is 2D, which is the expected trade-off at this price. Buyers who prioritize roller depth control and adjustable intensity will need to spend more for 3D or 4D technology. But buyers whose primary needs are full SL-track coverage and space-saving placement, without a hard requirement for advanced roller dimensions, will find the Shiatsu competitive against similarly priced options. The confirmed height range of 61 to 76 inches covers most buyers from 5 ft 1 in to 6 ft 4 in.</p>",
@@ -384,7 +384,7 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     priceRange: "$14,999 to $18,000",
     origin: "Designed by OHCO, manufactured in partnership with Japanese engineering teams; sold in the US through Johnson Fitness",
     warrantyNote: "Confirm warranty terms with Johnson Fitness at point of purchase.",
-    bestFor: "Buyers at the $14,000 and above tier who want Japanese design sensibility, 4D SL-track technology, and the service infrastructure of Johnson Fitness."ice infrastructure of a major US fitness retailer behind the purchase.",
+    bestFor: "Buyers at the $14,000 and above tier who want Japanese design sensibility, 4D SL-track technology, and the service infrastructure of Johnson Fitness.",
     seoTitle: "OHCO Massage Chairs: Brand Overview and Buying Guide",
     seoDescription: "OHCO makes premium 4D SL-track massage chairs with Japanese design heritage, sold through Johnson Fitness. Here is what to know before you buy.",
     description: [
@@ -403,7 +403,7 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     warrantyNote: "Confirm warranty terms per model on relaxonchair.com before purchase.",
     bestFor: "Buyers in the $1,000 to $3,500 range who want a full-featured chair without premium brand markup. The Relax On Chair lineup is one of the most complete value options in the catalog across SL-track, L-track, 3D, and 4D roller categories.",
     seoTitle: "Relax On Chair Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "Relax On Chair offers massage chairs from $1,599 to $6,499 across L-track, SL-track, 3D, and 4D roller options. Here is what the current lineup offers and who each tier suits."tions. Here is how the lineup breaks down and who each model is right for.",
+    seoDescription: "Relax On Chair offers massage chairs from $1,599 to $6,499 across L-track, SL-track, 3D, and 4D roller options. Here is what the current lineup offers and who each tier suits.",
     description: [
       "<p>Relax On Chair offers one of the broadest lineups among value-tier massage chair brands in the US market, ranging from the $999 RIO entry recliner to the $6,499 YUKON-4D flagship. Most buyers encounter the brand through search rather than retail presence, as Relax On Chair sells direct through its own website. The brand's strength is price-to-feature density: buyers who need zero gravity, SL-track coverage, and heat at under $3,000 will find more options in the Relax On Chair lineup than in most competing brands at the same price tier.</p>",
       "<p>The lineup segments clearly. Entry models (RIO, Jasper, MK-II Plus, MK-Classic) cover $999 to $2,299 and offer L-track or SL-track coverage with zero gravity and heat. Mid-tier models (MK-III, MK-V Plus, ION-3D) step up to $2,299 to $3,299 and introduce space-saving options and 3D rollers. The VITA-3D at $3,499 and YUKON-4D at $6,499 represent the brand's 3D and 4D flagship options respectively. Buyers should note that roller dimension labeling (3D, 4D) can vary in implementation between brands, and comparing specific range-of-motion specs against other brands at the same tier is worthwhile before deciding.</p>",
