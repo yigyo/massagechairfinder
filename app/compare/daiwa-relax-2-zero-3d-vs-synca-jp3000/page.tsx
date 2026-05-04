@@ -89,7 +89,7 @@ export default function ComparePage() {
               ['Body Scanning', 'Not specified', 'Yes'],
               ['Manufacturing', 'Not Japan', 'Made in Japan'],
             ].map(([spec, a, b]) => (
-              <tr key={spec} className="border-b border-sand">
+              <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>
                 <td className="p-3">{b}</td>
@@ -120,10 +120,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Daiwa Relax 2 Zero 3D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You want S-track upper back coverage at a $2,000 lower price</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You need confirmed fit at taller or heavier ranges</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Inversion stretch for spinal decompression is a priority</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Manufacturing origin is less important than confirmed body fit</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You want S-track upper back coverage at a $2,000 lower price</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You need confirmed fit at taller or heavier ranges</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Inversion stretch for spinal decompression is a priority</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Manufacturing origin is less important than confirmed body fit</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/daiwa-relax-2-zero-3d" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Relax 2 Zero 3D</a>
@@ -132,10 +132,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Synca JP-3000 if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Japanese manufacturing quality is important to your long-term investment</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>5D roller sophistication and rhythm variation are priorities</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You are comparing against other Japanese S-track chairs (Panasonic, Fujiiryoki)</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Body scanning is important for accurate cervical positioning</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Japanese manufacturing quality is important to your long-term investment</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>5D roller sophistication and rhythm variation are priorities</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are comparing against other Japanese S-track chairs (Panasonic, Fujiiryoki)</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Body scanning is important for accurate cervical positioning</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/synca-wellness-jp3000" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Synca JP-3000</a>

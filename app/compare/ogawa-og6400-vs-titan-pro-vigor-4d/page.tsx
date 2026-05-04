@@ -23,28 +23,32 @@ export default function ComparePage() {
         The Ogawa OG-6400 costs $800 less than the Pro-Vigor 4D and handles significantly more weight -- 320 lbs verified plus-size versus 260 lbs. The Pro-Vigor 4D adds heated rollers and a 4D roller system for more nuanced pressure control. The decision comes down to body fit versus roller technology.
       </p>
 
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/1509/5162/files/OgawaActiveXLDUO_0025_ogawa-active-xl-duo-black-and-champagne-angled-view.jpg"
-            alt="Ogawa Active XL Duo 3D OG-6400"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Ogawa Active XL Duo 3D</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$5,199</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 3D | 320 lbs | 11-inch wall clearance</p>
+      <div className="grid grid-cols-2 gap-4 mb-10">
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/1509/5162/files/OgawaActiveXLDUO_0025_ogawa-active-xl-duo-black-and-champagne-angled-view.jpg"
+              alt="Ogawa Active XL Duo 3D OG-6400 massage chair"
+              width={400}
+              height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Ogawa Active XL Duo 3D</p>
+          <p className="text-sm text-charcoal">$5,199</p>
         </div>
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/Vigor_Black_Perspective_1000x100_833e048a-3782-4c24-bda3-145b0593c8bd.jpg"
-            alt="Titan Pro-Vigor 4D"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Titan Pro-Vigor 4D</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$5,999</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 4D | 260 lbs | Heated rollers | 3.9-inch wall</p>
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/Vigor_Black_Perspective_1000x100_833e048a-3782-4c24-bda3-145b0593c8bd.jpg"
+              alt="Titan Pro-Vigor 4D massage chair"
+              width={400}
+              height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Titan Pro-Vigor 4D</p>
+          <p className="text-sm text-charcoal">$5,999</p>
         </div>
       </div>
 
@@ -83,7 +87,7 @@ export default function ComparePage() {
               ['Stretch Programs', 'Not specified', 'Yes'],
               ['Space-Saving', 'Yes', 'Yes'],
             ].map(([spec, a, b]) => (
-              <tr key={spec} className="border-b border-sand">
+              <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>
                 <td className="p-3">{b}</td>
@@ -117,10 +121,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Ogawa OG-6400 if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You weigh over 250 lbs or want verified plus-size fit</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Budget is a consideration and 3D roller quality is sufficient</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Your room has only 11 inches of wall clearance but not tight enough for the Vigor's 3.9"</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You want to save $800 and the roller type difference is not important</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You weigh over 250 lbs or want verified plus-size fit</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Budget is a consideration and 3D roller quality is sufficient</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Your room has only 11 inches of wall clearance but not tight enough for the Vigor's 3.9"</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You want to save $800 and the roller type difference is not important</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/ogawa-og6400" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the OG-6400</a>
@@ -129,10 +133,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Titan Pro-Vigor 4D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You weigh under 250 lbs and are between 5'0" and 6'2"</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Heated rollers are a priority for your pain relief routine</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>4D roller depth control and stretch programs matter to you</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Your room is very tight -- the 3.9" wall clearance is the main practical advantage</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You weigh under 250 lbs and are between 5'0" and 6'2"</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Heated rollers are a priority for your pain relief routine</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>4D roller depth control and stretch programs matter to you</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Your room is very tight -- the 3.9" wall clearance is the main practical advantage</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/titan-pro-vigor-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>

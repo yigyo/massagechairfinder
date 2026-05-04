@@ -30,7 +30,7 @@ export default function AdmiralVsKahunaPage() {
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
             <Image
-              src="https://cdn.shopify.com/s/files/1/0727/1609/1700/files/osaki-os-pro-admiral-ii-black-front.webp"
+              src="https://cdn.shopify.com/s/files/1/0727/1609/1700/files/osaki-os-pro-admiral-ii-black-silver-806236.jpg"
               alt="Osaki OS-Pro Admiral II massage chair"
               width={400} height={300}
               className="w-full h-full object-contain p-4"
@@ -40,8 +40,14 @@ export default function AdmiralVsKahunaPage() {
           <p className="text-sm text-charcoal">$2,999</p>
         </div>
         <div className="text-center">
-          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3 flex items-center justify-center" style={{ aspectRatio: '4/3' }}>
-            <p className="text-warm-gray text-sm p-4">Kahuna LM-6800S</p>
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0661/9758/5995/files/kahuna-lm-6800S-massage-chair.jpg?v=1776902669"
+              alt="Kahuna LM-6800S massage chair"
+              width={400}
+              height={300}
+              className="w-full h-full object-contain p-4"
+            />
           </div>
           <p className="text-sm font-semibold text-navy">Kahuna LM-6800S</p>
           <p className="text-sm text-charcoal">$2,499</p>
@@ -122,10 +128,10 @@ export default function AdmiralVsKahunaPage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Admiral II if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You weigh over 200 lbs</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You have chronic lower back pain and want roller depth variation</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You plan daily use and want better long-term mechanical durability</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>The $500 difference is within your budget</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You weigh over 200 lbs</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You have chronic lower back pain and want roller depth variation</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You plan daily use and want better long-term mechanical durability</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>The $500 difference is within your budget</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/osaki-os-pro-admiral-ii" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Admiral II</a>
@@ -134,10 +140,10 @@ export default function AdmiralVsKahunaPage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the LM-6800S if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Your budget is firm at $2,499</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You are under 180 lbs</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>A stretch program is specifically important for hip flexor or lumbar traction</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You are under 5&apos;2&quot; (it accommodates 5&apos;0&quot; vs the Admiral&apos;s 5&apos;2&quot; minimum)</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Your budget is firm at $2,499</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are under 180 lbs</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>A stretch program is specifically important for hip flexor or lumbar traction</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are under 5&apos;2&quot; (it accommodates 5&apos;0&quot; vs the Admiral&apos;s 5&apos;2&quot; minimum)</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/kahuna-lm-6800s" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the LM-6800S</a>

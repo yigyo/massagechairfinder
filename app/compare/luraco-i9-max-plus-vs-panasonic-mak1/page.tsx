@@ -168,10 +168,10 @@ export default function LuracoVsMAK1Page() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the i9 Max Plus if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You have lower back pain, hip pain, or sciatica. L-track and zero gravity are the right tools for this profile.</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You are over 6 feet 2 inches. The i9 Max Plus is confirmed to 6 feet 10 inches. The MAK1 is not.</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Long-term ownership confidence matters. The 10-year warranty and Made in USA certification are the strongest in the category.</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You want to spend less. At $13,490 it is $1,000 less than the MAK1.</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You have lower back pain, hip pain, or sciatica. L-track and zero gravity are the right tools for this profile.</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You are over 6 feet 2 inches. The i9 Max Plus is confirmed to 6 feet 10 inches. The MAK1 is not.</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Long-term ownership confidence matters. The 10-year warranty and Made in USA certification are the strongest in the category.</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You want to spend less. At $13,490 it is $1,000 less than the MAK1.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair" target="_blank" rel="noopener noreferrer"
@@ -183,9 +183,9 @@ export default function LuracoVsMAK1Page() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the MAK1 if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Your pain is focused on the upper back, neck, or shoulders and you want Panasonic's precision S-track engineering.</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Infrared heated rollers are important to you. It is the MAK1's most distinctive and capable feature.</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Panasonic brand trust and Japanese engineering heritage matters in your decision.</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Your pain is focused on the upper back, neck, or shoulders and you want Panasonic's precision S-track engineering.</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Infrared heated rollers are important to you. It is the MAK1's most distinctive and capable feature.</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Panasonic brand trust and Japanese engineering heritage matters in your decision.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://www.massagechairs.com/products/panasonic-mak1-massage-chair" target="_blank" rel="noopener noreferrer"

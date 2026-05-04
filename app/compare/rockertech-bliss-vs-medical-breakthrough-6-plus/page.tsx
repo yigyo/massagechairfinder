@@ -82,7 +82,7 @@ export default function ComparePage() {
               ['Weight Capacity', 'Not published', '300 lbs'],
               ['Warranty', '3 years', 'Not specified'],
             ].map(([spec, a, b]) => (
-              <tr key={spec} className="border-b border-sand">
+              <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>
                 <td className="p-3">{b}</td>
@@ -113,10 +113,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the RockerTech Bliss if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Your room has limited rear clearance</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You want reflexology foot rollers for plantar fasciitis or circulation</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>A 3-year warranty is important to you</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You weigh under 265 lbs and stretch programs are not a priority</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Your room has limited rear clearance</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You want reflexology foot rollers for plantar fasciitis or circulation</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>A 3-year warranty is important to you</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You weigh under 265 lbs and stretch programs are not a priority</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/rockertech-bliss" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Bliss</a>
@@ -125,10 +125,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the MB6 Plus if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Stretch programs are a priority for your recovery or spinal health</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You weigh over 265 lbs and want a confirmed 300 lb capacity</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Room space behind the chair is not a constraint</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You are comparing against other Medical Breakthrough models</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Stretch programs are a priority for your recovery or spinal health</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You weigh over 265 lbs and want a confirmed 300 lb capacity</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Room space behind the chair is not a constraint</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You are comparing against other Medical Breakthrough models</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/medical-breakthrough-6-plus" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the MB6 Plus</a>

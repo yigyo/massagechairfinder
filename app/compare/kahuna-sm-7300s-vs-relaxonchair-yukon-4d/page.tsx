@@ -23,25 +23,32 @@ export default function ComparePage() {
         These chairs sit $500 apart at $6,999 and $6,499. The Kahuna SM-7300S is built around a 6-roller system, three-stage zero gravity, and heat that extends to the lumbar, calves, and feet. The YUKON-4D is built around a 4D roller with precision pressure control. The choice is fundamentally about whether roller technology or heat and decompression coverage matters more.
       </p>
 
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/1509/5162/products/Black-min_5.jpg?v=1721661626"
-            alt="Kahuna SM-7300S"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Kahuna SM-7300S</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$6,999</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 2D | 6-roller system | 3-stage zero gravity</p>
-        </div>
-        <div className="card text-center">
-          <div className="h-[300px] flex items-center justify-center bg-sand rounded-lg mb-3">
-            <span className="text-warm-gray text-sm">YUKON-4D</span>
+      <div className="grid grid-cols-2 gap-4 mb-10">
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/1509/5162/products/Black-min_5.jpg?v=1721661626"
+              alt="Kahuna SM-7300S massage chair"
+              width={400}
+              height={300}
+              className="w-full h-full object-contain p-4"
+            />
           </div>
-          <h2 className="text-xl font-serif font-semibold text-navy">Relax On Chair YUKON-4D</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$6,499</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 4D | Precision pressure control</p>
+          <p className="text-sm font-semibold text-navy">Kahuna SM-7300S</p>
+          <p className="text-sm text-charcoal">$6,999</p>
+        </div>
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/2261/7893/products/relaxonchair-yukon-4d-massage-chair-main-210319.jpg"
+              alt="Relax On Chair YUKON-4D massage chair"
+              width={400}
+              height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Relax On Chair YUKON-4D</p>
+          <p className="text-sm text-charcoal">$6,499</p>
         </div>
       </div>
 
@@ -77,7 +84,7 @@ export default function ComparePage() {
               ['Foot Rollers', 'Yes', 'Not specified'],
               ['Roller Depth Control', 'Fixed (2D)', 'Variable (4D)'],
             ].map(([spec, a, b]) => (
-              <tr key={spec} className="border-b border-sand">
+              <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>
                 <td className="p-3">{b}</td>
@@ -103,10 +110,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Kahuna SM-7300S if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Heat in the calves and feet matters for your circulation or arthritis</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Three-stage zero gravity decompression is a priority</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You prefer broad back coverage over precision pressure tuning</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Stretch programs and body scanning are important to you</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Heat in the calves and feet matters for your circulation or arthritis</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Three-stage zero gravity decompression is a priority</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You prefer broad back coverage over precision pressure tuning</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Stretch programs and body scanning are important to you</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/kahuna-sm-7300s" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the SM-7300S</a>
@@ -115,10 +122,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the YUKON-4D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>4D roller precision and session-by-session depth control matter</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You want the lower price while staying in the SL-track tier</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Your pain is concentrated in a specific spinal region</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Lumbar heat is sufficient and calf/foot heat is not a priority</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>4D roller precision and session-by-session depth control matter</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You want the lower price while staying in the SL-track tier</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Your pain is concentrated in a specific spinal region</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Lumbar heat is sufficient and calf/foot heat is not a priority</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/relaxonchair-yukon-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the YUKON-4D</a>

@@ -83,7 +83,7 @@ export default function ComparePage() {
               ['Space-Saving', 'No', 'Yes'],
               ['Voice Control', 'No', 'Yes'],
             ].map(([spec, a, b]) => (
-              <tr key={spec} className="border-b border-sand">
+              <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>
                 <td className="p-3">{b}</td>
@@ -117,10 +117,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Medical Breakthrough 6 if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>Your pain is primarily lower back radiating into the hips or glutes</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You have sciatica or sacral discomfort</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You want stretch programs confirmed</span></li>
-            <li className="flex gap-2"><span className="text-navy mt-1">›</span><span>You weigh under 265 lbs and room space is not a constraint</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>Your pain is primarily lower back radiating into the hips or glutes</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You have sciatica or sacral discomfort</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You want stretch programs confirmed</span></li>
+            <li className="flex items-start gap-2"><span className="text-navy mt-1">›</span><span>You weigh under 265 lbs and room space is not a constraint</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/medical-breakthrough-6" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the MB6</a>
@@ -129,10 +129,10 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Kahuna HM-078 if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You want full SL coverage from neck to glutes</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You weigh over 265 lbs or want more capacity headroom</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>Your room has limited space behind the chair</span></li>
-            <li className="flex gap-2"><span className="text-teal mt-1">›</span><span>You want foot reflexology rollers included</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You want full SL coverage from neck to glutes</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You weigh over 265 lbs or want more capacity headroom</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>Your room has limited space behind the chair</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-1">›</span><span>You want foot reflexology rollers included</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/kahuna-hm-078" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the HM-078</a>
