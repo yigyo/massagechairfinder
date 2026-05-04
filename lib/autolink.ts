@@ -10,7 +10,7 @@
 //   - Does not self-link (pass currentSlug to exclude the current page's entity)
 //   - Word-boundary aware (won't partial-match inside a longer word)
 //   - When a chair name is linked, all substrings of that name (e.g. the brand
-//     prefix "Inada" inside "Inada Robo 4D") are marked as already-linked so
+//     prefix "Osaki" inside "Osaki OS-Pro Admiral II") are marked as already-linked so
 //     they cannot receive a separate brand-page link on the same page. Product
 //     names always link to the product page; brand-only links are reserved for
 //     standalone brand mentions that do not accompany a model name.
@@ -67,6 +67,18 @@ export function autolink(html: string, currentSlug?: string): string {
         const okAfter = !charAfter || /[^a-zA-Z0-9]/.test(charAfter)
         if (!okBefore || !okAfter) continue
 
+        // Brand-name guard: never link just the brand name when it is immediately
+        // followed by a word that looks like a model identifier (digit, uppercase
+        // letter, or hyphen-prefixed model suffix). This prevents "Synca Wellness"
+        // from being linked inside "Synca Wellness JP970" when the JP970 is OOS
+        // and no full chair-name match was found.
+        // Only applies to brand-name entries (href starts with /brands/).
+        if (href.startsWith('/brands/') && charAfter === ' ') {
+          const rest = result.slice(idx + linkText.length + 1)
+          const nextWord = rest.match(/^([A-Z0-9][A-Za-z0-9\-]*)/)
+          if (nextWord) continue  // brand name followed by model identifier -- skip
+        }
+
         result =
           result.slice(0, idx) +
           `<a href="${href}">${linkText}</a>` +
@@ -74,7 +86,7 @@ export function autolink(html: string, currentSlug?: string): string {
         linked.add(linkText)
 
         // Mark every substring of the just-linked text as already-linked so
-        // that brand-name prefixes (e.g. "Inada" inside "Inada Robo 4D") cannot
+        // that brand-name prefixes (e.g. "Osaki" inside "Osaki OS-Pro Admiral II") cannot
         // receive a separate link on this page. Enforces the rule: product
         // names link to the product page only; the brand name is not linked
         // separately on the same mention.
