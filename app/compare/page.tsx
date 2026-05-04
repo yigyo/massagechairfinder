@@ -40,14 +40,14 @@ const COMPARISONS = [
     chairA: 'AmaMedics Hilux 4D',
     chairB: 'Titan Pro-Vigor 4D',
     tier: '$5,000 to $6,000',
-    summary: 'Both SL-track 4D with heated rollers. The Hilux costs $1,000 less and fits buyers from 4'11". The Vigor has a 3.9-inch wall clearance for tight rooms.',
+    summary: 'Both SL-track 4D with heated rollers. The Hilux costs $1,000 less and fits buyers from 4\'11". The Vigor has a 3.9-inch wall clearance for tight rooms.',
   },
   {
     slug: 'kyota-yugana-m780-vs-osaki-os-pro-maestro-le',
     chairA: 'Kyota Yugana M780 4D',
     chairB: 'Osaki OS-Pro Maestro LE 2.0',
     tier: '$8,000 to $9,000',
-    summary: 'L-track at $7,999 vs SL-track at $8,999. The Yugana fits petite buyers to 4'8" and needs 2 inches of wall clearance. The Maestro adds full SL coverage.',
+    summary: 'L-track at $7,999 vs SL-track at $8,999. The Yugana fits petite buyers to 4\'8" and needs 2 inches of wall clearance. The Maestro adds full SL coverage.',
   },
   {
     slug: 'relaxonchair-yukon-4d-vs-rockertech-sensation-4d',
@@ -82,7 +82,7 @@ const COMPARISONS = [
     chairA: 'Infinity Evo Max 4D',
     chairB: 'JPMedics Kumo 4D',
     tier: '$11,000',
-    summary: 'Same price, both L-track 4D. The Evo Max needs only 2 inches of wall clearance. The Kumo 4D confirms 320 lb plus-size fit, supports buyers to 6'3", and is made in Japan.',
+    summary: 'Same price, both L-track 4D. The Evo Max needs only 2 inches of wall clearance. The Kumo 4D confirms 320 lb plus-size fit, supports buyers to 6\'3", and is made in Japan.',
   },
   {
     slug: 'ogawa-og6400-vs-titan-pro-vigor-4d',
@@ -103,7 +103,7 @@ const COMPARISONS = [
     chairA: 'Daiwa Relax 2 Zero 3D',
     chairB: 'Synca JP-3000',
     tier: '$9,000 to $11,000',
-    summary: 'Both S-track for upper and mid-back. The Daiwa costs $2,000 less with confirmed 4'8" to 6'6" fit. The JP-3000 has a 5D roller and Japanese manufacturing.',
+    summary: 'Both S-track for upper and mid-back. The Daiwa costs $2,000 less with confirmed 4\'8" to 6\'6" fit. The JP-3000 has a 5D roller and Japanese manufacturing.',
   },
 ]
 

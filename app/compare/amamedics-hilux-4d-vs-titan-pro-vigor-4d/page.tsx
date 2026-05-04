@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'AmaMedics Hilux 4D vs Titan Pro-Vigor 4D: The $5,000 SL-Track Decision',
-  description: 'Both are SL-track 4D chairs with heated rollers. The Hilux costs $1,000 less and fits buyers from 4'11". The Vigor adds a space-saving design. Here is the full comparison.',
+  description: 'Both are SL-track 4D chairs with heated rollers. The Hilux costs $1,000 less and fits buyers from 4\'11". The Vigor adds a space-saving design. Here is the full comparison.',
 }
 
 export default function HiluxVsVigorPage() {
@@ -85,7 +85,7 @@ export default function HiluxVsVigorPage() {
               ['Zero gravity', '2-stage', '2-stage'],
               ['Wall clearance', 'Standard', '3.9 inches'],
               ['Weight capacity', '270 lbs', '260 lbs'],
-              ['Min height', '4'11"', '5'0"'],
+              ['Min height', `4'11"`, `5'0"`],
             ].map(([spec, a, b], i) => (
               <tr key={spec} className={i % 2 === 0 ? 'bg-white' : 'bg-sand'}>
                 <td className="p-3 font-medium text-navy">{spec}</td>

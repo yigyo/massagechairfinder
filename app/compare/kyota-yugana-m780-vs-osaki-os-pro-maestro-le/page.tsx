@@ -85,7 +85,7 @@ export default function YuganaVsMaestroPage() {
               ['Zero gravity', '2-stage', '2-stage'],
               ['Wall clearance', '2 inches', 'Standard'],
               ['Weight capacity', '300 lbs', '260 lbs'],
-              ['Min height confirmed', '4'8"', 'Not published'],
+              ['Min height confirmed', `4'8"`, 'Not published'],
             ].map(([spec, a, b], i) => (
               <tr key={spec} className={i % 2 === 0 ? 'bg-white' : 'bg-sand'}>
                 <td className="p-3 font-medium text-navy">{spec}</td>

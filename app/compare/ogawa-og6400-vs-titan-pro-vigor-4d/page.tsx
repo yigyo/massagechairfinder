@@ -75,7 +75,7 @@ export default function ComparePage() {
               ['Roller', '3D (dual system)', '4D'],
               ['Weight Capacity', '320 lbs', '260 lbs'],
               ['Plus-Size Verified', 'Yes', 'Not confirmed'],
-              ['User Height Range', 'Not published', '5'0" to 6'2"'],
+              ['User Height Range', 'Not published', `5'0" to 6'2"`],
               ['Wall Clearance', '11 inches', '3.9 inches'],
               ['Heated Rollers', 'No (pad heat)', 'Yes'],
               ['Zero Gravity', 'Yes', 'Yes (2-stage)'],

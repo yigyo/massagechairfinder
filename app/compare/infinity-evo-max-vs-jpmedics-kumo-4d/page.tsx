@@ -75,7 +75,7 @@ export default function ComparePage() {
               ['Roller', '4D', '4D'],
               ['Track Length', '49 inches', 'Not published'],
               ['Weight Capacity', 'Not published', '320 lbs'],
-              ['Max User Height', 'Not published', '6'3" (75 in)'],
+              ['Max User Height', 'Not published', `6'3" (75 in)`],
               ['Wall Clearance', '2 inches', 'Standard recline'],
               ['Zero Gravity', 'Yes', 'Yes'],
               ['Heat', 'Yes', 'Yes'],

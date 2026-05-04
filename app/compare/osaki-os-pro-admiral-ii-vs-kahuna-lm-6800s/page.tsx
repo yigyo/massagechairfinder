@@ -77,7 +77,7 @@ export default function AdmiralVsKahunaPage() {
               ['Heat', 'Lumbar', 'Lumbar'],
               ['Stretch program', 'No', 'Yes'],
               ['Weight capacity', '270 lbs', '200 lbs'],
-              ['Min height', '5'2"', '5'0"'],
+              ['Min height', `5'2"`, `5'0"`],
             ].map(([spec, a, b], i) => (
               <tr key={spec} className={i % 2 === 0 ? 'bg-white' : 'bg-sand'}>
                 <td className="p-3 font-medium text-navy">{spec}</td>

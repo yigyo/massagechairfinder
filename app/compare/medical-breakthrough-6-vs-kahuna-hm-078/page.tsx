@@ -74,7 +74,7 @@ export default function ComparePage() {
               ['Track', 'L-track', 'SL-track'],
               ['Roller', '4D', '4D'],
               ['Weight Capacity', '300 lbs', '350 lbs'],
-              ['Max User Height', 'Not specified', '6'2" (74 in)'],
+              ['Max User Height', 'Not specified', `6'2" (74 in)`],
               ['Zero Gravity', 'Yes', 'Yes'],
               ['Heat', 'Yes', 'Yes'],
               ['Stretch Programs', 'Yes', 'Not specified'],
