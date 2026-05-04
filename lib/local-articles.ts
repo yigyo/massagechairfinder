@@ -590,7 +590,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Synca</strong> is Japanese-designed and comes in at a more accessible price point. The JP970 ($4,999) and JP1100 ($9,999) are well-regarded for build quality and massage feel relative to their price. Synca is a strong consideration for buyers who want Japanese design sensibility without the full Inada premium.</p>
 
-<p><strong>JPMedics</strong> targets the ultra-premium segment with the Kumo 4D ($8,499), KaZe Duo ($12,999), and Kozue 5D ($14,999). The brand positions itself around Japanese craftsmanship and therapeutic depth.</p>
+<p><strong>JPMedics</strong> targets the ultra-premium segment with the Kumo 4D and the KaZe Duo. The brand positions itself around Japanese craftsmanship and therapeutic depth.</p>
 
 <h2>Luraco: the only major US-assembled brand</h2>
 
@@ -618,7 +618,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Human Touch is a US-based brand that takes a different approach to roller motion. Rather than a standard oval roller path, Human Touch uses a figure-eight motion designed to more closely replicate a therapist's hand movement. The Laevo ZG ($3,999 to $4,499) is their current primary offering.</p>
 
-<p>The figure-eight roller path produces a noticeably different massage feel. Some buyers prefer it strongly; others find the standard oval more effective. Human Touch is worth trying in person if you have showroom access or are purchasing through a dealer with a return window. It is not better or worse than standard roller systems — it is different enough that personal preference matters.</p>
+<p>The figure-eight roller path produces a noticeably different massage feel. Some buyers prefer it strongly; others find the standard oval more effective. The 30-day in-home trial that most dealers offer is the practical way to evaluate it. A week of daily use tells you more about whether the roller pattern fits your preference than any brief test session would. It is not better or worse than standard roller systems — it is different enough that personal preference matters.</p>
 
 <h2>Budget brands: Real Relax and Titan</h2>
 
@@ -681,7 +681,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <details>
 <summary><strong>Can I try a massage chair before buying?</strong></summary>
-<p>Showroom access varies significantly by brand and region. Osaki and Infinity have the widest dealer networks in the US. Luraco sells direct. Japanese brands like Inada and Panasonic are harder to find in physical showrooms. For brands you cannot try in person, the 30-day in-home trial offered by many dealers is the practical alternative. It gives you time to evaluate the chair in your actual living environment, which tells you more than a five-minute showroom session anyway.</p>
+<p>The 30-day in-home trial offered by most major dealers is the most practical option for evaluating fit — and more useful than a brief test session in most cases. A week of daily use in your actual home, on your own schedule, tells you far more about whether a chair solves your specific problem than any five-minute evaluation would. If fit uncertainty is the main thing holding you back, the in-home trial period is the right tool for resolving it.</p>
 </details>`,
   },
 

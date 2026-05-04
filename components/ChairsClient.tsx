@@ -27,12 +27,13 @@ const ROLLER_OPTIONS = [
   { label: '4D', value: '4D' },
 ]
 
-const PRICE_OPTIONS = [
-  { label: 'All prices', value: 0 },
-  { label: 'Under $3,000', value: 3000 },
-  { label: 'Under $5,000', value: 5000 },
-  { label: 'Under $8,000', value: 8000 },
-  { label: 'Under $12,000', value: 12000 },
+const PRICE_OPTIONS: Array<{ label: string; key: string; min: number; max: number | null }> = [
+  { label: 'All prices',         key: '',        min: 0,     max: null  },
+  { label: '$2,999 and under',   key: '0-2999',  min: 0,     max: 2999  },
+  { label: '$3,000 – $5,999',    key: '3000-5999', min: 3000, max: 5999 },
+  { label: '$6,000 – $8,999',    key: '6000-8999', min: 6000, max: 8999 },
+  { label: '$9,000 – $11,999',   key: '9000-11999', min: 9000, max: 11999 },
+  { label: '$12,000 and over',   key: '12000+',  min: 12000, max: null  },
 ]
 
 const SORT_OPTIONS = [
@@ -114,7 +115,7 @@ export default function ChairsClient({ activeChairs, oosChairs }: Props) {
   const [track, setTrack]       = useState('all')
   const [roller, setRoller]     = useState('all')
   const [brand, setBrand]       = useState('all')
-  const [maxPrice, setMaxPrice] = useState(0)
+  const [priceRange, setPriceRange] = useState('')
   const [sortBy, setSortBy]     = useState<'score' | 'price-asc' | 'price-desc'>('score')
   const [showAll, setShowAll]   = useState(false)
 
@@ -123,7 +124,7 @@ export default function ChairsClient({ activeChairs, oosChairs }: Props) {
     [activeChairs]
   )
 
-  const anyFilterActive = track !== 'all' || roller !== 'all' || brand !== 'all' || maxPrice !== 0
+  const anyFilterActive = track !== 'all' || roller !== 'all' || brand !== 'all' || priceRange !== ''
 
   // Filter then sort
   const sorted = useMemo(() => {
@@ -131,13 +132,19 @@ export default function ChairsClient({ activeChairs, oosChairs }: Props) {
       if (track !== 'all' && c.track !== track) return false
       if (roller !== 'all' && c.roller !== roller) return false
       if (brand !== 'all' && c.brand !== brand) return false
-      if (maxPrice > 0 && c.priceMin >= maxPrice) return false
+      if (priceRange !== '') {
+        const opt = PRICE_OPTIONS.find(o => o.key === priceRange)
+        if (opt) {
+          if (c.priceMin < opt.min) return false
+          if (opt.max !== null && c.priceMin > opt.max) return false
+        }
+      }
       return true
     })
     if (sortBy === 'price-asc')  return [...filtered].sort((a, b) => a.priceMin - b.priceMin)
     if (sortBy === 'price-desc') return [...filtered].sort((a, b) => b.priceMin - a.priceMin)
     return [...filtered].sort((a, b) => chairScore(b) - chairScore(a))
-  }, [activeChairs, track, roller, brand, maxPrice, sortBy])
+  }, [activeChairs, track, roller, brand, priceRange, sortBy])
 
   // Reset showAll whenever filters or sort change
   function handleFilterChange(fn: () => void) {
@@ -149,7 +156,7 @@ export default function ChairsClient({ activeChairs, oosChairs }: Props) {
     setTrack('all')
     setRoller('all')
     setBrand('all')
-    setMaxPrice(0)
+    setPriceRange('')
     setShowAll(false)
   }
 
@@ -221,12 +228,12 @@ export default function ChairsClient({ activeChairs, oosChairs }: Props) {
           <div>
             <p className="text-xs font-medium text-warm-gray uppercase tracking-wide mb-2">Price</p>
             <select
-              value={maxPrice}
-              onChange={e => handleFilterChange(() => setMaxPrice(Number(e.target.value)))}
+              value={priceRange}
+              onChange={e => handleFilterChange(() => setPriceRange(e.target.value))}
               className="text-sm border border-sand rounded px-3 py-1.5 text-charcoal bg-white focus:outline-none focus:border-navy"
             >
               {PRICE_OPTIONS.map(opt => (
-                <option key={opt.value} value={opt.value}>{opt.label}</option>
+                <option key={opt.key} value={opt.key}>{opt.label}</option>
               ))}
             </select>
           </div>
