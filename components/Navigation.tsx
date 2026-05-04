@@ -2,71 +2,21 @@
 import Link from 'next/link'
 import { useState, useRef, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-import { BEST_NAV, COMPARE_NAV } from '@/lib/nav-data'
+
+type NavPage = { label: string; slug: string }
+
+type Props = {
+  bestPages?:    NavPage[]
+  comparePages?: NavPage[]
+}
 
 type NavChild = { label: string; href: string }
 type NavLink  = {
   label:     string
   href:      string
   children?: NavChild[]
-  viewAll?:  string   // label for the "View all" footer link
+  viewAll?:  string
 }
-
-const navLinks: NavLink[] = [
-  { label: 'All Chairs', href: '/chairs' },
-  {
-    label:   'Best For...',
-    href:    '/best',
-    viewAll: 'View all categories',
-    children: BEST_NAV.map(p => ({ label: p.label, href: '/best/' + p.slug })),
-  },
-  {
-    label:    'By Brand',
-    href:     '/brands',
-    viewAll:  'View all brands',
-    children: [
-      { label: 'Ador',               href: '/brands/ador' },
-      { label: 'AmaMedics',          href: '/brands/amamedics' },
-      { label: 'Bodyfriend',         href: '/brands/bodyfriend' },
-      { label: 'Ceragem',            href: '/brands/ceragem' },
-      { label: 'Daiwa',              href: '/brands/daiwa' },
-      { label: 'DCORE',              href: '/brands/dcore' },
-      { label: 'Ergotec',            href: '/brands/ergotec' },
-      { label: 'Fujiiryoki',         href: '/brands/fujiiryoki' },
-      { label: 'Human Touch',        href: '/brands/human-touch' },
-      { label: 'Infinity',           href: '/brands/infinity' },
-      { label: 'Inner Balance',      href: '/brands/inner-balance' },
-      { label: 'JPMedics',           href: '/brands/jpmedics' },
-      { label: 'Kahuna',             href: '/brands/kahuna' },
-      { label: 'Kanji',              href: '/brands/kanji' },
-      { label: 'Koyo',               href: '/brands/koyo' },
-      { label: 'Kyota',              href: '/brands/kyota' },
-      { label: 'Luraco',             href: '/brands/luraco' },
-      { label: 'Medical Breakthrough', href: '/brands/medical-breakthrough' },
-      { label: 'Nouhaus',            href: '/brands/nouhaus' },
-      { label: 'OHCO',               href: '/brands/ohco' },
-      { label: 'Ogawa',              href: '/brands/ogawa' },
-      { label: 'Osaki',              href: '/brands/osaki' },
-      { label: 'Panasonic',          href: '/brands/panasonic' },
-      { label: 'Positive Posture',   href: '/brands/positive-posture' },
-      { label: 'Relax On Chair',     href: '/brands/relax-on-chair' },
-      { label: 'Relaxe',             href: '/brands/relaxe' },
-      { label: 'RockerTech',         href: '/brands/rockertech' },
-      { label: 'Sharper Image',      href: '/brands/sharper-image' },
-      { label: 'Svago',              href: '/brands/svago' },
-      { label: 'Synca Wellness',     href: '/brands/synca-wellness' },
-      { label: 'Theramedic',         href: '/brands/theramedic' },
-      { label: 'Titan',              href: '/brands/titan' },
-    ],
-  },
-  {
-    label:   'Compare',
-    href:    '/compare',
-    viewAll: 'View all comparisons',
-    children: COMPARE_NAV.map(p => ({ label: p.label, href: '/compare/' + p.slug })),
-  },
-  { label: 'Buying Guide', href: '/learn' },
-]
 
 // Dropdown container class per nav section
 function dropdownClass(label: string): string {
@@ -77,23 +27,79 @@ function dropdownClass(label: string): string {
   return 'flex flex-col min-w-[230px]'
 }
 
-// Whether items in this dropdown should prevent text wrapping
 function itemNoWrap(label: string): boolean {
   return label !== 'Compare'
 }
 
-// Footer "col-span-2" only applies to 2-column layouts
 function footerColSpan(label: string): string {
   return label === 'By Brand' || label === 'Compare' ? 'col-span-2' : ''
 }
 
-export default function Navigation() {
+const BY_BRAND_CHILDREN: NavChild[] = [
+  { label: 'Ador',               href: '/brands/ador' },
+  { label: 'AmaMedics',          href: '/brands/amamedics' },
+  { label: 'Bodyfriend',         href: '/brands/bodyfriend' },
+  { label: 'Ceragem',            href: '/brands/ceragem' },
+  { label: 'Daiwa',              href: '/brands/daiwa' },
+  { label: 'DCORE',              href: '/brands/dcore' },
+  { label: 'Ergotec',            href: '/brands/ergotec' },
+  { label: 'Fujiiryoki',         href: '/brands/fujiiryoki' },
+  { label: 'Human Touch',        href: '/brands/human-touch' },
+  { label: 'Infinity',           href: '/brands/infinity' },
+  { label: 'Inner Balance',      href: '/brands/inner-balance' },
+  { label: 'JPMedics',           href: '/brands/jpmedics' },
+  { label: 'Kahuna',             href: '/brands/kahuna' },
+  { label: 'Kanji',              href: '/brands/kanji' },
+  { label: 'Koyo',               href: '/brands/koyo' },
+  { label: 'Kyota',              href: '/brands/kyota' },
+  { label: 'Luraco',             href: '/brands/luraco' },
+  { label: 'Medical Breakthrough', href: '/brands/medical-breakthrough' },
+  { label: 'Nouhaus',            href: '/brands/nouhaus' },
+  { label: 'OHCO',               href: '/brands/ohco' },
+  { label: 'Ogawa',              href: '/brands/ogawa' },
+  { label: 'Osaki',              href: '/brands/osaki' },
+  { label: 'Panasonic',          href: '/brands/panasonic' },
+  { label: 'Positive Posture',   href: '/brands/positive-posture' },
+  { label: 'Relax On Chair',     href: '/brands/relax-on-chair' },
+  { label: 'Relaxe',             href: '/brands/relaxe' },
+  { label: 'RockerTech',         href: '/brands/rockertech' },
+  { label: 'Sharper Image',      href: '/brands/sharper-image' },
+  { label: 'Svago',              href: '/brands/svago' },
+  { label: 'Synca Wellness',     href: '/brands/synca-wellness' },
+  { label: 'Theramedic',         href: '/brands/theramedic' },
+  { label: 'Titan',              href: '/brands/titan' },
+]
+
+export default function Navigation({ bestPages = [], comparePages = [] }: Props) {
   const [menuOpen, setMenuOpen]     = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const [query, setQuery]           = useState('')
   const inputRef  = useRef<HTMLInputElement>(null)
   const headerRef = useRef<HTMLElement>(null)
   const router    = useRouter()
+
+  const navLinks: NavLink[] = [
+    { label: 'All Chairs', href: '/chairs' },
+    {
+      label:    'Best For...',
+      href:     '/best',
+      viewAll:  'View all categories',
+      children: bestPages.map(p => ({ label: p.label, href: '/best/' + p.slug })),
+    },
+    {
+      label:    'By Brand',
+      href:     '/brands',
+      viewAll:  'View all brands',
+      children: BY_BRAND_CHILDREN,
+    },
+    {
+      label:    'Compare',
+      href:     '/compare',
+      viewAll:  'View all comparisons',
+      children: comparePages.map(p => ({ label: p.label, href: '/compare/' + p.slug })),
+    },
+    { label: 'Buying Guide', href: '/learn' },
+  ]
 
   useEffect(() => {
     function onMouseDown(e: MouseEvent) {
@@ -141,7 +147,6 @@ export default function Navigation() {
             {navLinks.map((link) =>
               link.children ? (
                 <div key={link.href} className="group relative">
-                  {/* Parent label */}
                   <Link
                     href={link.href}
                     className="flex items-center gap-1 text-sm text-charcoal hover:text-gold transition-colors"
@@ -150,7 +155,7 @@ export default function Navigation() {
                     <ChevronDown />
                   </Link>
 
-                  {/* Dropdown — pt-2 bridges gap so hover doesn't break */}
+                  {/* pt-2 bridges the gap so hover doesn't break */}
                   <div className="hidden group-hover:block absolute top-full left-0 pt-2 z-50">
                     <div className={"bg-white rounded-xl shadow-lg border border-sand py-2 " + dropdownClass(link.label)}>
                       {link.children.map((child) => (
@@ -218,7 +223,7 @@ export default function Navigation() {
         </div>
       </div>
 
-      {/* Desktop search dropdown */}
+      {/* Desktop search bar */}
       {searchOpen && (
         <div
           className="hidden md:block absolute left-1/2 -translate-x-1/2 w-[540px] max-w-[calc(100vw-2rem)] bg-white rounded-2xl shadow-2xl border border-sand p-5 z-50"

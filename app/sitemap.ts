@@ -2,14 +2,13 @@ import { MetadataRoute } from 'next'
 import { CHAIRS } from '@/lib/chairs'
 import { LOCAL_BRANDS } from '@/lib/local-brands'
 import { PUBLISHED_ARTICLES } from '@/lib/local-articles'
-import { BEST_NAV, COMPARE_NAV } from '@/lib/nav-data'
+import { getBestNavPages, getCompareNavPages } from '@/lib/nav-scanner'
 
 const BASE = 'https://www.massagechairfinder.com'
 const NOW  = new Date()
 
-// NOTE: To add a new /best/* or /compare/* page to both the sitemap and the
-// top-nav dropdown, add one entry to BEST_NAV or COMPARE_NAV in lib/nav-data.ts.
-// No changes needed here.
+// To add a new /best/* or /compare/* page to the sitemap AND the nav dropdown,
+// just create the page directory. No changes needed here — the scanner picks it up.
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // ── Static core pages ────────────────────────────────────────────────────
@@ -25,16 +24,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + '/disclosure', priority: 0.3, changeFrequency: 'yearly', lastModified: NOW },
   ]
 
-  // ── /best/* curated picks pages (sourced from lib/nav-data.ts) ───────────
-  const bestPages: MetadataRoute.Sitemap = BEST_NAV.map(p => ({
+  // ── /best/* curated picks (auto-detected from filesystem) ───────────────
+  const bestPages: MetadataRoute.Sitemap = getBestNavPages().map(p => ({
     url: BASE + '/best/' + p.slug,
     priority: 0.85,
     changeFrequency: 'monthly' as const,
     lastModified: NOW,
   }))
 
-  // ── /compare/* head-to-head pages (sourced from lib/nav-data.ts) ─────────
-  const comparePages: MetadataRoute.Sitemap = COMPARE_NAV.map(p => ({
+  // ── /compare/* head-to-head pages (auto-detected, redirects excluded) ───
+  const comparePages: MetadataRoute.Sitemap = getCompareNavPages().map(p => ({
     url: BASE + '/compare/' + p.slug,
     priority: 0.75,
     changeFrequency: 'monthly' as const,
