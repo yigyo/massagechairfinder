@@ -1000,6 +1000,47 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'DISCONTINUED — do not recommend.',
   },
 
+  // ── INADA ──────────────────────────────────────────────────────────────────
+
+  {
+    id: 'inada-robo-4d',
+    name: 'Inada Robo 4D',
+    brand: 'Inada',
+    active: false, goodwinActive: false, mcfActive: false,  // deactivated 2026-05-01 -- brand no longer has active US product line
+    priceMin: 9999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'massagechairwarehouse.com',
+    affiliateCommission: '10%, 30-day cookie',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://massagechairwarehouse.com/products/inada-robo-massage-chair',
+    goodwinLookupKey: 'inada robo',
+    goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/inada-robo-4d-massage-chair.webp?v=1776836197',
+    track: 'S', roller: '4D',
+    zeroGravity: true, heat: true, aiScanning: true,
+    aiNotes: 'S-TRACK ONLY. DO NOT recommend for lower back, hip, or glute pain. Only recommend for neck, shoulder, or upper-back focused buyers.',
+  },
+
+  {
+    id: 'inada-dreamwave',
+    name: 'Inada DreamWave',
+    brand: 'Inada',
+    active: false, goodwinActive: false, mcfActive: false,  // deactivated 2026-05-01 -- brand no longer has active US product line
+    priceMin: 6999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'massagechairwarehouse.com',
+    affiliateCommission: '10%, 30-day cookie',
+    goodwinStatus: 'affiliate',
+    affiliateUrl: 'https://massagechairwarehouse.com/products/inada-dreamwave-massage-chair',
+    inStock: false,
+    alternativeIds: ['panasonic-maf1'],
+    goodwinLookupKey: 'inada dreamwave',
+    goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/inada-dreamwave-massage-chair.webp?v=1776836198',
+    track: 'S', roller: '3D',
+    heightMinIn: 60, heightMaxIn: 77, weightCapacityLbs: 300,
+    heat: true, stretch: true, aiScanning: true,
+    aiNotes: `30" S-Track. 3D Quad Style Roller (3 depth levels). Heat: lumbar and seat. Full-body stretch. 5'0"-6'5", 300 lbs.`,
+  },
+
   // ── JPMEDICS ───────────────────────────────────────────────────────────────
 
   {

@@ -28,7 +28,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "ogawa-og6400": {
     label: "Best mid-range for larger office workers",
-    why: "The Ogawa Active XL Duo 3D is the strongest mid-range pick for office workers who are heavier or broader than average. At 320 lbs confirmed plus-size capacity with an 11-inch wall clearance and SL-track 3D coverage, it handles more body types than most chairs in its price tier. The dual roller system uses a primary 3D roller for the spine and a secondary roller for supplemental coverage -- a design that produces thorough upper back and shoulder-area work. At $4,800, it occupies the mid-range with a feature set more typical of $6,000+ chairs.",
+    why: "The Ogawa Active XL Duo 3D is the strongest mid-range pick for office workers who are heavier or broader than average. At 320 lbs confirmed plus-size capacity with an 11-inch wall clearance and SL-track 3D coverage, it handles more body types than most chairs in its price tier. The dual roller system uses a primary 3D roller for the spine and a secondary roller for supplemental coverage -- a design that produces thorough upper back and shoulder-area work. At $5,199, it occupies the mid-range with a feature set more typical of $6,000+ chairs.",
   },
   "relaxonchair-yukon-4d": {
     label: "Best precision control for desk tension",

@@ -345,6 +345,7 @@ Human Touch: US company. Premium positioning. The Laevo ZG is vibration-based, n
 
 Luraco: US-made. Only massage chair manufacturer in the US. Best height accommodation in the catalog (to 6'10"). Premium pricing ($13,000+). 10-year warranty.
 
+Inada: Japanese brand. High quality, limited US distribution. The Robo 4D uses S-track only — do not recommend for lower back/hip pain.
 
 JPMedics: Japanese-made. Known for quality construction and L-track design. Kumo 4D is highly regarded in the $8,000-$9,000 range.
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'osaki-os-champ',
+  'amamedics-renew-3d',
   'osaki-os-pro-admiral-ii',
   'amamedics-hilux-4d',
   'titan-pro-vigor-4d',
@@ -22,9 +22,9 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'osaki-os-champ': {
+  'amamedics-renew-3d': {
     label: 'Best entry option',
-    why: 'The OS-Champ is the most accessible SL-track chair in the catalog at $1,299. SL-track extends the roller path past the lumbar and under the glutes, which matters for lower back pain that radiates into the hips and sacrum. Two-stage zero gravity, lumbar heat, foot and calf massage, and body scanning are all confirmed. 260-lb weight capacity. For buyers entering the category with lower back pain as the primary concern, this is the clearest entry-level pick.',
+    why: 'Most chairs at $1,299 pair SL-track coverage with 2D rollers, which cannot vary their pressure depth. The Renew 3D is one of the few entry chairs with genuine 3D roller capability, meaning adjustable pressure depth. For lower back buyers whose pain responds better to firmer pressure, that adjustment matters. Three-stage zero gravity, space-saving recline (4-inch wall clearance), body scanning, and lumbar heat are all confirmed from the retailer page. Currently available as a clearance model.',
   },
 
   'osaki-os-pro-admiral-ii': {

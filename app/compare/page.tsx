@@ -29,6 +29,13 @@ const COMPARISONS = [
     summary: 'The i9 Max Plus is Made in USA, has L-track and zero gravity, and costs $1,000 less. The MAK1 has no zero gravity and an S-track. A clear case for most buyers.',
   },
   {
+    slug: 'inada-dreamwave-vs-jpmedics-kumo-4d',
+    chairA: 'Inada DreamWave',
+    chairB: 'JPMedics Kumo 4D',
+    tier: '$7,000 to $11,000',
+    summary: 'Japanese S-track therapeutic precision vs L-track 4D full-body coverage. Different philosophies for different pain locations.',
+  },
+  {
     slug: 'amamedics-hilux-4d-vs-titan-pro-vigor-4d',
     chairA: 'AmaMedics Hilux 4D',
     chairB: 'Titan Pro-Vigor 4D',

@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 const PICK_IDS = [
   'osaki-os-champ',
   'synca-wellness-circ',
-  'synca-wellness-circ-plus',
-  'inner-balance-jin',
+  'amamedics-renew-3d',
+  'relaxonchair-rio',
   'relaxonchair-jasper',
 ]
 
@@ -29,13 +29,13 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Entry with 3D rollers and SL-track',
     why: 'The CirC is priced at $1,299 and uses a 3D roller mechanism on a 34-inch SL-track with zero gravity and lumbar heat. The 34-inch track is shorter than most SL-track chairs and suits average-height users best. 3D rollers allow pressure depth adjustment that 2D chairs at this price do not offer. For buyers who want roller control at the entry price point, this is the pick. Sold via syncamassagechair.com.',
   },
-  'synca-wellness-circ-plus': {
-    label: 'Step-up 3D SL-track with space-saving recline',
-    why: 'The CirC Plus at $1,899 adds 3D roller technology over the entry CirC. 3D rollers provide adjustable pressure depth, which matters for buyers who expect to need firmer or softer massage as their usage patterns develop. Six-inch wall clearance, 45.5-inch SL-track, zero gravity, and lumbar heat are confirmed. 300-lb weight capacity.',
+  'amamedics-renew-3d': {
+    label: 'Entry with 3D rollers and tighter wall clearance',
+    why: 'The Renew 3D costs the same as the OS-Champ but includes a 3D roller mechanism, meaning adjustable pressure depth. For buyers who expect their lower back to be sensitive and want more control over massage intensity, 3D rollers provide a wider adjustment range than 2D. Space-saving recline (4-inch wall clearance), three-stage zero gravity, body scanning, and lumbar heat are confirmed. Currently a clearance model. 250-lb weight capacity.',
   },
-  'inner-balance-jin': {
-    label: 'Best wall-clearance option under $2,000',
-    why: 'The Inner Balance Jin requires only 2 inches of wall clearance, the tightest recline footprint of any chair in this price range. SL-track, 300-lb weight capacity, zero gravity, and lumbar heat are confirmed. For buyers who have measured their space and need the chair to sit within inches of the wall, this is the only option under $2,000 that reliably fits.',
+  'relaxonchair-rio': {
+    label: 'Lowest-priced SL-track in the catalog',
+    why: "The Relax On Chair RIO is an SL-track chair at $999 with zero gravity, lumbar heat, and foot rollers. At $999, it is the most affordable SL-track option in the catalog. Full-spine coverage from neck to glutes, zero gravity recline, heat, and foot massage are all confirmed at this price. 2D rollers are standard at this tier. No confirmed height or weight capacity data from the retailer spec page. For buyers who want SL-track coverage at the lowest available price, this is the starting point.",
   },
   'relaxonchair-jasper': {
     label: 'SL-track step-up at $1,599',
@@ -65,7 +65,7 @@ export default function BestUnder2000Page() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs Under $2,000</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        There are five chairs in the under-$2,000 range in the current catalog, ranging from $1,299 to $1,999. At this price point, buyers can expect SL-track coverage, zero gravity, and basic airbag massage. What you are not paying for yet: adjustable roller depth (2D rollers are standard here), extended warranties, or body fit confirmation data.
+        There are two SL-track massage chairs in the catalog under $2,000, and both are priced at $1,299. At this price point, buyers can expect SL-track coverage, zero gravity, and basic airbag massage. What you are not paying for yet: adjustable roller depth (2D rollers are standard here), extended warranties, or body fit confirmation data.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
         Updated April 2026. If your budget can stretch to $2,499, see the{' '}

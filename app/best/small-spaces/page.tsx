@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'synca-wellness-circ-plus',
+  'amamedics-renew-3d',
   'inner-balance-jin',
   'osaki-os-pro-admiral-ii',
   'titan-3d-prestige',
@@ -24,9 +24,9 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'synca-wellness-circ-plus': {
+  'amamedics-renew-3d': {
     label: 'Most affordable space-saving pick',
-    why: 'The CirC Plus is the most affordable in-stock space-saving chair in the catalog at $1,899. Six-inch wall clearance, 3D SL-track, zero gravity, lumbar heat, and a 45.5-inch track length that covers more of the spine than most entry chairs. SL-track extends under the glutes, which matters for buyers dealing with lower back and hip tightness. 300-lb weight capacity confirmed.',
+    why: 'The Renew 3D is the most affordable space-saving chair in the catalog at $1,299. Four-inch wall clearance, SL-track, 3D rollers with adjustable pressure depth, three-stage zero gravity, body scanning, and lumbar heat. Currently a clearance model. For buyers whose primary constraint is budget and who need a chair that can sit near a wall, this is the entry point. 250-lb weight capacity.',
   },
   'inner-balance-jin': {
     label: 'Best space-saving under $2,000',

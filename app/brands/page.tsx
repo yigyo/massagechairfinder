@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Massage Chair Brands Compared | MassageChairFinder',
-  description: 'Who makes what — Osaki, Infinity, Luraco, Kahuna, and more. What each brand actually stands for at different price points.',
+  description: 'Who makes what — Osaki, Infinity, Luraco, Inada, Kahuna, and more. What each brand actually stands for at different price points.',
 }
 
 export default function BrandsPage() {

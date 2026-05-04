@@ -23,35 +23,33 @@ export default function ComparePage() {
         Both are 4D chairs priced within $150 of each other. The real difference is track type: the MB6 is L-track for buyers with lower back pain that extends into the hips, and the HM-078 is SL-track with space-saving design and a 350 lb weight capacity. The decision comes down to which pain profile and room constraint matter more.
       </p>
 
-      <div className="grid grid-cols-2 gap-4 mb-10">
-        <div className="text-center">
-          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
-            <Image
-              src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/Med_Break_6_6.jpg"
-              alt="Medical Breakthrough 6 massage chair"
-              width={400} height={300}
-              className="w-full h-full object-contain p-4"
-            />
-          </div>
-          <p className="text-sm font-semibold text-navy">Medical Breakthrough 6</p>
-          <p className="text-sm text-charcoal">$4,249</p>
+      <div className="grid grid-cols-2 gap-6 mb-10">
+        <div className="card text-center">
+          <Image
+            src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/Med_Break_6_6.jpg"
+            alt="Medical Breakthrough 6"
+            width={300} height={300}
+            className="mx-auto mb-3 object-contain"
+          />
+          <h2 className="text-xl font-serif font-semibold text-navy">Medical Breakthrough 6</h2>
+          <p className="text-2xl font-bold text-gold mt-1">$4,249</p>
+          <p className="text-sm text-warm-gray mt-1">L-track | 4D | 300 lbs</p>
         </div>
-        <div className="text-center">
-          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
-            <Image
-              src="https://cdn.shopify.com/s/files/1/1509/5162/files/1_abc8530f-f118-4faa-9e79-60ef80fbab95.jpg?v=1728486141"
-              alt="Kahuna HM-078 Hubot 4D massage chair"
-              width={400} height={300}
-              className="w-full h-full object-contain p-4"
-            />
-          </div>
-          <p className="text-sm font-semibold text-navy">Kahuna HM-078 Hubot 4D</p>
-          <p className="text-sm text-charcoal">$4,399</p>
+        <div className="card text-center">
+          <Image
+            src="https://cdn.shopify.com/s/files/1/1509/5162/files/1_abc8530f-f118-4faa-9e79-60ef80fbab95.jpg?v=1728486141"
+            alt="Kahuna HM-078 Hubot 4D"
+            width={300} height={300}
+            className="mx-auto mb-3 object-contain"
+          />
+          <h2 className="text-xl font-serif font-semibold text-navy">Kahuna HM-078 Hubot 4D</h2>
+          <p className="text-2xl font-bold text-gold mt-1">$4,399</p>
+          <p className="text-sm text-warm-gray mt-1">SL-track | 4D | 350 lbs | Space-saving</p>
         </div>
       </div>
 
-      <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
-        <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
+      <div className="card bg-navy text-white mb-10">
+        <h2 className="text-xl font-serif font-semibold mb-3">Quick Verdict</h2>
         <p className="mb-3">
           For lower back pain that extends into the glutes and hips, the Medical Breakthrough 6 is the right call. L-track coverage reaches further down the spine and under the seat than the HM-078's SL-track.
         </p>
@@ -84,8 +82,8 @@ export default function ComparePage() {
               ['Body Scanning', 'Yes', 'Yes'],
               ['Space-Saving', 'No', 'Yes'],
               ['Voice Control', 'No', 'Yes'],
-            ].map(([spec, a, b], i) => (
-              <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
+            ].map(([spec, a, b]) => (
+              <tr key={spec} className="border-b border-sand">
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>
                 <td className="p-3">{b}</td>
@@ -115,45 +113,36 @@ export default function ComparePage() {
       <p className="mb-8">
         The Kahuna HM-078 uses a space-saving recline mechanism that allows it to operate with minimal clearance behind the chair. If your room does not have 18-24 inches of rear clearance for a standard recline, the HM-078 is the practical choice. The Medical Breakthrough 6 uses a standard recline mechanism and requires more space.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
-        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
-          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Medical Breakthrough 6 if:</h2>
-          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Your pain is primarily lower back radiating into the hips or glutes</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You have sciatica or sacral discomfort</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want stretch programs confirmed</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You weigh under 265 lbs and room space is not a constraint</span></li>
+
+      <h2 className="text-2xl font-serif font-semibold mb-4">Who Should Buy Each Chair</h2>
+      <div className="grid grid-cols-2 gap-6 mb-10">
+        <div className="card border-l-4 border-gold">
+          <h3 className="font-semibold text-navy mb-3">Buy the Medical Breakthrough 6 if:</h3>
+          <ul className="space-y-2 text-sm text-warm-gray">
+            <li>Your pain is primarily lower back radiating into the hips or glutes</li>
+            <li>You have sciatica or sacral discomfort</li>
+            <li>You want stretch programs confirmed</li>
+            <li>You weigh under 265 lbs and room space is not a constraint</li>
           </ul>
-          <div className="mt-4">
-            <a href="/go/medical-breakthrough-6" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the MB6</a>
-          </div>
         </div>
-        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
-          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Kahuna HM-078 if:</h2>
-          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You want full SL coverage from neck to glutes</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You weigh over 265 lbs or want more capacity headroom</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Your room has limited space behind the chair</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You want foot reflexology rollers included</span></li>
+        <div className="card border-l-4 border-teal">
+          <h3 className="font-semibold text-navy mb-3">Buy the Kahuna HM-078 if:</h3>
+          <ul className="space-y-2 text-sm text-warm-gray">
+            <li>You want full SL coverage from neck to glutes</li>
+            <li>You weigh over 265 lbs or want more capacity headroom</li>
+            <li>Your room has limited space behind the chair</li>
+            <li>You want foot reflexology rollers included</li>
           </ul>
-          <div className="mt-4">
-            <a href="/go/kahuna-hm-078" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the HM-078</a>
-          </div>
         </div>
       </div>
 
-      <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
-        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
-        <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
-        <p className="text-charcoal text-sm mb-4">
-          Answer a few questions about your body, pain profile, and budget. The Chair Finder
-          surfaces the chairs most likely to work for your specific situation.
-        </p>
-        <Link href="/finder" className="inline-block text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" style={{ background: '#D1803E' }}>
-          Open the Chair Finder
+      <div className="card bg-navy text-white text-center mt-8">
+        <p className="text-lg font-serif mb-2">Not sure which track type matches your pain profile?</p>
+        <p className="text-sm text-sand mb-4">The chair finder quiz asks about your specific pain location and gives a direct recommendation.</p>
+        <Link href="/finder" className="inline-block bg-gold text-white font-semibold px-8 py-3 rounded hover:bg-amber-600 transition-colors">
+          Take the Chair Finder Quiz
         </Link>
       </div>
-
-</div>
+    </div>
   )
 }

@@ -10,7 +10,7 @@
 //   - Does not self-link (pass currentSlug to exclude the current page's entity)
 //   - Word-boundary aware (won't partial-match inside a longer word)
 //   - When a chair name is linked, all substrings of that name (e.g. the brand
-//     prefix "Osaki" inside "Osaki OS-Pro Admiral II") are marked as already-linked so
+//     prefix "Inada" inside "Inada Robo 4D") are marked as already-linked so
 //     they cannot receive a separate brand-page link on the same page. Product
 //     names always link to the product page; brand-only links are reserved for
 //     standalone brand mentions that do not accompany a model name.
@@ -74,7 +74,7 @@ export function autolink(html: string, currentSlug?: string): string {
         linked.add(linkText)
 
         // Mark every substring of the just-linked text as already-linked so
-        // that brand-name prefixes (e.g. "Osaki" inside "Osaki OS-Pro Admiral II") cannot
+        // that brand-name prefixes (e.g. "Inada" inside "Inada Robo 4D") cannot
         // receive a separate link on this page. Enforces the rule: product
         // names link to the product page only; the brand name is not linked
         // separately on the same mention.

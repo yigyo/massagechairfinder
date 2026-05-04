@@ -68,7 +68,7 @@ export default function DynastyVsGenesisMaxPage() {
         </p>
       </div>
 
-      <h2 className="text-2xl font-serif mb-4">Specs Compared</h2>
+      <h2 className="text-2xl font-serif mb-4">Specs side by side</h2>
       <div className="overflow-x-auto mb-10">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -155,9 +155,9 @@ export default function DynastyVsGenesisMaxPage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Dynasty if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are under 5 feet 2 inches and need verified petite fit. The Dynasty confirms from 5 feet 0 inches.</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are over 280 lbs and want confirmed weight clearance. The Dynasty is verified to 300 lbs.</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Body fit certainty matters more than the $2,700 price difference.</span></li>
+            <li className="flex gap-2"><span className="text-teal font-bold mt-0.5">+</span><span>You are under 5 feet 2 inches and need verified petite fit. The Dynasty confirms from 5 feet 0 inches.</span></li>
+            <li className="flex gap-2"><span className="text-teal font-bold mt-0.5">+</span><span>You are over 280 lbs and want confirmed weight clearance. The Dynasty is verified to 300 lbs.</span></li>
+            <li className="flex gap-2"><span className="text-teal font-bold mt-0.5">+</span><span>Body fit certainty matters more than the $2,700 price difference.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://massagechairstore.com/infinity-dynasty-4d/" target="_blank" rel="noopener noreferrer"
@@ -169,9 +169,9 @@ export default function DynastyVsGenesisMaxPage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Genesis Max if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are in the typical size range (roughly 5 feet 4 inches to 6 feet, under 280 lbs). The $2,700 savings buys nothing extra for you.</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Stretch programs matter to you. The Genesis Max confirms them; the Dynasty does not.</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You want the Infinity L-track 4D experience at the best available price point.</span></li>
+            <li className="flex gap-2"><span className="text-gold font-bold mt-0.5">+</span><span>You are in the typical size range (roughly 5 feet 4 inches to 6 feet, under 280 lbs). The $2,700 savings buys nothing extra for you.</span></li>
+            <li className="flex gap-2"><span className="text-gold font-bold mt-0.5">+</span><span>Stretch programs matter to you. The Genesis Max confirms them; the Dynasty does not.</span></li>
+            <li className="flex gap-2"><span className="text-gold font-bold mt-0.5">+</span><span>You want the Infinity L-track 4D experience at the best available price point.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://massagechairstore.com/infinity-genesis-max/" target="_blank" rel="noopener noreferrer"
@@ -183,24 +183,18 @@ export default function DynastyVsGenesisMaxPage() {
       </div>
 
       <h2 className="text-2xl font-serif mb-3">Bottom line</h2>
-      <p className="text-charcoal mb-8">
+      <p className="text-charcoal mb-4">
         The Genesis Max is the right starting point for most buyers comparing these two chairs.
         It delivers the same core massage technology at $2,700 less. The Dynasty justifies
         its premium for buyers who need verified fit at the edges of the size range: petite
         buyers under 5 feet 2 inches and buyers close to or above 280 lbs. For everyone
         in between, the Genesis Max is the smarter purchase.
       </p>
-      <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
-        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
-        <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
-        <p className="text-charcoal text-sm mb-4">
-          Answer a few questions about your body, pain profile, and budget. The Chair Finder
-          surfaces the chairs most likely to work for your specific situation.
-        </p>
-        <Link href="/finder" className="inline-block text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" style={{ background: '#D1803E' }}>
-          Open the Chair Finder
-        </Link>
-      </div>
+      <p className="text-charcoal mb-8">
+        Looking at other options in the premium tier? The{' '}
+        <Link href="/finder" className="text-bronze hover:text-gold">chair finder quiz</Link> covers
+        the full catalog and surfaces chairs based on your pain profile, body fit, and budget.
+      </p>
 
       <div className="border-t border-sand pt-8">
         <h3 className="text-lg font-serif mb-3 text-navy">Learn more</h3>
