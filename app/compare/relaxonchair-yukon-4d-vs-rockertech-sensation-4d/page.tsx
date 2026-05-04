@@ -42,8 +42,13 @@ export default function YukonVsSensationPage() {
           <p className="text-sm text-charcoal">$6,499</p>
         </div>
         <div className="text-center">
-          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3 flex items-center justify-center" style={{ aspectRatio: '4/3' }}>
-            <p className="text-warm-gray text-sm p-4">RockerTech Sensation 4D</p>
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0111/0251/9396/products/rockertechhealth-beauty-massage-relaxation-massage-chairsrockertech-sensation-4d-massage-chairgray-blackmassage-chair-heaven-951831.jpg?v=1697640675"
+              alt="RockerTech Sensation 4D massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
           </div>
           <p className="text-sm font-semibold text-navy">RockerTech Sensation 4D</p>
           <p className="text-sm text-charcoal">$6,999</p>

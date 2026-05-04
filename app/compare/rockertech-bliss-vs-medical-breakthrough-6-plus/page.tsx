@@ -23,18 +23,32 @@ export default function ComparePage() {
         Both chairs are priced at exactly $5,499, both use an L-track 4D roller, and both include heat, zero gravity, and body scanning. The Bliss is the choice for buyers with space constraints and who want reflexology foot rollers. The Medical Breakthrough 6 Plus is the choice for buyers who prioritize stretch programs and a confirmed 300 lb weight capacity.
       </p>
 
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/0111/0251/9396/products/rockertechmassage-chairsrockertech-bliss-massage-chairbrownmassage-chair-heaven-479159.webp?v=1701056370"
-            alt="RockerTech Bliss"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">RockerTech Bliss</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$5,499</p>
-          <p className="text-sm text-warm-gray mt-1">L-track | 4D | Space-saving | 3-yr warranty</p>
+      <div className="grid grid-cols-2 gap-4 mb-10">
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0111/0251/9396/products/rockertechmassage-chairsrockertech-bliss-massage-chairbrownmassage-chair-heaven-479159.webp?v=1701056370"
+              alt="RockerTech Bliss massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">RockerTech Bliss</p>
+          <p className="text-sm text-charcoal">$5,499</p>
         </div>
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/MedicalBreakthrough6Plus_1.jpg"
+              alt="Medical Breakthrough 6 Plus massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Medical Breakthrough 6 Plus</p>
+          <p className="text-sm text-charcoal">$5,499</p>
+        </div>
+      </div>
         <div className="card text-center">
           <Image
             src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/MedicalBreakthrough6Plus_1.jpg"

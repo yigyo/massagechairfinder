@@ -29,18 +29,32 @@ export default function ComparePage() {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card text-center">
-          <Image
-            src="https://www.massagechairheaven.com/cdn/shop/products/daiwamassage-chairdaiwa-relax-2-zero-3d-massage-chairblackmassage-chair-heaven-203256_1200x1200.jpg?v=1675244406"
-            alt="Daiwa Relax 2 Zero 3D"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Daiwa Relax 2 Zero 3D</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$9,000</p>
-          <p className="text-sm text-warm-gray mt-1">S-track | 3D | 300 lbs | 4'8" to 6'6"</p>
+      <div className="grid grid-cols-2 gap-4 mb-10">
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://www.massagechairheaven.com/cdn/shop/products/daiwamassage-chairdaiwa-relax-2-zero-3d-massage-chairblackmassage-chair-heaven-203256_1200x1200.jpg?v=1675244406"
+              alt="Daiwa Relax 2 Zero 3D massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Daiwa Relax 2 Zero 3D</p>
+          <p className="text-sm text-charcoal">$9,000</p>
         </div>
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0855/7959/6065/files/jp3000-brown_02ca2815-cce9-41b3-bfb5-f7b3f0fac5ae.jpg"
+              alt="Synca JP-3000 massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Synca JP-3000</p>
+          <p className="text-sm text-charcoal">$10,999</p>
+        </div>
+      </div>
         <div className="card text-center">
           <Image
             src="https://cdn.shopify.com/s/files/1/0855/7959/6065/files/jp3000-brown_02ca2815-cce9-41b3-bfb5-f7b3f0fac5ae.jpg"

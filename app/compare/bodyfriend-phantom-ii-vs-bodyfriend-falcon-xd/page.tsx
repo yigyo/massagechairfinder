@@ -23,18 +23,32 @@ export default function ComparePage() {
         Choosing between two chairs from the same brand at the same price is one of the more frustrating buying decisions. Both are SL-track 4D chairs from Bodyfriend at $8,499, both include heat and zero gravity, and both have strong build quality. The critical differences are weight capacity and stretch programs.
       </p>
 
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/0422/3942/6712/files/Phantom-II_white_01.jpg"
-            alt="Bodyfriend Phantom II"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Bodyfriend Phantom II</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$8,499</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 4D | 335 lbs | Plus-size confirmed</p>
+      <div className="grid grid-cols-2 gap-4 mb-10">
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0422/3942/6712/files/Phantom-II_white_01.jpg"
+              alt="Bodyfriend Phantom II massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Bodyfriend Phantom II</p>
+          <p className="text-sm text-charcoal">$8,499</p>
         </div>
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-falcon-massage-chair.jpg?v=1776904610"
+              alt="Bodyfriend Falcon XD 4D massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Bodyfriend Falcon XD 4D</p>
+          <p className="text-sm text-charcoal">$8,499</p>
+        </div>
+      </div>
         <div className="card text-center">
           <Image
             src="https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-falcon-massage-chair.jpg?v=1776904610"

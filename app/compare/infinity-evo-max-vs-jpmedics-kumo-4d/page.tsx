@@ -23,18 +23,32 @@ export default function ComparePage() {
         At the same price of $10,999, both chairs use an L-track 4D roller with heat, stretch, and calf massage. The Infinity Evo Max is the choice for rooms with tight space behind the chair. The JPMedics Kumo 4D is the choice for heavier and taller buyers, and for those who want Japanese engineering with a strong verified review record.
       </p>
 
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card text-center">
-          <Image
-            src="https://massagechairstore.com/wp-content/uploads/2021/10/EvoMax_Black_HEro1000x7201000x720.jpg"
-            alt="Infinity Evo Max 4D"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Infinity Evo Max 4D</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$10,999</p>
-          <p className="text-sm text-warm-gray mt-1">L-track | 4D | 49-inch track | 2-inch wall clearance</p>
+      <div className="grid grid-cols-2 gap-4 mb-10">
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://massagechairstore.com/wp-content/uploads/2021/10/EvoMax_Black_HEro1000x7201000x720.jpg"
+              alt="Infinity Evo Max 4D massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Infinity Evo Max 4D</p>
+          <p className="text-sm text-charcoal">$10,999</p>
         </div>
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/jpmedics-kumo-4d-massage-chair-white-brown-1.jpg"
+              alt="JPMedics Kumo 4D massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">JPMedics Kumo 4D</p>
+          <p className="text-sm text-charcoal">$10,999</p>
+        </div>
+      </div>
         <div className="card text-center">
           <Image
             src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/jpmedics-kumo-4d-massage-chair-white-brown-1.jpg"

@@ -23,18 +23,32 @@ export default function ComparePage() {
         Both are 4D chairs priced within $150 of each other. The real difference is track type: the MB6 is L-track for buyers with lower back pain that extends into the hips, and the HM-078 is SL-track with space-saving design and a 350 lb weight capacity. The decision comes down to which pain profile and room constraint matter more.
       </p>
 
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/Med_Break_6_6.jpg"
-            alt="Medical Breakthrough 6"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Medical Breakthrough 6</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$4,249</p>
-          <p className="text-sm text-warm-gray mt-1">L-track | 4D | 300 lbs</p>
+      <div className="grid grid-cols-2 gap-4 mb-10">
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/Med_Break_6_6.jpg"
+              alt="Medical Breakthrough 6 massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Medical Breakthrough 6</p>
+          <p className="text-sm text-charcoal">$4,249</p>
         </div>
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/1509/5162/files/1_abc8530f-f118-4faa-9e79-60ef80fbab95.jpg?v=1728486141"
+              alt="Kahuna HM-078 Hubot 4D massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Kahuna HM-078 Hubot 4D</p>
+          <p className="text-sm text-charcoal">$4,399</p>
+        </div>
+      </div>
         <div className="card text-center">
           <Image
             src="https://cdn.shopify.com/s/files/1/1509/5162/files/1_abc8530f-f118-4faa-9e79-60ef80fbab95.jpg?v=1728486141"
