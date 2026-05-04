@@ -28,6 +28,34 @@ const COMPARISONS = [
     tier: '$13,000 and above',
     summary: 'The i9 Max Plus is Made in USA, has L-track and zero gravity, and costs $1,000 less. The MAK1 has no zero gravity and an S-track. A clear case for most buyers.',
   },
+  {
+    slug: 'inada-dreamwave-vs-jpmedics-kumo-4d',
+    chairA: 'Inada DreamWave',
+    chairB: 'JPMedics Kumo 4D',
+    tier: '$7,000 to $11,000',
+    summary: 'Japanese S-track therapeutic precision vs L-track 4D full-body coverage. Different philosophies for different pain locations.',
+  },
+  {
+    slug: 'amamedics-hilux-4d-vs-titan-pro-vigor-4d',
+    chairA: 'AmaMedics Hilux 4D',
+    chairB: 'Titan Pro-Vigor 4D',
+    tier: '$5,000 to $6,000',
+    summary: 'Both SL-track 4D with heated rollers. The Hilux costs $1,000 less and fits buyers from 4'11". The Vigor has a 3.9-inch wall clearance for tight rooms.',
+  },
+  {
+    slug: 'kyota-yugana-m780-vs-osaki-os-pro-maestro-le',
+    chairA: 'Kyota Yugana M780 4D',
+    chairB: 'Osaki OS-Pro Maestro LE 2.0',
+    tier: '$8,000 to $9,000',
+    summary: 'L-track at $7,999 vs SL-track at $8,999. The Yugana fits petite buyers to 4'8" and needs 2 inches of wall clearance. The Maestro adds full SL coverage.',
+  },
+  {
+    slug: 'relaxonchair-yukon-4d-vs-rockertech-sensation-4d',
+    chairA: 'Relax On Chair YUKON-4D',
+    chairB: 'RockerTech Sensation 4D',
+    tier: '$6,500 to $7,000',
+    summary: 'Both SL-track 4D, $500 apart. The Sensation adds TrueFit body scanning and dual reflexology foot rollers. The YUKON prioritizes precision pressure control.',
+  },
 ]
 
 export default function ComparePage() {
