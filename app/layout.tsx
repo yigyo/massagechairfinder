@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import NavigationWrapper from '@/components/NavigationWrapper'
+import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import ScrollTracker from '@/components/ScrollTracker'
@@ -46,7 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: siteSchema }}
         />
-        <NavigationWrapper />
+        <Navigation />
         <main className="flex-1">{children}</main>
         <Footer />
         {/* Koda AI Chair Advisor */}
