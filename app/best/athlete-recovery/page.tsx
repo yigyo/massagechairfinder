@@ -48,6 +48,12 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+function fmtFt(inches: number): string {
+  const ft = Math.floor(inches / 12)
+  const inPart = inches % 12
+  return inPart === 0 ? `${ft}'0"` : `${ft}'${inPart}"`
+}
+
 export default function BestAthleteRecoveryPage() {
   const picks = PICK_IDS
     .map(id => MCF_CHAIRS.find(c => c.id === id))
@@ -72,138 +78,177 @@ export default function BestAthleteRecoveryPage() {
 
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">What matters most for recovery</h2>
-        <div className="space-y-3 text-sm text-charcoal">
-          <div>
-            <span className="font-semibold">Track type:</span> L-track or SL-track is required. The roller must reach the glutes and upper hamstrings. An S-track stops at the lumbar and misses the primary lower-body recovery zone entirely.
-          </div>
-          <div>
-            <span className="font-semibold">4D roller depth:</span> Variable intensity by session is essential for training recovery. Lighter passes on day one when inflammation is highest, deeper work on day two. All six chairs below have genuine 4D depth control.
-          </div>
-          <div>
-            <span className="font-semibold">Leg airbag coverage:</span> Rhythmic calf and foot compression mimics compression recovery boots. For lower body athletes especially, this is as important as the roller work.
-          </div>
-          <div>
-            <span className="font-semibold">Timing:</span> 30 to 90 minutes post-training is the right window. Avoid deep roller work immediately after a hard session when acute inflammation is at its peak.
-          </div>
+        <p className="text-charcoal leading-relaxed mb-3">
+          Track type is the first filter. L-track or SL-track is required. The roller must reach the glutes and upper hamstrings, where the most significant lower-body muscle damage from training accumulates. An S-track stops at the lumbar and misses this zone entirely.
+        </p>
+        <p className="text-charcoal leading-relaxed mb-3">
+          Variable intensity by session is essential. Lighter passes on day one when inflammation is highest, deeper work on day two as the tissue recovers. All six chairs below have genuine 4D depth control, which is the only roller type that supports this kind of session-to-session adjustment.
+        </p>
+        <p className="text-charcoal leading-relaxed">
+          Rhythmic calf and foot compression mimics compression recovery boots and is as important as the roller work for lower-body athletes. Use the 30 to 90 minute post-training window. Avoid deep roller work immediately after a hard session when acute inflammation is at its peak.
+        </p>
+      </div>
+
+      <div className="mb-12">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Quick comparison</h2>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b-2 border-sand">
+                <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Height Range</th>
+                <th className="text-left py-3 font-semibold text-charcoal whitespace-nowrap">Weight Cap</th>
+              </tr>
+            </thead>
+            <tbody>
+              {picks.map((chair, i) => {
+                const heightRange = chair.heightMinIn && chair.heightMaxIn
+                  ? `${fmtFt(chair.heightMinIn)} – ${fmtFt(chair.heightMaxIn)}`
+                  : chair.heightMaxIn
+                  ? `Up to ${fmtFt(chair.heightMaxIn)}`
+                  : "Not confirmed"
+                const zgLabel = chair.zeroGravityStages
+                  ? `${chair.zeroGravityStages}-stage`
+                  : chair.zeroGravity
+                  ? "Yes"
+                  : "No"
+                return (
+                  <tr key={chair.id} className={i % 2 === 0 ? "bg-white" : "bg-sand/40"}>
+                    <td className="py-3 pl-4 pr-5">
+                      <Link href={`/chairs/${chair.id}`} className="text-navy hover:text-gold font-medium transition-colors">
+                        {chair.name}
+                      </Link>
+                    </td>
+                    <td className="py-3 pr-5 text-charcoal">
+                      {chair.priceMax && chair.priceMax > chair.priceMin
+                        ? `$${chair.priceMin.toLocaleString()} – $${chair.priceMax.toLocaleString()}`
+                        : `$${chair.priceMin.toLocaleString()}`}
+                    </td>
+                    <td className="py-3 pr-5 text-charcoal">{chair.track}-Track</td>
+                    <td className="py-3 pr-5 text-charcoal">{chair.roller}</td>
+                    <td className="py-3 pr-5 text-charcoal">{zgLabel}</td>
+                    <td className="py-3 pr-5 text-charcoal">{heightRange}</td>
+                    <td className="py-3 text-charcoal">
+                      {chair.weightCapacityLbs ? `${chair.weightCapacityLbs} lbs` : "Not confirmed"}
+                    </td>
+                  </tr>
+                )
+              })}
+            </tbody>
+          </table>
         </div>
       </div>
 
-      <div className="overflow-x-auto mb-12">
-        <table className="w-full text-sm border-collapse max-w-3xl">
-          <thead>
-            <tr className="bg-navy text-white">
-              <th className="text-left p-3 font-semibold">Chair</th>
-              <th className="text-left p-3 font-semibold">Track</th>
-              <th className="text-left p-3 font-semibold">Roller</th>
-              <th className="text-left p-3 font-semibold">Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            {picks.map((chair, i) => (
-              <tr key={chair.id} className={i % 2 === 0 ? "bg-white" : "bg-sand"}>
-                <td className="p-3">
-                  <Link href={`/chairs/${chair.id}`} className="text-bronze hover:text-gold font-medium">
-                    {chair.name}
-                  </Link>
-                </td>
-                <td className="p-3 text-warm-gray">{chair.track}-track</td>
-                <td className="p-3 text-warm-gray">{chair.roller}</td>
-                <td className="p-3 font-medium">${chair.priceMin.toLocaleString()}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <div className="space-y-8 max-w-2xl mb-16">
-        {picks.map((chair) => {
-          const ed = EDITORIAL[chair.id]
-          if (!ed) return null
+      <h2 className="text-2xl font-serif font-semibold text-navy mb-8">The picks</h2>
+      <div className="space-y-8 mb-14">
+        {picks.map((chair, i) => {
+          const editorial = EDITORIAL[chair.id]
+          const priceLabel = chair.priceMax && chair.priceMax > chair.priceMin
+            ? `$${chair.priceMin.toLocaleString()} – $${chair.priceMax.toLocaleString()}`
+            : `$${chair.priceMin.toLocaleString()}`
+          const heightRange = chair.heightMinIn && chair.heightMaxIn
+            ? `${fmtFt(chair.heightMinIn)} – ${fmtFt(chair.heightMaxIn)}`
+            : chair.heightMaxIn
+            ? `Up to ${fmtFt(chair.heightMaxIn)}`
+            : null
           return (
-            <div key={chair.id} className="border-l-4 border-gold pl-5">
-              <div className="text-xs font-semibold text-gold uppercase tracking-wide mb-1">
-                {ed.label}
+            <div key={chair.id} className="card">
+              <div className="flex flex-wrap items-baseline gap-3 mb-3">
+                <span className="text-xs font-semibold text-teal uppercase tracking-wide">
+                  {i + 1}. {editorial?.label}
+                </span>
               </div>
-              <h3 className="text-xl font-serif font-semibold text-navy mb-2">
-                <Link href={`/chairs/${chair.id}`} className="hover:text-gold transition-colors">
-                  {chair.name}
-                </Link>
-              </h3>
-              <div className="flex gap-4 text-sm text-warm-gray mb-3">
-                <span>{chair.track}-track</span>
-                <span>{chair.roller} rollers</span>
-                <span className="font-semibold text-charcoal">${chair.priceMin.toLocaleString()}</span>
+              <div className="flex flex-col sm:flex-row gap-6">
+                {(chair.goodwinImageUrl || chair.imageUrl) && (
+                  <div className="flex-shrink-0 w-full sm:w-36 h-36 bg-white border border-sand rounded-lg overflow-hidden">
+                    <img src={chair.goodwinImageUrl || chair.imageUrl} alt={chair.name} className="w-full h-full object-contain p-2" />
+                  </div>
+                )}
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-1">
+                    <Link href={`/chairs/${chair.id}`} className="hover:text-gold transition-colors">{chair.name}</Link>
+                  </h3>
+                  <p className="text-charcoal font-semibold text-sm mb-3">{priceLabel}</p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {chair.track && chair.track !== "vibration" && (
+                      <span className="border border-navy text-navy text-xs font-medium px-3 py-1 rounded-full">{chair.track}-Track</span>
+                    )}
+                    {chair.roller && (
+                      <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">{chair.roller}</span>
+                    )}
+                    {chair.zeroGravity && (
+                      <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">
+                        {chair.zeroGravityStages ? `ZG ${chair.zeroGravityStages}-stage` : "Zero Gravity"}
+                      </span>
+                    )}
+                    {chair.aiScanning && (
+                      <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Body Scan</span>
+                    )}
+                    {chair.heat && (
+                      <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Heat</span>
+                    )}
+                    {chair.spaceSaving && (
+                      <span className="border border-teal text-teal text-xs font-medium px-3 py-1 rounded-full">Space-Saving</span>
+                    )}
+                  </div>
+                  <p className="text-charcoal text-base leading-relaxed mb-4">{editorial?.why}</p>
+                  <div className="flex flex-wrap gap-4 mb-4">
+                    {heightRange && <span className="text-xs text-warm-gray">Height: {heightRange}</span>}
+                    {chair.weightCapacityLbs ? <span className="text-xs text-warm-gray">Capacity: {chair.weightCapacityLbs} lbs</span> : null}
+                    {chair.trackLengthIn ? <span className="text-xs text-warm-gray">Track: {chair.trackLengthIn}&quot;</span> : null}
+                    {chair.wallClearanceIn ? <span className="text-xs text-warm-gray">Wall clearance: {chair.wallClearanceIn}&quot;</span> : null}
+                  </div>
+                  <div className="flex flex-wrap items-center gap-3">
+                    {chair.affiliateUrl && (
+                      <a href={chair.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
+                         className="border border-gold text-gold hover:bg-gold hover:text-white text-sm font-semibold px-5 py-2 rounded transition-colors">
+                        Shop this chair
+                      </a>
+                    )}
+                    <Link href={`/chairs/${chair.id}`} className="text-sm text-bronze hover:text-gold transition-colors">Full review</Link>
+                  </div>
+                </div>
               </div>
-              <p className="text-charcoal text-sm leading-relaxed">{ed.why}</p>
-              {chair.affiliateUrl ? (
-                <a
-                  href={chair.affiliateUrl}
-                  target="_blank"
-                  rel="noopener noreferrer sponsored"
-                  className="inline-block mt-3 text-sm font-semibold text-bronze border border-bronze rounded px-4 py-1.5 hover:bg-bronze hover:text-white transition-colors"
-                >
-                  Shop This Chair &rarr;
-                </a>
-              ) : (
-                <Link
-                  href={`/chairs/${chair.id}`}
-                  className="inline-block mt-3 text-sm font-semibold text-bronze border border-bronze rounded px-4 py-1.5 hover:bg-bronze hover:text-white transition-colors"
-                >
-                  View Details &rarr;
-                </Link>
-              )}
             </div>
           )
         })}
       </div>
 
-      <div className="bg-linen border border-sand rounded-xl p-6 max-w-2xl mb-10">
-        <h2 className="text-xl font-serif font-semibold text-navy mb-3">Recovery timing guide</h2>
-        <div className="space-y-3 text-sm text-charcoal">
-          <div>
-            <span className="font-semibold">Immediately post-training (0 to 30 min):</span> Light airbag compression only at low intensity. Avoid deep roller work while acute inflammation is highest.
-          </div>
-          <div>
-            <span className="font-semibold">30 to 90 minutes post-training:</span> The optimal window. Medium intensity roller work on the back and glutes, full calf and foot compression. 20 to 25 minutes.
-          </div>
-          <div>
-            <span className="font-semibold">Day 2 and rest days:</span> Full depth 4D roller work appropriate. Morning sessions on rest days decompress the spine and loosen overnight stiffness. Good window for stretch programs.
-          </div>
-          <div>
-            <span className="font-semibold">Before training:</span> Light, short sessions (10 to 15 min) at low intensity can increase circulation and reduce pre-workout tightness. Avoid deep tissue work immediately before high-intensity sessions.
-          </div>
-        </div>
-      </div>
-
-      <div className="max-w-2xl">
-        <h2 className="text-2xl font-serif font-semibold text-navy mb-4">Frequently asked questions</h2>
-        <div className="space-y-4">
-          <details className="border border-sand rounded-lg p-4">
-            <summary className="font-semibold cursor-pointer">Do I need a chair specifically marketed for athletes?</summary>
-            <p className="mt-3 text-sm text-charcoal">No. The features that make a chair effective for sports recovery are track type, roller quality, and leg airbag coverage, not the marketing category. Any SL-track or L-track chair with 4D rollers and serious calf compression works for athletic recovery. The Positive Posture Brio Sport is the only chair on this list with explicit athletic marketing; the others are included because their specs match the recovery use case, not their branding.</p>
-          </details>
-          <details className="border border-sand rounded-lg p-4">
-            <summary className="font-semibold cursor-pointer">Can I use a massage chair instead of a foam roller?</summary>
-            <p className="mt-3 text-sm text-charcoal">For the back, glutes, and upper legs, yes, a massage chair delivers more thorough tissue work than a foam roller and requires no effort on your part. For the IT band, outer quads, and calves in detail, a foam roller or targeted percussion tool can reach angles the chair cannot. The best approach for high-volume athletes is the chair as the primary daily recovery tool, with a foam roller or gun for spot work on specific problem areas.</p>
-          </details>
-          <details className="border border-sand rounded-lg p-4">
-            <summary className="font-semibold cursor-pointer">What weight capacity do I need for athletic use?</summary>
-            <p className="mt-3 text-sm text-charcoal">All six chairs above have weight capacities between 260 and 270 pounds. For buyers above 250 pounds, check the specific capacity before purchasing. Heavier-frame athletes should look at the heavy-duty category, which includes chairs with higher capacity ratings and reinforced frames built for more demanding structural loads.</p>
-          </details>
-        </div>
-      </div>
-
-      <div className="mt-12 p-6 bg-navy text-white rounded-xl max-w-2xl">
-        <h2 className="text-xl font-serif font-semibold mb-2">Not sure which chair fits your training?</h2>
-        <p className="text-sm text-gray-300 mb-4">
-          The chair finder filters by training type, body type, budget, and room constraints to match you with the right chair in under two minutes.
+      <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
+        <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
+        <p className="text-charcoal leading-relaxed mb-3">
+          If your training is primarily lower body, prioritize L-track coverage. The Positive Posture Brio Sport ($8,999) is the most purpose-built lower-body recovery chair in the catalog. The Infinity Genesis Max ($9,299) is the L-track value option for glute and hip coverage without the explicit athletic positioning.
         </p>
-        <Link
-          href="/finder"
-          className="inline-block bg-gold text-navy font-semibold px-6 py-2.5 rounded hover:bg-yellow-400 transition-colors text-sm"
-        >
-          Find My Chair &rarr;
-        </Link>
+        <p className="text-charcoal leading-relaxed mb-3">
+          If you train upper and lower body and want full-spine recovery per session, the SL-track picks cover more ground. The Amamedics Hilux 4D ($4,999) is the value entry with heated rollers. The Osaki Maestro LE ($8,999) is the most complete full-body option at the top of the range.
+        </p>
+        <p className="text-charcoal leading-relaxed">
+          The{" "}
+          <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{" "}
+          asks about your training type, body measurements, and room size to narrow further. The{" "}
+          <Link href="/learn/track-types" className="text-bronze hover:text-gold transition-colors">track types guide</Link>{" "}
+          explains the coverage difference between L-track and SL-track for lower-body athletes.
+        </p>
+      </div>
+
+      <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
+        <h2 className="text-xl font-serif font-semibold text-navy mb-3">Recovery timing guide</h2>
+        <p className="text-charcoal leading-relaxed mb-3">
+          Immediately post-training (0 to 30 minutes), use light airbag compression only at low intensity. Avoid deep roller work while acute inflammation is highest. The 30 to 90 minute window is the optimal time for medium intensity roller work on the back and glutes, full calf and foot compression, and sessions of 20 to 25 minutes.
+        </p>
+        <p className="text-charcoal leading-relaxed">
+          On day two and rest days, full-depth 4D roller work is appropriate. Morning sessions decompress the spine and loosen overnight stiffness, and stretch programs are well-suited for this window. Before training, short light sessions of 10 to 15 minutes at low intensity can increase circulation without fatiguing tissue before high-intensity work.
+        </p>
+      </div>
+
+      <div className="bg-sand rounded-xl p-6 text-center max-w-lg">
+        <p className="text-charcoal font-medium mb-1">Not sure which chair fits your training?</p>
+        <p className="text-warm-gray text-sm mb-4">Answer a few questions about your pain, body, and space. The finder narrows to the right chair.</p>
+        <Link href="/finder" className="btn-primary inline-block">Find My Chair</Link>
       </div>
 
     </div>
