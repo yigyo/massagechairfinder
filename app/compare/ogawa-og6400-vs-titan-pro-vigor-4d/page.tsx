@@ -23,33 +23,37 @@ export default function ComparePage() {
         The Ogawa OG-6400 costs $800 less than the Pro-Vigor 4D and handles significantly more weight -- 320 lbs verified plus-size versus 260 lbs. The Pro-Vigor 4D adds heated rollers and a 4D roller system for more nuanced pressure control. The decision comes down to body fit versus roller technology.
       </p>
 
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/1509/5162/files/OgawaActiveXLDUO_0025_ogawa-active-xl-duo-black-and-champagne-angled-view.jpg"
-            alt="Ogawa Active XL Duo 3D OG-6400"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Ogawa Active XL Duo 3D</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$5,199</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 3D | 320 lbs | 11-inch wall clearance</p>
+      <div className="grid grid-cols-2 gap-4 mb-10">
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/1509/5162/files/OgawaActiveXLDUO_0025_ogawa-active-xl-duo-black-and-champagne-angled-view.jpg"
+              alt="Ogawa Active XL Duo 3D OG-6400 massage chair"
+              width={400}
+              height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Ogawa Active XL Duo 3D</p>
+          <p className="text-sm text-charcoal">$5,199</p>
         </div>
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/Vigor_Black_Perspective_1000x100_833e048a-3782-4c24-bda3-145b0593c8bd.jpg"
-            alt="Titan Pro-Vigor 4D"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Titan Pro-Vigor 4D</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$5,999</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 4D | 260 lbs | Heated rollers | 3.9-inch wall</p>
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/Vigor_Black_Perspective_1000x100_833e048a-3782-4c24-bda3-145b0593c8bd.jpg"
+              alt="Titan Pro-Vigor 4D massage chair"
+              width={400}
+              height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Titan Pro-Vigor 4D</p>
+          <p className="text-sm text-charcoal">$5,999</p>
         </div>
       </div>
 
-      <div className="card bg-navy text-white mb-10">
-        <h2 className="text-xl font-serif font-semibold mb-3">Quick Verdict</h2>
+      <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
+        <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
         <p className="mb-3">
           If you weigh over 250 lbs or want a confirmed plus-size fit at a lower price, the Ogawa OG-6400 is the clearer choice. Its 320 lb verified capacity and 11-inch wall clearance make it the stronger practical option for heavier buyers or rooms with limited rear space.
         </p>
@@ -82,8 +86,8 @@ export default function ComparePage() {
               ['Foot Rollers', 'Yes', 'Yes'],
               ['Stretch Programs', 'Not specified', 'Yes'],
               ['Space-Saving', 'Yes', 'Yes'],
-            ].map(([spec, a, b]) => (
-              <tr key={spec} className="border-b border-sand">
+            ].map(([spec, a, b], i) => (
+              <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>
                 <td className="p-3">{b}</td>
@@ -113,36 +117,45 @@ export default function ComparePage() {
       <p className="mb-8">
         The Ogawa OG-6400 uses a dual 3D roller system with a primary roller and a secondary roller for additional coverage. The Pro-Vigor 4D uses a single 4D roller with variable speed and rhythm. For buyers who use auto programs primarily, both approaches produce a thorough massage. For buyers who want session-by-session fine-tuning of pressure depth and pace, the 4D system provides more control.
       </p>
-
-      <h2 className="text-2xl font-serif font-semibold mb-4">Who Should Buy Each Chair</h2>
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card border-l-4 border-gold">
-          <h3 className="font-semibold text-navy mb-3">Buy the Ogawa OG-6400 if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>You weigh over 250 lbs or want verified plus-size fit</li>
-            <li>Budget is a consideration and 3D roller quality is sufficient</li>
-            <li>Your room has only 11 inches of wall clearance but not tight enough for the Vigor's 3.9"</li>
-            <li>You want to save $800 and the roller type difference is not important</li>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
+          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Ogawa OG-6400 if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You weigh over 250 lbs or want verified plus-size fit</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Budget is a consideration and 3D roller quality is sufficient</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Your room has only 11 inches of wall clearance but not tight enough for the Vigor's 3.9"</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want to save $800 and the roller type difference is not important</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/ogawa-og6400" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the OG-6400</a>
+          </div>
         </div>
-        <div className="card border-l-4 border-teal">
-          <h3 className="font-semibold text-navy mb-3">Buy the Titan Pro-Vigor 4D if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>You weigh under 250 lbs and are between 5'0" and 6'2"</li>
-            <li>Heated rollers are a priority for your pain relief routine</li>
-            <li>4D roller depth control and stretch programs matter to you</li>
-            <li>Your room is very tight -- the 3.9" wall clearance is the main practical advantage</li>
+        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
+          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Titan Pro-Vigor 4D if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You weigh under 250 lbs and are between 5'0" and 6'2"</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Heated rollers are a priority for your pain relief routine</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>4D roller depth control and stretch programs matter to you</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Your room is very tight -- the 3.9" wall clearance is the main practical advantage</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/titan-pro-vigor-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>
+          </div>
         </div>
       </div>
 
-      <div className="card bg-navy text-white text-center mt-8">
-        <p className="text-lg font-serif mb-2">Not sure which features matter for your pain?</p>
-        <p className="text-sm text-sand mb-4">The chair finder quiz factors in your body fit, pain profile, and room to give you a direct recommendation.</p>
-        <Link href="/finder" className="inline-block bg-gold text-white font-semibold px-8 py-3 rounded hover:bg-amber-600 transition-colors">
-          Take the Chair Finder Quiz
+      <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
+        <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
+        <p className="text-charcoal text-sm mb-4">
+          Answer a few questions about your body, pain profile, and budget. The Chair Finder
+          surfaces the chairs most likely to work for your specific situation.
+        </p>
+        <Link href="/finder" className="inline-block text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" style={{ background: '#D1803E' }}>
+          Open the Chair Finder
         </Link>
       </div>
-    </div>
+
+</div>
   )
 }

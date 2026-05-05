@@ -23,33 +23,35 @@ export default function ComparePage() {
         Choosing between two chairs from the same brand at the same price is one of the more frustrating buying decisions. Both are SL-track 4D chairs from Bodyfriend at $8,499, both include heat and zero gravity, and both have strong build quality. The critical differences are weight capacity and stretch programs.
       </p>
 
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/0422/3942/6712/files/Phantom-II_white_01.jpg"
-            alt="Bodyfriend Phantom II"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Bodyfriend Phantom II</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$8,499</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 4D | 335 lbs | Plus-size confirmed</p>
+      <div className="grid grid-cols-2 gap-4 mb-10">
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0422/3942/6712/files/Phantom-II_white_01.jpg"
+              alt="Bodyfriend Phantom II massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Bodyfriend Phantom II</p>
+          <p className="text-sm text-charcoal">$8,499</p>
         </div>
-        <div className="card text-center">
-          <Image
-            src="https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-falcon-massage-chair.jpg?v=1776904610"
-            alt="Bodyfriend Falcon XD 4D"
-            width={300} height={300}
-            className="mx-auto mb-3 object-contain"
-          />
-          <h2 className="text-xl font-serif font-semibold text-navy">Bodyfriend Falcon XD 4D</h2>
-          <p className="text-2xl font-bold text-gold mt-1">$8,499</p>
-          <p className="text-sm text-warm-gray mt-1">SL-track | 4D | 265 lbs | Stretch programs</p>
+        <div className="text-center">
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-falcon-massage-chair.jpg?v=1776904610"
+              alt="Bodyfriend Falcon XD 4D massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
+          </div>
+          <p className="text-sm font-semibold text-navy">Bodyfriend Falcon XD 4D</p>
+          <p className="text-sm text-charcoal">$8,499</p>
         </div>
       </div>
 
-      <div className="card bg-navy text-white mb-10">
-        <h2 className="text-xl font-serif font-semibold mb-3">Quick Verdict</h2>
+      <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
+        <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
         <p className="mb-3">
           For buyers who weigh more than 250 lbs, the Phantom II is the answer. Its 335 lb confirmed weight capacity is among the highest in its price tier, and plus-size fit has been verified. The Falcon XD's 265 lb limit is not suitable for heavier buyers.
         </p>
@@ -80,8 +82,8 @@ export default function ComparePage() {
               ['Foot Rollers', 'Yes', 'Yes'],
               ['Calf Massage', 'Yes', 'Yes'],
               ['Stretch Programs', 'Not specified', 'Yes'],
-            ].map(([spec, a, b]) => (
-              <tr key={spec} className="border-b border-sand">
+            ].map(([spec, a, b], i) => (
+              <tr key={spec} className={i % 2 === 0 ? 'bg-linen' : 'bg-white'}>
                 <td className="p-3 font-medium">{spec}</td>
                 <td className="p-3">{a}</td>
                 <td className="p-3">{b}</td>
@@ -108,36 +110,45 @@ export default function ComparePage() {
       <p className="mb-8">
         Bodyfriend is a Korean brand with a reputation for precise 4D roller tuning and a softer default pressure profile relative to their roller power. This makes both chairs particularly well-suited for buyers who have found other chairs in this price range too intense. The SL-track on both models covers the full spine from neck through the lumbar and extends into the upper glutes, which is the right coverage for buyers with both upper and lower back tension.
       </p>
-
-      <h2 className="text-2xl font-serif font-semibold mb-4">Who Should Buy Each Chair</h2>
-      <div className="grid grid-cols-2 gap-6 mb-10">
-        <div className="card border-l-4 border-gold">
-          <h3 className="font-semibold text-navy mb-3">Buy the Phantom II if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>You weigh more than 250 lbs</li>
-            <li>Plus-size fit verification matters to your decision</li>
-            <li>Stretch programs are not a priority</li>
-            <li>You want the higher capacity option as a long-term purchase</li>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
+          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Phantom II if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You weigh more than 250 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Plus-size fit verification matters to your decision</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Stretch programs are not a priority</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want the higher capacity option as a long-term purchase</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/bodyfriend-phantom-ii" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Phantom II</a>
+          </div>
         </div>
-        <div className="card border-l-4 border-teal">
-          <h3 className="font-semibold text-navy mb-3">Buy the Falcon XD if:</h3>
-          <ul className="space-y-2 text-sm text-warm-gray">
-            <li>You weigh under 250 lbs</li>
-            <li>Stretch programs are a priority for recovery or decompression</li>
-            <li>You have tight hip flexors or do strength training</li>
-            <li>You are comparing against other SL-track 4D chairs in the $8,000-$9,000 tier</li>
+        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
+          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Falcon XD if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You weigh under 250 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Stretch programs are a priority for recovery or decompression</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You have tight hip flexors or do strength training</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are comparing against other SL-track 4D chairs in the $8,000-$9,000 tier</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/bodyfriend-falcon-xd" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Falcon XD</a>
+          </div>
         </div>
       </div>
 
-      <div className="card bg-navy text-white text-center mt-8">
-        <p className="text-lg font-serif mb-2">Not sure which Bodyfriend is right for your body?</p>
-        <p className="text-sm text-sand mb-4">The chair finder quiz factors in your weight, height, and pain profile to match you to the right fit.</p>
-        <Link href="/finder" className="inline-block bg-gold text-white font-semibold px-8 py-3 rounded hover:bg-amber-600 transition-colors">
-          Take the Chair Finder Quiz
+      <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
+        <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
+        <p className="text-charcoal text-sm mb-4">
+          Answer a few questions about your body, pain profile, and budget. The Chair Finder
+          surfaces the chairs most likely to work for your specific situation.
+        </p>
+        <Link href="/finder" className="inline-block text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" style={{ background: '#D1803E' }}>
+          Open the Chair Finder
         </Link>
       </div>
-    </div>
+
+</div>
   )
 }

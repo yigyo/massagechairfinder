@@ -31,7 +31,7 @@ export default function HiluxVsVigorPage() {
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
             <Image
-              src="https://cdn.shopify.com/s/files/1/0727/1609/1700/files/amamedic-hilux-4d-black-90.webp"
+              src="https://cdn.shopify.com/s/files/1/0727/1609/1700/files/amamedic-hilux-4d-black-901174.jpg"
               alt="AmaMedics Hilux 4D massage chair"
               width={400} height={300}
               className="w-full h-full object-contain p-4"
@@ -43,7 +43,7 @@ export default function HiluxVsVigorPage() {
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
             <Image
-              src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/Vigor_Black_Perspective.jpg"
+              src="https://cdn.shopify.com/s/files/1/0737/9625/6030/products/Vigor_Black_Perspective_1000x100_833e048a-3782-4c24-bda3-145b0593c8bd.jpg"
               alt="Titan Pro-Vigor 4D massage chair"
               width={400} height={300}
               className="w-full h-full object-contain p-4"
@@ -66,7 +66,7 @@ export default function HiluxVsVigorPage() {
         </p>
       </div>
 
-      <h2 className="text-2xl font-serif mb-4">Specs side by side</h2>
+      <h2 className="text-2xl font-serif mb-4">Specs Compared</h2>
       <div className="overflow-x-auto mb-10">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -127,39 +127,45 @@ export default function HiluxVsVigorPage() {
         For buyers above 6 feet 2 inches, both chairs require checking the specific
         upper height confirmation.
       </p>
-
-      <h2 className="text-2xl font-serif mb-3">Who should buy which</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
-        <div className="bg-sand rounded-xl p-5">
-          <p className="font-semibold text-navy mb-2">Choose the Hilux 4D if:</p>
-          <ul className="text-sm text-charcoal space-y-1.5">
-            <li>You want the best value in the SL-track 4D tier</li>
-            <li>You are under 5&apos;0&quot; or weigh over 260 lbs</li>
-            <li>Heated roller performance is a primary criterion</li>
-            <li>Room placement is not tightly constrained</li>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
+          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Hilux 4D if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want the best value in the SL-track 4D tier</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are under 5&apos;0&quot; or weigh over 260 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Heated roller performance is a primary criterion</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Room placement is not tightly constrained</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/amamedics-hilux-4d" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Hilux 4D</a>
+          </div>
         </div>
-        <div className="bg-sand rounded-xl p-5">
-          <p className="font-semibold text-navy mb-2">Choose the Pro-Vigor 4D if:</p>
-          <ul className="text-sm text-charcoal space-y-1.5">
-            <li>The chair needs to fit within 4 inches of a wall</li>
-            <li>You are placing the chair in a bedroom or tight space</li>
-            <li>You are 5&apos;0&quot; or taller and under 260 lbs</li>
-            <li>The space-saving design justifies the $1,000 premium for your room</li>
+        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
+          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Pro-Vigor 4D if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>The chair needs to fit within 4 inches of a wall</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are placing the chair in a bedroom or tight space</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are 5&apos;0&quot; or taller and under 260 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>The space-saving design justifies the $1,000 premium for your room</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/titan-pro-vigor-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>
+          </div>
         </div>
       </div>
 
-      <div className="mt-10 p-6 bg-navy text-white rounded-xl">
-        <h2 className="text-xl font-serif font-semibold mb-2">Want a broader comparison?</h2>
-        <p className="text-sm text-gray-300 mb-4">
-          The chair finder compares the full catalog by your pain profile, body measurements,
-          room size, and budget in under two minutes.
+      <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
+        <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
+        <p className="text-charcoal text-sm mb-4">
+          Answer a few questions about your body, pain profile, and budget. The Chair Finder
+          surfaces the chairs most likely to work for your specific situation.
         </p>
-        <Link href="/finder" className="inline-block bg-gold text-navy font-semibold px-6 py-2.5 rounded hover:bg-yellow-400 transition-colors text-sm">
-          Find My Chair &rarr;
+        <Link href="/finder" className="inline-block text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" style={{ background: '#D1803E' }}>
+          Open the Chair Finder
         </Link>
       </div>
-    </div>
+
+</div>
   )
 }

@@ -30,7 +30,7 @@ export default function AdmiralVsKahunaPage() {
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
             <Image
-              src="https://cdn.shopify.com/s/files/1/0727/1609/1700/files/osaki-os-pro-admiral-ii-black-front.webp"
+              src="https://cdn.shopify.com/s/files/1/0727/1609/1700/files/osaki-os-pro-admiral-ii-black-silver-806236.jpg"
               alt="Osaki OS-Pro Admiral II massage chair"
               width={400} height={300}
               className="w-full h-full object-contain p-4"
@@ -40,8 +40,14 @@ export default function AdmiralVsKahunaPage() {
           <p className="text-sm text-charcoal">$2,999</p>
         </div>
         <div className="text-center">
-          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3 flex items-center justify-center" style={{ aspectRatio: '4/3' }}>
-            <p className="text-warm-gray text-sm p-4">Kahuna LM-6800S</p>
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0661/9758/5995/files/kahuna-lm-6800S-massage-chair.jpg?v=1776902669"
+              alt="Kahuna LM-6800S massage chair"
+              width={400}
+              height={300}
+              className="w-full h-full object-contain p-4"
+            />
           </div>
           <p className="text-sm font-semibold text-navy">Kahuna LM-6800S</p>
           <p className="text-sm text-charcoal">$2,499</p>
@@ -58,7 +64,7 @@ export default function AdmiralVsKahunaPage() {
         </p>
       </div>
 
-      <h2 className="text-2xl font-serif mb-4">Specs side by side</h2>
+      <h2 className="text-2xl font-serif mb-4">Specs Compared</h2>
       <div className="overflow-x-auto mb-10">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -118,39 +124,45 @@ export default function AdmiralVsKahunaPage() {
         benefit from chiropractic stretching, the LM-6800S stretch program is a genuine
         differentiator that may outweigh the 3D roller upgrade.
       </p>
-
-      <h2 className="text-2xl font-serif mb-3">Who should buy which</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
-        <div className="bg-sand rounded-xl p-5">
-          <p className="font-semibold text-navy mb-2">Choose the Admiral II if:</p>
-          <ul className="text-sm text-charcoal space-y-1.5">
-            <li>You weigh over 200 lbs</li>
-            <li>You have chronic lower back pain and want roller depth variation</li>
-            <li>You plan daily use and want better long-term mechanical durability</li>
-            <li>The $500 difference is within your budget</li>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
+          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Admiral II if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You weigh over 200 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You have chronic lower back pain and want roller depth variation</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You plan daily use and want better long-term mechanical durability</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>The $500 difference is within your budget</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/osaki-os-pro-admiral-ii" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Admiral II</a>
+          </div>
         </div>
-        <div className="bg-sand rounded-xl p-5">
-          <p className="font-semibold text-navy mb-2">Choose the LM-6800S if:</p>
-          <ul className="text-sm text-charcoal space-y-1.5">
-            <li>Your budget is firm at $2,499</li>
-            <li>You are under 180 lbs</li>
-            <li>A stretch program is specifically important for hip flexor or lumbar traction</li>
-            <li>You are under 5&apos;2&quot; (it accommodates 5&apos;0&quot; vs the Admiral&apos;s 5&apos;2&quot; minimum)</li>
+        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
+          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the LM-6800S if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Your budget is firm at $2,499</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are under 180 lbs</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>A stretch program is specifically important for hip flexor or lumbar traction</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are under 5&apos;2&quot; (it accommodates 5&apos;0&quot; vs the Admiral&apos;s 5&apos;2&quot; minimum)</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/kahuna-lm-6800s" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the LM-6800S</a>
+          </div>
         </div>
       </div>
 
-      <div className="mt-10 p-6 bg-navy text-white rounded-xl">
-        <h2 className="text-xl font-serif font-semibold mb-2">Not sure which fits your situation?</h2>
-        <p className="text-sm text-gray-300 mb-4">
-          The chair finder filters by pain profile, body type, and budget to give you a
-          personalized recommendation across the full catalog.
+      <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
+        <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
+        <p className="text-charcoal text-sm mb-4">
+          Answer a few questions about your body, pain profile, and budget. The Chair Finder
+          surfaces the chairs most likely to work for your specific situation.
         </p>
-        <Link href="/finder" className="inline-block bg-gold text-navy font-semibold px-6 py-2.5 rounded hover:bg-yellow-400 transition-colors text-sm">
-          Find My Chair &rarr;
+        <Link href="/finder" className="inline-block text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" style={{ background: '#D1803E' }}>
+          Open the Chair Finder
         </Link>
       </div>
-    </div>
+
+</div>
   )
 }

@@ -32,7 +32,7 @@ export default function YukonVsSensationPage() {
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
             <Image
-              src="https://cdn.shopify.com/s/files/1/2261/7893/products/relaxonchair-yukon-4d-massage-chair-black-front.jpg"
+              src="https://cdn.shopify.com/s/files/1/2261/7893/products/relaxonchair-yukon-4d-massage-chair-main-210319.jpg"
               alt="Relax On Chair YUKON-4D massage chair"
               width={400} height={300}
               className="w-full h-full object-contain p-4"
@@ -42,8 +42,13 @@ export default function YukonVsSensationPage() {
           <p className="text-sm text-charcoal">$6,499</p>
         </div>
         <div className="text-center">
-          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3 flex items-center justify-center" style={{ aspectRatio: '4/3' }}>
-            <p className="text-warm-gray text-sm p-4">RockerTech Sensation 4D</p>
+          <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
+            <Image
+              src="https://cdn.shopify.com/s/files/1/0111/0251/9396/products/rockertechhealth-beauty-massage-relaxation-massage-chairsrockertech-sensation-4d-massage-chairgray-blackmassage-chair-heaven-951831.jpg?v=1697640675"
+              alt="RockerTech Sensation 4D massage chair"
+              width={400} height={300}
+              className="w-full h-full object-contain p-4"
+            />
           </div>
           <p className="text-sm font-semibold text-navy">RockerTech Sensation 4D</p>
           <p className="text-sm text-charcoal">$6,999</p>
@@ -61,7 +66,7 @@ export default function YukonVsSensationPage() {
         </p>
       </div>
 
-      <h2 className="text-2xl font-serif mb-4">Specs side by side</h2>
+      <h2 className="text-2xl font-serif mb-4">Specs Compared</h2>
       <div className="overflow-x-auto mb-10">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -123,38 +128,45 @@ export default function YukonVsSensationPage() {
         adjustment without the complexity of advanced programming features, the YUKON
         delivers that control at a $500 lower price point than the Sensation.
       </p>
-
-      <h2 className="text-2xl font-serif mb-3">Who should buy which</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
-        <div className="bg-sand rounded-xl p-5">
-          <p className="font-semibold text-navy mb-2">Choose the YUKON-4D if:</p>
-          <ul className="text-sm text-charcoal space-y-1.5">
-            <li>Your primary focus is back and hip pain, not foot relief</li>
-            <li>Precision pressure control is the most important feature for your use case</li>
-            <li>The $500 savings is relevant to your budget</li>
-            <li>You are in the middle of the height range and body scanning precision matters less</li>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
+          <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the YUKON-4D if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Your primary focus is back and hip pain, not foot relief</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Precision pressure control is the most important feature for your use case</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>The $500 savings is relevant to your budget</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are in the middle of the height range and body scanning precision matters less</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/relaxonchair-yukon-4d" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the YUKON-4D</a>
+          </div>
         </div>
-        <div className="bg-sand rounded-xl p-5">
-          <p className="font-semibold text-navy mb-2">Choose the Sensation 4D if:</p>
-          <ul className="text-sm text-charcoal space-y-1.5">
-            <li>You run, stand for long hours, or have plantar fasciitis</li>
-            <li>You are shorter than 5&apos;3&quot; or taller than 6&apos;0&quot; and want precise body scan calibration</li>
-            <li>Dual foot roller coverage is a feature you will use regularly</li>
-            <li>Advanced body scanning is a priority for your household</li>
+        <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
+          <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Sensation 4D if:</h2>
+          <ul className="text-charcoal space-y-2 text-sm list-none p-0">
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You run, stand for long hours, or have plantar fasciitis</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are shorter than 5&apos;3&quot; or taller than 6&apos;0&quot; and want precise body scan calibration</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Dual foot roller coverage is a feature you will use regularly</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Advanced body scanning is a priority for your household</span></li>
           </ul>
+          <div className="mt-4">
+            <a href="/go/rockertech-sensation-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Sensation 4D</a>
+          </div>
         </div>
       </div>
 
-      <div className="mt-10 p-6 bg-navy text-white rounded-xl">
-        <h2 className="text-xl font-serif font-semibold mb-2">Still narrowing it down?</h2>
-        <p className="text-sm text-gray-300 mb-4">
-          The chair finder filters by pain profile, body type, and budget across the full catalog.
+      <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
+        <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
+        <p className="text-charcoal text-sm mb-4">
+          Answer a few questions about your body, pain profile, and budget. The Chair Finder
+          surfaces the chairs most likely to work for your specific situation.
         </p>
-        <Link href="/finder" className="inline-block bg-gold text-navy font-semibold px-6 py-2.5 rounded hover:bg-yellow-400 transition-colors text-sm">
-          Find My Chair &rarr;
+        <Link href="/finder" className="inline-block text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" style={{ background: '#D1803E' }}>
+          Open the Chair Finder
         </Link>
       </div>
-    </div>
+
+</div>
   )
 }

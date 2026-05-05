@@ -70,7 +70,7 @@ export default function LuracoVsMAK1Page() {
         </p>
       </div>
 
-      <h2 className="text-2xl font-serif mb-4">Specs side by side</h2>
+      <h2 className="text-2xl font-serif mb-4">Specs Compared</h2>
       <div className="overflow-x-auto mb-10">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -168,10 +168,10 @@ export default function LuracoVsMAK1Page() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the i9 Max Plus if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-teal font-bold mt-0.5">+</span><span>You have lower back pain, hip pain, or sciatica. L-track and zero gravity are the right tools for this profile.</span></li>
-            <li className="flex gap-2"><span className="text-teal font-bold mt-0.5">+</span><span>You are over 6 feet 2 inches. The i9 Max Plus is confirmed to 6 feet 10 inches. The MAK1 is not.</span></li>
-            <li className="flex gap-2"><span className="text-teal font-bold mt-0.5">+</span><span>Long-term ownership confidence matters. The 10-year warranty and Made in USA certification are the strongest in the category.</span></li>
-            <li className="flex gap-2"><span className="text-teal font-bold mt-0.5">+</span><span>You want to spend less. At $13,490 it is $1,000 less than the MAK1.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You have lower back pain, hip pain, or sciatica. L-track and zero gravity are the right tools for this profile.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are over 6 feet 2 inches. The i9 Max Plus is confirmed to 6 feet 10 inches. The MAK1 is not.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Long-term ownership confidence matters. The 10-year warranty and Made in USA certification are the strongest in the category.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want to spend less. At $13,490 it is $1,000 less than the MAK1.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair" target="_blank" rel="noopener noreferrer"
@@ -183,9 +183,9 @@ export default function LuracoVsMAK1Page() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the MAK1 if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex gap-2"><span className="text-gold font-bold mt-0.5">+</span><span>Your pain is focused on the upper back, neck, or shoulders and you want Panasonic's precision S-track engineering.</span></li>
-            <li className="flex gap-2"><span className="text-gold font-bold mt-0.5">+</span><span>Infrared heated rollers are important to you. It is the MAK1's most distinctive and capable feature.</span></li>
-            <li className="flex gap-2"><span className="text-gold font-bold mt-0.5">+</span><span>Panasonic brand trust and Japanese engineering heritage matters in your decision.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Your pain is focused on the upper back, neck, or shoulders and you want Panasonic's precision S-track engineering.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Infrared heated rollers are important to you. It is the MAK1's most distinctive and capable feature.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Panasonic brand trust and Japanese engineering heritage matters in your decision.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://www.massagechairs.com/products/panasonic-mak1-massage-chair" target="_blank" rel="noopener noreferrer"
@@ -197,7 +197,7 @@ export default function LuracoVsMAK1Page() {
       </div>
 
       <h2 className="text-2xl font-serif mb-3">Bottom line</h2>
-      <p className="text-charcoal mb-4">
+      <p className="text-charcoal mb-8">
         The i9 Max Plus is the stronger recommendation for most buyers comparing these two
         chairs. It is less expensive, covers more of the body, includes zero gravity, fits
         a wider range of body types, and carries a 10-year warranty. The MAK1 is a thoughtfully
@@ -206,11 +206,18 @@ export default function LuracoVsMAK1Page() {
         back pain or any compression-related issue, the absence of zero gravity and L-track
         on a $14,499 chair is a hard position to justify.
       </p>
-      <p className="text-charcoal mb-8">
-        Still deciding between the premium and flagship tier? Use the{' '}
-        <Link href="/finder" className="text-bronze hover:text-gold">chair finder quiz</Link>{' '}
-        to see the full range of chairs that fit your pain profile, body type, and budget.
-      </p>
+
+      <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
+        <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
+        <p className="text-charcoal text-sm mb-4">
+          Answer a few questions about your body, pain profile, and budget. The Chair Finder
+          surfaces the chairs most likely to work for your specific situation.
+        </p>
+        <Link href="/finder" className="inline-block text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" style={{ background: '#D1803E' }}>
+          Open the Chair Finder
+        </Link>
+      </div>
 
       <div className="border-t border-sand pt-8">
         <h3 className="text-lg font-serif mb-3 text-navy">Learn more</h3>
