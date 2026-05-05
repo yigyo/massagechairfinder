@@ -36,7 +36,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "kyota-yugana-m780": {
     label: "Best mid-to-high pick for petite and older buyers",
-    why: "The Kyota Yugana M780 4D is the most accommodating L-track chair at its price point for the body types most common among older arthritic buyers. It fits buyers from 4'8", unusually low for an L-track 4D chair, and requires only 2 inches of wall clearance. At 300 lbs capacity with a wider-than-average seat, it comfortably accommodates a broad range of body types. The L-track covers the hips and glutes, where osteoarthritis is most prevalent in this demographic. At $7,999, it is a long-term investment in daily relief that is well-suited for consistent use over years.",
+    why: "The Kyota Yugana M780 4D is the most accommodating L-track chair at its price point for the body types most common among older arthritic buyers. It fits buyers from 4 feet 8 inches, unusually low for an L-track 4D chair, and requires only 2 inches of wall clearance. At 300 lbs capacity with a wider-than-average seat, it comfortably accommodates a broad range of body types. The L-track covers the hips and glutes, where osteoarthritis is most prevalent in this demographic. At $7,999, it is a long-term investment in daily relief that is well-suited for consistent use over years.",
   },
   "bodyfriend-phantom-ii": {
     label: "Best for heavier arthritic buyers",
