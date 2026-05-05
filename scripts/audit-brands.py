@@ -127,13 +127,25 @@ def main():
 
         # 2. Check for OOS model names mentioned in prose
         all_text = brand['tagline'] + ' ' + brand['description'] + ' ' + brand['bestFor']
+        # Build a set of words that appear in ACTIVE chair names (these are not unique OOS identifiers)
+        active_name_words = set()
+        for ac in bc:
+            active_name_words.update(w.lower() for w in ac['name'].split())
+
         for c in oos:
-            # Check if this OOS chair's name or a significant part of it appears in the prose
-            # Use the shortest unique substring (usually model number)
+            # Only flag if a non-brand, non-shared part of the OOS chair name appears in the prose
+            # Skip parts that are just the brand name or shared with active chair names
+            brand_words = set(name.lower().split())
             model_parts = c['name'].split()
+            matched = False
             for part in model_parts:
+                part_lower = part.lower()
+                # Skip if part is a brand word or also used in an active chair name
+                if part_lower in brand_words or part_lower in active_name_words:
+                    continue
                 if len(part) >= 4 and re.search(re.escape(part), all_text, re.IGNORECASE):
                     issues.append(f"[{name}] PROSE REFERENCES OOS CHAIR: '{c['name']}' (part: '{part}') -- update or remove from description/tagline")
+                    matched = True
                     break
 
         # 3. Check for non-existent model names in prose
@@ -147,13 +159,19 @@ def main():
                 issues.append(f"[{name}] STALE PRICE IN PROSE: ${pval:,} -- not in active catalog. Active prices: {', '.join(fmt_price(p) for p in sorted(active_prices))}")
 
         # 4. Active chair count vs. any numeric count mentioned in prose
-        count_mentions = re.findall(r'\b(one|two|three|four|five|six|seven|eight|nine|ten|\d+)\s+(?:current\s+)?(?:active\s+)?(?:US\s+)?(?:chair|model)', all_text, re.IGNORECASE)
+        # Use negative lookbehind to avoid matching numbers inside prices (e.g. "990" from "$11,990 chair")
+        count_mentions = re.findall(r'(?<![,\d])(one|two|three|four|five|six|seven|eight|nine|ten)\s+(?:current\s+)?(?:active\s+)?(?:US\s+)?(?:chair|model)', all_text, re.IGNORECASE)
         word_to_num = {'one':1,'two':2,'three':3,'four':4,'five':5,'six':6,'seven':7,'eight':8,'nine':9,'ten':10}
+        # Only flag if NO count mention in the prose matches the catalog count (sub-group counts are OK)
+        count_values = []
         for mention in count_mentions:
-            m = mention.lower()
-            n = word_to_num.get(m, int(m) if m.isdigit() else None)
-            if n and n != len(bc):
-                issues.append(f"[{name}] STALE MODEL COUNT: prose says '{mention}' but catalog has {len(bc)} active chairs")
+            n = word_to_num.get(mention.lower())
+            if n:
+                count_values.append((mention, n))
+        if count_values and not any(n == len(bc) for _, n in count_values):
+            # All count mentions disagree with catalog -- flag the first one
+            mention, n = count_values[0]
+            issues.append(f"[{name}] STALE MODEL COUNT: prose says '{mention}' but catalog has {len(bc)} active chairs")
 
     print(f"\n{'='*60}")
     print(f"BRAND PAGE AUDIT -- {len(brands)} brands checked")
