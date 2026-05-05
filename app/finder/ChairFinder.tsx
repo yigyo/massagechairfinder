@@ -43,8 +43,6 @@ const CHAIR_URLS: Record<string, string> = {
   'ogawa master drive le':     'https://massagechairwarehouse.com/products/ogawa-master-drive-le-massage-chair',
   'ogawa master drive ai':     'https://massagechairwarehouse.com/products/ogawa-master-drive-ai-2-0-massage-chair',
   'ogawa active xl':           'https://massagechairwarehouse.com/products/ogawa-active-xl-3d-massage-chair',
-  'inada robo':                'https://massagechairwarehouse.com/products/inada-robo-massage-chair',
-  'inada dreamwave':           'https://massagechairwarehouse.com/products/inada-dreamwave-massage-chair',
   'jpmedics kumo':             'https://massagechairwarehouse.com/products/jpmedics-kumo-4d-massage-chair',
   'jpmedics kaze':             'https://massagechairwarehouse.com/collections/jpmedics',
   'panasonic mak1':            'https://www.massagechairs.com/products/panasonic-mak1-massage-chair',
@@ -80,8 +78,6 @@ const CHAIR_IMAGES: Record<string, string> = {
   'ogawa master drive le':     'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Ogawa_Master_Drive_LE_4d-massage-chair.webp?v=1776836198',
   'ogawa master drive ai':     'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-master-drive-ai-2_0-4d-massage-chair.jpg?v=1776836198',
   'ogawa active xl':           'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-active-xl-massage-chair.webp?v=1776836198',
-  'inada robo':                'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/inada-robo-4d-massage-chair.webp?v=1776836197',
-  'inada dreamwave':           'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/inada-dreamwave-massage-chair.webp?v=1776836198',
   'jpmedics kumo':             'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/jpmedics-kumo-4d-massage-chair.webp?v=1776836197',
   'jpmedics kaze':             'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/jpmedics-kaze-duo-massage-chair.webp?v=1776836198',
   'panasonic mak1':            'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/panasonic-mak1-massage-chair.webp?v=1776958938',
@@ -804,7 +800,7 @@ export default function ChairFinder() {
               <p style={{ fontSize: 17, color: '#6B6B65', lineHeight: 1.65, maxWidth: 420, margin: '0 auto 36px' }}>
                 Your chair matches are on the way. While you wait, the Buying Guide covers everything you need to compare chairs confidently.
               </p>
-              <a href="/learn/buying-guide" style={{ color: '#D1803E', fontWeight: 600, fontSize: 16, textDecoration: 'none' }}>
+              <a href="/learn" style={{ color: '#D1803E', fontWeight: 600, fontSize: 16, textDecoration: 'none' }}>
                 Read the Buying Guide &rarr;
               </a>
               <div style={{ marginTop: 36 }}>
