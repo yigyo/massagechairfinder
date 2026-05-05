@@ -96,7 +96,7 @@ export default function ComparePage() {
 
       <h2 className="text-2xl font-serif font-semibold mb-4">Space-Saving Design</h2>
       <p className="mb-4">
-        The RockerTech Bliss uses Zero Wall Fit technology, which allows the chair to recline fully while moving forward rather than backward. This means it can operate with very little clearance behind it -- a few inches rather than the 18-24 inches a standard recline mechanism requires.
+        The RockerTech Bliss uses Zero Wall Fit technology, which allows the chair to recline fully while moving forward rather than backward. This means it can operate with very little clearance behind it, just a few inches rather than the 18-24 inches a standard recline mechanism requires.
       </p>
       <p className="mb-8">
         The Medical Breakthrough 6 Plus uses a standard recline mechanism. If your room does not have rear clearance, the Bliss is the practical answer. If space is not an issue, the mechanism type is irrelevant to the massage quality.

@@ -56,7 +56,7 @@ export default function ComparePage() {
           For buyers who weigh more than 250 lbs, the Phantom II is the answer. Its 335 lb confirmed weight capacity is among the highest in its price tier, and plus-size fit has been verified. The Falcon XD's 265 lb limit is not suitable for heavier buyers.
         </p>
         <p>
-          For buyers who weigh under 250 lbs and want stretch programs for spinal decompression or athletic recovery, the Falcon XD is the stronger choice. Both chairs deliver comparable massage quality at this price -- the decision is a body fit and feature priority question.
+          For buyers who weigh under 250 lbs and want stretch programs for spinal decompression or athletic recovery, the Falcon XD is the stronger choice. Both chairs deliver comparable massage quality at this price. The decision is a body fit and feature priority question.
         </p>
       </div>
 
@@ -98,7 +98,7 @@ export default function ComparePage() {
         The Phantom II supports 335 lbs with confirmed plus-size fit. This means the seat dimensions, roller track, and airbag placement have been verified as appropriate for heavier and broader builds, not just that the chair supports 335 lbs structurally.
       </p>
       <p className="mb-8">
-        The Falcon XD has a 265 lb capacity. Buyers who weigh 250 lbs or above should choose the Phantom II. The structural limit is not the only concern -- airbag coverage and roller position are also calibrated to the weight range the chair was designed for.
+        The Falcon XD has a 265 lb capacity. Buyers who weigh 250 lbs or above should choose the Phantom II. The structural limit is not the only concern. Airbag coverage and roller position are also calibrated to the weight range the chair was designed for.
       </p>
 
       <h2 className="text-2xl font-serif font-semibold mb-4">Stretch Programs</h2>

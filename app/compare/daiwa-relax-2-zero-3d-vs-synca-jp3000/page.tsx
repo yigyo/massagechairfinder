@@ -59,7 +59,7 @@ export default function ComparePage() {
       <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
         <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
         <p className="mb-3">
-          For buyers with upper and mid-back pain who also need confirmed fit at the extremes -- from 4'8" to 6'6", at up to 300 lbs -- the Daiwa Relax 2 Zero 3D is the more practical and $2,000 less expensive choice. The inversion stretch program is a standout feature for spinal decompression not found in the JP-3000.
+          For buyers with upper and mid-back pain who also need confirmed fit at the extremes, from 4 feet 8 inches to 6 feet 6 inches, at up to 300 lbs, the Daiwa Relax 2 Zero 3D is the more practical and $2,000 less expensive choice. The inversion stretch program is a standout feature for spinal decompression not found in the JP-3000.
         </p>
         <p>
           For buyers who want Japanese manufacturing quality and a 5D roller system with advanced rhythm and pattern variation, the Synca JP-3000 justifies the premium. Made in Japan with an 8% affiliate program and a strong support network via Synca Wellness, it is the choice when manufacturing precision and roller sophistication matter more than price.
@@ -111,7 +111,7 @@ export default function ComparePage() {
 
       <h2 className="text-2xl font-serif font-semibold mb-4">Body Fit: Daiwa's Confirmed Range</h2>
       <p className="mb-8">
-        The Daiwa Relax 2 Zero 3D confirms fit for buyers from 4'8" to 6'6" at up to 300 lbs, with both tall and plus-size fit verified. The JP-3000 does not publish confirmed height or weight limits. For buyers at the extremes of the size range -- particularly tall buyers or buyers over 250 lbs -- the Daiwa's published specifications provide more purchase certainty.
+        The Daiwa Relax 2 Zero 3D confirms fit for buyers from 4 feet 8 inches to 6 feet 6 inches at up to 300 lbs, with both tall and plus-size fit verified. The JP-3000 does not publish confirmed height or weight limits. For buyers at the extremes of the size range, particularly tall buyers or buyers over 250 lbs, the Daiwa's published specifications provide more purchase certainty.
       </p>
 
       <h2 className="text-2xl font-serif font-semibold mb-4">Inversion Stretch</h2>

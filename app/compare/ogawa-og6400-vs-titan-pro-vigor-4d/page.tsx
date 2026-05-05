@@ -20,7 +20,7 @@ export default function ComparePage() {
 
       <h1 className="text-4xl font-serif mb-3">Ogawa Active XL Duo 3D vs Titan Pro-Vigor 4D</h1>
       <p className="text-warm-gray mb-8 max-w-2xl">
-        The Ogawa OG-6400 costs $800 less than the Pro-Vigor 4D and handles significantly more weight -- 320 lbs verified plus-size versus 260 lbs. The Pro-Vigor 4D adds heated rollers and a 4D roller system for more nuanced pressure control. The decision comes down to body fit versus roller technology.
+        The Ogawa OG-6400 costs $800 less than the Pro-Vigor 4D and handles significantly more weight: 320 lbs verified plus-size versus 260 lbs. The Pro-Vigor 4D adds heated rollers and a 4D roller system for more nuanced pressure control. The decision comes down to body fit versus roller technology.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-10">
@@ -136,7 +136,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You weigh under 250 lbs and are between 5'0" and 6'2"</span></li>
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Heated rollers are a priority for your pain relief routine</span></li>
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>4D roller depth control and stretch programs matter to you</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Your room is very tight -- the 3.9" wall clearance is the main practical advantage</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Your room is very tight. The 3.9-inch wall clearance is the main practical advantage</span></li>
           </ul>
           <div className="mt-4">
             <a href="/go/titan-pro-vigor-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>
