@@ -497,19 +497,21 @@ export default function ChairFinder() {
   return (
     <div style={{ maxWidth: 720, margin: '0 auto', padding: '48px 24px 100px', minHeight: '60vh' }}>
 
+      <style>{`
+        @keyframes mcfFadeUp {
+          from { opacity: 0; transform: translateY(14px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes mcfBounce {
+          0%, 60%, 100% { transform: translateY(0); opacity: 0.35; }
+          30% { transform: translateY(-8px); opacity: 1; }
+        }
+      `}</style>
+
       {/* ── INTRO ──────────────────────────────────────────────────────── */}
+
       {phase === 'intro' && (
         <div style={{ textAlign: 'center', paddingTop: 32, animation: 'mcfFadeUp 0.4s ease' }}>
-          <style>{`
-            @keyframes mcfFadeUp {
-              from { opacity: 0; transform: translateY(14px); }
-              to { opacity: 1; transform: translateY(0); }
-            }
-            @keyframes mcfBounce {
-              0%, 60%, 100% { transform: translateY(0); opacity: 0.35; }
-              30% { transform: translateY(-9px); opacity: 1; }
-            }
-          `}</style>
           <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 20 }}>
             Massage Chair Finder
           </p>
