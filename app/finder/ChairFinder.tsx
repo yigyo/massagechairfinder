@@ -538,7 +538,7 @@ export default function ChairFinder() {
           </p>
           <hr style={{ border: 'none', borderTop: '1px solid #E8DFD3', margin: '44px 0' }} />
           <div style={{ display: 'flex', justifyContent: 'center', gap: 32, flexWrap: 'wrap' }}>
-            {['Chairs from $1,200 to $15,000', 'No pressure to buy', 'Honest ratings across 15+ brands'].map((item) => (
+            {['Not a retailer -- no inventory to push', 'Matched to your pain, your body, and your room', 'Every result explains the reasoning'].map((item) => (
               <span key={item} style={{ fontSize: 15, color: '#6B6B65', display: 'flex', alignItems: 'center', gap: 6 }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D1803E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
                 {item}
