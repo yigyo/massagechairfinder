@@ -1,0 +1,5 @@
+{
+  "_comment": "Tracks story IDs seen in previous runs to prevent duplicates. Updated by fetch_sources.py after each run.",
+  "last_run_date": null,
+  "story_ids": []
+}

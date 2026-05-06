@@ -1,0 +1,677 @@
+{
+  "_comment": "Master source list for the MCF weekly news monitor. Brand list is derived from chairs.ts active brands. Run sync_check.py to verify alignment.",
+  "blocklist_domains": [
+    "emassagechair.com",
+    "inada.net",
+    "inada.com"
+  ],
+  "google_news": {
+    "_comment": "Free unauthenticated RSS. Base: https://news.google.com/rss/search?q=QUERY&hl=en-US&gl=US&ceid=US:en",
+    "base_url": "https://news.google.com/rss/search",
+    "params": {
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    "general_queries": [
+      {
+        "label": "new_releases_2026",
+        "q": "\"massage chair\" 2026"
+      },
+      {
+        "label": "new_release_signal",
+        "q": "\"massage chair\" new release"
+      },
+      {
+        "label": "4d_tech",
+        "q": "\"4D massage chair\""
+      },
+      {
+        "label": "sl_track",
+        "q": "\"SL track massage chair\""
+      },
+      {
+        "label": "zero_gravity",
+        "q": "\"zero gravity massage chair\" new"
+      },
+      {
+        "label": "reviews_2026",
+        "q": "\"massage chair review\" 2026"
+      },
+      {
+        "label": "technology",
+        "q": "massage chair technology"
+      },
+      {
+        "label": "safety_recalls",
+        "q": "massage chair recall OR safety"
+      },
+      {
+        "label": "ces_2026",
+        "q": "massage chair CES 2026"
+      },
+      {
+        "label": "back_pain_angle",
+        "q": "\"massage chair\" back pain"
+      }
+    ],
+    "brand_queries": [
+      {
+        "brand": "Ador",
+        "q": "\"Ador\" \"massage chair\""
+      },
+      {
+        "brand": "AmaMedics",
+        "q": "\"AmaMedics\""
+      },
+      {
+        "brand": "Bodyfriend",
+        "q": "\"Bodyfriend\""
+      },
+      {
+        "brand": "Ceragem",
+        "q": "\"Ceragem\""
+      },
+      {
+        "brand": "DCORE",
+        "q": "\"DCORE\" \"massage chair\""
+      },
+      {
+        "brand": "Daiwa",
+        "q": "\"Daiwa\" \"massage chair\""
+      },
+      {
+        "brand": "Ergotec",
+        "q": "\"Ergotec\" \"massage chair\""
+      },
+      {
+        "brand": "Fujiiryoki",
+        "q": "\"Fujiiryoki\""
+      },
+      {
+        "brand": "Human Touch",
+        "q": "\"Human Touch\" \"massage chair\""
+      },
+      {
+        "brand": "Infinity",
+        "q": "\"Infinity Massage Chairs\""
+      },
+      {
+        "brand": "Inner Balance",
+        "q": "\"Inner Balance\" \"massage chair\""
+      },
+      {
+        "brand": "JPMedics",
+        "q": "\"JPMedics\""
+      },
+      {
+        "brand": "Kahuna",
+        "q": "\"Kahuna\" \"massage chair\""
+      },
+      {
+        "brand": "Kanji",
+        "q": "\"Kanji\" \"massage chair\""
+      },
+      {
+        "brand": "Koyo",
+        "q": "\"Koyo\" \"massage chair\""
+      },
+      {
+        "brand": "Kyota",
+        "q": "\"Kyota\" \"massage chair\""
+      },
+      {
+        "brand": "Luraco",
+        "q": "\"Luraco\" \"massage chair\""
+      },
+      {
+        "brand": "Medical Breakthrough",
+        "q": "\"Medical Breakthrough\" chair"
+      },
+      {
+        "brand": "Nouhaus",
+        "q": "\"Nouhaus\""
+      },
+      {
+        "brand": "OHCO",
+        "q": "\"OHCO\" \"massage chair\""
+      },
+      {
+        "brand": "Ogawa",
+        "q": "\"Ogawa\" \"massage chair\""
+      },
+      {
+        "brand": "Osaki",
+        "q": "\"Osaki\" \"massage chair\""
+      },
+      {
+        "brand": "Panasonic",
+        "q": "\"Panasonic\" \"massage chair\""
+      },
+      {
+        "brand": "Positive Posture",
+        "q": "\"Positive Posture\" chair"
+      },
+      {
+        "brand": "Relax On Chair",
+        "q": "\"Relax On Chair\""
+      },
+      {
+        "brand": "Relaxe",
+        "q": "\"Relaxe\" \"massage chair\""
+      },
+      {
+        "brand": "RockerTech",
+        "q": "\"RockerTech\""
+      },
+      {
+        "brand": "Sharper Image",
+        "q": "\"Sharper Image\" \"massage chair\""
+      },
+      {
+        "brand": "Svago",
+        "q": "\"Svago\""
+      },
+      {
+        "brand": "Synca Wellness",
+        "q": "\"Synca Wellness\""
+      },
+      {
+        "brand": "Theramedic",
+        "q": "\"Theramedic\""
+      },
+      {
+        "brand": "Titan",
+        "q": "\"Titan\" \"massage chair\""
+      }
+    ]
+  },
+  "bing_news": {
+    "_comment": "Secondary. Same brand queries through Bing catches different publications.",
+    "base_url": "https://www.bing.com/news/search",
+    "params": {
+      "format": "RSS"
+    },
+    "brand_queries": [
+      {
+        "brand": "Ador",
+        "q": "Ador massage chair"
+      },
+      {
+        "brand": "AmaMedics",
+        "q": "AmaMedics massage chair"
+      },
+      {
+        "brand": "Bodyfriend",
+        "q": "Bodyfriend massage chair"
+      },
+      {
+        "brand": "Ceragem",
+        "q": "Ceragem massage chair"
+      },
+      {
+        "brand": "DCORE",
+        "q": "DCORE massage chair"
+      },
+      {
+        "brand": "Daiwa",
+        "q": "Daiwa massage chair"
+      },
+      {
+        "brand": "Ergotec",
+        "q": "Ergotec massage chair"
+      },
+      {
+        "brand": "Fujiiryoki",
+        "q": "Fujiiryoki massage chair"
+      },
+      {
+        "brand": "Human Touch",
+        "q": "Human Touch massage chair"
+      },
+      {
+        "brand": "Infinity",
+        "q": "Infinity Massage Chairs"
+      },
+      {
+        "brand": "Inner Balance",
+        "q": "Inner Balance massage chair"
+      },
+      {
+        "brand": "JPMedics",
+        "q": "JPMedics massage chair"
+      },
+      {
+        "brand": "Kahuna",
+        "q": "Kahuna massage chair"
+      },
+      {
+        "brand": "Kanji",
+        "q": "Kanji massage chair"
+      },
+      {
+        "brand": "Koyo",
+        "q": "Koyo massage chair"
+      },
+      {
+        "brand": "Kyota",
+        "q": "Kyota massage chair"
+      },
+      {
+        "brand": "Luraco",
+        "q": "Luraco massage chair"
+      },
+      {
+        "brand": "Medical Breakthrough",
+        "q": "Medical Breakthrough massage chair"
+      },
+      {
+        "brand": "Nouhaus",
+        "q": "Nouhaus massage chair"
+      },
+      {
+        "brand": "OHCO",
+        "q": "OHCO massage chair"
+      },
+      {
+        "brand": "Ogawa",
+        "q": "Ogawa massage chair"
+      },
+      {
+        "brand": "Osaki",
+        "q": "Osaki massage chair"
+      },
+      {
+        "brand": "Panasonic",
+        "q": "Panasonic massage chair"
+      },
+      {
+        "brand": "Positive Posture",
+        "q": "Positive Posture massage chair"
+      },
+      {
+        "brand": "Relax On Chair",
+        "q": "Relax On Chair massage chair"
+      },
+      {
+        "brand": "Relaxe",
+        "q": "Relaxe massage chair"
+      },
+      {
+        "brand": "RockerTech",
+        "q": "RockerTech massage chair"
+      },
+      {
+        "brand": "Sharper Image",
+        "q": "Sharper Image massage chair"
+      },
+      {
+        "brand": "Svago",
+        "q": "Svago massage chair"
+      },
+      {
+        "brand": "Synca Wellness",
+        "q": "Synca Wellness massage chair"
+      },
+      {
+        "brand": "Theramedic",
+        "q": "Theramedic massage chair"
+      },
+      {
+        "brand": "Titan",
+        "q": "Titan massage chair"
+      }
+    ]
+  },
+  "brand_sites": {
+    "_comment": "Official brand blog/news pages. Shopify brands serve RSS at /blogs/news.atom. fetch_sources.py tries rss_url first, falls back to scraping html_url. verify=true means URL needs manual confirmation before first run.",
+    "request_delay_seconds": 2,
+    "brands": [
+      {
+        "brand": "Ador",
+        "html_url": "https://www.adorchair.com/blogs/news",
+        "rss_url": "https://www.adorchair.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "AmaMedics",
+        "html_url": "https://amamedics.com/blogs/news",
+        "rss_url": "https://amamedics.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Bodyfriend",
+        "html_url": "https://www.bodyfriend.com/news",
+        "rss_url": null,
+        "verify": true
+      },
+      {
+        "brand": "Ceragem",
+        "html_url": "https://www.ceragem.com/en/news",
+        "rss_url": null,
+        "verify": true
+      },
+      {
+        "brand": "DCORE",
+        "html_url": "https://www.dcorechair.com/blogs/news",
+        "rss_url": "https://www.dcorechair.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "Daiwa",
+        "html_url": "https://daiwamassagechairs.com/blogs/news",
+        "rss_url": "https://daiwamassagechairs.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Ergotec",
+        "html_url": "https://www.ergotecmassagechairs.com/blogs/news",
+        "rss_url": "https://www.ergotecmassagechairs.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "Fujiiryoki",
+        "html_url": "https://fujiiryoki.us/blogs/news",
+        "rss_url": "https://fujiiryoki.us/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "Human Touch",
+        "html_url": "https://www.humantouch.com/blogs/news",
+        "rss_url": "https://www.humantouch.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Infinity",
+        "html_url": "https://www.infinitymassagechairs.com/blogs/news",
+        "rss_url": "https://www.infinitymassagechairs.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Inner Balance",
+        "html_url": "https://www.innerbalancejoi.com/blogs/news",
+        "rss_url": "https://www.innerbalancejoi.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "JPMedics",
+        "html_url": "https://jpmedics.com/blogs/news",
+        "rss_url": "https://jpmedics.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Kahuna",
+        "html_url": "https://www.kahunamassagechair.com/blogs/news",
+        "rss_url": "https://www.kahunamassagechair.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Kanji",
+        "html_url": "https://www.kanjisports.com/blogs/news",
+        "rss_url": "https://www.kanjisports.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "Koyo",
+        "html_url": "https://koyomassage.com/blogs/news",
+        "rss_url": "https://koyomassage.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "Kyota",
+        "html_url": "https://kyotachair.com/blogs/news",
+        "rss_url": "https://kyotachair.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Luraco",
+        "html_url": "https://luracomassagechairs.com/news",
+        "rss_url": null,
+        "verify": false
+      },
+      {
+        "brand": "Medical Breakthrough",
+        "html_url": "https://medicalbreakthrough.com/blogs/news",
+        "rss_url": "https://medicalbreakthrough.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "Nouhaus",
+        "html_url": "https://nouhaus.com/blogs/news",
+        "rss_url": "https://nouhaus.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "OHCO",
+        "html_url": "https://ohco.com/blogs/news",
+        "rss_url": "https://ohco.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Ogawa",
+        "html_url": "https://ogawamassagechair.com/blogs/news",
+        "rss_url": "https://ogawamassagechair.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Osaki",
+        "html_url": "https://www.osaki.com/blogs/news",
+        "rss_url": "https://www.osaki.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Panasonic",
+        "html_url": "https://na.panasonic.com/us/personal-care",
+        "rss_url": null,
+        "verify": true
+      },
+      {
+        "brand": "Positive Posture",
+        "html_url": "https://positiveposture.com/blogs/news",
+        "rss_url": "https://positiveposture.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Relax On Chair",
+        "html_url": "https://relaxonchair.com/blogs/news",
+        "rss_url": "https://relaxonchair.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "Relaxe",
+        "html_url": "https://www.relaxe.com/blogs/news",
+        "rss_url": "https://www.relaxe.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "RockerTech",
+        "html_url": "https://rockertech.com/blogs/news",
+        "rss_url": "https://rockertech.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "Sharper Image",
+        "html_url": "https://www.sharperimage.com/blogs/news",
+        "rss_url": "https://www.sharperimage.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "Svago",
+        "html_url": "https://svago.com/blogs/news",
+        "rss_url": "https://svago.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Synca Wellness",
+        "html_url": "https://syncawellness.com/blogs/news",
+        "rss_url": "https://syncawellness.com/blogs/news.atom",
+        "verify": false
+      },
+      {
+        "brand": "Theramedic",
+        "html_url": "https://theramedic.com/blogs/news",
+        "rss_url": "https://theramedic.com/blogs/news.atom",
+        "verify": true
+      },
+      {
+        "brand": "Titan",
+        "html_url": "https://titanchairusa.com/blogs/news",
+        "rss_url": "https://titanchairusa.com/blogs/news.atom",
+        "verify": false
+      }
+    ]
+  },
+  "rss_feeds": {
+    "trade_publications": [
+      {
+        "label": "Massage Magazine",
+        "url": "https://www.massagemag.com/feed/"
+      },
+      {
+        "label": "AMTA News",
+        "url": "https://www.amtamassage.org/news/rss/"
+      },
+      {
+        "label": "Chiropractic Economics",
+        "url": "https://www.chiroeco.com/feed/"
+      },
+      {
+        "label": "Medical News Today",
+        "url": "https://www.medicalnewstoday.com/rss"
+      },
+      {
+        "label": "Pain Management Today",
+        "url": "https://painmanagementtoday.com/feed"
+      }
+    ],
+    "consumer_tech": [
+      {
+        "label": "Digital Trends (Home)",
+        "url": "https://www.digitaltrends.com/home/feed/"
+      },
+      {
+        "label": "CNET Home",
+        "url": "https://www.cnet.com/rss/home/"
+      },
+      {
+        "label": "TechRadar",
+        "url": "https://www.techradar.com/rss"
+      },
+      {
+        "label": "Wirecutter/NYT Tech",
+        "url": "https://www.nytimes.com/services/xml/rss/nyt/PersonalTech.xml"
+      },
+      {
+        "label": "Reviewed (USA Today)",
+        "url": "https://reviewed.usatoday.com/feed"
+      },
+      {
+        "label": "Good Housekeeping",
+        "url": "https://www.goodhousekeeping.com/rss/all.xml"
+      },
+      {
+        "label": "Healthline",
+        "url": "https://www.healthline.com/rss"
+      }
+    ],
+    "pr_wire": [
+      {
+        "label": "PR Newswire",
+        "url": "https://www.prnewswire.com/rss/news-releases-list.rss"
+      },
+      {
+        "label": "Business Wire",
+        "url": "https://feed.businesswire.com/rss/home/?rss=G1"
+      },
+      {
+        "label": "Globe Newswire (Health)",
+        "url": "https://www.globenewswire.com/RssFeed/subjectcode/HEA-Health"
+      },
+      {
+        "label": "EIN Presswire",
+        "url": "https://www.einpresswire.com/rss/"
+      },
+      {
+        "label": "PRWeb",
+        "url": "https://service.prweb.com/news/rss"
+      }
+    ],
+    "reddit": [
+      {
+        "label": "r/MassageChairs",
+        "url": "https://www.reddit.com/r/MassageChairs/.rss"
+      },
+      {
+        "label": "r/massage",
+        "url": "https://www.reddit.com/r/massage/.rss"
+      },
+      {
+        "label": "r/ChronicPain",
+        "url": "https://www.reddit.com/r/ChronicPain/.rss"
+      },
+      {
+        "label": "r/backpain",
+        "url": "https://www.reddit.com/r/backpain/.rss"
+      }
+    ],
+    "competitors": [
+      {
+        "label": "Massage Chair Store",
+        "url": "https://www.massagechairstore.com/blog"
+      },
+      {
+        "label": "Massage Chair Advisor",
+        "url": "https://massagechairadvisor.com/feed"
+      },
+      {
+        "label": "Best Massage Chair",
+        "url": "https://thebestmassagechair.net/feed"
+      },
+      {
+        "label": "Massage Chair Planet",
+        "url": "https://massagechairplanet.com/feed"
+      }
+    ],
+    "youtube": {
+      "_comment": "YouTube atom feeds by channel ID. Pattern: https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID. IDs marked TODO need manual lookup at youtube.com/@channelname before first run.",
+      "base_url": "https://www.youtube.com/feeds/videos.xml",
+      "channels": [
+        {
+          "label": "Chair Institute",
+          "channel_id": "TODO_verify"
+        },
+        {
+          "label": "Massage Chair Relief",
+          "channel_id": "TODO_verify"
+        },
+        {
+          "label": "Relax The Back",
+          "channel_id": "TODO_verify"
+        },
+        {
+          "label": "Human Touch Official",
+          "channel_id": "TODO_verify"
+        },
+        {
+          "label": "TheBackStore",
+          "channel_id": "TODO_verify"
+        }
+      ]
+    }
+  },
+  "relevance_filter": {
+    "_comment": "Applied to non-brand RSS feeds only (trade pubs, consumer tech, PR wire, competitors). Story title or summary must contain at least one term to pass.",
+    "required_terms": [
+      "massage chair",
+      "massage chairs",
+      "massage seat",
+      "shiatsu chair",
+      "zero gravity chair",
+      "zero-gravity chair",
+      "4D massage",
+      "SL track",
+      "L-track",
+      "S-track"
+    ]
+  }
+}

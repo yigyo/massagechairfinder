@@ -1,0 +1,41 @@
+{
+  "_comment": "Trade show and event calendar. Update manually each quarter. The fetch pipeline cross-references this so event-week stories get elevated priority during classification.",
+  "events": [
+    {
+      "name": "CES (Consumer Electronics Show)",
+      "location": "Las Vegas, NV",
+      "typical_month": "January",
+      "typical_week": 1,
+      "relevance": "Major chair launches and tech previews. Highest-priority event for new chair announcements.",
+      "next_occurrence": "2027-01-06"
+    },
+    {
+      "name": "Las Vegas Market",
+      "location": "Las Vegas, NV",
+      "typical_month": "January + July",
+      "relevance": "Furniture and home category launches. Mid-tier priority -- occasional massage chair announcements.",
+      "next_occurrence": "2026-07-27"
+    },
+    {
+      "name": "Medtrade",
+      "location": "Atlanta, GA",
+      "typical_month": "October",
+      "relevance": "Clinical and rehab chair segment. Lower consumer priority but good for clinical validation stories.",
+      "next_occurrence": "2026-10-01"
+    },
+    {
+      "name": "West Coast Market",
+      "location": "Las Vegas, NV",
+      "typical_month": "August",
+      "relevance": "Regional retail launches. Low-moderate priority.",
+      "next_occurrence": "2026-08-01"
+    },
+    {
+      "name": "AMTA National Convention",
+      "location": "Varies",
+      "typical_month": "Varies",
+      "relevance": "Practitioner and clinical adoption. Good for industry-angle stories.",
+      "next_occurrence": "TODO_verify"
+    }
+  ]
+}
