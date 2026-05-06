@@ -137,13 +137,16 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 font-serif text-xl font-bold text-navy hover:text-gold transition-colors">
-            <img src="/GMC-logo-icon-1024x1024.png" alt="" width={32} height={32} className="h-8 w-8 flex-shrink-0" />
-            Massage Chair Finder
+          <Link href="/" className="flex items-center gap-2.5 font-serif font-bold text-navy hover:text-gold transition-colors flex-shrink-0">
+            <img src="/GMC-logo-icon-1024x1024.png" alt="" width={44} height={44} className="h-11 w-11 flex-shrink-0" />
+            <span className="flex flex-col leading-tight text-lg">
+              <span>Massage Chair</span>
+              <span>Finder</span>
+            </span>
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-6 ml-8">
             {navLinks.map((link) =>
               link.children ? (
                 <div key={link.href} className="group relative">
@@ -194,7 +197,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
                 </Link>
               )
             )}
-            <Link href="/finder" className="btn-primary text-sm py-2 px-4">
+            <Link href="/finder" className="btn-primary text-sm py-2 px-4 ml-3">
               Find My Chair
             </Link>
             <button
