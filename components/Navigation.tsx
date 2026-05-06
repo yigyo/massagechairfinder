@@ -139,7 +139,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 font-serif font-bold text-navy hover:text-gold transition-colors flex-shrink-0">
             <img src="/GMC-logo-icon-1024x1024.png" alt="" width={44} height={44} className="h-11 w-11 flex-shrink-0" />
-            <span className="flex flex-col leading-tight text-lg">
+            <span className="flex flex-col items-center leading-tight text-lg">
               <span>Massage Chair</span>
               <span>Finder</span>
             </span>
