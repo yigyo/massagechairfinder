@@ -1,0 +1,37 @@
+name: Weekly News Monitor
+
+on:
+  schedule:
+    - cron: "0 11 * * 1"
+  workflow_dispatch:
+
+jobs:
+  news-monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-news-monitor-${{ hashFiles('scripts/news-monitor/requirements.txt') }}
+      - run: pip install -r scripts/news-monitor/requirements.txt
+      - id: date
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+      - run: python scripts/news-monitor/fetch_sources.py --date ${{ steps.date.outputs.DATE }}
+      - run: python scripts/news-monitor/classify_stories.py --date ${{ steps.date.outputs.DATE }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - run: python scripts/news-monitor/generate_content.py --date ${{ steps.date.outputs.DATE }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - run: python scripts/news-monitor/open_pr.py --date ${{ steps.date.outputs.DATE }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: python scripts/news-monitor/sync_check.py
+        continue-on-error: true
