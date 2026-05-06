@@ -51,14 +51,6 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Trust bar */}
-      <section className="bg-sand py-6 px-4">
-        <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-8 text-sm text-warm-gray text-center">
-          <span>50+ chairs researched and compared</span>
-          <span>Covers $800 to $10,000+</span>
-          <span>Updated regularly</span>
-        </div>
-      </section>
 
       {/* Browse by need */}
       <section className="section">
