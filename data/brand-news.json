@@ -1,32 +1,181 @@
 {
   "ador": [],
   "amamedics": [],
-  "bodyfriend": [],
-  "ceragem": [],
+  "bodyfriend": [
+    {
+      "title": "Massage chair giants battle for Family Month sales with divergent strategies",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69fb75b0bd7f4890a4a937bbb6cc7d40&url=https%3a%2f%2fwww.msn.com%2fen-xl%2flifestyle%2fshopping%2fmassage-chair-giants-battle-for-family-month-sales-with-divergent-strategies%2far-AA22g01C&c=7675166248835986849&mkt=en-us",
+      "date": "2026-05-06",
+      "summary": "Ahead of May, the peak season for the massage chair industry known as Family Month, the three leading companies—Ceragem, Body Friend, and Kojima—have launched a promotional competition with each ...",
+      "category": "brand_announcement"
+    },
+    {
+      "title": "Bodyfriend Launches \"Healthcare Robot Festa\" Offering Benefits Up to 3.36 Million Won - 아시아경제",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zMjNuYVdOZUNjeTBkWnBSWTMybTVDMHE4Yk0yeV9LMWNHbklyV3l1aGdqdlU3X1RzNVl5OVJYV2dGRFIwM0cySXA5YlAtZEVaeHZoWW9QbnNVUjZuMTJfRk9FMko?oc=5",
+      "date": "2026-05-06",
+      "summary": "Bodyfriend Launches \"Healthcare Robot Festa\" Offering Benefits Up to 3.36 Million Won 아시아경제",
+      "category": "brand_announcement"
+    },
+    {
+      "title": "The showroom on the first floor of \"Today's House Bukchon House\" located in Bukchon, Jongno-gu, Seou.. - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9pdENwd2tpMUxNWU1KSUcwbXpSSXNRZW5QTUdJRWx3T2dvajdSWDBYMXU5eWpuRDU5WVNaY2tpNEZLamNDa2VpaGJpanhRc255NGJ3?oc=5",
+      "date": "2026-05-06",
+      "summary": "The showroom on the first floor of \"Today's House Bukchon House\" located in Bukchon, Jongno-gu, Seou.. 매일경제",
+      "category": "brand_announcement"
+    },
+    {
+      "title": "Bodyfriend launches Healthcare Robot Festa with discounts and prize giveaways - CHOSUNBIZ - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNmZuMGw1YWtLUUpnTXdFTEhQYWNta2pGTXVqMmdUaFJxbWxTWVdNVTlpcUV0a0hCRmZGRmFTX1F1b19NVTJncVo3blB1eF9OT05MbUwweFZiOURxcUNVaWdJc0dfQmtZSmdIaTBCR1ZIN1pjTHRFMU81UC1PQWdVdExn0gGWAUFVX3lxTFBzblhKSXF5TW1LZmhEaEtOVlg0ZUxuelV4QkM5cUNJcFhtSWpOY2xHM3kzYXpQZEo3bF9zN1Z3NXNoeGpnYUpCQlhxU0djb2dvNlJ6RGNMenpldWVZenlVOFc0OUIxUTVTRGZSY3JscnBWMmRmOXd1bzNMRlB6czFwUzhxZ0JXUTlWTG5HU1dPR0VRZ2Z2Zw?oc=5",
+      "date": "2026-05-06",
+      "summary": "Bodyfriend launches Healthcare Robot Festa with discounts and prize giveaways - CHOSUNBIZ Chosunbiz",
+      "category": "brand_announcement"
+    },
+    {
+      "title": "Bodyfriend Operates AI Healthcare Robot Experience Center at Bukchon House - 아시아경제",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJYmhnYzI4dGlObktNTEZVUno0VENwcHpJRkFRYlV3TVRwczRySmE1a3hrNWlXSlE3bzZqdkNHdFJUX3h5RzlDb1pOMElTTkJBUlNJUV9wWktKMjFOc2JwVDlma0w?oc=5",
+      "date": "2026-05-06",
+      "summary": "Bodyfriend Operates AI Healthcare Robot Experience Center at Bukchon House 아시아경제",
+      "category": "brand_announcement"
+    }
+  ],
+  "ceragem": [
+    {
+      "title": "Massage chair giants battle for Family Month sales with divergent strategies",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69fb75b0bd7f4890a4a937bbb6cc7d40&url=https%3a%2f%2fwww.msn.com%2fen-xl%2flifestyle%2fshopping%2fmassage-chair-giants-battle-for-family-month-sales-with-divergent-strategies%2far-AA22g01C&c=7675166248835986849&mkt=en-us",
+      "date": "2026-05-06",
+      "summary": "Ahead of May, the peak season for the massage chair industry known as Family Month, the three leading companies—Ceragem, Body Friend, and Kojima—have launched a promotional competition with each ...",
+      "category": "brand_announcement"
+    },
+    {
+      "title": "Ceragem launches entry-level spine care device Master V5 in South Korea - CHOSUNBIZ - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQjdQUmk3VUhteXVfX29WZF9JOHg4M3RsNzF1dFVoYXRoNkhEX2pHVkktZU1QZVZCNlk5OUhCcWp6UGJGRUdidVNqZ0J1SnNRWHR6eXk5X3N5clo2VHB0Y05Wc0l3UUtZY01iSWRPWlJZb1o3Q0VEZTJLLVZyQnNlSXpR0gGWAUFVX3lxTFBVT2FqbjF4SW5JUTJvcllXZlhRSUtYLXFRU0FIWU56REhOWkxHNE5HV1l0a3gtXzBRc0l6OUtkbDg0OV9LbEZsd2lQcEVqNGNQLS01V0d6emN1cjllZU5LbUpXNDY0N21sSURtRzR5WF9uTUI1YXkxd3FUN2M4dWJIcXVMSnU0R29ucXRRNmk1dDhTUTVydw?oc=5",
+      "date": "2026-05-06",
+      "summary": "Ceragem launches entry-level spine care device Master V5 in South Korea - CHOSUNBIZ Chosunbiz",
+      "category": "new_chair_launch"
+    },
+    {
+      "title": "Ceragem Holds Customer Invitation Event, \"Wellness Talk Concert\" - 아시아경제",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HZjJjdGVmTlFlTWNHaEU0STByTzdKY3JONk9mdDlQajNZaW1zUmE1THhfSDI4ajU0Rk9SVFhQa0pWckZYQlpqblJKU2x1eS1ZRFNBYXpUaVE1a1hpeVRhTDdYa25YZ2toTFZZaHBhZw?oc=5",
+      "date": "2026-05-06",
+      "summary": "Ceragem Holds Customer Invitation Event, \"Wellness Talk Concert\" 아시아경제",
+      "category": "brand_announcement"
+    },
+    {
+      "title": "\"Growing Together with the AI Wellness Home\"... CERAGEM Hosts Healthcare Alliance AI Summit - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Ec3A3SkUzTlhRc1V1SFh0aUtuY2tQT21ac3N4eUdpVmxNTmtWUHR1QWExN0xxczZWNDNiSXBMVnNmY2NJMlA3TU5sM3Q4RjlKcWZF?oc=5",
+      "date": "2026-05-06",
+      "summary": "\"Growing Together with the AI Wellness Home\"... CERAGEM Hosts Healthcare Alliance AI Summit 매일경제",
+      "category": "brand_announcement"
+    },
+    {
+      "title": "Ceragem launches AI healthcare alliance in South Korea to build K-wellness - CHOSUNBIZ - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQUpTZ3ozbWNnOUFzMEg4UmVReUNhaEV6VFhYcEw3bXBLTFIwZkZBbDN0YmFaTFRPazlVbHhMdm8xNGZLRHZPRW9GMXItUzBlSm8zLUdnUkNQT1U0S2VuRjU4MWZxdU9hLUxkRkkxNHE5YnhpTDJuTEppanI1TjZPMzdR0gGWAUFVX3lxTFBnTThzcWNyN29MZDh5V2lkR2FHako0VlNyM0xSZkk0UVpjaDhiRGZPTzY0OVp0QnJVQ0FaVXFmbG5ZeWg0aHhhRU1SbkhQY1RqUE1Lbzd3S2xBeVFfeGVRcEFFOUxORmlGT3RfUVlJWGlnZUxEdHp1dXBCYk5wcDMzTmN1YjNQSUpwSmFpOGljbG9XNE1aZw?oc=5",
+      "date": "2026-05-06",
+      "summary": "Ceragem launches AI healthcare alliance in South Korea to build K-wellness - CHOSUNBIZ Chosunbiz",
+      "category": "brand_announcement"
+    }
+  ],
   "dcore": [],
   "daiwa": [],
   "ergotec": [],
   "fujiiryoki": [],
-  "human-touch": [],
-  "infinity": [],
+  "human-touch": [
+    {
+      "title": "What Do Chiropractors Think About Massage Chairs?",
+      "url": "https://www.humantouch.com/blogs/news/chiropractors-thoughts-on-massage-chairs",
+      "date": "2026-05-06",
+      "summary": "Most chiropractors view massage chairs as a helpful tool that supports spinal health, relieves muscle tension, and extends the benefits of chiropractic adjustments. See which chairs they recommend to ",
+      "category": "brand_announcement"
+    },
+    {
+      "title": "Human Touch® Announces Super Novo 3.0 Massage Chair Now Available for Purchase, Expanding Its Premium Ascent Series",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69fb75bebb3f40f8b40a01e8dce3b59b&url=https%3a%2f%2fwww.sctimes.com%2fpress-release%2fstory%2f49714%2fhuman-touch-announces-super-novo-3-0-massage-chair-now-available-for-purchase-expanding-its-premium-ascent-series%2f&c=8380494325051669481&mkt=en-us",
+      "date": "2026-05-06",
+      "summary": "LONG BEACH, CA, UNITED STATES, March 31, 2026 /EINPresswire.com/ — Human Touch ®, a leader in premium massage chair technology and high-performance wellness ...",
+      "category": "new_chair_launch"
+    }
+  ],
+  "infinity": [
+    {
+      "title": "Infinity Circadian® DualFlex Named International Business Times 2026 Editor’s Pick for Best Massage Chair - Panama City ",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNaUZtbEk4cGQ1MG0zeDBqTGpRUm45WlBCbHVpZHBHU2ZZM3luc3MwdmJxeV9wS3FON2ZLX2JzUFh5bmFRSnlnQl9vdmZ5b29HR0Y2elUzYTNmWnpUdUNhNjBOcS1ObzdoRGZzRndnZDNsTDM4YXlTTjhiaDlDWGFlalJnM3dwVkowdk5QbGU3MTFXS2VmMG9VazlzU0gyWjd1TzdwbmRpaXVndk53S1J1MUZrSmJQMnFyQVV6WkVGSTJtWHFzbFQwd3NFLWliWlBlVURZQTZTalhITnhTWXdsY3lIVU5qdzM2ajhybkdn?oc=5",
+      "date": "2026-05-06",
+      "summary": "Infinity Circadian® DualFlex Named International Business Times 2026 Editor’s Pick for Best Massage Chair Panama City News Herald",
+      "category": "brand_announcement"
+    }
+  ],
   "inner-balance": [],
   "jpmedics": [],
   "kahuna": [],
   "kanji": [],
   "koyo": [],
-  "kyota": [],
-  "luraco": [],
+  "kyota": [
+    {
+      "title": "Kyota Introduces the Konbi M728 DualPro 4D Massage Chair: Luxury Features at an Unmatched Value",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69fb75d2010f4cbdb2b918a888f4dd64&url=https%3a%2f%2fwww.recordnet.com%2fpress-release%2fstory%2f44673%2fkyota-introduces-the-konbi-m728-dualpro-4d-massage-chair-luxury-features-at-an-unmatched-value%2f&c=6627037019661147793&mkt=en-us",
+      "date": "2026-05-06",
+      "summary": "With the Konbi DualPro, we wanted to make dual mechanism, high-end massage technology accessible to more people than ever before.” — David Figler, EVP of Product at Kyota Massage Chairs SEABROOK, NH, ",
+      "category": "new_chair_launch"
+    }
+  ],
+  "luraco": [
+    {
+      "title": "Luraco Technologies Receives Prestigious Recognition from the White House, State of Texas, and City of Arlington - PR Ne",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPYm9VajlpX05BbUI2OHRmQlFFd3VCSnFiSEJIS0I1YUZLZzlxaUEySmhwS2xJc1pfeVIxYkdaMEU5WGF1X0lPeE45TVJQaGZMVlZXTnVhblQ5dkxULXh4cTZ1TTVWZ0Z3Ym54Uy0xMGwtYlhIbHJFN1A5TmdmQzMwUGM1LUtKamdiejA5RFVpUzI1dzE5QkY5ZTJYU3hxMXBxVW93QXY3cE1pd1lqVTNORzlvME5kMXViYnJ4bDRoamRZcjhtb2NUZ2hSS1ZOUnRmeFBpMVV5SXFwNlQ2dGlXRXlpQ3p6VmRZakJpUEdncEswWTJEcHVkMHBB?oc=5",
+      "date": "2026-05-06",
+      "summary": "Luraco Technologies Receives Prestigious Recognition from the White House, State of Texas, and City of Arlington PR Newswire",
+      "category": "brand_announcement"
+    }
+  ],
   "medical-breakthrough": [],
-  "nouhaus": [],
+  "nouhaus": [
+    {
+      "title": "Addressing the Sedentary Health Crisis: Nouhaus Unveils Restorative Massage Technology at High Point Market 2026",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69fb75da4b25440faebe059ecba715b0&url=https%3a%2f%2fwww.dispatch.com%2fpress-release%2fstory%2f178723%2faddressing-the-sedentary-health-crisis-nouhaus-unveils-restorative-massage-technology-at-high-point-market-2026%2f&c=6776741475543410699&mkt=en-us",
+      "date": "2026-05-06",
+      "summary": "HIGH POINT, NC, UNITED STATES, April 25, 2026 /EINPresswire.com/ -- [HIGH POINT, North Carolina, April 25, 2026] — As ...",
+      "category": "event_coverage"
+    },
+    {
+      "title": "Addressing the Sedentary Health Crisis: Nouhaus Unveils Restorative Massage Technology at High Point Market 2026 - The N",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMTBmUHNkOVdtdDBPVFhybFhwOHViT1d2Z2N1ZE5CcTZuZ0dWVE9tZlNtLTl2WC1RZV9teFhXc29HR244YjJCbzZTSHlkWlpyeWVrX2ZlWnZQYkNxZHZZb1JiQnlYeXEycXplUEFvMmExclN3LWNaMUpwYklDZWR6TmlIOFdNbWtDaHJXTldBcEZCSmoyTkpCOS1CY2dhbzB1dEljY1hLQ0E0SFUxLXBJ?oc=5",
+      "date": "2026-05-06",
+      "summary": "Addressing the Sedentary Health Crisis: Nouhaus Unveils Restorative Massage Technology at High Point Market 2026 The National Law Review",
+      "category": "event_coverage"
+    },
+    {
+      "title": "Addressing the Sedentary Health Crisis: Nouhaus Unveils Restorative Massage Technology at High Point Market 2026 - Weekl",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOenFsSUtCSUtLWTdXRUdKUTk4czA1b0xzbTBHOU1FWWFIV1h3UHFzV21fUE82MTVUNE9DZllrM2ViVHFIbGJ5MFJQSFZvYlNWa3ZhY1FJS0dCOXlwM0E5SzZGTU1iV0QzdE8xbFVidVJ4NTB2ZkRFT3AtQ0JOdm4xUGtuZUMwc25ZenhkYURIVGNpS3cyTHhPTmE1djk2bUFHSzdUTG5raDB4aGQ1Z2VQcko1VEV4emFoeWZPSVVMMFlHeDc4Nkw5NklQWEVwTnp4MUE?oc=5",
+      "date": "2026-05-06",
+      "summary": "Addressing the Sedentary Health Crisis: Nouhaus Unveils Restorative Massage Technology at High Point Market 2026 Weekly Voice",
+      "category": "event_coverage"
+    }
+  ],
   "ohco": [],
   "ogawa": [],
   "osaki": [],
   "panasonic": [],
   "positive-posture": [],
-  "relax-on-chair": [],
+  "relax-on-chair": [
+    {
+      "title": "These Massage Chairs Are Better Than a Spa Day (No Appointment Needed)",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69fb75ebf12e4e0ca9db89faf11701d3&url=https%3a%2f%2fwww.aol.com%2farticles%2fmassage-chairs-better-spa-day-165800197.html&c=13094611877814976342&mkt=en-us",
+      "date": "2026-05-06",
+      "summary": "These are the best massage chairs for your home, according to our pros who vetted each one for comfort and performance.",
+      "category": "consumer_review"
+    }
+  ],
   "relaxe": [],
   "rockertech": [],
-  "sharper-image": [],
+  "sharper-image": [
+    {
+      "title": "3 Best Chair Massagers of 2026, Tested and Reviewed",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69fb75f3cabe4cbdb87be83f6c96bcad&url=https%3a%2f%2fwww.consumerreports.org%2fhealth%2fhealth-wellness%2fbest-chair-massagers-a6495455258%2f&c=3133677820244510671&mkt=en-us",
+      "date": "2026-05-06",
+      "summary": "In our lab, we test massage pads that you attach to your chair to find the most comfortable picks with the best features.",
+      "category": "consumer_review"
+    }
+  ],
   "svago": [],
   "synca-wellness": [],
   "theramedic": [],
