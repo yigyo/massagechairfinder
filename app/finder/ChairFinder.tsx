@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useCallback } from 'react'
 import { finderStart, finderEmailSubmit, finderComplete, emailOptIn } from '@/lib/gtag'
+import { MCF_CHAIRS } from '@/lib/chairs'
 
 // ─── TYPES ─────────────────────────────────────────────────────────────────────
 type Phase = 'intro' | 'asking' | 'thinking' | 'email_gate'
@@ -14,91 +15,49 @@ interface Chair {
   imageUrl: string
 }
 
-// ─── CHAIR URL LOOKUP ──────────────────────────────────────────────────────────
-const CHAIR_URLS: Record<string, string> = {
-  'osaki os-champ':            'https://osakimassagechair.com/products/osaki-os-champ',
-  'osaki os-pro yamato':       'https://www.massagechairheaven.com/products/osaki-os-pro-yamato-massage-chair',
-  'osaki os-pro admiral ii':   'https://osakimassagechair.com/products/osaki-os-pro-admiral-ii',
-  'osaki os-pro maestro':      'https://osakimassagechair.com/products/osaki-os-pro-maestro-le',
-  'osaki os-pro 4d duomax':    'https://osakimassagechair.com/products/os-pro-4d-duomax',
-  'kahuna lm-6800s':           'https://kahunachair.com/lm-6800s-2/',
-  'kahuna lm-6800':            'https://kahunachair.com/product/kahuna-massage-chair-basic-l-track-full-body-kahuna-massage-chair-lm-6800-black/',
-  'infinity dynasty':          'https://massagechairstore.com/infinity-dynasty-4d/',
-  'infinity celebrity':        'https://massagechairwarehouse.com/products/infinity-riage-x3-massage-chair',
-  'infinity evolution':        'https://massagechairstore.com/infinity-evolution-max-4d/',
-  'infinity genesis':          'https://massagechairstore.com/infinity-genesis-max/',
-  'infinity imperial':         'https://massagechairstore.com/infinity-imperial-syner-d-massage-chair/',
-  'human touch laevo':         'https://www.humantouch.com/products/laevo',
-  'luraco i9':                 'https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair',
-  'synca jp970':               'https://syncamassagechair.com/products/jp970',
-  'synca jp1100':              'https://syncamassagechair.com/products/jp1100',
-  'daiwa legacy':              'https://www.massagechairheaven.com/products/daiwa-legacy-4-massage-chair',
-  'kyota genki':               'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
-  'bodyfriend phantom medical': 'https://recovathlete.com/products/bodyfriend-phantom-medical-care-massage-chair',
-  'bodyfriend phantom':         'https://recovathlete.com/products/bodyfriend-phantom-ii-massage-chair',
-  'bodyfriend palace':          'https://recovathlete.com/products/bodyfriend-palace-2-massage-chair',
-  'bodyfriend falcon':          'https://www.amazon.com/Bodyfriend-Recliner-Patented-Technology-Acupressure/dp/B0D97TGBYS',
-  'amamedics hilux':           'https://osakimassagechair.com/products/amamedic-hilux-4d',
-  'amamedics renew':           'https://osakimassagechair.com/products/amamedic-renew',
-  'ogawa master drive le':     'https://massagechairwarehouse.com/products/ogawa-master-drive-le-massage-chair',
-  'ogawa master drive ai':     'https://massagechairwarehouse.com/products/ogawa-master-drive-ai-2-0-massage-chair',
-  'ogawa active xl':           'https://massagechairwarehouse.com/products/ogawa-active-xl-3d-massage-chair',
-  'jpmedics kumo':             'https://massagechairwarehouse.com/products/jpmedics-kumo-4d-massage-chair',
-  'jpmedics kaze':             'https://massagechairwarehouse.com/collections/jpmedics',
-  'panasonic mak1':            'https://www.massagechairs.com/products/panasonic-mak1-massage-chair',
-  'titan 3d prestige':         'https://titanchair.com/products/titan-3d-prestige',
+// ─── CHAIR URL + IMAGE LOOKUP (sourced from chairs.ts) ────────────────────────
+// Derived from MCF_CHAIRS so it stays in sync automatically when the catalog changes.
+// Match key: goodwinLookupKey when set; otherwise name with "Massage Chair" stripped, lowercased.
+// Keys sorted by length desc so more-specific keys win over shorter partial matches.
+
+function deriveMatchKey(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/\s+massage\s+chair\b.*/i, '')
+    .replace(/\s+chair\b.*/i, '')
+    .trim()
 }
 
-// Chair images — hosted on Goodwin Shopify CDN (public); will migrate to Strapi media later
-const CHAIR_IMAGES: Record<string, string> = {
-  'osaki os-champ':            'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-champ-massage-chair.webp?v=1776836198',
-  'osaki os-pro yamato':       'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-pro-yamato-massage-chair.jpg?v=1776902373',
-  'osaki os-pro admiral ii':   'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-admiral-gray-massage-chair.webp?v=1776836197',
-  'osaki os-pro maestro':      'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-maestro-massage-chair.webp?v=1776836390',
-  'osaki os-pro 4d duomax':    'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-4d-duomax-massage-chair.webp?v=1776836197',
-  'kahuna lm-6800s':           'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/kahuna-lm-6800S-massage-chair.jpg?v=1776902669',
-  'kahuna lm-6800':            'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/kahuna-lm-6800-massage-chair.jpg?v=1776836198',
-  'infinity dynasty':          'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity-dynasty-4d-massage-chair.webp?v=1776836197',
-  'infinity celebrity':        'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity_celebrity_3d-massage-chair.webp?v=1776836198',
-  'infinity evolution':        'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity-evo-max-4d-massage-chair.webp?v=1776902757',
-  'infinity genesis':          'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity-genesis-max-4d-massage-chair.webp?v=1776836198',
-  'infinity imperial':         'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Infinity_Imperial_syner-d-massage-chair.jpg?v=1776836198',
-  'human touch laevo':         'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/human-touch-laevo-zg-massage-chair.webp?v=1776836198',
-  'luraco i9':                 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/luraco-i9_max-massage-chair.jpg?v=1776836198',
-  'synca jp970':               'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/synca-jp970-massage-chair.webp?v=1776836197',
-  'synca jp1100':              'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/synca-jp1100-massage-chair.webp?v=1776836198',
-  'daiwa legacy':              'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/daiwa-legacy-4-massage-chair.webp?v=1776836198',
-  'kyota genki':               'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Kyota-Genki-M380-massage-chair.jpg?v=1776836198',
-  'bodyfriend palace':         'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-palace-ii-massage_chair.webp?v=1776904391',
-  'bodyfriend falcon':         'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-falcon-massage-chair.jpg?v=1776904610',
-  'bodyfriend phantom medical': 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend_phantom_medical-massage-chair.webp?v=1776904169',
-  'bodyfriend phantom':        'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-phantom-ii-massage-chair.jpg?v=1776903999',
-  'amamedics hilux':           'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/amamedic-hilux-massage-chair.webp?v=1776836198',
-  'amamedics renew':           'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/amamedic-renew-massage-chair.webp?v=1776904815',
-  'ogawa master drive le':     'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Ogawa_Master_Drive_LE_4d-massage-chair.webp?v=1776836198',
-  'ogawa master drive ai':     'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-master-drive-ai-2_0-4d-massage-chair.jpg?v=1776836198',
-  'ogawa active xl':           'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-active-xl-massage-chair.webp?v=1776836198',
-  'jpmedics kumo':             'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/jpmedics-kumo-4d-massage-chair.webp?v=1776836197',
-  'jpmedics kaze':             'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/jpmedics-kaze-duo-massage-chair.webp?v=1776836198',
-  'panasonic mak1':            'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/panasonic-mak1-massage-chair.webp?v=1776958938',
-  'titan 3d prestige':         'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/titan-3d-prestige-massage-chair.webp?v=1776836198',
+type LookupEntry = [string, string]
+
+function buildLookup(field: (c: typeof MCF_CHAIRS[0]) => string | undefined): LookupEntry[] {
+  const entries: LookupEntry[] = []
+  for (const chair of MCF_CHAIRS) {
+    const value = field(chair)
+    if (!value) continue
+    const key = chair.goodwinLookupKey
+      ? chair.goodwinLookupKey.toLowerCase()
+      : deriveMatchKey(chair.name)
+    entries.push([key, value])
+  }
+  return entries.sort((a, b) => b[0].length - a[0].length)
 }
+
+const CHAIR_URL_LOOKUP: LookupEntry[] = buildLookup(c => c.affiliateUrl ?? undefined)
+const CHAIR_IMAGE_LOOKUP: LookupEntry[] = buildLookup(c => c.imageUrl ?? undefined)
 
 function getChairUrl(name: string): string {
   const lower = name.toLowerCase()
-  // Longer/more-specific keys first to avoid partial-match swallowing
-  const sorted = Object.entries(CHAIR_URLS).sort((a, b) => b[0].length - a[0].length)
-  for (const [key, url] of sorted) {
-    if (lower.includes(key) && url) return url
+  for (const [key, url] of CHAIR_URL_LOOKUP) {
+    if (lower.includes(key)) return url
   }
-  return '/chairs'
+  return ''
 }
 
 function getChairImage(name: string): string {
   const lower = name.toLowerCase()
-  const sorted = Object.entries(CHAIR_IMAGES).sort((a, b) => b[0].length - a[0].length)
-  for (const [key, url] of sorted) {
-    if (lower.includes(key) && url) return url
+  for (const [key, img] of CHAIR_IMAGE_LOOKUP) {
+    if (lower.includes(key)) return img
   }
   return ''
 }
