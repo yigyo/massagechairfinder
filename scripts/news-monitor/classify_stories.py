@@ -59,14 +59,15 @@ def save_json(path: Path, data) -> None:
 def story_to_input(story: dict) -> dict:
     """Trim a story to just what the classifier needs."""
     return {
-        "id":          story["id"],
-        "title":       story["title"],
-        "url":         story["url"],
-        "source":      story["source"],
-        "source_type": story["source_type"],
-        "brand":       story.get("brand"),
-        "summary":     story.get("summary", "")[:400],
-        "published_at":story.get("published_at", ""),
+        "id":             story["id"],
+        "title":          story["title"],
+        "url":            story["url"],
+        "source":         story["source"],
+        "source_type":    story["source_type"],
+        "brand":          story.get("brand"),
+        "summary":        story.get("summary", "")[:400],
+        "published_at":   story.get("published_at", ""),
+        "story_age_days": story.get("story_age_days", 0),
     }
 
 def classify_batch(
@@ -150,6 +151,54 @@ def merge_classifications(
         results.append(merged)
     return results
 
+
+def dedup_by_brand(stories: list[dict]) -> list[dict]:
+    """
+    Enforce at most one draft_individual_article per brand per week.
+    If multiple stories from the same brand are marked draft_individual_article,
+    keep only the highest-scored one and downgrade the rest to include_in_roundup.
+    """
+    from collections import defaultdict
+    brand_articles: dict[str, list[tuple[int, int]]] = defaultdict(list)
+
+    for i, story in enumerate(stories):
+        if story.get("content_action") != "draft_individual_article":
+            continue
+        # Collect all brands this story is associated with
+        brands = list(set(
+            (story.get("brands_mentioned") or []) +
+            ([story["brand"]] if story.get("brand") else [])
+        ))
+        score = story.get("relevance_score") or 0
+        for brand in brands:
+            brand_articles[brand].append((score, i))
+
+    # For each brand with multiple draft articles, downgrade all but the highest-scored
+    downgrade: set[int] = set()
+    for brand, entries in brand_articles.items():
+        if len(entries) <= 1:
+            continue
+        entries.sort(key=lambda x: -x[0])  # highest score first
+        for _, idx in entries[1:]:
+            downgrade.add(idx)
+
+    if downgrade:
+        print(f"[Brand dedup] Downgraded {len(downgrade)} duplicate brand article(s) to include_in_roundup")
+
+    result = []
+    for i, story in enumerate(stories):
+        if i in downgrade:
+            story = {
+                **story,
+                "content_action": "include_in_roundup",
+                "skip_reason": (
+                    (story.get("skip_reason") or "") +
+                    " | Brand dedup: another higher-scored article from this brand was kept as draft."
+                ).lstrip(" | "),
+            }
+        result.append(story)
+    return result
+
 def print_summary(stories: list[dict]) -> None:
     from collections import Counter
     actions  = Counter(s["content_action"] for s in stories)
@@ -231,6 +280,9 @@ def main():
 
     # Merge back into full story objects
     classified = merge_classifications(all_stories, all_classifications)
+
+    # Post-classification brand deduplication
+    classified = dedup_by_brand(classified)
 
     # Save output
     out_path = OUTPUT_DIR / f"classified_stories_{args.date}.json"

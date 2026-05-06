@@ -341,6 +341,36 @@ def filter_blocklist(stories: list[dict], blocklist: list[str]) -> list[dict]:
     return out
 
 
+def filter_by_age(stories: list[dict], max_days: int = 60) -> list[dict]:
+    """
+    Drop stories older than max_days and stamp story_age_days onto survivors.
+    Scraped brand pages often have no real published_at, so age defaults to 0
+    (treated as fresh) to avoid dropping them unfairly.
+    """
+    now = datetime.now(timezone.utc)
+    out = []
+    dropped = 0
+    for s in stories:
+        pub_str = s.get("published_at", "")
+        try:
+            pub = datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
+            if pub.tzinfo is None:
+                pub = pub.replace(tzinfo=timezone.utc)
+            age_days = (now - pub).days
+        except Exception:
+            age_days = 0  # Unknown date -- treat as fresh
+        if age_days > max_days:
+            dropped += 1
+            continue
+        s["story_age_days"] = age_days
+        out.append(s)
+    if dropped:
+        print(f"[Age filter] Dropped {dropped} stories older than {max_days} days")
+    print(f"[Age filter] {len(out)} stories pass (max age: {max_days} days)")
+    return out
+
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -403,6 +433,7 @@ def main():
     # Post-processing
     all_stories = filter_blocklist(all_stories, blocklist)
     all_stories = deduplicate(all_stories)
+    all_stories = filter_by_age(all_stories, max_days=60)
     if not args.no_dedup:
         all_stories = filter_seen(all_stories, last_run)
 
