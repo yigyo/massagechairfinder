@@ -34,7 +34,13 @@ footer a:hover {
 /* Component classes */
 
 .btn-primary {
-  @apply bg-accent-interactive text-white px-6 py-3 rounded-md font-semibold transition-colors;
+  background-color: #0369A1;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition-property: color, background-color, border-color;
+  transition-duration: 150ms;
 }
 
 .btn-primary:hover {
@@ -46,7 +52,10 @@ footer a:hover {
 }
 
 .card {
-  @apply bg-white rounded-lg border border-border p-6;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #D4DDE9;
+  padding: 1.5rem;
 }
 
 .section {
