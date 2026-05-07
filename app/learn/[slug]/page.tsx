@@ -112,7 +112,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         </div>
         <h1 className="text-4xl font-serif mb-4">{article.title}</h1>
         {article.excerpt && (
-          <div className="border-l-4 border-gold bg-sand/30 pl-5 pr-4 py-3 mb-8 rounded-r">
+          <div className="mb-8 rounded-lg px-5 py-4" style={{ background: 'rgba(209,128,62,0.06)', border: '1px solid rgba(209,128,62,0.25)' }}>
             <p className="text-xs font-medium text-gold uppercase tracking-widest mb-2">Summary</p>
             <p className="text-lg text-charcoal leading-relaxed">{article.excerpt}</p>
           </div>

@@ -513,7 +513,7 @@ export default function ChairFinder() {
           {/* Progress bar */}
           <div style={{ marginBottom: 44 }}>
             <div style={{ height: 3, background: '#E8DFD3', borderRadius: 3, overflow: 'hidden' }}>
-              <div style={{ height: '100%', background: '#D1803E', borderRadius: 3, width: `${progressPct}%`, transition: 'width 0.6s cubic-bezier(0.4,0,0.2,1)' }} />
+              <div style={{ height: '100%', background: '#D1803E', borderRadius: 3, width: '100%', transform: `scaleX(${progressPct / 100})`, transformOrigin: 'left', transition: 'transform 0.6s cubic-bezier(0.4,0,0.2,1)' }} />
             </div>
             <p style={{ fontSize: 12, color: '#9B9B95', marginTop: 10, fontWeight: 500, letterSpacing: '0.02em' }}>
               {progressLabel(turnCount)}

@@ -23,7 +23,7 @@ export default function ComparePage() {
         A critical note before comparing these two chairs: both use S-track roller systems. S-track follows the spine from the neck to the lumbar and stops there. Neither chair reaches the glutes, sacrum, or hips. If your primary pain is in the lower back that radiates into the hips or glutes, neither chair is the right choice. For buyers whose pain is in the upper back, mid-back, neck, or thoracic spine, both are excellent options.
       </p>
 
-      <div className="card border-l-4 border-terra mb-8">
+      <div className="mb-8 rounded-lg p-5" style={{ background: 'rgba(192,72,50,0.06)', border: '1px solid rgba(192,72,50,0.25)' }}>
         <p className="text-sm font-medium text-charcoal">
           <strong>Important:</strong> S-track chairs stop at the lumbar. For sciatica, sacroiliac pain, glute tension, or hip arthritis, choose an L-track or SL-track chair instead. Use the <Link href="/finder" className="text-bronze hover:text-gold">Chair Finder</Link> to find the right track type for your pain location.
         </p>
@@ -56,8 +56,8 @@ export default function ComparePage() {
         </div>
       </div>
 
-      <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
-        <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
+      <div className="mb-10 rounded-lg p-5" style={{ background: 'rgba(209,128,62,0.06)', border: '1px solid rgba(209,128,62,0.25)' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#D1803E' }}>Quick verdict</p>
         <p className="mb-3">
           For buyers with upper and mid-back pain who also need confirmed fit at the extremes, from 4 feet 8 inches to 6 feet 6 inches, at up to 300 lbs, the Daiwa Relax 2 Zero 3D is the more practical and $2,000 less expensive choice. The inversion stretch program is a standout feature for spinal decompression not found in the JP-3000.
         </p>
