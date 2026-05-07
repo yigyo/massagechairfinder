@@ -2963,7 +2963,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
   {
     slug: 'massage-chair-stretch-program',
     title: 'The Massage Chair Stretch Program: Why Track Type Determines What You Actually Get',
-    excerpt: 'The stretch program is one of the most therapeutic features for lower back pain, sciatica, and hip tightness. But its effectiveness depends almost entirely on the chair's track design -- and most spec sheets do not explain the difference.',
+    excerpt: 'The stretch program is one of the most therapeutic features for lower back pain, sciatica, and hip tightness. But its effectiveness depends almost entirely on track type -- and most spec sheets do not explain the difference.',
     order: 43,
     publishedAt: '2026-05-07',
     body: `
