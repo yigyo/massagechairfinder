@@ -8,11 +8,10 @@ export const metadata: Metadata = {
   description: "Independent research on every aspect of buying and owning a massage chair. Track types, health conditions, tech explained, and honest buying questions answered.",
 }
 
-const CATEGORIES: { label: string; description: string; featured?: boolean; slugs: string[] }[] = [
+const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
   {
     label: "Core Decisions",
     description: "The topics every buyer needs to understand before choosing a chair.",
-    featured: true,
     slugs: [
       "track-types",
       "how-to-buy",
@@ -88,6 +87,10 @@ const CATEGORIES: { label: string; description: string; featured?: boolean; slug
   },
 ]
 
+function slugifyLabel(label: string): string {
+  return label.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")
+}
+
 export default async function LearnPage() {
   let articles: LocalArticle[] = []
   try {
@@ -114,7 +117,6 @@ export default async function LearnPage() {
 
   const published = articles.filter((a) => a.body !== "<p>Coming soon.</p>")
 
-  // Build slug -> article map for fast lookup
   const articleMap = new Map<string, LocalArticle>()
   for (const a of articles) {
     articleMap.set(a.slug, a)
@@ -123,10 +125,23 @@ export default async function LearnPage() {
   return (
     <div className="section" style={{ maxWidth: "860px" }}>
       <h1 className="text-4xl font-serif mb-2">Learn</h1>
-      <p className="text-warm-gray mb-12">
+      <p className="text-warm-gray mb-8">
         Independent research on every aspect of buying and owning a massage chair.{" "}
         <span className="text-charcoal">{published.length} articles.</span>
       </p>
+
+      {/* Jump nav */}
+      <nav className="mb-12 flex flex-wrap gap-2">
+        {CATEGORIES.map((cat) => (
+          <a
+            key={cat.label}
+            href={"#" + slugifyLabel(cat.label)}
+            className="text-sm px-3 py-1.5 rounded-full border border-sand text-charcoal hover:border-gold hover:text-gold transition-colors"
+          >
+            {cat.label}
+          </a>
+        ))}
+      </nav>
 
       {CATEGORIES.map((cat) => {
         const catArticles = cat.slugs
@@ -136,15 +151,9 @@ export default async function LearnPage() {
         if (catArticles.length === 0) return null
 
         return (
-          <section key={cat.label} className="mb-14">
+          <section key={cat.label} id={slugifyLabel(cat.label)} className="mb-14">
             <div className="mb-5 pb-3 border-b border-sand">
-              <h2
-                className={
-                  cat.featured
-                    ? "text-2xl font-serif font-semibold text-navy mb-1"
-                    : "text-xl font-serif font-semibold text-navy mb-1"
-                }
-              >
+              <h2 className="text-xl font-serif font-semibold text-navy mb-1">
                 {cat.label}
               </h2>
               <p className="text-warm-gray text-sm">{cat.description}</p>
@@ -153,10 +162,7 @@ export default async function LearnPage() {
               {catArticles.map((article) => {
                 const isStub = article.body === "<p>Coming soon.</p>"
                 return isStub ? (
-                  <div
-                    key={article.slug}
-                    className="card opacity-50 cursor-default"
-                  >
+                  <div key={article.slug} className="card opacity-50 cursor-default">
                     <h3 className="text-base font-serif font-semibold text-navy mb-1">
                       {article.title}
                     </h3>
@@ -166,16 +172,7 @@ export default async function LearnPage() {
                   <Link
                     key={article.slug}
                     href={"/learn/" + article.slug}
-                    className={
-                      cat.featured
-                        ? "card hover:shadow-md transition-shadow group block"
-                        : "card hover:shadow-md transition-shadow group block"
-                    }
-                    style={
-                      cat.featured
-                        ? { background: "rgba(209,128,62,0.04)" }
-                        : undefined
-                    }
+                    className="card hover:shadow-md transition-shadow group block"
                   >
                     <h3 className="text-base font-serif font-semibold text-navy group-hover:text-gold transition-colors mb-1">
                       {article.title}
