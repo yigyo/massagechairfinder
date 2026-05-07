@@ -15,25 +15,29 @@ export default async function HomePage() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ minHeight: '680px' }}>
-        {/* Background image — 30% vertical offset shows full head + most of chair */}
+        {/* Background image — 50% centers on person + chair, works on mobile portrait */}
         <img
           src="/hero.webp"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover"
-          style={{ objectPosition: '50% 30%' }}
+          style={{ objectPosition: '50% 50%' }}
         />
-        {/* Gradient: right panel dark enough for text, translucent enough to see room behind */}
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(to left, rgba(28,35,49,0.82) 28%, rgba(28,35,49,0.72) 42%, rgba(28,35,49,0.08) 68%, transparent 84%)'
+        {/* Desktop gradient: dark right panel for text (hidden on mobile) */}
+        <div className="absolute inset-0 hidden md:block" style={{
+          background: 'linear-gradient(to left, rgba(28,35,49,0.88) 28%, rgba(28,35,49,0.75) 44%, rgba(28,35,49,0.08) 68%, transparent 84%)'
         }} />
-        {/* Content column — right side, vertically centered */}
+        {/* Mobile gradient: dark at bottom where text sits, lighter at top to reveal the chair */}
+        <div className="absolute inset-0 md:hidden" style={{
+          background: 'linear-gradient(to top, rgba(28,35,49,0.93) 0%, rgba(28,35,49,0.80) 38%, rgba(28,35,49,0.45) 62%, rgba(28,35,49,0.15) 100%)'
+        }} />
+        {/* Content column — right-aligned on desktop, full-width on mobile */}
         <div className="relative z-10 flex items-center justify-end min-h-[680px] px-6 md:px-16">
           <div className="w-full max-w-md text-left text-white">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4 leading-tight text-white" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.35)' }}>
+            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4 leading-tight text-white" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.55)' }}>
               Find the massage chair that fits your body, your space, and your budget.
             </h1>
-            <p className="text-lg mb-8" style={{ color: '#E8DFD3' }}>
+            <p className="text-lg mb-8" style={{ color: '#E8DFD3', textShadow: '0 1px 4px rgba(0,0,0,0.80)' }}>
               Independent comparisons and honest guidance. No showrooms, no pressure, no guesswork.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
