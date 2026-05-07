@@ -52,8 +52,8 @@ export default function ComparePage() {
         </div>
       </div>
 
-      <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
-        <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
+      <div className="mb-10 rounded-lg p-5" style={{ background: 'rgba(209,128,62,0.06)', border: '1px solid rgba(209,128,62,0.25)' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#D1803E' }}>Quick verdict</p>
         <p className="mb-3">
           For buyers who want the deepest zero gravity decompression, the most heat coverage (lumbar, calf, and feet), and a thorough multi-roller massage at a familiar price from a well-known brand, the Kahuna SM-7300S is the right call. It is a more traditional approach to massage chair design executed at a high level.
         </p>

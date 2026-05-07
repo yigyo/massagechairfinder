@@ -5,6 +5,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // --- New brand tokens (DESIGN.md v1) ---
+        background: '#F2F6FB',
+        surface: '#FFFFFF',
+        primary: '#0B1829',
+        accent: '#0EA5E9',
+        'accent-interactive': '#0369A1',
+        muted: '#5F7185',
+        border: '#D4DDE9',
+        'border-strong': '#B8C8DC',
+        'on-dark-secondary': '#8897A8',
+        // --- Legacy tokens (retained for compare pages and component use) ---
         navy: '#1C2331',
         charcoal: '#3D3D3A',
         'warm-gray': '#6B6B65',
@@ -17,7 +28,24 @@ const config: Config = {
       },
       fontFamily: {
         serif: ['var(--font-noto-serif)', 'Georgia', 'serif'],
-        sans: ['Helvetica Neue', 'Helvetica', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-ibm-plex-sans)', 'system-ui', 'sans-serif'],
+      },
+      fontSize: {
+        display: ['2.75rem', { letterSpacing: '-0.02em', fontWeight: '700' }],
+      },
+      borderRadius: {
+        sm: '4px',
+        md: '8px',
+        lg: '10px',
+        xl: '14px',
+      },
+      spacing: {
+        xs: '4px',
+        sm: '8px',
+        md: '16px',
+        lg: '24px',
+        xl: '40px',
+        '2xl': '64px',
       },
     },
   },

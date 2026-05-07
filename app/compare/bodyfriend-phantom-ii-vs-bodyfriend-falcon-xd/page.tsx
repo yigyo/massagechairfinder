@@ -50,8 +50,8 @@ export default function ComparePage() {
         </div>
       </div>
 
-      <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
-        <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
+      <div className="mb-10 rounded-lg p-5" style={{ background: 'rgba(209,128,62,0.06)', border: '1px solid rgba(209,128,62,0.25)' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#D1803E' }}>Quick verdict</p>
         <p className="mb-3">
           For buyers who weigh more than 250 lbs, the Phantom II is the answer. Its 335 lb confirmed weight capacity is among the highest in its price tier, and plus-size fit has been verified. The Falcon XD's 265 lb limit is not suitable for heavier buyers.
         </p>

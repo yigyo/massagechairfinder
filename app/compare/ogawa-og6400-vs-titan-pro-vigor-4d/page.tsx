@@ -52,8 +52,8 @@ export default function ComparePage() {
         </div>
       </div>
 
-      <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
-        <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
+      <div className="mb-10 rounded-lg p-5" style={{ background: 'rgba(209,128,62,0.06)', border: '1px solid rgba(209,128,62,0.25)' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#D1803E' }}>Quick verdict</p>
         <p className="mb-3">
           If you weigh over 250 lbs or want a confirmed plus-size fit at a lower price, the Ogawa OG-6400 is the clearer choice. Its 320 lb verified capacity and 11-inch wall clearance make it the stronger practical option for heavier buyers or rooms with limited rear space.
         </p>

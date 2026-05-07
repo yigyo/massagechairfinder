@@ -18,7 +18,6 @@ type NavLink  = {
   viewAll?:  string
 }
 
-// Dropdown container class per nav section
 function dropdownClass(label: string): string {
   if (label === 'By Brand')
     return 'grid grid-cols-2 gap-x-4 min-w-[360px] px-3'
@@ -132,16 +131,24 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
   }
 
   return (
-    <header ref={headerRef} className="bg-white border-b border-sand sticky top-0 z-50 shadow-sm">
+    <header ref={headerRef} className="bg-white border-b border-border sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-14">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 font-serif font-bold text-navy hover:text-gold transition-colors flex-shrink-0">
-            <img src="/GMC-logo-icon-1024x1024.png" alt="" width={44} height={44} className="h-11 w-11 flex-shrink-0" />
-            <span className="flex flex-col items-center leading-tight text-lg">
+          <Link href="/" className="flex items-center gap-2.5 flex-shrink-0 group">
+            <div
+              className="flex items-center justify-center flex-shrink-0 rounded-lg"
+              style={{ width: 32, height: 32, background: '#0B1829' }}
+            >
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <circle cx="6.5" cy="6.5" r="4" stroke="#0EA5E9" strokeWidth="1.5"/>
+                <line x1="9.5" y1="9.5" x2="13" y2="13" stroke="#0EA5E9" strokeWidth="1.5" strokeLinecap="round"/>
+              </svg>
+            </div>
+            <span className="flex flex-col items-center leading-tight font-serif font-bold text-[15px] text-primary group-hover:opacity-80 transition-opacity">
               <span>Massage Chair</span>
-              <span>Finder</span>
+              <span style={{ color: '#0EA5E9' }}>Finder</span>
             </span>
           </Link>
 
@@ -152,21 +159,19 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
                 <div key={link.href} className="group relative">
                   <Link
                     href={link.href}
-                    className="flex items-center gap-1 text-sm text-charcoal hover:text-gold transition-colors"
+                    className="flex items-center gap-1 text-sm text-muted hover:text-primary transition-colors"
                   >
                     {link.label}
                     <ChevronDown />
                   </Link>
-
-                  {/* pt-2 bridges the gap so hover doesn't break */}
                   <div className="hidden group-hover:block absolute top-full left-0 pt-2 z-50">
-                    <div className={"bg-white rounded-xl shadow-lg border border-sand py-2 " + dropdownClass(link.label)}>
+                    <div className={"bg-white rounded-xl shadow-lg border border-border py-2 " + dropdownClass(link.label)}>
                       {link.children.map((child) => (
                         <Link
                           key={child.href}
                           href={child.href}
                           className={
-                            "text-sm text-charcoal hover:text-gold hover:bg-linen transition-colors rounded px-3 py-1.5 block " +
+                            "text-sm text-charcoal hover:text-primary hover:bg-background transition-colors rounded px-3 py-1.5 block " +
                             (itemNoWrap(link.label) ? "whitespace-nowrap" : "leading-snug")
                           }
                         >
@@ -177,7 +182,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
                         <Link
                           href={link.href}
                           className={
-                            "mt-1 pt-2 border-t border-sand text-xs text-bronze hover:text-gold text-center px-3 py-1.5 transition-colors " +
+                            "mt-1 pt-2 border-t border-border text-xs text-accent hover:text-accent-interactive text-center px-3 py-1.5 transition-colors block " +
                             footerColSpan(link.label)
                           }
                         >
@@ -191,13 +196,17 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm text-charcoal hover:text-gold transition-colors"
+                  className="text-sm text-muted hover:text-primary transition-colors"
                 >
                   {link.label}
                 </Link>
               )
             )}
-            <Link href="/finder" className="btn-primary text-sm py-2 px-4 ml-3">
+            <Link
+              href="/finder"
+              className="text-sm font-medium text-white px-4 py-2 rounded-md transition-colors ml-3"
+              style={{ background: '#0369A1' }}
+            >
               Find My Chair
             </Link>
             <button
@@ -205,7 +214,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
               onClick={() => setSearchOpen(v => !v)}
               aria-label={searchOpen ? 'Close search' : 'Open search'}
               aria-expanded={searchOpen}
-              className="flex items-center justify-center p-2 text-charcoal hover:text-gold transition-colors"
+              className="flex items-center justify-center p-2 text-muted hover:text-primary transition-colors"
             >
               {searchOpen ? <CloseIcon /> : <SearchIcon />}
             </button>
@@ -213,7 +222,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
 
           {/* Mobile hamburger */}
           <button
-            className="md:hidden text-charcoal"
+            className="md:hidden text-muted"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
@@ -229,12 +238,12 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
       {/* Desktop search bar */}
       {searchOpen && (
         <div
-          className="hidden md:block absolute left-1/2 -translate-x-1/2 w-[540px] max-w-[calc(100vw-2rem)] bg-white rounded-2xl shadow-2xl border border-sand p-5 z-50"
-          style={{ top: 'calc(100% + 100px)' }}
+          className="hidden md:block absolute left-1/2 -translate-x-1/2 w-[540px] max-w-[calc(100vw-2rem)] bg-white rounded-2xl shadow-2xl border border-border p-5 z-50"
+          style={{ top: 'calc(100% + 8px)' }}
         >
           <form onSubmit={handleSearchSubmit} className="flex items-center gap-2">
             <div className="relative flex-1">
-              <span className="absolute left-3 top-1/2 -translate-y-1/2 text-warm-gray pointer-events-none">
+              <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted pointer-events-none">
                 <SearchIcon />
               </span>
               <input
@@ -245,17 +254,18 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
                 onKeyDown={handleSearchKey}
                 placeholder="Search ..."
                 aria-label="Search the site"
-                className="w-full pl-9 pr-4 py-2.5 text-sm rounded-lg border border-sand bg-linen text-charcoal placeholder-warm-gray focus:outline-none focus:ring-2 focus:ring-gold focus:border-gold transition-colors"
+                className="w-full pl-9 pr-4 py-2.5 text-sm rounded-lg border border-border bg-background text-charcoal placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition-colors"
               />
             </div>
             <button
               type="submit"
-              className="shrink-0 text-sm py-2.5 px-5 rounded-lg border border-gold text-gold bg-transparent hover:bg-gold hover:text-white transition-colors"
+              className="shrink-0 text-sm py-2.5 px-5 rounded-lg border text-white transition-colors"
+              style={{ background: '#0369A1', borderColor: '#0369A1' }}
             >
               Search
             </button>
           </form>
-          <p className="mt-2 text-xs text-warm-gray">
+          <p className="mt-2 text-xs text-muted">
             Try: "Osaki", "sciatica", "zero gravity", "space saving", or a chair name
           </p>
         </div>
@@ -263,13 +273,13 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden bg-white border-t border-sand px-4 pb-4">
+        <div className="md:hidden bg-white border-t border-border px-4 pb-4">
           {navLinks.map((link) => (
             <div key={link.href}>
               <Link
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="block py-2 text-charcoal hover:text-gold transition-colors font-medium"
+                className="block py-2 text-charcoal hover:text-primary transition-colors font-medium"
               >
                 {link.label}
               </Link>
@@ -280,7 +290,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
                       key={child.href}
                       href={child.href}
                       onClick={() => setMenuOpen(false)}
-                      className="block py-1 text-sm text-warm-gray hover:text-gold transition-colors leading-snug"
+                      className="block py-1 text-sm text-muted hover:text-primary transition-colors leading-snug"
                     >
                       {child.label}
                     </Link>
@@ -295,16 +305,17 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
               value={query}
               onChange={e => setQuery(e.target.value)}
               placeholder="Search ..."
-              className="flex-1 text-sm px-3 py-2 rounded border border-sand bg-linen text-charcoal placeholder-warm-gray focus:outline-none focus:ring-2 focus:ring-gold"
+              className="flex-1 text-sm px-3 py-2 rounded border border-border bg-background text-charcoal placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent"
             />
-            <button type="submit" aria-label="Search" className="p-2 rounded border border-navy text-navy hover:bg-navy hover:text-white transition-colors">
+            <button type="submit" aria-label="Search" className="p-2 rounded text-white transition-colors" style={{ background: '#0369A1' }}>
               <SearchIcon />
             </button>
           </form>
           <Link
             href="/finder"
             onClick={() => setMenuOpen(false)}
-            className="block mt-3 btn-primary text-center py-2 px-4 text-sm"
+            className="block mt-3 text-center text-sm font-medium text-white py-2 px-4 rounded-md transition-colors"
+            style={{ background: '#0369A1' }}
           >
             Find My Chair
           </Link>

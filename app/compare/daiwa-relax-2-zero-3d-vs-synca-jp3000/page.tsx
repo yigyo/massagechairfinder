@@ -56,8 +56,8 @@ export default function ComparePage() {
         </div>
       </div>
 
-      <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
-        <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
+      <div className="mb-10 rounded-lg p-5" style={{ background: 'rgba(209,128,62,0.06)', border: '1px solid rgba(209,128,62,0.25)' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#D1803E' }}>Quick verdict</p>
         <p className="mb-3">
           For buyers with upper and mid-back pain who also need confirmed fit at the extremes, from 4 feet 8 inches to 6 feet 6 inches, at up to 300 lbs, the Daiwa Relax 2 Zero 3D is the more practical and $2,000 less expensive choice. The inversion stretch program is a standout feature for spinal decompression not found in the JP-3000.
         </p>
