@@ -742,7 +742,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
               Find my chair
             </Link>
             <Link href="/learn" className="text-center py-2 px-5 rounded text-sm font-semibold border border-gold text-gold hover:bg-gold hover:text-white transition-colors">
-              Buying Guide
+              Learn
             </Link>
             <Link href={'/brands/' + brandSlug} className="text-center py-2 px-5 rounded text-sm font-semibold border border-gold text-gold hover:bg-gold hover:text-white transition-colors">
               All {c.brand} chairs

@@ -759,10 +759,10 @@ export default function ChairFinder() {
                 Check your inbox.
               </h2>
               <p style={{ fontSize: 17, color: '#6B6B65', lineHeight: 1.65, maxWidth: 420, margin: '0 auto 36px' }}>
-                Your chair matches are on the way. While you wait, the Buying Guide covers everything you need to compare chairs confidently.
+                Your chair matches are on the way. While you wait, the Learning Center covers everything you need to compare chairs confidently.
               </p>
               <a href="/learn" style={{ color: '#D1803E', fontWeight: 600, fontSize: 16, textDecoration: 'none' }}>
-                Read the Buying Guide &rarr;
+                Browse the Learning Center &rarr;
               </a>
               <div style={{ marginTop: 36 }}>
                 <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>

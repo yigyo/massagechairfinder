@@ -11,7 +11,7 @@ export function generateMetadata({ searchParams }: Props): Metadata {
   const q = searchParams.q || ''
   return {
     title: q ? 'Search results for "' + q + '"' : 'Search',
-    description: 'Search massage chairs, buying guides, and brands on Massage Chair Finder.',
+    description: 'Search massage chairs, guides, and brands on Massage Chair Finder.',
     robots: { index: false },
   }
 }
@@ -85,7 +85,7 @@ export default function SearchPage({ searchParams }: Props) {
 
       {!q && (
         <p className="text-charcoal text-sm">
-          Enter a search term to find chairs, buying guide articles, or brand pages. Try searching for a
+          Enter a search term to find chairs, guides, or brand pages. Try searching for a
           brand like "Osaki", a condition like "sciatica" or "lower back pain", or a feature like "zero gravity".
         </p>
       )}
@@ -97,7 +97,7 @@ export default function SearchPage({ searchParams }: Props) {
             Use the{' '}
             <Link href="/finder" className="text-gold hover:underline">Chair Finder</Link>{' '}
             to answer a few questions and get a personalized recommendation, or browse the{' '}
-            <Link href="/learn" className="text-gold hover:underline">Buying Guide</Link>{' '}
+            <Link href="/learn" className="text-gold hover:underline">Learning Center</Link>{' '}
             to learn what to look for.
           </p>
         </div>
@@ -107,7 +107,7 @@ export default function SearchPage({ searchParams }: Props) {
         <>
           <ResultSection title="Best Picks" results={collections} />
           <ResultSection title="Chairs" results={chairs} />
-          <ResultSection title="Buying Guides" results={articles} />
+          <ResultSection title="Articles" results={articles} />
           <ResultSection title="Brands" results={brands} />
         </>
       )}

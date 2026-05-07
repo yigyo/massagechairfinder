@@ -243,7 +243,7 @@ export default function BestSciaticaPage() {
           </Link>{' '}
           covers the S, L, and SL-track decision in detail. The{' '}
           <Link href="/learn/how-to-buy" className="text-bronze hover:text-gold transition-colors">
-            full buying guide
+            step-by-step guide
           </Link>{' '}
           walks through every decision in sequence, including how to match roller pressure to your sensitivity level. The{' '}
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">

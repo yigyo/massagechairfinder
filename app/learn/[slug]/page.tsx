@@ -84,7 +84,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           {
             '@type': 'ListItem',
             position: 2,
-            name: 'Buying Guide',
+            name: 'Learn',
             item: 'https://massagechairfinder.com/learn',
           },
           {
@@ -107,7 +107,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       <div className="section" style={{maxWidth: '700px'}}>
         <div className="mb-6">
           <Link href="/learn" className="text-bronze hover:text-gold text-sm">
-            &larr; Buying Guide
+            &larr; Learn
           </Link>
         </div>
         <h1 className="text-4xl font-serif mb-4">{article.title}</h1>
@@ -134,7 +134,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           </div>
           <div className="text-center">
             <Link href="/learn" className="text-bronze hover:text-gold">
-              <span className="block text-warm-gray text-xs mb-1">Buying Guide</span>
+              <span className="block text-warm-gray text-xs mb-1">Learn</span>
               <span>All sections</span>
             </Link>
           </div>

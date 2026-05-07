@@ -244,7 +244,7 @@ export default function BestPremiumPage() {
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}
-          <Link href="/learn/how-to-buy" className="text-bronze hover:text-gold transition-colors">full buying guide</Link>{' '}
+          <Link href="/learn/how-to-buy" className="text-bronze hover:text-gold transition-colors">step-by-step guide</Link>{' '}
           covers how to assess warranty quality and what to look for in retailer service policies. The{' '}
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}
           surfaces premium options when budget allows and filters by pain pattern and body fit.

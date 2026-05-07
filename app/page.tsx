@@ -48,7 +48,7 @@ export default async function HomePage() {
                 href="/learn"
                 className="border border-sand text-sand px-6 py-3 rounded font-semibold hover:bg-white hover:text-navy transition-colors text-center"
               >
-                Read the Buying Guide
+                Explore the Learning Center
               </Link>
             </div>
           </div>
@@ -119,9 +119,9 @@ export default async function HomePage() {
 
       {/* Buying guide preview */}
       <section className="section">
-        <h2 className="text-3xl font-serif mb-2">The Buying Guide</h2>
+        <h2 className="text-3xl font-serif mb-2">Learn</h2>
         <p className="text-warm-gray mb-8">
-          Everything you need to make a confident decision.
+          Guides, explainers, and honest answers across 46 articles.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {[
@@ -140,7 +140,7 @@ export default async function HomePage() {
         </div>
         <div className="mt-8">
           <Link href="/learn" className="text-bronze font-semibold hover:text-gold">
-            Read the full buying guide &rarr;
+            Browse all articles &rarr;
           </Link>
         </div>
       </section>
