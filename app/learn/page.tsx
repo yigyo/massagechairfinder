@@ -151,7 +151,7 @@ export default async function LearnPage() {
         if (catArticles.length === 0) return null
 
         return (
-          <section key={cat.label} id={slugifyLabel(cat.label)} className="mb-14">
+          <section key={cat.label} id={slugifyLabel(cat.label)} className="mb-14 scroll-mt-20">
             <div className="mb-5 pb-3 border-b border-sand">
               <h2 className="text-xl font-serif font-semibold text-navy mb-1">
                 {cat.label}
