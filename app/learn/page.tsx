@@ -4,7 +4,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Learn | Massage Chair Finder",
+  title: "Learning Center | Massage Chair Finder",
   description: "Independent research on every aspect of buying and owning a massage chair. Track types, health conditions, tech explained, and honest buying questions answered.",
 }
 
@@ -124,7 +124,7 @@ export default async function LearnPage() {
 
   return (
     <div className="section" style={{ maxWidth: "860px" }}>
-      <h1 className="text-4xl font-serif mb-2">Learn</h1>
+      <h1 className="text-4xl font-serif mb-2">Learning Center</h1>
       <p className="text-warm-gray mb-8">
         Independent research on every aspect of buying and owning a massage chair.{" "}
         <span className="text-charcoal">{published.length} articles.</span>

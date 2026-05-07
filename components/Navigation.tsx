@@ -98,7 +98,18 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
       viewAll:  'View all comparisons',
       children: comparePages.map(p => ({ label: p.label, href: '/compare/' + p.slug })),
     },
-    { label: 'Learn', href: '/learn' },
+    {
+      label:   'Learn',
+      href:    '/learn',
+      viewAll: 'Browse the Learning Center',
+      children: [
+        { label: 'Core Decisions',    href: '/learn#core-decisions' },
+        { label: 'Tech Explained',    href: '/learn#tech-explained' },
+        { label: 'Health & Conditions', href: '/learn#health-conditions' },
+        { label: 'Buying Questions',  href: '/learn#buying-questions' },
+        { label: 'Owning a Chair',    href: '/learn#owning-a-chair' },
+      ],
+    },
   ]
 
   useEffect(() => {
