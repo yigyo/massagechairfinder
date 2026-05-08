@@ -16,6 +16,8 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Valid email required." }, { status: 400 })
     }
 
+    const messageHtml = message.replace(/\n/g, "<br>")
+
     const { error } = await resend.emails.send({
       from: "Massage Chair Finder <noreply@massagechairfinder.com>",
       to: ["support@massagechairfinder.com"],
@@ -25,8 +27,7 @@ export async function POST(req: NextRequest) {
         "<p><strong>Name:</strong> " + firstName + " " + lastName + "</p>" +
         "<p><strong>Email:</strong> " + email + "</p>" +
         "<p><strong>Message:</strong></p>" +
-        "<p>" + message.replace(/
-/g, "<br>") + "</p>",
+        "<p>" + messageHtml + "</p>",
     })
 
     if (error) {
