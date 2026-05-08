@@ -145,7 +145,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
 
   return (
     <header ref={headerRef} className="bg-white border-b border-sand sticky top-0 z-50 shadow-sm">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
@@ -158,7 +158,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-6 ml-8">
+          <nav className="hidden md:flex items-center gap-4 ml-6">
             {navLinks.map((link) =>
               link.children ? (
                 <div key={link.href} className="group relative">
@@ -209,7 +209,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
                 </Link>
               )
             )}
-            <Link href="/finder" className="btn-primary text-sm py-2 px-4 ml-3">
+            <Link href="/finder" className="btn-primary text-sm py-2 px-4 ml-2 whitespace-nowrap">
               Find My Chair
             </Link>
             <button

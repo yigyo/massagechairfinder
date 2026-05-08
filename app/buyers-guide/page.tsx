@@ -51,7 +51,7 @@ export default function BuyersGuidePage() {
           className="font-serif text-xl mb-1"
           style={{ color: "#1C2331" }}
         >
-          Get the free PDF
+          Get the Buyer&apos;s Guide
         </h2>
         <p className="text-sm text-warm-gray mb-4">
           Delivered to your inbox. No spam. Unsubscribe anytime.
@@ -83,17 +83,6 @@ export default function BuyersGuidePage() {
             </div>
           </div>
         ))}
-      </div>
-
-      {/* Bottom form repeat */}
-      <div
-        className="rounded-xl px-6 py-7"
-        style={{ background: "#F5F1EB", border: "1px solid #E8DFD3" }}
-      >
-        <p className="font-serif text-lg font-bold mb-3" style={{ color: "#1C2331" }}>
-          Ready to get it?
-        </p>
-        <BuyersGuideForm buttonLabel="Send Me the Guide" source="landing-page-bottom" />
       </div>
 
     </div>

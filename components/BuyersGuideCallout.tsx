@@ -23,7 +23,7 @@ export default function BuyersGuideCallout() {
       </h3>
       <p className="text-sm text-warm-gray mb-4 leading-relaxed">
         The six decisions that separate a chair you will use every day from one
-        you will regret. One PDF, straight to your inbox.
+        you will regret.
       </p>
       <BuyersGuideForm source="article-callout" />
     </aside>
