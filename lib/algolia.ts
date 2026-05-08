@@ -40,7 +40,7 @@ export interface MCFHit {
 }
 
 export const TYPE_CONFIG: Record<RecordType, { label: string; badge: string }> = {
-  best:    { label: 'Best Picks', badge: 'bg-terra-cotta text-white' },
+  best:    { label: 'Best Picks', badge: 'bg-terra text-white' },
   chair:   { label: 'Chair',      badge: 'bg-navy text-white' },
   article: { label: 'Guide',      badge: 'bg-teal text-white' },
   brand:   { label: 'Brand',      badge: 'bg-gold text-white' },
