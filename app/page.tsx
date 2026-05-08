@@ -41,14 +41,14 @@ export default async function HomePage() {
               Independent comparisons and honest guidance. No showrooms, no pressure, no guesswork.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/finder" className="btn-primary text-center">
+              <Link href="/finder" className="btn-primary text-center whitespace-nowrap">
                 Find My Chair
               </Link>
               <Link
                 href="/learn"
                 className="border border-sand text-sand px-6 py-3 rounded font-semibold hover:bg-white hover:text-navy transition-colors text-center"
               >
-                Explore the Learning Center
+                Explore the Guide
               </Link>
             </div>
           </div>
