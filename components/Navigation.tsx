@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState, useRef, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+import AlgoliaAutocomplete from '@/components/AlgoliaAutocomplete'
 
 type NavPage = { label: string; slug: string }
 
@@ -74,10 +74,7 @@ const BY_BRAND_CHILDREN: NavChild[] = [
 export default function Navigation({ bestPages = [], comparePages = [] }: Props) {
   const [menuOpen, setMenuOpen]     = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
-  const [query, setQuery]           = useState('')
-  const inputRef  = useRef<HTMLInputElement>(null)
   const headerRef = useRef<HTMLElement>(null)
-  const router    = useRouter()
 
   const navLinks: NavLink[] = [
     { label: 'All Chairs', href: '/chairs' },
@@ -114,6 +111,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
     { label: "Buyer's Guide", href: '/buyers-guide' },
   ]
 
+  // Close search panel on outside click
   useEffect(() => {
     function onMouseDown(e: MouseEvent) {
       if (headerRef.current && !headerRef.current.contains(e.target as Node)) {
@@ -123,26 +121,6 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
     document.addEventListener('mousedown', onMouseDown)
     return () => document.removeEventListener('mousedown', onMouseDown)
   }, [])
-
-  useEffect(() => {
-    if (searchOpen) inputRef.current?.focus()
-  }, [searchOpen])
-
-  function handleSearchSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    const trimmed = query.trim()
-    if (!trimmed) return
-    setSearchOpen(false)
-    setQuery('')
-    router.push('/search?q=' + encodeURIComponent(trimmed))
-  }
-
-  function handleSearchKey(e: React.KeyboardEvent) {
-    if (e.key === 'Escape') {
-      setSearchOpen(false)
-      setQuery('')
-    }
-  }
 
   return (
     <header ref={headerRef} className="bg-white border-b border-sand sticky top-0 z-50 shadow-sm">
@@ -216,6 +194,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
             <Link href="/finder" className="btn-primary text-sm py-2 px-4 ml-2 whitespace-nowrap">
               Find My Chair
             </Link>
+            {/* Search toggle */}
             <button
               type="button"
               onClick={() => setSearchOpen(v => !v)}
@@ -242,38 +221,15 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
         </div>
       </div>
 
-      {/* Desktop search bar */}
+      {/* Desktop Algolia search panel */}
       {searchOpen && (
-        <div
-          className="hidden md:block absolute left-1/2 -translate-x-1/2 w-[540px] max-w-[calc(100vw-2rem)] bg-white rounded-2xl shadow-2xl border border-sand p-5 z-50"
-          style={{ top: 'calc(100% + 100px)' }}
-        >
-          <form onSubmit={handleSearchSubmit} className="flex items-center gap-2">
-            <div className="relative flex-1">
-              <span className="absolute left-3 top-1/2 -translate-y-1/2 text-warm-gray pointer-events-none">
-                <SearchIcon />
-              </span>
-              <input
-                ref={inputRef}
-                type="search"
-                value={query}
-                onChange={e => setQuery(e.target.value)}
-                onKeyDown={handleSearchKey}
-                placeholder="Search ..."
-                aria-label="Search the site"
-                className="w-full pl-9 pr-4 py-2.5 text-sm rounded-lg border border-sand bg-linen text-charcoal placeholder-warm-gray focus:outline-none focus:ring-2 focus:ring-gold focus:border-gold transition-colors"
-              />
-            </div>
-            <button
-              type="submit"
-              className="shrink-0 text-sm py-2.5 px-5 rounded-lg border border-gold text-gold bg-transparent hover:bg-gold hover:text-white transition-colors"
-            >
-              Search
-            </button>
-          </form>
-          <p className="mt-2 text-xs text-warm-gray">
-            Try: "Osaki", "sciatica", "zero gravity", "space saving", or a chair name
-          </p>
+        <div className="hidden md:block border-t border-sand bg-white">
+          <div className="max-w-2xl mx-auto px-4 py-4">
+            <AlgoliaAutocomplete
+              variant="desktop"
+              onNavigate={() => setSearchOpen(false)}
+            />
+          </div>
         </div>
       )}
 
@@ -305,18 +261,11 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
               )}
             </div>
           ))}
-          <form onSubmit={handleSearchSubmit} className="mt-3 flex items-center gap-2">
-            <input
-              type="search"
-              value={query}
-              onChange={e => setQuery(e.target.value)}
-              placeholder="Search ..."
-              className="flex-1 text-sm px-3 py-2 rounded border border-sand bg-linen text-charcoal placeholder-warm-gray focus:outline-none focus:ring-2 focus:ring-gold"
-            />
-            <button type="submit" aria-label="Search" className="p-2 rounded border border-navy text-navy hover:bg-navy hover:text-white transition-colors">
-              <SearchIcon />
-            </button>
-          </form>
+          {/* Mobile Algolia search */}
+          <AlgoliaAutocomplete
+            variant="mobile"
+            onNavigate={() => setMenuOpen(false)}
+          />
           <Link
             href="/finder"
             onClick={() => setMenuOpen(false)}
