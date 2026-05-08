@@ -106,7 +106,7 @@ export default async function HomePage() {
       {/* Chair Finder CTA */}
       <section className="bg-teal text-white py-16 px-4">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-serif mb-4">Not sure where to start?</h2>
+          <h2 className="text-3xl font-serif mb-4 text-white">Not sure where to start?</h2>
           <p className="text-lg mb-8 opacity-90">
             Answer 10 quick questions about your body, space, and budget. We will narrow it down to
             the chairs most likely to work for you.
