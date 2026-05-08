@@ -1,36 +1,70 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'How We Review',
-  description: 'How MassageChairFinder selects and evaluates massage chairs.',
+  title: 'About Massage Chair Finder',
+  description: 'Massage Chair Finder is an independent buying guide built to help you find the right massage chair for your body, your space, and your budget.',
 }
 
 export default function AboutPage() {
   return (
     <div className="section max-w-2xl">
-      <h1 className="text-4xl font-serif mb-6">How We Review</h1>
+      <h1 className="text-4xl font-serif mb-6">About Massage Chair Finder</h1>
       <div className="prose prose-lg max-w-none">
         <p>
-          MassageChairFinder is an independent site. We are not owned by a brand, a retailer, or a manufacturer.
-          Our job is to help you make a confident decision — wherever you end up buying.
+          Massage Chair Finder exists because buying a massage chair is harder than it should be. The category
+          is full of spec sheets, marketing language, and retailer reviews written by people with inventory
+          to move. We built this site to be something different: a genuinely independent resource that helps
+          you make a confident decision, wherever you end up buying.
         </p>
-        <h2>What we evaluate</h2>
+
+        <h2>Who we are</h2>
         <p>
-          Every chair in our catalog is evaluated on the same criteria: track type and roller coverage,
-          roller dimensions relative to body type, zero-gravity positioning, heat and foot roller quality,
-          weight and height accommodation, space requirements, warranty terms, and price relative to alternatives.
+          We are a small, focused team that has spent considerable time researching the massage chair market:
+          verifying specs against manufacturer documentation, mapping how chair features correspond to specific
+          physical needs, and building tools like the{' '}
+          <Link href="/finder" className="text-bronze hover:text-gold transition-colors">Chair Finder quiz</Link>{' '}
+          that match buyers to the right chair based on their pain profile, body type, budget, and room.
         </p>
-        <h2>What we don't do</h2>
         <p>
-          We don't rank chairs by which retailer pays the highest commission. We don't accept payment to
-          feature or promote specific products. We don't manufacture affiliate links disguised as editorial
-          recommendations.
+          We are not a retailer. We do not hold inventory. We are not owned by a brand or a manufacturer.
+          We earn revenue through affiliate commissions when readers click through and purchase from a
+          retailer, but our editorial recommendations are made independently of which retailer pays what.
         </p>
-        <h2>Our methodology</h2>
+
+        <h2>What we cover</h2>
         <p>
-          We research published specifications and cross-reference them across manufacturer documentation,
-          retailer listings, and owner reviews. Where specs conflict between sources, we note it. We disclose
-          when we have not personally tested a chair.
+          Our catalog covers 33 verified massage chairs across 15 brands, priced from $1,249 to $14,499.
+          Every chair in the catalog has been researched against manufacturer documentation and confirmed
+          spec sources. Where a spec cannot be independently verified, we say so rather than guess.
+        </p>
+        <p>
+          Beyond individual chair reviews, we publish{' '}
+          <Link href="/learn" className="text-bronze hover:text-gold transition-colors">buying guide articles</Link>{' '}
+          that cover every major decision a buyer faces: track types, roller dimensions, zero-gravity positioning,
+          body fit, space requirements, and more. The buying guide is designed to be useful regardless of
+          where you ultimately purchase.
+        </p>
+
+        <h2>Our editorial standard</h2>
+        <p>
+          We take positions. When one chair is meaningfully better for a specific type of buyer, we say so.
+          When a category claim is overstated by the industry, we note it. Our{' '}
+          <Link href="/how-we-review" className="text-bronze hover:text-gold transition-colors">review methodology</Link>{' '}
+          is documented in full, including our testing disclosure and how we handle corrections.
+        </p>
+
+        <h2>Get in touch</h2>
+        <p>
+          If you have a question about a chair, a correction to report, or a suggestion for content we
+          should cover, we want to hear from you.
+        </p>
+        <p>
+          <Link href="/contact" className="text-bronze hover:text-gold transition-colors">Send us a message</Link>{' '}
+          or email us directly at{' '}
+          <a href="mailto:support@massagechairfinder.com" className="text-bronze hover:text-gold transition-colors">
+            support@massagechairfinder.com
+          </a>.
         </p>
       </div>
     </div>
