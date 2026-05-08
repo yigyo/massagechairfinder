@@ -110,6 +110,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
         { label: 'Owning a Chair',    href: '/learn#owning-a-chair' },
       ],
     },
+    { label: "Buyer's Guide", href: '/buyers-guide' },
   ]
 
   useEffect(() => {

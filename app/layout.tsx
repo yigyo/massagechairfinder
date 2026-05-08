@@ -1,10 +1,26 @@
 import type { Metadata } from 'next'
+import { Noto_Serif, IBM_Plex_Sans } from 'next/font/google'
 import './globals.css'
 import NavigationWrapper from '@/components/NavigationWrapper'
 import Footer from '@/components/Footer'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import ScrollTracker from '@/components/ScrollTracker'
+import ExitIntentPopup from '@/components/ExitIntentPopup'
 import Script from 'next/script'
+
+const notoSerif = Noto_Serif({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-noto-serif',
+  display: 'swap',
+})
+
+const ibmPlexSans = IBM_Plex_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-ibm-plex-sans',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: {
@@ -38,8 +54,8 @@ const siteSchema = JSON.stringify({
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className="bg-linen text-charcoal min-h-screen flex flex-col">
+    <html lang="en" className={`${notoSerif.variable} ${ibmPlexSans.variable}`}>
+      <body className="bg-background text-charcoal min-h-screen flex flex-col">
         <GoogleAnalytics />
         <ScrollTracker />
         <script
@@ -49,6 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <NavigationWrapper />
         <main className="flex-1">{children}</main>
         <Footer />
+        <ExitIntentPopup />
         {/* Koda AI Chair Advisor */}
         <Script id="koda-chat-config" strategy="beforeInteractive">
           {`window.MCFChatConfig = { backendUrl: 'https://emily-chat-backend.vercel.app' };`}

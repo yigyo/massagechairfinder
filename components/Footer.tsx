@@ -1,10 +1,39 @@
 import Link from 'next/link'
 import SearchBar from '@/components/SearchBar'
+import BuyersGuideForm from '@/components/BuyersGuideForm'
 
 export default function Footer() {
   return (
     <footer className="bg-white border-t border-sand mt-16">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* Lead magnet opt-in */}
+        <div
+          className="rounded-xl px-6 py-7 mb-10 flex flex-col md:flex-row md:items-center gap-6"
+          style={{ background: "#F5F1EB", border: "1px solid #E8DFD3" }}
+        >
+          <div className="md:flex-1">
+            <p
+              className="text-xs font-semibold uppercase tracking-wider mb-1"
+              style={{ color: "#934713" }}
+            >
+              Free Download
+            </p>
+            <h3
+              className="font-serif text-lg font-bold mb-1"
+              style={{ color: "#1C2331" }}
+            >
+              Free Buyer&apos;s Guide
+            </h3>
+            <p className="text-sm" style={{ color: "#6B6B65" }}>
+              The six decisions that matter, in one PDF.
+            </p>
+          </div>
+          <div className="md:w-96">
+            <BuyersGuideForm buttonLabel="Get the Guide" source="footer" />
+          </div>
+        </div>
+
         <div className="flex flex-col md:flex-row gap-10">
           <div className="md:w-1/3 shrink-0">
             <Link href="/" className="font-serif text-lg font-bold text-navy hover:text-gold transition-colors">

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { autolink } from '@/lib/autolink'
 import type { Metadata } from 'next'
+import BuyersGuideCallout from '@/components/BuyersGuideCallout'
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   try {
@@ -14,6 +15,18 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const local = getLocalArticle(params.slug)
   if (!local) return {}
   return { title: local.title, description: local.excerpt }
+}
+
+// Splits article HTML roughly at the midpoint of block elements
+// so we can inject the Buyer's Guide callout between the two halves.
+function splitHtmlAtMidpoint(html: string): [string, string] {
+  const matches = [...html.matchAll(/<\/(p|h[2-6]|ul|ol|blockquote)>/gi)]
+  if (matches.length < 4) return [html, ""]
+  // Split at ~55% to put callout slightly past halfway
+  const midIdx = Math.floor(matches.length * 0.55)
+  const match  = matches[midIdx]
+  const splitPos = (match.index ?? 0) + match[0].length
+  return [html.slice(0, splitPos), html.slice(splitPos)]
 }
 
 export default async function ArticlePage({ params }: { params: { slug: string } }) {
@@ -117,10 +130,27 @@ export default async function ArticlePage({ params }: { params: { slug: string }
             <p className="text-lg text-charcoal leading-relaxed">{article.excerpt}</p>
           </div>
         )}
-        <div
-          className="prose prose-lg max-w-none prose-headings:font-serif prose-a:text-bronze hover:prose-a:text-gold"
-          dangerouslySetInnerHTML={{ __html: autolink(article.body, params.slug) }}
-        />
+        {(() => {
+          const processedHtml = autolink(article.body, params.slug)
+          const [firstHalf, secondHalf] = splitHtmlAtMidpoint(processedHtml)
+          return (
+            <>
+              <div
+                className="prose prose-lg max-w-none prose-headings:font-serif prose-a:text-bronze hover:prose-a:text-gold"
+                dangerouslySetInnerHTML={{ __html: firstHalf }}
+              />
+              {secondHalf && (
+                <>
+                  <BuyersGuideCallout />
+                  <div
+                    className="prose prose-lg max-w-none prose-headings:font-serif prose-a:text-bronze hover:prose-a:text-gold"
+                    dangerouslySetInnerHTML={{ __html: secondHalf }}
+                  />
+                </>
+              )}
+            </>
+          )
+        })()}
 
         {/* Article pagination */}
         <nav className="mt-12 pt-8 border-t border-sand grid grid-cols-3 gap-4 text-sm">
