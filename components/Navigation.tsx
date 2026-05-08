@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState, useRef, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 
@@ -149,12 +150,15 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 font-serif font-bold text-navy hover:text-gold transition-colors flex-shrink-0">
-            <img src="/GMC-logo-icon-1024x1024.png" alt="" width={44} height={44} className="h-11 w-11 flex-shrink-0" />
-            <span className="flex flex-col items-center leading-tight text-lg">
-              <span>Massage Chair</span>
-              <span>Finder</span>
-            </span>
+          <Link href="/" className="flex-shrink-0 hover:opacity-85 transition-opacity">
+            <Image
+              src="/MCF-horizontal-logo-1200x300.webp"
+              alt="Massage Chair Finder"
+              width={176}
+              height={44}
+              className="h-11 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop nav */}
