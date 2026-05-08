@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Affiliate Disclosure',
@@ -12,22 +13,22 @@ export default function DisclosurePage() {
       <div className="prose prose-lg max-w-none">
         <p>
           Massage Chair Finder participates in affiliate marketing programs. This means that when you click
-          a link to a retailer on this site and make a purchase, we may earn a commission — at no additional
+          a link to a retailer on this site and make a purchase, we may earn a commission -- at no additional
           cost to you.
         </p>
         <p>
-          We only link to retailers that sell the chairs we've researched. Commission rates vary by retailer
+          We only link to retailers that sell the chairs we have researched. Commission rates vary by retailer
           and do not influence our editorial recommendations. A chair we recommend will not change position
           because one retailer pays a higher commission than another.
         </p>
         <p>
           Our recommendations are based on published specifications, user fit criteria (track type, roller
           dimensions, weight capacity, height range), price positioning, and brand reputation for warranty
-          support. We disclose when we have not personally tested a chair.
+          support.
         </p>
         <p>
-          If you have questions about our methodology or want to suggest a chair we haven't covered,
-          please <a href="mailto:hello@massagechairfinder.com">contact us</a>.
+          If you have questions about our methodology or want to suggest a chair we have not covered,
+          please <Link href="/contact">contact us</Link>.
         </p>
       </div>
     </div>

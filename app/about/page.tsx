@@ -13,9 +13,9 @@ export default function AboutPage() {
       <div className="prose prose-lg max-w-none">
         <p>
           Massage Chair Finder exists because buying a massage chair is harder than it should be. The category
-          is full of spec sheets, marketing language, and retailer reviews written by people with inventory
-          to move. We built this site to be something different: a genuinely independent resource that helps
-          you make a confident decision, wherever you end up buying.
+          is full of spec sheets, marketing language, and reviews written by people with commercial reasons
+          to push you in a particular direction. We built this site to be something different: a genuinely
+          useful resource that helps you make a confident decision, wherever you end up buying.
         </p>
 
         <h2>Who we are</h2>
@@ -27,14 +27,15 @@ export default function AboutPage() {
           that match buyers to the right chair based on their pain profile, body type, budget, and room.
         </p>
         <p>
-          We are not a retailer. We do not hold inventory. We are not owned by a brand or a manufacturer.
-          We earn revenue through affiliate commissions when readers click through and purchase from a
-          retailer, but our editorial recommendations are made independently of which retailer pays what.
+          Massage Chair Finder is editorially independent. We earn revenue through affiliate commissions
+          when readers click through and make a purchase, and we disclose those relationships in full on our{' '}
+          <Link href="/disclosure" className="text-bronze hover:text-gold transition-colors">disclosure page</Link>.
+          Those commercial relationships do not influence which chairs we recommend or how we evaluate them.
         </p>
 
         <h2>What we cover</h2>
         <p>
-          Our catalog covers 33 verified massage chairs across 15 brands, priced from $1,249 to $14,499.
+          Our catalog spans a wide range of chairs across the major brands available in the U.S. market.
           Every chair in the catalog has been researched against manufacturer documentation and confirmed
           spec sources. Where a spec cannot be independently verified, we say so rather than guess.
         </p>
@@ -51,7 +52,7 @@ export default function AboutPage() {
           We take positions. When one chair is meaningfully better for a specific type of buyer, we say so.
           When a category claim is overstated by the industry, we note it. Our{' '}
           <Link href="/how-we-review" className="text-bronze hover:text-gold transition-colors">review methodology</Link>{' '}
-          is documented in full, including our testing disclosure and how we handle corrections.
+          is documented in full, including how we verify specifications and how we handle corrections.
         </p>
 
         <h2>Get in touch</h2>

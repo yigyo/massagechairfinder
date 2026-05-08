@@ -4,7 +4,7 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "How We Review Massage Chairs",
   description:
-    "How Massage Chair Finder selects chairs for its catalog, verifies specifications, and makes independent recommendations without retailer influence.",
+    "How Massage Chair Finder selects chairs for its catalog, verifies specifications, and makes independent recommendations.",
 }
 
 export default function HowWeReviewPage() {
@@ -24,8 +24,7 @@ export default function HowWeReviewPage() {
         <section>
           <h2 className="text-2xl font-serif font-semibold text-navy mb-3">Independence first</h2>
           <p className="text-charcoal leading-relaxed mb-3">
-            Massage Chair Finder is not owned by a brand, a retailer, or a manufacturer. No brand
-            has paid to appear in our catalog or to receive a favorable recommendation. No retailer
+            No brand has paid to appear in our catalog or to receive a favorable recommendation. No retailer
             has paid to rank higher in our comparisons. Our revenue comes from affiliate commissions,
             which we disclose fully on our{" "}
             <Link href="/disclosure" className="text-bronze hover:text-gold transition-colors">
@@ -34,10 +33,10 @@ export default function HowWeReviewPage() {
             .
           </p>
           <p className="text-charcoal leading-relaxed">
-            The affiliate model means we earn a small commission when you click a link and make a
-            purchase. That commission is the same regardless of which chair you buy. We have no
-            financial incentive to push you toward one model over another, and we do not prioritize
-            chairs that pay higher commissions in our recommendations.
+            The affiliate model means we earn a commission when you click a link and make a purchase.
+            Commission rates vary by retailer and chair. Our recommendations are based on which chair
+            is the strongest fit for the buyer's situation, not on which chair or retailer pays the
+            higher rate.
           </p>
         </section>
 
@@ -46,8 +45,7 @@ export default function HowWeReviewPage() {
           <p className="text-charcoal leading-relaxed mb-3">
             Every chair in the Massage Chair Finder catalog meets a baseline set of criteria before
             it is listed. The brand must have a documented U.S. presence with accessible support
-            and warranty terms. The chair must have a retail price in our covered range ($1,000 to
-            $20,000). Specification data must be verifiable from at least one primary source:
+            and warranty terms. Specification data must be verifiable from at least one primary source:
             manufacturer documentation or a retailer spec page.
           </p>
           <p className="text-charcoal leading-relaxed">
@@ -100,7 +98,7 @@ export default function HowWeReviewPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-serif font-semibold text-navy mb-3">How "best of" picks are chosen</h2>
+          <h2 className="text-2xl font-serif font-semibold text-navy mb-3">How "best for" picks are chosen</h2>
           <p className="text-charcoal leading-relaxed mb-3">
             Each "best for" collection page (Best for Lower Back Pain, Best for Tall Buyers, etc.)
             is built around a specific buyer situation. Picks are selected because they represent
@@ -112,17 +110,6 @@ export default function HowWeReviewPage() {
             is not forced to consider only premium options. If a meaningful distinction exists
             between picks (track type, roller depth, body fit range), we explain it clearly rather
             than listing chairs without context.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-serif font-semibold text-navy mb-3">Testing disclosure</h2>
-          <p className="text-charcoal leading-relaxed">
-            We disclose when a chair has not been personally tested by a Massage Chair Finder
-            reviewer. The majority of chairs in our catalog have been evaluated through
-            specification research, owner review analysis, and retailer documentation rather than
-            hands-on testing. Where personal test experience informs a recommendation, it is noted
-            on the relevant page.
           </p>
         </section>
 
