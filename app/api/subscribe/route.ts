@@ -1,9 +1,5 @@
+"use server"
 import { NextRequest, NextResponse } from "next/server"
-
-// Klaviyo subscription endpoint
-// Required env vars (add to .env.local):
-//   KLAVIYO_PRIVATE_KEY   -- your Klaviyo private API key
-//   KLAVIYO_LIST_ID       -- the list ID for the Buyer's Guide subscribers
 
 export async function POST(req: NextRequest) {
   try {
@@ -17,53 +13,64 @@ export async function POST(req: NextRequest) {
     const listId     = process.env.KLAVIYO_LIST_ID
 
     if (!privateKey || !listId) {
-      // Klaviyo not yet configured; log and return success in dev
-      console.warn("KLAVIYO_PRIVATE_KEY or KLAVIYO_LIST_ID not set in .env.local")
+      console.warn("KLAVIYO_PRIVATE_KEY or KLAVIYO_LIST_ID not set")
       return NextResponse.json({ success: true })
     }
 
-    const response = await fetch(
-      "https://a.klaviyo.com/api/profile-subscription-bulk-create-jobs/",
+    const headers = {
+      "Authorization": "Klaviyo-API-Key " + privateKey,
+      "Content-Type":  "application/json",
+      "revision":      "2024-10-15",
+    }
+
+    // Step 1: Create or update the profile
+    const profileRes = await fetch("https://a.klaviyo.com/api/profiles/", {
+      method: "POST",
+      headers,
+      body: JSON.stringify({
+        data: {
+          type: "profile",
+          attributes: { email },
+        },
+      }),
+    })
+
+    let profileId: string | null = null
+
+    if (profileRes.status === 201) {
+      const profileData = await profileRes.json()
+      profileId = profileData?.data?.id ?? null
+    } else if (profileRes.status === 409) {
+      // Profile already exists -- extract id from conflict response
+      const conflictData = await profileRes.json()
+      profileId = conflictData?.errors?.[0]?.meta?.duplicate_profile_id ?? null
+    } else {
+      const errBody = await profileRes.text()
+      console.error("Klaviyo create profile error:", profileRes.status, errBody)
+      return NextResponse.json({ error: "Subscription failed" }, { status: 500 })
+    }
+
+    if (!profileId) {
+      console.error("Could not resolve Klaviyo profile ID")
+      return NextResponse.json({ error: "Subscription failed" }, { status: 500 })
+    }
+
+    // Step 2: Add profile to list
+    const listRes = await fetch(
+      "https://a.klaviyo.com/api/lists/" + listId + "/relationships/profiles/",
       {
         method: "POST",
-        headers: {
-          "Authorization": "Klaviyo-API-Key " + privateKey,
-          "Content-Type":  "application/json",
-          "revision":      "2024-10-15",
-        },
+        headers,
         body: JSON.stringify({
-          data: {
-            type: "profile-subscription-bulk-create-job",
-            attributes: {
-              profiles: {
-                data: [
-                  {
-                    type: "profile",
-                    attributes: {
-                      email,
-                      subscriptions: {
-                        email: {
-                          marketing: { consent: "SUBSCRIBED" },
-                        },
-                      },
-                    },
-                  },
-                ],
-              },
-            },
-            relationships: {
-              list: {
-                data: { type: "list", id: listId },
-              },
-            },
-          },
+          data: [{ type: "profile", id: profileId }],
         }),
       }
     )
 
-    if (!response.ok) {
-      const errorBody = await response.text()
-      console.error("Klaviyo error:", response.status, errorBody)
+    // 204 = success, 200 = already a member -- both are fine
+    if (listRes.status !== 204 && listRes.status !== 200) {
+      const errBody = await listRes.text()
+      console.error("Klaviyo add to list error:", listRes.status, errBody)
       return NextResponse.json({ error: "Subscription failed" }, { status: 500 })
     }
 
