@@ -34,7 +34,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'infinity-imperial-syner-d': {
     label: 'Best Flex-track for tall buyers',
-    why: 'The Syner-D is confirmed for 5\'2" to 6\'6" with a tallConfirmed designation from the retailer, 300 lbs, 2-inch wall clearance. The Flex-track adjusts between SL and L-track coverage depending on the program, giving tall buyers with both upper and lower back pain the option to vary coverage range by session. 4D rollers, body scanning, 5-year warranty.',
+    why: 'The Syner-D is confirmed for 5\'2" to 6\'6" with a confirmed tall-buyer designation from the retailer, 300 lbs, 2-inch wall clearance. The Flex-track adjusts between SL and L-track coverage depending on the program, giving tall buyers with both upper and lower back pain the option to vary coverage range by session. 4D rollers, body scanning, 5-year warranty.',
   },
   'daiwa-legacy-4': {
     label: 'Best L-track range for tall buyers',
@@ -83,7 +83,7 @@ export default function BestTallPeoplePage() {
         Massage chairs list maximum height accommodations, but the spec sheet number does not always mean the chair delivers effective coverage at that height. A buyer at 6'3&quot; in a chair rated to 6'3&quot; may find the lumbar roller lands mid-back rather than at the true lumbar vertebrae. This page covers chairs with confirmed tall-buyer fit data, sourced from retailer pages rather than manufacturer marketing sheets.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated April 2026. All five chairs below are confirmed for buyers at 6'3&quot; or above, with tallConfirmed validation from retailer spec pages where noted.
+        Updated April 2026. All five chairs below are confirmed for buyers at 6'3&quot; or above, with retailer-confirmed height validation from spec pages where noted.
       </p>
 
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">

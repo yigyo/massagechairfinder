@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Affiliate Disclosure',
-  description: 'How MassageChairFinder makes money and how that affects our recommendations.',
+  description: 'How Massage Chair Finder makes money and how that affects our recommendations.',
 }
 
 export default function DisclosurePage() {
@@ -11,7 +11,7 @@ export default function DisclosurePage() {
       <h1 className="text-4xl font-serif mb-6">Affiliate Disclosure</h1>
       <div className="prose prose-lg max-w-none">
         <p>
-          MassageChairFinder participates in affiliate marketing programs. This means that when you click
+          Massage Chair Finder participates in affiliate marketing programs. This means that when you click
           a link to a retailer on this site and make a purchase, we may earn a commission — at no additional
           cost to you.
         </p>
