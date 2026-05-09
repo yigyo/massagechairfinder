@@ -26,8 +26,7 @@ export async function POST(req: NextRequest) {
       },
     })
 
-    const messageHtml = message.replace(/
-/g, "<br>")
+    const messageHtml = message.replace(/\n/g, "<br>")
 
     await transporter.sendMail({
       from: smtpUser,
