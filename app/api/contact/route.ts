@@ -1,6 +1,5 @@
-"use server"
 import { NextRequest, NextResponse } from "next/server"
-import { Resend } from "resend"
+import nodemailer from "nodemailer"
 
 export async function POST(req: NextRequest) {
   try {
@@ -10,39 +9,39 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "All fields are required." }, { status: 400 })
     }
 
-    if (!email.includes("@")) {
-      return NextResponse.json({ error: "Valid email required." }, { status: 400 })
-    }
+    const smtpUser = process.env.SMTP_USER
+    const smtpPass = process.env.SMTP_PASS
 
-    const apiKey = process.env.RESEND_API_KEY
-    if (!apiKey) {
-      console.error("RESEND_API_KEY is not set")
+    if (!smtpUser || !smtpPass) {
       return NextResponse.json({ error: "Server configuration error." }, { status: 500 })
     }
 
-    const resend = new Resend(apiKey)
+    const transporter = nodemailer.createTransport({
+      host: "smtp.gmail.com",
+      port: 587,
+      secure: false,
+      auth: {
+        user: smtpUser,
+        pass: smtpPass,
+      },
+    })
+
     const messageHtml = message.replace(/\n/g, "<br>")
 
-    const { error } = await resend.emails.send({
-      from: "Massage Chair Finder <noreply@massagechairfinder.com>",
-      to: ["support@massagechairfinder.com"],
+    await transporter.sendMail({
+      from: smtpUser,
+      to: smtpUser,
       replyTo: email,
       subject: "New contact form message from " + firstName + " " + lastName,
       html:
         "<p><strong>Name:</strong> " + firstName + " " + lastName + "</p>" +
         "<p><strong>Email:</strong> " + email + "</p>" +
-        "<p><strong>Message:</strong></p>" +
-        "<p>" + messageHtml + "</p>",
+        "<p><strong>Message:</strong><br>" + messageHtml + "</p>",
     })
-
-    if (error) {
-      console.error("Resend error:", error)
-      return NextResponse.json({ error: "Failed to send message. Please try again." }, { status: 500 })
-    }
 
     return NextResponse.json({ success: true })
   } catch (err) {
-    console.error("Contact route error:", err)
-    return NextResponse.json({ error: "Server error." }, { status: 500 })
+    console.error("SMTP error:", err)
+    return NextResponse.json({ error: "Failed to send message. Please try again." }, { status: 500 })
   }
 }
