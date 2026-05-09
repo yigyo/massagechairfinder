@@ -26,16 +26,17 @@ export async function POST(req: NextRequest) {
       },
     })
 
-    const messageHtml = message.replace(/\n/g, "<br>")
+    const messageHtml = message.replace(/
+/g, "<br>")
 
     await transporter.sendMail({
       from: smtpUser,
       to: "support@massagechairfinder.com",
       replyTo: email,
-      subject: "New contact form message from " + firstName + " " + lastName,
+      subject: "MCF Contact Form | " + firstName + " " + lastName,
       html:
+        "<p><strong>Reply to:</strong> <a href="mailto:" + email + "">" + email + "</a></p>" +
         "<p><strong>Name:</strong> " + firstName + " " + lastName + "</p>" +
-        "<p><strong>Email:</strong> " + email + "</p>" +
         "<p><strong>Message:</strong><br>" + messageHtml + "</p>",
     })
 
