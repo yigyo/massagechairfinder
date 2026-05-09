@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   description:
     'Independent guidance and honest comparisons to help you find the massage chair that fits your body, your space, and your budget.',
   metadataBase: new URL('https://massagechairfinder.com'),
+  openGraph: {
+    siteName: 'Massage Chair Finder',
+  },
 }
 
 const siteSchema = JSON.stringify({
