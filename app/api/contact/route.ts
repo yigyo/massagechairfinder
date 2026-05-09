@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
       replyTo: email,
       subject: "MCF Contact Form | " + firstName + " " + lastName,
       html:
-        "<p><strong>Reply to:</strong> <a href="mailto:" + email + "">" + email + "</a></p>" +
+        "<p><strong>Reply to:</strong> <a href=\"mailto:" + email + "\">" + email + "</a></p>" +
         "<p><strong>Name:</strong> " + firstName + " " + lastName + "</p>" +
         "<p><strong>Message:</strong><br>" + messageHtml + "</p>",
     })
