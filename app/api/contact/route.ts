@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
 
     await transporter.sendMail({
       from: smtpUser,
-      to: smtpUser,
+      to: "support@massagechairfinder.com",
       replyTo: email,
       subject: "New contact form message from " + firstName + " " + lastName,
       html:
