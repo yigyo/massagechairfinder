@@ -414,6 +414,27 @@ export const CHAIRS: Chair[] = [
     tallConfirmed: true, plusSizeConfirmed: true,
     aiNotes: 'Flex-Track (SL+L hybrid). Best tall+space-saving chair, confirmed to 6\'6". 5-year warranty. Verified from massagechairstore.com April 2026.',
   },
+  {
+    id: 'infinity-circadian-4d-dualflex',
+    name: 'Infinity Circadian 4D DualFlex',
+    brand: 'Infinity',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 16999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'massagechairstore.com',
+    affiliateCommission: '$200 per sale (home grown)',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://massagechairstore.com/infinity-circadian-4d-dualflex-massage-chair/',
+    imageUrl: 'https://massagechairstore.com/wp-content/uploads/2025/10/circadian-dualflex-1000x1000-R-profile.png',
+    goodwinLookupKey: 'infinity circadian',
+    track: 'Flex', roller: '4D', trackLengthIn: 49,
+    zeroGravity: true, zeroGravityStages: 2,
+    heat: true, foot: true, calf: true,
+    spaceSaving: true,
+    aiScanning: true,
+    aiNotes: 'Syner-D dual back mechanism. 49 inch Flex-Track combining L and S-Track benefits, spinal decompression. Triple foot rollers per foot (Total Sole Reflexology). Complete Calf kneading and oscillation. Shiatsu arm rollers. Harman/Kardon premium audio. Wireless charging and USB-C. Touch screen tablet, voice control, health sensor (HR, SpO2, fatigue). TrueFit body scanning. Zero Wall Fit space-saving. Zero gravity inferred from product imagery (ZG1 and ZG2 image variants), confirm stages on next manual review. Weight capacity and height range not stated on page. Verified from massagechairstore.com May 2026.',
+  },
+
 
   // ── HUMAN TOUCH ────────────────────────────────────────────────────────────
 
@@ -440,6 +461,25 @@ export const CHAIRS: Chair[] = [
     reviewSource:      "humantouch.com",
         aiNotes: 'VIBRATION ONLY — not a roller chair. Always disclose this. Only recommend to buyers who cannot tolerate roller pressure. Never recommend to buyers seeking deep tissue or firm massage.',
   },
+  {
+    id: 'human-touch-super-novo-3',
+    name: 'Human Touch Super Novo 3.0',
+    brand: 'Human Touch',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 11999,
+    affiliateTier: 'B',
+    affiliateRetailer: 'humantouch.com',
+    affiliateCommission: '3-8% (Awin)',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://www.humantouch.com/products/super-novo-3-0-massage-chair',
+    imageUrl: 'https://cdn.shopify.com/s/files/1/0672/3167/8641/files/super-novo-30-massage-chair-8649163.jpg',
+    goodwinLookupKey: 'human touch super novo',
+    track: 'SL', roller: '4D',
+    heat: true, calf: true, stretch: true,
+    aiScanning: true,
+    aiNotes: 'HT Flex S- and L-Track. DuoSync dual-quad roller system, 3D and 4D programs. Heated foot and calf, dual-lumbar heat. HT Flex full-body stretch. Rapid Acupoint body sensing. Touchscreen controller. Memory and AI-generated programs (Ascent Series flagship). White Glove delivery NOT included ($499 add-on). Zero gravity not explicitly named on product page, needs verification. Foot rollers not confirmed; chair lists heated foot and calf massager without specifying roller mechanism. Weight capacity and height range not on page. Verified from humantouch.com May 2026.',
+  },
+
 
   // ── LURACO ─────────────────────────────────────────────────────────────────
 
@@ -783,6 +823,27 @@ export const CHAIRS: Chair[] = [
     aiScanning: true,
     aiNotes: 'L-Track 49". 4D roller. 300 lb capacity. Space-saving 2" clearance. TrueFit body scanning. Verified from massagechairwarehouse.com 2026-05-01.',
   },
+  {
+    id: 'kyota-konbi-m728-dualpro-4d',
+    name: 'Kyota Konbi M728 DualPro 4D',
+    brand: 'Kyota',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 7999,
+    affiliateTier: 'A',
+    affiliateRetailer: 'massagechairstore.com',
+    affiliateCommission: '$200 per sale (home grown)',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://massagechairstore.com/kyota-konbi-m728-dualpro-4d-massage-chair/',
+    imageUrl: 'https://massagechairstore.com/wp-content/uploads/2026/03/kyota_konbi_beige_right_hero_1000-x-1000.jpg',
+    goodwinLookupKey: 'kyota konbi',
+    track: 'L', roller: '4D',
+    zeroGravity: true,
+    heat: true, foot: true, calf: true, stretch: true,
+    spaceSaving: true,
+    aiScanning: true,
+    aiNotes: 'Dual back 4D mechanisms. L-track. Zero Wall Fit space-saving. TrueFit body scanning. 12 auto programs incl. full-body stretch. 8 inch touch screen tablet. Bluetooth speakers, voice control, on-board health sensor (heart rate, blood oxygen, fatigue). Lumbar cooling feature in addition to back and feet heat. Verified from massagechairstore.com May 2026. Weight capacity and height range not stated on product page, flag for follow-up.',
+  },
+
 
   // ── BODYFRIEND ─────────────────────────────────────────────────────────────
 
