@@ -3,7 +3,13 @@
   "blocklist_domains": [
     "emassagechair.com",
     "inada.net",
-    "inada.com"
+    "inada.com",
+    "consumerreports.org",
+    "garagegymreviews.com",
+    "massagechairadvisor.com",
+    "bestmassagechair.com",
+    "themodestmom.com",
+    "wirecutter.com"
   ],
   "google_news": {
     "_comment": "Free unauthenticated RSS. Base: https://news.google.com/rss/search?q=QUERY&hl=en-US&gl=US&ceid=US:en",
