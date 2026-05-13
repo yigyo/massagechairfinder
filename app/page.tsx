@@ -20,8 +20,7 @@ export default async function HomePage() {
           src="/hero.webp"
           alt=""
           aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover"
-          style={{ objectPosition: '50% 50%' }}
+          className="absolute inset-0 w-full h-full object-cover object-center md:object-[center_15%]"
         />
         {/* Desktop gradient: dark right panel for text (hidden on mobile) */}
         <div className="absolute inset-0 hidden md:block" style={{
