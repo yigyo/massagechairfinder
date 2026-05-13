@@ -473,6 +473,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'none',
     affiliateUrl: 'https://www.humantouch.com/products/super-novo-3-0-massage-chair',
     imageUrl: 'https://cdn.shopify.com/s/files/1/0672/3167/8641/files/super-novo-30-massage-chair-8649163.jpg',
+    imageWhiteBg: false,
     goodwinLookupKey: 'human touch super novo',
     track: 'SL', roller: '4D',
     heat: true, calf: true, stretch: true,
