@@ -5,6 +5,7 @@ slug: /news/massage-chair-news-may-11-2026
 category: news
 date: 2026-05-11
 lastModified: 2026-05-11
+published: true
 ---
 
 The biggest story in the massage chair category this week has nothing to do with a new chair. [Luraco](/brands/luraco), the only U.S.-based manufacturer of medical massage chairs, announced it has achieved Medicare approval, Durable Medical Equipment (DME) licensing, and FDA registration simultaneously, a regulatory milestone that could meaningfully change how buyers with qualifying conditions pay for a high-end chair. On the new-product side, [Kyota](/brands/kyota) launched the [Konbi M728 DualPro 4D](/chairs/kyota-konbi-m728-dualpro-4d) at $7,999, and [Human Touch](/brands/human-touch) made the [Super Novo 3.0](/chairs/human-touch-super-novo-3) available at $11,999, giving buyers in the upper-mid and premium tiers two new options to evaluate.
