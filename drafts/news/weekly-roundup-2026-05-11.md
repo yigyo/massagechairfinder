@@ -29,17 +29,11 @@ What does this mean in practice? DME licensing means a product has met federal s
 
 Luraco has positioned itself as the only American manufacturer of medical massage chairs, and this milestone reinforces that distinction. No other brand in the Massage Chair Finder (MCF) review range, including [Infinity](/brands/infinity), [Osaki](/brands/osaki), or [Human Touch](/brands/human-touch), holds this combination of designations at this time.
 
-**Ceragem Advances ISO/IEC Connectivity Standard**
-
-[Ceragem](/brands/ceragem), the Korean manufacturer with a significant commercial and retail footprint, published an ISO/IEC technical report aimed at standardizing how home healthcare devices connect and communicate with one another. This is an industry-level move rather than a product announcement, but it matters for buyers thinking about long-term investment. If the category moves toward connected wellness ecosystems, where your massage chair, sleep tracker, and physical therapy tools share data, Ceragem is positioning itself to be at the center of that infrastructure. No specific new chair model was announced, and U.S. availability of Ceragem’s connected products remains limited.
-
-Ceragem also disclosed that it is applying edge AI to its medical devices, drawing on data collected from in-store experience centers to improve platform performance. This is the direction the premium market is heading, but practical buyer impact in the U.S. is still a few product cycles away.
-
 ## Brand News
 
 **Ceragem Secret Garden Limited Edition**
 
-Ceragem unveiled a limited-edition massage chair called Secret Garden, created in collaboration with Korean artist Seo Ho-sung. This is a design and aesthetic differentiator aimed at the premium gifting and interior design market rather than a new technology platform. No U.S. availability has been announced.
+[Ceragem](/brands/ceragem) unveiled a limited-edition massage chair called Secret Garden, created in collaboration with Korean artist Seo Ho-sung. This is a design and aesthetic differentiator aimed at the premium gifting and interior design market rather than a new technology platform. No U.S. availability has been announced.
 
 ## Worth Reading
 
