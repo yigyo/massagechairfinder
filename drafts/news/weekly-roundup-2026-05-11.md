@@ -37,10 +37,6 @@ Ceragem also disclosed that it is applying edge AI to its medical devices, drawi
 
 ## Brand News
 
-**Ceragem Closes West Hollywood Location**
-
-Ceragem has closed its West Hollywood retail location after nearly three years of operation. For buyers in Southern California who relied on that showroom to try a chair before purchasing, this is a practical loss. Ceragem’s retail footprint in the U.S. has never been dense, and this closure narrows the in-person trial options for West Coast shoppers further. If you are evaluating a chair in the $3,000-plus range, we continue to recommend finding a way to sit in the chair before buying. Use our [Chair Finder](/finder) to identify retailers near you with floor models.
-
 **Ceragem Secret Garden Limited Edition**
 
 Ceragem unveiled a limited-edition massage chair called Secret Garden, created in collaboration with Korean artist Seo Ho-sung. This is a design and aesthetic differentiator aimed at the premium gifting and interior design market rather than a new technology platform. No U.S. availability has been announced.
@@ -49,7 +45,7 @@ Ceragem unveiled a limited-edition massage chair called Secret Garden, created i
 
 **Infinity Circadian DualFlex Named International Business Times 2026 Editor’s Pick**
 
-The [Infinity Circadian DualFlex earned the International Business Times 2026 Editor’s Pick for Best Massage Chair](https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNll2UGlBSFBtRG5lQlY4bjNjYUhSQlFOSFhFUy13dHNINDdEZjBUVklGeS0zclNfYm1OaFVveFlONnA0MFFTUVZS3Nsb3pUOExZWDFrNFFOdDBDSmllOWNwdmI2RFlVTUh4aVFjM2txYklHMkJaYm5qQWltMUt3V3lyZ3NTS0RUTW5keTNyZ3dUdGtKMXlFdGZyVzVQNG1OR1dkbUJRTVdSQVBfR0NKNTZQWlo1VnRsVmNRNDRXOXFVWVpRNEtGS1U1X0JGa190cl9HU1R3VDItLUFNYkNJOUpvVkVUSWNWLVZiRHlR). The [Circadian DualFlex](/chairs/infinity-circadian-4d-dualflex) is listed at $16,999, putting it at the high end of the Infinity lineup. Its standout feature is a 49-inch Flex-Track that combines L-track coverage with S-track depth for spinal decompression, paired with Syner-D dual back 4D mechanisms, triple foot rollers per foot, Complete Calf kneading and oscillation, and Harman/Kardon premium audio. The IBT recognition is third-party validation worth noting, though awards from media outlets vary considerably in their testing rigor. The chair is [available at Massage Chair Store](https://massagechairstore.com/infinity-circadian-4d-dualflex-massage-chair/).
+The [Infinity Circadian DualFlex earned the International Business Times 2026 Editor’s Pick for Best Massage Chair](https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNll2UGlBSFBtRG5lQlY4bjNjYUhSQlFOSFhFUy13dHNINDdEZjBUVklGeS0zclNfYm1OaFVveFlONnA0MFFTUVZS3Nsb3pUOExZWDFrNFFOdDBDSmllOWNwdmI2RFlVTUh4aVFjM2txYklHMkJaYm5qQWltMUt3V3lyZ3NTS0RUTW5keTNyZ3dUdGtKMXlFdGZyVzVQNG1OR1dkbUJRTVdSQVBfR0NKNTZQWlo1VnRsVmNRNDRXOXFVWVpRNEtGS1U1X0JGa190cl9HU1R3VDItLUFNYkNJOUpvVkVUSWNWLVZiRHlR). The [Circadian DualFlex](/chairs/infinity-circadian-4d-dualflex) is listed at $16,999, putting it at the high end of the Infinity lineup. Its standout feature is a 49-inch Flex-Track that combines L-track coverage with S-track depth for spinal decompression, paired with Syner-D dual back 4D mechanisms, triple foot rollers per foot, Complete Calf kneading and oscillation, and Harman/Kardon premium audio. The IBT recognition is third-party validation worth noting, though awards from media outlets vary considerably in their testing rigor.
 
 ## What We Are Watching
 
