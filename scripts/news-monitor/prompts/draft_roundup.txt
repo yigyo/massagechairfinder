@@ -129,6 +129,28 @@ our [Brand] page for more." Make the link part of a sentence, not a closing tag.
 
 ---
 
+## AFFILIATE LINK RULE
+
+Do not link out to affiliate retailers from inside the article body. The chair pages on
+the site (/chairs/[slug]) handle the retailer handoff via each chair's stored affiliate
+URL. If a chair appears in the catalog, link to its internal chair page only, never to
+the retailer.
+
+If a chair is mentioned that is not yet in the catalog, name the brand and chair without
+a link rather than linking to a retailer inline. The post-write reviewer will decide
+whether to add it to the catalog before publishing.
+
+Domains covered by this rule include all external retailer domains: massagechairstore.com,
+massagechairheaven.com, humantouch.com, primemassagechairs.com, syncamassagechair.com,
+osakimassagechair.com, massagechairwarehouse.com, recovathlete.com, relaxonchair.com,
+relaxe.co, massagechairdeals.com, massagechairs.com, massagechairplanet.com,
+bedplanet.com, costway.com, topture.com, and any other site whose primary business is
+selling massage chairs. Third-party news outlets (CNET, NYT, WSJ, Forbes, International
+Business Times, etc.) are not affiliate retailers and may still be linked for award and
+review attribution.
+
+---
+
 ## STORY INPUT FORMAT
 
 You will receive stories in this format:
