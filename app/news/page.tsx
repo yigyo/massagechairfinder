@@ -3,7 +3,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title:       "Massage Chair News | Massage Chair Finder",
+  title:       "Massage Chair News",
   description: "Weekly news from the massage chair category. New chair launches, brand announcements, third-party reviews, and the regulatory developments that matter to buyers.",
 }
 

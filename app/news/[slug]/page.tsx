@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const article = getNewsArticle(params.slug)
   if (!article) return {}
   return {
-    title:       article.title + " | Massage Chair Finder",
+    title:       article.title,
     description: article.metaDescription,
   }
 }

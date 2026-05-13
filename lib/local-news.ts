@@ -5,6 +5,12 @@ import { marked } from "marked"
 
 const NEWS_DIR = path.join(process.cwd(), "drafts/news")
 
+function normalizeDate(v: unknown): string {
+  if (typeof v === "string") return v
+  if (v instanceof Date) return v.toISOString().slice(0, 10)
+  return ""
+}
+
 export interface NewsArticle {
   slug:            string
   title:           string
@@ -43,8 +49,8 @@ export function getPublishedNews(): NewsArticle[] {
     articles.push({
       slug:            extractSlug(typeof data.slug === "string" ? data.slug : "", filename),
       title:           typeof data.title === "string" ? data.title : filename,
-      date:            typeof data.date === "string" ? data.date : "",
-      lastModified:    typeof data.lastModified === "string" ? data.lastModified : (typeof data.date === "string" ? data.date : ""),
+      date:            normalizeDate(data.date),
+      lastModified:    normalizeDate(data.lastModified) || normalizeDate(data.date),
       metaDescription: typeof data.meta_description === "string" ? data.meta_description : "",
       bodyHtml:        marked.parse(parsed.content, { async: false }) as string,
       category:        typeof data.category === "string" ? data.category : "news",
