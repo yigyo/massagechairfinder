@@ -4,25 +4,22 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Massage Chair Brands Compared | MassageChairFinder',
-  description: 'Who makes what — Osaki, Infinity, Luraco, Inada, Kahuna, and more. What each brand actually stands for at different price points.',
+  description: 'Osaki, Infinity, Luraco, Kahuna, and more -- who manufactures their own chairs, who imports, and what that means for price and warranty.',
 }
 
 export default function BrandsPage() {
-  const brands = LOCAL_BRANDS
-
-  // Group into price tiers for scannability
-  const under5k = brands.filter(b => {
-    const max = parseInt(b.priceRange.replace(/[^0-9,]/g, '').split(',').pop() || '0')
-    return parseInt(b.priceRange.replace(/[^0-9]/g, '').slice(0, 5)) < 5000
-  })
+  const brands = [...LOCAL_BRANDS].sort((a, b) =>
+    a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+  )
 
   return (
     <div className="section" style={{ maxWidth: '900px' }}>
       <h1 className="text-4xl font-serif mb-3">Massage Chair Brands</h1>
       <p className="text-warm-gray mb-10 max-w-2xl">
-        We cover {brands.length} massage chair brands in this catalog. Some share manufacturing
-        facilities under different names. Others have decades of independent engineering behind them.
-        Here is what each brand actually stands for.
+        Massage chair brands vary more than most buyers expect. Some are importers sourcing from
+        shared manufacturing facilities. Others are independent engineering companies that have
+        spent decades developing their own roller mechanisms and body-scan technology. The
+        distinction matters when you are comparing price tags and warranty terms.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -45,9 +42,9 @@ export default function BrandsPage() {
 
       <div className="mt-10 pt-8 border-t border-sand text-sm text-warm-gray">
         <p>
-          For a deeper comparison of what each brand actually stands for, read the{' '}
+          For a closer look at how these brands compare at different price points, read the{' '}
           <Link href="/learn/brands-overview" className="text-bronze hover:text-gold">brands overview guide</Link>.
-          Or use the <Link href="/finder" className="text-bronze hover:text-gold">chair finder quiz</Link> to
+          Or use the <Link href="/finder" className="text-bronze hover:text-gold">chair finder</Link> to
           narrow down by your pain profile, budget, and room constraints.
         </p>
       </div>
