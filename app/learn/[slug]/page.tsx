@@ -124,7 +124,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           </Link>
         </div>
         <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: '#2E7D6F' }}>
-          Buying Guide
+          Learning Center
         </p>
         <h1 className="text-4xl font-serif mb-4">{article.title}</h1>
         {article.excerpt && (

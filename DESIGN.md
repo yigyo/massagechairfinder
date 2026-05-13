@@ -233,7 +233,7 @@ A small all-caps teal label sitting directly above the page H1 on interior pages
 </p>
 <h1 className="text-4xl font-serif mb-4">{title}</h1>
 ```
-- Used on `/learn/[slug]` (eyebrow text: "Buying Guide"), `/brands/[slug]` (eyebrow text: "Brand"), and may be extended to `/best/[slug]` and `/compare/[slug]` in v2
+- Used on `/learn/[slug]` (eyebrow text: "Learning Center"), `/brands/[slug]` (eyebrow text: "Brand"), and may be extended to `/best/[slug]` and `/compare/[slug]` in v2
 - Sits between any back-link and the H1
 - Teal color matches the editorial categorization role (you are HERE in section X)
 - Homepage hero does NOT use a page eyebrow. The hero is the brand statement.
@@ -381,4 +381,15 @@ A separate `image-direction-mcf/SKILL.md` file in `eComm/skills/` will govern AI
 
 | Date | Decision | Reason |
 |---|---|---|
-| 2026-05 | All callout/verdict cards standardized to gold tint full-border | Impecca
+| 2026-05 | All callout/verdict cards standardized to gold tint full-border | Impeccable: side-tab is #1 AI-slop tell |
+| 2026-05 | Progress bar switched to `transform: scaleX()` | Impeccable: `transition: width` causes layout thrash |
+| 2026-05 | Brand-v2 color experiment aborted | Blue palette felt wrong for editorial positioning, broke photo hero |
+| 2026-05 | Horizontal logo lockup deployed | SVG magnifying glass looked like a search button |
+| 2026-05 | "Finder" in logo set to Teal, not Gold | Teal fits navigation/compass semantic, differentiates from Goodwin |
+| 2026-05 | Hero `objectPosition` changed to `50% 50%` | `50% 30%` showed too much ceiling on mobile portrait |
+| 2026-05 | Split desktop/mobile hero gradients | Single gradient could not serve both orientations well |
+| 2026-05 | Section rebrand: "Buying Guide" became "Learn" in nav, full section name is "Learning Center" | Cleaner nav label; section URL is `/learn`; full editorial name is "Learning Center" used in eyebrows and breadcrumbs |
+| 2026-05 | Hero secondary CTA shortened to "Explore the Guide" | "Explore the Learning Center" wrapped to two lines on mobile |
+| 2026-05-09 | Reviewed taste-skill repo (Leonxlnx/taste-skill on GitHub), pulled selective additions | Added: viewport primitives (`min-h-[100dvh]`, grid-over-flex-math), tactile states (`active:scale-[0.98]`, hover easing), card-row alignment (`mt-auto`), shared-baseline rule for compare columns, `text-wrap: balance/pretty`, `font-variant-numeric: tabular-nums`, scroll-entry motion pattern, staggered cascade, three new banned patterns. Skipped: font swaps (locked on Noto Serif and IBM Plex), anti-3-column rule (compare and brand catalog need 3 cols), bento/magnetic/glass patterns (wrong genre for editorial trust). Reason: taste-skill defaults at MOTION_INTENSITY 6 and DESIGN_VARIANCE 8 fit SaaS-flash sites; MCF calibrates closer to motion 2 and variance 3. Image-direction skill noted as follow-up deliverable. |
+| 2026-05-10 | Teal accent rolled out more broadly across pages | Three coordinated additions: (1) new "Page eyebrow" pattern on /learn and /brands templates (small all-caps teal label above H1, signals page section), (2) new "Expert note" callout pattern in teal (joins Quick Take in gold and Warning in terra to complete the callout vocabulary), (3) Chair Finder callout eyebrows recolored from warm-gray to teal in 13 compare pages, plus a teal hairline rule above the Footer's legal section. Rationale: teal had a strong identity role in the logo but was visually absent from most interior pages. Each addition keeps teal in its established semantic (identity, wellness/expert, pairing, Chair Finder), so the system stays coherent. Page eyebrow on /best and /compare H1s deferred to v2 since those are individual page files (30+ edits). |
+| 2026-05-12 | Page eyebrow text on /learn corrected from "Buying Guide" to "Learning Center" | Aligned the eyebrow with the section's actual rebranded name. Caught by Yigyo on visual review of /learn/4d-vs-3d-massage-chair-rollers. |
