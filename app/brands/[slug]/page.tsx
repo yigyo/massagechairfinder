@@ -53,6 +53,9 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
         </Link>
       </div>
 
+      <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: '#2E7D6F' }}>
+        Brand
+      </p>
       <h1 className="text-4xl font-serif mb-3">{brand.name} Massage Chairs</h1>
       <p className="text-warm-gray text-lg mb-6">{brand.tagline}</p>
 
@@ -135,10 +138,4 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
         <Link href="/finder" className="text-bronze hover:text-gold font-medium">
           Not sure {brand.name} is right for you? Use the Chair Finder &rarr;
         </Link>
-        <Link href="/learn/brands-overview" className="text-bronze hover:text-gold font-medium">
-          Compare all brands &rarr;
-        </Link>
-      </div>
-    </div>
-  )
-}
+        <Link href="/learn/brands-overview" classNa

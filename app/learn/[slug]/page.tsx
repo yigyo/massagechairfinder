@@ -123,6 +123,9 @@ export default async function ArticlePage({ params }: { params: { slug: string }
             &larr; Learn
           </Link>
         </div>
+        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: '#2E7D6F' }}>
+          Buying Guide
+        </p>
         <h1 className="text-4xl font-serif mb-4">{article.title}</h1>
         {article.excerpt && (
           <div className="mb-8 rounded-lg px-5 py-4" style={{ background: 'rgba(209,128,62,0.06)', border: '1px solid rgba(209,128,62,0.25)' }}>
@@ -172,12 +175,4 @@ export default async function ArticlePage({ params }: { params: { slug: string }
             {next && (
               <Link href={`/learn/${next.slug}`} className="text-bronze hover:text-gold group">
                 <span className="block text-warm-gray text-xs mb-1">Next &rarr;</span>
-                <span className="group-hover:underline">{next.title.split(':')[0]}</span>
-              </Link>
-            )}
-          </div>
-        </nav>
-      </div>
-    </>
-  )
-}
+                <span className="group-hover:

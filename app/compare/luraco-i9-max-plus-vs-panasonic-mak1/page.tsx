@@ -58,8 +58,8 @@ export default function LuracoVsMAK1Page() {
         </div>
       </div>
 
-      <div className="card mb-10" style={{ borderLeft: '4px solid #D1803E' }}>
-        <h2 className="text-lg font-serif font-semibold text-navy mb-2">Quick verdict</h2>
+      <div className="mb-10 rounded-lg p-5" style={{ background: 'rgba(209,128,62,0.06)', border: '1px solid rgba(209,128,62,0.25)' }}>
+        <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#D1803E' }}>Quick verdict</p>
         <p className="text-charcoal">
           The <strong>Luraco i9 Max Plus</strong> is the stronger all-around chair for most buyers.
           It costs $1,000 less, covers a wider body size range, includes zero gravity and L-track
@@ -208,7 +208,7 @@ export default function LuracoVsMAK1Page() {
       </p>
 
       <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
-        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
+        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#2E7D6F' }}>Chair Finder</p>
         <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
         <p className="text-charcoal text-sm mb-4">
           Answer a few questions about your body, pain profile, and budget. The Chair Finder

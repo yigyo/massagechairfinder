@@ -146,7 +146,7 @@ export default function ComparePage() {
       </div>
 
       <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
-        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#6B6B65' }}>Chair Finder</p>
+        <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#2E7D6F' }}>Chair Finder</p>
         <h2 className="text-xl font-serif text-navy mb-2">Not sure which is right for you?</h2>
         <p className="text-charcoal text-sm mb-4">
           Answer a few questions about your body, pain profile, and budget. The Chair Finder
