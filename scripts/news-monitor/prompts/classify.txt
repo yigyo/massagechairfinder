@@ -52,7 +52,22 @@ story and decide what content action it should trigger.
    automatically. The competitor_analysis category exists only for internal strategy
    awareness and never produces content.
 
-9. BRAND DEDUPLICATION: If two or more stories cover the same chair model launch or announcement
+9. SHIPPING-PRODUCT RULE FOR TECHNOLOGY NEWS: technology_news only generates
+   content if the technology is available in a specific named chair model that a U.S.
+   buyer can purchase today. Coverage of industry standards bodies (ISO/IEC, IEEE),
+   R&D announcements, white papers, prototypes, patent filings, research
+   collaborations, or "the direction the market is heading" stories without a named
+   shipping product MUST be content_action=skip. Future-tech and vaporware do not help
+   buyers make decisions in this purchase cycle.
+
+   Examples that PASS: A new roller type appearing in a named, in-stock catalog chair.
+   A body-scanning algorithm shipping in a specific model available now.
+
+   Examples that FAIL (skip): ISO/IEC technical reports without a product. "Brand X is
+   working on edge AI" without a shipping chair using it. Prototype unveilings without
+   retail availability.
+
+10. BRAND DEDUPLICATION: If two or more stories cover the same chair model launch or announcement
    from the same brand, assign "draft_individual_article" to AT MOST ONE (the highest-scored).
    Assign the rest "include_in_roundup" with draft_angle noting it is a duplicate angle.
 
