@@ -138,4 +138,10 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
         <Link href="/finder" className="text-bronze hover:text-gold font-medium">
           Not sure {brand.name} is right for you? Use the Chair Finder &rarr;
         </Link>
-        <Link href="/learn/brands-overview" classNa
+        <Link href="/learn/brands-overview" className="text-bronze hover:text-gold font-medium">
+          Compare all brands &rarr;
+        </Link>
+      </div>
+    </div>
+  )
+}

@@ -175,4 +175,12 @@ export default async function ArticlePage({ params }: { params: { slug: string }
             {next && (
               <Link href={`/learn/${next.slug}`} className="text-bronze hover:text-gold group">
                 <span className="block text-warm-gray text-xs mb-1">Next &rarr;</span>
-                <span className="group-hover:
+                <span className="group-hover:underline">{next.title.split(':')[0]}</span>
+              </Link>
+            )}
+          </div>
+        </nav>
+      </div>
+    </>
+  )
+}
