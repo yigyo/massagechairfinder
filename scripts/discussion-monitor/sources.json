@@ -1,59 +1,66 @@
 {
-  "_comment": "MCF Discussion Monitor -- sources config. Reddit uses free JSON API, YouTube uses Data API v3.",
+  "_comment": "MCF Discussion Monitor -- sources config. Reddit uses RSS feeds (datacenter-safe), YouTube uses Data API v3.",
   "reddit": {
-    "_comment": "Subreddits to monitor for massage chair buyer discussions.",
+    "_comment": "Reddit RSS feeds -- no auth required, works from GitHub Actions. Pattern: /r/{sub}/new/.rss",
     "subreddits": [
       {
         "name": "MassageChairs",
         "label": "r/MassageChairs",
-        "sort": [
+        "rss_sorts": [
           "new",
           "top"
         ],
-        "limit": 100
+        "top_time": "month",
+        "limit": 25,
+        "skip_relevance_filter": true
       },
       {
         "name": "backpain",
         "label": "r/backpain",
-        "sort": [
+        "rss_sorts": [
           "new"
         ],
-        "limit": 100
+        "limit": 25,
+        "skip_relevance_filter": false
       },
       {
         "name": "ChronicPain",
         "label": "r/ChronicPain",
-        "sort": [
+        "rss_sorts": [
           "new"
         ],
-        "limit": 100
+        "limit": 25,
+        "skip_relevance_filter": false
       },
       {
         "name": "massage",
         "label": "r/massage",
-        "sort": [
+        "rss_sorts": [
           "new"
         ],
-        "limit": 50
+        "limit": 25,
+        "skip_relevance_filter": false
       },
       {
         "name": "sciatica",
         "label": "r/sciatica",
-        "sort": [
+        "rss_sorts": [
           "new"
         ],
-        "limit": 50
+        "limit": 25,
+        "skip_relevance_filter": false
       },
       {
         "name": "Fibromyalgia",
         "label": "r/Fibromyalgia",
-        "sort": [
+        "rss_sorts": [
           "new"
         ],
-        "limit": 50
+        "limit": 25,
+        "skip_relevance_filter": false
       }
     ],
-    "search_queries": [
+    "search_rss": [
       {
         "q": "massage chair",
         "label": "reddit:massage chair",
@@ -73,36 +80,55 @@
         "time": "month"
       },
       {
-        "q": "back pain chair",
+        "q": "back pain massage chair",
         "label": "reddit:back pain chair",
         "sort": "new",
         "time": "month"
       }
     ],
-    "min_comment_count": 1,
     "request_delay_seconds": 2
   },
   "youtube": {
-    "_comment": "Search terms to find recent massage chair review videos via YouTube Data API v3.",
+    "_comment": "Specific queries targeting dedicated massage chair content. Avoid generic terms that catch gaming/office chairs.",
     "search_queries": [
       {
-        "q": "massage chair review 2025",
-        "label": "yt:review 2025",
+        "q": "massage chair review",
+        "label": "yt:review",
         "max_results": 10
       },
       {
-        "q": "best massage chair",
-        "label": "yt:best chairs",
+        "q": "massage chair review 2026",
+        "label": "yt:review 2026",
         "max_results": 10
       },
       {
-        "q": "massage chair worth it",
-        "label": "yt:worth it",
-        "max_results": 5
+        "q": "shiatsu massage chair review",
+        "label": "yt:shiatsu",
+        "max_results": 8
+      },
+      {
+        "q": "zero gravity massage chair review",
+        "label": "yt:zero gravity",
+        "max_results": 8
       },
       {
         "q": "massage chair back pain relief",
-        "label": "yt:back pain relief",
+        "label": "yt:back pain",
+        "max_results": 8
+      },
+      {
+        "q": "massage chair worth buying",
+        "label": "yt:worth buying",
+        "max_results": 5
+      },
+      {
+        "q": "osaki massage chair review",
+        "label": "yt:osaki",
+        "max_results": 5
+      },
+      {
+        "q": "human touch massage chair review",
+        "label": "yt:human touch",
         "max_results": 5
       }
     ],
@@ -112,7 +138,7 @@
     "request_delay_seconds": 1
   },
   "relevance_filter": {
-    "_comment": "At least one of these terms must appear in a post title or body to pass the filter.",
+    "_comment": "At least one of these terms must appear in a post title or body to pass the filter (unless skip_relevance_filter is true for that source).",
     "required_terms": [
       "massage chair",
       "massage chairs",
@@ -120,10 +146,6 @@
       "zero gravity chair",
       "shiatsu chair",
       "recliner massager",
-      "back pain",
-      "lower back",
-      "sciatica",
-      "neck pain",
       "osaki",
       "human touch",
       "daiwa",
@@ -133,7 +155,10 @@
       "luraco",
       "synca",
       "panasonic massage",
-      "ogawa"
+      "ogawa",
+      "back massager",
+      "chair massage",
+      "massage recliner"
     ]
   },
   "blocklist_domains": [

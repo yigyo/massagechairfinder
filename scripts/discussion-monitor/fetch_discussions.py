@@ -3,8 +3,8 @@
 fetch_discussions.py
 MCF Discussion Monitor -- Step 1: Fetch buyer discussions from Reddit and YouTube.
 
-Pulls Reddit threads from targeted subreddits + search, and YouTube comments
-from recent massage chair review videos found via the YouTube Data API v3.
+Reddit: Uses RSS feeds (works from GitHub Actions datacenter IPs).
+YouTube: Uses Data API v3 to search for recent chair review videos and fetch comments.
 Filters for relevance, deduplicates, and writes raw_discussions_YYYY-MM-DD.json.
 
 Usage:
@@ -15,21 +15,28 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlencode
 
+import feedparser
 import requests
+from bs4 import BeautifulSoup
 
-SCRIPT_DIR  = Path(__file__).parent
-REPO_ROOT   = SCRIPT_DIR.parent.parent
+SCRIPT_DIR   = Path(__file__).parent
+REPO_ROOT    = SCRIPT_DIR.parent.parent
 SOURCES_FILE = SCRIPT_DIR / "sources.json"
-LAST_RUN    = SCRIPT_DIR / "last-run.json"
-OUTPUT_DIR  = REPO_ROOT / "drafts" / "voc"
+LAST_RUN     = SCRIPT_DIR / "last-run.json"
+OUTPUT_DIR   = REPO_ROOT / "drafts" / "voc"
 
-REDDIT_HEADERS = {
-    "User-Agent": "MCFDiscussionMonitor/1.0 (MassageChairFinder.com; contact: yigyo.marketing@gmail.com)"
+HEADERS = {
+    "User-Agent": (
+        "MCFDiscussionMonitor/1.0 (MassageChairFinder.com content bot; "
+        "contact: yigyo.marketing@gmail.com)"
+    )
 }
 REQUEST_TIMEOUT = 15
 
@@ -61,28 +68,40 @@ def passes_relevance(text: str, terms: list) -> bool:
     return any(t.lower() in lower for t in terms)
 
 
+def strip_html(html: str) -> str:
+    try:
+        return BeautifulSoup(html, "lxml").get_text(" ", strip=True)
+    except Exception:
+        return re.sub(r"<[^>]+>", " ", html).strip()
+
+
 # ---------------------------------------------------------------------------
-# Reddit
+# Reddit (RSS feeds -- datacenter-safe, no auth required)
 # ---------------------------------------------------------------------------
 
-def fetch_subreddit(sub_cfg: dict, rel_terms: list, delay: float) -> list:
+def fetch_subreddit_rss(sub_cfg: dict, rel_terms: list, delay: float) -> list:
+    """Fetch a subreddit via RSS feed. Mirrors the news monitor RSS approach."""
     name  = sub_cfg["name"]
     label = sub_cfg["label"]
-    limit = sub_cfg.get("limit", 100)
+    skip_filter = sub_cfg.get("skip_relevance_filter", False)
     posts = []
 
-    for sort in sub_cfg.get("sort", ["new"]):
-        url = f"https://www.reddit.com/r/{name}/{sort}.json?limit={limit}"
+    for sort in sub_cfg.get("rss_sorts", ["new"]):
+        if sort == "top":
+            time_param = sub_cfg.get("top_time", "month")
+            url = f"https://www.reddit.com/r/{name}/top/.rss?t={time_param}&limit=25"
+        else:
+            url = f"https://www.reddit.com/r/{name}/{sort}/.rss?limit=25"
+
+        time.sleep(delay)
         try:
-            time.sleep(delay)
-            resp = requests.get(url, headers=REDDIT_HEADERS, timeout=REQUEST_TIMEOUT)
-            resp.raise_for_status()
-            data = resp.json()
-            children = data.get("data", {}).get("children", [])
-            print(f"  [OK] {label}/{sort}: {len(children)} posts")
-            for child in children:
-                p = child.get("data", {})
-                post = _reddit_post_to_discussion(p, label, "subreddit", rel_terms)
+            feed = feedparser.parse(url, request_headers=HEADERS)
+            if feed.bozo and not feed.entries:
+                print(f"  [WARN] {label}/{sort}: feed parse error -- {feed.bozo_exception}")
+                continue
+            print(f"  [OK] {label}/{sort}: {len(feed.entries)} entries")
+            for entry in feed.entries:
+                post = _rss_entry_to_discussion(entry, label, "subreddit", rel_terms, skip_filter)
                 if post:
                     posts.append(post)
         except Exception as exc:
@@ -91,27 +110,26 @@ def fetch_subreddit(sub_cfg: dict, rel_terms: list, delay: float) -> list:
     return posts
 
 
-def fetch_reddit_search(query_cfg: dict, rel_terms: list, delay: float) -> list:
-    label = query_cfg["label"]
+def fetch_reddit_search_rss(query_cfg: dict, rel_terms: list, delay: float) -> list:
+    """Search Reddit via RSS -- no auth needed, works from datacenter IPs."""
+    label  = query_cfg["label"]
     params = {
-        "q": query_cfg["q"],
+        "q":    query_cfg["q"],
         "sort": query_cfg.get("sort", "new"),
-        "t": query_cfg.get("time", "month"),
-        "limit": 100,
+        "t":    query_cfg.get("time", "month"),
         "type": "link",
     }
-    url = "https://www.reddit.com/search.json"
+    url = f"https://www.reddit.com/search.rss?{urlencode(params)}"
     posts = []
+    time.sleep(delay)
     try:
-        time.sleep(delay)
-        resp = requests.get(url, params=params, headers=REDDIT_HEADERS, timeout=REQUEST_TIMEOUT)
-        resp.raise_for_status()
-        data = resp.json()
-        children = data.get("data", {}).get("children", [])
-        print(f"  [OK] {label}: {len(children)} results")
-        for child in children:
-            p = child.get("data", {})
-            post = _reddit_post_to_discussion(p, label, "reddit_search", rel_terms)
+        feed = feedparser.parse(url, request_headers=HEADERS)
+        if feed.bozo and not feed.entries:
+            print(f"  [WARN] {label}: feed parse error")
+            return []
+        print(f"  [OK] {label}: {len(feed.entries)} entries")
+        for entry in feed.entries:
+            post = _rss_entry_to_discussion(entry, label, "reddit_search", rel_terms, False)
             if post:
                 posts.append(post)
     except Exception as exc:
@@ -119,88 +137,63 @@ def fetch_reddit_search(query_cfg: dict, rel_terms: list, delay: float) -> list:
     return posts
 
 
-def fetch_reddit_comments(permalink: str, post_id: str, delay: float) -> list:
-    """Fetch top-level comments for a Reddit post."""
-    url = f"https://www.reddit.com{permalink}.json?limit=50&depth=1"
-    comments = []
-    try:
-        time.sleep(delay)
-        resp = requests.get(url, headers=REDDIT_HEADERS, timeout=REQUEST_TIMEOUT)
-        resp.raise_for_status()
-        data = resp.json()
-        if len(data) < 2:
-            return []
-        for child in data[1].get("data", {}).get("children", []):
-            c = child.get("data", {})
-            body = c.get("body", "").strip()
-            if not body or body == "[deleted]" or body == "[removed]":
-                continue
-            if len(body) < 20:
-                continue
-            comments.append({
-                "id":          discussion_id("reddit_comment", c.get("id", body[:20])),
-                "type":        "comment",
-                "source":      "reddit_comment",
-                "platform":    "reddit",
-                "native_id":   c.get("id", ""),
-                "parent_id":   post_id,
-                "url":         f"https://reddit.com{permalink}",
-                "title":       "",
-                "body":        body[:1000],
-                "author":      c.get("author", ""),
-                "score":       c.get("score", 0),
-                "created_utc": datetime.fromtimestamp(c.get("created_utc", 0), tz=timezone.utc).isoformat(),
-                "fetched_at":  datetime.now(timezone.utc).isoformat(),
-                "category":        None,
-                "pain_point":      None,
-                "buyer_stage":     None,
-                "sentiment":       None,
-                "is_objection":    None,
-                "is_question":     None,
-                "quote_worthy":    None,
-                "relevance_score": None,
-            })
-    except Exception as exc:
-        print(f"  [ERR] Comments for {permalink}: {exc}")
-    return comments
-
-
-def _reddit_post_to_discussion(p: dict, label: str, source_type: str, rel_terms: list):
-    title    = p.get("title", "").strip()
-    selftext = p.get("selftext", "").strip()
-    url      = p.get("url", "")
-    permalink = p.get("permalink", "")
-    native_id = p.get("id", "")
-    num_comments = p.get("num_comments", 0)
-
-    if not title or not native_id:
-        return None
-    if p.get("is_video") or not permalink:
+def _rss_entry_to_discussion(entry, label: str, source_type: str,
+                              rel_terms: list, skip_filter: bool):
+    """Normalize a Reddit RSS feedparser entry into a discussion dict."""
+    url   = entry.get("link", "").strip()
+    title = entry.get("title", "").strip()
+    if not url or not title:
         return None
 
-    full_text = title + " " + selftext
-    if not passes_relevance(full_text, rel_terms):
-        return None
+    # Extract post body from summary HTML
+    raw_summary = entry.get("summary", "") or ""
+    body = strip_html(raw_summary)[:1000]
 
-    created = p.get("created_utc", 0)
-    created_dt = datetime.fromtimestamp(created, tz=timezone.utc).isoformat() if created else datetime.now(timezone.utc).isoformat()
+    # Reddit RSS entry IDs look like "t3_postid"
+    native_id = entry.get("id", url).split("_")[-1] if "_" in entry.get("id", "") else url
+
+    # Relevance filter
+    if not skip_filter:
+        if not passes_relevance(title + " " + body, rel_terms):
+            return None
+
+    # Published date
+    published = None
+    for field in ("published_parsed", "updated_parsed"):
+        val = entry.get(field)
+        if val:
+            try:
+                published = datetime(*val[:6], tzinfo=timezone.utc).isoformat()
+                break
+            except Exception:
+                pass
+    if not published:
+        published = datetime.now(timezone.utc).isoformat()
+
+    # Extract subreddit from URL
+    subreddit = ""
+    parts = url.split("/")
+    if "r" in parts:
+        idx = parts.index("r")
+        if idx + 1 < len(parts):
+            subreddit = parts[idx + 1]
 
     return {
         "id":          discussion_id("reddit", native_id),
         "type":        "post",
         "source":      label,
+        "source_type": source_type,
         "platform":    "reddit",
         "native_id":   native_id,
         "parent_id":   None,
-        "url":         f"https://reddit.com{permalink}",
-        "permalink":   permalink,
+        "url":         url,
         "title":       title,
-        "body":        selftext[:1000],
-        "author":      p.get("author", ""),
-        "score":       p.get("score", 0),
-        "num_comments": num_comments,
-        "subreddit":   p.get("subreddit", ""),
-        "created_utc": created_dt,
+        "body":        body,
+        "author":      entry.get("author", ""),
+        "score":       0,
+        "num_comments": 0,
+        "subreddit":   subreddit,
+        "created_utc": published,
         "fetched_at":  datetime.now(timezone.utc).isoformat(),
         "category":        None,
         "pain_point":      None,
@@ -221,15 +214,15 @@ def youtube_search_videos(query_cfg: dict, api_key: str, published_after: str, d
     """Search YouTube for videos matching a query published after a date."""
     url = "https://www.googleapis.com/youtube/v3/search"
     params = {
-        "part": "snippet",
-        "q": query_cfg["q"],
-        "type": "video",
-        "order": "viewCount",
-        "publishedAfter": published_after,
-        "maxResults": query_cfg.get("max_results", 10),
+        "part":             "snippet",
+        "q":                query_cfg["q"],
+        "type":             "video",
+        "order":            "viewCount",
+        "publishedAfter":   published_after,
+        "maxResults":       query_cfg.get("max_results", 10),
         "relevanceLanguage": "en",
-        "regionCode": "US",
-        "key": api_key,
+        "regionCode":       "US",
+        "key":              api_key,
     }
     videos = []
     try:
@@ -240,7 +233,7 @@ def youtube_search_videos(query_cfg: dict, api_key: str, published_after: str, d
         items = data.get("items", [])
         print(f"  [OK] {query_cfg['label']}: {len(items)} videos")
         for item in items:
-            vid_id = item.get("id", {}).get("videoId", "")
+            vid_id  = item.get("id", {}).get("videoId", "")
             snippet = item.get("snippet", {})
             if not vid_id:
                 continue
@@ -261,25 +254,24 @@ def fetch_youtube_comments(video: dict, api_key: str, max_results: int, delay: f
     """Fetch top-level comments for a YouTube video."""
     url = "https://www.googleapis.com/youtube/v3/commentThreads"
     params = {
-        "part": "snippet",
-        "videoId": video["video_id"],
-        "order": "relevance",
-        "maxResults": min(max_results, 100),
-        "textFormat": "plainText",
-        "key": api_key,
+        "part":        "snippet",
+        "videoId":     video["video_id"],
+        "order":       "relevance",
+        "maxResults":  min(max_results, 100),
+        "textFormat":  "plainText",
+        "key":         api_key,
     }
     comments = []
     try:
         time.sleep(delay)
         resp = requests.get(url, params=params, timeout=REQUEST_TIMEOUT)
         if resp.status_code == 403:
-            print(f"  [SKIP] Comments disabled on video: {video['video_id']}")
+            print(f"  [SKIP] Comments disabled: {video['video_id']}")
             return []
         resp.raise_for_status()
         data = resp.json()
-        items = data.get("items", [])
-        for item in items:
-            top = item.get("snippet", {}).get("topLevelComment", {}).get("snippet", {})
+        for item in data.get("items", []):
+            top  = item.get("snippet", {}).get("topLevelComment", {}).get("snippet", {})
             text = top.get("textDisplay", "").strip()
             if not text or len(text) < 20:
                 continue
@@ -288,6 +280,7 @@ def fetch_youtube_comments(video: dict, api_key: str, max_results: int, delay: f
                 "id":          discussion_id("yt_comment", comment_id),
                 "type":        "comment",
                 "source":      video["search_label"],
+                "source_type": "youtube_comment",
                 "platform":    "youtube",
                 "native_id":   comment_id,
                 "parent_id":   video["video_id"],
@@ -344,7 +337,7 @@ def filter_seen(items: list, last_run: dict) -> list:
 def main():
     parser = argparse.ArgumentParser(description="MCF Discussion Monitor -- fetch step")
     parser.add_argument("--date",         default=datetime.now().strftime("%Y-%m-%d"))
-    parser.add_argument("--no-dedup",     action="store_true", help="Skip last-run filtering")
+    parser.add_argument("--no-dedup",     action="store_true")
     parser.add_argument("--reddit-only",  action="store_true")
     parser.add_argument("--youtube-only", action="store_true")
     args = parser.parse_args()
@@ -359,26 +352,20 @@ def main():
 
     all_discussions = []
 
-    # -- Reddit --
+    # -- Reddit (RSS) --
     if not args.youtube_only:
-        print("\n[Reddit] Subreddits...")
+        print("\n[Reddit] Subreddits via RSS...")
         for sub_cfg in sources["reddit"]["subreddits"]:
-            posts = fetch_subreddit(sub_cfg, rel_terms, delay_r)
-            # For posts with comments, fetch top comments too
-            for post in posts:
-                if post.get("num_comments", 0) > 0 and post.get("permalink"):
-                    comments = fetch_reddit_comments(post["permalink"], post["id"], delay_r)
-                    all_discussions.extend(comments)
+            posts = fetch_subreddit_rss(sub_cfg, rel_terms, delay_r)
             all_discussions.extend(posts)
 
-        print("\n[Reddit] Search queries...")
-        for q_cfg in sources["reddit"]["search_queries"]:
-            posts = fetch_reddit_search(q_cfg, rel_terms, delay_r)
-            for post in posts:
-                if post.get("num_comments", 0) > 0 and post.get("permalink"):
-                    comments = fetch_reddit_comments(post["permalink"], post["id"], delay_r)
-                    all_discussions.extend(comments)
+        print("\n[Reddit] Search RSS...")
+        for q_cfg in sources["reddit"]["search_rss"]:
+            posts = fetch_reddit_search_rss(q_cfg, rel_terms, delay_r)
             all_discussions.extend(posts)
+
+        reddit_count = sum(1 for d in all_discussions if d["platform"] == "reddit")
+        print(f"\n[Reddit] Total: {reddit_count} discussions")
 
     # -- YouTube --
     if not args.reddit_only:
@@ -411,7 +398,7 @@ def main():
     if not args.no_dedup:
         all_discussions = filter_seen(all_discussions, last_run)
 
-    # Save output
+    # Save
     output_path = OUTPUT_DIR / f"raw_discussions_{args.date}.json"
     save_json(output_path, {
         "date":             args.date,
