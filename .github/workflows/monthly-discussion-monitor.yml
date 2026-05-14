@@ -1,0 +1,43 @@
+name: Monthly Discussion Monitor
+
+on:
+  schedule:
+    # First Monday of each month at 12:00 UTC (7am ET)
+    # Cron runs on all Mondays 1-7 = first Monday of month
+    - cron: "0 12 1-7 * 1"
+  workflow_dispatch:
+
+jobs:
+  discussion-monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-discussion-monitor-${{ hashFiles('scripts/discussion-monitor/requirements.txt') }}
+      - run: pip install -r scripts/discussion-monitor/requirements.txt
+      - id: date
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+      - name: Fetch discussions
+        run: python scripts/discussion-monitor/fetch_discussions.py --date ${{ steps.date.outputs.DATE }}
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      - name: Classify discussions
+        run: python scripts/discussion-monitor/classify_discussions.py --date ${{ steps.date.outputs.DATE }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Generate VOC report
+        run: python scripts/discussion-monitor/generate_insights.py --date ${{ steps.date.outputs.DATE }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Open PR
+        run: python scripts/discussion-monitor/open_pr.py --date ${{ steps.date.outputs.DATE }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
