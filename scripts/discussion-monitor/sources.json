@@ -1,0 +1,146 @@
+{
+  "_comment": "MCF Discussion Monitor -- sources config. Reddit uses free JSON API, YouTube uses Data API v3.",
+  "reddit": {
+    "_comment": "Subreddits to monitor for massage chair buyer discussions.",
+    "subreddits": [
+      {
+        "name": "MassageChairs",
+        "label": "r/MassageChairs",
+        "sort": [
+          "new",
+          "top"
+        ],
+        "limit": 100
+      },
+      {
+        "name": "backpain",
+        "label": "r/backpain",
+        "sort": [
+          "new"
+        ],
+        "limit": 100
+      },
+      {
+        "name": "ChronicPain",
+        "label": "r/ChronicPain",
+        "sort": [
+          "new"
+        ],
+        "limit": 100
+      },
+      {
+        "name": "massage",
+        "label": "r/massage",
+        "sort": [
+          "new"
+        ],
+        "limit": 50
+      },
+      {
+        "name": "sciatica",
+        "label": "r/sciatica",
+        "sort": [
+          "new"
+        ],
+        "limit": 50
+      },
+      {
+        "name": "Fibromyalgia",
+        "label": "r/Fibromyalgia",
+        "sort": [
+          "new"
+        ],
+        "limit": 50
+      }
+    ],
+    "search_queries": [
+      {
+        "q": "massage chair",
+        "label": "reddit:massage chair",
+        "sort": "new",
+        "time": "month"
+      },
+      {
+        "q": "massage chair review",
+        "label": "reddit:massage chair review",
+        "sort": "relevance",
+        "time": "month"
+      },
+      {
+        "q": "massage chair worth it",
+        "label": "reddit:worth it",
+        "sort": "new",
+        "time": "month"
+      },
+      {
+        "q": "back pain chair",
+        "label": "reddit:back pain chair",
+        "sort": "new",
+        "time": "month"
+      }
+    ],
+    "min_comment_count": 1,
+    "request_delay_seconds": 2
+  },
+  "youtube": {
+    "_comment": "Search terms to find recent massage chair review videos via YouTube Data API v3.",
+    "search_queries": [
+      {
+        "q": "massage chair review 2025",
+        "label": "yt:review 2025",
+        "max_results": 10
+      },
+      {
+        "q": "best massage chair",
+        "label": "yt:best chairs",
+        "max_results": 10
+      },
+      {
+        "q": "massage chair worth it",
+        "label": "yt:worth it",
+        "max_results": 5
+      },
+      {
+        "q": "massage chair back pain relief",
+        "label": "yt:back pain relief",
+        "max_results": 5
+      }
+    ],
+    "published_within_days": 90,
+    "comments_per_video": 100,
+    "min_comment_likes": 0,
+    "request_delay_seconds": 1
+  },
+  "relevance_filter": {
+    "_comment": "At least one of these terms must appear in a post title or body to pass the filter.",
+    "required_terms": [
+      "massage chair",
+      "massage chairs",
+      "massage seat",
+      "zero gravity chair",
+      "shiatsu chair",
+      "recliner massager",
+      "back pain",
+      "lower back",
+      "sciatica",
+      "neck pain",
+      "osaki",
+      "human touch",
+      "daiwa",
+      "titan",
+      "infinity massage",
+      "kahuna",
+      "luraco",
+      "synca",
+      "panasonic massage",
+      "ogawa"
+    ]
+  },
+  "blocklist_domains": [
+    "emassagechair.com"
+  ],
+  "hard_rules": {
+    "no_inada": true,
+    "_comment_inada": "Inada is defunct. Posts recommending Inada as a current purchase should be flagged as stale."
+  }
+}
