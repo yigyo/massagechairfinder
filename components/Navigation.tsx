@@ -106,6 +106,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
         { label: 'Health & Conditions', href: '/learn#health-conditions' },
         { label: 'Buying Questions',  href: '/learn#buying-questions' },
         { label: 'Owning a Chair',    href: '/learn#owning-a-chair' },
+        { label: 'Massage Research',  href: '/learn#massage-research' },
       ],
     },
     { label: 'News', href: '/news' },
