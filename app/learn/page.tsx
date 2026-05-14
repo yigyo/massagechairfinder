@@ -85,6 +85,14 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-chair-reliability",
     ],
   },
+  {
+    label: "Massage Research",
+    description: "What peer-reviewed studies show about how massage works. Research-grounded, citation-heavy, honest about evidence strength.",
+    slugs: [
+      "massage-and-pain",
+      "massage-and-stress",
+    ],
+  },
 ]
 
 function slugifyLabel(label: string): string {
