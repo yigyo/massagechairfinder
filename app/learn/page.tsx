@@ -92,6 +92,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-pain",
       "massage-and-stress",
       "massage-and-sleep",
+      "massage-modalities-explained",
     ],
   },
 ]
