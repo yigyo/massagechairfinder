@@ -144,6 +144,33 @@ function isOutOfRangeHeight(text: string): boolean {
   return hasVerification && hasHeightContext && text.length < 300
 }
 
+// Detect ambiguous-height clarification (e.g. user typed bare "6" and AI asks
+// "did you mean 6'0\" exactly?"). Distinguished from true out-of-range by the
+// absence of "outside/beyond/range/tallest" keywords — those signal that the
+// height is too extreme and would lead to a dead-end; clarification cases
+// proceed normally with the AI's offered interpretation.
+function isHeightClarification(text: string): boolean {
+  const lower = text.toLowerCase()
+  const isClarifying = (
+    lower.includes('just to confirm') ||
+    lower.includes('did you mean') ||
+    lower.includes('do you mean') ||
+    lower.includes('to clarify') ||
+    lower.includes('want to make sure')
+  )
+  // Must offer a specific feet-inches interpretation (e.g. 6'0", 5'10")
+  const hasHeightFormat = /\d['’]\d/.test(text) || (lower.includes('feet') && /\d/.test(text))
+  // NOT a true out-of-range case
+  const isOutOfRange = (
+    lower.includes('outside') ||
+    lower.includes('beyond') ||
+    lower.includes('well outside') ||
+    lower.includes('tallest') ||
+    /catalog (range|maximum)/.test(lower)
+  )
+  return isClarifying && hasHeightFormat && !isOutOfRange && text.length < 400
+}
+
 // ─── PROGRESS LABEL ────────────────────────────────────────────────────────────
 function progressLabel(turnCount: number): string {
   if (turnCount === 0) return 'Getting started...'
@@ -254,6 +281,7 @@ export default function ChairFinder() {
   const [options, setOptions] = useState<string[]>([])
   const [showTextInput, setShowTextInput] = useState(false)
   const [showOutOfRange, setShowOutOfRange] = useState(false)
+  const [showHeightClarification, setShowHeightClarification] = useState(false)
   const [thinkingLabel, setThinkingLabel] = useState('Just a moment...')
   const [chairs, setChairs] = useState<Chair[]>([])
   const [rawFallback, setRawFallback] = useState('')
@@ -374,11 +402,16 @@ export default function ChairFinder() {
         setOptions(opts)
         setShowTextInput(false)
         setShowOutOfRange(false)
+        setShowHeightClarification(false)
         setShowDeadEnd(false)
         setHeightInput('')
 
         if (opts.length === 0) {
-          if (isOutOfRangeHeight(cleanText)) {
+          // Order matters: clarification check first so it doesn't get swallowed
+          // by the out-of-range check (which has broader "did you mean" matching).
+          if (isHeightClarification(cleanText)) {
+            setShowHeightClarification(true)
+          } else if (isOutOfRangeHeight(cleanText)) {
             setShowOutOfRange(true)
           } else if (isHeightQuestion(cleanText)) {
             setShowTextInput(true)
@@ -606,6 +639,26 @@ export default function ChairFinder() {
             </div>
           )}
 
+          {/* Ambiguous-height clarification (e.g. user typed "6", AI asks "did you mean 6'0\" exactly?") */}
+          {showHeightClarification && (
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 12 }}>
+              <button
+                disabled={isStreaming}
+                onClick={() => handleUserInput('Yes, that is the correct height.')}
+                style={{ border: '1.5px solid #1C2331', background: '#fff', color: '#1C2331', borderRadius: 100, padding: '14px 28px', fontSize: 17, fontWeight: 500, cursor: 'pointer', fontFamily: 'inherit' }}
+              >
+                That is the correct height
+              </button>
+              <button
+                disabled={isStreaming}
+                onClick={() => { setShowHeightClarification(false); setShowTextInput(true); setHeightInput(''); setTimeout(() => textInputRef.current?.focus(), 50) }}
+                style={{ border: '1.5px solid #1C2331', background: '#fff', color: '#1C2331', borderRadius: 100, padding: '14px 28px', fontSize: 17, fontWeight: 500, cursor: 'pointer', fontFamily: 'inherit' }}
+              >
+                Change height
+              </button>
+            </div>
+          )}
+
           {/* Dead-end: no chairs available for this user — show Home button only */}
           {showDeadEnd && (
             <div style={{ marginTop: 8 }}>
@@ -624,7 +677,7 @@ export default function ChairFinder() {
           )}
 
           {/* Bridge "Continue" pill — when no options and not a height question and not a dead end */}
-          {options.length === 0 && !showTextInput && !showOutOfRange && !showDeadEnd && (
+          {options.length === 0 && !showTextInput && !showOutOfRange && !showHeightClarification && !showDeadEnd && (
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 12 }}>
               <button
                 disabled={isStreaming}
