@@ -416,8 +416,15 @@ export default function ChairFinder() {
           } else if (isHeightQuestion(cleanText)) {
             setShowTextInput(true)
             setTimeout(() => textInputRef.current?.focus(), 50)
+          } else if (cleanText.length > 200) {
+            // Long prose after the quiz signals drift (e.g. Lila/Emily wrapped
+            // up in a paragraph instead of the numbered recommendation, or only
+            // had one match and explained it conversationally). Show the
+            // "Return to Home" button instead of the bridge "Continue" pill so
+            // the user has a clean exit rather than spiraling into chat mode.
+            setShowDeadEnd(true)
           }
-          // else: bridge message — "Continue" pill shown
+          // else: short bridge message - "Continue" pill shown
         }
         setPhase('asking')
         scrollTop()
