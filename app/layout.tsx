@@ -69,6 +69,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="flex-1">{children}</main>
         <Footer />
         <ExitIntentPopup />
+        {/* Cloudflare Turnstile (invisible bot protection on forms) */}
+        <Script
+          src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+          strategy="afterInteractive"
+          async
+          defer
+        />
         {/* Koda AI Chair Advisor */}
         <Script id="koda-chat-config" strategy="beforeInteractive">
           {`window.MCFChatConfig = { backendUrl: 'https://emily-chat-backend.vercel.app' };`}

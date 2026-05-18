@@ -1,12 +1,43 @@
 import { NextRequest, NextResponse } from "next/server"
 import nodemailer from "nodemailer"
+import { checkRateLimit, getClientIp } from "@/lib/rate-limit"
+import { verifyTurnstile } from "@/lib/turnstile"
 
 export async function POST(req: NextRequest) {
   try {
-    const { firstName, lastName, email, message } = await req.json()
+    const body = await req.json() as {
+      firstName?: string
+      lastName?: string
+      email?: string
+      message?: string
+      turnstileToken?: string
+      website?: string
+    }
+    const { firstName, lastName, email, message, turnstileToken, website } = body
+
+    if (website && website.length > 0) {
+      return NextResponse.json({ error: "Invalid request" }, { status: 400 })
+    }
 
     if (!firstName || !lastName || !email || !message) {
       return NextResponse.json({ error: "All fields are required." }, { status: 400 })
+    }
+
+    const ip = getClientIp(req)
+    const rl = await checkRateLimit(ip, "form")
+    if (!rl.ok) {
+      return NextResponse.json(
+        { error: "Too many submissions. Please try again later." },
+        { status: 429, headers: { "Retry-After": String(rl.retryAfter ?? 60) } },
+      )
+    }
+
+    const tv = await verifyTurnstile(turnstileToken, ip)
+    if (!tv.ok) {
+      return NextResponse.json(
+        { error: "Verification failed. Please reload the page and try again." },
+        { status: 403 },
+      )
     }
 
     const smtpUser = process.env.SMTP_USER

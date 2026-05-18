@@ -1,6 +1,7 @@
 import Anthropic from '@anthropic-ai/sdk'
 import { NextRequest } from 'next/server'
 import { buildMcfCatalogText } from '@/lib/catalogText'
+import { checkRateLimit, getClientIp } from '@/lib/rate-limit'
 
 export const runtime = 'nodejs'
 export const maxDuration = 60
@@ -10,8 +11,6 @@ const anthropic = new Anthropic({
 })
 
 // ─── IN-MEMORY SESSION STORE ───────────────────────────────────────────────────
-// Keyed by sessionId. TTL: 2 hours of inactivity.
-// For production scale, replace with Redis or Upstash.
 const sessions = new Map<string, { messages: Array<{ role: string; content: string }>; lastActive: number }>()
 const SESSION_TTL_MS = 2 * 60 * 60 * 1000
 
@@ -30,7 +29,6 @@ function setSession(sessionId: string, messages: Array<{ role: string; content: 
   sessions.set(sessionId, { messages, lastActive: Date.now() })
 }
 
-// Prune expired sessions every 30 min
 setInterval(() => {
   const now = Date.now()
   for (const [id, session] of sessions.entries()) {
@@ -392,7 +390,17 @@ function selectPrompt(mode: string): string {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json()
-    const { sessionId, message, mode } = body
+    const { sessionId, message, mode, website } = body as {
+      sessionId?: string
+      message?: string
+      mode?: string
+      website?: string
+    }
+
+    // Honeypot: legitimate clients never set this.
+    if (website && website.length > 0) {
+      return new Response(JSON.stringify({ error: 'Invalid request' }), { status: 400 })
+    }
 
     if (!sessionId || typeof sessionId !== 'string') {
       return new Response(JSON.stringify({ error: 'sessionId is required' }), { status: 400 })
@@ -404,6 +412,25 @@ export async function POST(req: NextRequest) {
       return new Response(JSON.stringify({ error: 'Message too long' }), { status: 400 })
     }
 
+    // IP-based rate limit. Stops runaway LLM cost from one source.
+    const ip = getClientIp(req)
+    const rl = await checkRateLimit(ip, 'chat')
+    if (!rl.ok) {
+      return new Response(
+        JSON.stringify({
+          error: 'Too many requests. Please slow down and try again shortly.',
+          retryAfter: rl.retryAfter,
+        }),
+        {
+          status: 429,
+          headers: {
+            'Retry-After': String(rl.retryAfter ?? 60),
+            'Content-Type': 'application/json',
+          },
+        },
+      )
+    }
+
     const systemPrompt = selectPrompt(mode || 'finder')
     const history = getSession(sessionId)
     const updatedMessages = [
@@ -411,7 +438,6 @@ export async function POST(req: NextRequest) {
       { role: 'user', content: message },
     ]
 
-    // Set up streaming SSE response
     const encoder = new TextEncoder()
     const stream = new ReadableStream({
       async start(controller) {
@@ -435,7 +461,6 @@ export async function POST(req: NextRequest) {
             }
           }
 
-          // Save updated session history
           setSession(sessionId, [
             ...updatedMessages,
             { role: 'assistant', content: fullResponse },

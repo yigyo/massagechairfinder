@@ -1,12 +1,37 @@
 "use server"
 import { NextRequest, NextResponse } from "next/server"
+import { checkRateLimit, getClientIp } from "@/lib/rate-limit"
+import { verifyTurnstile } from "@/lib/turnstile"
 
 export async function POST(req: NextRequest) {
   try {
-    const { email } = await req.json()
+    const body = await req.json() as { email?: string; source?: string; turnstileToken?: string; website?: string }
+    const { email, turnstileToken, website } = body
+
+    // Honeypot
+    if (website && website.length > 0) {
+      return NextResponse.json({ error: "Invalid request" }, { status: 400 })
+    }
 
     if (!email || !email.includes("@")) {
       return NextResponse.json({ error: "Valid email required" }, { status: 400 })
+    }
+
+    const ip = getClientIp(req)
+    const rl = await checkRateLimit(ip, "form")
+    if (!rl.ok) {
+      return NextResponse.json(
+        { error: "Too many submissions. Please try again later." },
+        { status: 429, headers: { "Retry-After": String(rl.retryAfter ?? 60) } },
+      )
+    }
+
+    const tv = await verifyTurnstile(turnstileToken, ip)
+    if (!tv.ok) {
+      return NextResponse.json(
+        { error: "Verification failed. Please reload the page and try again." },
+        { status: 403 },
+      )
     }
 
     const privateKey = process.env.KLAVIYO_PRIVATE_KEY

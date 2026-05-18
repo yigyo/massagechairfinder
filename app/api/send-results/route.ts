@@ -1,6 +1,8 @@
 export const runtime = 'nodejs'
 
 import { CHAIRS } from '@/lib/chairs'
+import { checkRateLimit, getClientIp } from '@/lib/rate-limit'
+import { verifyTurnstile } from '@/lib/turnstile'
 
 interface ChairResult {
   name: string
@@ -113,15 +115,40 @@ function applyChairFeatures(
 
 export async function POST(req: Request) {
   try {
-    const { email, chairs, quizAnswers, quizFeatures } = await req.json() as {
+    const body = await req.json() as {
       email: string
       chairs: ChairResult[]
       quizAnswers?: Record<string, string>
       quizFeatures?: string[]
+      turnstileToken?: string
+      website?: string
+    }
+    const { email, chairs, quizAnswers, quizFeatures, turnstileToken, website } = body
+
+    // Honeypot: legitimate clients never fill this.
+    if (website && website.length > 0) {
+      return Response.json({ ok: false, error: 'Invalid request' }, { status: 400 })
     }
 
     if (!email) {
       return Response.json({ ok: false, error: 'Email required' }, { status: 400 })
+    }
+
+    const ip = getClientIp(req)
+    const rl = await checkRateLimit(ip, 'form')
+    if (!rl.ok) {
+      return Response.json(
+        { ok: false, error: 'Too many submissions. Please try again later.', retryAfter: rl.retryAfter },
+        { status: 429, headers: { 'Retry-After': String(rl.retryAfter ?? 60) } },
+      )
+    }
+
+    const tv = await verifyTurnstile(turnstileToken, ip)
+    if (!tv.ok) {
+      return Response.json(
+        { ok: false, error: 'Verification failed. Please reload the page and try again.' },
+        { status: 403 },
+      )
     }
 
     const [chair1, chair2, chair3] = chairs ?? []

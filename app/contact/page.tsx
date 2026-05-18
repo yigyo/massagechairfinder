@@ -1,5 +1,6 @@
 "use client"
-import { useState } from "react"
+import { useRef, useState } from "react"
+import TurnstileWidget, { TurnstileHandle } from "@/components/TurnstileWidget"
 import type { Metadata } from "next"
 import Link from "next/link"
 
@@ -12,6 +13,8 @@ export default function ContactPage() {
   })
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle")
   const [errorMsg, setErrorMsg] = useState("")
+  const turnstileTokenRef = useRef<string>("")
+  const turnstileWidgetRef = useRef<TurnstileHandle>(null)
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     setForm({ ...form, [e.target.name]: e.target.value })
@@ -26,13 +29,14 @@ export default function ContactPage() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, turnstileToken: turnstileTokenRef.current, website: "" }),
       })
       const data = await res.json()
 
       if (!res.ok || data.error) {
         setErrorMsg(data.error || "Something went wrong. Please try again.")
         setStatus("error")
+        turnstileWidgetRef.current?.reset()
       } else {
         setStatus("success")
         setForm({ firstName: "", lastName: "", email: "", message: "" })
@@ -142,7 +146,12 @@ export default function ContactPage() {
           >
             {status === "sending" ? "Sending..." : "Send message"}
           </button>
-        </form>
+              <TurnstileWidget
+        ref={turnstileWidgetRef}
+        action="contact-form"
+        onToken={(t) => { turnstileTokenRef.current = t }}
+      />
+      </form>
       )}
 
       <p className="mt-8 text-xs text-warm-gray">

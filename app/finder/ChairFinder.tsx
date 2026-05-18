@@ -3,6 +3,7 @@
 import React, { useState, useRef, useCallback } from 'react'
 import { finderStart, finderEmailSubmit, finderComplete, emailOptIn } from '@/lib/gtag'
 import { MCF_CHAIRS } from '@/lib/chairs'
+import TurnstileWidget, { TurnstileHandle } from '@/components/TurnstileWidget'
 
 // ─── TYPES ─────────────────────────────────────────────────────────────────────
 type Phase = 'intro' | 'asking' | 'thinking' | 'email_gate'
@@ -293,6 +294,8 @@ export default function ChairFinder() {
   const [quizAnswers, setQuizAnswers] = useState<Record<string, string>>({})
   const [quizFeatures, setQuizFeatures] = useState<string[]>([])
   const sessionIdRef = useRef<string>(generateSessionId())
+  const turnstileTokenRef = useRef<string>("")
+  const turnstileWidgetRef = useRef<TurnstileHandle>(null)
   const turnCountRef = useRef(0)
   const textInputRef = useRef<HTMLInputElement>(null)
 
@@ -303,7 +306,7 @@ export default function ChairFinder() {
     const resp = await fetch('/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ sessionId: sessionIdRef.current, message, mode: 'finder' }),
+      body: JSON.stringify({ sessionId: sessionIdRef.current, message, mode: 'finder', website: "" }),
     })
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
 
@@ -479,6 +482,8 @@ export default function ChairFinder() {
           chairs: chairs.map(c => ({ ...c, price: formatStartingPrice(c.price) })),
           quizAnswers,
           quizFeatures,
+          turnstileToken: turnstileTokenRef.current,
+          website: "",
         }),
       })
       setEmailSent(true)
@@ -833,6 +838,11 @@ export default function ChairFinder() {
           )}
         </div>
       )}
-    </div>
+          <TurnstileWidget
+        ref={turnstileWidgetRef}
+        action="finder-send-results"
+        onToken={(t) => { turnstileTokenRef.current = t }}
+      />
+      </div>
   )
 }

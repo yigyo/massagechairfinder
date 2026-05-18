@@ -1,5 +1,6 @@
 "use client"
-import { useState } from "react"
+import { useRef, useState } from "react"
+import TurnstileWidget, { TurnstileHandle } from "./TurnstileWidget"
 
 // Marks this email as captured in localStorage so the exit popup knows.
 function markSubscribed() {
@@ -20,6 +21,8 @@ export default function BuyersGuideForm({
   const [email, setEmail]   = useState("")
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
   const [errorMsg, setErrorMsg] = useState("")
+  const turnstileTokenRef = useRef<string>("")
+  const turnstileWidgetRef = useRef<TurnstileHandle>(null)
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -31,7 +34,7 @@ export default function BuyersGuideForm({
       const res = await fetch("/api/subscribe", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
-        body:    JSON.stringify({ email, source }),
+        body:    JSON.stringify({ email, source, turnstileToken: turnstileTokenRef.current, website: "" }),
       })
       const data = await res.json()
       if (data.success) {
@@ -40,6 +43,7 @@ export default function BuyersGuideForm({
       } else {
         setStatus("error")
         setErrorMsg("Something went wrong. Please try again.")
+        turnstileWidgetRef.current?.reset()
       }
     } catch (_) {
       setStatus("error")
@@ -83,6 +87,11 @@ export default function BuyersGuideForm({
         <p className="mt-2 text-sm text-terra">{errorMsg}</p>
       )}
       <p className="mt-2 text-xs text-warm-gray">No spam. Unsubscribe anytime.</p>
+      <TurnstileWidget
+        ref={turnstileWidgetRef}
+        action="buyers-guide-subscribe"
+        onToken={(t) => { turnstileTokenRef.current = t }}
+      />
     </form>
   )
 }
