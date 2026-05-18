@@ -7,6 +7,7 @@ interface ChairResult {
   price: string
   body: string
   url: string
+  imageUrl?: string
 }
 
 const KLAVIYO_LIST_ID = 'WHPYgr'
@@ -84,6 +85,16 @@ function getCatalogPrice(chairName: string): string {
   return `Starting at ${fmt(found.priceMin)}`
 }
 
+// Email clients can't resolve relative URLs. Turn '/images/chairs/foo.jpg' into a
+// fully-qualified https URL so the Klaviyo template can render the <img>.
+const IMAGE_HOST = 'https://www.massagechairfinder.com'
+function absolutizeImageUrl(url: string | undefined): string | undefined {
+  if (!url) return undefined
+  if (/^https?:\/\//i.test(url)) return url
+  if (url.startsWith('/')) return `${IMAGE_HOST}${url}`
+  return `${IMAGE_HOST}/${url}`
+}
+
 // Apply per-chair feature properties with a given prefix (e.g. "mcf_top_chair")
 function applyChairFeatures(
   properties: Record<string, string>,
@@ -115,13 +126,15 @@ export async function POST(req: Request) {
 
     const [chair1, chair2, chair3] = chairs ?? []
 
-    // Build profile properties — mcf_ prefix to keep separate from Goodwin properties
+    // Build profile properties. mcf_ prefix keeps these separate from Goodwin properties.
     const properties: Record<string, string> = {}
     if (chair1) {
       properties.mcf_top_chair       = chair1.name
       properties.mcf_top_chair_url   = chair1.url
       properties.mcf_top_chair_price = chair1.price || getCatalogPrice(chair1.name)
       properties.mcf_top_chair_body  = chair1.body
+      const img1 = absolutizeImageUrl(chair1.imageUrl)
+      if (img1) properties.mcf_top_chair_image = img1
       applyChairFeatures(properties, 'mcf_top_chair', chair1)
     }
     if (chair2) {
@@ -129,6 +142,8 @@ export async function POST(req: Request) {
       properties.mcf_second_chair_url   = chair2.url
       properties.mcf_second_chair_price = chair2.price || getCatalogPrice(chair2.name)
       properties.mcf_second_chair_body  = chair2.body
+      const img2 = absolutizeImageUrl(chair2.imageUrl)
+      if (img2) properties.mcf_second_chair_image = img2
       applyChairFeatures(properties, 'mcf_second_chair', chair2)
     }
     if (chair3) {
@@ -136,10 +151,12 @@ export async function POST(req: Request) {
       properties.mcf_third_chair_url   = chair3.url
       properties.mcf_third_chair_price = chair3.price || getCatalogPrice(chair3.name)
       properties.mcf_third_chair_body  = chair3.body
+      const img3 = absolutizeImageUrl(chair3.imageUrl)
+      if (img3) properties.mcf_third_chair_image = img3
       applyChairFeatures(properties, 'mcf_third_chair', chair3)
     }
 
-    // Quiz answer properties — used for segmentation and future targeted emails
+    // Quiz answer properties. Used for segmentation and future targeted emails.
     if (quizAnswers) {
       if (quizAnswers.pain)     properties.mcf_pain     = quizAnswers.pain
       if (quizAnswers.goal)     properties.mcf_goal     = quizAnswers.goal
@@ -168,7 +185,7 @@ export async function POST(req: Request) {
       const json = await createRes.json()
       profileId = json.data?.id ?? null
     } else if (createRes.status === 409) {
-      // Profile exists — extract duplicate ID from error, then patch properties
+      // Profile exists. Extract duplicate ID from error, then patch properties.
       const json = await createRes.json()
       profileId = json.errors?.[0]?.meta?.duplicate_profile_id ?? null
 
@@ -198,7 +215,7 @@ export async function POST(req: Request) {
 
   } catch (err) {
     console.error('[send-results] Error:', err)
-    // Return success to user — don't surface backend errors in the UI
+    // Return success to user. Don't surface backend errors in the UI.
     return Response.json({ ok: true })
   }
 }
