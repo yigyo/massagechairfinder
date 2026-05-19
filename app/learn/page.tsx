@@ -16,6 +16,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "track-types",
       "how-to-buy",
       "body-fit",
+      "multi-user-households",
       "room-fit",
       "roller-dimensions",
       "zero-gravity",
