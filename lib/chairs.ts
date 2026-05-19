@@ -2000,36 +2000,6 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'Tier C. Surface in Goodwin ONLY when no Tier A or B match exists. Never recommend in MCF.',
   },
 
-  // ── COZZIA (Physical retail only — no online purchase available) ───────────
-
-  {
-    id: 'cozzia-qi-xe-pro',
-    name: 'Cozzia Qi XE Pro',
-    brand: 'Cozzia',
-    active: false, goodwinActive: false, mcfActive: false,
-    // Physical retail only — no online affiliate purchase available
-    priceMin: 9500, priceEstimated: true,
-    affiliateTier: null, goodwinStatus: 'none',
-    affiliateUrl: undefined,
-    track: 'L', roller: '4D', trackLengthIn: 53,
-    zeroGravity: true, spaceSaving: true, wallClearanceIn: 5,
-    heat: true, foot: true, aiScanning: true,
-    aiNotes: 'PHYSICAL RETAIL ONLY — no online purchase available. Do not recommend until an online affiliate is confirmed.',
-  },
-
-  {
-    id: 'cozzia-qi-xe-pro-duo',
-    name: 'Cozzia Qi XE Pro Duo',
-    brand: 'Cozzia',
-    active: false, goodwinActive: false, mcfActive: false,
-    // Price unknown, physical retail
-    priceMin: 0,
-    affiliateTier: null, goodwinStatus: 'none',
-    track: 'L', roller: '4D',
-    zeroGravity: true, foot: true, aiScanning: true,
-    aiNotes: 'Price unknown and physical retail only — do not recommend.',
-  },
-
   // ── OHCO ──────────────────────────────────────────────────────────────────
 
   {
