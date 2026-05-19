@@ -59,7 +59,14 @@ const chairUrlsBlock = [
 // ─── 2. CHAIR_IMAGES ───────────────────────────────────────────────────────────
 
 const chairImagesLines = lookupChairs.map(chair => {
-  const url = chair.goodwinImageUrl ?? ''
+  // Prefer Shopify-CDN image when set; fall back to imageUrl (MCF-hosted relative
+  // path, absolutized to massagechairfinder.com) so chairs without a Shopify
+  // upload still get an image in the result email.
+  const shopify = chair.goodwinImageUrl
+  const fallback = chair.imageUrl
+    ? (chair.imageUrl.startsWith('http') ? chair.imageUrl : `https://www.massagechairfinder.com${chair.imageUrl}`)
+    : ''
+  const url = shopify ?? fallback
   const comment = !url ? '  // TODO: upload image to Shopify Files and paste CDN URL here' : ''
   return `  '${chair.goodwinLookupKey}':${' '.repeat(Math.max(1, 44 - (chair.goodwinLookupKey?.length ?? 0)))}${url ? `'${url}'` : "''"},${comment}`
 })
