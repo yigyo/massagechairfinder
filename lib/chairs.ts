@@ -5,8 +5,16 @@
  * HOW TO UPDATE:
  *   1. Edit this file (add/remove/change a chair or any field).
  *   2. MCF (massagechairfinder.com) picks up the change automatically on next deploy.
- *   3. For Goodwin: run `npm run generate-goodwin` from the massagechairfinder/ directory,
- *      then follow the instructions in the generated output file.
+ *   3. For Goodwin / Lila: from the massagechairfinder/ directory run
+ *
+ *        npm run sync-catalog
+ *
+ *      That regenerates the Goodwin output files AND pushes them directly to
+ *      the emily-chat-backend repo (server.js + goodwin-quiz-page.js), then
+ *      polls Vercel until both backend projects (Emily + Lila) deploy READY.
+ *      No manual paste step. No Shopify upload.
+ *
+ *      Want to preview the splice without pushing? Use `npm run sync-catalog:dry`.
  *
  * FIELD CONVENTIONS:
  *   - undefined   = spec unknown (AI will omit it from filtering and copy)
@@ -2751,11 +2759,4 @@ export const CHAIRS: Chair[] = [
 // ─── CONVENIENCE EXPORTS ───────────────────────────────────────────────────────
 
 /** All chairs active in MCF, ordered by priceMin. */
-export const MCF_CHAIRS = CHAIRS
-  .filter(c => c.active && c.mcfActive !== false)
-  .sort((a, b) => a.priceMin - b.priceMin)
-
-/** All chairs active in Goodwin, ordered by priceMin. */
-export const GOODWIN_CHAIRS = CHAIRS
-  .filter(c => c.active && c.goodwinActive !== false)
-  .sort((a, b) => a.priceMin - b.priceMin)
+e
