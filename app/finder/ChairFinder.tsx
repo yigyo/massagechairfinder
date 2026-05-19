@@ -48,17 +48,20 @@ const CHAIR_URL_LOOKUP: LookupEntry[] = buildLookup(c => c.affiliateUrl ?? undef
 const CHAIR_IMAGE_LOOKUP: LookupEntry[] = buildLookup(c => c.imageUrl ?? undefined)
 
 function getChairUrl(name: string): string {
-  const lower = name.toLowerCase()
+  // Hyphen-tolerant matching: 'Titan Pro-Vigor 4D' matches 'titan pro vigor' key.
+  const norm = (s: string) => s.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim()
+  const lower = norm(name)
   for (const [key, url] of CHAIR_URL_LOOKUP) {
-    if (lower.includes(key)) return url
+    if (lower.includes(norm(key))) return url
   }
   return ''
 }
 
 function getChairImage(name: string): string {
-  const lower = name.toLowerCase()
+  const norm = (s: string) => s.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim()
+  const lower = norm(name)
   for (const [key, img] of CHAIR_IMAGE_LOOKUP) {
-    if (lower.includes(key)) return img
+    if (lower.includes(norm(key))) return img
   }
   return ''
 }
