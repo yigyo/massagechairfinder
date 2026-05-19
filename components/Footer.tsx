@@ -41,6 +41,7 @@ export default function Footer() {
                 <li><Link href="/how-we-review" className="text-charcoal hover:text-gold transition-colors">How We Review</Link></li>
                 <li><Link href="/contact" className="text-charcoal hover:text-gold transition-colors">Contact</Link></li>
                 <li><Link href="/disclosure" className="text-charcoal hover:text-gold transition-colors">Affiliate Disclosure</Link></li>
+                <li><Link href="/privacy-policy" className="text-charcoal hover:text-gold transition-colors">Privacy Policy</Link></li>
               </ul>
             </div>
           </div>
@@ -51,9 +52,4 @@ export default function Footer() {
             we may earn a commission at no additional cost to you. This never influences our recommendations.{' '}
             <Link href="/disclosure" className="underline hover:text-gold">Full disclosure.</Link>
           </p>
-          <p className="mt-2">&copy; {new Date().getFullYear()} Massage Chair Finder. All rights reserved.</p>
-        </div>
-      </div>
-    </footer>
-  )
-}
+          <p className=
