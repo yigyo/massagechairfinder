@@ -25,7 +25,8 @@
 import { writeFileSync, mkdirSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
-import { GOODWIN_CHAIRS, buildGoodwinCatalogText, getGoodwinLookupChairs } from '../lib/catalogText.js'
+import { buildGoodwinCatalogText, getGoodwinLookupChairs } from '../lib/catalogText.js'
+import { GOODWIN_CHAIRS } from '../lib/chairs.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const outputDir = join(__dirname, 'goodwin-output')
