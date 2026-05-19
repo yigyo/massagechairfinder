@@ -2759,4 +2759,11 @@ export const CHAIRS: Chair[] = [
 // ─── CONVENIENCE EXPORTS ───────────────────────────────────────────────────────
 
 /** All chairs active in MCF, ordered by priceMin. */
-e
+export const MCF_CHAIRS = CHAIRS
+  .filter(c => c.active && c.mcfActive !== false)
+  .sort((a, b) => a.priceMin - b.priceMin)
+
+/** All chairs active in Goodwin, ordered by priceMin. */
+export const GOODWIN_CHAIRS = CHAIRS
+  .filter(c => c.active && c.goodwinActive !== false)
+  .sort((a, b) => a.priceMin - b.priceMin)

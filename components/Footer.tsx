@@ -52,4 +52,9 @@ export default function Footer() {
             we may earn a commission at no additional cost to you. This never influences our recommendations.{' '}
             <Link href="/disclosure" className="underline hover:text-gold">Full disclosure.</Link>
           </p>
-          <p className=
+          <p className="mt-2">&copy; {new Date().getFullYear()} Massage Chair Finder. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  )
+}
