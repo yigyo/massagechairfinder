@@ -164,11 +164,10 @@ export const CHAIRS: Chair[] = [
     ],
   },
 
-  {
-    id: 'osaki-os-pro-yamato',
+  {    id: 'osaki-os-pro-yamato',
     name: 'Osaki OS-Pro Yamato',
     brand: 'Osaki',
-    active: true, goodwinActive: false, mcfActive: false,  // OOS confirmed 2026-05-01
+    active: true, goodwinActive: true, mcfActive: false,  // OOS confirmed 2026-05-01
     priceMin: 2999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairheaven.com',
@@ -181,8 +180,7 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '2D',
     heightMaxIn: 72, weightCapacityLbs: 220,
     zeroGravity: true, zeroGravityStages: 2, spaceSaving: true, wallClearanceIn: 4, heat: true, stretch: true, foot: true, calf: true, aiScanning: true,
-    aiNotes: 'No firm pressure (2D roller). Not for plus-size buyers (220 lb max). Not for petite buyers.',
-  },
+    aiNotes: 'No firm pressure (2D roller). Not for plus-size buyers (220 lb max). Not for petite buyers.',  },
 
   {
     id: 'osaki-os-pro-admiral-ii',
@@ -338,11 +336,10 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'ONLY confirmed petite chair in catalog — minimum height 5\'0" confirmed.',
   },
 
-  {
-    id: 'infinity-celebrity',
+  {    id: 'infinity-celebrity',
     name: 'Infinity Celebrity 3D/4D',
     brand: 'Infinity',
-    active: true, goodwinActive: false, mcfActive: false,  // no retailer with affiliate program confirmed 2026-05-02
+    active: true, goodwinActive: true, mcfActive: false,  // no retailer with affiliate program confirmed 2026-05-02
     priceMin: 5999,  // updated 2026-05-03
     affiliateTier: null,
     affiliateRetailer: 'massagechairplanet.com',
@@ -358,8 +355,7 @@ export const CHAIRS: Chair[] = [
     reviewRating:      5.0,
     reviewCount:       3,
     reviewSource:      "massagechairplanet.com",
-    aiNotes: 'Formerly known as Riage X3. No active affiliate retailer as of 2026-05-02. Verified specs April 2026.',
-  },
+    aiNotes: 'Formerly known as Riage X3. No active affiliate retailer as of 2026-05-02. Verified specs April 2026.',  },
 
   {
     id: 'infinity-evolution',
@@ -422,11 +418,10 @@ export const CHAIRS: Chair[] = [
     tallConfirmed: true, plusSizeConfirmed: true,
     aiNotes: 'Flex-Track (SL+L hybrid). Best tall+space-saving chair, confirmed to 6\'6". 5-year warranty. Verified from massagechairstore.com April 2026.',
   },
-  {
-    id: 'infinity-circadian-4d-dualflex',
+  {    id: 'infinity-circadian-4d-dualflex',
     name: 'Infinity Circadian 4D DualFlex',
     brand: 'Infinity',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 16999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
@@ -440,8 +435,7 @@ export const CHAIRS: Chair[] = [
     heat: true, foot: true, calf: true,
     spaceSaving: true,
     aiScanning: true,
-    aiNotes: 'Syner-D dual back mechanism. 49 inch Flex-Track combining L and S-Track benefits, spinal decompression. Triple foot rollers per foot (Total Sole Reflexology). Complete Calf kneading and oscillation. Shiatsu arm rollers. Harman/Kardon premium audio. Wireless charging and USB-C. Touch screen tablet, voice control, health sensor (HR, SpO2, fatigue). TrueFit body scanning. Zero Wall Fit space-saving. Zero gravity inferred from product imagery (ZG1 and ZG2 image variants), confirm stages on next manual review. Weight capacity and height range not stated on page. Verified from massagechairstore.com May 2026.',
-  },
+    aiNotes: 'Syner-D dual back mechanism. 49 inch Flex-Track combining L and S-Track benefits, spinal decompression. Triple foot rollers per foot (Total Sole Reflexology). Complete Calf kneading and oscillation. Shiatsu arm rollers. Harman/Kardon premium audio. Wireless charging and USB-C. Touch screen tablet, voice control, health sensor (HR, SpO2, fatigue). TrueFit body scanning. Zero Wall Fit space-saving. Zero gravity inferred from product imagery (ZG1 and ZG2 image variants), confirm stages on next manual review. Weight capacity and height range not stated on page. Verified from massagechairstore.com May 2026.',  },
 
 
   // ── HUMAN TOUCH ────────────────────────────────────────────────────────────
@@ -469,11 +463,10 @@ export const CHAIRS: Chair[] = [
     reviewSource:      "humantouch.com",
         aiNotes: 'VIBRATION ONLY — not a roller chair. Always disclose this. Only recommend to buyers who cannot tolerate roller pressure. Never recommend to buyers seeking deep tissue or firm massage.',
   },
-  {
-    id: 'human-touch-super-novo-3',
+  {    id: 'human-touch-super-novo-3',
     name: 'Human Touch Super Novo 3.0',
     brand: 'Human Touch',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 11999,
     affiliateTier: 'B',
     affiliateRetailer: 'humantouch.com',
@@ -486,8 +479,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',
     heat: true, calf: true, stretch: true,
     aiScanning: true,
-    aiNotes: 'HT Flex S- and L-Track. DuoSync dual-quad roller system, 3D and 4D programs. Heated foot and calf, dual-lumbar heat. HT Flex full-body stretch. Rapid Acupoint body sensing. Touchscreen controller. Memory and AI-generated programs (Ascent Series flagship). White Glove delivery NOT included ($499 add-on). Zero gravity not explicitly named on product page, needs verification. Foot rollers not confirmed; chair lists heated foot and calf massager without specifying roller mechanism. Weight capacity and height range not on page. Verified from humantouch.com May 2026.',
-  },
+    aiNotes: 'HT Flex S- and L-Track. DuoSync dual-quad roller system, 3D and 4D programs. Heated foot and calf, dual-lumbar heat. HT Flex full-body stretch. Rapid Acupoint body sensing. Touchscreen controller. Memory and AI-generated programs (Ascent Series flagship). White Glove delivery NOT included ($499 add-on). Zero gravity not explicitly named on product page, needs verification. Foot rollers not confirmed; chair lists heated foot and calf massager without specifying roller mechanism. Weight capacity and height range not on page. Verified from humantouch.com May 2026.',  },
 
 
   // ── LURACO ─────────────────────────────────────────────────────────────────
@@ -621,11 +613,10 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'Tall-accommodating, confirmed to 6\'6". 300 lb capacity. Verified from massagechairheaven.com April 2026.',
   },
 
-  {
-    id: 'daiwa-black-panther-supreme-hybrid',
+  {    id: 'daiwa-black-panther-supreme-hybrid',
     name: 'Daiwa Black Panther Supreme Hybrid Massage Chair',
     brand: 'Daiwa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 15500,
     affiliateTier: null,
     affiliateRetailer: 'massagechairheaven.com',
@@ -638,13 +629,13 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, stretch: true, foot: true,
     tallConfirmed: true, plusSizeConfirmed: true,
     aiNotes: 'SL-track (HybriFlex). 3D roller. Confirmed 4 foot 8 inches to 6 foot 6 inches, 300 lb capacity. Zero gravity, heat, stretch, foot rollers. Via Massage Chair Heaven. Verified May 2026.',
-  },
+    goodwinLookupKey: 'daiwa black panther supreme hybrid',
+    },
 
-  {
-    id: 'daiwa-supreme-hybrid',
+  {    id: 'daiwa-supreme-hybrid',
     name: 'Daiwa Supreme Hybrid Massage Chair',
     brand: 'Daiwa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 16,
     priceMin: 13500,
@@ -659,13 +650,13 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, stretch: true, foot: true, calf: true,
     plusSizeConfirmed: true,
     aiNotes: 'L-track 49 inches. 3D roller. FullBodyReach MultiStroke 6-roller system. Confirmed 4 foot 8 inches to 6 foot 2 inches, 300 lb capacity. Zero gravity, heat, stretch. Via Massage Chair Heaven. Verified May 2026.',
-  },
+    goodwinLookupKey: 'daiwa supreme hybrid',
+    },
 
-  {
-    id: 'daiwa-pegasus-hybrid',
+  {    id: 'daiwa-pegasus-hybrid',
     name: 'Daiwa Pegasus Hybrid Massage Chair',
     brand: 'Daiwa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 12000,
     affiliateTier: null,
     affiliateRetailer: 'massagechairheaven.com',
@@ -677,13 +668,13 @@ export const CHAIRS: Chair[] = [
     heightMinIn: 56, heightMaxIn: 73, weightCapacityLbs: 265,
     zeroGravity: true, heat: true, stretch: true, foot: true, calf: true,
     aiNotes: 'Extended SL-track. 3D roller. 8-roller system. Confirmed 4 foot 8 inches to 6 foot 1 inch, 265 lb capacity. Zero gravity, heat, stretch, foot and calf rollers. Via Massage Chair Heaven. Verified May 2026.',
-  },
+    goodwinLookupKey: 'daiwa pegasus hybrid',
+    },
 
-  {
-    id: 'daiwa-hubble-plus-4d',
+  {    id: 'daiwa-hubble-plus-4d',
     name: 'Daiwa Hubble Plus 4D Massage Chair',
     brand: 'Daiwa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 11000,
     affiliateTier: null,
     affiliateRetailer: 'massagechairheaven.com',
@@ -695,7 +686,8 @@ export const CHAIRS: Chair[] = [
     heightMinIn: 64, heightMaxIn: 74, weightCapacityLbs: 265,
     zeroGravity: true, heat: true, stretch: true, foot: true, calf: true,
     aiNotes: 'SL-track. 4D roller. Triple reflexology foot rollers. Confirmed 5 foot 4 inches to 6 foot 2 inches, 265 lb capacity. Zero gravity, heat, stretch. Via Massage Chair Heaven. Verified May 2026.',
-  },
+    goodwinLookupKey: 'daiwa hubble plus 4d',
+    },
 
   {
     id: 'daiwa-pegasus-2-smart',
@@ -718,11 +710,10 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'L-track. 3D roller. Model DWA-9400. Confirmed 4 foot 8 inches to 6 foot 6 inches, 300 lb capacity. Zero gravity, heat, foot rollers, shiatsu wave calf massage. Via Massage Chair Heaven. Verified May 2026.',
   },
 
-  {
-    id: 'daiwa-hubble-3d',
+  {    id: 'daiwa-hubble-3d',
     name: 'Daiwa Hubble 3D Massage Chair',
     brand: 'Daiwa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 1,
     priceMin: 10000,
@@ -737,13 +728,13 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, stretch: true, foot: true,
     tallConfirmed: true, plusSizeConfirmed: true,
     aiNotes: 'L-track. 3D roller. Triple reflexology foot rollers. Thermal knee massage. Confirmed 4 foot 8 inches to 6 foot 6 inches, 300 lb capacity. Via Massage Chair Heaven. Verified May 2026.',
-  },
+    goodwinLookupKey: 'daiwa hubble 3d',
+    },
 
-  {
-    id: 'daiwa-relax-2-zero-3d',
+  {    id: 'daiwa-relax-2-zero-3d',
     name: 'Daiwa Relax 2 Zero 3D Massage Chair',
     brand: 'Daiwa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 1,
     priceMin: 9000,
@@ -758,13 +749,13 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, stretch: true, foot: true, calf: true,
     tallConfirmed: true, plusSizeConfirmed: true,
     aiNotes: 'S-track. 3D roller. Inversion power stretch and spinal stretching. Triple reflexology foot rollers. Confirmed 4 foot 8 inches to 6 foot 6 inches, 300 lb capacity. Via Massage Chair Heaven. Verified May 2026.',
-  },
+    goodwinLookupKey: 'daiwa relax 2 zero 3d',
+    },
 
-  {
-    id: 'daiwa-majesty-2d',
+  {    id: 'daiwa-majesty-2d',
     name: 'Daiwa Majesty 2D Massage Chair',
     brand: 'Daiwa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 6000,
     affiliateTier: null,
     affiliateRetailer: 'massagechairheaven.com',
@@ -777,7 +768,8 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, stretch: false, foot: true,
     tallConfirmed: true,
     aiNotes: 'L-track. 2D roller. Double reflexology foot rollers. 42 airbags. Confirmed 4 foot 8 inches to 6 foot 6 inches, 265 lb capacity. Zero gravity, heat. Via Massage Chair Heaven. Verified May 2026.',
-  },
+    goodwinLookupKey: 'daiwa majesty 2d',
+    },
 
   // ── KYOTA ──────────────────────────────────────────────────────────────────
 
@@ -832,11 +824,10 @@ export const CHAIRS: Chair[] = [
     aiScanning: true,
     aiNotes: 'L-Track 49". 4D roller. 300 lb capacity. Space-saving 2" clearance. TrueFit body scanning. Verified from massagechairwarehouse.com 2026-05-01.',
   },
-  {
-    id: 'kyota-konbi-m728-dualpro-4d',
+  {    id: 'kyota-konbi-m728-dualpro-4d',
     name: 'Kyota Konbi M728 DualPro 4D',
     brand: 'Kyota',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 7999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
@@ -850,17 +841,15 @@ export const CHAIRS: Chair[] = [
     heat: true, foot: true, calf: true, stretch: true,
     spaceSaving: true,
     aiScanning: true,
-    aiNotes: 'Dual back 4D mechanisms. L-track. Zero Wall Fit space-saving. TrueFit body scanning. 12 auto programs incl. full-body stretch. 8 inch touch screen tablet. Bluetooth speakers, voice control, on-board health sensor (heart rate, blood oxygen, fatigue). Lumbar cooling feature in addition to back and feet heat. Verified from massagechairstore.com May 2026. Weight capacity and height range not stated on product page, flag for follow-up.',
-  },
+    aiNotes: 'Dual back 4D mechanisms. L-track. Zero Wall Fit space-saving. TrueFit body scanning. 12 auto programs incl. full-body stretch. 8 inch touch screen tablet. Bluetooth speakers, voice control, on-board health sensor (heart rate, blood oxygen, fatigue). Lumbar cooling feature in addition to back and feet heat. Verified from massagechairstore.com May 2026. Weight capacity and height range not stated on product page, flag for follow-up.',  },
 
 
   // ── BODYFRIEND ─────────────────────────────────────────────────────────────
 
-  {
-    id: 'bodyfriend-phantom-medical',
+  {    id: 'bodyfriend-phantom-medical',
     name: 'Bodyfriend Phantom Medical Care 4D SL',
     brand: 'Bodyfriend',
-    active: true, goodwinActive: false, mcfActive: false,  // OOS 2026-05-01; recovathlete.com not on approved retailer list
+    active: true, goodwinActive: true, mcfActive: false,  // OOS 2026-05-01; recovathlete.com not on approved retailer list
     priceMin: 11000,
     affiliateTier: null,
     affiliateRetailer: 'recovathlete.com',
@@ -874,8 +863,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',
     zeroGravity: true, spaceSaving: true, heat: true, foot: true, calf: true,
     pemf: true,
-    aiNotes: 'Includes PEMF (pulsed electromagnetic field) therapy. Mention only if buyer asks about advanced wellness tech.',
-  },
+    aiNotes: 'Includes PEMF (pulsed electromagnetic field) therapy. Mention only if buyer asks about advanced wellness tech.',  },
 
   {
     id: 'bodyfriend-phantom-ii',
@@ -898,11 +886,10 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'SL-Track. 335 lb capacity. Verified from recovathlete.com April 2026.',
   },
 
-  {
-    id: 'bodyfriend-palace-ii',
+  {    id: 'bodyfriend-palace-ii',
     name: 'Bodyfriend Palace II',
     brand: 'Bodyfriend',
-    active: true, goodwinActive: false, mcfActive: false,  // OOS 2026-05-01; recovathlete.com not on approved retailer list
+    active: true, goodwinActive: true, mcfActive: false,  // OOS 2026-05-01; recovathlete.com not on approved retailer list
     priceMin: 8099,
     affiliateTier: null,
     affiliateRetailer: 'recovathlete.com',
@@ -917,8 +904,7 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, foot: true, calf: true,
     plusSizeConfirmed: true,
-    aiNotes: 'SL-Track. 300 lb capacity. Verified from recovathlete.com April 2026.',
-  },
+    aiNotes: 'SL-Track. 300 lb capacity. Verified from recovathlete.com April 2026.',  },
 
   {
     id: 'bodyfriend-falcon-xd',
@@ -1017,11 +1003,10 @@ export const CHAIRS: Chair[] = [
     aiNotes: "SL-Track confirmed. Height 5'2\"-6'1\". Weight cap 320 lbs. WishRock affiliate (A-tier). Dual-track: 4D upper + 3D glutes simultaneously.",
   },
 
-  {
-    id: 'ogawa-master-drive-ai',
+  {    id: 'ogawa-master-drive-ai',
     name: 'Ogawa Master Drive AI 2.0 4D',
     brand: 'Ogawa',
-    active: false, goodwinActive: false, mcfActive: false,  // duplicate of ogawa-og8801; retired May 2026
+    active: false, goodwinActive: true, mcfActive: false,  // duplicate of ogawa-og8801; retired May 2026
     priceMin: 12999,  // wishrockrelaxation.com verified 2026-05-02
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1033,14 +1018,12 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',  // track confirmed SL (was incorrectly L)
     heightMinIn: 62, heightMaxIn: 73, weightCapacityLbs: 320,
     zeroGravity: true, heat: true, aiScanning: true,
-    aiNotes: "SL-Track confirmed. Height 5'2\"-6'1\". Weight cap 320 lbs. WishRock affiliate (A-tier). Alexa voice control, AI body scan, 4D SL-track.",
-  },
+    aiNotes: "SL-Track confirmed. Height 5'2\"-6'1\". Weight cap 320 lbs. WishRock affiliate (A-tier). Alexa voice control, AI body scan, 4D SL-track.",  },
 
-  {
-    id: 'ogawa-active-xl',
+  {    id: 'ogawa-active-xl',
     name: 'Ogawa Active XL 3D',
     brand: 'Ogawa',
-    active: true, goodwinActive: false, mcfActive: false,  // no affiliate partner available
+    active: true, goodwinActive: true, mcfActive: false,  // no affiliate partner available
     priceMin: 5899,
     affiliateTier: null,
     affiliateRetailer: undefined,
@@ -1053,8 +1036,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '3D',
     heightMinIn: 60, heightMaxIn: 76, weightCapacityLbs: 320,
     zeroGravity: true, zeroGravityStages: 2, heat: true, stretch: true,
-    aiNotes: "Confirmed height 5'0\"-6'4\". Weight cap 320 lbs. No affiliate partner currently. Check wishrockrelaxation.com or osakimassagechair.com for availability.",
-  },
+    aiNotes: "Confirmed height 5'0\"-6'4\". Weight cap 320 lbs. No affiliate partner currently. Check wishrockrelaxation.com or osakimassagechair.com for availability.",  },
 
   {
     id: 'ogawa-active-l',
@@ -1291,11 +1273,10 @@ export const CHAIRS: Chair[] = [
 
   // ── SYNCA WELLNESS (entry and mid-range chairs from syncamassagechair.com) ──
 
-  {
-    id: 'synca-wellness-circ',
+  {    id: 'synca-wellness-circ',
     name: 'Synca Wellness CirC',
     brand: 'Synca Wellness',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 1299,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -1314,7 +1295,8 @@ export const CHAIRS: Chair[] = [
       "Relieves back pain and improves sleep when used as a pre-bedtime routine",
       "Works well for recovery from physical training and active lifestyles",
     ],
-  },
+    goodwinLookupKey: 'synca wellness circ+',
+    },
 
   {
     id: 'synca-wellness-circ-plus',
@@ -1342,11 +1324,10 @@ export const CHAIRS: Chair[] = [
     ],
   },
 
-  {
-    id: 'synca-wellness-circ-3',
+  {    id: 'synca-wellness-circ-3',
     name: 'Synca Wellness CirC 3',
     brand: 'Synca Wellness',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 1,
     priceMin: 1999,
@@ -1361,13 +1342,13 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, foot: true,
     plusSizeConfirmed: true,
     aiNotes: 'SL-track 47". 2D roller. 300 lb capacity. Entry-level choice for plus-size buyers on a budget.',
-  },
+    goodwinLookupKey: 'synca wellness circ 3',
+    },
 
-  {
-    id: 'synca-wellness-kurodo',
+  {    id: 'synca-wellness-kurodo',
     name: 'Synca Wellness Kurodo',
     brand: 'Synca Wellness',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 9999,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -1378,15 +1359,15 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',
     zeroGravity: true, heat: true, foot: true, aiScanning: true,
     aiNotes: 'SL-track. 4D roller. Made in Japan. Premium Synca Wellness flagship.',
-  },
+    goodwinLookupKey: 'synca wellness kurodo',
+    },
 
   // ── INNER BALANCE ───────────────────────────────────────────────────────────
 
-  {
-    id: 'inner-balance-jin',
+  {    id: 'inner-balance-jin',
     name: 'Inner Balance Jin',
     brand: 'Inner Balance',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 1999,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -1408,13 +1389,13 @@ export const CHAIRS: Chair[] = [
       "Customer service is frequently cited alongside the product itself",
       "Works well as a pre-bedtime routine for winding down after demanding days",
     ],
-  },
+    goodwinLookupKey: 'inner balance jin',
+    },
 
-  {
-    id: 'inner-balance-jin-2',
+  {    id: 'inner-balance-jin-2',
     name: 'Inner Balance Jin 2.0',
     brand: 'Inner Balance',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 3999,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -1437,15 +1418,15 @@ export const CHAIRS: Chair[] = [
       "Family members with mobility limitations find daily use accessible and beneficial",
       "Customer service is responsive and resolves issues effectively",
     ],
-  },
+    goodwinLookupKey: 'inner balance jin 2 0',
+    },
 
   // ── FUJIIRYOKI ─────────────────────────────────────────────────────────────
 
-  {
-    id: 'synca-wellness-jp3000',
+  {    id: 'synca-wellness-jp3000',
     name: 'Synca JP-3000',
     brand: 'Synca Wellness',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 2,
     priceMin: 10999,
@@ -1458,13 +1439,13 @@ export const CHAIRS: Chair[] = [
     track: 'S', roller: '5D',
     zeroGravity: true, heat: true, aiScanning: true,
     aiNotes: 'S-Track ONLY. 5D roller. Made in Japan. Now sold under Synca Wellness brand via syncamassagechair.com. DO NOT recommend for lower back, hip, or glute pain -- S-track stops at the lumbar.',
-  },
+    goodwinLookupKey: 'synca jp-3000',
+    },
 
-  {
-    id: 'fujiiryoki-cyber-relax-ai',
+  {    id: 'fujiiryoki-cyber-relax-ai',
     name: 'Fujiiryoki Cyber Relax Ai',
     brand: 'Fujiiryoki',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 1,
     priceMin: 10999,
@@ -1477,13 +1458,13 @@ export const CHAIRS: Chair[] = [
     track: 'S', roller: '5D',
     zeroGravity: true, heat: true, aiScanning: true,
     aiNotes: 'S-Track ONLY. 5D roller. Made in Japan. DO NOT recommend for lower back, hip, or glute pain -- S-track stops at the lumbar.',
-  },
+    goodwinLookupKey: 'fujiiryoki cyber relax ai',
+    },
 
-  {
-    id: 'fujiiryoki-cyber-relax-ai-executive',
+  {    id: 'fujiiryoki-cyber-relax-ai-executive',
     name: 'Fujiiryoki Cyber Relax Ai Executive',
     brand: 'Fujiiryoki',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 12999,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -1494,13 +1475,13 @@ export const CHAIRS: Chair[] = [
     track: 'S', roller: '5D',
     zeroGravity: true, heat: true, aiScanning: true,
     aiNotes: 'S-Track ONLY. 5D roller. Made in Japan. Executive upgrade over standard Cyber Relax Ai. DO NOT recommend for lower back, hip, or glute pain -- S-track stops at the lumbar.',
-  },
+    goodwinLookupKey: 'fujiiryoki cyber relax ai executive',
+    },
 
-  {
-    id: 'fujiiryoki-calm-plus',
+  {    id: 'fujiiryoki-calm-plus',
     name: 'Fujiiryoki Calm Plus',
     brand: 'Fujiiryoki',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 2,
     priceMin: 3999,
@@ -1513,13 +1494,13 @@ export const CHAIRS: Chair[] = [
     track: 'Flex', roller: '4D',
     zeroGravity: true, heat: true, foot: true,
     aiNotes: 'Flex-track. 4D roller. Mid-range Fujiiryoki with flexible track that adapts to body contour.',
-  },
+    goodwinLookupKey: 'fujiiryoki calm plus',
+    },
 
-  {
-    id: 'fujiiryoki-cyber-relax-elite',
+  {    id: 'fujiiryoki-cyber-relax-elite',
     name: 'Fujiiryoki Cyber Relax Elite',
     brand: 'Fujiiryoki',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 9999,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -1530,13 +1511,13 @@ export const CHAIRS: Chair[] = [
     track: 'Flex', roller: '4D',
     zeroGravity: true, heat: true, aiScanning: true,
     aiNotes: 'Flex-track. 4D roller. Premium Fujiiryoki with flexible track. Strong option for buyers who want full-body coverage with advanced Japanese engineering.',
-  },
+    goodwinLookupKey: 'fujiiryoki cyber relax elite',
+    },
 
-  {
-    id: 'fujiiryoki-cyber-relax-pro',
+  {    id: 'fujiiryoki-cyber-relax-pro',
     name: 'Fujiiryoki Cyber Relax Pro',
     brand: 'Fujiiryoki',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 2,
     priceMin: 14999,
@@ -1550,15 +1531,15 @@ export const CHAIRS: Chair[] = [
     spaceSaving: true, wallClearanceIn: 4,
     zeroGravity: true, heat: true, aiScanning: true,
     aiNotes: 'Flex-track. 8D dual roller system (two independent 4D roller units). Space-saving 4" wall clearance. Top-tier Fujiiryoki. Recommend for buyers who want Japanese engineering at the flagship level.',
-  },
+    goodwinLookupKey: 'fujiiryoki cyber relax pro',
+    },
 
   // ── DCORE ──────────────────────────────────────────────────────────────────
 
-  {
-    id: 'dcore-d-core-2',
+  {    id: 'dcore-d-core-2',
     name: 'DCORE D.Core 2',
     brand: 'DCORE',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 16999,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -1569,13 +1550,13 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '3D',
     zeroGravity: true, heat: true, aiScanning: true,
     aiNotes: 'SL-track. 3D roller. Made in Japan. DCORE flagship. Ultra-premium segment. Best for buyers who prioritize Japanese craftsmanship at the highest tier.',
-  },
+    goodwinLookupKey: 'dcore d core 2',
+    },
 
-  {
-    id: 'dcore-cirrus-jp',
+  {    id: 'dcore-cirrus-jp',
     name: 'DCORE CIRRUS-JP',
     brand: 'DCORE',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 1,
     priceMin: 12999,
@@ -1588,13 +1569,13 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '3D',
     zeroGravity: true, heat: true,
     aiNotes: 'L-track. 3D roller. Made in Japan. Strong lower-back and hip coverage at the premium tier.',
-  },
+    goodwinLookupKey: 'dcore cirrus-jp',
+    },
 
-  {
-    id: 'dcore-stratus-jp',
+  {    id: 'dcore-stratus-jp',
     name: 'DCORE STRATUS-JP',
     brand: 'DCORE',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 11499,
     affiliateTier: 'A',
     affiliateRetailer: 'syncamassagechair.com',
@@ -1605,15 +1586,15 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '3D',
     zeroGravity: true, heat: true,
     aiNotes: 'L-track. 3D roller. Made in Japan. Entry point into the DCORE premium lineup. Good lower-back and hip coverage.',
-  },
+    goodwinLookupKey: 'dcore stratus-jp',
+    },
 
   // ── KAHUNA (Dios line additions) ────────────────────────────────────────────
 
-  {
-    id: 'kahuna-dios-6800',
+  {    id: 'kahuna-dios-6800',
     name: 'Kahuna Dios-6800 6D Massage Chair',
     brand: 'Kahuna',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 3799,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1623,13 +1604,13 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '6D', trackLengthIn: 50,
     zeroGravity: true, heat: true, foot: true,
     aiNotes: 'SL-track 50". 6D roller. Strong mid-range Kahuna. Good value SL option in the $3k-$4k range. Via Wish Rock Relaxation. Verified May 2026.',
-  },
+    goodwinLookupKey: 'kahuna dios-6800 6d',
+    },
 
-  {
-    id: 'kahuna-dios-1288',
+  {    id: 'kahuna-dios-1288',
     name: 'Kahuna Dios-1288 8D Massage Chair',
     brand: 'Kahuna',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 16999,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1642,13 +1623,13 @@ export const CHAIRS: Chair[] = [
     reviewCount:       7,
     reviewSource:      "wishrockrelaxation.com",
     aiNotes: 'SL-track 54". 8D roller (dual 4D system). Kahuna flagship. Ultra-long track, strong option for tall buyers. Via Wish Rock Relaxation. Verified May 2026.',
-  },
+    goodwinLookupKey: 'kahuna dios-1288 8d',
+    },
 
-  {
-    id: 'kahuna-dios-flexa',
+  {    id: 'kahuna-dios-flexa',
     name: 'Kahuna Dios Flexa Massage Chair',
     brand: 'Kahuna',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 8499,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1659,13 +1640,13 @@ export const CHAIRS: Chair[] = [
     stretch: true,
     zeroGravity: true, heat: true, foot: true,
     aiNotes: 'SL-track 56". 4D roller. Full-body stretch. Among the longest SL tracks in the catalog -- excellent for tall buyers and full-body stretch. Via Wish Rock Relaxation. Verified May 2026.',
-  },
+    goodwinLookupKey: 'kahuna dios flexa',
+    },
 
-  {
-    id: 'kahuna-hm-kappa',
+  {    id: 'kahuna-hm-kappa',
     name: 'Kahuna HM-KAPPA Massage Chair',
     brand: 'Kahuna',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 9500,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1676,13 +1657,13 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, foot: true, aiScanning: true,
     spaceSaving: true,
     aiNotes: 'HSL-track (SL). 4D roller. 15 auto programs. Zero gravity, heat, foot rollers. Bluetooth. Memory. Space-saving design. Via Wish Rock Relaxation. Verified May 2026.',
-  },
+    goodwinLookupKey: 'kahuna hm-kappa',
+    },
 
-  {
-    id: 'kahuna-em-8500',
+  {    id: 'kahuna-em-8500',
     name: 'Kahuna EM-8500 Massage Chair',
     brand: 'Kahuna',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 8900,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1692,13 +1673,13 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',
     zeroGravity: true, heat: true, foot: true, calf: true, aiScanning: true,
     aiNotes: 'HSL-track (SL). 4D roller. Dual foot and calf rollers. Negative ion system. Heat to lumbar, legs, and feet. Fully assembled. Via Wish Rock Relaxation. Verified May 2026.',
-  },
+    goodwinLookupKey: 'kahuna em-8500',
+    },
 
-  {
-    id: 'kahuna-dios-7300',
+  {    id: 'kahuna-dios-7300',
     name: 'Kahuna Dios-7300 7D Massage Chair',
     brand: 'Kahuna',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 7999,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1708,13 +1689,13 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '7D',
     zeroGravity: true, heat: true, foot: true, calf: true, aiScanning: true,
     aiNotes: 'SL-track (dual-track). 7D roller. Zero gravity, heat, foot and calf rollers. AI body scan. Voice control. Via Wish Rock Relaxation. Verified May 2026.',
-  },
+    goodwinLookupKey: 'kahuna dios-7300 7d',
+    },
 
-  {
-    id: 'kahuna-sm-7300s',
+  {    id: 'kahuna-sm-7300s',
     name: 'Kahuna Massage Chair SM-7300S',
     brand: 'Kahuna',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 6999,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1725,13 +1706,13 @@ export const CHAIRS: Chair[] = [
     heightMaxIn: 74,
     zeroGravity: true, zeroGravityStages: 3, heat: true, stretch: true, foot: true, aiScanning: true,
     aiNotes: 'Big and tall SL-track 2D. 6-roller system. Heat to lumbar, calf, and feet. Three-stage zero gravity. Stretch. Designed for larger users. Via Wish Rock Relaxation. Verified May 2026.',
-  },
+    goodwinLookupKey: 'kahuna sm-7300s',
+    },
 
-  {
-    id: 'kahuna-hm-078',
+  {    id: 'kahuna-hm-078',
     name: 'Kahuna HM-078 Hubot 4D Massage Chair',
     brand: 'Kahuna',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 4399,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1743,13 +1724,13 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, foot: true, aiScanning: true,
     spaceSaving: true,
     aiNotes: 'HSL-track (SL). 4D roller. Voice control. Heat therapy. Space-saving design. Up to 6 foot 2 inches and 350 lb capacity. Via Wish Rock Relaxation. Verified May 2026.',
-  },
+    goodwinLookupKey: 'kahuna hm-078 hubot 4d',
+    },
 
-  {
-    id: 'kahuna-hm-5000',
+  {    id: 'kahuna-hm-5000',
     name: 'Kahuna HM-5000 Massage Chair',
     brand: 'Kahuna',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 2000,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1761,15 +1742,15 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: false, foot: true, calf: true,
     spaceSaving: true,
     aiNotes: 'SL-track 2D roller. Compact space-saving design. Zero gravity, foot and calf massage, hip airbags. Up to 6 foot 2 inches and 290 lb capacity. Via Wish Rock Relaxation. Verified May 2026.',
-  },
+    goodwinLookupKey: 'kahuna hm-5000',
+    },
 
   // ── ADOR ───────────────────────────────────────────────────────────────────
 
-  {
-    id: 'ador-3d-allure',
+  {    id: 'ador-3d-allure',
     name: 'Ador 3D Allure',
     brand: 'Ador',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 4999,
     affiliateTier: 'A',
     affiliateRetailer: 'osakimassagechair.com',
@@ -1784,15 +1765,15 @@ export const CHAIRS: Chair[] = [
     reviewCount:       7,
     reviewSource:      "osakimassagechair.com",
     aiNotes: 'SL-track. 3D roller. 260 lb weight capacity. Distributed by Osaki. Good mid-range SL option.',
-  },
+    goodwinLookupKey: 'ador 3d allure',
+    },
 
   // ── THERAMEDIC ─────────────────────────────────────────────────────────────
 
-  {
-    id: 'theramedic-flex',
+  {    id: 'theramedic-flex',
     name: 'Theramedic Flex',
     brand: 'Theramedic',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 3499,
     affiliateTier: 'A',
     affiliateRetailer: 'osakimassagechair.com',
@@ -1808,15 +1789,15 @@ export const CHAIRS: Chair[] = [
     reviewCount:       6,
     reviewSource:      "osakimassagechair.com",
     aiNotes: 'Flex-track. 2D roller. Space-saving 4" wall clearance. 260 lb capacity. Distributed by Osaki. Good option for buyers who want Flex-track at a mid-range price.',
-  },
+    goodwinLookupKey: 'theramedic flex',
+    },
 
   // ── KANJI ──────────────────────────────────────────────────────────────────
 
-  {
-    id: 'kanji-4d-shogun-duo',
+  {    id: 'kanji-4d-shogun-duo',
     name: 'Kanji 4D Shogun Duo',
     brand: 'Kanji',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 14999,
     affiliateTier: 'A',
     affiliateRetailer: 'osakimassagechair.com',
@@ -1830,7 +1811,8 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, foot: true,
     plusSizeConfirmed: true,
     aiNotes: 'Flex-track. 8D dual roller system (two independent 4D roller units). Space-saving 5.5" wall clearance. 330 lb capacity -- one of the highest in the catalog. Distributed by Osaki. Strong premium option for plus-size buyers.',
-  },
+    goodwinLookupKey: 'kanji 4d shogun duo',
+    },
 
   // ── OGAWA (Wish Rock Relaxation) ───────────────────────────────────────────
 
@@ -1930,11 +1912,10 @@ export const CHAIRS: Chair[] = [
 
   // ── RELAXE ─────────────────────────────────────────────────────────────────
 
-  {
-    id: 'relaxe-shiatsu',
+  {    id: 'relaxe-shiatsu',
     name: 'Relaxe Shiatsu',
     brand: 'Relaxe',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 2999,
     affiliateTier: 'A',
     affiliateRetailer: 'relaxe.co',
@@ -1956,7 +1937,8 @@ export const CHAIRS: Chair[] = [
       "Multiple household members compete for daily time in the chair",
       "Buyers consistently note it replaces the cost of ongoing massage therapy appointments",
     ],
-  },
+    goodwinLookupKey: 'relaxe shiatsu',
+    },
 
   // ── REAL RELAX (Goodwin Tier C fallback only — never surface in MCF) ────────
 
@@ -2010,11 +1992,10 @@ export const CHAIRS: Chair[] = [
 
   // ── OHCO ──────────────────────────────────────────────────────────────────
 
-  {
-    id: 'ohco-m8-neo-le',
+  {    id: 'ohco-m8-neo-le',
     name: 'OHCO M.8 NEO LE',
     brand: 'OHCO',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 18000,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2025,15 +2006,15 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',
     zeroGravity: true, heat: true, aiScanning: true,
     aiNotes: 'Flagship OHCO model at $18,000. SL-track 4D. Dual zero gravity. Full body scan. Premium leather. Sold exclusively through Johnson Fitness.',
-  },
+    goodwinLookupKey: 'ohco m 8 neo le',
+    },
 
   // ── RELAX ON CHAIR ────────────────────────────────────────────────────────
 
-  {
-    id: 'relaxonchair-rio',
+  {    id: 'relaxonchair-rio',
     name: 'Relax On Chair RIO',
     brand: 'Relax On Chair',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2044,13 +2025,13 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: null,
     zeroGravity: true, heat: true, foot: true,
     aiNotes: 'Entry-level SL-track at $999. Zero gravity, heat, foot rollers. Good starting point for budget buyers who still want SL coverage.',
-  },
+    goodwinLookupKey: 'relax on chair rio',
+    },
 
-  {
-    id: 'relaxonchair-jasper',
+  {    id: 'relaxonchair-jasper',
     name: 'Relax On Chair Jasper',
     brand: 'Relax On Chair',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 1599,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2063,7 +2044,8 @@ export const CHAIRS: Chair[] = [
     reviewCount:       1,
     reviewSource:      "relaxonchair.com",
     aiNotes: 'SL-track, zero gravity, heat, foot rollers. Mid-entry price with full-spine coverage.',
-  },
+    goodwinLookupKey: 'relax on chair jasper',
+    },
 
   {
     id: 'relaxonchair-mk-ii-plus',
@@ -2113,11 +2095,10 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'SL-track with zero gravity and heat. Full-spine coverage in the $2,299 range.',
   },
 
-  {
-    id: 'relaxonchair-mk-v-plus',
+  {    id: 'relaxonchair-mk-v-plus',
     name: 'Relax On Chair MK-V Plus',
     brand: 'Relax On Chair',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 2499,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2136,7 +2117,8 @@ export const CHAIRS: Chair[] = [
       "Heating massage is the most praised feature for back pain relief",
       "Daily household use by multiple family members over several years",
     ],
-  },
+    goodwinLookupKey: 'relax on chair mk-v plus',
+    },
 
   {
     id: 'relaxonchair-ion-3d',
@@ -2177,11 +2159,10 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'SL-track with 3D rollers, zero gravity, and heat. Mid-tier 3D option from Relax On Chair.',
   },
 
-  {
-    id: 'relaxonchair-yukon-4d',
+  {    id: 'relaxonchair-yukon-4d',
     name: 'Relax On Chair YUKON-4D',
     brand: 'Relax On Chair',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 6499,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2194,15 +2175,15 @@ export const CHAIRS: Chair[] = [
     reviewCount:       3,
     reviewSource:      "relaxonchair.com",
     aiNotes: 'Flagship 4D SL-track from Relax On Chair. Premium pressure control and full-spine coverage at $6,499.',
-  },
+    goodwinLookupKey: 'relax on chair yukon-4d',
+    },
 
   // ── CERAGEM ───────────────────────────────────────────────────────────────
 
-  {
-    id: 'ceragem-m10',
+  {    id: 'ceragem-m10',
     name: 'Ceragem M10',
     brand: 'Ceragem',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 12999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2212,15 +2193,15 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',
     zeroGravity: false, heat: true, aiScanning: true,
     aiNotes: 'SL-track 4D roller with thermal jade ball therapy and ceramic heating panels. Full-body AI scan with automatic positioning. Heat to lumbar and thoracic regions. Premium thermal therapy chair at $12,999. Verified May 2026.',
-  },
+    goodwinLookupKey: 'ceragem m10',
+    },
 
   // ── ERGOTEC ───────────────────────────────────────────────────────────────
 
-  {
-    id: 'ergotec-et-180-pluto',
+  {    id: 'ergotec-et-180-pluto',
     name: 'Ergotec ET-180 Pluto',
     brand: 'Ergotec',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 1999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2231,15 +2212,15 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 320,
     zeroGravity: false, heat: true, stretch: true, foot: true,
     aiNotes: 'L-track 3D at $1,999. 320 lb weight capacity. Heat, stretch, foot rollers. Strong value entry for buyers needing higher weight support.',
-  },
+    goodwinLookupKey: 'ergotec et-180 pluto',
+    },
 
   // ── KOYO ──────────────────────────────────────────────────────────────────
 
-  {
-    id: 'koyo-303ts',
+  {    id: 'koyo-303ts',
     name: 'Koyo 303TS',
     brand: 'Koyo',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 7999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2249,15 +2230,15 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',
     zeroGravity: false, heat: true,
     aiNotes: 'SL-track 4D roller. Japanese-made precision massage chair at $7,999. Koyo is a niche Japanese brand emphasizing engineering quality. Verified May 2026.',
-  },
+    goodwinLookupKey: 'koyo 303ts',
+    },
 
   // ── MEDICAL BREAKTHROUGH ──────────────────────────────────────────────────
 
-  {
-    id: 'medical-breakthrough-5',
+  {    id: 'medical-breakthrough-5',
     name: 'Medical Breakthrough 5',
     brand: 'Medical Breakthrough',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 2249,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2271,13 +2252,13 @@ export const CHAIRS: Chair[] = [
     reviewCount:       1,
     reviewSource:      "massagechairwarehouse.com",
     aiNotes: 'Entry model. 4D massage, zero gravity sleep system, full body scan, stretch. 300 lb capacity. Track type not specified in product data.',
-  },
+    goodwinLookupKey: 'medical breakthrough 5',
+    },
 
-  {
-    id: 'medical-breakthrough-6',
+  {    id: 'medical-breakthrough-6',
     name: 'Medical Breakthrough 6',
     brand: 'Medical Breakthrough',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 4249,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2288,13 +2269,13 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: true, aiScanning: true,
     aiNotes: 'L-track. 4D roller. Heat, zero gravity, full body scan, stretch. 300 lb capacity. Verified May 2026.',
-  },
+    goodwinLookupKey: 'medical breakthrough 6',
+    },
 
-  {
-    id: 'medical-breakthrough-6-plus',
+  {    id: 'medical-breakthrough-6-plus',
     name: 'Medical Breakthrough 6 Plus',
     brand: 'Medical Breakthrough',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 5499,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2308,13 +2289,13 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: true, aiScanning: true,
     aiNotes: 'L-track. 4D roller. Heat, zero gravity, full body scan, stretch. 300 lb capacity. Verified May 2026.',
-  },
+    goodwinLookupKey: 'medical breakthrough 6 plus',
+    },
 
-  {
-    id: 'medical-breakthrough-7',
+  {    id: 'medical-breakthrough-7',
     name: 'Medical Breakthrough 7',
     brand: 'Medical Breakthrough',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 6249,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2328,13 +2309,13 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: true, aiScanning: true,
     aiNotes: 'L-track. 4D roller. Heat, zero gravity, full body scan, stretch. 300 lb capacity. Verified May 2026.',
-  },
+    goodwinLookupKey: 'medical breakthrough 7',
+    },
 
-  {
-    id: 'medical-breakthrough-7-plus',
+  {    id: 'medical-breakthrough-7-plus',
     name: 'Medical Breakthrough 7 Plus',
     brand: 'Medical Breakthrough',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 8399,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2345,13 +2326,13 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: true, aiScanning: true,
     aiNotes: 'L-track. 4D roller. Heat, zero gravity, full body scan, stretch. 300 lb capacity. Verified May 2026.',
-  },
+    goodwinLookupKey: 'medical breakthrough 7 plus',
+    },
 
-  {
-    id: 'medical-breakthrough-8',
+  {    id: 'medical-breakthrough-8',
     name: 'Medical Breakthrough 8',
     brand: 'Medical Breakthrough',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 8249,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2365,13 +2346,13 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: true, aiScanning: true,
     aiNotes: 'L-track. 4D roller. Heat, zero gravity, full body scan, stretch. 300 lb capacity. Verified May 2026.',
-  },
+    goodwinLookupKey: 'medical breakthrough 8',
+    },
 
-  {
-    id: 'medical-breakthrough-8-plus',
+  {    id: 'medical-breakthrough-8-plus',
     name: 'Medical Breakthrough 8 Plus',
     brand: 'Medical Breakthrough',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 10899,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2382,13 +2363,13 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: true, aiScanning: true, foot: true,
     aiNotes: 'L-track. 4D roller. Heat, zero gravity, full body scan, stretch, open-foot rollers. 300 lb capacity. Verified May 2026.',
-  },
+    goodwinLookupKey: 'medical breakthrough 8 plus',
+    },
 
-  {
-    id: 'medical-breakthrough-9',
+  {    id: 'medical-breakthrough-9',
     name: 'Medical Breakthrough 9',
     brand: 'Medical Breakthrough',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 10399,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2399,13 +2380,13 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: true, aiScanning: true,
     aiNotes: 'L-track. 4D roller. Heat, zero gravity, full body scan, stretch. 300 lb capacity. Verified May 2026.',
-  },
+    goodwinLookupKey: 'medical breakthrough 9',
+    },
 
-  {
-    id: 'medical-breakthrough-9-plus',
+  {    id: 'medical-breakthrough-9-plus',
     name: 'Medical Breakthrough 9 Plus',
     brand: 'Medical Breakthrough',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 14649,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2419,13 +2400,13 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: true, aiScanning: true,
     aiNotes: 'L-track. 4D roller. Heat, zero gravity, full body scan, stretch. 300 lb capacity. Verified May 2026.',
-  },
+    goodwinLookupKey: 'medical breakthrough 9 plus',
+    },
 
-  {
-    id: 'medical-breakthrough-x',
+  {    id: 'medical-breakthrough-x',
     name: 'Medical Breakthrough X',
     brand: 'Medical Breakthrough',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 1,
     priceMin: 12499,
@@ -2438,15 +2419,15 @@ export const CHAIRS: Chair[] = [
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: true, aiScanning: true,
     aiNotes: 'L-track. 4D roller. Heat, zero gravity, full body scan, stretch. 300 lb capacity. Flagship Medical Breakthrough model. Verified May 2026.',
-  },
+    goodwinLookupKey: 'medical breakthrough x',
+    },
 
   // ── POSITIVE POSTURE ──────────────────────────────────────────────────────
 
-  {
-    id: 'positive-posture-brio-plus',
+  {    id: 'positive-posture-brio-plus',
     name: 'Positive Posture Brio Plus',
     brand: 'Positive Posture',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 7999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2462,13 +2443,13 @@ export const CHAIRS: Chair[] = [
     buyerThemes: [
       "Buyers with arthritis, back pain, and leg pain report daily use without missing a session",
     ],
-  },
+    goodwinLookupKey: 'positive posture brio plus',
+    },
 
-  {
-    id: 'positive-posture-brio-sport',
+  {    id: 'positive-posture-brio-sport',
     name: 'Positive Posture Brio Sport',
     brand: 'Positive Posture',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 8999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2487,13 +2468,13 @@ export const CHAIRS: Chair[] = [
       "Programmed routines vary meaningfully, providing a different experience each session",
       "Quick sessions immediately after exercise are the standout use pattern",
     ],
-  },
+    goodwinLookupKey: 'positive posture brio sport',
+    },
 
-  {
-    id: 'positive-posture-solara',
+  {    id: 'positive-posture-solara',
     name: 'Positive Posture Solara',
     brand: 'Positive Posture',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 2499,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2503,15 +2484,15 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '2D',
     zeroGravity: false, heat: true,
     aiNotes: 'SL-track 2D roller. Entry-level Positive Posture model at $2,499. Heat therapy. Verified May 2026.',
-  },
+    goodwinLookupKey: 'positive posture solara',
+    },
 
   // ── SHARPER IMAGE ─────────────────────────────────────────────────────────
 
-  {
-    id: 'sharper-image-relieve-3d',
+  {    id: 'sharper-image-relieve-3d',
     name: 'Sharper Image Relieve 3D',
     brand: 'Sharper Image',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 4499,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2521,13 +2502,13 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '3D',
     zeroGravity: true, heat: true, foot: true,
     aiNotes: 'L-track 3D with zero gravity, heat, and foot rollers. Sharper Image brand sold through MCW at $4,499.',
-  },
+    goodwinLookupKey: 'sharper image relieve 3d',
+    },
 
-  {
-    id: 'sharper-image-revival',
+  {    id: 'sharper-image-revival',
     name: 'Sharper Image Revival',
     brand: 'Sharper Image',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 3999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2537,15 +2518,15 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '2D',
     zeroGravity: true, heat: true, foot: true,
     aiNotes: 'L-track 2D roller. Zero gravity, heat, foot rollers. Entry point to the Sharper Image massage chair line at $3,999. Verified May 2026.',
-  },
+    goodwinLookupKey: 'sharper image revival',
+    },
 
   // ── SVAGO ─────────────────────────────────────────────────────────────────
 
-  {
-    id: 'svago-lite-2',
+  {    id: 'svago-lite-2',
     name: 'Svago Lite 2',
     brand: 'Svago',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 1499,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2558,13 +2539,13 @@ export const CHAIRS: Chair[] = [
     reviewCount:       1,
     reviewSource:      "massagechairwarehouse.com",
     aiNotes: 'Zero gravity recliner with lumbar vibration and heat. Not a roller massage chair. Svago specializes in zero gravity recliners rather than traditional massage chairs.',
-  },
+    goodwinLookupKey: 'svago lite 2',
+    },
 
-  {
-    id: 'svago-zgr',
+  {    id: 'svago-zgr',
     name: 'Svago ZGR',
     brand: 'Svago',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 2199,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2577,13 +2558,13 @@ export const CHAIRS: Chair[] = [
     reviewCount:       2,
     reviewSource:      "massagechairwarehouse.com",
     aiNotes: 'Zero gravity recliner with vibration massage and heat. Not a roller-track chair. Good for buyers who want zero gravity positioning and gentle vibration rather than deep tissue roller work.',
-  },
+    goodwinLookupKey: 'svago zgr',
+    },
 
-  {
-    id: 'svago-newton',
+  {    id: 'svago-newton',
     name: 'Svago Newton',
     brand: 'Svago',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 3499,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2593,16 +2574,16 @@ export const CHAIRS: Chair[] = [
     track: null, roller: null,
     zeroGravity: true, heat: true,
     aiNotes: 'Premium zero gravity recliner with air-cell massage and heat. Not a roller-track chair. Svago flagship model with more sophisticated air-pressure massage than the ZGR.',
-  },
+    goodwinLookupKey: 'svago newton',
+    },
 
 
   // ── ROCKERTECH ───────────────────────────────────────────────────────────────
 
-  {
-    id: 'rockertech-bliss',
+  {    id: 'rockertech-bliss',
     name: 'RockerTech Bliss',
     brand: 'RockerTech',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 5499,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2614,13 +2595,13 @@ export const CHAIRS: Chair[] = [
     spaceSaving: true,
     zeroGravity: true, heat: true, foot: true, aiScanning: true,
     aiNotes: 'L-track 4D at $5,499. 2-level zero gravity. Lumbar heat. Reflexology foot rollers. TrueFit body scanning. Zero Wall Fit space-saving technology. 3-year warranty. Sold via Massage Chair Heaven.',
-  },
+    goodwinLookupKey: 'rockertech bliss',
+    },
 
-  {
-    id: 'rockertech-sensation-4d',
+  {    id: 'rockertech-sensation-4d',
     name: 'RockerTech Sensation 4D',
     brand: 'RockerTech',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 6999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2632,15 +2613,15 @@ export const CHAIRS: Chair[] = [
     spaceSaving: true,
     zeroGravity: true, heat: true, foot: true, aiScanning: true,
     aiNotes: 'SL-track 4D at $6,999. 2-level zero gravity. Lumbar heat. Dual reflexology foot rollers plus kneading calf rollers. TrueFit body scanning. Zero Wall Fit space-saving. 3-year warranty. Sold via Massage Chair Heaven.',
-  },
+    goodwinLookupKey: 'rockertech sensation 4d',
+    },
 
   // ── OHCO (M8 Neo standard) ────────────────────────────────────────────────
 
-  {
-    id: 'ohco-m8-neo',
+  {    id: 'ohco-m8-neo',
     name: 'OHCO M.8 NEO',
     brand: 'OHCO',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 14999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2651,15 +2632,15 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',
     zeroGravity: true, heat: true, aiScanning: true,
     aiNotes: 'Standard M.8 NEO at $14,999. SL-track 4D. Zero gravity. Body scan. Step-down from the $18,000 LE. Sold exclusively through Johnson Fitness. Compare with LE before recommending.',
-  },
+    goodwinLookupKey: 'ohco m 8 neo',
+    },
 
   // ── NOUHAUS ───────────────────────────────────────────────────────────────
 
-  {
-    id: 'nouhaus-new-classic',
+  {    id: 'nouhaus-new-classic',
     name: 'Nouhaus New Classic',
     brand: 'Nouhaus',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 1499,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2673,13 +2654,13 @@ export const CHAIRS: Chair[] = [
     reviewCount:       80,
     reviewSource:      "nouhaus.com",
     aiNotes: 'SL-track with heat at $1,499. 250 lb weight cap. 90-degree swivel. Red Dot Award winner (2020). No zero gravity. Good entry option for buyers who want SL-track without ZG features.',
-  },
+    goodwinLookupKey: 'nouhaus new classic',
+    },
 
-  {
-    id: 'nouhaus-aurora',
+  {    id: 'nouhaus-aurora',
     name: 'Nouhaus Aurora',
     brand: 'Nouhaus',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 2299,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2692,13 +2673,13 @@ export const CHAIRS: Chair[] = [
     reviewCount:       6,
     reviewSource:      "nouhaus.com",
     aiNotes: 'Compact SL-track with zero gravity (116-139 degrees) at $2,299. 6 auto programs. Heat. Small footprint (45.47" x 28.54"). Good for buyers who want zero gravity in a smaller chair.',
-  },
+    goodwinLookupKey: 'nouhaus aurora',
+    },
 
-  {
-    id: 'nouhaus-noucampo',
+  {    id: 'nouhaus-noucampo',
     name: 'Nouhaus Nou Campo',
     brand: 'Nouhaus',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 2299,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2712,13 +2693,13 @@ export const CHAIRS: Chair[] = [
     reviewCount:       46,
     reviewSource:      "nouhaus.com",
     aiNotes: 'SL-track built for larger users: fits up to 6\'3" and 250 lbs. Auto shoulder recognition for body scan. Heat. No zero gravity. Good option for taller buyers in the $2,000-$2,500 range.',
-  },
+    goodwinLookupKey: 'nouhaus nou campo',
+    },
 
-  {
-    id: 'nouhaus-luna',
+  {    id: 'nouhaus-luna',
     name: 'Nouhaus Luna',
     brand: 'Nouhaus',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 2999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2731,13 +2712,13 @@ export const CHAIRS: Chair[] = [
     reviewCount:       6,
     reviewSource:      "nouhaus.com",
     aiNotes: 'SL-track 3D with zero gravity and ThermoMassage heat (3 levels: 35/40/45 C) at $2,999. Red Dot Award design. Bluetooth speakers. Strong mid-tier option from Nouhaus.',
-  },
+    goodwinLookupKey: 'nouhaus luna',
+    },
 
-  {
-    id: 'nouhaus-orbit',
+  {    id: 'nouhaus-orbit',
     name: 'Nouhaus Orbit',
     brand: 'Nouhaus',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,
     priceMin: 3999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2751,8 +2732,55 @@ export const CHAIRS: Chair[] = [
     reviewCount:       6,
     reviewSource:      "nouhaus.com",
     aiNotes: 'Premium 3D zero gravity chair at $3,999. Track type not confirmed. Body recognition technology. Top-grain natural leather. Zero gravity 120-145 degrees. Red Dot Award design. Highest-tier Nouhaus model.',
-  },
+    goodwinLookupKey: 'nouhaus orbit',
+    },
 
+
+  // ── AUTO-RECONCILED ENTRIES ─────────────────
+  {
+    id: 'daiwa-pegasus-2-smart',
+    name: 'Daiwa Pegasus 2 Smart',
+    brand: 'Daiwa',
+    active: true, goodwinActive: true, mcfActive: false,
+    goodwinLookupKey: 'daiwa pegasus 2 smart',
+    affiliateUrl: 'https://www.massagechairheaven.com/products/daiwa-pegasus-2-smart-massage-chair',
+    imageUrl: 'https://www.massagechairfinder.com/images/chairs/daiwa-pegasus-2-smart-dwa-9400.jpg',
+    priceMin: 0,
+    aiNotes: 'AUTO-RECONCILED 2026-05-19. Backfill specs when reviewing.',
+  },
+  {
+    id: 'ogawa-master-drive-duo-le-4d-3d',
+    name: 'Ogawa Master Drive Duo Le 4d+3d',
+    brand: 'Ogawa',
+    active: true, goodwinActive: true, mcfActive: false,
+    goodwinLookupKey: 'ogawa master drive duo le 4d+3d',
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-le-4d-3d-massage-chair-og-8901',
+    imageUrl: 'https://www.massagechairfinder.com/images/chairs/ogawa-master-drive-duo-le-4d-3d-og-8901.jpg',
+    priceMin: 0,
+    aiNotes: 'AUTO-RECONCILED 2026-05-19. Backfill specs when reviewing.',
+  },
+  {
+    id: 'ogawa-master-drive-duo-4d-3d',
+    name: 'Ogawa Master Drive Duo 4d+3d',
+    brand: 'Ogawa',
+    active: true, goodwinActive: true, mcfActive: false,
+    goodwinLookupKey: 'ogawa master drive duo 4d+3d',
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-4d-3d-massage-chair-og-8900',
+    imageUrl: 'https://www.massagechairfinder.com/images/chairs/ogawa-master-drive-duo-4d-3d-og-8900.webp',
+    priceMin: 0,
+    aiNotes: 'AUTO-RECONCILED 2026-05-19. Backfill specs when reviewing.',
+  },
+  {
+    id: 'ogawa-active-xl-duo-3d-2d',
+    name: 'Ogawa Active Xl Duo 3d+2d',
+    brand: 'Ogawa',
+    active: true, goodwinActive: true, mcfActive: false,
+    goodwinLookupKey: 'ogawa active xl duo 3d+2d',
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-active-xl-duo-3d-massage-chair-og-6400',
+    imageUrl: 'https://www.massagechairfinder.com/images/chairs/ogawa-active-xl-duo-3d-2d-og-6400.jpg',
+    priceMin: 0,
+    aiNotes: 'AUTO-RECONCILED 2026-05-19. Backfill specs when reviewing.',
+  },
 
 ]
 
