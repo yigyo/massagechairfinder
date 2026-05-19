@@ -1295,7 +1295,7 @@ export const CHAIRS: Chair[] = [
       "Relieves back pain and improves sleep when used as a pre-bedtime routine",
       "Works well for recovery from physical training and active lifestyles",
     ],
-    goodwinLookupKey: 'synca wellness circ+',
+    goodwinLookupKey: 'synca wellness circ',
     },
 
   {
@@ -1322,6 +1322,7 @@ export const CHAIRS: Chair[] = [
       "Multiple settings handle different session goals, from gentle relaxation to firm massage",
       "Zero gravity recline delivers noticeable pressure relief in a smaller footprint",
     ],
+    goodwinLookupKey: 'synca wellness circ+',
   },
 
   {    id: 'synca-wellness-circ-3',
