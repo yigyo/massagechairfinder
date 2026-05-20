@@ -96,6 +96,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-modalities-explained",
       "physiology-of-massage",
       "massage-and-recovery",
+      "massage-and-aging",
     ],
   },
 ]
