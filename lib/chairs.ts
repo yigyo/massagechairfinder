@@ -1023,20 +1023,20 @@ export const CHAIRS: Chair[] = [
   {    id: 'ogawa-active-xl',
     name: 'Ogawa Active XL 3D',
     brand: 'Ogawa',
-    active: true, goodwinActive: true, mcfActive: false,  // no affiliate partner available
+    active: true, goodwinActive: true, mcfActive: false,  // off MCF intentionally; flip to true to show
     priceMin: 5899,
-    affiliateTier: null,
-    affiliateRetailer: undefined,
+    affiliateTier: 'A',
+    affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: undefined,
-    inStock: false,
+    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-active-xl-3d-massage-chair-og-6300',
+    inStock: true,
     alternativeIds: ['titan-3d-prestige'],
     goodwinLookupKey: 'ogawa active xl',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/ogawa-active-xl-massage-chair.webp?v=1776836198',
     track: 'SL', roller: '3D',
     heightMinIn: 60, heightMaxIn: 76, weightCapacityLbs: 320,
     zeroGravity: true, zeroGravityStages: 2, heat: true, stretch: true,
-    aiNotes: "Confirmed height 5'0\"-6'4\". Weight cap 320 lbs. No affiliate partner currently. Check wishrockrelaxation.com or osakimassagechair.com for availability.",  },
+    aiNotes: "Confirmed height 5'0\"-6'4\". Weight cap 320 lbs. Affiliate via wishrockrelaxation.com.",  },
 
   {
     id: 'ogawa-active-l',
