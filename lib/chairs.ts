@@ -2753,7 +2753,7 @@ export const CHAIRS: Chair[] = [
   },
   {
     id: 'ogawa-master-drive-duo-le-4d-3d',
-    name: 'Ogawa Master Drive Duo Le 4d+3d',
+    name: 'Ogawa Master Drive Duo LE 4D+3D',
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: false,
     affiliateTier: null, goodwinStatus: 'none',
@@ -2766,7 +2766,7 @@ export const CHAIRS: Chair[] = [
   },
   {
     id: 'ogawa-master-drive-duo-4d-3d',
-    name: 'Ogawa Master Drive Duo 4d+3d',
+    name: 'Ogawa Master Drive Duo 4D+3D',
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: false,
     affiliateTier: null, goodwinStatus: 'none',
@@ -2779,7 +2779,7 @@ export const CHAIRS: Chair[] = [
   },
   {
     id: 'ogawa-active-xl-duo-3d-2d',
-    name: 'Ogawa Active Xl Duo 3d+2d',
+    name: 'Ogawa Active XL Duo 3D+2D',
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: false,
     affiliateTier: null, goodwinStatus: 'none',
