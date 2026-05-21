@@ -2,82 +2,36 @@ name: Weekly News Monitor
 
 on:
   schedule:
-    - cron: "0 11 * * 1"   # Every Monday at 6am ET (11:00 UTC) -- GitHub fallback
-  workflow_dispatch:        # Manual trigger and Vercel cron trigger
+    - cron: "0 11 * * 1"
+  workflow_dispatch:
 
 jobs:
   news-monitor:
     runs-on: ubuntu-latest
     permissions:
-      contents: write        # Needed to create branches and commit files
-      pull-requests: write   # Needed to open PRs
-
+      contents: write
+      pull-requests: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set run date
-        id: date
-        run: echo "DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
-
-      - name: Check for existing draft PR (idempotency guard)
-        id: guard
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          DATE="${{ steps.date.outputs.DATE }}"
-          TITLE="[News] Weekly drafts -- $DATE"
-          MATCH=$(gh pr list --state all --search "$TITLE in:title" --json title --jq '.[] | select(.title == "'"$TITLE"'") | .title' | head -n1)
-          if [ -n "$MATCH" ]; then
-            echo "skip=true"  >> "$GITHUB_OUTPUT"
-            echo "::notice::PR already exists for $DATE -- skipping draft generation."
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::No existing PR for $DATE -- proceeding."
-          fi
-
-      - name: Set up Python
-        if: steps.guard.outputs.skip != 'true'
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Cache pip packages
-        if: steps.guard.outputs.skip != 'true'
-        uses: actions/cache@v4
+      - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-news-monitor-${{ hashFiles('scripts/news-monitor/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-news-monitor-
-
-      - name: Install dependencies
-        if: steps.guard.outputs.skip != 'true'
-        run: pip install -r scripts/news-monitor/requirements.txt
-
-      - name: Step 1 -- Fetch stories
-        if: steps.guard.outputs.skip != 'true'
-        run: python scripts/news-monitor/fetch_sources.py --date ${{ steps.date.outputs.DATE }}
-
-      - name: Step 2 -- Classify stories
-        if: steps.guard.outputs.skip != 'true'
-        run: python scripts/news-monitor/classify_stories.py --date ${{ steps.date.outputs.DATE }}
+      - run: pip install -r scripts/news-monitor/requirements.txt
+      - id: date
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+      - run: python scripts/news-monitor/fetch_sources.py --date ${{ steps.date.outputs.DATE }}
+      - run: python scripts/news-monitor/classify_stories.py --date ${{ steps.date.outputs.DATE }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Step 3 -- Generate content drafts
-        if: steps.guard.outputs.skip != 'true'
-        run: python scripts/news-monitor/generate_content.py --date ${{ steps.date.outputs.DATE }}
+      - run: python scripts/news-monitor/generate_content.py --date ${{ steps.date.outputs.DATE }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Step 4 -- Open pull request
-        if: steps.guard.outputs.skip != 'true'
-        run: python scripts/news-monitor/open_pr.py --date ${{ steps.date.outputs.DATE }}
+      - run: python scripts/news-monitor/open_pr.py --date ${{ steps.date.outputs.DATE }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Step 5 -- Brand sync check (informational)
-        if: steps.guard.outputs.skip != 'true'
-        run: python scripts/news-monitor/sync_check.py
-        continue-on-error: true   # Warn but do not fail the run if brands drift
+      - run: python scripts/news-monitor/sync_check.py
+        continue-on-error: true

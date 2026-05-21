@@ -8,13 +8,6 @@ export const metadata: Metadata = {
 
 const COMPARISONS = [
   {
-    slug: 'osaki-os-pro-admiral-ii-vs-kahuna-lm-6800s',
-    chairA: 'Osaki OS-Pro Admiral II',
-    chairB: 'Kahuna LM-6800S',
-    tier: 'Under $3,000',
-    summary: 'Both SL-track entry chairs. The Admiral II has a 3D roller and higher weight capacity. The LM-6800S costs $500 less and adds stretch programs.',
-  },
-  {
     slug: 'infinity-dynasty-4d-vs-infinity-genesis-max-4d',
     chairA: 'Infinity Dynasty 4D',
     chairB: 'Infinity Genesis Max 4D',
@@ -27,13 +20,6 @@ const COMPARISONS = [
     chairB: 'Panasonic MAK1',
     tier: '$13,000 and above',
     summary: 'The i9 Max Plus is Made in USA, has L-track and zero gravity, and costs $1,000 less. The MAK1 has no zero gravity and an S-track. A clear case for most buyers.',
-  },
-  {
-    slug: 'inada-dreamwave-vs-jpmedics-kumo-4d',
-    chairA: 'Inada DreamWave',
-    chairB: 'JPMedics Kumo 4D',
-    tier: '$7,000 to $11,000',
-    summary: 'Japanese S-track therapeutic precision vs L-track 4D full-body coverage. Different philosophies for different pain locations.',
   },
   {
     slug: 'amamedics-hilux-4d-vs-titan-pro-vigor-4d',

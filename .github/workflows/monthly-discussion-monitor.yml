@@ -37,10 +37,6 @@ jobs:
         run: python scripts/discussion-monitor/generate_insights.py --date ${{ steps.date.outputs.DATE }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      - name: Generate outputs (articles, KB, social)
-        run: python scripts/discussion-monitor/generate_outputs.py --date ${{ steps.date.outputs.DATE }}
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Open PR
         run: python scripts/discussion-monitor/open_pr.py --date ${{ steps.date.outputs.DATE }}
         env:
