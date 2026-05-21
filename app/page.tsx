@@ -1,36 +1,30 @@
 import Link from 'next/link'
-import { getFeaturedChairs } from '@/lib/strapi'
+import { CHAIRS } from '@/lib/chairs'
 import ChairCard from '@/components/ChairCard'
 
-export default async function HomePage() {
-  let featuredChairs = []
-  try {
-    const res = await getFeaturedChairs()
-    featuredChairs = res.data || []
-  } catch {
-    // Strapi not connected yet -- show static shell
-  }
+export default function HomePage() {
+  // Top-rated mcfActive chairs for the featured section
+  const featuredChairs = CHAIRS
+    .filter(c => c.mcfActive && c.active && c.reviewRating)
+    .sort((a, b) => (b.reviewRating ?? 0) - (a.reviewRating ?? 0))
+    .slice(0, 6)
 
   return (
     <>
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ minHeight: '680px' }}>
-        {/* Background image — 50% centers on person + chair, works on mobile portrait */}
         <img
           src="/hero.webp"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover object-center md:object-[center_15%]"
         />
-        {/* Desktop gradient: dark right panel for text (hidden on mobile) */}
         <div className="absolute inset-0 hidden md:block" style={{
           background: 'linear-gradient(to left, rgba(28,35,49,0.88) 28%, rgba(28,35,49,0.75) 44%, rgba(28,35,49,0.08) 68%, transparent 84%)'
         }} />
-        {/* Mobile gradient: dark at bottom where text sits, lighter at top to reveal the chair */}
         <div className="absolute inset-0 md:hidden" style={{
           background: 'linear-gradient(to top, rgba(28,35,49,0.93) 0%, rgba(28,35,49,0.80) 38%, rgba(28,35,49,0.45) 62%, rgba(28,35,49,0.15) 100%)'
         }} />
-        {/* Content column — right-aligned on desktop, full-width on mobile */}
         <div className="relative z-10 flex items-center justify-end min-h-[680px] px-6 md:px-16">
           <div className="w-full max-w-md text-left text-white">
             <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4 leading-tight text-white" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.55)' }}>
@@ -53,7 +47,6 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
-
 
       {/* Browse by need */}
       <section className="section">
@@ -89,7 +82,7 @@ export default async function HomePage() {
               Chairs we recommend most often, across different budgets and use cases.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {featuredChairs.map((chair: any) => (
+              {featuredChairs.map((chair) => (
                 <ChairCard key={chair.id} chair={chair} />
               ))}
             </div>

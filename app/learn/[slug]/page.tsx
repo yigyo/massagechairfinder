@@ -1,4 +1,3 @@
-import { getArticleBySlug } from '@/lib/strapi'
 import { getLocalArticle, PUBLISHED_ARTICLES } from '@/lib/local-articles'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -6,12 +5,7 @@ import { autolink } from '@/lib/autolink'
 import type { Metadata } from 'next'
 import BuyersGuideCallout from '@/components/BuyersGuideCallout'
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  try {
-    const res = await getArticleBySlug(params.slug)
-    const a = res.data?.[0]?.attributes || res.data?.[0]
-    if (a?.title) return { title: a.title, description: a.excerpt || '' }
-  } catch {}
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const local = getLocalArticle(params.slug)
   if (!local) return {}
   return { title: local.title, description: local.excerpt }
@@ -29,7 +23,7 @@ function splitHtmlAtMidpoint(html: string): [string, string] {
   return [html.slice(0, splitPos), html.slice(splitPos)]
 }
 
-export default async function ArticlePage({ params }: { params: { slug: string } }) {
+export default function ArticlePage({ params }: { params: { slug: string } }) {
   let article: {
     title: string
     excerpt?: string
@@ -38,16 +32,8 @@ export default async function ArticlePage({ params }: { params: { slug: string }
     publishedAt?: string
   } | null = null
 
-  try {
-    const res = await getArticleBySlug(params.slug)
-    const a = res.data?.[0]?.attributes || res.data?.[0]
-    if (a?.title) article = { title: a.title, excerpt: a.excerpt, body: a.body || '' }
-  } catch {}
-
-  if (!article) {
-    const local = getLocalArticle(params.slug)
-    if (local) article = local
-  }
+  const local = getLocalArticle(params.slug)
+  if (local) article = local
 
   if (!article) notFound()
   if (article.body === '<p>Coming soon.</p>') notFound()

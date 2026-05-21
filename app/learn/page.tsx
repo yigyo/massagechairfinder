@@ -1,4 +1,3 @@
-import { getArticles } from "@/lib/strapi"
 import { PUBLISHED_ARTICLES, LocalArticle } from "@/lib/local-articles"
 import Link from "next/link"
 import type { Metadata } from "next"
@@ -105,29 +104,8 @@ function slugifyLabel(label: string): string {
   return label.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")
 }
 
-export default async function LearnPage() {
-  let articles: LocalArticle[] = []
-  try {
-    const res = await getArticles()
-    const strapiData = res.data || []
-    if (strapiData.length > 0) {
-      articles = strapiData.map((a: any) => {
-        const attr = a.attributes || a
-        return {
-          slug: attr.slug,
-          title: attr.title,
-          excerpt: attr.excerpt || "",
-          body: attr.body || "",
-          order: attr.order || 99,
-          publishedAt: attr.publishedAt || "",
-        }
-      })
-    }
-  } catch {}
-
-  if (articles.length === 0) {
-    articles = PUBLISHED_ARTICLES
-  }
+export default function LearnPage() {
+  const articles: LocalArticle[] = PUBLISHED_ARTICLES
 
   const published = articles.filter((a) => a.body !== "<p>Coming soon.</p>")
 

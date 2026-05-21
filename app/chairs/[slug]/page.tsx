@@ -6,21 +6,10 @@ import type { Metadata } from 'next'
 
 // ─── STATIC PARAMS ───────────────────────────────────────────────────────────
 
-export async function generateStaticParams() {
-  // Include all active chairs plus discontinued chairs that have assigned alternatives
-  const local = CHAIRS
+export function generateStaticParams() {
+  return CHAIRS
     .filter(c => c.active || (c.alternativeIds && c.alternativeIds.length > 0))
     .map(c => ({ slug: c.id }))
-  try {
-    const { getChairs } = await import('@/lib/strapi')
-    const res = await getChairs()
-    const seen = new Set(local.map(l => l.slug))
-    ;(res.data || []).forEach((c: any) => {
-      const s = c.attributes?.slug || c.slug
-      if (s && !seen.has(s)) { local.push({ slug: s }); seen.add(s) }
-    })
-  } catch {}
-  return local
 }
 
 // ─── METADATA ────────────────────────────────────────────────────────────────
@@ -370,61 +359,11 @@ function WhatBuyersReport({ chair }: { chair: Chair }) {
 // ─── PAGE ─────────────────────────────────────────────────────────────────────
 
 export default async function ChairPage({ params }: { params: { slug: string } }) {
-  // Try Strapi (legacy path)
-  let strapiChair: any = null
-  try {
-    const { getChairBySlug } = await import('@/lib/strapi')
-    const res = await getChairBySlug(params.slug)
-    strapiChair = res.data?.[0]?.attributes || res.data?.[0]
-  } catch {}
-
-  // Find in chairs.ts, includes all chairs regardless of active/mcfActive
+  // Find in chairs.ts
   const chair = CHAIRS.find(c => c.id === params.slug)
-  if (!chair && !strapiChair) notFound()
+  if (!chair) notFound()
 
-  // Legacy Strapi layout (only when chairs.ts has no record)
-  if (strapiChair && !chair) {
-    const links: any[] = strapiChair.retailerLinks || []
-    const availableLinks = links.filter((l: any) => l.isAvailable !== false)
-    return (
-      <div className="section max-w-5xl">
-        <div className="mb-4">
-          <Link href="/chairs" className="text-bronze hover:text-gold text-sm">Back to all chairs</Link>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div className="relative h-80 bg-white rounded-lg overflow-hidden border border-sand">
-            {strapiChair.imageUrl ? (
-              <Image src={strapiChair.imageUrl} alt={strapiChair.name} fill className="object-contain p-6" />
-            ) : (
-              <div className="flex items-center justify-center h-full text-warm-gray">Photo coming soon</div>
-            )}
-          </div>
-          <div>
-            <p className="text-warm-gray text-sm mb-1">{strapiChair.brand}</p>
-            <h1 className="text-3xl font-serif font-bold text-navy mb-3">{strapiChair.name}</h1>
-            <p className="text-2xl font-semibold text-charcoal mb-6">
-              {strapiChair.price ? '$' + strapiChair.price.toLocaleString() : 'Call for price'}
-            </p>
-            {availableLinks.length > 0 && (
-              <div className="space-y-3">
-                {availableLinks.map((link: any, i: number) => (
-                  <a key={i}
-                    href={'/go/' + params.slug + '/' + (link.retailerName?.toLowerCase().replace(/\s+/g, '-') || '')}
-                    target="_blank" rel="noopener noreferrer"
-                    className={i === 0 ? 'btn-primary block text-center py-3 px-6 rounded font-semibold' : 'block text-center py-3 px-6 rounded font-semibold border border-gold text-gold hover:bg-gold hover:text-white transition-colors'}>
-                    Shop at {link.retailerName}
-                  </a>
-                ))}
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-    )
-  }
-
-  // ─── chairs.ts rendering ─────────────────────────────────────────────────────
-  const c = chair!
+  const c = chair
   const isDiscontinued = !c.active
   const isOOS = c.active && c.inStock === false
 
