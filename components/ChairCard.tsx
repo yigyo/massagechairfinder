@@ -28,7 +28,7 @@ export default function ChairCard({ chair }: { chair: Chair }) {
   }
 
   return (
-    <div className="card hover:shadow-md transition-shadow flex flex-col">
+    <div className="card bg-linen hover:shadow-md transition-shadow flex flex-col">
       {/* Image */}
       <div className="relative h-48 bg-white border border-sand rounded-md overflow-hidden mb-4">
         {chair.imageUrl ? (
