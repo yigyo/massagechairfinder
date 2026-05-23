@@ -30,7 +30,7 @@ export default function ChairCard({ chair }: { chair: Chair }) {
   return (
     <div className="card hover:shadow-md transition-shadow flex flex-col">
       {/* Image */}
-      <div className="relative h-48 bg-sand rounded-md overflow-hidden mb-4">
+      <div className="relative h-48 bg-white border border-sand rounded-md overflow-hidden mb-4">
         {chair.imageUrl ? (
           <Image src={chair.imageUrl} alt={chair.name} fill className="object-contain p-4" />
         ) : (
@@ -73,25 +73,27 @@ export default function ChairCard({ chair }: { chair: Chair }) {
         </p>
       )}
 
+      {/* Details link above divider */}
+      <div className="flex justify-end mt-auto mb-2">
+        <Link href={`/chairs/${chair.id}`} className="text-sm text-bronze hover:text-gold font-medium transition-colors">
+          Details &rarr;
+        </Link>
+      </div>
+
       {/* Price + CTA */}
-      <div className="flex items-center justify-between mt-auto pt-4 border-t border-sand">
+      <div className="flex items-center justify-between pt-4 border-t border-sand">
         <span className="font-semibold text-navy">{formatPrice(chair)}</span>
-        <div className="flex gap-2">
-          <Link href={`/chairs/${chair.id}`} className="text-sm text-bronze hover:text-gold font-medium transition-colors">
-            Details &rarr;
-          </Link>
-          {chair.affiliateUrl && (
-            <a
-              href={`/go/${chair.id}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm btn-primary py-1 px-3"
-              onClick={handleShopClick}
-            >
-              Shop
-            </a>
-          )}
-        </div>
+        {chair.affiliateUrl && (
+          <a
+            href={`/go/${chair.id}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm btn-primary py-1 px-3"
+            onClick={handleShopClick}
+          >
+            Shop
+          </a>
+        )}
       </div>
     </div>
   )
