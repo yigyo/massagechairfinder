@@ -99,6 +99,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "daily-massage",
       "massage-and-mental-health",
       "massage-and-circulation",
+      "massage-history",
     ],
   },
 ]
