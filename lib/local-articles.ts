@@ -2777,7 +2777,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Standard power recliners adjust the backrest and footrest independently. Lift-assist chairs do something mechanically different: the entire seat base tilts forward and raises, so the user is repositioned into a near-standing posture rather than simply sitting upright. By the time the lift cycle completes, your center of gravity is already forward of your feet. The effort required to reach standing is a fraction of what a conventional chair demands.</p>
 
-<p>On the <a href="/chairs/human-touch-laevo">Human Touch Laevo ZG</a> -- the only lift-assist chair in the MCF catalog -- the mechanism is called Motion Box Positioning. When fully lifted, the chair reaches a total height of 59 inches. The seat-to-floor measurement starts at 20 inches in the normal seated position. Controls are in-arm plus a magnetic remote, which matters for buyers with arthritic hands who cannot easily grip a standard handheld unit.</p>
+<p>On the <a href="/chairs/human-touch-laevo-zg">Human Touch Laevo ZG</a> -- the only lift-assist chair in the MCF catalog -- the mechanism is called Motion Box Positioning. When fully lifted, the chair reaches a total height of 59 inches. The seat-to-floor measurement starts at 20 inches in the normal seated position. Controls are in-arm plus a magnetic remote, which matters for buyers with arthritic hands who cannot easily grip a standard handheld unit.</p>
 
 <p>The lift does not just help you stand. It also assists seated entry: you lower yourself onto a partially raised seat and the chair gently descends to the normal position. For buyers with hip or knee replacements, this controlled descent matters as much as the assisted rise.</p>
 
