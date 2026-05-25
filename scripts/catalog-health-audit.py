@@ -35,6 +35,7 @@ def load_catalog():
         chairs[cid] = {
             'active':    'active: true'    in block,
             'mcfActive': 'mcfActive: true' in block,
+            'inStock':   'inStock: false'  not in block,  # default true; only false when explicitly set
         }
     return chairs
 
@@ -46,8 +47,10 @@ def chair_status(chairs, cid):
     c = chairs[cid]
     if not c['active']:
         return 'INACTIVE'
-    if not c['mcfActive']:
+    if not c['inStock']:
         return 'OOS'
+    if not c['mcfActive']:
+        return 'NOT_IN_MCF'  # excluded from MCF but in stock at retailer
     return 'OK'
 
 # ── check /best/* pages ───────────────────────────────────────────────────────
@@ -82,7 +85,7 @@ def check_best_pages(chairs):
             status = chair_status(chairs, cid)
             if status == 'INACTIVE':
                 errors.append(f'ERROR /best/{page}: pick "{cid}" is INACTIVE')
-            elif status in ('NOT_IN_CATALOG', 'OOS'):
+            elif status in ('NOT_IN_CATALOG', 'OOS', 'NOT_IN_MCF'):
                 errors.append(f'ERROR /best/{page}: pick "{cid}" is {status}')
 
             if ed_start != -1 and f"'{cid}'" not in editorial_block:
@@ -109,7 +112,17 @@ def check_compare_pages(chairs):
         if 'redirect(' in content and len(content.strip()) < 200:
             continue
 
-        referenced = [cid for cid in chairs if cid in content]
+        # Match chair ids only at word-like boundaries (surrounded by non-id chars).
+        # This avoids false positives where one id is a prefix of another, e.g.
+        # 'ogawa-active-xl' matching inside 'ogawa-active-xl-duo-3d-...'.
+        def is_referenced(cid):
+            for m in re.finditer(re.escape(cid), content):
+                before = content[m.start()-1] if m.start() > 0 else ''
+                after  = content[m.end()] if m.end() < len(content) else ''
+                if not re.match(r'[a-zA-Z0-9-]', before) and not re.match(r'[a-zA-Z0-9-]', after):
+                    return True
+            return False
+        referenced = [cid for cid in chairs if is_referenced(cid)]
         if not referenced:
             warnings.append(f'WARN /compare/{slug}: no catalog chair IDs found')
             continue
@@ -120,8 +133,8 @@ def check_compare_pages(chairs):
                 # Fully discontinued chair in a compare page is an error
                 errors.append(f'ERROR /compare/{slug}: references INACTIVE chair "{cid}"')
             elif status == 'OOS':
-                # OOS chair in a compare page is a warning — page may still be useful
-                warnings.append(f'WARN  /compare/{slug}: references OOS chair "{cid}" (mcfActive=false) — consider updating')
+                # Out of stock at the retailer -- compare page should note this
+                warnings.append(f'WARN  /compare/{slug}: references OOS chair "{cid}" (inStock=false) -- consider updating')
 
     return errors, warnings
 

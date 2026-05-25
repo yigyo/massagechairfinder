@@ -3,6 +3,10 @@
     {
       "path": "/api/cron/trigger-news-monitor",
       "schedule": "0 14 * * 1"
+    },
+    {
+      "path": "/api/cron/trigger-catalog-audit",
+      "schedule": "0 13 * * 1"
     }
   ]
 }

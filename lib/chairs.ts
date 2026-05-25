@@ -19,7 +19,7 @@
  * FIELD CONVENTIONS:
  *   - undefined   = spec unknown (AI will omit it from filtering and copy)
  *   - null        = explicitly not applicable
- *   - active: false = discontinued — never recommend, kept for historical reference
+ *   - active: false = discontinued -- never recommend, kept for historical reference
  *   - mcfActive: false = exclude from MCF (e.g. no confirmed online affiliate)
  *   - goodwinActive: false = exclude from Goodwin (e.g. physical retail only)
  */
@@ -50,7 +50,7 @@ export interface Chair {
   // ─ Pricing ───────────────────────────────────────────────────────────────
   priceMin:        number   // lowest listed/estimated price in USD
   priceMax?:       number   // upper end if a range; omit if single price
-  priceEstimated?: boolean  // true = approximate — treat as "est." in AI output
+  priceEstimated?: boolean  // true = approximate -- treat as "est." in AI output
   priceNote?:      string   // shown in Goodwin catalog text: "Exclude until price confirmed"
 
   // ─ Commercial ────────────────────────────────────────────────────────────
@@ -100,7 +100,7 @@ export interface Chair {
   clearance?:         boolean  // clearance/last-run model
 
   // ─ AI notes ──────────────────────────────────────────────────────────────
-  aiNotes?: string  // rules for the AI: "DO NOT recommend for lower back/hip pain — S-track only"
+  aiNotes?: string  // rules for the AI: "DO NOT recommend for lower back/hip pain -- S-track only"
 
   // -- Social proof -------------------------------------------------------------
     reviewRating?:      number    // e.g. 4.8 -- aggregate star rating
@@ -333,7 +333,7 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, spaceSaving: true, wallClearanceIn: 2,
     heat: true, foot: true, calf: true,
     petiteConfirmed: true, plusSizeConfirmed: true,
-    aiNotes: 'ONLY confirmed petite chair in catalog — minimum height 5\'0" confirmed.',
+    aiNotes: 'ONLY confirmed petite chair in catalog -- minimum height 5\'0" confirmed.',
   },
 
   {    id: 'infinity-celebrity',
@@ -461,7 +461,7 @@ export const CHAIRS: Chair[] = [
     reviewRating:      4.9,
     reviewCount:       150,
     reviewSource:      "humantouch.com",
-        aiNotes: 'VIBRATION ONLY — not a roller chair. Always disclose this. Only recommend to buyers who cannot tolerate roller pressure. Never recommend to buyers seeking deep tissue or firm massage.',
+        aiNotes: 'VIBRATION ONLY -- not a roller chair. Always disclose this. Only recommend to buyers who cannot tolerate roller pressure. Never recommend to buyers seeking deep tissue or firm massage.',
   },
   {    id: 'human-touch-super-novo-3',
     name: 'Human Touch Super Novo 3.0',
@@ -584,7 +584,7 @@ export const CHAIRS: Chair[] = [
     track: null, roller: '4D',
     zeroGravity: true, spaceSaving: true, wallClearanceIn: 0,
     alternativeIds: ['panasonic-maf1'],
-    aiNotes: 'DISCONTINUED — do not recommend.',
+    aiNotes: 'DISCONTINUED -- do not recommend.',
   },
 
   // ── DAIWA ──────────────────────────────────────────────────────────────────
@@ -1023,7 +1023,7 @@ export const CHAIRS: Chair[] = [
   {    id: 'ogawa-active-xl',
     name: 'Ogawa Active XL 3D',
     brand: 'Ogawa',
-    active: true, goodwinActive: true, mcfActive: false,  // off MCF intentionally; flip to true to show
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-05-25: deduped; canonical record is ogawa-og6300 (same SKU + same affiliate URL)
     priceMin: 5899,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1049,7 +1049,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '2D',
     zeroGravity: true, heat: true,
     alternativeIds: ['osaki-os-pro-admiral-ii'],
-    aiNotes: 'DISCONTINUED — do not recommend.',
+    aiNotes: 'DISCONTINUED -- do not recommend.',
   },
 
   // ── JPMEDICS ───────────────────────────────────────────────────────────────
@@ -1117,7 +1117,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: undefined,
     track: null, roller: '5D',
-    aiNotes: 'Only 5D chair in catalog. No confirmed affiliate URL — omit from MCF. Update affiliateUrl when affiliate confirmed.',
+    aiNotes: 'Only 5D chair in catalog. No confirmed affiliate URL -- omit from MCF. Update affiliateUrl when affiliate confirmed.',
   },
 
   // ── PANASONIC ──────────────────────────────────────────────────────────────
@@ -1141,7 +1141,7 @@ export const CHAIRS: Chair[] = [
     heightMinIn: 56, heightMaxIn: 74, weightCapacityLbs: 264,
     zeroGravity: false,  // confirmed NO zero gravity
     heat: true, foot: true, calf: true, stretch: true, aiScanning: true,
-    aiNotes: "S-TRACK ONLY — do not recommend for lower back/hip/glute pain. NO zero gravity. Weight cap 264 lbs (not 300). Height 4'8\"-6'2\". Infrared heated rollers.",
+    aiNotes: "S-TRACK ONLY -- do not recommend for lower back/hip/glute pain. NO zero gravity. Weight cap 264 lbs (not 300). Height 4'8\"-6'2\". Infrared heated rollers.",
   },
 
   {
@@ -1164,7 +1164,7 @@ export const CHAIRS: Chair[] = [
     spaceSaving: true,
     heat: true, foot: true, calf: true, stretch: true,
     aiScanning: true,
-    aiNotes: "S-TRACK ONLY — do not recommend for lower back/hip/glute pain. NO zero gravity. Compact 27\" wide. 4D roller. Heated massage heads. Zengineered Panasonic craftsmanship. Verified from primemassagechairs.com 2026-05-01.",
+    aiNotes: "S-TRACK ONLY -- do not recommend for lower back/hip/glute pain. NO zero gravity. Compact 27\" wide. 4D roller. Heated massage heads. Zengineered Panasonic craftsmanship. Verified from primemassagechairs.com 2026-05-01.",
   },
 
   {
@@ -1177,7 +1177,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A', goodwinStatus: 'affiliate',
     track: null, roller: '3D', aiScanning: true,
     alternativeIds: ['panasonic-maf1'],
-    aiNotes: 'DISCONTINUED — do not recommend.',
+    aiNotes: 'DISCONTINUED -- do not recommend.',
   },
 
   {
@@ -1190,7 +1190,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A', goodwinStatus: 'affiliate',
     track: null, roller: '3D',
     alternativeIds: ['panasonic-maf1'],
-    aiNotes: 'DISCONTINUED — do not recommend.',
+    aiNotes: 'DISCONTINUED -- do not recommend.',
   },
 
   // ── TITAN ──────────────────────────────────────────────────────────────────
@@ -1267,7 +1267,7 @@ export const CHAIRS: Chair[] = [
     track: null, roller: '3D',
     zeroGravity: true, heat: true,
     alternativeIds: ['titan-pro-vigor-4d'],
-    aiNotes: 'No dedicated product page confirmed — do not recommend.',
+    aiNotes: 'No dedicated product page confirmed -- do not recommend.',
   },
 
 
@@ -1822,7 +1822,7 @@ export const CHAIRS: Chair[] = [
     name: 'Ogawa Active XL 3D Massage Chair (OG-6300)',
     brand: 'Ogawa',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 3000,
+    priceMin: 5899,  // wishrockrelaxation.com verified live 2026-05-25 (was 3000 -- catalog error)
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -1859,7 +1859,7 @@ export const CHAIRS: Chair[] = [
     name: 'Ogawa Active XL Duo 3D + 2D Massage Chair (OG-6400)',
     brand: 'Ogawa',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 4800,
+    priceMin: 5199, priceMax: 5899,  // wishrockrelaxation.com verified live 2026-05-25 (sale 5199, list 5899)
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -1941,7 +1941,7 @@ export const CHAIRS: Chair[] = [
     goodwinLookupKey: 'relaxe shiatsu',
     },
 
-  // ── REAL RELAX (Goodwin Tier C fallback only — never surface in MCF) ────────
+  // ── REAL RELAX (Goodwin Tier C fallback only -- never surface in MCF) ────────
 
   {
     id: 'real-relax-favor-06',

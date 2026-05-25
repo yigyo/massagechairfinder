@@ -22,20 +22,22 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
   const brand = getLocalBrand(params.slug)
   if (!brand) notFound()
 
-  // All chairs for this brand -- active in stock first (by price), OOS last (by price)
+  // All chairs for this brand: only mcfActive ones render. In-stock first (by price),
+  // OOS last (by price). OOS is keyed off c.inStock === false. mcfActive===false means
+  // the chair is intentionally excluded from MCF and should not appear here at all.
   const brandName = brand.name
   const allBrandChairs = CHAIRS.filter(
-    c => c.active && c.brand === brandName
+    c => c.active && c.mcfActive !== false && c.brand === brandName
   ).sort((a, b) => {
-    const aOos = a.mcfActive === false
-    const bOos = b.mcfActive === false
+    const aOos = a.inStock === false
+    const bOos = b.inStock === false
     if (aOos !== bOos) return aOos ? 1 : -1
     return a.priceMin - b.priceMin
   })
 
   // Compute price range dynamically from active in-stock chairs
   // Falls back to the static value only if no chairs are in the catalog
-  const inStockChairs = allBrandChairs.filter(c => c.mcfActive !== false)
+  const inStockChairs = allBrandChairs.filter(c => c.inStock !== false)
   const allPrices = inStockChairs.flatMap(c =>
     [c.priceMin, c.priceMax ?? c.priceMin].filter(n => n > 0)
   )
@@ -90,7 +92,7 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
           <h2 className="text-2xl font-serif mb-6">{brand.name} Chairs We Have Reviewed</h2>
           <div className="space-y-4">
             {allBrandChairs.map(chair => {
-              const isOos = chair.mcfActive === false
+              const isOos = chair.inStock === false
               return (
                 <Link
                   key={chair.id}
