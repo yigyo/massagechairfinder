@@ -1,6 +1,6 @@
 // lib/local-brands.ts
 // Editorial brand profiles for MassageChairFinder.com
-// Voice: Wirecutter-style — specific, factual, positions taken. No em dashes.
+// Voice: Wirecutter-style -- specific, factual, positions taken. No em dashes.
 
 export interface LocalBrand {
   slug: string
@@ -142,15 +142,15 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     slug: "ogawa",
     name: "Ogawa",
     tagline: "A Malaysian brand known for strong feature density at each price point, from the Active XL family to the flagship Master Drive DUO.",
-    priceRange: "$3,000 to $15,999",
+    priceRange: "$5,199 to $15,999",
     origin: "Malaysia",
     warrantyNote: "Confirm per model before purchase.",
-    bestFor: "Buyers looking for strong feature-to-price ratios in the $4,800 to $12,999 range, or buyers interested in AI-personalized massage at the flagship tier.",
+    bestFor: "Buyers looking for strong feature-to-price ratios in the $5,199 to $12,999 range, or buyers interested in AI-personalized massage at the flagship tier.",
     seoTitle: "Ogawa Massage Chairs: Brand Overview and Buying Guide",
     seoDescription: "Ogawa is a Malaysian massage chair brand known for feature density and competitive pricing. Here is what to expect and which models to consider.",
     description: [
       "<p>Ogawa is a Malaysian brand with over 30 years of manufacturing history, distributed in the US through a network that has grown significantly in recent years. The current US catalog spans five models across a wide price range, organized into two clear tiers: the Active XL family at the entry and mid level, and the Master Drive family at the upper-mid and premium levels. Each tier is designed to offer more features per dollar than competing brands at the same price point.</p>",
-      "<p>The Active XL 3D at $3,000 is the entry point, offering 3D rollers on an SL-track at a price that is unusually low for this track type. The Active XL Duo at $4,800 adds a secondary 2D roller system for simultaneous coverage. Both are practical recommendations for buyers whose priority is SL-track coverage at a budget price.</p>",
+      "<p>The Active XL 3D at $5,899 is the entry point, offering 3D rollers on an SL-track. The Active XL Duo at $5,199 adds a secondary 2D roller system for simultaneous coverage, often on sale below the Active XL 3D list price. Both are practical recommendations for buyers whose priority is SL-track coverage at a mid-tier price.</p>",
       "<p>The Master Drive family begins at $9,399 with the Master Drive DUO LE, which combines 4D and 3D roller systems in a single chair. The Master Drive AI 2.0 at $12,999 introduces AI-personalized massage that adjusts intensity and focus based on body scanning data. The Master Drive DUO at $15,999 is the flagship, pairing dual 4D and 3D roller systems with the broadest feature set in the catalog. For buyers at the $9,399 to $12,999 tier who want AI-adjusted massage, Ogawa has a stronger offering than most brands in the market.</p>",
       "<p>Ogawa's US distribution is less extensive than Osaki or Infinity, which is worth factoring into a purchase decision. Buyers who encounter issues may find service response slower than with larger-network brands. For buyers who have done the research and want feature density at a competitive price, Ogawa remains one of the better-value options in its tier.</p>"
     ],
