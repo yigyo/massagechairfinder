@@ -4844,11 +4844,11 @@ Pharmacological medicine expanded rapidly after World War II, shifting physician
 <hr />
 <p><strong>Ready to find a chair that delivers the mechanical benefits of this 5,000-year tradition?</strong> <a href="/finder">Use the Chair Finder</a> to match your specific pain points, space, and budget to the right model.</p>
 <hr />
-<p><strong>Sources:</strong>
-[1] Graham D. History of Massage. <em>Atlanta Medical and Surgical Journal.</em> 1879;17(7):426-434. https://pmc.ncbi.nlm.nih.gov/articles/PMC8856205/
-[2] Praveen BS. Angamardhana: A Treatise on Massage Techniques of Ancient India. <em>Ancient Science of Life.</em> 2017;36(3):170-171. https://pmc.ncbi.nlm.nih.gov/articles/PMC5566830/
-[3] UNESCO. Nuad Thai, traditional Thai massage. Representative List of the Intangible Cultural Heritage of Humanity. 2019. https://ich.unesco.org/en/RL/nuad-thai-traditional-thai-massage-01384
-  </p>`,
+<p><strong>Sources:</strong></p>
+<p>[1] Graham D. History of Massage. <em>Atlanta Medical and Surgical Journal.</em> 1879;17(7):426-434. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8856205/">Link</a></p>
+<p>[2] Praveen BS. Angamardhana: A Treatise on Massage Techniques of Ancient India. <em>Ancient Science of Life.</em> 2017;36(3):170-171. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5566830/">Link</a></p>
+<p>[3] UNESCO. Nuad Thai, traditional Thai massage. Representative List of the Intangible Cultural Heritage of Humanity. 2019. <a href="https://ich.unesco.org/en/RL/nuad-thai-traditional-thai-massage-01384">Link</a></p>
+`,
   },
   {
     slug: "massage-history",
@@ -4962,11 +4962,11 @@ Pharmacological medicine expanded rapidly after World War II, shifting physician
 <hr />
 <p><strong>Ready to find a chair that delivers the mechanical benefits of this 5,000-year tradition?</strong> <a href="/finder">Use the Chair Finder</a> to match your specific pain points, space, and budget to the right model.</p>
 <hr />
-<p><strong>Sources:</strong>
-[1] Graham D. History of Massage. <em>Atlanta Medical and Surgical Journal.</em> 1879;17(7):426-434. https://pmc.ncbi.nlm.nih.gov/articles/PMC8856205/
-[2] Praveen BS. Angamardhana: A Treatise on Massage Techniques of Ancient India. <em>Ancient Science of Life.</em> 2017;36(3):170-171. https://pmc.ncbi.nlm.nih.gov/articles/PMC5566830/
-[3] UNESCO. Nuad Thai, traditional Thai massage. Representative List of the Intangible Cultural Heritage of Humanity. 2019. https://ich.unesco.org/en/RL/nuad-thai-traditional-thai-massage-01384
-  </p>`,
+<p><strong>Sources:</strong></p>
+<p>[1] Graham D. History of Massage. <em>Atlanta Medical and Surgical Journal.</em> 1879;17(7):426-434. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8856205/">Link</a></p>
+<p>[2] Praveen BS. Angamardhana: A Treatise on Massage Techniques of Ancient India. <em>Ancient Science of Life.</em> 2017;36(3):170-171. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5566830/">Link</a></p>
+<p>[3] UNESCO. Nuad Thai, traditional Thai massage. Representative List of the Intangible Cultural Heritage of Humanity. 2019. <a href="https://ich.unesco.org/en/RL/nuad-thai-traditional-thai-massage-01384">Link</a></p>
+`,
   },
   {
     slug: "special-populations",
