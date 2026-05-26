@@ -34,6 +34,7 @@ type LookupEntry = [string, string]
 function buildLookup(field: (c: typeof MCF_CHAIRS[0]) => string | undefined): LookupEntry[] {
   const entries: LookupEntry[] = []
   for (const chair of MCF_CHAIRS) {
+    if (chair.inStock === false) continue // skip OOS chairs from URL/image lookup
     const value = field(chair)
     if (!value) continue
     const key = chair.goodwinLookupKey

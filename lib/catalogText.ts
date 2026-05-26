@@ -134,10 +134,11 @@ function goodwinLine(i: number, chair: Chair): string {
 
 /**
  * Returns the "## COMPLETE CHAIR CATALOG" section for the MCF finder/advisor prompt.
- * Includes only chairs where active === true && mcfActive !== false.
+ * Includes only chairs where active === true && mcfActive !== false && inStock !== false.
+ * OOS chairs (inStock === false) are excluded so the AI never recommends them.
  */
 export function buildMcfCatalogText(): string {
-  const chairs = MCF_CHAIRS
+  const chairs = MCF_CHAIRS.filter(c => c.inStock !== false)
   const lines = chairs.map((chair, i) => mcfLine(i + 1, chair))
   return [
     '## COMPLETE CHAIR CATALOG',
@@ -150,10 +151,11 @@ export function buildMcfCatalogText(): string {
 
 /**
  * Returns the "## COMPLETE CHAIR CATALOG" section for the Goodwin quiz prompt.
- * Includes only chairs where active === true && goodwinActive !== false.
+ * Includes only chairs where active === true && goodwinActive !== false && inStock !== false.
+ * OOS chairs (inStock === false) are excluded so Lila never recommends them.
  */
 export function buildGoodwinCatalogText(): string {
-  const chairs = GOODWIN_CHAIRS
+  const chairs = GOODWIN_CHAIRS.filter(c => c.inStock !== false)
   const lines = chairs.map((chair, i) => goodwinLine(i + 1, chair))
   return [
     '## COMPLETE CHAIR CATALOG',
