@@ -67,6 +67,14 @@ export function guideSection(sectionTitle: string): void {
   event('guide_section_view', { section: sectionTitle })
 }
 
+// ── /links hub card click ─────────────────────────────────────────────────────
+// Fired when a user taps a destination card on the /links "link in bio" hub.
+// cardSlug identifies which card (finder, buyers-guide, learn, chairs, best-lower-back-pain).
+// destination is the internal path the click is routing to.
+export function linksCardClick(cardSlug: string, destination: string): void {
+  event('links_card_click', { card_slug: cardSlug, destination })
+}
+
 // ── TypeScript global declaration for gtag ────────────────────────────────────
 declare global {
   interface Window {

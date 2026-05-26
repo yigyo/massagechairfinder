@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import ScrollTracker from '@/components/ScrollTracker'
 import ExitIntentPopup from '@/components/ExitIntentPopup'
+import ChromeGate from '@/components/ChromeGate'
 import Script from 'next/script'
 
 const notoSerif = Noto_Serif({
@@ -65,10 +66,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: siteSchema }}
         />
-        <NavigationWrapper />
+        <ChromeGate>
+          <NavigationWrapper />
+        </ChromeGate>
         <main className="flex-1">{children}</main>
-        <Footer />
-        <ExitIntentPopup />
+        <ChromeGate>
+          <Footer />
+        </ChromeGate>
+        <ChromeGate>
+          <ExitIntentPopup />
+        </ChromeGate>
         {/* Cloudflare Turnstile (invisible bot protection on forms) */}
         <Script
           src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
