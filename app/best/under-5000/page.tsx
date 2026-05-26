@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'osaki-os-pro-admiral-ii',
   'kyota-genki-m380',
   'panasonic-maf1',
   'titan-pro-vigor-4d',
@@ -23,10 +22,6 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'osaki-os-pro-admiral-ii': {
-    label: 'Best overall under $3,000',
-    why: "The Admiral II is the strongest chair in the under-$3,000 range on pure therapeutic specs. A 49-inch SL-track (longest in the tier), 3D rollers with adjustable depth, body scanning, 2-inch wall clearance, and confirmed 5'2\" to 6'1\", 270 lbs. It earns a spot on this page because it competes on specs with chairs at nearly double its price.",
-  },
   'kyota-genki-m380': {
     label: 'Best for tall or heavier builds',
     why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest capacity in this price range with a Plus Size Confirmed designation. L-track covers the glutes and thighs. A Wirecutter Top Pick for 2024. At $2,999, it is the most affordable chair in the catalog with a high-capacity verification. For buyers whose dimensions exceed what the Admiral II can confirm, this is the pick.",

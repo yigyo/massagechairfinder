@@ -4,11 +4,10 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs for Neck and Shoulder Pain (2026)',
-  description: 'The best massage chairs for neck and shoulder pain depend on whether pain is isolated to the upper body or also involves the lower back. Four chairs selected across S-track and SL-track for every budget.',
+  description: 'The best massage chairs for neck and shoulder pain depend on whether pain is isolated to the upper body or also involves the lower back. Three chairs selected across S-track and SL-track for every budget.',
 }
 
 const PICK_IDS = [
-  'osaki-os-pro-admiral-ii',
   'panasonic-maf1',
   'osaki-os-pro-maestro-le',
   'panasonic-mak1',
@@ -20,10 +19,6 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'osaki-os-pro-admiral-ii': {
-    label: 'Best for neck and lower back together',
-    why: "The Admiral II is the right starting point for buyers whose neck and shoulder pain accompanies desk-work lower back tension. SL-track covers both zones in one pass. Body scanning adjusts the roller starting position to the individual's neck and shoulder anatomy before each session, which matters for cervical coverage accuracy. 3D rollers allow pressure depth adjustment. Confirmed 5'2\" to 6'1\", 270 lbs.",
-  },
   'panasonic-maf1': {
     label: 'Best S-track mid-range',
     why: "The Panasonic MAF1 is a compact S-track chair with 4D rollers, confirmed for 4'8\" to 6'2\" and 264 lbs. Space-saving recline. At $5,999, it is the mid-range S-track specialist in the catalog. S-track focuses the full roller path on the neck, shoulders, and upper back without extending into the lower body, which is the right design when pain is concentrated above the lumbar. The rollers are infrared-heated, meaning heat follows the massage path rather than staying fixed at one zone. Note: no zero gravity on this model.",

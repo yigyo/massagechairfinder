@@ -10,7 +10,6 @@ export const metadata: Metadata = {
 const PICK_IDS = [
   'osaki-os-champ',
   'kyota-genki-m380',
-  'osaki-os-pro-admiral-ii',
   'jpmedics-kumo-4d',
   'ergotec-et-180-pluto',
   'kahuna-dios-7300',
@@ -29,10 +28,6 @@ const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best for heavier and taller builds',
     why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest weight capacity in this tier with a Plus Size Confirmed designation. L-track covers the glutes and thighs where sciatic compression typically originates. A Wirecutter Top Pick for 2024. At $2,999, it is the most affordable chair in the catalog with a confirmed high-capacity rating. For buyers whose dimensions exceed what the OS-Champ or Admiral II can verify, this is the pick.",
-  },
-  'osaki-os-pro-admiral-ii': {
-    label: 'Best at $3,000',
-    why: "The Admiral II has the longest track in this price range at 49 inches, meaning the SL-track extension reaches further under the glutes than most comparably priced chairs. The 3D roller system allows adjustable pressure depth, important for sciatica buyers who need to start with lighter pressure and increase over time as sensitivity decreases. Body scanning positions the rollers to the individual's spine before each session. Confirmed 5'2\" to 6'1\", 270 lbs.",
   },
   'jpmedics-kumo-4d': {
     label: 'Premium pick',

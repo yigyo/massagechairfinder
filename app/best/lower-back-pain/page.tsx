@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 
 const PICK_IDS = [
   'osaki-os-champ',
-  'osaki-os-pro-admiral-ii',
   'amamedics-hilux-4d',
   'titan-pro-vigor-4d',
   'osaki-os-pro-maestro-le',
@@ -25,11 +24,6 @@ const EDITORIAL: Record<string, Editorial> = {
   'osaki-os-champ': {
     label: 'Best entry option',
     why: 'The OS-Champ is the most accessible SL-track chair in the catalog at $1,299. SL-track extends the roller path past the lumbar and under the glutes, which matters for lower back pain that radiates into the hips and sacrum. Two-stage zero gravity, lumbar heat, foot and calf massage, and body scanning are all confirmed. 260-lb weight capacity. For buyers entering the category with lower back pain as the primary concern, this is the clearest entry-level pick.',
-  },
-
-  'osaki-os-pro-admiral-ii': {
-    label: 'Best at $3,000',
-    why: "The Admiral II has a 49-inch track, the longest SL-track in its price range. The additional length means the roller extends further under the glutes than shorter designs. For lower back pain cases with any sacral or glute involvement, that extra coverage matters. Body scanning positions the rollers to the individual's spinal curve before each session. The 3D roller system allows pressure adjustment from light to firm. Confirmed 5'2\" to 6'1\", 270 lbs.",
   },
 
   'amamedics-hilux-4d': {

@@ -186,7 +186,7 @@ export const CHAIRS: Chair[] = [
     id: 'osaki-os-pro-admiral-ii',
     name: 'Osaki OS-Pro Admiral II',
     brand: 'Osaki',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true, inStock: false, // OOS 2026-05-25 verified via JSON-LD at osakimassagechair.com
     priceMin: 2999,
     affiliateTier: 'A',
     affiliateRetailer: 'osakimassagechair.com',

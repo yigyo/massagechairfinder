@@ -10,7 +10,6 @@ export const metadata: Metadata = {
 const PICK_IDS = [
   'synca-wellness-circ-plus',
   'inner-balance-jin',
-  'osaki-os-pro-admiral-ii',
   'titan-3d-prestige',
   'infinity-imperial-syner-d',
   'jpmedics-kaze-duo',
@@ -31,10 +30,6 @@ const EDITORIAL: Record<string, Editorial> = {
   'inner-balance-jin': {
     label: 'Best space-saving under $2,000',
     why: 'The Inner Balance Jin requires only 2 inches of wall clearance and is confirmed at 300 lbs, making it the only chair under $2,000 in the catalog that combines near-zero wall clearance with plus-size capacity. SL-track, 2D rollers, zero gravity, heat. For buyers whose weight exceeds 250 lbs and who need tight wall clearance, this fills a gap the entry-level chairs cannot. $1,999.',
-  },
-  'osaki-os-pro-admiral-ii': {
-    label: 'Best value',
-    why: "The Admiral II has 2-inch wall clearance, the tightest in the under-$4,000 range. SL-track, 3D rollers, 49-inch track, body scanning. The combination of strong therapeutic specs with minimal footprint requirements makes this the best value in the space-saving category. Confirmed 5'2\" to 6'1\", 270 lbs.",
   },
   'titan-3d-prestige': {
     label: 'Smallest footprint in SL-track',

@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs Under $3,000 (2026)',
-  description: 'From $1,299 to $2,999, the best massage chairs offer SL-track coverage, zero gravity, and improving roller quality. Six chairs selected across the full under-$3,000 range.',
+  description: 'From $1,299 to $2,999, the best massage chairs offer SL-track coverage, zero gravity, and improving roller quality. Five chairs selected across the full under-$3,000 range.',
 }
 
 const PICK_IDS = [
@@ -12,7 +12,6 @@ const PICK_IDS = [
   'synca-wellness-circ-plus',
   'relaxe-shiatsu',
   'kyota-genki-m380',
-  'osaki-os-pro-admiral-ii',
   'kahuna-hm-5000',
 ]
 
@@ -38,10 +37,6 @@ const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best for tall or heavier buyers',
     why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, a notably high weight capacity for this price tier. L-track (covers glutes and thighs, less upper-back reach than SL). A Wirecutter Top Pick for 2024. For buyers who exceed the 200-lb limit of entry chairs or need a taller accommodation, this is the pick at $2,999.",
-  },
-  'osaki-os-pro-admiral-ii': {
-    label: 'Best overall under $3,000',
-    why: "The Admiral II is the strongest chair in this tier on pure therapeutic specs. A 49-inch SL-track (longest in the under-$3,000 range), 3D rollers with adjustable depth, body scanning, 2-inch wall clearance, and confirmed 5'2\" to 6'1\", 270 lbs. For buyers in that height and weight range who want the most capable chair available without crossing $3,000, this is the pick.",
   },
   'kahuna-hm-5000': {
     label: 'Best SL-track under $2,500, space-saving',
