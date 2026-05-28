@@ -101,6 +101,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-circulation",
       "massage-history",
       "special-populations",
+      "massage-and-fibromyalgia",
+      "massage-and-osteoarthritis",
     ],
   },
 ]
