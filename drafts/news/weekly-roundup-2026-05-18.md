@@ -77,13 +77,11 @@ For buyers whose interest is primarily in massage quality and value, the certifi
 
 ## Worth Reading
 
-**Garage Gym Reviews: Relaxe Massage Chair (2026)**
-
-Garage Gym Reviews published an expert-tested review of the [Relaxe](/brands/relaxe) massage chair this year, and it is worth reading for buyers who are comparing Relaxe to competitors in a similar price band. Garage Gym Reviews tends to emphasize recovery and performance use cases, which gives their evaluation a slightly different lens than a general wellness reviewer. Compare their findings against MCF's catalog assessment, particularly if deep tissue intensity or post-workout recovery is a priority.
-
 **Massage Magazine: Top 10 Chairs Ranked by 1,400+ Licensed Massage Therapists**
 
-Massage Magazine's survey of more than 1,400 licensed massage therapists is one of the more credible professional rankings in the category, because it reflects chairs evaluated in actual treatment rooms rather than lifestyle settings. This is a useful data point for buyers who want to know which chairs hold up to professional scrutiny, not just consumer use. Note that some chairs that rank well with therapists are commercial or clinical models outside the home-use price range MCF covers, so filter accordingly.
+Massage Magazine surveyed more than 1,400 licensed massage therapists to rank the chairs most used in actual treatment rooms. The [full ranking](https://www.massagemag.com/top-massage-chairs-278650/) is worth reading with one filter in mind: 7 of the 10 chairs are professional portable massage chairs used for hands-on chair massage at events and mobile practices, a different category from the home-use reclining chairs MCF covers.
+
+Of the full-body automated chairs on the list, two are in the MCF catalog. The [Infinity Genesis Max 4D](/chairs/infinity-genesis-max) ranked fifth with 4.63% of therapist votes, and the [Fujiiryoki Cyber Relax Pro](/chairs/fujiiryoki-cyber-relax-pro) ranked ninth with 3.23%. The Human Touch NovoFlex and WholeBody 7.1 also placed (ranks 7 and 8) but are not currently in the MCF catalog. For buyers who want to know how a chair holds up in a professional setting, the two MCF-listed models placing in the top 10 is a meaningful data point.
 
 ## What We Are Watching
 
