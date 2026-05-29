@@ -103,6 +103,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "special-populations",
       "massage-and-fibromyalgia",
       "massage-and-osteoarthritis",
+      "massage-and-sciatica",
+      "massage-and-neck-shoulder-pain",
     ],
   },
 ]
