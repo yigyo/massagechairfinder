@@ -126,7 +126,7 @@ export default function LinksHub() {
           }}
         >
           <div style={{ marginBottom: '18px' }}>
-            <SocialIcons enabled={['instagram', 'facebook', 'pinterest', 'youtube', 'tiktok']} />
+            <SocialIcons />
           </div>
           <div style={{ fontSize: '12px', color: '#6B6B65', lineHeight: 1.6 }}>
             <Link href="/about" style={{ color: '#6B6B65', textDecoration: 'underline' }}>About</Link>
