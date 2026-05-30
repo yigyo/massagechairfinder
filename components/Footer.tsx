@@ -48,19 +48,6 @@ export default function Footer() {
         </div>
         <div className="mt-10 pt-8 border-t border-sand flex justify-center gap-5">
           <a
-            href="https://www.instagram.com/massagechairfinder/"
-            aria-label="Instagram"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-warm-gray hover:text-gold transition-colors inline-flex items-center justify-center w-9 h-9"
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <rect x="3" y="3" width="18" height="18" rx="5" />
-              <circle cx="12" cy="12" r="4" />
-              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
-            </svg>
-          </a>
-          <a
             href="https://www.facebook.com/massagechairfinder"
             aria-label="Facebook"
             target="_blank"
@@ -82,29 +69,6 @@ export default function Footer() {
               <circle cx="12" cy="12" r="9" />
               <path d="M11 8c2.5 0 4 1.5 4 3.5S13.5 15 12 15c-1 0-1.5-.5-1.5-1.5" />
               <path d="M10 22l2-8" />
-            </svg>
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UC8uDtnqYXR7R0qrwa7H3v7Q"
-            aria-label="YouTube"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-warm-gray hover:text-gold transition-colors inline-flex items-center justify-center w-9 h-9"
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <rect x="2" y="5" width="20" height="14" rx="3" />
-              <path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none" />
-            </svg>
-          </a>
-          <a
-            href="https://www.tiktok.com/@massagechairfinder"
-            aria-label="TikTok"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-warm-gray hover:text-gold transition-colors inline-flex items-center justify-center w-9 h-9"
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M9 16a4 4 0 1 0 4-4V4h2c.5 2.5 2 4 4.5 4" />
             </svg>
           </a>
         </div>
