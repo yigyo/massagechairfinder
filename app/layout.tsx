@@ -29,10 +29,13 @@ export const metadata: Metadata = {
     template: '%s | Massage Chair Finder',
   },
   description:
-    'Independent guidance and honest comparisons to help you find the massage chair that fits your body, your space, and your budget.',
+    'Find the massage chair that fits your body, your space, and your budget.',
   metadataBase: new URL('https://massagechairfinder.com'),
   openGraph: {
     siteName: 'Massage Chair Finder',
+  },
+  other: {
+    'p:domain_verify': '73bf3c39201c0d9252eb77e95e611435',
   },
 }
 
@@ -45,7 +48,7 @@ const siteSchema = JSON.stringify({
       url: 'https://massagechairfinder.com',
       name: 'Massage Chair Finder',
       description:
-        'Independent guidance and honest comparisons to help you find the massage chair that fits your body, your space, and your budget.',
+        'Find the massage chair that fits your body, your space, and your budget.',
     },
     {
       '@type': 'Organization',
