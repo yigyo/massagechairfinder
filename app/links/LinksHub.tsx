@@ -10,6 +10,7 @@
 
 import Link from 'next/link'
 import { linksCardClick } from '@/lib/gtag'
+import SocialIcons from '@/components/SocialIcons'
 
 type Card = {
   slug: string
@@ -124,44 +125,8 @@ export default function LinksHub() {
             textAlign: 'center',
           }}
         >
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              gap: '20px',
-              marginBottom: '18px',
-            }}
-          >
-            <SocialIcon label="Instagram" href="https://www.instagram.com/massagechairfinder/">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <rect x="3" y="3" width="18" height="18" rx="5" />
-                <circle cx="12" cy="12" r="4" />
-                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
-              </svg>
-            </SocialIcon>
-            <SocialIcon label="Facebook" href="https://www.facebook.com/massagechairfinder">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-              </svg>
-            </SocialIcon>
-            <SocialIcon label="Pinterest" href="https://www.pinterest.com/massagechairfinder/">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <circle cx="12" cy="12" r="9" />
-                <path d="M11 8c2.5 0 4 1.5 4 3.5S13.5 15 12 15c-1 0-1.5-.5-1.5-1.5" />
-                <path d="M10 22l2-8" />
-              </svg>
-            </SocialIcon>
-            <SocialIcon label="YouTube" href="https://www.youtube.com/channel/UC8uDtnqYXR7R0qrwa7H3v7Q">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <rect x="2" y="5" width="20" height="14" rx="3" />
-                <path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none" />
-              </svg>
-            </SocialIcon>
-            <SocialIcon label="TikTok" href="https://www.tiktok.com/@massagechairfinder">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M9 16a4 4 0 1 0 4-4V4h2c.5 2.5 2 4 4.5 4" />
-              </svg>
-            </SocialIcon>
+          <div style={{ marginBottom: '18px' }}>
+            <SocialIcons enabled={['instagram', 'facebook', 'pinterest', 'youtube', 'tiktok']} />
           </div>
           <div style={{ fontSize: '12px', color: '#6B6B65', lineHeight: 1.6 }}>
             <Link href="/about" style={{ color: '#6B6B65', textDecoration: 'underline' }}>About</Link>
@@ -321,31 +286,3 @@ function Mark({ slug }: { slug: string }) {
   }
 }
 
-function SocialIcon({
-  label,
-  href,
-  children,
-}: {
-  label: string
-  href: string
-  children: React.ReactNode
-}) {
-  return (
-    <a
-      href={href}
-      aria-label={label}
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        color: '#6B6B65',
-        display: 'inline-flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        width: '36px',
-        height: '36px',
-      }}
-    >
-      {children}
-    </a>
-  )
-}
