@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     absolute: 'Massage Chair Finder | Find Your Chair, Read Our Research',
   },
   description:
-    'Independent massage chair research. Find your chair in 10 questions, read our articles, get the free Buyer\u2019s Guide.',
+    'Find the massage chair that fits your body, your space, and your budget. Match your fit in 10 questions, read our articles, get the free Buyer\u2019s Guide.',
   alternates: { canonical: 'https://massagechairfinder.com/links' },
   robots: { index: true, follow: true },
 }

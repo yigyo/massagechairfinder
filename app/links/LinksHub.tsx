@@ -43,7 +43,7 @@ const CARDS: Card[] = [
     slug: 'chairs',
     href: '/chairs',
     headline: 'Browse chair reviews',
-    sub: 'Independent reviews of 100+ chairs across 30+ brands. Verified specs.',
+    sub: 'Reviews of 100+ chairs across 30+ brands. Verified specs.',
   },
   {
     slug: 'best-lower-back-pain',
@@ -102,9 +102,9 @@ export default function LinksHub() {
               lineHeight: 1.55,
             }}
           >
-            Independent massage chair research.
+            Find the massage chair that fits your body,
             <br />
-            100+ chairs across 30+ brands.
+            your space, and your budget.
           </p>
         </header>
 
