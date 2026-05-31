@@ -107,6 +107,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-neck-shoulder-pain",
       "massage-and-anxiety",
       "massage-and-plantar-fasciitis",
+      "massage-and-tension-headaches",
     ],
   },
 ]
