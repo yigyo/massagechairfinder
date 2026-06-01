@@ -86,8 +86,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           async
           defer
         />
-        {/* Koda AI Chair Advisor */}
-        <Script id="koda-chat-config" strategy="beforeInteractive">
+        {/* Emily AI Chair Advisor */}
+        <Script id="emily-chat-config" strategy="beforeInteractive">
           {`window.MCFChatConfig = { backendUrl: 'https://emily-chat-backend.vercel.app' };`}
         </Script>
         <Script
