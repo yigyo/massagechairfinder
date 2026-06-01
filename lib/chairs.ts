@@ -167,13 +167,13 @@ export const CHAIRS: Chair[] = [
   {    id: 'osaki-os-pro-yamato',
     name: 'Osaki OS-Pro Yamato',
     brand: 'Osaki',
-    active: true, goodwinActive: true, mcfActive: false,  // OOS confirmed 2026-05-01
-    priceMin: 2999,
+    active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 back in stock at massagechairs.com (was broken link at massagechairheaven), re-activated on MCF
+    priceMin: 3999,
     affiliateTier: 'A',
-    affiliateRetailer: 'massagechairheaven.com',
+    affiliateRetailer: 'massagechairs.com',
     affiliateCommission: '5%',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://www.massagechairheaven.com/products/osaki-os-pro-yamato-massage-chair',
+    affiliateUrl: 'https://www.massagechairs.com/products/osaki-os-pro-yamato',
     imageUrl: '/images/chairs/osaki-os-pro-yamato.jpg',
     goodwinLookupKey: 'osaki os-pro yamato',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-pro-yamato-massage-chair.jpg?v=1776902373',
@@ -186,13 +186,13 @@ export const CHAIRS: Chair[] = [
     id: 'osaki-os-pro-admiral-ii',
     name: 'Osaki OS-Pro Admiral II',
     brand: 'Osaki',
-    active: true, goodwinActive: true, mcfActive: true, inStock: false, // OOS 2026-05-25 verified via JSON-LD at osakimassagechair.com
+    active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 switched to massagechairs.com (in stock); osakimassagechair was OOS
     priceMin: 2999,
     affiliateTier: 'A',
-    affiliateRetailer: 'osakimassagechair.com',
+    affiliateRetailer: 'massagechairs.com',
     affiliateCommission: '5% (Rakuten)',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://osakimassagechair.com/products/osaki-os-pro-admiral-ii',
+    affiliateUrl: 'https://www.massagechairs.com/products/osaki-os-pro-admiral-3d',
     imageUrl: '/images/chairs/osaki-os-pro-admiral-ii.jpg',
     goodwinLookupKey: 'osaki os-pro admiral ii',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-admiral-gray-massage-chair.webp?v=1776836197',
@@ -319,7 +319,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 4,
-    priceMin: 11999,
+    priceMin: 4999,  // massagechairstore.com verified live 2026-06-01 (was 11999; page shows "Originally $11,999", current price $4,999)
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -489,7 +489,7 @@ export const CHAIRS: Chair[] = [
     name: 'Luraco i9 Max Plus',
     brand: 'Luraco',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 11990,  // updated from 13490, confirmed 2026-05-01
+    priceMin: 13490,  // massagechairwarehouse.com verified live 2026-06-01 (Standard Edition base price)
     affiliateTier: null,
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateCommission: '10%, 30-day cookie',
@@ -693,7 +693,7 @@ export const CHAIRS: Chair[] = [
     id: 'daiwa-pegasus-2-smart',
     name: 'Daiwa Pegasus 2 Smart Massage Chair (DWA-9400)',
     brand: 'Daiwa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 merged duplicate Goodwin shadow into this record
   reviewRating: 5.0,
   reviewCount: 1,
     priceMin: 11000,
@@ -703,6 +703,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.massagechairheaven.com/products/daiwa-pegasus-2-smart-massage-chair',
     imageUrl: '/images/chairs/daiwa-pegasus-2-smart-dwa-9400.jpg',
+    goodwinLookupKey: 'daiwa pegasus 2 smart',
     track: 'L', roller: '3D',
     heightMinIn: 56, heightMaxIn: 78, weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: true, foot: true, calf: true,
@@ -966,11 +967,10 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
     priceMin: 1299,
     affiliateTier: 'A',
-    affiliateRetailer: 'osakimassagechair.com',
+    affiliateRetailer: 'clearancechair.com',  // 2026-06-01 switched from osakimassagechair (OOS) to clearancechair (in stock $1,299); affiliate tier needs confirmation
     affiliateCommission: '5% (Rakuten)',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://osakimassagechair.com/products/amamedic-renew',
-    inStock: false,
+    affiliateUrl: 'https://clearancechair.com/products/amamedic-renew',
     imageUrl: '/images/chairs/amamedics-renew-3d.jpg',
     goodwinLookupKey: 'amamedics renew',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/amamedic-renew-massage-chair.webp?v=1776904815',
@@ -1092,10 +1092,9 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
     priceMin: 12999,
     affiliateTier: 'A',
-    affiliateRetailer: 'massagechairwarehouse.com',
-    affiliateCommission: '10%, 30-day cookie',
+    affiliateRetailer: 'massagechairplanet.com',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://massagechairwarehouse.com/products/jpmedics-kaze-duo',
+    affiliateUrl: 'https://www.massagechairplanet.com/products/jpmedics-kaze-duo-massage-chair',  // 2026-06-01 replaced 404 massagechairwarehouse link
     imageUrl: '/images/chairs/jpmedics-kaze-duo.jpg',  // direct product page, confirmed in-stock 2026-05-01
     goodwinLookupKey: 'jpmedics kaze',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/jpmedics-kaze-duo-massage-chair.webp?v=1776836198',
@@ -1822,7 +1821,7 @@ export const CHAIRS: Chair[] = [
     name: 'Ogawa Active XL 3D Massage Chair (OG-6300)',
     brand: 'Ogawa',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 5899,  // wishrockrelaxation.com verified live 2026-05-25 (was 3000 -- catalog error)
+    priceMin: 2999,  // wishrockrelaxation.com re-verified 2026-06-01 via meta+JSON-LD+all variants ($2,999.99, no strikethrough); the 5-25 jump to 5899 was incorrect
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -1839,7 +1838,8 @@ export const CHAIRS: Chair[] = [
     id: 'ogawa-og8901',
     name: 'Ogawa Master Drive DUO LE 4D+3D Massage Chair (OG-8901)',
     brand: 'Ogawa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 merged duplicate Goodwin shadow
+    goodwinLookupKey: 'ogawa master drive duo le 4d+3d',
     priceMin: 9399,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1858,8 +1858,9 @@ export const CHAIRS: Chair[] = [
     id: 'ogawa-og6400',
     name: 'Ogawa Active XL Duo 3D + 2D Massage Chair (OG-6400)',
     brand: 'Ogawa',
-    active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 5199, priceMax: 5899,  // wishrockrelaxation.com verified live 2026-05-25 (sale 5199, list 5899)
+    active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 merged duplicate Goodwin shadow
+    goodwinLookupKey: 'ogawa active xl duo 3d+2d',
+    priceMin: 4799, priceMax: 5899,  // wishrockrelaxation.com verified live 2026-06-01 (sale 4799.99, list 5899)
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -1896,7 +1897,8 @@ export const CHAIRS: Chair[] = [
     id: 'ogawa-og8900',
     name: 'Ogawa Master Drive DUO 4D+3D Massage Chair (OG-8900)',
     brand: 'Ogawa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 merged duplicate Goodwin shadow
+    goodwinLookupKey: 'ogawa master drive duo 4d+3d',
     priceMin: 15999,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -2735,61 +2737,6 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'Premium 3D zero gravity chair at $3,999. Track type not confirmed. Body recognition technology. Top-grain natural leather. Zero gravity 120-145 degrees. Red Dot Award design. Highest-tier Nouhaus model.',
     goodwinLookupKey: 'nouhaus orbit',
     },
-
-
-  // ── AUTO-RECONCILED ENTRIES ─────────────────
-  {
-    id: 'daiwa-pegasus-2-smart',
-    name: 'Daiwa Pegasus 2 Smart',
-    brand: 'Daiwa',
-    active: true, goodwinActive: true, mcfActive: false,
-    affiliateTier: null, goodwinStatus: 'none',
-    track: null, roller: null,
-    goodwinLookupKey: 'daiwa pegasus 2 smart',
-    affiliateUrl: 'https://www.massagechairheaven.com/products/daiwa-pegasus-2-smart-massage-chair',
-    imageUrl: 'https://www.massagechairfinder.com/images/chairs/daiwa-pegasus-2-smart-dwa-9400.jpg',
-    priceMin: 0,
-    aiNotes: 'AUTO-RECONCILED 2026-05-19. Backfill specs when reviewing.',
-  },
-  {
-    id: 'ogawa-master-drive-duo-le-4d-3d',
-    name: 'Ogawa Master Drive Duo LE 4D+3D',
-    brand: 'Ogawa',
-    active: true, goodwinActive: true, mcfActive: false,
-    affiliateTier: null, goodwinStatus: 'none',
-    track: null, roller: null,
-    goodwinLookupKey: 'ogawa master drive duo le 4d+3d',
-    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-le-4d-3d-massage-chair-og-8901',
-    imageUrl: 'https://www.massagechairfinder.com/images/chairs/ogawa-master-drive-duo-le-4d-3d-og-8901.jpg',
-    priceMin: 0,
-    aiNotes: 'AUTO-RECONCILED 2026-05-19. Backfill specs when reviewing.',
-  },
-  {
-    id: 'ogawa-master-drive-duo-4d-3d',
-    name: 'Ogawa Master Drive Duo 4D+3D',
-    brand: 'Ogawa',
-    active: true, goodwinActive: true, mcfActive: false,
-    affiliateTier: null, goodwinStatus: 'none',
-    track: null, roller: null,
-    goodwinLookupKey: 'ogawa master drive duo 4d+3d',
-    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-4d-3d-massage-chair-og-8900',
-    imageUrl: 'https://www.massagechairfinder.com/images/chairs/ogawa-master-drive-duo-4d-3d-og-8900.webp',
-    priceMin: 0,
-    aiNotes: 'AUTO-RECONCILED 2026-05-19. Backfill specs when reviewing.',
-  },
-  {
-    id: 'ogawa-active-xl-duo-3d-2d',
-    name: 'Ogawa Active XL Duo 3D+2D',
-    brand: 'Ogawa',
-    active: true, goodwinActive: true, mcfActive: false,
-    affiliateTier: null, goodwinStatus: 'none',
-    track: null, roller: null,
-    goodwinLookupKey: 'ogawa active xl duo 3d+2d',
-    affiliateUrl: 'https://www.wishrockrelaxation.com/products/ogawa-active-xl-duo-3d-massage-chair-og-6400',
-    imageUrl: 'https://www.massagechairfinder.com/images/chairs/ogawa-active-xl-duo-3d-2d-og-6400.jpg',
-    priceMin: 0,
-    aiNotes: 'AUTO-RECONCILED 2026-05-19. Backfill specs when reviewing.',
-  },
 
 ]
 
