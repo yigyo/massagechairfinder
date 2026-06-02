@@ -1,0 +1,1499 @@
+{
+  "auditDate": "2026-06-02",
+  "totalProbed": 106,
+  "results": [
+    {
+      "id": "osaki-os-champ",
+      "name": "Osaki OS-Champ",
+      "url": "https://osakimassagechair.com/products/osaki-os-champ",
+      "probedUrl": "https://osakimassagechair.com/products/osaki-os-champ",
+      "finalUrl": "https://osakimassagechair.com/products/osaki-os-champ",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 1299.0,
+      "priceMin": 1299,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "osaki-os-pro-yamato",
+      "name": "Osaki OS-Pro Yamato",
+      "url": "https://www.massagechairs.com/products/osaki-os-pro-yamato",
+      "probedUrl": "https://www.massagechairs.com/products/osaki-os-pro-yamato",
+      "finalUrl": "https://www.massagechairs.com/products/osaki-os-pro-yamato",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 3999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "osaki-os-pro-admiral-ii",
+      "name": "Osaki OS-Pro Admiral II",
+      "url": "https://www.massagechairs.com/products/osaki-os-pro-admiral-3d",
+      "probedUrl": "https://www.massagechairs.com/products/osaki-os-pro-admiral-3d",
+      "finalUrl": "https://www.massagechairs.com/products/osaki-os-pro-admiral-3d",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 2999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "osaki-os-pro-maestro-le",
+      "name": "Osaki OS-Pro Maestro LE 2.0",
+      "url": "https://osakimassagechair.com/products/osaki-os-pro-maestro-le",
+      "probedUrl": "https://osakimassagechair.com/products/osaki-os-pro-maestro-le",
+      "finalUrl": "https://osakimassagechair.com/products/osaki-os-pro-maestro-le",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 8999.0,
+      "priceMin": 8999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "osaki-os-pro-4d-duomax",
+      "name": "Osaki OS-Pro 4D DuoMax",
+      "url": "https://osakimassagechair.com/products/os-pro-4d-duomax",
+      "probedUrl": "https://osakimassagechair.com/products/os-pro-4d-duomax",
+      "finalUrl": "https://osakimassagechair.com/products/os-pro-4d-duomax",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 12999.0,
+      "priceMin": 12999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "infinity-dynasty-4d",
+      "name": "Infinity Dynasty 4D",
+      "url": "https://massagechairstore.com/infinity-dynasty-4d/",
+      "probedUrl": "https://massagechairstore.com/infinity-dynasty-4d/",
+      "finalUrl": "https://massagechairstore.com/infinity-dynasty-4d/",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": null,
+      "priceMin": 4999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "infinity-celebrity",
+      "name": "Infinity Celebrity 3D/4D",
+      "url": "https://www.massagechairplanet.com/products/infinity-celebrity-elite-4d-massage-chair",
+      "probedUrl": "https://www.massagechairplanet.com/products/infinity-celebrity-elite-4d-massage-chair",
+      "finalUrl": "https://www.massagechairplanet.com/products/infinity-celebrity-elite-4d-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 5999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "infinity-evolution",
+      "name": "Infinity Evo Max 4D",
+      "url": "https://massagechairstore.com/infinity-evolution-max-4d/",
+      "probedUrl": "https://massagechairstore.com/infinity-evolution-max-4d/",
+      "finalUrl": "https://massagechairstore.com/infinity-evolution-max-4d/",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": null,
+      "priceMin": 10999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "infinity-genesis-max",
+      "name": "Infinity Genesis Max 4D",
+      "url": "https://massagechairstore.com/infinity-genesis-max/",
+      "probedUrl": "https://massagechairstore.com/infinity-genesis-max/",
+      "finalUrl": "https://massagechairstore.com/infinity-genesis-max/",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": null,
+      "priceMin": 9299,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "infinity-imperial-syner-d",
+      "name": "Infinity Imperial Syner-D",
+      "url": "https://massagechairstore.com/infinity-imperial-syner-d-massage-chair/",
+      "probedUrl": "https://massagechairstore.com/infinity-imperial-syner-d-massage-chair/",
+      "finalUrl": "https://massagechairstore.com/infinity-imperial-syner-d-massage-chair/",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": null,
+      "priceMin": 7999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "infinity-circadian-4d-dualflex",
+      "name": "Infinity Circadian 4D DualFlex",
+      "url": "https://massagechairstore.com/infinity-circadian-4d-dualflex-massage-chair/",
+      "probedUrl": "https://massagechairstore.com/infinity-circadian-4d-dualflex-massage-chair/",
+      "finalUrl": "https://massagechairstore.com/infinity-circadian-4d-dualflex-massage-chair/",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": null,
+      "priceMin": 16999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "human-touch-laevo-zg",
+      "name": "Human Touch Laevo ZG",
+      "url": "https://www.humantouch.com/products/laevo",
+      "probedUrl": "https://www.humantouch.com/products/laevo",
+      "finalUrl": "https://www.humantouch.com/products/laevo",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 4499,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "human-touch-super-novo-3",
+      "name": "Human Touch Super Novo 3.0",
+      "url": "https://www.humantouch.com/products/super-novo-3-0-massage-chair",
+      "probedUrl": "https://www.humantouch.com/products/super-novo-3-0-massage-chair",
+      "finalUrl": "https://www.humantouch.com/products/super-novo-3-0-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 11999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "luraco-i9-max-plus",
+      "name": "Luraco i9 Max Plus",
+      "url": "https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 13490.0,
+      "priceMin": 13490,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "luraco-theater-sofy",
+      "name": "Luraco Theater Sofy",
+      "url": "https://massagechairwarehouse.com/products/luraco-theater-sofy-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/luraco-theater-sofy-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/luraco-theater-sofy-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 3490.0,
+      "priceMin": 3490,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "daiwa-legacy-4",
+      "name": "Daiwa Legacy 4",
+      "url": "https://www.massagechairheaven.com/products/daiwa-legacy-4-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/daiwa-legacy-4-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/daiwa-legacy-4-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 9500,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "daiwa-black-panther-supreme-hybrid",
+      "name": "Daiwa Black Panther Supreme Hybrid Massage Chair",
+      "url": "https://www.massagechairheaven.com/products/daiwa-black-panther-supreme-hybrid-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/daiwa-black-panther-supreme-hybrid-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/daiwa-black-panther-supreme-hybrid-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 15500,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "daiwa-supreme-hybrid",
+      "name": "Daiwa Supreme Hybrid Massage Chair",
+      "url": "https://www.massagechairheaven.com/products/daiwa-supreme-hybrid-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/daiwa-supreme-hybrid-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/daiwa-supreme-hybrid-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 13500,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "daiwa-pegasus-hybrid",
+      "name": "Daiwa Pegasus Hybrid Massage Chair",
+      "url": "https://www.massagechairheaven.com/products/daiwa-pegasus-hybrid-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/daiwa-pegasus-hybrid-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/daiwa-pegasus-hybrid-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 12000,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "daiwa-hubble-plus-4d",
+      "name": "Daiwa Hubble Plus 4D Massage Chair",
+      "url": "https://www.massagechairheaven.com/products/daiwa-hubble-plus-4d-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/daiwa-hubble-plus-4d-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/daiwa-hubble-plus-4d-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 11000,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "daiwa-pegasus-2-smart",
+      "name": "Daiwa Pegasus 2 Smart Massage Chair (DWA-9400)",
+      "url": "https://www.massagechairheaven.com/products/daiwa-pegasus-2-smart-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/daiwa-pegasus-2-smart-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/daiwa-pegasus-2-smart-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 11000,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "daiwa-hubble-3d",
+      "name": "Daiwa Hubble 3D Massage Chair",
+      "url": "https://www.massagechairheaven.com/products/daiwa-hubble-3d-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/daiwa-hubble-3d-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/daiwa-hubble-3d-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 10000,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "daiwa-relax-2-zero-3d",
+      "name": "Daiwa Relax 2 Zero 3D Massage Chair",
+      "url": "https://www.massagechairheaven.com/products/daiwa-relax-2-zero-3d-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/daiwa-relax-2-zero-3d-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/daiwa-relax-2-zero-3d-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 9000,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "daiwa-majesty-2d",
+      "name": "Daiwa Majesty 2D Massage Chair",
+      "url": "https://www.massagechairheaven.com/products/daiwa-majesty-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/daiwa-majesty-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/daiwa-majesty-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 6000,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "kyota-genki-m380",
+      "name": "Kyota Genki M380",
+      "url": "https://massagechairstore.com/kyota-genki-m380-massage-chair/",
+      "probedUrl": "https://massagechairstore.com/kyota-genki-m380-massage-chair/",
+      "finalUrl": "https://massagechairstore.com/kyota-genki-m380-massage-chair/",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": null,
+      "priceMin": 2999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "kyota-yugana-m780",
+      "name": "Kyota Yugana M780 4D",
+      "url": "https://massagechairwarehouse.com/products/kyota-yugana-m780-4d-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/kyota-yugana-m780-4d-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/kyota-yugana-m780-4d-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 7999.0,
+      "priceMin": 7999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "kyota-konbi-m728-dualpro-4d",
+      "name": "Kyota Konbi M728 DualPro 4D",
+      "url": "https://massagechairstore.com/kyota-konbi-m728-dualpro-4d-massage-chair/",
+      "probedUrl": "https://massagechairstore.com/kyota-konbi-m728-dualpro-4d-massage-chair/",
+      "finalUrl": "https://massagechairstore.com/kyota-konbi-m728-dualpro-4d-massage-chair/",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": null,
+      "priceMin": 7999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "bodyfriend-phantom-medical",
+      "name": "Bodyfriend Phantom Medical Care 4D SL",
+      "url": "https://recovathlete.com/products/bodyfriend-phantom-medical-care-massage-chair",
+      "probedUrl": "https://recovathlete.com/products/bodyfriend-phantom-medical-care-massage-chair",
+      "finalUrl": "https://recovathlete.com/products/bodyfriend-phantom-medical-care-massage-chair",
+      "httpStatus": 200,
+      "availability": "OutOfStock",
+      "price": 7600.0,
+      "priceMin": 11000,
+      "flag": "OOS",
+      "notes": []
+    },
+    {
+      "id": "bodyfriend-phantom-ii",
+      "name": "Bodyfriend Phantom II",
+      "url": "https://recovathlete.com/products/bodyfriend-phantom-ii-massage-chair",
+      "probedUrl": "https://recovathlete.com/products/bodyfriend-phantom-ii-massage-chair",
+      "finalUrl": "https://recovathlete.com/products/bodyfriend-phantom-ii-massage-chair",
+      "httpStatus": 200,
+      "availability": null,
+      "price": null,
+      "priceMin": 8100,
+      "flag": "STOCK_UNKNOWN",
+      "notes": [
+        "No JSON-LD availability field on this page"
+      ]
+    },
+    {
+      "id": "bodyfriend-palace-ii",
+      "name": "Bodyfriend Palace II",
+      "url": "https://recovathlete.com/products/bodyfriend-palace-2-massage-chair",
+      "probedUrl": "https://recovathlete.com/products/bodyfriend-palace-2-massage-chair",
+      "finalUrl": "https://recovathlete.com/products/bodyfriend-palace-2-massage-chair",
+      "httpStatus": 200,
+      "availability": null,
+      "price": null,
+      "priceMin": 8099,
+      "flag": "STOCK_UNKNOWN",
+      "notes": [
+        "No JSON-LD availability field on this page"
+      ]
+    },
+    {
+      "id": "bodyfriend-falcon-xd",
+      "name": "Bodyfriend Falcon XD 4D",
+      "url": "https://www.amazon.com/Bodyfriend-Recliner-Patented-Technology-Acupressure/dp/B0D97TGBYS",
+      "probedUrl": "https://www.amazon.com/Bodyfriend-Recliner-Patented-Technology-Acupressure/dp/B0D97TGBYS",
+      "finalUrl": "https://www.amazon.com/Bodyfriend-Recliner-Patented-Technology-Acupressure/dp/B0D97TGBYS",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 8499,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "amamedics-hilux-4d",
+      "name": "AmaMedics Hilux 4D",
+      "url": "https://osakimassagechair.com/products/amamedic-hilux-4d",
+      "probedUrl": "https://osakimassagechair.com/products/amamedic-hilux-4d",
+      "finalUrl": "https://osakimassagechair.com/products/amamedic-hilux-4d",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 4999.0,
+      "priceMin": 4999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "amamedics-renew-3d",
+      "name": "AmaMedics Renew 3D",
+      "url": "https://clearancechair.com/products/amamedic-renew",
+      "probedUrl": "https://clearancechair.com/products/amamedic-renew",
+      "finalUrl": "https://clearancechair.com/products/amamedic-renew",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 1299,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "jpmedics-kumo-4d",
+      "name": "JPMedics Kumo 4D",
+      "url": "https://massagechairwarehouse.com/products/jpmedics-kumo-4d-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/jpmedics-kumo-4d-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/jpmedics-kumo-4d-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 10999.99,
+      "priceMin": 10999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "jpmedics-kaze-duo",
+      "name": "JPMedics KaZe Duo",
+      "url": "https://www.massagechairplanet.com/products/jpmedics-kaze-duo-massage-chair",
+      "probedUrl": "https://www.massagechairplanet.com/products/jpmedics-kaze-duo-massage-chair",
+      "finalUrl": "https://www.massagechairplanet.com/products/jpmedics-kaze-duo-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 12999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "panasonic-mak1",
+      "name": "Panasonic MAK1",
+      "url": "https://www.massagechairs.com/products/panasonic-mak1-massage-chair",
+      "probedUrl": "https://www.massagechairs.com/products/panasonic-mak1-massage-chair",
+      "finalUrl": "https://www.massagechairs.com/products/panasonic-mak1-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 14499,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "panasonic-maf1",
+      "name": "Panasonic MAF1",
+      "url": "https://www.primemassagechairs.com/products/panasonic-maf1-massage-chair",
+      "probedUrl": "https://www.primemassagechairs.com/products/panasonic-maf1-massage-chair",
+      "finalUrl": "https://www.primemassagechairs.com/products/panasonic-maf1-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 5999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "titan-3d-prestige",
+      "name": "Titan 3D Prestige",
+      "url": "https://titanchair.com/products/titan-3d-prestige",
+      "probedUrl": "https://titanchair.com/products/titan-3d-prestige",
+      "finalUrl": "https://titanchair.com/products/titan-3d-prestige",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 4999.0,
+      "priceMin": 4999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "titan-pro-vigor-4d",
+      "name": "Titan Pro-Vigor 4D",
+      "url": "https://massagechairwarehouse.com/products/titan-pro-vigor-4d-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/titan-pro-vigor-4d-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/titan-pro-vigor-4d-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 5999.0,
+      "priceMin": 5999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "synca-wellness-circ",
+      "name": "Synca Wellness CirC",
+      "url": "https://syncamassagechair.com/products/circ",
+      "probedUrl": "https://syncamassagechair.com/products/circ",
+      "finalUrl": "https://syncamassagechair.com/products/circ",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 1299.99,
+      "priceMin": 1299,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "synca-wellness-circ-plus",
+      "name": "Synca Wellness CirC+",
+      "url": "https://syncamassagechair.com/products/circ-plus",
+      "probedUrl": "https://syncamassagechair.com/products/circ-plus",
+      "finalUrl": "https://syncamassagechair.com/products/circ-plus",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 1899.99,
+      "priceMin": 1899,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "synca-wellness-circ-3",
+      "name": "Synca Wellness CirC 3",
+      "url": "https://syncamassagechair.com/products/circ3",
+      "probedUrl": "https://syncamassagechair.com/products/circ3",
+      "finalUrl": "https://syncamassagechair.com/products/circ3",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 1999.99,
+      "priceMin": 1999,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "synca-wellness-kurodo",
+      "name": "Synca Wellness Kurodo",
+      "url": "https://syncamassagechair.com/products/kurodo",
+      "probedUrl": "https://syncamassagechair.com/products/kurodo",
+      "finalUrl": "https://syncamassagechair.com/products/kurodo",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 9999.99,
+      "priceMin": 9999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "inner-balance-jin",
+      "name": "Inner Balance Jin",
+      "url": "https://syncamassagechair.com/products/jin",
+      "probedUrl": "https://syncamassagechair.com/products/jin",
+      "finalUrl": "https://syncamassagechair.com/products/jin",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 1999.99,
+      "priceMin": 1999,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "inner-balance-jin-2",
+      "name": "Inner Balance Jin 2.0",
+      "url": "https://syncamassagechair.com/products/jin2",
+      "probedUrl": "https://syncamassagechair.com/products/jin2",
+      "finalUrl": "https://syncamassagechair.com/products/jin2",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 3999.99,
+      "priceMin": 3999,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "synca-wellness-jp3000",
+      "name": "Synca JP-3000",
+      "url": "https://syncamassagechair.com/products/jp3000",
+      "probedUrl": "https://syncamassagechair.com/products/jp3000",
+      "finalUrl": "https://syncamassagechair.com/products/jp3000",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 10999.99,
+      "priceMin": 10999,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "fujiiryoki-cyber-relax-ai",
+      "name": "Fujiiryoki Cyber Relax Ai",
+      "url": "https://syncamassagechair.com/products/cyber-relax-ai",
+      "probedUrl": "https://syncamassagechair.com/products/cyber-relax-ai",
+      "finalUrl": "https://syncamassagechair.com/products/cyber-relax-ai",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 10999.99,
+      "priceMin": 10999,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "fujiiryoki-cyber-relax-ai-executive",
+      "name": "Fujiiryoki Cyber Relax Ai Executive",
+      "url": "https://syncamassagechair.com/products/cyber-relax-ai-executive",
+      "probedUrl": "https://syncamassagechair.com/products/cyber-relax-ai-executive",
+      "finalUrl": "https://syncamassagechair.com/products/cyber-relax-ai-executive",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 12999.99,
+      "priceMin": 12999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "fujiiryoki-calm-plus",
+      "name": "Fujiiryoki Calm Plus",
+      "url": "https://syncamassagechair.com/products/calmplus",
+      "probedUrl": "https://syncamassagechair.com/products/calmplus",
+      "finalUrl": "https://syncamassagechair.com/products/calmplus",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 3999.99,
+      "priceMin": 3999,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "fujiiryoki-cyber-relax-elite",
+      "name": "Fujiiryoki Cyber Relax Elite",
+      "url": "https://syncamassagechair.com/products/cyber-relax-elite",
+      "probedUrl": "https://syncamassagechair.com/products/cyber-relax-elite",
+      "finalUrl": "https://syncamassagechair.com/products/cyber-relax-elite",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 9999.99,
+      "priceMin": 9999,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "fujiiryoki-cyber-relax-pro",
+      "name": "Fujiiryoki Cyber Relax Pro",
+      "url": "https://syncamassagechair.com/products/cyber-relax-pro",
+      "probedUrl": "https://syncamassagechair.com/products/cyber-relax-pro",
+      "finalUrl": "https://syncamassagechair.com/products/cyber-relax-pro",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 14999.99,
+      "priceMin": 14999,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "dcore-d-core-2",
+      "name": "DCORE D.Core 2",
+      "url": "https://syncamassagechair.com/products/dcore2",
+      "probedUrl": "https://syncamassagechair.com/products/dcore2",
+      "finalUrl": "https://syncamassagechair.com/products/dcore2",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 16999.99,
+      "priceMin": 16999,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "dcore-cirrus-jp",
+      "name": "DCORE CIRRUS-JP",
+      "url": "https://syncamassagechair.com/products/cirrus-jp",
+      "probedUrl": "https://syncamassagechair.com/products/cirrus-jp",
+      "finalUrl": "https://syncamassagechair.com/products/cirrus-jp",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 12999.99,
+      "priceMin": 12999,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "dcore-stratus-jp",
+      "name": "DCORE STRATUS-JP",
+      "url": "https://syncamassagechair.com/products/stratus-jp",
+      "probedUrl": "https://syncamassagechair.com/products/stratus-jp",
+      "finalUrl": "https://syncamassagechair.com/products/stratus-jp",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 11499.99,
+      "priceMin": 11499,
+      "flag": "OK",
+      "notes": [
+        "JSON-LD availability found via case-insensitive match (http://schema.org/instock)"
+      ]
+    },
+    {
+      "id": "kahuna-dios-6800",
+      "name": "Kahuna Dios-6800 6D Massage Chair",
+      "url": "https://www.wishrockrelaxation.com/products/kahuna-dios-6800-6d-massage-chair",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-6800-6d-massage-chair",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-6800-6d-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 3799,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "kahuna-dios-1288",
+      "name": "Kahuna Dios-1288 8D Massage Chair",
+      "url": "https://www.wishrockrelaxation.com/products/kahuna-dios-1288-4d-massage-chair",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-1288-4d-massage-chair",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-1288-4d-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 16999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "kahuna-dios-flexa",
+      "name": "Kahuna Dios Flexa Massage Chair",
+      "url": "https://www.wishrockrelaxation.com/products/kahuna-dios-flexa-massage-chair",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-flexa-massage-chair",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-flexa-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 8499,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "kahuna-hm-kappa",
+      "name": "Kahuna HM-KAPPA Massage Chair",
+      "url": "https://www.wishrockrelaxation.com/products/kahuna-hm-kappa-massage-chair",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-kappa-massage-chair",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-kappa-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 9500,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "kahuna-em-8500",
+      "name": "Kahuna EM-8500 Massage Chair",
+      "url": "https://www.wishrockrelaxation.com/products/kahuna-em-8500-massage-chair",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/kahuna-em-8500-massage-chair",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/kahuna-em-8500-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 8900,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "kahuna-dios-7300",
+      "name": "Kahuna Dios-7300 7D Massage Chair",
+      "url": "https://www.wishrockrelaxation.com/products/kahuna-dios-7300-7d-massage-chair",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-7300-7d-massage-chair",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-7300-7d-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 7999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "kahuna-sm-7300s",
+      "name": "Kahuna Massage Chair SM-7300S",
+      "url": "https://www.wishrockrelaxation.com/products/kahuna-massage-chair-sm-7300s",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/kahuna-massage-chair-sm-7300s",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/kahuna-massage-chair-sm-7300s",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 6999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "kahuna-hm-078",
+      "name": "Kahuna HM-078 Hubot 4D Massage Chair",
+      "url": "https://www.wishrockrelaxation.com/products/kahuna-hm-078-hubot-4d-massage-chair",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-078-hubot-4d-massage-chair",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-078-hubot-4d-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 4399,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "kahuna-hm-5000",
+      "name": "Kahuna HM-5000 Massage Chair",
+      "url": "https://www.wishrockrelaxation.com/products/kahuna-hm-5000-massage-chair",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-5000-massage-chair",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-5000-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 2000,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "ador-3d-allure",
+      "name": "Ador 3D Allure",
+      "url": "https://osakimassagechair.com/products/ador-3d-allure",
+      "probedUrl": "https://osakimassagechair.com/products/ador-3d-allure",
+      "finalUrl": "https://osakimassagechair.com/products/ador-3d-allure",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 4999.0,
+      "priceMin": 4999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "theramedic-flex",
+      "name": "Theramedic Flex",
+      "url": "https://osakimassagechair.com/products/theramedic-flex",
+      "probedUrl": "https://osakimassagechair.com/products/theramedic-flex",
+      "finalUrl": "https://osakimassagechair.com/products/theramedic-flex",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 3499.0,
+      "priceMin": 3499,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "kanji-4d-shogun-duo",
+      "name": "Kanji 4D Shogun Duo",
+      "url": "https://osakimassagechair.com/products/kanji-4d-shogun-duo",
+      "probedUrl": "https://osakimassagechair.com/products/kanji-4d-shogun-duo",
+      "finalUrl": "https://osakimassagechair.com/products/kanji-4d-shogun-duo",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 14999.0,
+      "priceMin": 14999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "ogawa-og6300",
+      "name": "Ogawa Active XL 3D Massage Chair (OG-6300)",
+      "url": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-3d-massage-chair-og-6300",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-3d-massage-chair-og-6300",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-3d-massage-chair-og-6300",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 2999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "ogawa-og8901",
+      "name": "Ogawa Master Drive DUO LE 4D+3D Massage Chair (OG-8901)",
+      "url": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-le-4d-3d-massage-chair-og-8901",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-le-4d-3d-massage-chair-og-8901",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-le-4d-3d-massage-chair-og-8901",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 9399,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "ogawa-og6400",
+      "name": "Ogawa Active XL Duo 3D + 2D Massage Chair (OG-6400)",
+      "url": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-duo-3d-massage-chair-og-6400",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-duo-3d-massage-chair-og-6400",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-duo-3d-massage-chair-og-6400",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 4799,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "ogawa-og8801",
+      "name": "Ogawa Master Drive AI 2.0 4D Massage Chair (OG-8801)",
+      "url": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-ai-2-0-4d-massage-chair-og-8801",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-ai-2-0-4d-massage-chair-og-8801",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-ai-2-0-4d-massage-chair-og-8801",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 12999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "ogawa-og8900",
+      "name": "Ogawa Master Drive DUO 4D+3D Massage Chair (OG-8900)",
+      "url": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-4d-3d-massage-chair-og-8900",
+      "probedUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-4d-3d-massage-chair-og-8900",
+      "finalUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-4d-3d-massage-chair-og-8900",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 15999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "relaxe-shiatsu",
+      "name": "Relaxe Shiatsu",
+      "url": "https://relaxe.co/collections/massage/products/shiatsu-massage-chair",
+      "probedUrl": "https://relaxe.co/collections/massage/products/shiatsu-massage-chair",
+      "finalUrl": "https://relaxe.co/collections/massage/products/shiatsu-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 2899.0,
+      "priceMin": 2999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "ohco-m8-neo-le",
+      "name": "OHCO M.8 NEO LE",
+      "url": "https://www.johnsonfitness.com/OHCO-M8-NEO-LE-Massage-Chair-P39084.aspx",
+      "probedUrl": "https://www.johnsonfitness.com/OHCO-M8-NEO-LE-Massage-Chair-P39084.aspx",
+      "finalUrl": "https://www.johnsonfitness.com/OHCO-M8-NEO-LE-Massage-Chair-P39084.aspx",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 18000,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "relaxonchair-rio",
+      "name": "Relax On Chair RIO",
+      "url": "https://relaxonchair.com/products/rio-massage-recliner-chair-black",
+      "probedUrl": "https://relaxonchair.com/products/rio-massage-recliner-chair-black",
+      "finalUrl": "https://relaxonchair.com/products/rio-massage-recliner-chair-black",
+      "httpStatus": 200,
+      "availability": "OutOfStock",
+      "price": 999.0,
+      "priceMin": 999,
+      "flag": "OOS",
+      "notes": []
+    },
+    {
+      "id": "relaxonchair-jasper",
+      "name": "Relax On Chair Jasper",
+      "url": "https://www.relaxonchair.com/products/jasper-full-body-massage-chair",
+      "probedUrl": "https://relaxonchair.com/products/jasper-full-body-massage-chair",
+      "finalUrl": "https://relaxonchair.com/products/jasper-full-body-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 1599.0,
+      "priceMin": 1599,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "relaxonchair-mk-v-plus",
+      "name": "Relax On Chair MK-V Plus",
+      "url": "https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black",
+      "probedUrl": "https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black",
+      "finalUrl": "https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 2499.0,
+      "priceMin": 2499,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "relaxonchair-yukon-4d",
+      "name": "Relax On Chair YUKON-4D",
+      "url": "https://www.relaxonchair.com/products/yukon-4d-full-body-massage-chair",
+      "probedUrl": "https://relaxonchair.com/products/yukon-4d-full-body-massage-chair",
+      "finalUrl": "https://relaxonchair.com/products/yukon-4d-full-body-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 6499.0,
+      "priceMin": 6499,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "ceragem-m10",
+      "name": "Ceragem M10",
+      "url": "https://www.massagechairwarehouse.com/products/ceragem-m10-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/ceragem-m10-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/ceragem-m10-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 12999.0,
+      "priceMin": 12999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "ergotec-et-180-pluto",
+      "name": "Ergotec ET-180 Pluto",
+      "url": "https://www.massagechairwarehouse.com/products/ergotec-et-180-pluto-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/ergotec-et-180-pluto-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/ergotec-et-180-pluto-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 1999.0,
+      "priceMin": 1999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "koyo-303ts",
+      "name": "Koyo 303TS",
+      "url": "https://www.massagechairwarehouse.com/products/koyo-303ts-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/koyo-303ts-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/koyo-303ts-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 7999.0,
+      "priceMin": 7999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "medical-breakthrough-5",
+      "name": "Medical Breakthrough 5",
+      "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-5-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-5-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-5-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 2249.0,
+      "priceMin": 2249,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "medical-breakthrough-6",
+      "name": "Medical Breakthrough 6",
+      "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-6",
+      "probedUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-6",
+      "finalUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-6",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 4249.0,
+      "priceMin": 4249,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "medical-breakthrough-6-plus",
+      "name": "Medical Breakthrough 6 Plus",
+      "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-6-plus-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-6-plus-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-6-plus-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 5499.0,
+      "priceMin": 5499,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "medical-breakthrough-7",
+      "name": "Medical Breakthrough 7",
+      "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-7-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-7-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-7-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 6249.0,
+      "priceMin": 6249,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "medical-breakthrough-7-plus",
+      "name": "Medical Breakthrough 7 Plus",
+      "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-7-plus",
+      "probedUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-7-plus",
+      "finalUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-7-plus",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 8399.0,
+      "priceMin": 8399,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "medical-breakthrough-8",
+      "name": "Medical Breakthrough 8",
+      "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-8-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-8-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-8-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 8249.0,
+      "priceMin": 8249,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "medical-breakthrough-8-plus",
+      "name": "Medical Breakthrough 8 Plus",
+      "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-8-plus-open-feet-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-8-plus-open-feet-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-8-plus-open-feet-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 10899.0,
+      "priceMin": 10899,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "medical-breakthrough-9",
+      "name": "Medical Breakthrough 9",
+      "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-9-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-9-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-9-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 10399.0,
+      "priceMin": 10399,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "medical-breakthrough-9-plus",
+      "name": "Medical Breakthrough 9 Plus",
+      "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-9-plus-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-9-plus-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-9-plus-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 14649.0,
+      "priceMin": 14649,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "medical-breakthrough-x",
+      "name": "Medical Breakthrough X",
+      "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-x-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-x-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/medical-breakthrough-x-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 12499.0,
+      "priceMin": 12499,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "positive-posture-brio-plus",
+      "name": "Positive Posture Brio Plus",
+      "url": "https://www.massagechairwarehouse.com/products/positive-posture-brio-plus-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/positive-posture-brio-plus-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/positive-posture-brio-plus-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 7999.0,
+      "priceMin": 7999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "positive-posture-brio-sport",
+      "name": "Positive Posture Brio Sport",
+      "url": "https://www.massagechairwarehouse.com/products/positive-posture-brio-sport-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/positive-posture-brio-sport-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/positive-posture-brio-sport-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 8999.0,
+      "priceMin": 8999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "positive-posture-solara",
+      "name": "Positive Posture Solara",
+      "url": "https://www.massagechairwarehouse.com/products/positive-posture-solara-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/positive-posture-solara-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/positive-posture-solara-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 2499.0,
+      "priceMin": 2499,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "sharper-image-relieve-3d",
+      "name": "Sharper Image Relieve 3D",
+      "url": "https://www.massagechairwarehouse.com/products/sharper-image-relieve-3d-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/sharper-image-relieve-3d-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/sharper-image-relieve-3d-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 4499.0,
+      "priceMin": 4499,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "sharper-image-revival",
+      "name": "Sharper Image Revival",
+      "url": "https://www.massagechairwarehouse.com/products/sharper-image-revival-zero-gravity-massage-chair",
+      "probedUrl": "https://massagechairwarehouse.com/products/sharper-image-revival-zero-gravity-massage-chair",
+      "finalUrl": "https://massagechairwarehouse.com/products/sharper-image-revival-zero-gravity-massage-chair",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 3999.0,
+      "priceMin": 3999,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "svago-lite-2",
+      "name": "Svago Lite 2",
+      "url": "https://www.massagechairwarehouse.com/products/svago-lite-2-zero-gravity-recliner",
+      "probedUrl": "https://massagechairwarehouse.com/products/svago-lite-2-zero-gravity-recliner",
+      "finalUrl": "https://massagechairwarehouse.com/products/svago-lite-2-zero-gravity-recliner",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 1499.99,
+      "priceMin": 1499,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "svago-zgr",
+      "name": "Svago ZGR",
+      "url": "https://www.massagechairwarehouse.com/products/svago-zgr-zero-gravity-recliner",
+      "probedUrl": "https://massagechairwarehouse.com/products/svago-zgr-zero-gravity-recliner",
+      "finalUrl": "https://massagechairwarehouse.com/products/svago-zgr-zero-gravity-recliner",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 2199.99,
+      "priceMin": 2199,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "svago-newton",
+      "name": "Svago Newton",
+      "url": "https://www.massagechairwarehouse.com/products/svago-newton-zero-gravity-recliner",
+      "probedUrl": "https://massagechairwarehouse.com/products/svago-newton-zero-gravity-recliner",
+      "finalUrl": "https://massagechairwarehouse.com/products/svago-newton-zero-gravity-recliner",
+      "httpStatus": 200,
+      "availability": "InStock",
+      "price": 3499.99,
+      "priceMin": 3499,
+      "flag": "OK",
+      "notes": []
+    },
+    {
+      "id": "rockertech-bliss",
+      "name": "RockerTech Bliss",
+      "url": "https://www.massagechairheaven.com/products/rockertech-bliss%E2%84%A2-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/rockertech-bliss%E2%84%A2-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/rockertech-bliss%E2%84%A2-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 5499,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "rockertech-sensation-4d",
+      "name": "RockerTech Sensation 4D",
+      "url": "https://www.massagechairheaven.com/products/rockertech-sensation-4d-massage-chair",
+      "probedUrl": "https://www.massagechairheaven.com/products/rockertech-sensation-4d-massage-chair",
+      "finalUrl": "https://www.massagechairheaven.com/products/rockertech-sensation-4d-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 6999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "ohco-m8-neo",
+      "name": "OHCO M.8 NEO",
+      "url": "https://www.johnsonfitness.com/OHCO-M8-NEO-Massage-Chair-P39080.aspx",
+      "probedUrl": "https://www.johnsonfitness.com/OHCO-M8-NEO-Massage-Chair-P39080.aspx",
+      "finalUrl": "https://www.johnsonfitness.com/OHCO-M8-NEO-Massage-Chair-P39080.aspx",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 14999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "nouhaus-new-classic",
+      "name": "Nouhaus New Classic",
+      "url": "https://www.nouhaus.com/products/new-classic-massage-chair",
+      "probedUrl": "https://www.nouhaus.com/products/new-classic-massage-chair",
+      "finalUrl": "https://www.nouhaus.com/products/new-classic-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 1499,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "nouhaus-aurora",
+      "name": "Nouhaus Aurora",
+      "url": "https://www.nouhaus.com/products/nouhaus-aurora-zero-gravity-premium-full-body-electric-massage-chair",
+      "probedUrl": "https://www.nouhaus.com/products/nouhaus-aurora-zero-gravity-premium-full-body-electric-massage-chair",
+      "finalUrl": "https://www.nouhaus.com/products/nouhaus-aurora-zero-gravity-premium-full-body-electric-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 2299,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "nouhaus-noucampo",
+      "name": "Nouhaus Nou Campo",
+      "url": "https://www.nouhaus.com/products/nouhaus-noucampo-massage-chair",
+      "probedUrl": "https://www.nouhaus.com/products/nouhaus-noucampo-massage-chair",
+      "finalUrl": "https://www.nouhaus.com/products/nouhaus-noucampo-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 2299,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "nouhaus-luna",
+      "name": "Nouhaus Luna",
+      "url": "https://www.nouhaus.com/products/nouhaus-luna-zero-gravity-massage-chair",
+      "probedUrl": "https://www.nouhaus.com/products/nouhaus-luna-zero-gravity-massage-chair",
+      "finalUrl": "https://www.nouhaus.com/products/nouhaus-luna-zero-gravity-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 2999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    },
+    {
+      "id": "nouhaus-orbit",
+      "name": "Nouhaus Orbit",
+      "url": "https://www.nouhaus.com/products/nouhaus-orbit-zero-gravity-massage-chair",
+      "probedUrl": "https://www.nouhaus.com/products/nouhaus-orbit-zero-gravity-massage-chair",
+      "finalUrl": "https://www.nouhaus.com/products/nouhaus-orbit-zero-gravity-massage-chair",
+      "httpStatus": 403,
+      "availability": null,
+      "price": null,
+      "priceMin": 3999,
+      "flag": "PROBE_BLOCKED",
+      "notes": [
+        "HTTP 403 - bot block"
+      ]
+    }
+  ],
+  "correctionNote": "Corrected 13 syncamassagechair.com STOCK_UNKNOWN -> OK via case-insensitive JSON-LD normalization"
+}
