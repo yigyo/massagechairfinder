@@ -5815,6 +5815,204 @@ The Ajimsha 2014 trial showed significant pain reduction at four weeks with thre
 <p>[5] Dupuy O, Douzi W, Theurot D, Bosquet L, Dugué B. <em>An Evidence-Based Approach for Choosing Post-exercise Recovery Techniques to Reduce Markers of Muscle Damage, Soreness, Fatigue, and Inflammation: A Systematic Review With Meta-Analysis.</em> Frontiers in Physiology. 2018;9:403. <a href="https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2018.00403/full">Link</a></p>
 <p>[6] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>`,
   },
+  {
+    slug: "massage-and-joint-stiffness",
+    title: "Does Massage Help Joint Stiffness? What the Research Shows",
+    excerpt: "What the research shows about massage and joint stiffness. Massage does not loosen the joint itself, but it measurably reduces the muscular stiffness wrapped around it. How massage chairs deliver that, and where the honest limits are.",
+    order: 69,
+    publishedAt: "2026-06-06",
+    body: `<p><strong>Massage does not loosen a stiff joint, but it does reduce the muscular stiffness wrapped around it, and for most older adults that muscular layer is a meaningful part of what makes a joint feel stiff.</strong> Stiffness has two sources that feel like one symptom: the joint itself, which massage cannot reach, and the muscle and soft tissue around it, which massage measurably softens. The practical mechanism for a chair is daily access and timing. A short session at the hour stiffness is worst does more than a deeper session at a random time.</p>
+<p>This guide separates the two kinds of stiffness, covers what the evidence actually shows, and explains what a massage chair can and cannot replicate compared with a hands-on therapist.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>Measurably less muscle stiffness:</strong> a five-week trial using shear-wave elastography found a significant reduction in passive stiffness of the erector spinae and upper trapezius after a course of therapeutic massage (2024)<br>
+<strong>Real but short-lived loosening:</strong> a study measuring calf muscle stiffness found a significant drop immediately after massage that returned toward baseline within a few minutes of rest (Eriksson Crommert et al., 2015)<br>
+<strong>Stiffness and function improve over weeks:</strong> a meta-analysis of 12 randomized trials in 737 knee osteoarthritis patients found significant short-term reductions in pain and stiffness, with gains building at six to eight weeks (Wu et al., 2022)<br>
+<strong>Range follows consistent use:</strong> an eight-week trial in adults over 60 with knee osteoarthritis recorded a 3.42 degree improvement in active knee flexion (Aging Clinical and Experimental Research, 2025)</p></div>
+<h2>Two kinds of stiffness, and which one massage acts on</h2>
+<p>The word "stiffness" covers two physiologically different things, and confusing them is where most overclaiming starts.</p>
+<p>The joint layer is the structural one. Overnight or after a long stretch of sitting, the synovial fluid that lubricates a joint becomes more viscous and circulates less, producing the brief morning stiffness clinicians call the gel phenomenon. In osteoarthritis it typically eases within about 30 minutes of movement [1]. With age, cartilage thins and the joint lining produces less fluid, so this gel-like stiffness becomes more common. No soft tissue technique reaches this layer.</p>
+<p>The muscular and soft tissue layer is the one massage can change. Around every stiff joint sits muscle that has adapted to the situation. Chronic low-grade joint pain produces habitual guarding: the quadriceps and hamstrings tighten around a sore knee, the paraspinal muscles tighten around a stiff lower back, and that guarding restricts movement beyond what the joint itself requires. Layered on top is the general age-related stiffening of muscle and fascia and the loss of tissue extensibility from inactivity. By the time most older adults describe a joint as stiff, a substantial part of the restriction lives in this soft tissue layer. This is distinct from joint pathology itself; for the joint-disease side of the picture, see our guide on <a href="/learn/massage-and-osteoarthritis">massage and osteoarthritis</a>.</p>
+<h2>What massage actually changes</h2>
+<p>The mechanism is the same one that operates across the aging research, aimed here at the stiffness experience.</p>
+<p>The clearest evidence is direct. A five-week randomized trial using shear-wave elastography, an objective imaging measure, documented a significant reduction in passive stiffness of the erector spinae and upper trapezius after a course of therapeutic massage [2]. That is direct evidence that massage lowers the measurable stiffness of the muscle tissue itself, not only the subjective sense of it.</p>
+<p>The honest boundary comes from the same body of work. A study measuring calf muscle stiffness with elastography found a significant reduction immediately after massage that returned toward baseline within a few minutes of rest [3]. The single-session loosening is genuine and short. This is exactly why the chair case rests on daily access rather than on any one dramatic session: the value is in resetting the stiffness repeatedly, not in eliminating it once.</p>
+<p>Underneath both findings is a reduction in guarding. Sustained pressure lowers motor neuron output and resting muscle tone, the H-reflex mechanism summarized by Weerapong et al. 2005 [4]. When the muscle around a joint releases, the joint moves more freely even though nothing about the joint has changed.</p>
+<p>Over weeks, those repeated resets show up as measurable gains. The Wu et al. 2022 meta-analysis of 12 randomized trials in 737 knee osteoarthritis patients found significant short-term reductions in pain and stiffness at one to four weeks, and in stiffness and function at six to eight weeks [5]. A 2025 trial in adults over 60 with knee osteoarthritis recorded a 3.42 degree improvement in active knee flexion over an eight-week protocol [6]. The pattern is a modest, reproducible improvement that accumulates over weeks of consistent use, not a single large jump.</p>
+<table>
+<thead>
+<tr>
+<th>Outcome</th>
+<th>What the research shows</th>
+<th>Evidence strength</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Passive muscle stiffness</td>
+<td>Significant reduction in erector spinae and upper trapezius stiffness on objective elastography after a five-week course</td>
+<td>Strong (direct imaging)</td>
+</tr>
+<tr>
+<td>Immediate loosening</td>
+<td>Genuine drop in muscle stiffness right after a session, returning toward baseline within minutes</td>
+<td>Strong (direct imaging), but short-lived</td>
+</tr>
+<tr>
+<td>Guarding and resting tone</td>
+<td>Lower motor neuron excitability and resting tone under sustained pressure</td>
+<td>Moderate (mechanistic)</td>
+</tr>
+<tr>
+<td>Stiffness and function over weeks</td>
+<td>Significant short-term reductions in stiffness and function in knee osteoarthritis, building at six to eight weeks</td>
+<td>Moderate (meta-analytic)</td>
+</tr>
+<tr>
+<td>The joint surface itself</td>
+<td>No change to cartilage, synovial viscosity, or the structural source of the gel phenomenon</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+<h2>How a massage chair delivers this</h2>
+<p>The chair-relevant features map onto the soft tissue layer, and the limits matter as much as the capabilities.</p>
+<p><strong>What a chair replicates fully.</strong> The reduction of muscular stiffness and guarding around the joint travels by the same mechanical route whether the pressure comes from a thumb or a roller. A chair delivers the short-term loosening, the lowered resting tone, and the heat-and-roller comfort that makes a stiff body easier to move, and it does so daily at the time stiffness is worst. Heat first then rollers is the better-tolerated sequence for a stiff morning body, because heat raises the compliance of superficial tissue before the roller work begins.</p>
+<p><strong>What a chair partially replicates.</strong> The range-of-motion improvement. The chair contributes through the soft tissue layer and through stretch programs that combine calf airbag traction, ankle compression, and reclining backrest motion. But the durable range gains in the research came alongside active exercise, which the chair does not perform.</p>
+<p><strong>What a chair cannot replicate.</strong> The joint layer itself. A chair does not thin synovial fluid back to a younger viscosity, does not rebuild cartilage, and does not change the structural source of the gel phenomenon. The honest position is that the chair manages the muscular stiffness wrapped around the joint, a real and meaningful part of the symptom, while the joint structure is outside what any massage modality reaches.</p>
+<p><strong>Pressure.</strong> Keep it moderate. Stiffness makes the temptation to overdo it stronger, because a stiff body invites a deeper, harder session in the hope of forcing the loosening. The evidence does not support that. The parasympathetic and extensibility mechanisms work at moderate pressure, and older tissue tolerates less. Start at a low setting, lead with heat, favor broad contact over pinpoint pressure on stiff joints, and treat lasting soreness as a signal to ease off. On a flare day, reduce intensity rather than push for range. For the mechanical detail of how pressure becomes a physiological signal, see our explainer on <a href="/learn/physiology-of-massage">the physiology of massage</a>.</p>
+<h2>Who this matters for</h2>
+<p>The case is clearest for older adults whose mornings start with the body needing to warm up before it works, and for anyone whose joints stiffen after a sedentary day. Timing is the lever: a short morning session for the person whose stiffness peaks on waking, an evening session for the person who stiffens after a desk day. For the broader picture of how massage fits the aging body, see <a href="/learn/massage-and-aging">massage and aging</a>, and for chairs chosen with arthritis-related stiffness in mind, the buyer guide on <a href="/learn/massage-chairs-for-arthritis">massage chairs for arthritis</a> and the <a href="/best/arthritis">Best Massage Chairs for Arthritis</a> collection.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Can massage loosen a stiff joint?</strong></summary>
+<p>Not the joint itself. Massage does not change cartilage or synovial fluid. What it does is reduce the muscular stiffness and guarding around the joint, which for most older adults is a meaningful part of what makes a joint feel stiff. The joint moves more freely because the muscle released, not because the joint changed.</p>
+</details>
+<details>
+<summary><strong>Why does the loosening from a session not last?</strong></summary>
+<p>Because the immediate drop in muscle stiffness is real but short-lived. Elastography studies show stiffness falling right after a session and drifting back toward baseline within minutes of rest [3]. That is the whole argument for daily access over an occasional session: you reset the stiffness repeatedly rather than trying to eliminate it once.</p>
+</details>
+<details>
+<summary><strong>Does a massage chair help with morning stiffness?</strong></summary>
+<p>It can help with the muscular portion of it. A short heat-led session at the time stiffness is worst loosens the soft tissue around the joint and makes the body easier to move. It will not abolish the gel-phenomenon stiffness that comes from the joint, which eases on its own within about 30 minutes of movement [1].</p>
+</details>
+<details>
+<summary><strong>How long before I notice a difference?</strong></summary>
+<p>The within-session loosening is immediate but brief. The more durable gains in stiffness and function in the research built over roughly six to eight weeks of consistent use [5]. Treat it as a daily maintenance habit, not a one-time fix.</p>
+</details>
+<details>
+<summary><strong>How hard should the massage be for stiff joints?</strong></summary>
+<p>Moderate, not maximum. The mechanisms that reduce stiffness work at moderate pressure, and aggressive work on already-stiff, older tissue tends to create soreness rather than loosening. Lead with heat, start low, and build gradually over the first two weeks.</p>
+</details>
+<h2>Finding the right chair</h2>
+<p>Stiffness responds to frequency and timing, which is exactly where a home chair changes the math against a monthly appointment. The match between chair and buyer still matters more than any single spec: pressure tolerance, heat coverage, track type, and body fit decide whether a chair gets used every morning or pushed against the wall.</p>
+<p><strong><a href="/finder">Take the Chair Finder Quiz</a></strong> to get a shortlist matched to your goals, body, and room in under three minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Shmerling RH. <em>What makes my joints stiff in the morning?</em> Harvard Health Publishing, Harvard Medical School. <a href="https://www.health.harvard.edu/pain/what-makes-my-joints-stiff-in-the-morning">Link</a></p>
+<p>[2] <em>The effect of a 5-week therapeutic massage on erector spinae and upper trapezius muscle stiffness as determined by shear-wave elastography: a randomized controlled trial.</em> 2024. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11381258/">Link</a></p>
+<p>[3] Eriksson Crommert M, Lacourpaille L, Heales LJ, Tucker K, Hug F. <em>Massage induces an immediate, albeit short-term, reduction in muscle stiffness.</em> Scandinavian Journal of Medicine and Science in Sports. 2015;25(5):e490-e496. <a href="https://pubmed.ncbi.nlm.nih.gov/25487283/">Link</a></p>
+<p>[4] Weerapong P, Hume PA, Kolt GS. <em>The mechanisms of massage and effects on performance, muscle recovery and injury prevention.</em> Sports Medicine. 2005;35(3):235-256. <a href="https://pubmed.ncbi.nlm.nih.gov/15730338/">Link</a></p>
+<p>[5] Wu Q, Zhao J, Guo W. <em>Efficacy of massage therapy in improving outcomes in knee osteoarthritis: A systematic review and meta-analysis.</em> Complementary Therapies in Clinical Practice. 2022;46:101522. <a href="https://pubmed.ncbi.nlm.nih.gov/34890892/">Link</a></p>
+<p>[6] <em>Swedish massage versus hip strengthening exercises for pain and function in older adults with knee osteoarthritis: a randomized controlled trial.</em> Aging Clinical and Experimental Research. 2025. <a href="https://link.springer.com/article/10.1007/s40520-025-03313-z">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-posture",
+    title: "Does Massage Help Posture? What the Research Shows",
+    excerpt: "What the research shows about massage and posture. Massage does not straighten a spine, but it reduces the muscular tension that pulls the body into a rounded position and makes corrective exercise easier. How a massage chair delivers that.",
+    order: 70,
+    publishedAt: "2026-06-06",
+    body: `<p><strong>Massage does not straighten a spine, but it reduces the resting tension in the muscles that pull the body into a rounded position and makes the corrective exercise that actually changes posture easier to perform.</strong> Most midlife postural drift, the upper back that rounds and the head that settles forward over a keyboard, starts as a soft tissue problem before it becomes a structural one. That soft tissue layer is the part massage can act on. The practical mechanism for a chair is daily access: a few minutes most days on the upper back and shoulders does more for postural tension than a monthly session that fades within a week.</p>
+<p>This guide covers what changes in posture with age, what the evidence shows massage can and cannot do, and how a massage chair fits the postural chain.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>Hyperkyphosis is common and consequential:</strong> reviews put clinically excessive upper-back curvature at roughly 20 to 40 percent of older adults, rising faster in women through menopause, and associated with reduced function, balance, and pulmonary function (Katzman et al., 2010)<br>
+<strong>Measurably less paraspinal stiffness:</strong> a five-week trial using shear-wave elastography found a significant reduction in erector spinae and upper trapezius passive stiffness after a course of therapeutic massage (2024)<br>
+<strong>The loosening is real but brief:</strong> massage acutely increases muscle extensibility, an effect that returns toward baseline within minutes once the pressure stops (Eriksson Crommert et al., 2015)<br>
+<strong>Correction rests on active work:</strong> in forward head posture trials, thoracic and cervical mobilization combined with exercise improved the craniovertebral angle, the standard measure of head position (BMC Musculoskeletal Disorders, 2017)</p></div>
+<h2>What changes in midlife posture</h2>
+<p>Two things move in parallel from the fifth decade on, and they reinforce each other.</p>
+<p>The upper back rounds. Thoracic kyphosis, the forward curve of the upper spine, increases with age in most adults. Reviews of age-related hyperkyphosis put the prevalence of clinically excessive curvature at roughly 20 to 40 percent of older adults, rising faster in women, particularly through the menopausal years [1]. Early in the process the driver is not vertebral collapse but soft tissue: shortened chest muscles, lengthened and weakened mid-back muscles, and stiffening of the structures along the front of the spine. As the curve increases, it is associated with reduced physical function, poorer balance, reduced pulmonary function, more upper back pain, and in the most-cited cohort work, higher mortality risk [1]. Catching the soft tissue phase before it becomes structural is the practical window.</p>
+<p>The head drifts forward. As the upper back rounds, the head shifts ahead of the shoulders to keep the eyes level. Every centimeter of forward translation multiplies the load the cervical and upper trapezius muscles carry, which is why the desk worker who reaches midlife with a rounded upper back so often also carries chronic neck and shoulder tension. The two patterns are one chain, and they respond to the same soft tissue work across the upper back, posterior neck, and chest. For the pain side of that chain, see our guide on <a href="/learn/massage-and-neck-shoulder-pain">massage for neck and shoulder pain</a>.</p>
+<h2>What massage actually changes</h2>
+<p>The mechanism is the same one that operates across the aging research, aimed here at the postural chain.</p>
+<p>Sustained pressure on a muscle lowers motor neuron excitability and reduces resting tone, a mechanism summarized across the literature by Weerapong et al. 2005 [2]. The upper trapezius, levator scapulae, and cervical extensors that hold a forward head are chronically active in midlife desk workers. Lowering their resting tension reduces the constant pull that maintains the posture.</p>
+<p>That softening is measurable. A five-week randomized trial measuring erector spinae and upper trapezius stiffness with shear-wave elastography, an objective imaging method, documented a significant reduction in passive muscle stiffness after a course of therapeutic massage [3]. This matters for posture because stiffer paraspinal tissue resists the return toward a neutral upright position. Softening it widens the range in which the corrective muscles can work.</p>
+<p>The effect on its own does not change posture, and the honest reason is that it is short-lived. Pressure acutely increases a muscle's extensibility, but that returns toward baseline within minutes once the input stops [4]. Used as a warm-up, it opens a window in which the thoracic extension exercises, chin tucks, and chest stretches that genuinely retrain posture are easier and more comfortable to perform. The evidence on posture correction is built on active work: in forward head posture trials, upper thoracic mobilization paired with mobility exercise and cervical approaches both improved the craniovertebral angle [5]. Massage is the adjunct that makes that active work more tolerable, not the intervention that replaces it.</p>
+<table>
+<thead>
+<tr>
+<th>Outcome</th>
+<th>What the research shows</th>
+<th>Evidence strength</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resting tension in postural muscles</td>
+<td>Lower motor neuron excitability and resting tone under sustained pressure</td>
+<td>Moderate (mechanistic)</td>
+</tr>
+<tr>
+<td>Passive paraspinal stiffness</td>
+<td>Significant reduction in erector spinae and upper trapezius stiffness on objective elastography</td>
+<td>Strong (direct imaging)</td>
+</tr>
+<tr>
+<td>Tissue extensibility for a warm-up</td>
+<td>Acute increase in extensibility, returning toward baseline within minutes</td>
+<td>Strong (direct imaging), but short-lived</td>
+</tr>
+<tr>
+<td>Posture correction (craniovertebral angle)</td>
+<td>Improved by active mobilization and exercise, not by passive soft tissue work alone</td>
+<td>Moderate (the correction comes from exercise)</td>
+</tr>
+<tr>
+<td>Structural kyphosis</td>
+<td>Not reversed once vertebral change has occurred</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+<h2>How a massage chair delivers this</h2>
+<p>The chair-relevant features map onto the postural chain in a specific pattern, and the limits matter as much as the capabilities.</p>
+<p><strong>What a chair replicates fully.</strong> The reduction of resting tension in the postural muscles, the short-term increase in upper back and chest tissue extensibility, the daily counter-position to a day spent seated, and the comfort that makes corrective exercise easier to begin. This is one of the few aging applications where upper back coverage matters more than lower-extremity coverage, so an S-track or SL-track chair whose rollers reach the upper thoracic region and shoulders is the relevant hardware. For how track shape determines coverage, see our guide on <a href="/learn/track-types">track types</a>. Zero gravity recline adds a useful daily load break, unloading the seated compression the upper back carries all day and letting the chest open against gravity rather than collapsing forward.</p>
+<p><strong>What a chair partially replicates.</strong> The warm-up window for posture-correcting exercise. The chair can soften the tissue, but the corrective work itself, the active thoracic extension and scapular strengthening that actually changes the curve, is exercise the chair does not perform.</p>
+<p><strong>What a chair cannot replicate.</strong> Posture correction itself. A chair does not strengthen the weak mid-back muscles, does not retrain the motor pattern that holds the head forward, and does not reverse structural kyphosis once vertebral change has set in. The honest position is that the chair manages the tension and stiffness layer and supports the exercise that does the correcting.</p>
+<p><strong>Pressure.</strong> Keep it moderate. The parasympathetic and extensibility mechanisms work at moderate pressure, and the upper back over a developing kyphosis can be tender. The bony prominences of the spine and shoulder blades do not want focal roller pressure, so favor broad contact over pinpoint work on the spine and treat lasting soreness across the upper back as a signal to reduce intensity. For the mechanical basis of how pressure becomes a physiological signal, see our explainer on <a href="/learn/physiology-of-massage">the physiology of massage</a>.</p>
+<h2>Who this matters for</h2>
+<p>The case is clearest for midlife desk workers watching the upper back round over years at a keyboard, and for anyone whose physical therapist has prescribed thoracic and chest-opening exercises that feel too tight to start. The chair removes the tension that stops the corrective work from happening. For the broader picture of how massage fits the aging body, see <a href="/learn/massage-and-aging">massage and aging</a>, and for chairs chosen with posture in mind, the buyer guide on <a href="/learn/massage-chairs-for-posture">massage chairs for posture</a>.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Can massage fix my posture?</strong></summary>
+<p>Not on its own. Massage does not straighten a spine or retrain the motor pattern that holds the head forward. What it does is reduce the muscular tension and stiffness that pull the body into a rounded position, which makes the corrective exercise that genuinely changes posture easier to perform. Think of it as the thing that unlocks the work, not the work itself.</p>
+</details>
+<details>
+<summary><strong>Does a massage chair help rounded shoulders and a forward head?</strong></summary>
+<p>It helps the tension half of the pattern. Reducing resting tension in the upper trapezius, posterior neck, and chest eases the constant pull that maintains rounded shoulders and a forward head. The lasting correction still comes from active thoracic extension and scapular strengthening, which the chair supports but does not replace.</p>
+</details>
+<details>
+<summary><strong>Why does my posture snap back after a session?</strong></summary>
+<p>Because the loosening is short-lived. Massage acutely increases tissue extensibility, but that fades within minutes once the pressure stops [4]. The useful move is to follow a session with the corrective exercises while the tissue is still warm, which is where the durable change actually comes from.</p>
+</details>
+<details>
+<summary><strong>What chair features matter most for posture?</strong></summary>
+<p>Upper back and shoulder roller coverage first, because the rounding happens across the thoracic spine. An S-track or SL-track chair that reaches the upper thoracic region and shoulders, cervical roller programs and shoulder airbags for the forward head, and zero gravity recline for a daily load break are the relevant features. Lower-extremity coverage matters less here than in most aging applications.</p>
+</details>
+<details>
+<summary><strong>How hard should the massage be over the upper back?</strong></summary>
+<p>Moderate, not maximum. The upper back over a developing curve can be tender, and the spine and shoulder blades do not want focal pressure. Favor broad contact, start low, and ease off if a program leaves lasting soreness.</p>
+</details>
+<h2>Finding the right chair</h2>
+<p>Postural tension responds to frequency, which is where a home chair changes the math against a monthly appointment. The match between chair and buyer still matters more than any single spec: upper back coverage, track type, pressure tolerance, and body fit decide whether a chair gets used daily or pushed against the wall.</p>
+<p><strong><a href="/finder">Take the Chair Finder Quiz</a></strong> to get a shortlist matched to your goals, body, and room in under three minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Katzman WB, Wanek L, Shepherd JA, Sellmeyer DE. <em>Age-Related Hyperkyphosis: Its Causes, Consequences, and Management.</em> Journal of Orthopaedic and Sports Physical Therapy. 2010;40(6):352-360. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2907357/">Link</a></p>
+<p>[2] Weerapong P, Hume PA, Kolt GS. <em>The mechanisms of massage and effects on performance, muscle recovery and injury prevention.</em> Sports Medicine. 2005;35(3):235-256. <a href="https://pubmed.ncbi.nlm.nih.gov/15730338/">Link</a></p>
+<p>[3] <em>The effect of a 5-week therapeutic massage on erector spinae and upper trapezius muscle stiffness as determined by shear-wave elastography: a randomized controlled trial.</em> 2024. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11381258/">Link</a></p>
+<p>[4] Eriksson Crommert M, Lacourpaille L, Heales LJ, Tucker K, Hug F. <em>Massage induces an immediate, albeit short-term, reduction in muscle stiffness.</em> Scandinavian Journal of Medicine and Science in Sports. 2015;25(5):e490-e496. <a href="https://pubmed.ncbi.nlm.nih.gov/25487283/">Link</a></p>
+<p>[5] <em>Upper thoracic spine mobilization and mobility exercise versus upper cervical spine mobilization and stabilization exercise in individuals with forward head posture: a randomized clinical trial.</em> BMC Musculoskeletal Disorders. 2017;18:540. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5727966/">Link</a></p>`,
+  },
 
 ]
 
