@@ -109,6 +109,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-plantar-fasciitis",
       "massage-and-tension-headaches",
       "massage-and-inflammation",
+      "massage-and-joint-stiffness",
+      "massage-and-posture",
     ],
   },
 ]
