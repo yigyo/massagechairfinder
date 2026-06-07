@@ -111,6 +111,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-inflammation",
       "massage-and-joint-stiffness",
       "massage-and-posture",
+      "massage-and-swelling",
+      "massage-and-depression",
     ],
   },
 ]
