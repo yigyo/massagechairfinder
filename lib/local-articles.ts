@@ -6013,6 +6013,208 @@ The Ajimsha 2014 trial showed significant pain reduction at four weeks with thre
 <p>[4] Eriksson Crommert M, Lacourpaille L, Heales LJ, Tucker K, Hug F. <em>Massage induces an immediate, albeit short-term, reduction in muscle stiffness.</em> Scandinavian Journal of Medicine and Science in Sports. 2015;25(5):e490-e496. <a href="https://pubmed.ncbi.nlm.nih.gov/25487283/">Link</a></p>
 <p>[5] <em>Upper thoracic spine mobilization and mobility exercise versus upper cervical spine mobilization and stabilization exercise in individuals with forward head posture: a randomized clinical trial.</em> BMC Musculoskeletal Disorders. 2017;18:540. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5727966/">Link</a></p>`,
   },
+  {
+    slug: "massage-and-depression",
+    title: "Does Massage Help Depression? What the Research Shows",
+    excerpt: "What the research shows about massage for depression. A real, measurable effect on symptoms, an honest adjunct framing, and what a massage chair can and cannot do alongside professional care.",
+    order: 71,
+    publishedAt: "2026-06-07",
+    body: `<p><strong>Massage has stronger evidence for depressive symptoms than most people expect, but the honest framing is adjunctive. A meta-analysis of 17 randomized trials found a medium-to-large effect on depression, and every one of the 17 trials pointed the same direction. The catch is that those studies used massage as an add-on to standard care, not as a replacement for it.</strong> The defensible position, and the one we hold, is that a massage chair works on the physical layer of depression, the poor sleep, the chronic pain, the body that will not settle, which makes it a meaningful complement to professional treatment, not a substitute.</p>
+<p>If you are having thoughts of self-harm or are in crisis, a massage chair is not the right tool. In the US you can reach the 988 Suicide and Crisis Lifeline by calling or texting 988. Please start there.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>d = 0.76:</strong> Pooled effect size for massage on depression across 17 randomized trials, a medium-to-large effect comparable to ranges reported for psychotherapy in open trials; all 17 trials showed a positive direction (Hou et al., 2010)<br>
+<strong>Largest effects:</strong> Across 37 studies, reductions in depression and anxiety were massage therapy's two largest documented effects, larger than its effects on pain, blood pressure, or cortisol (Moyer et al., 2004)<br>
+<strong>137 studies, 12,966 participants:</strong> An umbrella analysis found people with an existing mental health condition benefited more from touch than healthy adults, and that human touch outperformed mechanical touch for mental health outcomes (Packheiser et al., 2024)<br>
+<strong>28% and 31%:</strong> Average serotonin and dopamine increases measured after massage therapy (Field et al., 2005)</p></div>
+<h2>What depression actually involves</h2>
+<p>Major depressive disorder is more than low mood. It is a syndrome that includes persistent sadness or loss of interest alongside physical symptoms: disrupted sleep, fatigue, appetite change, slowed movement, trouble concentrating, and a bodily heaviness many people describe as the inability to feel at ease in their own body. Those somatic features are not background noise. For a large share of people with depression, the physical symptoms are among the most distressing and the most disabling.</p>
+<p>That is where massage fits. Depression is treated first-line with psychotherapy, medication, or both, and those treatments work mainly on mood, cognition, and neurochemistry. They do not always resolve the physical layer quickly, and unaddressed insomnia and chronic pain can blunt recovery and raise relapse risk. The physical layer is exactly what a massage chair is built to influence.</p>
+<h2>What the evidence shows</h2>
+<p>The anchor study is Hou and colleagues 2010, a meta-analysis of 17 randomized controlled trials of massage therapy in depressed people [1]. The pooled effect was d = 0.76, a medium-to-large size, and every one of the 17 trials reported a positive direction. The authors classified it as comparable to the range often reported for psychotherapy in open trials. Their own stated limitation is the one worth repeating: trial quality was moderate, and most studies used massage as an add-on or enrolled people with depressive symptoms rather than confirmed major depressive disorder.</p>
+<p>The broader picture agrees. Moyer and colleagues 2004, pooling 37 studies, found that reductions in depression and anxiety were massage therapy's two largest effects, larger than its effects on pain or cortisol [2]. Packheiser and colleagues 2024, in an umbrella analysis of 137 studies and 12,966 participants, confirmed medium-sized mental-health benefits from touch and found that people with an existing mental-health condition benefited more than healthy adults [3]. That same analysis found human touch outperformed mechanical touch, which is the honest boundary line for any chair-based claim.</p>
+<table>
+<thead>
+<tr>
+<th>Evidence</th>
+<th>What it found</th>
+<th>What it means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hou 2010 meta-analysis (17 RCTs)</td>
+<td>Pooled effect on depression d = 0.76; all 17 trials positive</td>
+<td>A real, meaningful reduction in depressive symptoms, mostly as an add-on</td>
+</tr>
+<tr>
+<td>Moyer 2004 meta-analysis (37 studies)</td>
+<td>Depression and anxiety were the two largest effects</td>
+<td>Mood is where massage shows up most, not pain</td>
+</tr>
+<tr>
+<td>Packheiser 2024 umbrella (137 studies)</td>
+<td>Those with a mental-health condition benefited more; human touch beat mechanical touch</td>
+<td>Supports adjunct use; sets the limit on device claims</td>
+</tr>
+<tr>
+<td>Field 2005 (biochemical markers)</td>
+<td>Serotonin up about 28%, dopamine up about 31%</td>
+<td>A plausible biochemical substrate for the mood effect</td>
+</tr>
+</tbody>
+</table>
+<p>The summary position: massage produces a real, measurable reduction in depressive symptoms, the effect size is meaningful, and the evidence supports it as an adjunct that works largely through physical and autonomic pathways.</p>
+<h2>How massage works on depression, specifically</h2>
+<p>Three mechanisms carry most of the effect, and all three are physical rather than directly antidepressant.</p>
+<p><strong>Sleep restoration.</strong> Insomnia is one of the most common and most stubborn symptoms of depression, and it both worsens mood and predicts relapse. Massage improves sleep through parasympathetic activation and reduced evening arousal. Easing insomnia removes one of depression's most self-reinforcing physical drivers. For more on this mechanism, see our guide on <a href="/learn/massage-and-sleep">massage and sleep</a>.</p>
+<p><strong>Pain and tension reduction.</strong> Chronic pain and depression are heavily comorbid and amplify each other. By reducing muscular tension and pain, massage interrupts a loop where physical discomfort feeds low mood and low mood heightens pain perception.</p>
+<p><strong>Autonomic and biochemical shift.</strong> Moderate-pressure massage raises peripheral serotonin and dopamine and shifts the nervous system toward parasympathetic activation. Field and colleagues 2005 reported serotonin increases near 28% and dopamine near 31% [4]. Peripheral serotonin does not act like an SSRI, but the autonomic shift moves the body out of the chronic stress state that sustains depressive physiology. The same calming pathway underlies the effect on <a href="/learn/massage-and-stress">massage and stress</a> and overlaps heavily with <a href="/learn/massage-and-anxiety">massage and anxiety</a>, which so often travels with depression.</p>
+<p>The cumulative point: a chair does not treat the cognitive or neurochemical core of clinical depression, but it directly addresses three of the most disabling physical contributors, and improving those can make first-line treatment more effective.</p>
+<h2>How a massage chair contributes, and the boundary to respect</h2>
+<p>A chair is well-matched to the physical targets above. A 20 to 25 minute evening session at moderate pressure lowers arousal before bed and addresses the insomnia that so often accompanies depression. For someone with comorbid chronic pain, it reduces the pain loop that feeds low mood, addressing two contributors at once. And because depression erodes routine and motivation, a predictable, low-effort daily ritual that reliably produces a calmer body can serve as a small, achievable form of behavioral activation, one of the better-supported behavioral strategies in depression care. Frequency is the variable the evidence rewards, and a chair in the home supports daily use in a way weekly therapist visits cannot.</p>
+<p>Here is what a chair cannot do, stated plainly. It does not treat clinical depression. It does not deliver psychotherapy, it does not provide the relational dimension of human touch, and it does not address the cognitive and neurochemical core that medication and therapy target [3]. For anyone with diagnosed depression, especially moderate to severe depression, the chair belongs alongside professional treatment, not in place of it. This is not legal caution, it is what the evidence supports: the trials that produced the strong effect used massage as an add-on. Overclaiming here would be both inaccurate and potentially harmful, because a person in a depressive episode may be vulnerable to the suggestion that a device can substitute for care it cannot provide.</p>
+<h2>Who this fits best</h2>
+<p>The strongest fit is the person managing depressive symptoms alongside chronic pain, poor sleep, or reduced mobility, who is already in treatment and wants a daily physical complement. Older adults facing isolation and reduced activity are also well-served, since the touch-benefit data suggest this group benefits more, not less [3]. In every case the message is the same: a real, evidence-backed support for the body that carries depression, used alongside the care that treats the condition itself. For the broader research picture, see our overview of <a href="/learn/massage-and-mental-health">massage and mental health</a>.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Is a massage chair a treatment for depression?</strong></summary>
+<p>No. It is an adjunct. The strong meta-analytic effect came from studies that used massage as an add-on to standard care [1]. A chair addresses physical contributors like poor sleep and chronic pain, which supports professional treatment but does not replace it.</p>
+</details>
+<details>
+<summary><strong>The effect size sounds as strong as therapy. Why is it still just an adjunct?</strong></summary>
+<p>Because the trials behind that number did not test massage against gold-standard treatments for diagnosed major depression, and most enrolled people with depressive symptoms rather than confirmed MDD [1]. The effect is real and meaningful, but the evidence does not support using a chair as a primary treatment.</p>
+</details>
+<details>
+<summary><strong>Which symptom does it help most?</strong></summary>
+<p>Usually sleep. Insomnia is one of depression's most disabling and self-reinforcing symptoms, and the chair's calming, parasympathetic effect is well-matched to evening sleep onset. Comorbid pain relief is a close second.</p>
+</details>
+<details>
+<summary><strong>How long before I notice anything?</strong></summary>
+<p>Day-to-day mood and sleep often shift within the first week or two. The depressive-symptom improvements in the trials built over several weeks, so a 4 to 6 week window of consistent use is a reasonable point to evaluate.</p>
+</details>
+<details>
+<summary><strong>I am in a really dark place right now. Is this enough?</strong></summary>
+<p>No, and please do not wait on a device. If you are struggling or having thoughts of self-harm, reach a mental health professional, or in the US call or text the 988 Suicide and Crisis Lifeline. A chair can support your recovery, but the care that treats depression comes from people, not hardware.</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>If you are managing the physical weight of depression alongside professional care, the research points to a daily, calming, moderate-pressure routine that supports sleep and eases pain. Those are the things a massage chair does well. The features that matter most are comfortable full-body coverage, gentle-to-moderate pressure control, and a recline that helps you wind down in the evening.</p>
+<p><strong><a href="/finder">Take the Chair Finder Quiz</a></strong> to get a shortlist matched to your needs, body, and room in under three minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Hou WH, Chiang PT, Hsu TY, Chiu SY, Yen YC. <em>Treatment effects of massage therapy in depressed people: A meta-analysis.</em> Journal of Clinical Psychiatry. 2010;71(7):894-901. <a href="https://www.psychiatrist.com/jcp/treatment-effects-massage-therapy-depressed-meta-analysis/">Link</a></p>
+<p>[2] Moyer CA, Rounds J, Hannum JW. <em>A meta-analysis of massage therapy research.</em> Psychological Bulletin. 2004;130(1):3-18. <a href="https://pubmed.ncbi.nlm.nih.gov/14717648/">Link</a></p>
+<p>[3] Packheiser J, Hartmann H, Fredriksen K, Gazzola V, Keysers C, Michon F. <em>A systematic review and multivariate meta-analysis of the physical and mental health benefits of touch interventions.</em> Nature Human Behaviour. 2024;8:1088-1107. <a href="https://www.nature.com/articles/s41562-024-01841-8">Link</a></p>
+<p>[4] Field T, Hernandez-Reif M, Diego M, Schanberg S, Kuhn C. <em>Cortisol Decreases and Serotonin and Dopamine Increase Following Massage Therapy.</em> International Journal of Neuroscience. 2005;115(10):1397-1413. <a href="https://pubmed.ncbi.nlm.nih.gov/16162447/">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-swelling",
+    title: "Does Massage Help Swollen Legs and Ankles? What the Research Shows",
+    excerpt: "What the research shows about massage for swollen legs and ankles. Strong support for everyday dependent edema, an honest boundary on lymphedema and systemic causes, and the red flags that come first.",
+    order: 72,
+    publishedAt: "2026-06-07",
+    body: `<p><strong>For the everyday swelling that builds in your legs and ankles after a long day of sitting or standing, the answer is yes. Compression and leg elevation, the two mechanisms a massage chair delivers, are the first-line conservative measures clinicians already recommend for this kind of fluid buildup.</strong> The important catch is that not all leg swelling is the same. The same puffy ankle can mean a long workday or a failing heart, and getting that distinction right comes before any massage.</p>
+<p>This guide covers what the research supports, where the honest boundary sits, and the red flags that mean you should see a doctor before you compress or elevate anything.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>30 cm:</strong> Elevating the legs roughly 30 cm above heart level significantly increased skin microcirculatory blood-flow velocity in patients with chronic venous insufficiency (Abu-Own et al., 1994)<br>
+<strong>First-line:</strong> The Cleveland Clinic lists leg elevation and graduated compression as the first-line conservative measures for chronic venous insufficiency, and recommends elevating the legs above heart level for 30 minutes or longer several times a day<br>
+<strong>165 patients:</strong> Distal-to-proximal calf compression measurably reduced clot incidence in immobile lower limbs after knee replacement surgery, confirming external compression changes venous flow in legs that cannot pump for themselves<br>
+<strong>The boundary:</strong> Massage raises venous and superficial blood flow, not deep arterial flow, and it does not reproduce lymphatic drainage (Hinds et al., 2004; Scallan et al., 2016)</p></div>
+<h2>Why legs swell in the first place</h2>
+<p>Blood returns from your legs against gravity, and the calf muscles do most of the lifting. Every time they contract during walking, they squeeze the deep veins and push blood upward through one-way valves. When the calves sit idle, on a long flight, through a full day at a desk, or in someone whose activity has dropped from pain or age, that pump goes offline. Pressure in the lower-leg veins rises, the balance that normally keeps fluid inside the capillaries tips, and fluid seeps into the surrounding tissue. The result is the heavy lower leg and the sock-line indentation at the end of the day. This everyday version is called dependent edema, and it is mechanically addressable.</p>
+<p>Chronic venous insufficiency is the same process made permanent. Damaged or leaky vein valves let blood reflux and pool, so the pressure and the swelling become a daily fixture rather than an end-of-day event. For this condition, the Cleveland Clinic recommends leg elevation and graduated compression as first-line conservative care [2].</p>
+<h2>What the evidence supports, by type of swelling</h2>
+<p>The research is strong for the mechanical, venous kind of swelling and silent or cautionary on the rest. The table below is the honest read.</p>
+<table>
+<thead>
+<tr>
+<th>Type of leg swelling</th>
+<th>What the evidence supports</th>
+<th>Chair role</th>
+<th>Caution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dependent venous edema (end-of-day, from sitting or standing)</td>
+<td>Elevation and external compression both lower venous pressure and help fluid reabsorb</td>
+<td>Strong fit</td>
+<td>Start gentle on stretched skin</td>
+</tr>
+<tr>
+<td>Chronic venous insufficiency (CVI)</td>
+<td>Elevation and graduated compression are first-line conservative care [2]</td>
+<td>Supports, does not replace all-day compression</td>
+<td>Use alongside any prescribed stockings</td>
+</tr>
+<tr>
+<td>Lymphedema</td>
+<td>Lymphatic vessels are the bottleneck; a chair does not perform lymphatic drainage</td>
+<td>Not the right tool</td>
+<td>Needs clinician-guided care</td>
+</tr>
+<tr>
+<td>Systemic edema (heart, kidney, liver disease)</td>
+<td>Swelling is a symptom of fluid overload or low blood protein</td>
+<td>Cannot treat the cause</td>
+<td>Medical evaluation first</td>
+</tr>
+<tr>
+<td>Sudden one-sided swelling with calf pain, warmth, or redness</td>
+<td>Possible deep vein thrombosis</td>
+<td>Contraindicated until a clot is ruled out</td>
+<td>Urgent medical assessment</td>
+</tr>
+</tbody>
+</table>
+<h2>How massage and elevation actually move the fluid</h2>
+<p>Two mechanisms carry the benefit, and both are mechanical rather than mysterious.</p>
+<p><strong>Elevation lowers the pressure.</strong> Abu-Own and colleagues measured skin microcirculation in patients with chronic venous insufficiency and found that raising the legs about 30 cm above heart level significantly increased microcirculatory blood-flow velocity in the affected skin [1]. This is the physiology behind the oldest advice in the book. Lifting the leg above the heart drops the hydrostatic column the blood has to fight, and flow improves.</p>
+<p><strong>Compression substitutes for the idle calf pump.</strong> External pressure on the calf raises tissue pressure, narrows the distended veins, speeds venous flow, and lowers the venous hypertension that drives the swelling. A randomized trial of self-calf massage in 165 patients after knee replacement found that distal-to-proximal compression in immobile legs measurably reduced clot incidence, which confirms that external compression meaningfully changes venous flow in legs that cannot pump for themselves [3].</p>
+<p>The honest mechanism note belongs here too. Massage raises superficial and venous flow, not deep arterial flow, and it does not reproduce lymphatic drainage [4][5]. For dependent venous edema, that is exactly the right mechanism. For lymphedema, where the lymph vessels themselves are the problem, it is not.</p>
+<h2>How a massage chair delivers this</h2>
+<p>A chair is unusually well-matched to dependent venous edema because the two things it does best are the two things the research points to.</p>
+<h3>What it can fully replicate</h3>
+<p>Calf and full-leg <a href="/learn/airbag-massage">airbag compression</a> cycles inflation from thigh through calf and foot, substituting for the absent calf muscle pump. This is the same principle as graduated compression and clinical pneumatic compression, applied in timed cycles. Paired with a <a href="/learn/zero-gravity">zero-gravity recline</a> that raises the legs above the heart, you get the exact configuration the venous-insufficiency studies describe: lower hydrostatic pressure plus active compression. Foot rollers and foot airbags add engagement at the ankle and foot, where dependent fluid collects most.</p>
+<h3>What it can only partially replicate</h3>
+<p>A chair applies compression in timed cycles, not the continuous graduated pressure of a fitted stocking. For active decompression during a 20 to 25 minute session that is fine, and arguably better. But a chair does not replace all-day compression for someone with diagnosed CVI who has been told to wear stockings.</p>
+<h3>What it cannot replicate</h3>
+<p>A chair does not treat lymphedema, and it does not address the underlying disease in swelling caused by heart, kidney, or liver problems. In those conditions the swelling is a sign of fluid overload or low circulating protein, and pushing large volumes of lower-limb fluid back toward the central circulation can add load to a heart that is already struggling. That is a clinician's call, not a chair setting.</p>
+<h2>Pressure, timing, and the safety checks that come first</h2>
+<p>The category check is the whole game. Before you compress or elevate, rule out the two patterns that change everything. Sudden, one-sided leg swelling, especially with calf pain, warmth, or redness, can be a deep vein thrombosis, and massage or compression is off the table until a clot is ruled out. New or worsening swelling in both legs, particularly with shortness of breath or weight gain, warrants medical evaluation before any leg compression, because it can reflect heart, kidney, or liver disease.</p>
+<p>For ordinary dependent edema that a doctor has confirmed is mechanical, start the calf airbags at low-to-moderate intensity. Edematous skin is stretched and bruises more easily, so more pressure is not better here. Keep heat moderate if you have reduced sensation in your feet or take blood thinners. A typical useful session is a zero-gravity recline with the leg airbags cycling at a moderate setting for 20 to 25 minutes in the evening.</p>
+<p>The leg-swelling mechanism is one part of the broader circulatory picture. For the full story on how massage affects blood flow, see our guide on <a href="/learn/massage-and-circulation">massage and circulation</a>. Because dependent edema is so common with age and reduced mobility, older buyers are a core fit: see <a href="/learn/massage-chairs-for-seniors">massage chairs for seniors</a> and our ranked <a href="/best/seniors">best massage chairs for seniors</a> for models built around easy entry, leg coverage, and gentle pressure.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Does a massage chair get rid of leg swelling for good?</strong></summary>
+<p>No, and nothing does if the cause keeps returning. If you stand or sit all day, the swelling builds again the next day because the trigger returns. What an evening session does is clear the day's fluid so it does not compound. Think maintenance, not cure.</p>
+</details>
+<details>
+<summary><strong>Is the swelling in my ankles dangerous?</strong></summary>
+<p>Usually not, when it is mild, comes on by evening, eases overnight, and affects both legs evenly. It is worth a doctor's visit when it is sudden, one-sided, painful, warm, or comes with shortness of breath or weight gain. Those patterns can signal a clot or an organ problem, and they come before any massage.</p>
+</details>
+<details>
+<summary><strong>Can a massage chair do lymphatic drainage?</strong></summary>
+<p>Not in the clinical sense. Lymphedema is a problem of the lymphatic vessels themselves, and manual lymphatic drainage is a specific gentle technique a chair does not reproduce. A chair supports venous return, which helps ordinary fluid retention, not true lymphedema.</p>
+</details>
+<details>
+<summary><strong>How long before I see a difference?</strong></summary>
+<p>Often within a single session for dependent edema. The ankle is frequently visibly smaller by the end of a 20 to 25 minute zero-gravity session with the calf airbags running. The benefit is the daily clearing, not a permanent change.</p>
+</details>
+<details>
+<summary><strong>Can I use it if I take blood thinners?</strong></summary>
+<p>Use lower pressure and moderate heat, and clear it with your doctor first. Blood thinners raise bruising risk, and the stretched skin over edema is already more fragile.</p>
+</details>
+<h2>Finding a chair that actually clears your legs</h2>
+<p>For everyday leg and ankle swelling, the research points squarely at two mechanical levers: elevation above the heart and cyclic calf compression. A massage chair delivers both in one evening routine, which is why it fits this problem better than almost any other circulatory complaint. The features that matter are zero-gravity recline depth, full-length leg and foot airbags, and gentle pressure control for stretched skin.</p>
+<p><strong><a href="/finder">Take the Chair Finder Quiz</a></strong> to get a shortlist matched to your swelling pattern, body, and room in under three minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Abu-Own A, Scurr JH, Coleridge Smith PD. <em>Effect of leg elevation on the skin microcirculation in chronic venous insufficiency.</em> Journal of Vascular Surgery. 1994;20(5):705-710. <a href="https://pubmed.ncbi.nlm.nih.gov/7966805/">Link</a></p>
+<p>[2] Cleveland Clinic. <em>Chronic Venous Insufficiency (CVI): Causes, Symptoms and Treatment.</em> <a href="https://my.clevelandclinic.org/health/diseases/16872-chronic-venous-insufficiency-cvi">Link</a></p>
+<p>[3] <em>Effect of self-calf massage on the prevention of deep vein thrombosis after total knee arthroplasty: A randomized clinical trial.</em> 2020. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7344361/">Link</a></p>
+<p>[4] Hinds T, McEwan I, Perkes J, Dawson E, Ball D, George K. <em>Effects of massage on limb and skin blood flow after quadriceps exercise.</em> Medicine and Science in Sports and Exercise. 2004;36(8):1308-1313. <a href="https://pubmed.ncbi.nlm.nih.gov/15292737/">Link</a></p>
+<p>[5] Scallan JP, Zawieja SD, Castorena-Gonzalez JA, Davis MJ. <em>Lymphatic pumping: mechanics, mechanisms and malfunction.</em> Journal of Physiology. 2016;594(20):5749-5768. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5063934/">Link</a></p>`,
+  },
 
 ]
 
