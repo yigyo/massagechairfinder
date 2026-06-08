@@ -1,5 +1,6 @@
 import { getLocalBrand, getBrandSlugs } from '@/lib/local-brands'
 import { CHAIRS } from '@/lib/chairs'
+import PriceBadge from '@/components/PriceBadge'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { autolink } from '@/lib/autolink'
@@ -123,10 +124,7 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
                       )}
                     </div>
                     <div className="text-right shrink-0">
-                      <span className="text-gold font-semibold">
-                        ${chair.priceMin.toLocaleString()}
-                        {chair.priceMax && chair.priceMax > chair.priceMin ? ` - $${chair.priceMax.toLocaleString()}` : ''}
-                      </span>
+                      <PriceBadge chair={chair} />
                     </div>
                   </div>
                 </Link>

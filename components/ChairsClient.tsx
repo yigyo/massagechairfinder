@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import { Chair } from '@/lib/chairs'
+import PriceBadge from './PriceBadge'
 import { chairScore } from '@/lib/scoring'
 
 interface Props {
@@ -48,11 +49,6 @@ function getTrackLabel(track: string | null | undefined): string {
   return map[track] || ''
 }
 
-function formatPriceLabel(chair: Chair): string {
-  return chair.priceMax && chair.priceMax > chair.priceMin
-    ? '$' + chair.priceMin.toLocaleString() + ' - $' + chair.priceMax.toLocaleString()
-    : '$' + chair.priceMin.toLocaleString()
-}
 
 function ChairRow({ chair, oos = false }: { chair: Chair; oos?: boolean }) {
   const trackLabel = getTrackLabel(chair.track)
@@ -103,9 +99,7 @@ function ChairRow({ chair, oos = false }: { chair: Chair; oos?: boolean }) {
             </>
           )}
         </div>
-        <span className="text-sm font-semibold text-charcoal shrink-0">
-          {formatPriceLabel(chair)}
-        </span>
+        <PriceBadge chair={chair} />
       </div>
     </Link>
   )

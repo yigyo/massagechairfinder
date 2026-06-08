@@ -1,4 +1,5 @@
-import { CHAIRS, Chair, formatPrice } from '@/lib/chairs'
+import { CHAIRS, Chair, formatPrice, priceBand } from '@/lib/chairs'
+import PriceBadge from '@/components/PriceBadge'
 import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -267,7 +268,7 @@ function AlternativesPanel({
               <p className="font-serif font-semibold text-navy text-sm leading-snug">
                 {alt.name}
               </p>
-              <p className="text-sm text-charcoal mt-0.5">{formatPrice(alt)}</p>
+              <div className="mt-0.5"><PriceBadge chair={alt} /></div>
             </div>
             {alt.affiliateUrl ? (
               <a
@@ -488,7 +489,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
                 )}
               </div>
 
-              <p className="text-2xl font-semibold text-charcoal mb-1">{formatPrice(c)}</p>
+              <div className="mb-1"><PriceBadge chair={c} /></div>
               {c.priceEstimated && <p className="text-sm text-warm-gray mb-3">Price is estimated, verify on retailer site</p>}
 
               {/* Key spec pills */}
@@ -539,7 +540,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
             )}
 
             {/* CTA: hidden for discontinued, live for active and OOS */}
-            {!isDiscontinued && c.affiliateUrl && (
+            {!isDiscontinued && (c.amazonUrl || c.affiliateUrl) && (
               <div className="mt-4 space-y-3">
                 <a
                   href={'/go/' + params.slug}
@@ -547,7 +548,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
                   rel="noopener noreferrer"
                   className="btn-primary block text-center py-3 px-6 rounded font-semibold"
                 >
-                  Shop This Chair
+                  {c.amazonUrl ? 'Check price on Amazon' : 'Shop This Chair'}
                 </a>
               </div>
             )}
@@ -630,7 +631,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
                   ['Track Type', c.track ? getTrackLabel(c) : 'Not confirmed'],
                   ['Roller', c.vibrationOnly ? 'Vibration (no roller)' : c.roller ? c.roller : 'Not confirmed'],
                   ['Track Length', c.trackLengthIn ? c.trackLengthIn + '"' : null],
-                  ['Price', formatPrice(c)],
+                  ['Price', priceBand(c).range],
                   ['Zero Gravity', c.zeroGravity ? (c.zeroGravityStages ? c.zeroGravityStages + '-stage' : 'Yes') : c.zeroGravity === false ? 'No' : 'Not confirmed'],
                   ['Heat Therapy', c.heat === true ? 'Yes' : c.heat === false ? 'No' : 'Not confirmed'],
                   ['Foot Rollers', c.foot === true ? 'Yes' : c.foot === false ? 'No' : 'Not confirmed'],

@@ -59,6 +59,8 @@ export interface Chair {
   affiliateCommission?: string          // e.g. "5%" or "10%, 30-day cookie"
   goodwinStatus:       GoodwinStatus    // 'supplier' = direct inventory (future)
   affiliateUrl?:       string           // primary buy URL for both sites
+  amazonUrl?:          string           // tagged Amazon affiliate link (secondary/earning buy option)
+  amazonAsin?:         string           // 10-char ASIN; enables canonical /dp/ links + future PA-API
 
   // ─ Goodwin quiz display ──────────────────────────────────────────────────
   // goodwinLookupKey: lowercase partial-match key used in CHAIR_URLS / CHAIR_IMAGES.
@@ -130,6 +132,30 @@ export function formatPrice(chair: Chair): string {
   return chair.priceEstimated ? `${base} est.` : base
 }
 
+// ─── PRICE BANDS (customer-facing display) ──────────────────────────────────────
+// We never show an exact price to customers (Amazon price rules + MAP + staleness).
+// priceMin stays exact in the data for filtering/sorting; priceBand() is the display.
+
+export type PriceBandKey = 'entry' | 'mid' | 'upper-mid' | 'premium' | 'ultra-premium'
+
+export interface PriceBand {
+  key:   PriceBandKey
+  label: string   // tier name, e.g. "Mid"
+  range: string   // full range, e.g. "$3,000-$4,999"
+  short: string   // compact label for cards
+  hex:   string   // brand-palette color
+}
+
+/** Buyer-facing price band derived from priceMin. Colors are brand palette. */
+export function priceBand(chair: Chair): PriceBand {
+  const p = chair.priceMin
+  if (p < 3000)  return { key: 'entry',         label: 'Entry',         range: 'Under $3,000',   short: 'Under $3,000',   hex: '#2E7D6F' }
+  if (p < 5000)  return { key: 'mid',           label: 'Mid',           range: '$3,000-$4,999',  short: '$3,000-$4,999',  hex: '#D1803E' }
+  if (p < 8000)  return { key: 'upper-mid',     label: 'Upper-mid',     range: '$5,000-$7,999',  short: '$5,000-$7,999',  hex: '#934713' }
+  if (p < 12000) return { key: 'premium',       label: 'Premium',       range: '$8,000-$11,999', short: '$8,000-$11,999', hex: '#1C2331' }
+  return                 { key: 'ultra-premium', label: 'Ultra-premium', range: '$12,000 and up', short: '$12,000+',       hex: '#3D3D3A' }
+}
+
 // ─── CATALOG ───────────────────────────────────────────────────────────────────
 
 export const CHAIRS: Chair[] = [
@@ -193,6 +219,8 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '5% (Rakuten)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.massagechairs.com/products/osaki-os-pro-admiral-3d',
+    amazonUrl: 'https://www.amazon.com/dp/B09HW3F2BB/?tag=massagechairf-20',
+    amazonAsin: 'B09HW3F2BB',
     imageUrl: '/images/chairs/osaki-os-pro-admiral-ii.jpg',
     goodwinLookupKey: 'osaki os-pro admiral ii',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-admiral-gray-massage-chair.webp?v=1776836197',
@@ -223,6 +251,8 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '5% (Rakuten)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://osakimassagechair.com/products/osaki-os-pro-maestro-le',
+    amazonUrl: 'https://www.amazon.com/dp/B08B1SBH8R/?tag=massagechairf-20',
+    amazonAsin: 'B08B1SBH8R',
     imageUrl: '/images/chairs/osaki-os-pro-maestro-le-2-0.jpg',
     goodwinLookupKey: 'osaki os-pro maestro',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-maestro-massage-chair.webp?v=1776836390',
@@ -428,6 +458,8 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '$200 per sale (home grown)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://massagechairstore.com/infinity-circadian-4d-dualflex-massage-chair/',
+    amazonUrl: 'https://www.amazon.com/dp/B0FX5QX7Y4/?tag=massagechairf-20',
+    amazonAsin: 'B0FX5QX7Y4',
     imageUrl: '/images/chairs/infinity-circadian-4d-dualflex.png',
     goodwinLookupKey: 'infinity circadian',
     track: 'Flex', roller: '4D', trackLengthIn: 49,
@@ -473,6 +505,7 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '3-8% (Awin)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://www.humantouch.com/products/super-novo-3-0-massage-chair',
+    amazonAsin: 'B003O9HBT2',  // listing unavailable or version mismatch 2026-06-07; do not set amazonUrl until audit verifies
     imageUrl: '/images/chairs/human-touch-super-novo-3-0.jpg',
     imageWhiteBg: false,
     goodwinLookupKey: 'human touch super novo',
@@ -787,6 +820,7 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '5-10% (Impact)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
+    amazonAsin: 'B08T4BXGP3',  // listing unavailable or version mismatch 2026-06-07; do not set amazonUrl until audit verifies
     imageUrl: '/images/chairs/kyota-genki-m380.jpg',
     goodwinLookupKey: 'kyota genki',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Kyota-Genki-M380-massage-chair.jpg?v=1776836198',
@@ -919,7 +953,9 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://www.amazon.com/Bodyfriend-Recliner-Patented-Technology-Acupressure/dp/B0D97TGBYS',
+    affiliateUrl: 'https://www.amazon.com/dp/B0D97TGBYS/?tag=massagechairf-20',  // tagged 2026-06-07; brand search showed no Bodyfriend listings, audit should verify liveness
+    amazonUrl: 'https://www.amazon.com/dp/B0D97TGBYS/?tag=massagechairf-20',
+    amazonAsin: 'B0D97TGBYS',
     goodwinLookupKey: 'bodyfriend falcon',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-falcon-massage-chair.jpg?v=1776904610',
     track: 'SL', roller: '4D',
@@ -1600,6 +1636,8 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.wishrockrelaxation.com/products/kahuna-dios-6800-6d-massage-chair',
+    amazonUrl: 'https://www.amazon.com/dp/B0F4G3FGY2/?tag=massagechairf-20',
+    amazonAsin: 'B0F4G3FGY2',
     imageUrl: '/images/chairs/kahuna-dios-6800-6d.jpg',
     track: 'SL', roller: '6D', trackLengthIn: 50,
     zeroGravity: true, heat: true, foot: true,
@@ -1685,6 +1723,8 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.wishrockrelaxation.com/products/kahuna-dios-7300-7d-massage-chair',
+    amazonUrl: 'https://www.amazon.com/dp/B0F4FP5JHW/?tag=massagechairf-20',
+    amazonAsin: 'B0F4FP5JHW',
     imageUrl: '/images/chairs/kahuna-dios-7300-7d.jpg',
     track: 'SL', roller: '7D',
     zeroGravity: true, heat: true, foot: true, calf: true, aiScanning: true,
@@ -2040,6 +2080,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://www.relaxonchair.com/products/jasper-full-body-massage-chair',
+    amazonUrl: 'https://www.amazon.com/dp/B0D325QC32/?tag=massagechairf-20',
+    amazonAsin: 'B0D325QC32',
     imageUrl: '/images/chairs/relax-on-chair-jasper.jpg',
     track: 'SL', roller: null,
     zeroGravity: true, heat: true, foot: true,
@@ -2107,6 +2149,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black',
+    amazonAsin: 'B07FYRRZGR',  // listing unavailable or version mismatch 2026-06-07; do not set amazonUrl until audit verifies
     imageUrl: '/images/chairs/relax-on-chair-mk-v-plus.jpg',
     track: 'L', roller: null,
     spaceSaving: true, wallClearanceIn: 3.5,
@@ -2171,6 +2214,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://www.relaxonchair.com/products/yukon-4d-full-body-massage-chair',
+    amazonUrl: 'https://www.amazon.com/dp/B08X8Y3PX7/?tag=massagechairf-20',
+    amazonAsin: 'B08X8Y3PX7',
     imageUrl: '/images/chairs/relax-on-chair-yukon-4d.jpg',
     track: 'SL', roller: '4D',
     zeroGravity: true, heat: true,
@@ -2267,6 +2312,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateUrl: 'https://www.massagechairwarehouse.com/products/medical-breakthrough-6',
+    amazonUrl: 'https://www.amazon.com/dp/B07FPY2GL8/?tag=massagechairf-20',
+    amazonAsin: 'B07FPY2GL8',
     imageUrl: '/images/chairs/medical-breakthrough-6.jpg',
     track: 'L', roller: '4D',
     weightCapacityLbs: 300,
@@ -2535,6 +2582,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateUrl: 'https://www.massagechairwarehouse.com/products/svago-lite-2-zero-gravity-recliner',
+    amazonUrl: 'https://www.amazon.com/dp/B0CN1S3XV1/?tag=massagechairf-20',
+    amazonAsin: 'B0CN1S3XV1',
     imageUrl: '/images/chairs/svago-lite-2.jpg',
     track: null, roller: null,
     zeroGravity: true, heat: true,
@@ -2554,6 +2603,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateUrl: 'https://www.massagechairwarehouse.com/products/svago-zgr-zero-gravity-recliner',
+    amazonUrl: 'https://www.amazon.com/dp/B07CS1MTW3/?tag=massagechairf-20',
+    amazonAsin: 'B07CS1MTW3',
     imageUrl: '/images/chairs/svago-zgr.jpg',
     track: null, roller: null,
     zeroGravity: true, heat: true,
@@ -2573,6 +2624,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateUrl: 'https://www.massagechairwarehouse.com/products/svago-newton-zero-gravity-recliner',
+    amazonUrl: 'https://www.amazon.com/dp/B08PDB3G7H/?tag=massagechairf-20',
+    amazonAsin: 'B08PDB3G7H',
     imageUrl: '/images/chairs/svago-newton.jpg',
     track: null, roller: null,
     zeroGravity: true, heat: true,
@@ -2649,6 +2702,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
     affiliateUrl: 'https://www.nouhaus.com/products/new-classic-massage-chair',
+    amazonUrl: 'https://www.amazon.com/dp/B089RSGH4T/?tag=massagechairf-20',
+    amazonAsin: 'B089RSGH4T',
     imageUrl: '/images/chairs/nouhaus-new-classic.jpg',
     track: 'SL', roller: null,
     weightCapacityLbs: 250,
@@ -2669,6 +2724,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
     affiliateUrl: 'https://www.nouhaus.com/products/nouhaus-aurora-zero-gravity-premium-full-body-electric-massage-chair',
+    amazonUrl: 'https://www.amazon.com/dp/B0GR3YVY13/?tag=massagechairf-20',
+    amazonAsin: 'B0GR3YVY13',
     imageUrl: '/images/chairs/nouhaus-aurora.jpg',
     track: 'SL', roller: null,
     zeroGravity: true, heat: true,
@@ -2688,6 +2745,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
     affiliateUrl: 'https://www.nouhaus.com/products/nouhaus-noucampo-massage-chair',
+    amazonUrl: 'https://www.amazon.com/dp/B0DCYQN2JY/?tag=massagechairf-20',
+    amazonAsin: 'B0DCYQN2JY',
     imageUrl: '/images/chairs/nouhaus-nou-campo.jpg',
     track: 'SL', roller: null,
     heightMaxIn: 75, weightCapacityLbs: 250,
@@ -2708,6 +2767,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
     affiliateUrl: 'https://www.nouhaus.com/products/nouhaus-luna-zero-gravity-massage-chair',
+    amazonUrl: 'https://www.amazon.com/dp/B0D763LCYX/?tag=massagechairf-20',
+    amazonAsin: 'B0D763LCYX',
     imageUrl: '/images/chairs/nouhaus-luna.jpg',
     track: 'SL', roller: '3D',
     zeroGravity: true, heat: true,
@@ -2737,6 +2798,159 @@ export const CHAIRS: Chair[] = [
     aiNotes: 'Premium 3D zero gravity chair at $3,999. Track type not confirmed. Body recognition technology. Top-grain natural leather. Zero gravity 120-145 degrees. Red Dot Award design. Highest-tier Nouhaus model.',
     goodwinLookupKey: 'nouhaus orbit',
     },
+
+  // ── Amazon budget brands (added 2026-06-07; Amazon-only distribution, specs from listings) ──
+
+  {
+    id: 'relx-20-mode',
+    name: 'RELX Full Body 20-Mode',
+    brand: 'RELX',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1999,  // amazon.com observed 2026-06-07
+    affiliateTier: null,
+    affiliateRetailer: 'amazon.com',
+    affiliateCommission: 'Amazon Associates',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://www.amazon.com/dp/B0FJGWZS5L/?tag=massagechairf-20',
+    amazonUrl: 'https://www.amazon.com/dp/B0FJGWZS5L/?tag=massagechairf-20',
+    amazonAsin: 'B0FJGWZS5L',
+    track: 'SL', roller: null,
+    zeroGravity: true, heat: true,
+    reviewRating: 4.5, reviewCount: 457, reviewSource: 'amazon.com',
+    aiNotes: 'Budget import brand, Amazon-only distribution. Specs from Amazon listing June 2026. Sold by third-party seller (Newmark Sports). No dealer network. Roller dimension unconfirmed.',
+  },
+
+  {
+    id: 'culanta-sl-track',
+    name: 'Culanta SL-Track Shiatsu',
+    brand: 'Culanta',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1099,  // amazon.com observed 2026-06-07
+    affiliateTier: null,
+    affiliateRetailer: 'amazon.com',
+    affiliateCommission: 'Amazon Associates',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://www.amazon.com/dp/B0D9HCBZMY/?tag=massagechairf-20',
+    amazonUrl: 'https://www.amazon.com/dp/B0D9HCBZMY/?tag=massagechairf-20',
+    amazonAsin: 'B0D9HCBZMY',
+    track: 'SL', roller: null,
+    zeroGravity: true,
+    reviewRating: 4.4, reviewCount: 371, reviewSource: 'amazon.com',
+    aiNotes: 'Budget import brand, Amazon-only distribution, brand-direct seller. Specs from Amazon listing June 2026. Strongest sub-1500 Amazon candidate by review volume. Roller dimension and heat unconfirmed.',
+  },
+
+  {
+    id: 'tlife-160-zg',
+    name: 'TLIFE 160 Zero Gravity',
+    brand: 'TLIFE',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1349,  // amazon.com observed 2026-06-07
+    affiliateTier: null,
+    affiliateRetailer: 'amazon.com',
+    affiliateCommission: 'Amazon Associates',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://www.amazon.com/dp/B0F2FMVT7M/?tag=massagechairf-20',
+    amazonUrl: 'https://www.amazon.com/dp/B0F2FMVT7M/?tag=massagechairf-20',
+    amazonAsin: 'B0F2FMVT7M',
+    track: null, roller: null,
+    zeroGravity: true,
+    reviewRating: 4.6, reviewCount: 142, reviewSource: 'amazon.com',
+    aiNotes: 'Budget import brand, Amazon-only distribution, brand-direct seller. Specs from Amazon listing June 2026. 160-degree zero gravity recline. Track and roller unconfirmed.',
+  },
+
+  {
+    id: 'healthrelife-4d-15-mode',
+    name: 'HealthRelife 4D 15-Mode',
+    brand: 'HealthRelife',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1699,  // amazon.com observed 2026-06-07
+    affiliateTier: null,
+    affiliateRetailer: 'amazon.com',
+    affiliateCommission: 'Amazon Associates',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://www.amazon.com/dp/B0DWMRFHRV/?tag=massagechairf-20',
+    amazonUrl: 'https://www.amazon.com/dp/B0DWMRFHRV/?tag=massagechairf-20',
+    amazonAsin: 'B0DWMRFHRV',
+    track: 'SL', roller: '4D', trackLengthIn: 55,
+    zeroGravity: true,
+    reviewRating: 4.6, reviewCount: 136, reviewSource: 'amazon.com',
+    aiNotes: 'Budget import brand, Amazon-only distribution, brand-direct seller. Specs from Amazon listing June 2026. 15 auto modes, 40 airbags. Heat unconfirmed.',
+  },
+
+  {
+    id: 'ktentito-g6',
+    name: 'KTENTITO G6',
+    brand: 'KTENTITO',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1439,  // amazon.com observed 2026-06-07
+    affiliateTier: null,
+    affiliateRetailer: 'amazon.com',
+    affiliateCommission: 'Amazon Associates',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://www.amazon.com/dp/B0D4DQCW2P/?tag=massagechairf-20',
+    amazonUrl: 'https://www.amazon.com/dp/B0D4DQCW2P/?tag=massagechairf-20',
+    amazonAsin: 'B0D4DQCW2P',
+    track: 'SL', roller: null,
+    zeroGravity: true, heat: true, calf: true,
+    reviewRating: 4.5, reviewCount: 89, reviewSource: 'amazon.com',
+    aiNotes: 'Budget import brand, Amazon-only distribution, brand-direct seller. Specs from Amazon listing June 2026. AI voice control, waist and calf heating. Roller unconfirmed. Listing showed limited stock June 2026.',
+  },
+
+  {
+    id: 'mythia-a303c',
+    name: 'MYTHIA A303C 4D',
+    brand: 'MYTHIA',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1399,  // amazon.com observed 2026-06-07
+    affiliateTier: null,
+    affiliateRetailer: 'amazon.com',
+    affiliateCommission: 'Amazon Associates',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://www.amazon.com/dp/B0FNWJ239X/?tag=massagechairf-20',
+    amazonUrl: 'https://www.amazon.com/dp/B0FNWJ239X/?tag=massagechairf-20',
+    amazonAsin: 'B0FNWJ239X',
+    track: 'SL', roller: '4D', trackLengthIn: 55,
+    zeroGravity: true, heat: true, aiScanning: true,
+    reviewRating: 4.5, reviewCount: 47, reviewSource: 'amazon.com',
+    aiNotes: 'Budget import brand, Amazon-only distribution, third-party seller (Relaxchairs). Specs from Amazon listing June 2026. Body scan, 12 auto modes, app control. Thin review base; monitor in audits.',
+  },
+
+  {
+    id: 'healthrelife-4d-20-mode',
+    name: 'HealthRelife 4D 20-Mode',
+    brand: 'HealthRelife',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 2399,  // amazon.com observed 2026-06-07
+    affiliateTier: null,
+    affiliateRetailer: 'amazon.com',
+    affiliateCommission: 'Amazon Associates',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://www.amazon.com/dp/B0D87C16Q8/?tag=massagechairf-20',
+    amazonUrl: 'https://www.amazon.com/dp/B0D87C16Q8/?tag=massagechairf-20',
+    amazonAsin: 'B0D87C16Q8',
+    track: 'SL', roller: '4D', trackLengthIn: 55,
+    zeroGravity: true, stretch: true,
+    reviewRating: 4.7, reviewCount: 31, reviewSource: 'amazon.com',
+    aiNotes: 'Budget import brand, Amazon-only distribution, brand-direct seller. Specs from Amazon listing June 2026. 20 auto modes, yoga stretch, 40 airbags. Thin review base; monitor in audits. Listing showed limited stock June 2026.',
+  },
+
+  {
+    id: 'casinta-4d',
+    name: 'CASINTA 4D',
+    brand: 'CASINTA',
+    active: true, goodwinActive: false, mcfActive: true,
+    priceMin: 1199,  // amazon.com observed 2026-06-07
+    affiliateTier: null,
+    affiliateRetailer: 'amazon.com',
+    affiliateCommission: 'Amazon Associates',
+    goodwinStatus: 'none',
+    affiliateUrl: 'https://www.amazon.com/dp/B0GHWHX93Y/?tag=massagechairf-20',
+    amazonUrl: 'https://www.amazon.com/dp/B0GHWHX93Y/?tag=massagechairf-20',
+    amazonAsin: 'B0GHWHX93Y',
+    track: 'SL', roller: '4D', trackLengthIn: 53.5,
+    reviewRating: 4.7, reviewCount: 17, reviewSource: 'amazon.com',
+    aiNotes: 'Budget import brand, Amazon-only distribution, brand-direct seller. Specs from Amazon listing June 2026. 53.5 inch extending SL track. Zero gravity and heat unconfirmed. Thinnest review base of the budget additions; first removal candidate if audits flag it.',
+  },
 
 ]
 

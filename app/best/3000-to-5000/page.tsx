@@ -1,4 +1,4 @@
-import { MCF_CHAIRS } from '@/lib/chairs'
+import { MCF_CHAIRS , priceBand } from '@/lib/chairs'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 
@@ -122,9 +122,7 @@ export default function Best3000To5000Page() {
                       </Link>
                     </td>
                     <td className="py-3 pr-5 text-charcoal">
-                      {chair.priceMax && chair.priceMax > chair.priceMin
-                        ? `$${chair.priceMin.toLocaleString()} – $${chair.priceMax.toLocaleString()}`
-                        : `$${chair.priceMin.toLocaleString()}`}
+                      {priceBand(chair).range}
                     </td>
                     <td className="py-3 pr-5 text-charcoal">{chair.track}-Track</td>
                     <td className="py-3 pr-5 text-charcoal">{chair.roller}</td>
@@ -145,9 +143,7 @@ export default function Best3000To5000Page() {
       <div className="space-y-8 mb-14">
         {picks.map((chair, i) => {
           const editorial = EDITORIAL[chair.id]
-          const priceLabel = chair.priceMax && chair.priceMax > chair.priceMin
-            ? `$${chair.priceMin.toLocaleString()} – $${chair.priceMax.toLocaleString()}`
-            : `$${chair.priceMin.toLocaleString()}`
+          const priceLabel = priceBand(chair).range
           const heightRange = chair.heightMinIn && chair.heightMaxIn
             ? `${fmtFt(chair.heightMinIn)} – ${fmtFt(chair.heightMaxIn)}`
             : chair.heightMaxIn

@@ -2,7 +2,8 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { Chair, formatPrice } from '@/lib/chairs'
+import { Chair } from '@/lib/chairs'
+import PriceBadge from './PriceBadge'
 import { affiliateClick } from '@/lib/gtag'
 
 function trackBadgeColor(track: string) {
@@ -82,8 +83,8 @@ export default function ChairCard({ chair }: { chair: Chair }) {
 
       {/* Price + CTA */}
       <div className="flex items-center justify-between pt-4 border-t border-sand">
-        <span className="font-semibold text-navy">{formatPrice(chair)}</span>
-        {chair.affiliateUrl && (
+        <PriceBadge chair={chair} />
+        {(chair.amazonUrl || chair.affiliateUrl) && (
           <a
             href={`/go/${chair.id}`}
             target="_blank"
@@ -91,7 +92,7 @@ export default function ChairCard({ chair }: { chair: Chair }) {
             className="text-sm btn-primary py-1 px-3"
             onClick={handleShopClick}
           >
-            Shop
+            {chair.amazonUrl ? 'Check price on Amazon' : 'Shop'}
           </a>
         )}
       </div>
