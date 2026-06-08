@@ -156,6 +156,28 @@ export function priceBand(chair: Chair): PriceBand {
   return                 { key: 'ultra-premium', label: 'Ultra-premium', range: '$12,000 and up', short: '$12,000+',       hex: '#6B21A8' }
 }
 
+// ─── AFFILIATE LINK RESOLUTION ──────────────────────────────────────────────────
+// Single source of truth for the buy destination. Surfaces render this as a DIRECT
+// link (no /go redirect): Amazon requires Special Links to be direct, and direct
+// links also let us pick the highest-paying relationship per chair.
+// Add each newly approved direct-retailer domain to APPROVED_DIRECT.
+const APPROVED_DIRECT = new Set<string>(['relaxonchair.com'])
+
+/** Best affiliate destination for a chair as a direct URL.
+ *  Priority: approved direct-retailer relationship > Amazon > fallback retailer URL. */
+export function resolveAffiliateUrl(chair: Chair): string | undefined {
+  if (chair.affiliateRetailer && APPROVED_DIRECT.has(chair.affiliateRetailer)) {
+    return chair.affiliateUrl
+  }
+  return chair.amazonUrl || chair.affiliateUrl
+}
+
+/** Same resolution for surfaces that only have a chair id (e.g. compare pages). */
+export function affiliateUrlById(id: string): string | undefined {
+  const c = CHAIRS.find(x => x.id === id)
+  return c ? resolveAffiliateUrl(c) : undefined
+}
+
 // ─── CATALOG ───────────────────────────────────────────────────────────────────
 
 export const CHAIRS: Chair[] = [

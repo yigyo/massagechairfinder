@@ -1,16 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { CHAIRS } from '@/lib/chairs'
+import { CHAIRS, resolveAffiliateUrl } from '@/lib/chairs'
 
 export async function GET(
   req: NextRequest,
   { params }: { params: { chair: string } }
 ) {
   const chair = CHAIRS.find(c => c.id === params.chair && c.active)
-  // Direct-retailer programs we are approved with pay more than Amazon (~3%),
-  // so their affiliateUrl wins. Add a retailer domain here as each is approved.
-  const APPROVED_DIRECT = new Set(['relaxonchair.com'])
-  const directLive = chair && APPROVED_DIRECT.has(chair.affiliateRetailer || '') ? chair.affiliateUrl : undefined
-  const dest = directLive || chair?.amazonUrl || chair?.affiliateUrl
+  // Legacy redirect kept for old/bookmarked links. Rendered links are now direct
+  // (resolveAffiliateUrl). Uses the same resolver so behavior stays in sync.
+  const dest = chair ? resolveAffiliateUrl(chair) : undefined
   if (!dest) {
     return NextResponse.redirect(new URL('/chairs/' + params.chair, req.url))
   }

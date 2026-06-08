@@ -5,11 +5,11 @@ import BuyersGuideForm from "@/components/BuyersGuideForm"
 // Fires when the user moves the cursor above the viewport (exit intent).
 // Conditions to show:
 //   - User has NOT already subscribed (localStorage "mcf_subscribed")
-//   - User has NOT clicked an affiliate /go/ link (localStorage "mcf_affiliate_click")
+//   - User has NOT clicked an affiliate link (localStorage "mcf_affiliate_click")
 //   - User has NOT dismissed this popup in the last 7 days
 //     (localStorage "mcf_popup_dismissed_at")
 //
-// Affiliate click tracking: any click on an <a> with href containing "/go/"
+// Affiliate click tracking: any click on an <a rel="sponsored"> (or legacy /go/ link)
 // sets "mcf_affiliate_click" automatically via document-level listener below.
 
 const DISMISS_COOLDOWN_DAYS = 7
@@ -37,7 +37,11 @@ export default function ExitIntentPopup() {
   useEffect(() => {
     function onDocClick(e: MouseEvent) {
       const target = (e.target as HTMLElement).closest("a")
-      if (target && target.getAttribute("href")?.includes("/go/")) {
+      const rel = target?.getAttribute("rel") || ""
+      const href = target?.getAttribute("href") || ""
+      // Affiliate links are now direct outbound links carrying rel="sponsored".
+      // Also match the legacy /go/ redirect for any old links.
+      if (target && (rel.includes("sponsored") || href.includes("/go/"))) {
         try { localStorage.setItem("mcf_affiliate_click", "1") } catch (_) {}
       }
     }

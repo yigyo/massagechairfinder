@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { Chair } from '@/lib/chairs'
+import { Chair, resolveAffiliateUrl } from '@/lib/chairs'
 import PriceBadge from './PriceBadge'
 import { affiliateClick } from '@/lib/gtag'
 
@@ -84,11 +84,11 @@ export default function ChairCard({ chair }: { chair: Chair }) {
       {/* Price + CTA */}
       <div className="flex items-center justify-between pt-4 border-t border-sand">
         <PriceBadge chair={chair} />
-        {(chair.amazonUrl || chair.affiliateUrl) && (
+        {resolveAffiliateUrl(chair) && (
           <a
-            href={`/go/${chair.id}`}
+            href={resolveAffiliateUrl(chair)}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="sponsored noopener"
             className="text-sm btn-primary py-1 px-3"
             onClick={handleShopClick}
           >

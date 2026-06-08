@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { affiliateUrlById } from '@/lib/chairs'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -128,7 +129,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Manufacturing origin is less important than confirmed body fit</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/daiwa-relax-2-zero-3d" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Relax 2 Zero 3D</a>
+            <a href={affiliateUrlById('daiwa-relax-2-zero-3d')} className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Relax 2 Zero 3D</a>
           </div>
         </div>
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
@@ -140,7 +141,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Body scanning is important for accurate cervical positioning</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/synca-wellness-jp3000" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Synca JP-3000</a>
+            <a href={affiliateUrlById('synca-wellness-jp3000')} className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Synca JP-3000</a>
           </div>
         </div>
       </div>

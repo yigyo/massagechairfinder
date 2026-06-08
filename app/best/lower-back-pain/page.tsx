@@ -1,4 +1,4 @@
-import { MCF_CHAIRS , priceBand } from '@/lib/chairs'
+import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 
@@ -244,11 +244,11 @@ export default function BestLowerBackPainPage() {
                   </div>
 
                   <div className="flex flex-wrap items-center gap-3">
-                    {chair.affiliateUrl && (
+                    {resolveAffiliateUrl(chair) && (
                       <a
-                        href={chair.affiliateUrl}
+                        href={resolveAffiliateUrl(chair)}
                         target="_blank"
-                        rel="noopener noreferrer sponsored"
+                        rel="sponsored noopener"
                         className="border border-gold text-gold hover:bg-gold hover:text-white text-sm font-semibold px-5 py-2 rounded transition-colors"
                       >
                         Shop this chair

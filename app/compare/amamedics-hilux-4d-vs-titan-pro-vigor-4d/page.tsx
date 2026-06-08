@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { affiliateUrlById } from '@/lib/chairs'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -137,7 +138,7 @@ export default function HiluxVsVigorPage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Room placement is not tightly constrained</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/amamedics-hilux-4d" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Hilux 4D</a>
+            <a href={affiliateUrlById('amamedics-hilux-4d')} className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Hilux 4D</a>
           </div>
         </div>
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
@@ -149,7 +150,7 @@ export default function HiluxVsVigorPage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>The space-saving design justifies the $1,000 premium for your room</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/titan-pro-vigor-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>
+            <a href={affiliateUrlById('titan-pro-vigor-4d')} className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>
           </div>
         </div>
       </div>

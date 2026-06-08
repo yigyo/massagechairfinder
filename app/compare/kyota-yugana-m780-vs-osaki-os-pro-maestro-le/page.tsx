@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { affiliateUrlById } from '@/lib/chairs'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -139,7 +140,7 @@ export default function YuganaVsMaestroPage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>The $1,000 savings matters to your budget</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/kyota-yugana-m780" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Yugana M780</a>
+            <a href={affiliateUrlById('kyota-yugana-m780')} className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Yugana M780</a>
           </div>
         </div>
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
@@ -151,7 +152,7 @@ export default function YuganaVsMaestroPage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Strong domestic service support is important for your purchase decision</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/osaki-os-pro-maestro-le" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Maestro LE 2.0</a>
+            <a href={affiliateUrlById('osaki-os-pro-maestro-le')} className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Maestro LE 2.0</a>
           </div>
         </div>
       </div>

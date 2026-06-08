@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { affiliateUrlById } from '@/lib/chairs'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -129,7 +130,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Space-saving recline is the primary decision variable</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/infinity-evolution" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Evo Max 4D</a>
+            <a href={affiliateUrlById('infinity-evolution')} className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Evo Max 4D</a>
           </div>
         </div>
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
@@ -141,7 +142,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Room space behind the chair is not a constraint</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/jpmedics-kumo-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Kumo 4D</a>
+            <a href={affiliateUrlById('jpmedics-kumo-4d')} className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Kumo 4D</a>
           </div>
         </div>
       </div>

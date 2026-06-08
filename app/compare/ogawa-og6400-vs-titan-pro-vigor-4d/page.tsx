@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { affiliateUrlById } from '@/lib/chairs'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -127,7 +128,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want to save $800 and the roller type difference is not important</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/ogawa-og6400" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the OG-6400</a>
+            <a href={affiliateUrlById('ogawa-og6400')} className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the OG-6400</a>
           </div>
         </div>
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
@@ -139,7 +140,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Your room is very tight. The 3.9-inch wall clearance is the main practical advantage</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/titan-pro-vigor-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>
+            <a href={affiliateUrlById('titan-pro-vigor-4d')} className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>
           </div>
         </div>
       </div>

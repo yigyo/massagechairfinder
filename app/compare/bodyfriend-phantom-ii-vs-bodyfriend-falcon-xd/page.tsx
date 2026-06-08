@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { affiliateUrlById } from '@/lib/chairs'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -120,7 +121,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want the higher capacity option as a long-term purchase</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/bodyfriend-phantom-ii" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Phantom II</a>
+            <a href={affiliateUrlById('bodyfriend-phantom-ii')} className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Phantom II</a>
           </div>
         </div>
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
@@ -132,7 +133,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are comparing against other SL-track 4D chairs in the $8,000-$9,000 tier</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/bodyfriend-falcon-xd" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Falcon XD</a>
+            <a href={affiliateUrlById('bodyfriend-falcon-xd')} className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Falcon XD</a>
           </div>
         </div>
       </div>

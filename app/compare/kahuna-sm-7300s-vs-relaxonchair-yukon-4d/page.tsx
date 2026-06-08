@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { affiliateUrlById } from '@/lib/chairs'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -116,7 +117,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Stretch programs and body scanning are important to you</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/kahuna-sm-7300s" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the SM-7300S</a>
+            <a href={affiliateUrlById('kahuna-sm-7300s')} className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the SM-7300S</a>
           </div>
         </div>
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
@@ -128,7 +129,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Lumbar heat is sufficient and calf/foot heat is not a priority</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/relaxonchair-yukon-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the YUKON-4D</a>
+            <a href={affiliateUrlById('relaxonchair-yukon-4d')} className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the YUKON-4D</a>
           </div>
         </div>
       </div>

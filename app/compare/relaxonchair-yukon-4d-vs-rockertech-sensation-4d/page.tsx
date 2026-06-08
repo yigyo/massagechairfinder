@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { affiliateUrlById } from '@/lib/chairs'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -138,7 +139,7 @@ export default function YukonVsSensationPage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are in the middle of the height range and body scanning precision matters less</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/relaxonchair-yukon-4d" className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the YUKON-4D</a>
+            <a href={affiliateUrlById('relaxonchair-yukon-4d')} className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the YUKON-4D</a>
           </div>
         </div>
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
@@ -150,7 +151,7 @@ export default function YukonVsSensationPage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Advanced body scanning is a priority for your household</span></li>
           </ul>
           <div className="mt-4">
-            <a href="/go/rockertech-sensation-4d" className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Sensation 4D</a>
+            <a href={affiliateUrlById('rockertech-sensation-4d')} className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Sensation 4D</a>
           </div>
         </div>
       </div>

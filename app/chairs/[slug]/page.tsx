@@ -1,4 +1,4 @@
-import { CHAIRS, Chair, priceBand } from '@/lib/chairs'
+import { CHAIRS, Chair, priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import PriceBadge from '@/components/PriceBadge'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -270,9 +270,9 @@ function AlternativesPanel({
               </p>
               <div className="mt-0.5"><PriceBadge chair={alt} /></div>
             </div>
-            {alt.affiliateUrl ? (
+            {resolveAffiliateUrl(alt) ? (
               <a
-                href={alt.affiliateUrl}
+                href={resolveAffiliateUrl(alt)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary shrink-0 text-sm py-2 px-4"
@@ -540,12 +540,12 @@ export default async function ChairPage({ params }: { params: { slug: string } }
             )}
 
             {/* CTA: hidden for discontinued, live for active and OOS */}
-            {!isDiscontinued && (c.amazonUrl || c.affiliateUrl) && (
+            {!isDiscontinued && resolveAffiliateUrl(c) && (
               <div className="mt-4 space-y-3">
                 <a
-                  href={'/go/' + params.slug}
+                  href={resolveAffiliateUrl(c)}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="sponsored noopener"
                   className="btn-primary block text-center py-3 px-6 rounded font-semibold"
                 >
                   Shop This Chair
