@@ -113,6 +113,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-posture",
       "massage-and-swelling",
       "massage-and-depression",
+      "massage-and-insomnia",
+      "massage-and-cold-hands-and-feet",
     ],
   },
 ]
