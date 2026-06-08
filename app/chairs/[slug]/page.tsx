@@ -1,4 +1,4 @@
-import { CHAIRS, Chair, formatPrice, priceBand } from '@/lib/chairs'
+import { CHAIRS, Chair, priceBand } from '@/lib/chairs'
 import PriceBadge from '@/components/PriceBadge'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const trackLabel = chair.track === 'SL' ? 'SL-track' : chair.track === 'L' ? 'L-track' : chair.track === 'S' ? 'S-track' : ''
   const parts = [trackLabel, chair.roller].filter(Boolean).join(', ')
   const discontinued = !chair.active ? ' (Discontinued)' : ''
-  const desc = `${chair.name}${discontinued} review: ${parts ? parts + ' massage chair, ' : ''}${formatPrice(chair)}. Who it fits, full specs, body fit guide, and honest assessment.`
+  const desc = `${chair.name}${discontinued} review: ${parts ? parts + ' massage chair, ' : ''}${priceBand(chair).range}. Who it fits, full specs, body fit guide, and our verdict.`
   return {
     title: `${chair.name} Review${discontinued}, Is It Right for You?`,
     description: desc.slice(0, 160),
@@ -389,13 +389,13 @@ export default async function ChairPage({ params }: { params: { slug: string } }
     '@type': 'Product',
     name: c.name,
     brand: { '@type': 'Brand', name: c.brand },
-    description: `${c.name} massage chair${c.track ? ', ' + getTrackLabel(c) : ''}${c.roller ? ', ' + c.roller + ' roller' : ''}. ${formatPrice(c)}.`,
+    description: `${c.name} massage chair${c.track ? ', ' + getTrackLabel(c) : ''}${c.roller ? ', ' + c.roller + ' roller' : ''}. ${priceBand(c).range}.`,
     offers: {
       '@type': 'Offer',
       price: c.priceMin,
       priceCurrency: 'USD',
       availability,
-      url: c.affiliateUrl || 'https://massagechairfinder.com/chairs/' + params.slug,
+      url: 'https://massagechairfinder.com/chairs/' + params.slug,
     },
     ...(c.reviewRating ? {
       aggregateRating: {
@@ -530,7 +530,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
               </div>
             </div>
 
-            {/* Rating line — shown when reviewRating exists */}
+            {/* Rating line - shown when reviewRating exists */}
             {c.reviewRating && (
               <p className="text-sm text-warm-gray mt-3">
                 <span className="text-gold">{"★".repeat(Math.round(c.reviewRating))}</span>

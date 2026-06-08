@@ -159,6 +159,33 @@ def check_compare_index(chairs):
 
 # ── main ──────────────────────────────────────────────────────────────────────
 
+
+# ── check Amazon link watchlist ───────────────────────────────────────────────
+
+# Chairs whose Amazon listing needs manual liveness verification each audit run.
+# Added 2026-06-07 when affiliate links went live (tag massagechairf-20).
+AMAZON_WATCH = {
+    'bodyfriend-falcon-xd': 'brand search showed zero Bodyfriend listings on Amazon 2026-06-07; verify ASIN B0D97TGBYS still live',
+}
+
+def check_amazon_watchlist():
+    """Warn on chairs holding amazonAsin without amazonUrl (listing was dead or
+    version-mismatched when wired) and on chairs in AMAZON_WATCH."""
+    with open(CHAIRS_TS, 'r', encoding='utf-8') as f:
+        content = f.read()
+    warnings = []
+    ids = [(m.group(1), m.start()) for m in re.finditer(r"id: '([^']+)'", content)]
+    for i, (cid, start) in enumerate(ids):
+        end = ids[i+1][1] if i+1 < len(ids) else len(content)
+        block = content[start:end]
+        asin_m = re.search(r"amazonAsin: '([A-Z0-9]{10})'", block)
+        has_url = 'amazonUrl:' in block
+        if asin_m and not has_url:
+            warnings.append(f"AMAZON WATCHLIST: {cid} holds ASIN {asin_m.group(1)} with no amazonUrl (listing dead or version mismatch when wired 2026-06-07). Verify listing; if live and correct, set amazonUrl; if gone, drop the ASIN.")
+        if cid in AMAZON_WATCH:
+            warnings.append(f"AMAZON WATCHLIST: {cid}: {AMAZON_WATCH[cid]}")
+    return [], warnings
+
 def main():
     chairs = load_catalog()
     print(f'Loaded {len(chairs)} chair IDs from catalog.\n')
@@ -172,6 +199,9 @@ def main():
     all_errors += e; all_warnings += w
 
     e, w = check_compare_index(chairs)
+    all_errors += e; all_warnings += w
+
+    e, w = check_amazon_watchlist()
     all_errors += e; all_warnings += w
 
     today = date.today().isoformat()
