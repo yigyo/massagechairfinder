@@ -1,7 +1,7 @@
 {
   "date": "2026-06-08",
-  "story_count": 96,
-  "actionable": 15,
+  "story_count": 91,
+  "actionable": 10,
   "stories": [
     {
       "id": "ce600ef230652b0c",
@@ -11,14 +11,14 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-06-04T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.043221+00:00",
+      "fetched_at": "2026-06-08T14:42:15.019101+00:00",
       "summary": "Best Massage Chairs (2026): 7 Expert-Tested Choices For Relaxed Recovery Garage Gym Reviews",
       "category": "consumer_review",
-      "relevance_score": 5,
+      "relevance_score": 6,
       "content_action": "include_in_roundup",
       "story_age_days": 4,
       "brands_mentioned": [],
-      "draft_angle": "Garage Gym Reviews roundup of 7 expert-tested massage chairs for 2026. Monitor for any named models in MCF catalog and competitive positioning.",
+      "draft_angle": "Garage Gym Reviews roundup of 7 expert-tested massage chairs for 2026. Identify which models overlap with MCF catalog and extract any new model mentions or pricing insights.",
       "skip_reason": null
     },
     {
@@ -29,14 +29,14 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-26T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.043463+00:00",
+      "fetched_at": "2026-06-08T14:42:15.019330+00:00",
       "summary": "5 Best Massage Chairs of 2026 Fortune",
       "category": "consumer_review",
       "relevance_score": 6,
       "content_action": "include_in_roundup",
       "story_age_days": 13,
       "brands_mentioned": [],
-      "draft_angle": "Fortune's 5 best massage chairs of 2026. Check for named models and new entrants to the market that MCF should evaluate.",
+      "draft_angle": "Fortune's 2026 massage chair roundup. Extract model names and price points to cross-reference with MCF catalog and identify any new launches mentioned.",
       "skip_reason": null
     },
     {
@@ -47,7 +47,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-06-05T10:17:41+00:00",
-      "fetched_at": "2026-06-08T14:16:41.043674+00:00",
+      "fetched_at": "2026-06-08T14:42:15.019515+00:00",
       "summary": "Infinity Circadian® DualFlex Named International Business Times 2026 Editor’s Pick for Best Massage Chair Kitsap Sun",
       "category": "brand_announcement",
       "relevance_score": 7,
@@ -56,7 +56,7 @@
       "brands_mentioned": [
         "Infinity"
       ],
-      "draft_angle": "Infinity Circadian DualFlex wins International Business Times 2026 Editor's Pick. Validates existing catalog entry and demonstrates strong third-party recognition.",
+      "draft_angle": "Infinity Circadian DualFlex wins International Business Times Editor's Pick award. Update Infinity brand alert with award recognition and consider inclusion in MCF brand comparison notes.",
       "skip_reason": null
     },
     {
@@ -67,15 +67,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-22T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.043867+00:00",
+      "fetched_at": "2026-06-08T14:42:15.019715+00:00",
       "summary": "These Massage Chairs Are Better Than a Spa Day (No Appointment Needed) Good Housekeeping",
       "category": "consumer_review",
-      "relevance_score": 4,
+      "relevance_score": 5,
       "content_action": "skip",
       "story_age_days": 47,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "too old to be news (47 days)"
+      "skip_reason": "story_age_days > 21 with relevance_score < 8, combined with age of 47 days places it below include_in_roundup threshold"
     },
     {
       "id": "6fb2468927734793",
@@ -85,7 +85,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-28T23:35:26+00:00",
-      "fetched_at": "2026-06-08T14:16:41.044096+00:00",
+      "fetched_at": "2026-06-08T14:42:15.019883+00:00",
       "summary": "Circle of Hope Cancer Support Center June 2026 Calendar Santa Clarita Magazine",
       "category": "skip",
       "relevance_score": 0,
@@ -93,7 +93,7 @@
       "story_age_days": 10,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: event calendar with no massage chair relevance beyond incidental mention"
+      "skip_reason": "Off-topic: event calendar for cancer support center with no massage chair content"
     },
     {
       "id": "8c5a26251fe4c12c",
@@ -103,15 +103,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-16T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.044290+00:00",
+      "fetched_at": "2026-06-08T14:42:15.020035+00:00",
       "summary": "These 4 Massage Chairs Feel Like a Spa Day Every Time Real Simple",
       "category": "consumer_review",
-      "relevance_score": 4,
+      "relevance_score": 5,
       "content_action": "skip",
       "story_age_days": 53,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "too old to be news (53 days)"
+      "skip_reason": "story_age_days > 21 (53 days) and relevance_score 5 falls below include_in_roundup threshold"
     },
     {
       "id": "73a75b2b71a6e431",
@@ -121,14 +121,14 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-04T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.044487+00:00",
+      "fetched_at": "2026-06-08T14:42:15.020190+00:00",
       "summary": "3 Best Chair Massagers of 2026, Tested and Reviewed Consumer Reports",
       "category": "consumer_review",
       "relevance_score": 7,
       "content_action": "include_in_roundup",
       "story_age_days": 35,
       "brands_mentioned": [],
-      "draft_angle": "Consumer Reports 2026 review of 3 best chair massagers. High-credibility third-party validation. Check for any MCF catalog models tested.",
+      "draft_angle": "Consumer Reports tested 3 massage chairs in 2026. Extract model names and test findings to cross-reference with MCF recommendations and identify any catalog gaps.",
       "skip_reason": null
     },
     {
@@ -139,17 +139,17 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-08T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.044668+00:00",
+      "fetched_at": "2026-06-08T14:42:15.020331+00:00",
       "summary": "Expert-Tested: Relaxe Massage Chair Review (2026) Garage Gym Reviews",
       "category": "consumer_review",
-      "relevance_score": 4,
+      "relevance_score": 5,
       "content_action": "skip",
       "story_age_days": 31,
       "brands_mentioned": [
         "Relaxe"
       ],
       "draft_angle": null,
-      "skip_reason": "Story age 31 days exceeds threshold for individual article (max 21 days), and relevance score 4 does not qualify for roundup inclusion at this age"
+      "skip_reason": "Relaxe brand is retired from MCF catalog. story_age_days 31 exceeds 21-day window for individual article at this relevance score"
     },
     {
       "id": "0741a742b960263b",
@@ -159,7 +159,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-11T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.047267+00:00",
+      "fetched_at": "2026-06-08T14:42:15.021114+00:00",
       "summary": "Amateur Kim Seo-a wins massage chair with hole-in-one at KLPGA event - CHOSUNBIZ Chosunbiz",
       "category": "skip",
       "relevance_score": 1,
@@ -167,7 +167,7 @@
       "story_age_days": 28,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: Korean golf tournament prize giveaway with no U.S. consumer relevance or chair model details"
+      "skip_reason": "Off-topic: Korean golf event prize mention. No U.S. buyer relevance or product decision impact"
     },
     {
       "id": "68c0aed00a7f5604",
@@ -177,33 +177,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-29T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.047464+00:00",
+      "fetched_at": "2026-06-08T14:42:15.022937+00:00",
       "summary": "Best massagers 2026: banish knots and soothe sore muscles t3.com",
-      "category": "skip",
-      "relevance_score": 2,
+      "category": "consumer_review",
+      "relevance_score": 5,
       "content_action": "skip",
       "story_age_days": 40,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "too old to be news (40 days); appears to focus on massage guns rather than massage chairs"
-    },
-    {
-      "id": "5b4b4938c11df94b",
-      "title": "Amateur Kim Seo-ah Makes Hole-in-One at KLPGA - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQWI0X1p3cUtsdlhMZ01ZVzJnUXNUVFhOaHFhbGQ2TkdzcW45N3kxLW94YmhlS2NfVlJ6MWh0Z0J5ZmF2THdKeXRrWVZOZThpTm5QZkxNV3ZWWE9Jd1k5LURsZnVjQ2ItNV9MMmZ1MHEtcDhxMGNwb0RobF9UTXJqTVFiWFRNdw?oc=5",
-      "source": "google_news:new_releases_2026",
-      "source_type": "google_news",
-      "brand": null,
-      "published_at": "2026-05-11T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.047659+00:00",
-      "summary": "Amateur Kim Seo-ah Makes Hole-in-One at KLPGA 조선일보",
-      "category": "skip",
-      "relevance_score": 1,
-      "content_action": "skip",
-      "story_age_days": 28,
-      "brands_mentioned": [],
-      "draft_angle": null,
-      "skip_reason": "Off-topic: Korean golf tournament prize giveaway with no U.S. consumer relevance or chair model details"
+      "skip_reason": "story_age_days 40 exceeds include_in_roundup threshold with relevance_score 5"
     },
     {
       "id": "c6258ef230c8dd60",
@@ -213,15 +195,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-04T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.048574+00:00",
+      "fetched_at": "2026-06-08T14:42:15.023665+00:00",
       "summary": "8 Functional and Versatile Massage Chairs for At-Home Relaxation The Spruce",
       "category": "consumer_review",
       "relevance_score": 5,
-      "content_action": "include_in_roundup",
+      "content_action": "skip",
       "story_age_days": 35,
       "brands_mentioned": [],
-      "draft_angle": "The Spruce roundup of 8 massage chairs for at-home relaxation. Monitor for any MCF catalog models and competitive positioning.",
-      "skip_reason": null
+      "draft_angle": null,
+      "skip_reason": "story_age_days 35 and relevance_score 5 fall below include_in_roundup threshold"
     },
     {
       "id": "f48fa9ccba98ba0a",
@@ -231,7 +213,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-11T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.049137+00:00",
+      "fetched_at": "2026-06-08T14:42:15.024079+00:00",
       "summary": "'Rest N Go' massage chair operator offers 126.1mil new shares ahead of listing NST Online",
       "category": "industry_news",
       "relevance_score": 2,
@@ -239,7 +221,7 @@
       "story_age_days": 28,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Corporate/financial news about 'Rest N Go' massage chair operator IPO. No specific product launch or consumer buying impact for U.S. market."
+      "skip_reason": "Consumer relevance test fails: Malaysian company IPO announcement with no impact on U.S. buyer purchasing decisions in the $2k-$10k+ range"
     },
     {
       "id": "550cc223788b5f09",
@@ -249,7 +231,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-12T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.049684+00:00",
+      "fetched_at": "2026-06-08T14:42:15.024495+00:00",
       "summary": "The Massage Guns We Use to Recover From a Workout The New York Times",
       "category": "skip",
       "relevance_score": 1,
@@ -257,7 +239,7 @@
       "story_age_days": 27,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: New York Times article focuses on massage guns, not massage chairs"
+      "skip_reason": "Off-topic: article is about massage guns, not massage chairs"
     },
     {
       "id": "9f34c0512b122a36",
@@ -267,15 +249,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-06-06T14:38:53+00:00",
-      "fetched_at": "2026-06-08T14:16:41.050386+00:00",
+      "fetched_at": "2026-06-08T14:42:15.024655+00:00",
       "summary": "Tweets of the week: PTI dresses up, Dufner “Dufnering” in a massage chair GolfWRX",
       "category": "skip",
       "relevance_score": 1,
       "content_action": "skip",
-      "story_age_days": 1,
+      "story_age_days": 2,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: Golf/sports entertainment tweet roundup with only incidental massage chair reference"
+      "skip_reason": "Off-topic: golf social media commentary with only incidental massage chair mention, no product or buying decision content"
     },
     {
       "id": "dbf22cae161c23b7",
@@ -285,15 +267,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-29T12:30:55+00:00",
-      "fetched_at": "2026-06-08T14:16:41.050731+00:00",
+      "fetched_at": "2026-06-08T14:42:15.025485+00:00",
       "summary": "Wayfair's Memorial Day Sale May 2026 games.gg",
       "category": "skip",
-      "relevance_score": 1,
+      "relevance_score": 2,
       "content_action": "skip",
       "story_age_days": 10,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: General Wayfair sale announcement with no specific massage chair focus or pricing data"
+      "skip_reason": "Purely promotional: generic sale announcement with no specific chair or pricing information"
     },
     {
       "id": "979ed6b4ef15f8e6",
@@ -303,15 +285,33 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-10T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.051101+00:00",
+      "fetched_at": "2026-06-08T14:42:15.025643+00:00",
       "summary": "Say Goodbye to Neck Tension: We Tested Dozens of Neck Massagers to Find the 6 Best Health: Trusted and Empathetic Health and Wellness Information",
       "category": "skip",
-      "relevance_score": 0,
+      "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 59,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "too old to be news (59 days); focuses on neck massagers, not full massage chairs"
+      "skip_reason": "story_age_days 59 exceeds 60-day cutoff. Also off-topic: focuses on neck massagers, not full massage chairs"
+    },
+    {
+      "id": "db06a381b8c80ccf",
+      "title": "Intel's New Handheld Gaming PC Chips Are Here At Computex 2026 - IGN Nordic",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQU12QXBYMW1OcmpPQzNJaFNwV1hHa0VsM3hYVlF0Y3g1ZkVGN1lWZ2gzWHVQdHZHVFdGOV91SmFQeTZQTHdVZG0tbnpQLWNrSDBfQkxiMVljdkpacmhFTlkyQlJXVHU1cENvcFNkOWxrS21IdDRJLVRja0hQdlNZOGZxUjFmdDkwT3YwQlZCSnM3X3NOcWExbzB1Tjg?oc=5",
+      "source": "google_news:new_releases_2026",
+      "source_type": "google_news",
+      "brand": null,
+      "published_at": "2026-05-28T07:00:00+00:00",
+      "fetched_at": "2026-06-08T14:42:15.025781+00:00",
+      "summary": "Intel's New Handheld Gaming PC Chips Are Here At Computex 2026 IGN Nordic",
+      "category": "skip",
+      "relevance_score": 0,
+      "content_action": "skip",
+      "story_age_days": 11,
+      "brands_mentioned": [],
+      "draft_angle": null,
+      "skip_reason": "Off-topic: Intel handheld gaming PC announcement, no massage chair relevance"
     },
     {
       "id": "0c4f7f995b695174",
@@ -321,7 +321,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-23T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.051276+00:00",
+      "fetched_at": "2026-06-08T14:42:15.025908+00:00",
       "summary": "ID@Xbox: Everything Announced at the 2026 Showcase IGN Nordic",
       "category": "skip",
       "relevance_score": 0,
@@ -329,7 +329,7 @@
       "story_age_days": 46,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: Xbox gaming showcase announcement, no massage chair relevance"
+      "skip_reason": "Off-topic: Xbox gaming announcement, no massage chair relevance"
     },
     {
       "id": "561f80b24b62fd62",
@@ -339,15 +339,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-17T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.051970+00:00",
+      "fetched_at": "2026-06-08T14:42:15.026694+00:00",
       "summary": "Inside the RM35,888 'Well-Being' Chair: What Exactly Do You Get for the Price of a New Car? SoyaCincau",
       "category": "skip",
-      "relevance_score": 2,
+      "relevance_score": 3,
       "content_action": "skip",
       "story_age_days": 52,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "too old to be news (52 days); appears to reference Malaysian-priced chair (RM35,888), not U.S. market relevant"
+      "skip_reason": "Consumer relevance test fails: Malaysian-market well-being chair (RM35,888 price point suggests local product) with no U.S. availability or purchase pathway for target audience"
     },
     {
       "id": "f4e5900d58ed9c21",
@@ -357,7 +357,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-13T01:57:54+00:00",
-      "fetched_at": "2026-06-08T14:16:41.052142+00:00",
+      "fetched_at": "2026-06-08T14:42:15.026970+00:00",
       "summary": "2026 Raffle Winners Announced Good Friday Appeal",
       "category": "skip",
       "relevance_score": 0,
@@ -365,7 +365,7 @@
       "story_age_days": 56,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "too old to be news (56 days); charity raffle winners announcement with no specific massage chair focus"
+      "skip_reason": "Off-topic: charity raffle winners announcement, no massage chair product content"
     },
     {
       "id": "9efe5124c53577b8",
@@ -375,7 +375,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-27T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.052484+00:00",
+      "fetched_at": "2026-06-08T14:42:15.027103+00:00",
       "summary": "Best Back Massager for Chairs in 2026 Technobezz",
       "category": "skip",
       "relevance_score": 1,
@@ -383,7 +383,7 @@
       "story_age_days": 42,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Generic listicle without specific chair models or actionable product information; no U.S. buyer decision value"
+      "skip_reason": "Story age 42 days exceeds recency threshold for inclusion; generic listicle with no specific chair model or brand detail"
     },
     {
       "id": "622c4fbacc2f3cb9",
@@ -393,7 +393,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-17T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.052665+00:00",
+      "fetched_at": "2026-06-08T14:42:15.027376+00:00",
       "summary": "37 Of The Best Recliners Perfect For Kicking Back And Relaxing BuzzFeed",
       "category": "skip",
       "relevance_score": 0,
@@ -401,7 +401,7 @@
       "story_age_days": 52,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: story is about recliners in general, not massage chairs; too old (52 days)"
+      "skip_reason": "Story age 52 days exceeds recency threshold; off-topic coverage of general recliners, not massage chairs"
     },
     {
       "id": "b6ed53bb4722a842",
@@ -411,33 +411,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-30T09:38:22+00:00",
-      "fetched_at": "2026-06-08T14:16:41.052842+00:00",
+      "fetched_at": "2026-06-08T14:42:15.027518+00:00",
       "summary": "Massage chair sale on Amazon: Prices slashed up to 71% on top models Mathrubhumi English",
       "category": "brand_announcement",
-      "relevance_score": 3,
+      "relevance_score": 2,
       "content_action": "skip",
       "story_age_days": 9,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Generic promotional sale announcement without specific chair models named or pricing context; no editorial value"
-    },
-    {
-      "id": "0e0a288d3319bf70",
-      "title": "Rekha Gupta Viral Office Chair: Price, Features and Why Social Media Is Talking About It - LatestLY",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQM3FOdVlURkN2dTNoSEh2cDBvU21kRHo0THM3eW9NZXFwTFlsdF80SFRSWjlsZUhLY1NHNUtVV2tjVDU4TzlDOUI5R241cldYSVNjU1oydGVFVHQtdm95UTFzbGIyRlRLMFNGNG53Q3lmcHlEWnFSTUl3MTBsQjZnM0V0WkVwcS1OaGYwZVh3ZUVOcFIwbHc2b0w4OFhMQmVBd0tuRzIxbG9ueHZlZFVjYjZaUWpHbFFDR2xUa000UTBvSEdmUFVDQlpKcGg2aHp6NGlNbkN30gHbAUFVX3lxTFBnNllIUWhleTgwaTR4c1A2MlFvX3BDR1dhTU1xTUk2OWVYUVRKXzNMZk1zUkNxbjBNOHRocElzVmpsMmJJeFpoWVhwOVhCQ3RGTzNfN3pwcC01QUlhWDdpaXVtWXYxMU1uY2JDZzlXRnJmWEtQT19OOTVEWHlzUFk4S1hLSmNPODdhNndwWU5sRXV3UVcyeEp6VUtvTlA3NXo1SFdRQUNaS1Z5QWx1d0twRndSX25fUXdtLTcwS0VZcXJ4YWh1QVo4WEo4bmtxR0Z3SzhJSDU4a2xuOA?oc=5",
-      "source": "google_news:new_releases_2026",
-      "source_type": "google_news",
-      "brand": null,
-      "published_at": "2026-05-26T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:41.053183+00:00",
-      "summary": "Rekha Gupta Viral Office Chair: Price, Features and Why Social Media Is Talking About It LatestLY",
-      "category": "skip",
-      "relevance_score": 0,
-      "content_action": "skip",
-      "story_age_days": 13,
-      "brands_mentioned": [],
-      "draft_angle": null,
-      "skip_reason": "Off-topic: story is about a viral office chair (Rekha Gupta product), not a massage chair for home wellness"
+      "skip_reason": "Purely promotional flash sale without editorial value; no new product or pricing policy change disclosed"
     },
     {
       "id": "3a6859969d51de02",
@@ -447,7 +429,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-13T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:43.973704+00:00",
+      "fetched_at": "2026-06-08T14:42:17.958459+00:00",
       "summary": "Cozzia introduces at-home red light therapy with newest chair Furniture Today",
       "category": "skip",
       "relevance_score": 0,
@@ -457,7 +439,7 @@
         "Cozzia"
       ],
       "draft_angle": null,
-      "skip_reason": "Brand retired from catalog (rule 3); too old (56 days)"
+      "skip_reason": "brand retired from catalog"
     },
     {
       "id": "2ed6e4229597607a",
@@ -467,35 +449,17 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-10T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:43.976391+00:00",
+      "fetched_at": "2026-06-08T14:42:17.960267+00:00",
       "summary": "More than a massage: Osim’s uDream.AI chair sets a new direction for at-home wellness CNA",
-      "category": "skip",
-      "relevance_score": 4,
+      "category": "new_chair_launch",
+      "relevance_score": 7,
       "content_action": "skip",
       "story_age_days": 59,
       "brands_mentioned": [
         "Osim"
       ],
       "draft_angle": null,
-      "skip_reason": "Brand not in MCF catalog; too old (59 days); no U.S. retail availability confirmed"
-    },
-    {
-      "id": "e1329fe4dbcfa8fd",
-      "title": "Experts recommend 11 massage chairs to deliver deep home relaxation - mezha.net",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxOFhNZjU1OVE3TnJUWkxlZXNTQlpvNG5jRjgteGdIdEpPbzNPejdNMjUxRWFDakNTNWU1UFExQ3VDdTQ0UE5lZ0Z5V3BuWkpGM1kyWDNKamdOb2p4WkFsbEhxWWIzclZrbFE?oc=5",
-      "source": "google_news:4d_tech",
-      "source_type": "google_news",
-      "brand": null,
-      "published_at": "2026-05-19T20:19:00+00:00",
-      "fetched_at": "2026-06-08T14:16:46.781044+00:00",
-      "summary": "Experts recommend 11 massage chairs to deliver deep home relaxation mezha.net",
-      "category": "skip",
-      "relevance_score": 2,
-      "content_action": "skip",
-      "story_age_days": 19,
-      "brands_mentioned": [],
-      "draft_angle": null,
-      "skip_reason": "Generic expert roundup without specific chair details or comparative analysis; source domain (mezha.net) has low credibility"
+      "skip_reason": "Story age 59 days exceeds recency threshold (>60 days rule); Osim not in MCF active catalog for U.S. market"
     },
     {
       "id": "c8826fe7261f09fe",
@@ -505,7 +469,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-06-08T01:43:35+00:00",
-      "fetched_at": "2026-06-08T14:16:46.783991+00:00",
+      "fetched_at": "2026-06-08T14:42:20.748063+00:00",
       "summary": "Cheap sharper image massage chair foldable on Sale Sharper Image Revival 3D Massage Chair Fitness Recovery Lab tuitec.com",
       "category": "brand_announcement",
       "relevance_score": 2,
@@ -515,7 +479,7 @@
         "Sharper Image"
       ],
       "draft_angle": null,
-      "skip_reason": "Sale announcement for existing product (Sharper Image Revival 3D) already in catalog; no new information or newsworthy angle"
+      "skip_reason": "Promotional sale listing with no editorial substance; sourced from deal/discount aggregator"
     },
     {
       "id": "8dd8f8075aaead99",
@@ -525,15 +489,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-31T03:15:55+00:00",
-      "fetched_at": "2026-06-08T14:16:46.784347+00:00",
+      "fetched_at": "2026-06-08T14:42:20.748343+00:00",
       "summary": "Massage chair sale on Amazon: Prices slashed up to 71% on top models Dailyhunt",
       "category": "brand_announcement",
-      "relevance_score": 2,
+      "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 8,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Duplicate of story b6ed53bb4722a842; generic promotional sale without specific chair models"
+      "skip_reason": "Duplicate flash sale promotion; purely promotional with no editorial value or newsworthy pricing change"
     },
     {
       "id": "ec85fbaf28184142",
@@ -543,15 +507,33 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-22T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:49.551065+00:00",
+      "fetched_at": "2026-06-08T14:42:23.576672+00:00",
       "summary": "These Massage Chairs Are Better Than a Spa Day (No Appointment Needed) Yahoo",
-      "category": "skip",
-      "relevance_score": 2,
+      "category": "consumer_review",
+      "relevance_score": 3,
       "content_action": "skip",
       "story_age_days": 47,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Generic listicle without specific chair models; too old (47 days); no actionable buyer information"
+      "skip_reason": "Story age 47 days; generic listicle from Yahoo with no sourcing detail or specific model depth"
+    },
+    {
+      "id": "e1329fe4dbcfa8fd",
+      "title": "Experts recommend 11 massage chairs to deliver deep home relaxation - mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxOFhNZjU1OVE3TnJUWkxlZXNTQlpvNG5jRjgteGdIdEpPbzNPejdNMjUxRWFDakNTNWU1UFExQ3VDdTQ0UE5lZ0Z5V3BuWkpGM1kyWDNKamdOb2p4WkFsbEhxWWIzclZrbFE?oc=5",
+      "source": "google_news:sl_track",
+      "source_type": "google_news",
+      "brand": null,
+      "published_at": "2026-05-19T20:19:00+00:00",
+      "fetched_at": "2026-06-08T14:42:23.576829+00:00",
+      "summary": "Experts recommend 11 massage chairs to deliver deep home relaxation mezha.net",
+      "category": "consumer_review",
+      "relevance_score": 3,
+      "content_action": "skip",
+      "story_age_days": 19,
+      "brands_mentioned": [],
+      "draft_angle": null,
+      "skip_reason": "Story age 19 days; sourced from mezha.net (limited credibility); generic roundup with no specific chair model detail or hands-on assessment"
     },
     {
       "id": "0513e0575b4e19bc",
@@ -561,7 +543,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-03T23:39:20+00:00",
-      "fetched_at": "2026-06-08T14:16:52.384847+00:00",
+      "fetched_at": "2026-06-08T14:42:26.401419+00:00",
       "summary": "2 New Replacement BELTS* For Osaki 7075R Titan Lucas Massage Chair - West Coast Belts Portal Cantagalo",
       "category": "skip",
       "relevance_score": 0,
@@ -571,7 +553,7 @@
         "Osaki"
       ],
       "draft_angle": null,
-      "skip_reason": "Off-topic: story is about replacement parts (belts) for an existing chair model, not a product or feature news story"
+      "skip_reason": "Off-topic: replacement parts marketplace listing, not editorial content about massage chairs"
     },
     {
       "id": "ce8c67b721af5c60",
@@ -581,15 +563,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-14T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:16:55.265758+00:00",
+      "fetched_at": "2026-06-08T14:42:29.260610+00:00",
       "summary": "This Heated Massage Chair Is the Home Office Upgrade Worth Every Penny—and It’s $100 Off Lifewire",
-      "category": "skip",
-      "relevance_score": 1,
+      "category": "consumer_review",
+      "relevance_score": 2,
       "content_action": "skip",
       "story_age_days": 55,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Too old (55 days); generic promotional article without specific chair model details or comparative analysis"
+      "skip_reason": "Story age 55 days exceeds recency threshold; generic product promotion with no specific chair model named"
     },
     {
       "id": "580dadf9b0085544",
@@ -599,7 +581,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-05-23T07:44:11+00:00",
-      "fetched_at": "2026-06-08T14:16:58.286455+00:00",
+      "fetched_at": "2026-06-08T14:42:32.270447+00:00",
       "summary": "Saudi Arabia Massage Chair Market Outlook: Wellness Demand, Premiumization & Growth Opportunities vocal.media",
       "category": "industry_news",
       "relevance_score": 1,
@@ -607,7 +589,7 @@
       "story_age_days": 16,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Saudi Arabia market outlook; lacks U.S. consumer relevance; regional market data does not inform U.S. buyer decisions"
+      "skip_reason": "Saudi Arabia domestic market report; fails consumer relevance test (no U.S. buyer impact); regional market research without U.S. product news"
     },
     {
       "id": "4453660f053d6487",
@@ -617,91 +599,17 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-06-04T18:35:00+00:00",
-      "fetched_at": "2026-06-08T14:16:58.289952+00:00",
+      "fetched_at": "2026-06-08T14:42:32.273299+00:00",
       "summary": "Human Touch® Highlights Best Massage Chairs for Athletic Recovery and Relaxation This Father's Day EIN News",
       "category": "brand_announcement",
-      "relevance_score": 3,
+      "relevance_score": 5,
       "content_action": "brand_alert_only",
       "story_age_days": 3,
       "brands_mentioned": [
         "Human Touch"
       ],
-      "draft_angle": "Human Touch Father's Day promotion highlighting athletic recovery and relaxation positioning.",
+      "draft_angle": null,
       "skip_reason": null
-    },
-    {
-      "id": "ff9b474f153d70d3",
-      "title": "Inspiring Conversations with Robert Nelson of LuracoHealth & Beauty LLC - Voyage Dallas",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRGgxWFcxQ21ITUdCOFJDeDV3Rm5DeUZUcW9ncV9KLWpCaXNjd2xTSVhZdmMzUjVzY2t5TE12bFU4VDR2Qm9uVHJYUzdiTExRaWJHVXA3UVBxT2RVdF85bmFDWC1VZWRHbmltQ0hJdXAxdHdTdk9oZ1pLSG45ZzBBUUpGbWRSSHpFNWNIY3dnV1NXdEtDVHpIcTZjZHdSZHdxTkRybW9SWFg?oc=5",
-      "source": "google_news:safety_recalls",
-      "source_type": "google_news",
-      "brand": null,
-      "published_at": "2026-05-19T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:01.463600+00:00",
-      "summary": "Inspiring Conversations with Robert Nelson of LuracoHealth & Beauty LLC Voyage Dallas",
-      "category": "brand_announcement",
-      "relevance_score": 2,
-      "content_action": "skip",
-      "story_age_days": 20,
-      "brands_mentioned": [
-        "Luraco"
-      ],
-      "draft_angle": null,
-      "skip_reason": "Interview with company executive about brand mission; no product announcement or buyer-facing news"
-    },
-    {
-      "id": "a3a4f5f0b7e49635",
-      "title": "Best riser recliner chairs 2022: Which? Best Buys and expert buying advice - Which? - which.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOEdQRVBJQ1k1S1Mybnk1ZGVGdUJMOFRoT3IwLVRkMnNLNUZPcFlzeEpKTEwwN1BzN2J3WXNrRXRZQkEwcjJJaWtLX0kwUjdBQ2RyNjg5eE83SEk1NmJnMjJTUHU1Q1dRVFBKOGdsamZZTENPRkhmWXNFVmhZRXB5RERMVGVGMkhLNXRBQWI0cEdWYWZmYmZOdTlySGhjYTczLXRXS3JwNFpWaWJKbTFiZ1VPTkx3dw?oc=5",
-      "source": "google_news:safety_recalls",
-      "source_type": "google_news",
-      "brand": null,
-      "published_at": "2026-06-02T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:01.468478+00:00",
-      "summary": "Best riser recliner chairs 2022: Which? Best Buys and expert buying advice - Which? which.co.uk",
-      "category": "skip",
-      "relevance_score": 0,
-      "content_action": "skip",
-      "story_age_days": 6,
-      "brands_mentioned": [],
-      "draft_angle": null,
-      "skip_reason": "Off-topic: story is about riser recliner chairs (mobility aids), not massage chairs for home wellness"
-    },
-    {
-      "id": "8eb9d36729810b2d",
-      "title": "We Sat in Folding Chairs for Hours to Land on Three Great Options - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXWDl3ME15RkVzTzZNUEIwaG9TUGhNX1haV0RqQzdwZWNNblR5SV9SN2JPTHNDTEtOZGZncWdjb2JFYUlBQU5IZFZ3NjMzWmQ0WEVDdTk4WElhanZsR3ZSQlphTUJ0aURkcWpJcXdFWjE?oc=5",
-      "source": "google_news:safety_recalls",
-      "source_type": "google_news",
-      "brand": null,
-      "published_at": "2026-06-05T16:57:49+00:00",
-      "fetched_at": "2026-06-08T14:17:01.470268+00:00",
-      "summary": "We Sat in Folding Chairs for Hours to Land on Three Great Options The New York Times",
-      "category": "skip",
-      "relevance_score": 0,
-      "content_action": "skip",
-      "story_age_days": 2,
-      "brands_mentioned": [],
-      "draft_angle": null,
-      "skip_reason": "Off-topic: story is about folding chairs, not massage chairs"
-    },
-    {
-      "id": "bb4d2de1ed0111b3",
-      "title": "The 6 Best Camping Chairs of 2026 | Reviews by Wirecutter - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVRmh2TUcyZ3FmeVgxQ2FFU1A1eGUxZlk0VmExaVNVa0tFWjh4My0zN29vRzcxbzhoY20wVFdSbG5PLXd1YlJnLXlwcklYVXdyczBBRU5XcmE2TE9QalQ0NDdiLVdfVWp6NzN1V3FVSnFOb0VMcVZKb25oUEQ?oc=5",
-      "source": "google_news:safety_recalls",
-      "source_type": "google_news",
-      "brand": null,
-      "published_at": "2026-05-21T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:01.470788+00:00",
-      "summary": "The 6 Best Camping Chairs of 2026 | Reviews by Wirecutter The New York Times",
-      "category": "skip",
-      "relevance_score": 0,
-      "content_action": "skip",
-      "story_age_days": 18,
-      "brands_mentioned": [],
-      "draft_angle": null,
-      "skip_reason": "Off-topic: story is about camping chairs (Wirecutter competitor); competitor source rule applies"
     },
     {
       "id": "8eabcd39d807b5d8",
@@ -711,7 +619,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-06-04T15:01:49+00:00",
-      "fetched_at": "2026-06-08T14:17:01.472536+00:00",
+      "fetched_at": "2026-06-08T14:42:35.276886+00:00",
       "summary": "This Deep Tissue Massager Looks Like a Medieval Torture Device. But It Works Like a Dream. | Reviews by Wirecutter The New York Times",
       "category": "skip",
       "relevance_score": 0,
@@ -719,7 +627,63 @@
       "story_age_days": 3,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: story is about a handheld deep tissue massager, not a massage chair; competitor source (Wirecutter)"
+      "skip_reason": "Competitor source (Wirecutter/NYT); blocked per rule 8. Also off-topic: deep tissue massager, not massage chair"
+    },
+    {
+      "id": "ff9b474f153d70d3",
+      "title": "Inspiring Conversations with Robert Nelson of LuracoHealth & Beauty LLC - Voyage Dallas",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRGgxWFcxQ21ITUdCOFJDeDV3Rm5DeUZUcW9ncV9KLWpCaXNjd2xTSVhZdmMzUjVzY2t5TE12bFU4VDR2Qm9uVHJYUzdiTExRaWJHVXA3UVBxT2RVdF85bmFDWC1VZWRHbmltQ0hJdXAxdHdTdk9oZ1pLSG45ZzBBUUpGbWRSSHpFNWNIY3dnV1NXdEtDVHpIcTZjZHdSZHdxTkRybW9SWFg?oc=5",
+      "source": "google_news:safety_recalls",
+      "source_type": "google_news",
+      "brand": null,
+      "published_at": "2026-05-19T07:00:00+00:00",
+      "fetched_at": "2026-06-08T14:42:35.277077+00:00",
+      "summary": "Inspiring Conversations with Robert Nelson of LuracoHealth & Beauty LLC Voyage Dallas",
+      "category": "brand_announcement",
+      "relevance_score": 4,
+      "content_action": "include_in_roundup",
+      "story_age_days": 20,
+      "brands_mentioned": [
+        "Luraco"
+      ],
+      "draft_angle": "Luraco executive interview in Dallas profile; brand perspective on wellness market and company direction.",
+      "skip_reason": null
+    },
+    {
+      "id": "a3a4f5f0b7e49635",
+      "title": "Best riser recliner chairs 2022: Which? Best Buys and expert buying advice - Which? - which.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOEdQRVBJQ1k1S1Mybnk1ZGVGdUJMOFRoT3IwLVRkMnNLNUZPcFlzeEpKTEwwN1BzN2J3WXNrRXRZQkEwcjJJaWtLX0kwUjdBQ2RyNjg5eE83SEk1NmJnMjJTUHU1Q1dRVFBKOGdsamZZTENPRkhmWXNFVmhZRXB5RERMVGVGMkhLNXRBQWI0cEdWYWZmYmZOdTlySGhjYTczLXRXS3JwNFpWaWJKbTFiZ1VPTkx3dw?oc=5",
+      "source": "google_news:safety_recalls",
+      "source_type": "google_news",
+      "brand": null,
+      "published_at": "2026-06-02T07:00:00+00:00",
+      "fetched_at": "2026-06-08T14:42:35.281061+00:00",
+      "summary": "Best riser recliner chairs 2022: Which? Best Buys and expert buying advice - Which? which.co.uk",
+      "category": "skip",
+      "relevance_score": 0,
+      "content_action": "skip",
+      "story_age_days": 6,
+      "brands_mentioned": [],
+      "draft_angle": null,
+      "skip_reason": "Off-topic: riser recliner chairs (mobility/healthcare furniture), not massage chairs; UK market focus (which.co.uk)"
+    },
+    {
+      "id": "bb4d2de1ed0111b3",
+      "title": "The 6 Best Camping Chairs of 2026 | Reviews by Wirecutter - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVRmh2TUcyZ3FmeVgxQ2FFU1A1eGUxZlk0VmExaVNVa0tFWjh4My0zN29vRzcxbzhoY20wVFdSbG5PLXd1YlJnLXlwcklYVXdyczBBRU5XcmE2TE9QalQ0NDdiLVdfVWp6NzN1V3FVSnFOb0VMcVZKb25oUEQ?oc=5",
+      "source": "google_news:safety_recalls",
+      "source_type": "google_news",
+      "brand": null,
+      "published_at": "2026-05-21T07:00:00+00:00",
+      "fetched_at": "2026-06-08T14:42:35.282454+00:00",
+      "summary": "The 6 Best Camping Chairs of 2026 | Reviews by Wirecutter The New York Times",
+      "category": "skip",
+      "relevance_score": 0,
+      "content_action": "skip",
+      "story_age_days": 18,
+      "brands_mentioned": [],
+      "draft_angle": null,
+      "skip_reason": "Competitor source (Wirecutter/NYT); blocked per rule 8. Off-topic: camping chairs, not massage chairs"
     },
     {
       "id": "c184ab39bea2f232",
@@ -729,7 +693,7 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-06-03T18:34:25+00:00",
-      "fetched_at": "2026-06-08T14:17:01.475039+00:00",
+      "fetched_at": "2026-06-08T14:42:35.285942+00:00",
       "summary": "The Best Home-Office Furniture and Supplies of 2026 | Reviews by Wirecutter The New York Times",
       "category": "skip",
       "relevance_score": 0,
@@ -737,43 +701,7 @@
       "story_age_days": 4,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Competitor source (Wirecutter); may mention massage chairs as home office equipment but does not focus on them; competitor advisory rule applies"
-    },
-    {
-      "id": "db06a381b8c80ccf",
-      "title": "Intel's New Handheld Gaming PC Chips Are Here At Computex 2026 - IGN Nordic",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQU12QXBYMW1OcmpPQzNJaFNwV1hHa0VsM3hYVlF0Y3g1ZkVGN1lWZ2gzWHVQdHZHVFdGOV91SmFQeTZQTHdVZG0tbnpQLWNrSDBfQkxiMVljdkpacmhFTlkyQlJXVHU1cENvcFNkOWxrS21IdDRJLVRja0hQdlNZOGZxUjFmdDkwT3YwQlZCSnM3X3NOcWExbzB1Tjg?oc=5",
-      "source": "google_news:ces_2026",
-      "source_type": "google_news",
-      "brand": null,
-      "published_at": "2026-05-28T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:04.433378+00:00",
-      "summary": "Intel's New Handheld Gaming PC Chips Are Here At Computex 2026 IGN Nordic",
-      "category": "skip",
-      "relevance_score": 0,
-      "content_action": "skip",
-      "story_age_days": 11,
-      "brands_mentioned": [],
-      "draft_angle": null,
-      "skip_reason": "Off-topic: story is about gaming PC chips, not massage chairs"
-    },
-    {
-      "id": "a69218ed4d9b3adb",
-      "title": "The 9 best office chairs for back pain, according to orthopedic surgeons - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5QLUNqRTF4WkNpeHhxb3QtR3Z1M1duQkFGak01M1Bjdkw2NmNFdU93MkJGWXExd2R0U3BIcW4xLURfa3ZLeFZDYzRVcmdxUXBJbzMzMlpjMXA3cUwzWVVOSkNOODlOQTZ5dV8yY3NMSktLVkxqSy1EYg?oc=5",
-      "source": "google_news:back_pain_angle",
-      "source_type": "google_news",
-      "brand": null,
-      "published_at": "2026-04-27T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:07.428568+00:00",
-      "summary": "The 9 best office chairs for back pain, according to orthopedic surgeons CNN",
-      "category": "skip",
-      "relevance_score": 0,
-      "content_action": "skip",
-      "story_age_days": 42,
-      "brands_mentioned": [],
-      "draft_angle": null,
-      "skip_reason": "Off-topic: story is about office chairs and back supports, not massage chairs. Story age 42 days also exceeds recency threshold."
+      "skip_reason": "Competitor source (Wirecutter/NYT); blocked per rule 8. Covers home office furniture broadly; massage chairs may be mentioned tangentially but no editorial value"
     },
     {
       "id": "98306f7f02f4b70a",
@@ -783,15 +711,15 @@
       "source_type": "google_news",
       "brand": null,
       "published_at": "2026-04-21T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:07.433743+00:00",
+      "fetched_at": "2026-06-08T14:42:41.190213+00:00",
       "summary": "The best back supports for office chairs Yours Magazine",
       "category": "skip",
-      "relevance_score": 0,
+      "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 48,
       "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: story is about office chair back supports, not massage chairs. Story age 48 days also exceeds recency threshold."
+      "skip_reason": "Off-topic: back support cushions for office chairs, not massage chairs; tangential wellness angle"
     },
     {
       "id": "a725523b9a16f05e",
@@ -800,17 +728,17 @@
       "source": "google_news:Bodyfriend",
       "source_type": "google_news_brand",
       "brand": "Bodyfriend",
-      "published_at": "2026-05-29T08:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:15.840653+00:00",
+      "published_at": "2026-05-29T07:00:00+00:00",
+      "fetched_at": "2026-06-08T14:42:49.600082+00:00",
       "summary": "Massage Chairs and Healthcare Devices Expand into Comprehensive Wellness Solutions aju press",
-      "category": "brand_announcement",
+      "category": "industry_news",
       "relevance_score": 5,
       "content_action": "include_in_roundup",
       "story_age_days": 10,
       "brands_mentioned": [
         "Bodyfriend"
       ],
-      "draft_angle": "Bodyfriend expands product ecosystem into comprehensive wellness solutions, signaling category growth in healthcare devices and digital health integration.",
+      "draft_angle": "Bodyfriend expands into comprehensive wellness solutions integrating massage chairs with healthcare devices; market trend toward integrated wellness platforms.",
       "skip_reason": null
     },
     {
@@ -821,17 +749,17 @@
       "source_type": "google_news_brand",
       "brand": "Bodyfriend",
       "published_at": "2026-06-05T00:15:41+00:00",
-      "fetched_at": "2026-06-08T14:17:15.841106+00:00",
+      "fetched_at": "2026-06-08T14:42:49.600454+00:00",
       "summary": "Bodyfriend Launches Summer Promotion Offering Benefits of Up to 3.24 Million Won 아시아경제",
       "category": "brand_announcement",
-      "relevance_score": 1,
+      "relevance_score": 2,
       "content_action": "skip",
       "story_age_days": 3,
       "brands_mentioned": [
         "Bodyfriend"
       ],
       "draft_angle": null,
-      "skip_reason": "Purely promotional: Korean domestic market summer promotion with no U.S. buyer relevance or newsworthy pricing change."
+      "skip_reason": "Purely promotional content about Korean domestic market sale. No U.S. buyer relevance and no product or pricing information for U.S. market."
     },
     {
       "id": "540176c64f99e979",
@@ -841,9 +769,9 @@
       "source_type": "google_news_brand",
       "brand": "Bodyfriend",
       "published_at": "2026-04-30T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:15.841495+00:00",
+      "fetched_at": "2026-06-08T14:42:49.600817+00:00",
       "summary": "Bodyfriend teams up with KBO to launch baseball-themed products 매일경제",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 39,
@@ -851,7 +779,7 @@
         "Bodyfriend"
       ],
       "draft_angle": null,
-      "skip_reason": "Fails consumer relevance test: Korean domestic market product collaboration with KBO (Korean Baseball Organization), no U.S. availability or buyer impact."
+      "skip_reason": "Korean domestic market collaboration. No U.S. consumer relevance. story_age_days exceeds threshold at 39 days."
     },
     {
       "id": "e57a531249c9242a",
@@ -861,37 +789,17 @@
       "source_type": "google_news_brand",
       "brand": "Bodyfriend",
       "published_at": "2026-05-22T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:15.841680+00:00",
+      "fetched_at": "2026-06-08T14:42:49.600968+00:00",
       "summary": "Bodyfriend debuts Dia Denim New Falcon, elevates interior appeal in Korea - CHOSUNBIZ Chosunbiz",
-      "category": "skip",
-      "relevance_score": 2,
+      "category": "new_chair_launch",
+      "relevance_score": 3,
       "content_action": "skip",
       "story_age_days": 17,
       "brands_mentioned": [
         "Bodyfriend"
       ],
       "draft_angle": null,
-      "skip_reason": "Fails consumer relevance test: Korean domestic market chair launch (Dia Denim New Falcon), no U.S. retail availability or announcement."
-    },
-    {
-      "id": "2baca434b1ada86e",
-      "title": "Bodyfriend Successfully Concludes In-House Health Promotion Campaign \"Hot! Body Challenge\" - 아시아경제",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIMnNwWThFYlliaHpkZFpiaVZrOURuTWdJdWZaY0NGSE9WR21ocnoydUhwaElkT0FtUGtEVFc2YldTNzFFbW9kNVhtaHdPaXFieDhLQ1lldVpwQ0kxeF9wdjBFU0I?oc=5",
-      "source": "google_news:Bodyfriend",
-      "source_type": "google_news_brand",
-      "brand": "Bodyfriend",
-      "published_at": "2026-06-01T01:57:08+00:00",
-      "fetched_at": "2026-06-08T14:17:15.842080+00:00",
-      "summary": "Bodyfriend Successfully Concludes In-House Health Promotion Campaign \"Hot! Body Challenge\" 아시아경제",
-      "category": "skip",
-      "relevance_score": 1,
-      "content_action": "skip",
-      "story_age_days": 7,
-      "brands_mentioned": [
-        "Bodyfriend"
-      ],
-      "draft_angle": null,
-      "skip_reason": "Fails consumer relevance test: internal corporate health campaign with no product announcement or U.S. buyer relevance."
+      "skip_reason": "Korean domestic market product launch with no confirmed U.S. availability. No pricing or specs indicating U.S. market relevance. Fails consumer relevance test."
     },
     {
       "id": "a3071867c0c502d9",
@@ -901,9 +809,9 @@
       "source_type": "google_news_brand",
       "brand": "Bodyfriend",
       "published_at": "2026-05-20T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:15.842582+00:00",
+      "fetched_at": "2026-06-08T14:42:49.601258+00:00",
       "summary": "On the 20th, healthcare robot company Bodyfriend announced that the cumulative number of visitors to.. 매일경제",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 19,
@@ -911,7 +819,27 @@
         "Bodyfriend"
       ],
       "draft_angle": null,
-      "skip_reason": "Fails consumer relevance test: Korean domestic market visitor milestone announcement with incomplete summary and no product or buyer impact."
+      "skip_reason": "Korean domestic market milestone announcement. No U.S. buyer decision-making impact."
+    },
+    {
+      "id": "2baca434b1ada86e",
+      "title": "Bodyfriend Successfully Concludes In-House Health Promotion Campaign \"Hot! Body Challenge\" - 아시아경제",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIMnNwWThFYlliaHpkZFpiaVZrOURuTWdJdWZaY0NGSE9WR21ocnoydUhwaElkT0FtUGtEVFc2YldTNzFFbW9kNVhtaHdPaXFieDhLQ1lldVpwQ0kxeF9wdjBFU0I?oc=5",
+      "source": "google_news:Bodyfriend",
+      "source_type": "google_news_brand",
+      "brand": "Bodyfriend",
+      "published_at": "2026-06-01T01:57:08+00:00",
+      "fetched_at": "2026-06-08T14:42:49.601409+00:00",
+      "summary": "Bodyfriend Successfully Concludes In-House Health Promotion Campaign \"Hot! Body Challenge\" 아시아경제",
+      "category": "brand_announcement",
+      "relevance_score": 1,
+      "content_action": "skip",
+      "story_age_days": 7,
+      "brands_mentioned": [
+        "Bodyfriend"
+      ],
+      "draft_angle": null,
+      "skip_reason": "Internal company health campaign. No product information or U.S. market relevance."
     },
     {
       "id": "2fcc2b1b9857fdd7",
@@ -921,16 +849,16 @@
       "source_type": "google_news_brand",
       "brand": "Bodyfriend",
       "published_at": "2026-05-29T00:02:42+00:00",
-      "fetched_at": "2026-06-08T14:17:15.842770+00:00",
+      "fetched_at": "2026-06-08T14:42:49.601891+00:00",
       "summary": "Bodyfriend's \"Da Vinci AI\" Receives Digital Medical and Health Support Device Certification from Ministry of Food and Drug Safety 아시아경제",
       "category": "brand_announcement",
-      "relevance_score": 3,
+      "relevance_score": 4,
       "content_action": "brand_alert_only",
       "story_age_days": 10,
       "brands_mentioned": [
         "Bodyfriend"
       ],
-      "draft_angle": null,
+      "draft_angle": "Bodyfriend's Da Vinci AI receives Korean medical device certification, signals brand commitment to clinical validation.",
       "skip_reason": null
     },
     {
@@ -941,9 +869,9 @@
       "source_type": "google_news_brand",
       "brand": "Bodyfriend",
       "published_at": "2026-04-29T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:15.842984+00:00",
+      "fetched_at": "2026-06-08T14:42:49.602032+00:00",
       "summary": "Bodyfriend taps KBO fandom with mini gun, calf massager collaboration in Korea - CHOSUNBIZ Chosunbiz",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 40,
@@ -951,7 +879,7 @@
         "Bodyfriend"
       ],
       "draft_angle": null,
-      "skip_reason": "Fails consumer relevance test: Korean domestic market product collaboration (mini gun, calf massager), no U.S. availability or buyer relevance."
+      "skip_reason": "Korean domestic market promotional collaboration. story_age_days 40 exceeds threshold. No U.S. relevance."
     },
     {
       "id": "5afbaf5cac3ab83e",
@@ -961,9 +889,9 @@
       "source_type": "google_news_brand",
       "brand": "Bodyfriend",
       "published_at": "2026-04-29T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:15.843545+00:00",
+      "fetched_at": "2026-06-08T14:42:49.602453+00:00",
       "summary": "Bodyfriend Launches Compact Massagers in Collaboration with KBO 아시아경제",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 40,
@@ -971,7 +899,7 @@
         "Bodyfriend"
       ],
       "draft_angle": null,
-      "skip_reason": "Fails consumer relevance test: Korean domestic market compact massager launch, no U.S. retail availability or buyer relevance."
+      "skip_reason": "Korean domestic market product launch. story_age_days 40 exceeds threshold. No U.S. consumer relevance."
     },
     {
       "id": "96e2638158d5535d",
@@ -981,9 +909,9 @@
       "source_type": "google_news_brand",
       "brand": "Bodyfriend",
       "published_at": "2026-04-22T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:15.843734+00:00",
+      "fetched_at": "2026-06-08T14:42:49.602612+00:00",
       "summary": "Bodyfriend taps Park Jin-young to tout AI healthcare robots in Korea - CHOSUNBIZ Chosunbiz",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 47,
@@ -991,7 +919,7 @@
         "Bodyfriend"
       ],
       "draft_angle": null,
-      "skip_reason": "Fails consumer relevance test: Korean domestic market celebrity endorsement campaign, no product announcement or U.S. buyer impact. Story age 47 days also exceeds recency threshold."
+      "skip_reason": "Korean domestic market celebrity endorsement. story_age_days 47 exceeds threshold. No U.S. buyer impact."
     },
     {
       "id": "64d72e61b430b79b",
@@ -1001,17 +929,17 @@
       "source_type": "google_news_brand",
       "brand": "Ceragem",
       "published_at": "2026-06-04T09:25:58+00:00",
-      "fetched_at": "2026-06-08T14:17:18.829342+00:00",
+      "fetched_at": "2026-06-08T14:42:52.607513+00:00",
       "summary": "HDC I-PARK Teams Up with Ceragem to Build Wellness-Based Housing Seoul Economic Daily",
       "category": "brand_announcement",
-      "relevance_score": 4,
-      "content_action": "include_in_roundup",
+      "relevance_score": 2,
+      "content_action": "skip",
       "story_age_days": 4,
       "brands_mentioned": [
         "Ceragem"
       ],
-      "draft_angle": "Ceragem partners with Korean developer on wellness-focused housing project, signaling category expansion into integrated home health ecosystems.",
-      "skip_reason": null
+      "draft_angle": null,
+      "skip_reason": "Korean domestic market real estate partnership. Fails consumer relevance test. No U.S. buyer decision impact."
     },
     {
       "id": "f71054d209ae963b",
@@ -1021,17 +949,17 @@
       "source_type": "google_news_brand",
       "brand": "Ceragem",
       "published_at": "2026-06-04T02:06:00+00:00",
-      "fetched_at": "2026-06-08T14:17:18.829750+00:00",
+      "fetched_at": "2026-06-08T14:42:52.607940+00:00",
       "summary": "HDC Ipark and Ceragem sign MOU to build wellness-focused housing in Seoul - CHOSUNBIZ Chosunbiz",
       "category": "brand_announcement",
-      "relevance_score": 4,
-      "content_action": "include_in_roundup",
+      "relevance_score": 2,
+      "content_action": "skip",
       "story_age_days": 4,
       "brands_mentioned": [
         "Ceragem"
       ],
-      "draft_angle": "Ceragem teams with HDC I-PARK for wellness housing MOU, indicating brand strategy beyond standalone products into home integration.",
-      "skip_reason": null
+      "draft_angle": null,
+      "skip_reason": "Korean domestic market real estate partnership. Fails consumer relevance test. No U.S. buyer decision impact."
     },
     {
       "id": "02b584b9f22428e9",
@@ -1041,17 +969,17 @@
       "source_type": "google_news_brand",
       "brand": "Ceragem",
       "published_at": "2026-05-28T00:26:30+00:00",
-      "fetched_at": "2026-06-08T14:17:18.830883+00:00",
+      "fetched_at": "2026-06-08T14:42:52.608862+00:00",
       "summary": "Ceragem Sees Strong Results from Experiential Marketing: \"Purchases Made After Confirming Efficacy\" 아시아경제",
       "category": "brand_announcement",
       "relevance_score": 3,
-      "content_action": "brand_alert_only",
+      "content_action": "skip",
       "story_age_days": 11,
       "brands_mentioned": [
         "Ceragem"
       ],
       "draft_angle": null,
-      "skip_reason": null
+      "skip_reason": "Korean domestic market marketing strategy. No U.S. product or pricing information. Fails consumer relevance test."
     },
     {
       "id": "1a7375c03940ed4a",
@@ -1061,9 +989,9 @@
       "source_type": "google_news_brand",
       "brand": "Ceragem",
       "published_at": "2026-04-14T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:18.831457+00:00",
+      "fetched_at": "2026-06-08T14:42:52.609281+00:00",
       "summary": "Ceragem swings to strong profit growth, signals earnings rebound 매일경제",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 55,
@@ -1071,7 +999,7 @@
         "Ceragem"
       ],
       "draft_angle": null,
-      "skip_reason": "Story age 55 days exceeds recency threshold. Corporate financial report with no product announcement or U.S. buyer relevance."
+      "skip_reason": "story_age_days 55 exceeds threshold. Korean domestic market financial news with no U.S. buyer relevance."
     },
     {
       "id": "b3db13b42f3992b3",
@@ -1081,17 +1009,17 @@
       "source_type": "google_news_brand",
       "brand": "Ceragem",
       "published_at": "2026-06-01T15:32:48+00:00",
-      "fetched_at": "2026-06-08T14:17:18.831636+00:00",
+      "fetched_at": "2026-06-08T14:42:52.609424+00:00",
       "summary": "2026 SOFURN&LIFESHOW: Find Companion Furniture for Modern Homes 조선일보",
       "category": "event_coverage",
-      "relevance_score": 3,
-      "content_action": "brand_alert_only",
+      "relevance_score": 2,
+      "content_action": "skip",
       "story_age_days": 6,
       "brands_mentioned": [
         "Ceragem"
       ],
       "draft_angle": null,
-      "skip_reason": null
+      "skip_reason": "Korean furniture trade show. No named chair announcements or U.S. market relevance."
     },
     {
       "id": "2660c4429fc94e0d",
@@ -1101,7 +1029,7 @@
       "source_type": "google_news_brand",
       "brand": "Ceragem",
       "published_at": "2026-05-03T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:18.832555+00:00",
+      "fetched_at": "2026-06-08T14:42:52.610239+00:00",
       "summary": "Massage Chair Giants Battle for Family Month Sales with Divergent Strategies 조선일보",
       "category": "industry_news",
       "relevance_score": 5,
@@ -1111,7 +1039,7 @@
         "Ceragem"
       ],
       "draft_angle": null,
-      "skip_reason": "Fails consumer relevance test: Korean domestic market family month promotional strategy coverage, no U.S. buyer impact or specific product announcement."
+      "skip_reason": "Korean domestic market sales strategy coverage. story_age_days 36 at threshold boundary. Generic analysis with no specific new product or U.S. relevance."
     },
     {
       "id": "c3c5a8d42a45d9f9",
@@ -1121,9 +1049,9 @@
       "source_type": "google_news_brand",
       "brand": "Ceragem",
       "published_at": "2026-04-24T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:18.833301+00:00",
+      "fetched_at": "2026-06-08T14:42:52.610807+00:00",
       "summary": "Building ‘AI Wellness Homes’ With 70 Firms 동아비즈니스리뷰 | DBR",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 2,
       "content_action": "skip",
       "story_age_days": 45,
@@ -1131,7 +1059,7 @@
         "Ceragem"
       ],
       "draft_angle": null,
-      "skip_reason": "Fails consumer relevance test: Korean domestic market AI wellness home ecosystem partnership announcement, no U.S. product availability. Story age 45 days also near recency threshold."
+      "skip_reason": "Korean domestic market industry initiative. story_age_days 45 exceeds threshold. No U.S. buyer decision impact."
     },
     {
       "id": "ba9f5e1d7852a81a",
@@ -1141,17 +1069,17 @@
       "source_type": "google_news_brand",
       "brand": "Ceragem",
       "published_at": "2026-04-10T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:18.834361+00:00",
+      "fetched_at": "2026-06-08T14:42:52.612008+00:00",
       "summary": "Ceragem launches AI healthcare alliance in South Korea to build K-wellness - CHOSUNBIZ Chosunbiz",
-      "category": "skip",
-      "relevance_score": 1,
+      "category": "brand_announcement",
+      "relevance_score": 2,
       "content_action": "skip",
       "story_age_days": 59,
       "brands_mentioned": [
         "Ceragem"
       ],
       "draft_angle": null,
-      "skip_reason": "story_age_days > 60 (59 days); also fails consumer relevance test - Korean domestic market health alliance, no U.S. product or buyer impact"
+      "skip_reason": "story_age_days 59 exceeds threshold. Korean domestic market alliance announcement with no U.S. relevance."
     },
     {
       "id": "89c8a5d0ef871d47",
@@ -1161,7 +1089,7 @@
       "source_type": "google_news_brand",
       "brand": "Ceragem",
       "published_at": "2026-05-14T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:18.835751+00:00",
+      "fetched_at": "2026-06-08T14:42:52.612714+00:00",
       "summary": "Ceragem Establishes 'Champions Recovery Lounge' at Jincheon Training Center 아시아경제",
       "category": "brand_announcement",
       "relevance_score": 2,
@@ -1171,7 +1099,7 @@
         "Ceragem"
       ],
       "draft_angle": null,
-      "skip_reason": "story_age_days = 25; fails consumer relevance test - recovery lounge at Korean training center has no impact on U.S. buyers or product availability"
+      "skip_reason": "Korean domestic market sports facility partnership. Fails consumer relevance test. No U.S. buyer impact."
     },
     {
       "id": "26301f3858722541",
@@ -1181,16 +1109,16 @@
       "source_type": "google_news_brand",
       "brand": "Luraco",
       "published_at": "2026-05-06T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:56.187249+00:00",
+      "fetched_at": "2026-06-08T14:43:29.542882+00:00",
       "summary": "Luraco Achieves Historic Healthcare Milestone: Medicare Approved, DME Licensed, and FDA Registered. Advancing Medical Massage Technology into Mainstream Medicine PR Newswire",
       "category": "brand_announcement",
-      "relevance_score": 7,
+      "relevance_score": 8,
       "content_action": "include_in_roundup",
       "story_age_days": 33,
       "brands_mentioned": [
         "Luraco"
       ],
-      "draft_angle": "Luraco's Medicare approval and FDA registration represents a significant certification milestone for the medical massage chair category. Explain what these certifications mean for buyers and how they differentiate Luraco's positioning.",
+      "draft_angle": "Luraco achieves Medicare approval and FDA registration, major validation milestone for medical massage chair positioning in U.S. market.",
       "skip_reason": null
     },
     {
@@ -1201,17 +1129,15 @@
       "source_type": "google_news_brand",
       "brand": "Medical Breakthrough",
       "published_at": "2026-05-06T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:59.033558+00:00",
+      "fetched_at": "2026-06-08T14:43:32.441523+00:00",
       "summary": "Health and Legal Advocates Praise Massachusetts House Passage of Key Strategy to End HIV Epidemic GLAD Law",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 33,
-      "brands_mentioned": [
-        "Medical Breakthrough"
-      ],
+      "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: story is about HIV epidemic legislation, not massage chairs. Brand name match is incidental and misleading."
+      "skip_reason": "Off-topic. Massachusetts HIV epidemic policy. Not related to massage chairs or consumer health decisions about massage chair purchase."
     },
     {
       "id": "659b58c9708ab387",
@@ -1221,17 +1147,15 @@
       "source_type": "google_news_brand",
       "brand": "Medical Breakthrough",
       "published_at": "2026-04-27T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:17:59.033959+00:00",
+      "fetched_at": "2026-06-08T14:43:32.443087+00:00",
       "summary": "MAUTH Yola Celebrates Medical Breakthrough as Separated Conjoined Twins Go Home Healthy THISDAYLIVE",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 42,
-      "brands_mentioned": [
-        "Medical Breakthrough"
-      ],
+      "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: story is about separated conjoined twins surgery. Brand name match is incidental and misleading."
+      "skip_reason": "Off-topic: story about conjoined twins surgery, not massage chairs"
     },
     {
       "id": "c4ae13246b68ef6c",
@@ -1241,57 +1165,55 @@
       "source_type": "google_news_brand",
       "brand": "Titan",
       "published_at": "2026-05-06T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:18:38.043877+00:00",
+      "fetched_at": "2026-06-08T14:44:11.987152+00:00",
       "summary": "XGIMI Is Offering 50% Off its New Flagship Titan Noir Max 4K Projector If You Back it on Kickstarter IGN Nordic",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 33,
-      "brands_mentioned": [
-        "Titan"
-      ],
+      "brands_mentioned": [],
       "draft_angle": null,
-      "skip_reason": "Off-topic: story is about a 4K projector (XGIMI brand), not a massage chair. Titan brand in active catalog is a massage chair brand, but this story is unrelated."
+      "skip_reason": "Off-topic: story about projectors (XGIMI Titan Noir Max), not massage chairs"
     },
     {
-      "id": "9dc40b5555aa735f",
+      "id": "5f8dcdbf907db7d7",
       "title": "Luraco Achieves Historic Healthcare Milestone: Medicare Approved, DME Licensed, and FDA Registered. Advancing Medical Massage Technology into Mainstream Medicine",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a26cf6c6c1145f4bbf0391dff372ec0&url=https%3a%2f%2fuk.finance.yahoo.com%2fnews%2fluraco-achieves-historic-healthcare-milestone-183700862.html&c=4132447726487926560&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a26d56ae384432ca49dc0e42e44ec60&url=https%3a%2f%2fuk.finance.yahoo.com%2fnews%2fluraco-achieves-historic-healthcare-milestone-183700862.html&c=4132447726487926560&mkt=en-us",
       "source": "bing:Luraco",
       "source_type": "bing_news_brand",
       "brand": "Luraco",
       "published_at": "2026-05-06T04:37:00+00:00",
-      "fetched_at": "2026-06-08T14:19:25.076629+00:00",
+      "fetched_at": "2026-06-08T14:44:58.736127+00:00",
       "summary": "ARLINGTON, Texas, May 6, 2026 /PRNewswire/ -- In a landmark advancement for the future of therapeutic wellness, Luraco Health & Beauty LLC, the world's ONLY American Manufacturer of Medical Massage ...",
       "category": "brand_announcement",
       "relevance_score": 7,
-      "content_action": "skip",
+      "content_action": "include_in_roundup",
       "story_age_days": 33,
       "brands_mentioned": [
         "Luraco"
       ],
-      "draft_angle": null,
-      "skip_reason": "Duplicate of story id 26301f3858722541. Both cover the same Luraco Medicare/FDA/DME milestone announcement. Include only highest-scored version in roundup."
+      "draft_angle": "Luraco's Medicare approval and FDA registration marks a significant credentialing milestone for medical massage chairs, signaling mainstream healthcare integration for a catalog brand.",
+      "skip_reason": null
     },
     {
-      "id": "731526f7901d6a72",
+      "id": "b00c4f2c6bac19a5",
       "title": "Addressing the Sedentary Health Crisis: Nouhaus Unveils Restorative Massage Technology at High Point Market 2026",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a26cf7242174222b7b66ba732dcaee0&url=https%3a%2f%2fwww.ydr.com%2fpress-release%2fstory%2f56098%2faddressing-the-sedentary-health-crisis-nouhaus-unveils-restorative-massage-technology-at-high-point-market-2026%2f&c=8293730437167922423&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a26d56f8f4e4ff5953476f36b09dfd0&url=https%3a%2f%2fwww.ydr.com%2fpress-release%2fstory%2f56098%2faddressing-the-sedentary-health-crisis-nouhaus-unveils-restorative-massage-technology-at-high-point-market-2026%2f&c=8293730437167922423&mkt=en-us",
       "source": "bing:Nouhaus",
       "source_type": "bing_news_brand",
       "brand": "Nouhaus",
       "published_at": "2026-04-26T08:21:00+00:00",
-      "fetched_at": "2026-06-08T14:19:30.571482+00:00",
+      "fetched_at": "2026-06-08T14:45:04.243953+00:00",
       "summary": "HIGH POINT, NC, UNITED STATES, April 25, 2026 /EINPresswire.com/ — [HIGH POINT, North Carolina, April 25, 2026] — As the furniture industry converges for High ...",
       "category": "event_coverage",
-      "relevance_score": 5,
-      "content_action": "include_in_roundup",
+      "relevance_score": 4,
+      "content_action": "skip",
       "story_age_days": 43,
       "brands_mentioned": [
         "Nouhaus"
       ],
-      "draft_angle": "Nouhaus showcased new restorative massage technology at High Point Market 2026. Monitor for specific chair models or technology details that might warrant a follow-up feature.",
-      "skip_reason": null
+      "draft_angle": null,
+      "skip_reason": "too old to be news (story_age_days > 60, actual age 43 but event is 2026 retrospective with no specific new chair or feature detail)"
     },
     {
       "id": "8d933a2801b5becb",
@@ -1301,9 +1223,9 @@
       "source_type": "brand_official",
       "brand": "Human Touch",
       "published_at": "2026-04-13T19:10:00+00:00",
-      "fetched_at": "2026-06-08T14:25:43.158778+00:00",
+      "fetched_at": "2026-06-08T14:51:15.289608+00:00",
       "summary": "Most chiropractors view massage chairs as a helpful tool that supports spinal health, relieves muscle tension, and extends the benefits of chiropractic adjustments. See which chairs they recommend to complement chiropractic therapy. More",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 3,
       "content_action": "skip",
       "story_age_days": 55,
@@ -1311,7 +1233,7 @@
         "Human Touch"
       ],
       "draft_angle": null,
-      "skip_reason": "story_age_days > 50 (55 days); brand content that appears to be a buyer guide blog post with low editorial differentiation. Human Touch brand copy, not third-party journalism."
+      "skip_reason": "too old to be news (story_age_days = 55)"
     },
     {
       "id": "c53fe2c83af19f03",
@@ -1321,9 +1243,9 @@
       "source_type": "brand_official",
       "brand": "Human Touch",
       "published_at": "2026-04-13T17:05:00+00:00",
-      "fetched_at": "2026-06-08T14:25:43.167134+00:00",
+      "fetched_at": "2026-06-08T14:51:15.296508+00:00",
       "summary": "Investing in a premium massage chair in 2026 is about more than comfort — it’s about making time for your well-being and supporting the way you live, work, and recharge every day. For busy professionals and wellness-focused individuals, these chairs bring advanced technology and thoughtful design together to create a powerful recovery experience at home, so you can feel your best and keep doing what you love. This guide explores the world of premium massage chairs, with expert insights and a cle",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 2,
       "content_action": "skip",
       "story_age_days": 55,
@@ -1331,7 +1253,7 @@
         "Human Touch"
       ],
       "draft_angle": null,
-      "skip_reason": "story_age_days > 50 (55 days); promotional brand content (buyer's guide on Human Touch domain). Not third-party journalism."
+      "skip_reason": "too old to be news (story_age_days = 55); promotional buyer's guide with no new model or feature"
     },
     {
       "id": "96a75fcf8b1b7443",
@@ -1341,9 +1263,9 @@
       "source_type": "brand_official",
       "brand": "Human Touch",
       "published_at": "2026-04-13T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:25:43.167372+00:00",
+      "fetched_at": "2026-06-08T14:51:15.296751+00:00",
       "summary": "Within 10 days after the arrival of their Perfect Chair recliner, Charles and his wife experienced a significant reduction in their chronic pain. More",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 56,
@@ -1351,7 +1273,7 @@
         "Human Touch"
       ],
       "draft_angle": null,
-      "skip_reason": "story_age_days > 50 (56 days); brand testimonial content with limited editorial value. Not verified third-party review."
+      "skip_reason": "too old to be news (story_age_days = 56); branded testimonial without editorial value"
     },
     {
       "id": "131a787d04cf7375",
@@ -1361,9 +1283,9 @@
       "source_type": "brand_official",
       "brand": "Human Touch",
       "published_at": "2026-04-13T07:00:00+00:00",
-      "fetched_at": "2026-06-08T14:25:43.167575+00:00",
+      "fetched_at": "2026-06-08T14:51:15.296919+00:00",
       "summary": "Discover how frequent massages can positively impact your physical and mental health. More",
-      "category": "skip",
+      "category": "brand_announcement",
       "relevance_score": 1,
       "content_action": "skip",
       "story_age_days": 56,
@@ -1371,7 +1293,7 @@
         "Human Touch"
       ],
       "draft_angle": null,
-      "skip_reason": "story_age_days > 50 (56 days); promotional wellness content on brand domain. No specific chair model or product news."
+      "skip_reason": "too old to be news (story_age_days = 56); wellness content without specific product detail"
     },
     {
       "id": "d806f73ef3ed76d1",
@@ -1380,8 +1302,8 @@
       "source": "JPMedics",
       "source_type": "brand_official_scraped",
       "brand": "JPMedics",
-      "published_at": "2026-06-08T14:25:56.964673+00:00",
-      "fetched_at": "2026-06-08T14:25:56.964681+00:00",
+      "published_at": "2026-06-08T14:51:29.208413+00:00",
+      "fetched_at": "2026-06-08T14:51:29.208426+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
@@ -1391,7 +1313,7 @@
         "JPMedics"
       ],
       "draft_angle": null,
-      "skip_reason": "No title or summary. Appears to be a news page scrape with no content. Cannot classify without information."
+      "skip_reason": "Empty placeholder page scraped from brand site; no actual news content"
     },
     {
       "id": "7ac690f6d7a6bbc8",
@@ -1400,18 +1322,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177365+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177374+00:00",
+      "published_at": "2026-06-08T14:56:51.295507+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295523+00:00",
       "summary": "",
       "category": "skip",
-      "relevance_score": 2,
+      "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
       "brands_mentioned": [
         "Medical Breakthrough"
       ],
       "draft_angle": null,
-      "skip_reason": "No summary provided. Appears to be brand blog scraped without content. Cannot assess editorial value."
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "ce4277ba44c2f61d",
@@ -1420,18 +1342,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177399+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177402+00:00",
+      "published_at": "2026-06-08T14:56:51.295559+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295562+00:00",
       "summary": "",
       "category": "skip",
-      "relevance_score": 1,
+      "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
       "brands_mentioned": [
         "Medical Breakthrough"
       ],
       "draft_angle": null,
-      "skip_reason": "No summary provided. Appears to be brand blog testimonial scraped without content. Promotional in nature."
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "f859d608a9f11a21",
@@ -1440,18 +1362,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177421+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177423+00:00",
+      "published_at": "2026-06-08T14:56:51.295579+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295581+00:00",
       "summary": "",
       "category": "skip",
-      "relevance_score": 2,
+      "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
       "brands_mentioned": [
         "Medical Breakthrough"
       ],
       "draft_angle": null,
-      "skip_reason": "No summary provided. Appears to be brand blog rankings content scraped without details. Competitor advisory style content on brand domain."
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "1d3933ccaaee070f",
@@ -1460,18 +1382,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177441+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177444+00:00",
+      "published_at": "2026-06-08T14:56:51.295597+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295599+00:00",
       "summary": "",
       "category": "skip",
-      "relevance_score": 2,
+      "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
       "brands_mentioned": [
         "Medical Breakthrough"
       ],
       "draft_angle": null,
-      "skip_reason": "No summary provided. Appears to be brand blog buyer guide scraped without content. Promotional in nature."
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "8cfa750f57c43386",
@@ -1480,18 +1402,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177460+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177462+00:00",
+      "published_at": "2026-06-08T14:56:51.295614+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295616+00:00",
       "summary": "",
       "category": "skip",
-      "relevance_score": 2,
+      "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
       "brands_mentioned": [
         "Medical Breakthrough"
       ],
       "draft_angle": null,
-      "skip_reason": "No summary provided. Appears to be brand blog comparison content scraped without details. Medical Breakthrough is a brand, not a credible third-party publication."
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "7d0710187388cf90",
@@ -1500,18 +1422,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177479+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177481+00:00",
+      "published_at": "2026-06-08T14:56:51.295630+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295632+00:00",
       "summary": "",
       "category": "skip",
-      "relevance_score": 1,
+      "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
       "brands_mentioned": [
         "Medical Breakthrough"
       ],
       "draft_angle": null,
-      "skip_reason": "No summary provided. Generic title with no content. Cannot assess."
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "a12973a224ee2242",
@@ -1520,18 +1442,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177498+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177499+00:00",
+      "published_at": "2026-06-08T14:56:51.295646+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295648+00:00",
       "summary": "",
       "category": "skip",
-      "relevance_score": 2,
+      "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
       "brands_mentioned": [
         "Medical Breakthrough"
       ],
       "draft_angle": null,
-      "skip_reason": "No summary provided. Appears to be brand blog guide scraped without content. Promotional in nature."
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "cb1305d72133351c",
@@ -1540,18 +1462,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177516+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177518+00:00",
+      "published_at": "2026-06-08T14:56:51.295663+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295664+00:00",
       "summary": "",
-      "category": "industry_news",
-      "relevance_score": 2,
+      "category": "skip",
+      "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
       "brands_mentioned": [
         "Medical Breakthrough"
       ],
       "draft_angle": null,
-      "skip_reason": "General wellness content about massage therapy benefits with no massage chair product angle or buyer decision impact"
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "254a8b53c6a70978",
@@ -1560,18 +1482,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177534+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177536+00:00",
+      "published_at": "2026-06-08T14:56:51.295683+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295685+00:00",
       "summary": "",
-      "category": "industry_news",
-      "relevance_score": 2,
+      "category": "skip",
+      "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
       "brands_mentioned": [
         "Medical Breakthrough"
       ],
       "draft_angle": null,
-      "skip_reason": "General educational content about massage therapy with no massage chair product angle or buyer decision impact"
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "15755c34edc209c4",
@@ -1580,18 +1502,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177552+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177554+00:00",
+      "published_at": "2026-06-08T14:56:51.295698+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295700+00:00",
       "summary": "",
-      "category": "industry_news",
-      "relevance_score": 2,
+      "category": "skip",
+      "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
       "brands_mentioned": [
         "Medical Breakthrough"
       ],
       "draft_angle": null,
-      "skip_reason": "General educational content about massage therapy with no massage chair product angle or buyer decision impact"
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "408185fdf08d614e",
@@ -1600,16 +1522,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177572+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177574+00:00",
+      "published_at": "2026-06-08T14:56:51.295714+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295716+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Medical Breakthrough"
+      ],
       "draft_angle": null,
-      "skip_reason": "Tag archive page with no specific article or content"
+      "skip_reason": "Empty placeholder page scraped from brand site; no summary provided"
     },
     {
       "id": "4d4acdaa56454057",
@@ -1618,16 +1542,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177593+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177595+00:00",
+      "published_at": "2026-06-08T14:56:51.295734+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295736+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Medical Breakthrough"
+      ],
       "draft_angle": null,
-      "skip_reason": "Tag archive page with no specific article or content"
+      "skip_reason": "Empty summary and generic tag page with no actionable content"
     },
     {
       "id": "5159c5a43cc90a89",
@@ -1636,16 +1562,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177612+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177614+00:00",
+      "published_at": "2026-06-08T14:56:51.295750+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295752+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Medical Breakthrough"
+      ],
       "draft_angle": null,
-      "skip_reason": "Tag archive page with no specific article or content"
+      "skip_reason": "Empty summary and generic tag page with no actionable content"
     },
     {
       "id": "4f658ebe4bcba900",
@@ -1654,16 +1582,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177631+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177633+00:00",
+      "published_at": "2026-06-08T14:56:51.295765+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295767+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Medical Breakthrough"
+      ],
       "draft_angle": null,
-      "skip_reason": "Tag archive page with no specific article or content"
+      "skip_reason": "Empty summary and generic tag page with no actionable content"
     },
     {
       "id": "677c27ca63757850",
@@ -1672,16 +1602,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177651+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177653+00:00",
+      "published_at": "2026-06-08T14:56:51.295781+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295783+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Medical Breakthrough"
+      ],
       "draft_angle": null,
-      "skip_reason": "Tag archive page with no specific article or content"
+      "skip_reason": "Empty summary and generic tag page with no actionable content"
     },
     {
       "id": "f31b46d3d4fdf4dd",
@@ -1690,16 +1622,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177711+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177713+00:00",
+      "published_at": "2026-06-08T14:56:51.295837+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295839+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Medical Breakthrough"
+      ],
       "draft_angle": null,
-      "skip_reason": "Blog pagination page with no specific article or content"
+      "skip_reason": "Pagination page with no content"
     },
     {
       "id": "bf31fc9826ab8e1a",
@@ -1708,16 +1642,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177734+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177736+00:00",
+      "published_at": "2026-06-08T14:56:51.295856+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295858+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Medical Breakthrough"
+      ],
       "draft_angle": null,
-      "skip_reason": "Blog pagination page with no specific article or content"
+      "skip_reason": "Pagination page with no content"
     },
     {
       "id": "6130249c0d2d29df",
@@ -1726,16 +1662,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.177755+00:00",
-      "fetched_at": "2026-06-08T14:31:19.177757+00:00",
+      "published_at": "2026-06-08T14:56:51.295875+00:00",
+      "fetched_at": "2026-06-08T14:56:51.295876+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Medical Breakthrough"
+      ],
       "draft_angle": null,
-      "skip_reason": "Blog pagination page with no specific article or content"
+      "skip_reason": "Pagination page with no content"
     },
     {
       "id": "d5e80a15a71c3d26",
@@ -1744,16 +1682,18 @@
       "source": "Medical Breakthrough",
       "source_type": "brand_official_scraped",
       "brand": "Medical Breakthrough",
-      "published_at": "2026-06-08T14:31:19.178039+00:00",
-      "fetched_at": "2026-06-08T14:31:19.178043+00:00",
+      "published_at": "2026-06-08T14:56:51.296135+00:00",
+      "fetched_at": "2026-06-08T14:56:51.296137+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Medical Breakthrough"
+      ],
       "draft_angle": null,
-      "skip_reason": "Blog home page with no specific article or content"
+      "skip_reason": "Generic blog hub page with no specific content"
     },
     {
       "id": "30a6e707e7cdeca6",
@@ -1762,8 +1702,8 @@
       "source": "Nouhaus",
       "source_type": "brand_official_scraped",
       "brand": "Nouhaus",
-      "published_at": "2026-06-08T14:31:24.122361+00:00",
-      "fetched_at": "2026-06-08T14:31:24.122369+00:00",
+      "published_at": "2026-06-08T14:56:56.326941+00:00",
+      "fetched_at": "2026-06-08T14:56:56.326957+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
@@ -1773,7 +1713,7 @@
         "Nouhaus"
       ],
       "draft_angle": null,
-      "skip_reason": "Product page without article title or content summary"
+      "skip_reason": "Generic product category page with no meaningful content"
     },
     {
       "id": "2f0b935852d2db86",
@@ -1782,16 +1722,18 @@
       "source": "Nouhaus",
       "source_type": "brand_official_scraped",
       "brand": "Nouhaus",
-      "published_at": "2026-06-08T14:31:24.122608+00:00",
-      "fetched_at": "2026-06-08T14:31:24.122611+00:00",
+      "published_at": "2026-06-08T14:56:56.327190+00:00",
+      "fetched_at": "2026-06-08T14:56:56.327193+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Nouhaus"
+      ],
       "draft_angle": null,
-      "skip_reason": "Blog home page with no specific article or content"
+      "skip_reason": "Generic blog hub page with no specific content"
     },
     {
       "id": "5d69e71a73e33bc0",
@@ -1800,34 +1742,18 @@
       "source": "Relaxe",
       "source_type": "brand_official_scraped",
       "brand": "Relaxe",
-      "published_at": "2026-06-08T14:31:54.142894+00:00",
-      "fetched_at": "2026-06-08T14:31:54.142919+00:00",
+      "published_at": "2026-06-08T14:57:28.332325+00:00",
+      "fetched_at": "2026-06-08T14:57:28.332340+00:00",
       "summary": "",
       "category": "skip",
       "relevance_score": 0,
       "content_action": "skip",
       "story_age_days": 0,
-      "brands_mentioned": [],
+      "brands_mentioned": [
+        "Relaxe"
+      ],
       "draft_angle": null,
-      "skip_reason": "Blog home page with no specific article or content"
-    },
-    {
-      "id": "eff39b35f02db242",
-      "title": "Top 10 Massage Chairs Ranked by 1,400+ Licensed Massage Therapists in 2025",
-      "url": "https://www.massagemag.com/top-massage-chairs-278650/",
-      "source": "Massage Magazine",
-      "source_type": "trade_publications",
-      "brand": null,
-      "published_at": "2026-05-12T18:10:33+00:00",
-      "fetched_at": "2026-06-08T14:32:21.151172+00:00",
-      "summary": "In 2025, MASSAGE Magazine surveyed professionals across private practices, spas, and mobile settings to identify the top-performing massage chairs in real treatment rooms.",
-      "category": "consumer_review",
-      "relevance_score": 7,
-      "content_action": "include_in_roundup",
-      "story_age_days": 26,
-      "brands_mentioned": [],
-      "draft_angle": "Survey by 1,400+ licensed massage therapists ranks top massage chairs in professional treatment settings. Captures professional user perspective on which models perform best in clinical/spa environments. Draft angle: how pro endorsements differ from consumer reviews and what that tells MCF buyers about durability and feature value.",
-      "skip_reason": null
+      "skip_reason": "Generic blog hub page with no specific content"
     }
   ]
 }
