@@ -62,11 +62,9 @@ const siteSchema = JSON.stringify({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${notoSerif.variable} ${ibmPlexSans.variable}`}>
-      <head>
-        {/* Impact.com site verification (must use the value= attribute, not content=) */}
-        <meta name="impact-site-verification" value="f2d064d1-4f6f-44dc-957f-73d0cce73f3c" />
-      </head>
       <body className="bg-background text-charcoal min-h-screen flex flex-col">
+        {/* Impact.com website verification (edit-content method): crawlable text kept in page source, visually hidden */}
+        <p style={{ position: 'absolute', width: '1px', height: '1px', overflow: 'hidden', clip: 'rect(0,0,0,0)', whiteSpace: 'nowrap' }}>Impact-Site-Verification: f2d064d1-4f6f-44dc-957f-73d0cce73f3c</p>
         <GoogleAnalytics />
         <ScrollTracker />
         <script
