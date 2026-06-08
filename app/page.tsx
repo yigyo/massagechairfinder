@@ -31,7 +31,7 @@ export default function HomePage() {
               Find the massage chair that fits your body, your space, and your budget.
             </h1>
             <p className="text-lg mb-8" style={{ color: '#E8DFD3', textShadow: '0 1px 4px rgba(0,0,0,0.80)' }}>
-              Independent comparisons and honest guidance. No showrooms, no pressure, no guesswork.
+              Independent comparisons and expert guidance. No showrooms, no pressure, no guesswork.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/finder" className="btn-primary text-center whitespace-nowrap">
@@ -113,7 +113,7 @@ export default function HomePage() {
       <section className="section">
         <h2 className="text-3xl font-serif mb-2">Learn</h2>
         <p className="text-warm-gray mb-8">
-          Guides, explainers, and honest answers across 46 articles.
+          Guides, explainers, and researched answers across 46 articles.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {[

@@ -153,7 +153,7 @@ export function priceBand(chair: Chair): PriceBand {
   if (p < 5000)  return { key: 'mid',           label: 'Mid',           range: '$3,000-$4,999',  short: '$3,000-$4,999',  hex: '#D1803E' }
   if (p < 8000)  return { key: 'upper-mid',     label: 'Upper-mid',     range: '$5,000-$7,999',  short: '$5,000-$7,999',  hex: '#934713' }
   if (p < 12000) return { key: 'premium',       label: 'Premium',       range: '$8,000-$11,999', short: '$8,000-$11,999', hex: '#1C2331' }
-  return                 { key: 'ultra-premium', label: 'Ultra-premium', range: '$12,000 and up', short: '$12,000+',       hex: '#3D3D3A' }
+  return                 { key: 'ultra-premium', label: 'Ultra-premium', range: '$12,000 and up', short: '$12,000+',       hex: '#6B21A8' }
 }
 
 // ─── CATALOG ───────────────────────────────────────────────────────────────────
