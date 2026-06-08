@@ -10,6 +10,15 @@ export default function DisclosurePage() {
   return (
     <div className="section max-w-2xl">
       <h1 className="text-4xl font-serif mb-6">Affiliate Disclosure</h1>
+
+      <h2 className="text-2xl font-serif mb-3 mt-8">Amazon Associates</h2>
+      <p className="mb-4 text-charcoal leading-relaxed">
+        Massage Chair Finder is a participant in the Amazon Services LLC Associates Program, an
+        affiliate advertising program designed to provide a means for sites to earn advertising
+        fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from
+        qualifying purchases. Prices and availability shown on Amazon are accurate as of the time
+        of your visit to Amazon and are subject to change.
+      </p>
       <div className="prose prose-lg max-w-none">
         <p>
           Massage Chair Finder participates in affiliate marketing programs. This means that when you click

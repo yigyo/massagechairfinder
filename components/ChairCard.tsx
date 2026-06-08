@@ -92,7 +92,7 @@ export default function ChairCard({ chair }: { chair: Chair }) {
             className="text-sm btn-primary py-1 px-3"
             onClick={handleShopClick}
           >
-            {chair.amazonUrl ? 'Check price on Amazon' : 'Shop'}
+            Shop
           </a>
         )}
       </div>

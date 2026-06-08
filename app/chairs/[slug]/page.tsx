@@ -548,7 +548,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
                   rel="noopener noreferrer"
                   className="btn-primary block text-center py-3 px-6 rounded font-semibold"
                 >
-                  {c.amazonUrl ? 'Check price on Amazon' : 'Shop This Chair'}
+                  Shop This Chair
                 </a>
               </div>
             )}

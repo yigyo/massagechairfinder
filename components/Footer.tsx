@@ -53,7 +53,8 @@ export default function Footer() {
         <div className="mt-10 pt-6 border-t border-teal text-xs text-warm-gray">
           <p>
             Massage Chair Finder participates in affiliate programs. When you click a link and make a purchase,
-            we may earn a commission at no additional cost to you. This never influences our recommendations.{' '}
+            we may earn a commission at no additional cost to you. As an Amazon Associate we earn from
+            qualifying purchases. This never influences our recommendations.{' '}
             <Link href="/disclosure" className="underline hover:text-gold">Full disclosure.</Link>
           </p>
           <p className="mt-2">&copy; {new Date().getFullYear()} Massage Chair Finder. All rights reserved.</p>
