@@ -115,6 +115,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-depression",
       "massage-and-insomnia",
       "massage-and-cold-hands-and-feet",
+      "massage-and-lymphatic-drainage",
+      "massage-and-touch-deprivation",
     ],
   },
 ]
