@@ -109,7 +109,6 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
         { label: 'Massage Research',  href: '/learn#massage-research' },
       ],
     },
-    { label: 'News', href: '/news' },
     { label: "Buyer's Guide", href: '/buyers-guide' },
   ]
 
