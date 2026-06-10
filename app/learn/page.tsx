@@ -117,6 +117,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-cold-hands-and-feet",
       "massage-and-lymphatic-drainage",
       "massage-and-touch-deprivation",
+      "massage-and-healthy-aging",
+      "massage-and-vagal-tone",
     ],
   },
 ]
