@@ -119,6 +119,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-touch-deprivation",
       "massage-and-healthy-aging",
       "massage-and-vagal-tone",
+      "does-reflexology-work",
+      "what-is-shiatsu-massage",
     ],
   },
 ]
