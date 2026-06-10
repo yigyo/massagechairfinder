@@ -5509,7 +5509,7 @@ The <a href="/learn/massage-and-stress">massage and stress article</a> covers th
 <p>[5] Rapaport MH, Schettler P, Larson ER, et al. <em>Six versus Twelve Weeks of Swedish Massage Therapy for Generalized Anxiety Disorder: Preliminary Findings.</em> Journal of Alternative and Complementary Medicine. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7770051/</p>
 <p>[6] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. https://pubmed.ncbi.nlm.nih.gov/19283590/</p>
 <p>[7] Laborde S, Allen MS, Borges U, et al. <em>Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis.</em> Neuroscience and Biobehavioral Reviews. 2022;138:104711. https://www.sciencedirect.com/science/article/abs/pii/S0149763422002007
-    </p>`,
+</p>`,
   },
   {
     slug: "massage-and-plantar-fasciitis",
@@ -5711,7 +5711,7 @@ The Ajimsha 2014 trial showed significant pain reduction at four weeks with thre
 <p>[4] Quinn C, Chandler C, Moraska A. <em>Changes in Clinical Parameters in Patients with Tension-type Headache Following Massage Therapy: A Pilot Study.</em> Journal of Manual and Manipulative Therapy. 2008;16(2). <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2565109/">Link</a></p>
 <p>[5] Kong LJ, Zhan HS, Cheng YW, Yuan WA, Chen BW, Fang M. <em>Massage therapy for neck and shoulder pain: a systematic review and meta-analysis.</em> Evidence-Based Complementary and Alternative Medicine. 2013;2013:613279.</p>
 <p>[6] National Center for Complementary and Integrative Health. <em>Massage Therapy: What You Need To Know.</em> Last updated May 2019. <a href="https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know">Link</a>
-                                                                                                                                                                                  </p>`,
+</p>`,
   },
   {
     slug: "massage-and-inflammation",
