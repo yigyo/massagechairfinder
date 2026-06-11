@@ -26,7 +26,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best entry for tall buyers',
-    why: 'The Genki M380 is confirmed for buyers up to 6\'5" and 330 lbs. L-track covers the glutes and upper thighs. A Wirecutter Top Pick for 2024. At $2,999, it is the most affordable chair in the catalog with a confirmed tall-buyer fit verification. 2D rollers. For buyers who need documented tall-buyer compatibility at an accessible price, this is the entry pick.',
+    why: 'The Genki M380 is confirmed for buyers up to 6\'5" and 330 lbs. L-track covers the glutes and upper thighs. At $2,999, it is the most affordable chair in the catalog with a confirmed tall-buyer fit verification. 2D rollers. For buyers who need documented tall-buyer compatibility at an accessible price, this is the entry pick.',
   },
   'amamedics-hilux-4d': {
     label: 'Best SL-track for tall buyers',

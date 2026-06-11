@@ -36,7 +36,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'kyota-genki-m380': {
     label: 'Best for tall or heavier buyers',
-    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, a notably high weight capacity for this price tier. L-track (covers glutes and thighs, less upper-back reach than SL). A Wirecutter Top Pick for 2024. For buyers who exceed the 200-lb limit of entry chairs or need a taller accommodation, this is the pick at $2,999.",
+    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, a notably high weight capacity for this price tier. L-track (covers glutes and thighs, less upper-back reach than SL). For buyers who exceed the 200-lb limit of entry chairs or need a taller accommodation, this is the pick at $2,999.",
   },
   'kahuna-hm-5000': {
     label: 'Best SL-track under $2,500, space-saving',

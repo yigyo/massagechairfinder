@@ -855,7 +855,7 @@ export const CHAIRS: Chair[] = [
       "Assembly is minimal; most buyers are fully up and running the same day it arrives",
       "Performance exceeds expectations for the price point; buyers are consistently pleasantly surprised",
     ],
-    aiNotes: 'Wirecutter Top Pick 2024. L-Track. 2D roller. 330 lb capacity. Verified from massagechairstore.com April 2026.',
+    aiNotes: 'L-Track. 2D roller. 330 lb capacity. Verified from massagechairstore.com April 2026.',
   },
 
   {

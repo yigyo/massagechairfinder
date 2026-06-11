@@ -24,7 +24,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "kyota-genki-m380": {
     label: "Best entry pick for seniors",
-    why: "The Genki M380 is the Wirecutter Top Pick for 2024 and the most forgiving chair in the catalog at this price. L-track covers the lower back, glutes, and upper thighs, which is where most chronic pain accumulates in older buyers. The 330-lb weight capacity is the highest in the under-$3,500 range, and the zero gravity position takes pressure off the lumbar during the session. At $2,999, it delivers the fundamentals without requiring buyers to navigate complex programs or settings.",
+    why: "The Genki M380 is the most forgiving chair in the catalog at this price. L-track covers the lower back, glutes, and upper thighs, which is where most chronic pain accumulates in older buyers. The 330-lb weight capacity is the highest in the under-$3,500 range, and the zero gravity position takes pressure off the lumbar during the session. At $2,999, it delivers the fundamentals without requiring buyers to navigate complex programs or settings.",
   },
   "inner-balance-jin-2": {
     label: "Best space-saving option",

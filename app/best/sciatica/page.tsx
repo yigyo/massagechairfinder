@@ -27,7 +27,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'kyota-genki-m380': {
     label: 'Best for heavier and taller builds',
-    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest weight capacity in this tier with a Plus Size Confirmed designation. L-track covers the glutes and thighs where sciatic compression typically originates. A Wirecutter Top Pick for 2024. At $2,999, it is the most affordable chair in the catalog with a confirmed high-capacity rating. For buyers whose dimensions exceed what the OS-Champ or Admiral II can verify, this is the pick.",
+    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest weight capacity in this tier with a Plus Size Confirmed designation. L-track covers the glutes and thighs where sciatic compression typically originates. At $2,999, it is the most affordable chair in the catalog with a confirmed high-capacity rating. For buyers whose dimensions exceed what the OS-Champ or Admiral II can verify, this is the pick.",
   },
   'jpmedics-kumo-4d': {
     label: 'Premium pick',

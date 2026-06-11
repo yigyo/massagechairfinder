@@ -27,7 +27,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best entry heavy-duty',
-    why: 'The Genki M380 is confirmed at 330 lbs with a Plus Size Confirmed designation and is a Wirecutter Top Pick for 2024. L-track covers the glutes and thighs. At $2,999, it is the most affordable chair in the catalog with a verified high-capacity rating. Zero gravity, heat, foot and calf massage, 2D rollers.',
+    why: 'The Genki M380 is confirmed at 330 lbs with a Plus Size Confirmed designation. L-track covers the glutes and thighs. At $2,999, it is the most affordable chair in the catalog with a verified high-capacity rating. Zero gravity, heat, foot and calf massage, 2D rollers.',
   },
   'inner-balance-jin-2': {
     label: 'Best space-saving heavy-duty under $4,000',

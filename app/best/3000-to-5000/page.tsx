@@ -24,7 +24,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best L-track entry for this tier',
-    why: "The Genki M380 is technically a $2,999 chair, sitting just under this range, but it earns its spot here for buyers who are primarily choosing on capacity and L-track coverage rather than roller sophistication. Confirmed 6'5\" and 330 lbs with a Plus Size Confirmed designation, a Wirecutter Top Pick for 2024. L-track reaches under the glutes and into the thighs. 2D rollers. For buyers who want confirmed high-capacity L-track coverage and a reliable retailer at or near this price tier, this is the starting pick.",
+    why: "The Genki M380 is technically a $2,999 chair, sitting just under this range, but it earns its spot here for buyers who are primarily choosing on capacity and L-track coverage rather than roller sophistication. Confirmed 6'5\" and 330 lbs with a Plus Size Confirmed designation. L-track reaches under the glutes and into the thighs. 2D rollers. For buyers who want confirmed high-capacity L-track coverage and a reliable retailer at or near this price tier, this is the starting pick.",
   },
   'panasonic-maf1': {
     label: 'Best S-track for neck and upper-back focus',
