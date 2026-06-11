@@ -3,8 +3,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Massage Chairs Under $5,000 (2026)',
-  description: 'Under $5,000 covers the strongest mid-tier SL-track chairs alongside the first 4D options just above that mark. Five chairs selected across every major use case in this range.',
+  title: 'Best Massage Chairs Under $5,000 (2026): 6 Picks by Use Case',
+  description: 'The best massage chairs under $5,000, from 3D SL-track value near $2,999 to the first 4D options. Six chairs compared by track, body fit, and use case.',
 }
 
 const PICK_IDS = [
@@ -24,7 +24,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best for tall or heavier builds',
-    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest capacity in this price range with a Plus Size Confirmed designation. L-track covers the glutes and thighs. A Wirecutter Top Pick for 2024. At $2,999, it is the most affordable chair in the catalog with a high-capacity verification. For buyers whose dimensions exceed what the Admiral II can confirm, this is the pick.",
+    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest capacity in this price range with a Plus Size Confirmed designation. L-track covers the glutes and thighs. At $2,999, it is the most affordable chair in the catalog with a high-capacity verification. For buyers whose dimensions exceed what the Admiral II can confirm, this is the pick.",
   },
   'panasonic-maf1': {
     label: 'Best for neck and upper-back focus',
@@ -48,6 +48,34 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair under $5,000?",
+    a: "It depends on what you are solving for. For full-spine SL-track coverage with 4D rollers and the widest confirmed body fit, the AmaMedics Hilux 4D is the strongest all-around pick at $4,999. For neck and upper-back focus, the Panasonic MAF1 S-track is the specialist choice. For buyers over 280 lbs, the Kahuna HM-078 confirms support up to 350 lbs. If value matters most, a 3D SL-track chair near $2,999 delivers most of the benefit for far less.",
+  },
+  {
+    q: "Is a 4D massage chair worth it under $5,000?",
+    a: "4D rollers vary speed and depth within each stroke, where 3D rollers adjust depth only. For buyers with chronic, deep muscle tension who find 3D chairs feel repetitive, 4D is a meaningful upgrade, and the first 4D SL-track options arrive around $4,999 to $5,999. For buyers new to massage chairs or with sensitive backs, a 3D chair with adjustable depth near $2,999 is a sound starting point.",
+  },
+  {
+    q: "What track type should I choose under $5,000?",
+    a: "Match the track to your pain. SL-track follows the full spine from neck to glutes and suits buyers with both upper and lower-back tension. S-track concentrates on the neck and upper back. L-track extends under the glutes and into the thighs for lower-back pain that radiates into the hips. At this budget you can get any of the three in good quality, so the right call is driven by where your pain sits, not by price.",
+  },
+  {
+    q: "Do you have to spend $5,000 to get a good massage chair?",
+    a: "No. The strongest value in the catalog sits near $2,999, where SL-track 3D chairs offer confirmed body fit data, body scanning, heat, and zero gravity. Spending up to $5,000 buys 4D roller sophistication, specialist S-track designs, wider confirmed height ranges, or higher weight capacity. If none of those are your priority, you do not need to stretch the budget.",
+  },
+  {
+    q: "Which massage chair under $5,000 is best for tall or heavier builds?",
+    a: "The Kyota Genki M380 confirms fit up to 6'5\" and 330 lbs, and the AmaMedics Hilux 4D confirms up to 6'7\". For weight capacity specifically, the Kahuna HM-078 supports up to 350 lbs while keeping SL-track 4D roller quality. Always check the confirmed height and weight range before buying, since fit determines whether the rollers track your spine correctly.",
+  },
+]
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -59,8 +87,31 @@ export default function BestUnder5000Page() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs Under $5,000", item: "https://massagechairfinder.com/best/under-5000" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -70,22 +121,36 @@ export default function BestUnder5000Page() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs Under $5,000</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        The under-$5,000 range spans the mid-tier at its peak, including the strongest 3D SL-track chairs below $3,000 and the first 4D options just above. The five chairs below reflect the best picks across this full range by use case rather than price point alone. Note that two of the picks (Panasonic MAF1 and Titan Pro-Vigor 4D) are priced at $5,999, just above the ceiling, but they are included because no comparable options exist at exactly $5,000 in these use cases.
+        The best massage chair under $5,000 for most buyers is the AmaMedics Hilux 4D ($4,999), an SL-track 4D chair with the widest confirmed body fit in this tier. If your pain is concentrated in the neck and upper back, the Panasonic MAF1 S-track is the specialist pick. If value is the priority, a 3D SL-track chair near $2,999 delivers most of the benefit for far less. The six chairs below are chosen by use case across the full range, not by price point alone.
       </p>
-      <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated May 2026. For a focused view by price tier, see the{' '}
+      <p className="text-charcoal max-w-2xl mb-3">
+        The under-$5,000 range spans the mid-tier at its peak, including the strongest 3D{' '}
+        <Link href="/learn/sl-track" className="text-bronze hover:text-gold transition-colors">SL-track</Link>{' '}
+        chairs below $3,000 and the first{' '}
+        <Link href="/learn/4d-vs-3d-massage-chair-rollers" className="text-bronze hover:text-gold transition-colors">4D roller</Link>{' '}
+        options just above. Two of the picks (Panasonic MAF1 and Titan Pro-Vigor 4D) are priced at $5,999, just above the ceiling, but they are included because no comparable options exist at exactly $5,000 in these use cases.
+      </p>
+      <p className="text-warm-gray text-sm mb-2 max-w-2xl">
+        Updated June 2026. For a focused view by price tier, see the{' '}
         <Link href="/best/under-3000" className="text-bronze hover:text-gold transition-colors">under-$3,000 page</Link>{' '}
         and the{' '}
         <Link href="/best/3000-to-5000" className="text-bronze hover:text-gold transition-colors">$3,000 to $5,000 page</Link>.
+      </p>
+      <p className="text-warm-gray text-sm mb-10 max-w-2xl">
+        How we pick: every chair here is drawn from the models we have researched and verified pricing and specifications for. Each spec cited below comes from the manufacturer or retailer spec sheet, not estimates. Picks are organized by buyer situation, not ranked one through six.
       </p>
 
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">What you get across this range</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          At $1,299 to $2,999, the catalog offers strong 3D SL-track options with confirmed body fit data and body scanning at the top of the range. At $4,999, SL-track 3D with 1-inch wall clearance becomes available. At $5,999, 4D roller quality enters the picture for both SL-track full-coverage and S-track upper-body focus.
+          At $1,299 to $2,999, the catalog offers strong 3D SL-track options with confirmed{' '}
+          <Link href="/learn/body-fit" className="text-bronze hover:text-gold transition-colors">body fit data</Link>{' '}
+          and body scanning at the top of the range. At $4,999, SL-track 3D with 1-inch wall clearance becomes available. At $5,999, 4D roller quality enters the picture for both SL-track full-coverage and S-track upper-body focus.
         </p>
         <p className="text-charcoal leading-relaxed">
-          The most common question in this range is whether to spend $2,999 on the Admiral II or stretch to $5,999 for 4D. The answer depends on whether variable roller speed and depth makes a functional difference for your specific pain pattern. For buyers with chronic, deep muscle tension, 4D is a meaningful step up. For buyers who are new to massage chairs or have sensitive backs, 3D with adjustable depth at $2,999 is a sound starting point.
+          The most common question in this range is whether to spend $2,999 on the Admiral II or stretch to $5,999 for 4D. The answer depends on whether variable roller speed and depth makes a functional difference for your specific pain pattern. For buyers with chronic, deep muscle tension, 4D is a meaningful step up. For buyers who are new to massage chairs or have sensitive backs, 3D with adjustable depth at $2,999 is a sound starting point. The{' '}
+          <Link href="/learn/massage-chair-price-tiers" className="text-bronze hover:text-gold transition-colors">price tier guide</Link>{' '}
+          breaks down what each budget level actually buys.
         </p>
       </div>
 
@@ -228,7 +293,9 @@ export default function BestUnder5000Page() {
           If lower back pain is the primary concern, the Admiral II (SL-track, 3D, $2,999) or the Hilux 4D (SL-track, 4D, $4,999) are the two picks depending on whether roller sophistication justifies the additional spend for your situation. If neck and upper back is the primary concern, the MAF1&apos;s S-track 4D setup is the specialist pick.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          For buyers with height above 6&apos;1&quot; or weight above 270 lbs, the Genki M380 (up to 6&apos;5&quot;, 330 lbs) or Hilux 4D (up to 6&apos;7&quot;) are the confirmed-fit options in this range.
+          For buyers with height above 6&apos;1&quot; or weight above 270 lbs, the Genki M380 (up to 6&apos;5&quot;, 330 lbs) or Hilux 4D (up to 6&apos;7&quot;) are the confirmed-fit options in this range. If you are unsure whether your measurements fall inside a chair&apos;s range, the{' '}
+          <Link href="/learn/body-fit" className="text-bronze hover:text-gold transition-colors">body fit guide</Link>{' '}
+          explains how height and weight limits are set and why they matter.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}
@@ -236,6 +303,28 @@ export default function BestUnder5000Page() {
           adds more 4D options and wider body fit confirmations. The{' '}
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}
           narrows by pain pattern, body fit, and budget together.
+        </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+
+      <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
+        <p className="text-charcoal leading-relaxed">
+          Still weighing whether to stretch your budget? The{' '}
+          <Link href="/learn/are-massage-chairs-worth-it" className="text-bronze hover:text-gold transition-colors">are massage chairs worth it guide</Link>{' '}
+          and the{' '}
+          <Link href="/learn/zero-gravity" className="text-bronze hover:text-gold transition-colors">zero gravity guide</Link>{' '}
+          cover the features that most change the experience in this price range.
         </p>
       </div>
 
