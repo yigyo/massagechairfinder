@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + '/learn',   priority: 0.85, changeFrequency: 'weekly',  lastModified: NOW },
     { url: BASE + '/about',   priority: 0.4,  changeFrequency: 'yearly',  lastModified: NOW },
     { url: BASE + '/disclosure', priority: 0.3, changeFrequency: 'yearly', lastModified: NOW },
+    { url: BASE + '/terms',      priority: 0.3, changeFrequency: 'yearly', lastModified: NOW },
   ]
 
   // ── /best/* curated picks (auto-detected from filesystem) ───────────────

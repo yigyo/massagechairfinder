@@ -43,6 +43,7 @@ export default function Footer() {
                 <li><Link href="/contact" className="text-charcoal hover:text-gold transition-colors">Contact</Link></li>
                 <li><Link href="/disclosure" className="text-charcoal hover:text-gold transition-colors">Affiliate Disclosure</Link></li>
                 <li><Link href="/privacy-policy" className="text-charcoal hover:text-gold transition-colors">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="text-charcoal hover:text-gold transition-colors">Terms &amp; Conditions</Link></li>
               </ul>
             </div>
           </div>
