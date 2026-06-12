@@ -34,12 +34,10 @@ export async function POST(req: NextRequest) {
 
     const tv = await verifyTurnstile(turnstileToken, ip)
     if (!tv.ok) {
-      // Resilience measure: do not hard-block a real visitor when the Turnstile
-      // bot-check cannot be verified (misconfigured or missing production keys,
-      // an empty client token, or a Cloudflare outage). The honeypot and IP
-      // rate-limit checks above still gate this route. Restore strict blocking
-      // here once the production Turnstile keys are confirmed working.
-      console.warn("Contact Turnstile unverified; allowing via honeypot + rate-limit. Reason:", tv.error)
+      return NextResponse.json(
+        { error: "Verification failed. Please reload the page and try again." },
+        { status: 403 },
+      )
     }
 
     const smtpUser = process.env.SMTP_USER
