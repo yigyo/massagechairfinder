@@ -19,6 +19,8 @@ export const BEST_LABELS: Record<string, string> = {
   'premium':           'Premium ($5,000+)',
   'sciatica':          'Sciatica',
   'senior-living-facilities': 'Senior Living Facilities',
+  'gyms-wellness-centers': 'Gyms and Wellness Centers',
+  'hotels-hospitality': 'Hotels and Hospitality',
   'seniors':           'Seniors',
   'small-spaces':      'Small Spaces',
   'tall-people':       'Tall People',
