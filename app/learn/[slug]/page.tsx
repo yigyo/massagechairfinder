@@ -23,6 +23,79 @@ function splitHtmlAtMidpoint(html: string): [string, string] {
   return [html.slice(0, splitPos), html.slice(splitPos)]
 }
 
+// Strips HTML to plain text for use in structured data.
+function stripTags(input: string): string {
+  return input
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&rsquo;/g, '’')
+    .replace(/&#8217;/g, '’')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+// Reads the FAQ that already exists at the bottom of an article body and returns
+// its question/answer pairs for FAQPage structured data. This adds no visible
+// markup and changes no layout; it only mirrors the existing on-page FAQ into
+// JSON-LD so search and AI engines can parse it. Handles the three FAQ markup
+// styles used across the library and never throws.
+function extractFaqs(html: string): { question: string; answer: string }[] {
+  try {
+    if (!html) return []
+    const heading = html.match(/<h2[^>]*>\s*(?:frequently asked questions|faq)\s*<\/h2>/i)
+    if (!heading) return []
+    let section = html.slice((heading.index ?? 0) + heading[0].length)
+    const nextH2 = section.search(/<h2[^>]*>/i)
+    if (nextH2 !== -1) section = section.slice(0, nextH2)
+
+    const pairs: { question: string; answer: string }[] = []
+    let m: RegExpExecArray | null
+
+    // Style 1: <details><summary><strong>Q</strong></summary><p>A</p></details>
+    const details = /<details[^>]*>\s*<summary[^>]*>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/gi
+    m = details.exec(section)
+    while (m !== null) {
+      const q = stripTags(m[1])
+      const a = stripTags(m[2])
+      if (q && a) pairs.push({ question: q, answer: a })
+      m = details.exec(section)
+    }
+
+    // Style 2: <h3>Q</h3><p>A</p>
+    if (pairs.length === 0) {
+      const h3 = /<h3[^>]*>([\s\S]*?)<\/h3>\s*((?:<p[^>]*>[\s\S]*?<\/p>\s*)+)/gi
+      m = h3.exec(section)
+      while (m !== null) {
+        const q = stripTags(m[1])
+        const a = stripTags(m[2])
+        if (q && a) pairs.push({ question: q, answer: a })
+        m = h3.exec(section)
+      }
+    }
+
+    // Style 3: <p><strong>Q</strong> A</p>
+    if (pairs.length === 0) {
+      const strongP = /<p[^>]*>\s*<strong>([\s\S]*?)<\/strong>([\s\S]*?)<\/p>/gi
+      m = strongP.exec(section)
+      while (m !== null) {
+        const q = stripTags(m[1])
+        const a = stripTags(m[2])
+        if (q && a && a.length > 15) pairs.push({ question: q, answer: a })
+        m = strongP.exec(section)
+      }
+    }
+
+    return pairs
+  } catch {
+    return []
+  }
+}
+
 export default function ArticlePage({ params }: { params: { slug: string } }) {
   let article: {
     title: string
@@ -43,58 +116,77 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   const prev = currentIndex > 0 ? PUBLISHED_ARTICLES[currentIndex - 1] : null
   const next = currentIndex < PUBLISHED_ARTICLES.length - 1 ? PUBLISHED_ARTICLES[currentIndex + 1] : null
 
-  // Schema markup: Article + BreadcrumbList
+  // Schema markup: Article + BreadcrumbList (+ FAQPage when the article has an FAQ)
   const pageUrl = `https://massagechairfinder.com/learn/${params.slug}`
+  const graph: Record<string, unknown>[] = [
+    {
+      '@type': 'Article',
+      '@id': pageUrl,
+      headline: article.title,
+      description: article.excerpt ?? '',
+      url: pageUrl,
+      datePublished: article.publishedAt ?? '2026-04-27',
+      dateModified: article.publishedAt ?? '2026-04-27',
+      author: {
+        '@type': 'Organization',
+        name: 'Massage Chair Finder',
+        url: 'https://massagechairfinder.com',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Massage Chair Finder',
+        url: 'https://massagechairfinder.com',
+      },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': pageUrl,
+      },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://massagechairfinder.com',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Learn',
+          item: 'https://massagechairfinder.com/learn',
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: article.title,
+          item: pageUrl,
+        },
+      ],
+    },
+  ]
+
+  // Mirror the existing on-page FAQ into FAQPage structured data (no visible change).
+  const faqs = extractFaqs(article.body)
+  if (faqs.length >= 2) {
+    graph.push({
+      '@type': 'FAQPage',
+      '@id': `${pageUrl}#faq`,
+      mainEntity: faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: f.answer,
+        },
+      })),
+    })
+  }
+
   const schema = {
     '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'Article',
-        '@id': pageUrl,
-        headline: article.title,
-        description: article.excerpt ?? '',
-        url: pageUrl,
-        datePublished: article.publishedAt ?? '2026-04-27',
-        dateModified: article.publishedAt ?? '2026-04-27',
-        author: {
-          '@type': 'Organization',
-          name: 'Massage Chair Finder',
-          url: 'https://massagechairfinder.com',
-        },
-        publisher: {
-          '@type': 'Organization',
-          name: 'Massage Chair Finder',
-          url: 'https://massagechairfinder.com',
-        },
-        mainEntityOfPage: {
-          '@type': 'WebPage',
-          '@id': pageUrl,
-        },
-      },
-      {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          {
-            '@type': 'ListItem',
-            position: 1,
-            name: 'Home',
-            item: 'https://massagechairfinder.com',
-          },
-          {
-            '@type': 'ListItem',
-            position: 2,
-            name: 'Learn',
-            item: 'https://massagechairfinder.com/learn',
-          },
-          {
-            '@type': 'ListItem',
-            position: 3,
-            name: article.title,
-            item: pageUrl,
-          },
-        ],
-      },
-    ],
+    '@graph': graph,
   }
 
   return (
