@@ -31,7 +31,7 @@ export default function HomePage() {
               Find the massage chair that fits your body, your space, and your budget.
             </h1>
             <p className="text-lg mb-8" style={{ color: '#E8DFD3', textShadow: '0 1px 4px rgba(0,0,0,0.80)' }}>
-              Independent comparisons and expert guidance. No showrooms, no pressure, no guesswork.
+              Clear comparisons and expert guidance. No showrooms, no pressure, no guesswork.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/finder" className="btn-primary text-center whitespace-nowrap">

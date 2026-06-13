@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'About Massage Chair Finder',
-  description: 'Massage Chair Finder is an independent buying guide built to help you find the right massage chair for your body, your space, and your budget.',
+  description: 'Massage Chair Finder helps you find the right massage chair for your body, your space, and your budget.',
 }
 
 export default function AboutPage() {
@@ -27,7 +27,7 @@ export default function AboutPage() {
           that match buyers to the right chair based on their pain profile, body type, budget, and room.
         </p>
         <p>
-          Massage Chair Finder is editorially independent. We earn revenue through affiliate commissions
+          Massage Chair Finder earns revenue through affiliate commissions
           when readers click through and make a purchase, and we disclose those relationships in full on our{' '}
           <Link href="/disclosure" className="text-bronze hover:text-gold transition-colors">disclosure page</Link>.
           Those commercial relationships do not influence which chairs we recommend or how we evaluate them.
