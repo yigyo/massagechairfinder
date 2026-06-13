@@ -18,6 +18,7 @@ export const BEST_LABELS: Record<string, string> = {
   'petite-buyers':     'Petite Buyers',
   'premium':           'Premium ($5,000+)',
   'sciatica':          'Sciatica',
+  'senior-living-facilities': 'Senior Living Facilities',
   'seniors':           'Seniors',
   'small-spaces':      'Small Spaces',
   'tall-people':       'Tall People',
