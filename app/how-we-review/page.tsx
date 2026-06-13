@@ -4,7 +4,7 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "How We Review Massage Chairs",
   description:
-    "How Massage Chair Finder selects chairs for its catalog, verifies specifications, and makes independent recommendations.",
+    "How Massage Chair Finder selects chairs for its catalog, verifies specifications, and makes fit-based recommendations.",
 }
 
 export default function HowWeReviewPage() {

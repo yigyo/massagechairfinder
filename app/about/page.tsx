@@ -23,7 +23,7 @@ export default function AboutPage() {
           We are a small, focused team that has spent considerable time researching the massage chair market:
           verifying specs against manufacturer documentation, mapping how chair features correspond to specific
           physical needs, and building tools like the{' '}
-          <Link href="/finder" className="text-bronze hover:text-gold transition-colors">Chair Finder quiz</Link>{' '}
+          <Link href="/finder" className="text-bronze hover:text-gold transition-colors">Chair Finder</Link>{' '}
           that match buyers to the right chair based on their pain profile, body type, budget, and room.
         </p>
         <p>

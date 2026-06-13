@@ -126,7 +126,7 @@ export default function ComparePage() {
       <div className="mt-10 pt-8 border-t border-sand text-sm text-warm-gray">
         <p>
           Not sure which chair tier to be comparing? Use the{" "}
-          <Link href="/finder" className="text-bronze hover:text-gold">chair finder quiz</Link> to
+          <Link href="/finder" className="text-bronze hover:text-gold">chair finder</Link> to
           narrow your options by pain profile, budget, and body fit first.
         </p>
       </div>

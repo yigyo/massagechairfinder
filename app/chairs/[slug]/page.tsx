@@ -606,7 +606,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
           <p className="text-charcoal leading-relaxed max-w-2xl">{bodyFitSummary(c)}</p>
           {(!c.heightMinIn && !c.heightMaxIn && !c.weightCapacityLbs) && (
             <p className="text-sm text-warm-gray mt-3">
-              Not sure if this chair fits? <Link href="/finder" className="text-bronze hover:text-gold">Take our chair finder quiz</Link>, it filters by your height and weight.
+              Not sure if this chair fits? <Link href="/finder" className="text-bronze hover:text-gold">Try our chair finder</Link>, it filters by your height and weight.
             </p>
           )}
         </div>

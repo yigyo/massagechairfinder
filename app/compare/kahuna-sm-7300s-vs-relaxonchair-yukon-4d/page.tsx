@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Kahuna SM-7300S vs Relax On Chair YUKON-4D | MassageChairFinder',
-  description: 'The Kahuna SM-7300S uses a 6-roller 2D system with three-stage zero gravity and full heat coverage at $6,999. The YUKON-4D delivers 4D precision at $500 less. Here is the honest comparison.',
+  description: 'The Kahuna SM-7300S uses a 6-roller 2D system with three-stage zero gravity and full heat coverage at $6,999. The YUKON-4D delivers 4D precision at $500 less. Here is the full comparison.',
 }
 
 export default function ComparePage() {

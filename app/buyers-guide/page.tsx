@@ -12,7 +12,7 @@ const sections = [
   { heading: "Roller technology explained", body: "What 2D, 3D, and 4D actually mean in practice, why anything above 4D has no industry standard, and what level of roller technology your pain profile actually requires." },
   { heading: "Pressure and intensity fit", body: "The leading cause of massage chair returns is a massage that is too rough. We explain why pressure is a fit variable, not a preference, and what to look for before you buy." },
   { heading: "Zero gravity, body fit, and room fit", body: "What zero gravity actually does for your spine, how to check manufacturer specs against your own measurements, and the floor tape exercise that prevents delivery-day regret." },
-  { heading: "What you actually get at each price tier", body: "An honest look at what changes as you move up, plus the cost-per-use math that puts the investment in context." },
+  { heading: "What you actually get at each price tier", body: "A clear look at what changes as you move up, plus the cost-per-use math that puts the investment in context." },
   { heading: "Your pre-purchase checklist", body: "Six questions to answer before you commit to any chair, designed to be printed or screenshot and used while you shop." },
 ]
 

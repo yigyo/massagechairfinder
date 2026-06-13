@@ -24,7 +24,7 @@ export default function TermsPage() {
         <h2 className="text-2xl font-serif mt-10 mb-4">What this site is</h2>
 
         <p>
-          Massage Chair Finder is an independent resource that helps people research and
+          Massage Chair Finder is a resource that helps people research and
           compare massage chairs. We publish guides, comparisons, and recommendations based
           on published specifications, fit criteria such as track type, roller dimensions,
           weight capacity, and height range, along with price positioning and brand

@@ -4,7 +4,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Learning Center | Massage Chair Finder",
-  description: "Independent research on every aspect of buying and owning a massage chair. Track types, health conditions, tech explained, and honest buying questions answered.",
+  description: "Research on every aspect of buying and owning a massage chair. Track types, health conditions, tech explained, and the buying questions that matter answered.",
 }
 
 const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
@@ -56,7 +56,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
   },
   {
     label: "Buying Questions",
-    description: "Honest answers to the questions that come up before committing to a significant purchase.",
+    description: "Clear answers to the questions that come up before committing to a significant purchase.",
     slugs: [
       "are-massage-chairs-worth-it",
       "do-massage-chairs-work",
@@ -87,7 +87,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
   },
   {
     label: "Massage Research",
-    description: "What peer-reviewed studies show about how massage works. Research-grounded, citation-heavy, honest about evidence strength.",
+    description: "What peer-reviewed studies show about how massage works. Research-grounded, citation-heavy, upfront about evidence strength.",
     slugs: [
       "massage-and-pain",
       "massage-and-stress",
@@ -143,7 +143,7 @@ export default function LearnPage() {
     <div className="section" style={{ maxWidth: "860px" }}>
       <h1 className="text-4xl font-serif mb-2">Learning Center</h1>
       <p className="text-warm-gray mb-8">
-        Independent research on every aspect of buying and owning a massage chair.{" "}
+        Research on every aspect of buying and owning a massage chair.{" "}
         <span className="text-charcoal">{published.length} articles.</span>
       </p>
 
