@@ -121,6 +121,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-vagal-tone",
       "massage-and-pregnancy",
       "massage-and-surgery-recovery",
+      "massage-and-senior-health",
+      "massage-and-desk-work",
       "does-reflexology-work",
       "what-is-shiatsu-massage",
     ],
