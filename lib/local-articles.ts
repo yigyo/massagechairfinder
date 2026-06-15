@@ -7168,6 +7168,180 @@ The Ajimsha 2014 trial showed significant pain reduction at four weeks with thre
 <p>[3] <em>Can massage therapy help cardiac patients? A literature review plus a case study.</em> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3642989/">Link</a></p>
 <p>[4] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>`,
   },
+  {
+    slug: "massage-and-desk-work",
+    title: "Massage for Desk Workers: What the Research Shows",
+    excerpt: "Desk work loads the neck, shoulders, and upper back into a standing tension pattern. A massage chair has a clinical trial in this exact population. Here is what the research shows and where the limits are.",
+    order: 83,
+    publishedAt: "2026-06-15",
+    body: `<p><strong>For desk workers, massage has unusually direct evidence behind it: a randomized trial of an actual massage chair cut neck and shoulder pain significantly in six weeks of twenty-minute, twice-weekly sessions. Eight to ten hours a day at a keyboard loads the cervical spine, upper trapezius, and thoracic muscles into a pattern of sustained guarding, and a chair covers exactly those regions.</strong> The one clear boundary is the wrist. A chair handles the upstream muscular load that desk work imposes very well, and handles carpal tunnel itself only partially, because it cannot do the targeted forearm and wrist work the carpal tunnel evidence used. This guide covers what the research supports and where that line sits.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>A chair trial in the exact population:</strong> A randomized controlled trial of a production massage chair in office workers with neck and shoulder pain found the chair group cut pain by 1.793 points on the numeric rating scale versus 0.414 in controls, a difference significant at p &lt; 0.001 (Chu et al., 2023)</p>
+<p><strong>Range of motion improved too:</strong> In the same trial, cervical flexion range of motion improved by roughly 6.2 degrees in the chair group against 0.9 degrees in the control, and pressure pain threshold improved across the measured muscle sites (Chu et al., 2023)</p>
+<p><strong>Trigger-point evidence reinforces it:</strong> Manual therapy produced significant improvement in latent upper trapezius trigger points and cervical range of motion, directly relevant to the trapezius load desk workers carry (Cagnie et al., 2013)</p>
+<p><strong>Frequency is the lever:</strong> A large meta-analysis of touch interventions found session count to be a stronger predictor of benefit than session length, which favors the desk worker who uses a chair most evenings (Packheiser et al., 2024)</p></div>
+<h2>The load desk work puts on the body</h2>
+<p>Sedentary keyboard work produces a recognizable pattern. The upper trapezius and levator scapulae hold the shoulders in low-grade contraction for hours. The deep neck flexors weaken while the head drifts forward, increasing the effective load on the cervical spine. The thoracic spine stiffens into a rounded position, and the mid-back muscles lengthen and weaken against shortened chest muscles. Lower down, hours of sitting add lumbar and hip guarding. The result is not an injury so much as a standing tension load that builds across a working day and rarely fully resets overnight. For the postural side of this pattern specifically, see our research guide to <a href="/learn/massage-and-posture">massage and posture</a>.</p>
+<p>This is exactly the territory a massage chair covers. The rollers and airbags reach the cervical, trapezius, rhomboid, thoracic, and lumbar regions that carry the bulk of desk-work tension, which is why this population and this product line up so well.</p>
+<h2>What the evidence shows</h2>
+<p>The anchor study is Chu et al. 2023 [1], a randomized controlled trial of a production massage chair in office workers (mean age about 43) with neck and shoulder pain. Participants used the chair for 20-minute sessions twice per week for six weeks. The chair group reduced pain scores by 1.793 points on the numeric rating scale, from 4.86 to 3.07, while the control group fell only 0.414 points, a between-group difference significant at p &lt; 0.001. Pressure pain threshold improved significantly across the measured muscle sites, and cervical flexion range of motion improved by roughly 6.2 degrees in the chair group against 0.9 degrees in the control. This is a production massage chair tested in the exact buyer population, producing measurable change at a dose a home owner can easily exceed.</p>
+<p>The trigger-point literature reinforces it. Cagnie et al. 2013 [2] found significant improvement in latent upper trapezius trigger points and in cervical range of motion after manual therapy, directly relevant to the trapezius load desk workers carry. The mechanism is consistent with the gate-control and trigger-point physiology established elsewhere: sustained moderate pressure reduces the muscular component of pain and lowers tissue sensitivity [3, 4], and sustained mechanical input modulates resting muscle tone [5]. Because session count is the stronger predictor of benefit [6], the desk worker who uses a chair most evenings is positioned to do well. The mechanical details are covered in our guide to <a href="/learn/physiology-of-massage">the physiology of massage</a>. For the symptom-focused view of this pain pattern, see <a href="/learn/massage-and-neck-shoulder-pain">massage and neck and shoulder pain</a>.</p>
+<h2>The carpal tunnel question</h2>
+<p>Carpal tunnel syndrome, a compression neuropathy of the median nerve at the wrist, affects an estimated 3 to 6 percent of adults and is more common in occupations with repetitive, forceful hand use [7]. A massage trial for carpal tunnel [7] enrolled 21 participants in 30-minute sessions twice weekly for six weeks and found significant improvement in symptom severity and functional status from week two, using a protocol that combined massage with trigger-point therapy on the forearm flexors, hand muscles, and cervical paraspinals.</p>
+<p>The detail that matters for buyers is where that work happened. The effective protocol targeted the forearm and wrist directly, and most massage chairs do not cover the forearm or wrist with their roller mechanism. Some chairs include arm airbag programs that compress the forearm, but compression is not the targeted trigger-point work the trial used, and no chair decompresses the carpal tunnel itself. A chair addresses the upstream contributors, the cervical, trapezius, and thoracic tension that can worsen median nerve mobility, while the wrist-local component is better pursued with a physical therapist or massage therapist.</p>
+<h2>Dose for desk workers</h2>
+<table>
+<thead>
+<tr>
+<th>Goal</th>
+<th>What the evidence supports</th>
+<th>Practical pattern</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prevent daily neck and shoulder load from accumulating</td>
+<td>20 minutes twice weekly produced measurable change in the chair trial [1]</td>
+<td>Three to five 20-minute sessions a week at moderate pressure</td>
+</tr>
+<tr>
+<td>Reduce morning stiffness before work</td>
+<td>Moderate pressure lowers guarding and tissue sensitivity [3, 5]</td>
+<td>A short pre-work session on the cervical and trapezius regions</td>
+</tr>
+<tr>
+<td>Process the tension a workday deposits</td>
+<td>Session count is the stronger predictor of benefit [6]</td>
+<td>An evening session most days; longer on the worst days</td>
+</tr>
+</tbody>
+</table>
+<p>The Chu trial set a floor, not a ceiling. A home chair makes a higher dose trivial, and either pre-work or evening timing has a sound rationale, so consistency matters more than the exact hour.</p>
+<h2>How a massage chair delivers this</h2>
+<p><strong>Fully delivers:</strong> the systemic desk-work load. Full cervical, upper trapezius, rhomboid, and thoracic coverage with 3D or 4D rollers addresses the exact regions desk work overloads, and SL-track chairs extend that coverage into the thoracolumbar region where sitting adds guarding. Heat over the cervical and upper thoracic area reduces guarding and improves tissue compliance. This is the part the Chu trial directly validated. Our guide to <a href="/learn/track-types">track types</a> explains why coverage span is the spec that matters most here.</p>
+<p><strong>Partially delivers:</strong> the carpal tunnel component. Arm airbag programs, where present, deliver forearm compression but not the targeted forearm and wrist trigger-point work the carpal tunnel trial used. The chair handles the upstream muscular contributors to median nerve symptoms; it does not treat the wrist directly.</p>
+<p><strong>Cannot deliver:</strong> targeted wrist and forearm soft tissue work, and decompression of the carpal tunnel itself. Buyers with active carpal tunnel syndrome benefit from the chair for systemic muscular relief while pursuing wrist-local work from a hands-on practitioner.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Does a massage chair help neck and shoulder pain from sitting?</strong></summary>
+<p>Yes, and this is one of the few uses with a chair-specific trial. Office workers using a chair for 20 minutes twice weekly for six weeks cut their neck and shoulder pain significantly more than controls and gained cervical range of motion [1]. The chair reaches the cervical, trapezius, and thoracic regions that desk work overloads.</p>
+</details>
+<details>
+<summary><strong>How often should a desk worker use a massage chair?</strong></summary>
+<p>Three to five 20-minute sessions a week at moderate pressure is a well-supported maintenance dose, with longer sessions on the worst days. The trial dose of twice weekly is a floor that a home chair makes easy to exceed, and session count predicts benefit more than session length [1, 6].</p>
+</details>
+<details>
+<summary><strong>Will a massage chair fix carpal tunnel syndrome?</strong></summary>
+<p>Only partially. The massage protocol that helped carpal tunnel targeted the forearm and wrist directly [7], and chairs do not cover those areas with their rollers. A chair addresses the upstream cervical and trapezius tension that can worsen symptoms, while the wrist-local work is better done by a therapist.</p>
+</details>
+<details>
+<summary><strong>Is morning or evening better for a desk-work session?</strong></summary>
+<p>Either works. A short pre-work session reduces the guarding that builds during the day, and an evening session processes the tension the day deposited. Consistency matters more than the exact timing.</p>
+</details>
+<details>
+<summary><strong>Which chair features matter most for a desk worker?</strong></summary>
+<p>Full cervical, trapezius, and thoracic coverage with 3D or 4D rollers, an SL-track for thoracolumbar reach, and heat over the upper back. Our buying guide to <a href="/learn/office-massage-chairs">office massage chairs</a> covers the workplace and home-office details, and the ranked picks live in <a href="/best/office-workers">best massage chairs for office workers</a>.</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>For a desk worker, the right chair is the one that covers the neck, shoulders, and upper back well and is easy enough to use most days. Prioritize roller coverage span, an SL-track, and heat over maximum intensity.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your body, your workday, and the way you will actually use the chair.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Chu H, Park SJ, Jeong Y, Kim S, Yeom SR, Lee S, Youn BY. <em>Effect of a massage chair (BFM-M8040) on neck and shoulder pain in office workers: A randomized controlled clinical trial.</em> Heliyon. 2023;9(10):e20287. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10520820/">Link</a></p>
+<p>[2] Cagnie B, Dewitte V, Coppieters I, Van Oosterwijck J, Cools A, Danneels L. <em>Short- and medium-term effects of manual therapy on cervical active range of motion and pressure pain sensitivity in latent myofascial pain of the upper trapezius muscle: a randomized controlled trial.</em> Journal of Manipulative and Physiological Therapeutics. 2013;36(8):482-489. <a href="https://pubmed.ncbi.nlm.nih.gov/23769263/">Link</a></p>
+<p>[3] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>
+<p>[4] Shah JP, Danoff JV, Desai MJ, Parikh S, Nakamura LY, Phillips TM, Gerber LH. <em>Biochemicals associated with pain and inflammation are elevated in sites near to and remote from active myofascial trigger points.</em> Archives of Physical Medicine and Rehabilitation. 2008;89(1):16-23. <a href="https://pubmed.ncbi.nlm.nih.gov/18164325/">Link</a></p>
+<p>[5] Weerapong P, Hume PA, Kolt GS. <em>The mechanisms of massage and effects on performance, muscle recovery and injury prevention.</em> Sports Medicine. 2005;35(3):235-256. <a href="https://pubmed.ncbi.nlm.nih.gov/15730338/">Link</a></p>
+<p>[6] Packheiser J, Hartmann H, Fredriksen K, Gazzola V, Keysers C, Michon F. <em>A systematic review and multivariate meta-analysis of the physical and mental health benefits of touch interventions.</em> Nature Human Behaviour. 2024;8:1088-1107. <a href="https://www.nature.com/articles/s41562-024-01841-8">Link</a></p>
+<p>[7] <em>Massage therapy as an effective treatment for carpal tunnel syndrome.</em> PubMed PMID 23768278. <a href="https://pubmed.ncbi.nlm.nih.gov/23768278/">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-senior-health",
+    title: "Is Massage Safe for Seniors? Benefits, Cautions, and How to Use a Chair",
+    excerpt: "Massage is safe and useful for most older adults. Nearly every concern in this group is a reason to lower the pressure, not avoid massage. Here is what the research shows and where the real cautions are.",
+    order: 84,
+    publishedAt: "2026-06-15",
+    body: `<p><strong>Massage is safe and useful for most older adults, and the population that has the most to gain is also the one that most often rules itself out. The reconciling rule is simple: nearly every concern that comes up at this age, thinner skin, more fragile bone, blood thinners, is a reason to lower the pressure setting, not a reason to avoid massage altogether.</strong> The benefits that matter in later life are well documented: less knee osteoarthritis pain and stiffness, short-term gains in balance, better range of motion, and calmer agitation in dementia care. The cautions are real and specific, and all three are pressure questions rather than yes-or-no questions. This guide separates what the evidence supports from where the genuine limits sit.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>Knee osteoarthritis is the strongest line:</strong> A meta-analysis of twelve randomized trials with 737 participants found massage therapy improved pain and stiffness in knee osteoarthritis, the most common painful condition of later life (Wu et al., 2022)</p>
+<p><strong>Balance improves short-term:</strong> A randomized trial of 35 older adults (mean age about 63) found a single 60-minute massage produced significant short-term improvements in static and dynamic balance versus a relaxation control (Sefton et al., 2012)</p>
+<p><strong>Mobility, not just comfort:</strong> A 2025 randomized trial comparing Swedish massage with hip-strengthening exercise in adults over 60 with knee osteoarthritis found a measurable gain in active knee flexion range of motion of about 3.42 degrees (Aging Clinical and Experimental Research, 2025)</p>
+<p><strong>Dementia agitation responds:</strong> A meta-analysis of 17 trials and 980 patients found massage and touch produced significant short-term reductions in agitation in people with dementia (Liu et al., 2025)</p></div>
+<h2>Why older adults need their own answer</h2>
+<p>Most massage research recruits healthy adults under 65 without significant other conditions, which leaves the buyers who need daily relief most underrepresented in the data. An older adult is often managing several things at once: osteoarthritis plus a blood thinner plus thinning skin plus a balance concern. The real question is not whether massage helps in general, but whether it is safe given that specific combination, and how it should be adapted.</p>
+<p>Two failure modes are common here. The first is unnecessary self-exclusion: someone hears that massage is risky on blood thinners or with osteoporosis and avoids it entirely, giving up a benefit that a simple intensity adjustment would have made safe. The second is the opposite, running maximum-intensity programs the way a younger user might, on tissue that no longer tolerates them. Accurate calibration, neither blanket avoidance nor unmodified use, is the goal. This is the same principle that runs through our guide to <a href="/learn/special-populations">massage for special populations</a>: the contraindication is usually specific, not a reason to skip massage.</p>
+<h2>What the evidence shows</h2>
+<p>The osteoarthritis evidence is the most robust. Wu et al. 2022 [1], a meta-analysis of twelve randomized trials with 737 participants, found massage improved pain and stiffness in knee osteoarthritis. A 2025 trial [2] comparing Swedish massage with hip-strengthening exercise in adults over 60 found a measurable gain in active knee flexion range of motion, evidence that soft tissue work contributes to mobility and not only to comfort.</p>
+<p>Balance is the second area. Sefton et al. 2012 [3] randomized 35 older adults to a single 60-minute therapeutic massage or a relaxation control and found significant short-term improvements in static and dynamic balance, along with related neurological and cardiovascular changes. The effect is short-term rather than a standing cure, which is exactly why repeated, frequent exposure matters for this group.</p>
+<p>For older adults living with dementia, Liu et al. 2025 [4], a meta-analysis of 17 trials and 980 patients, found that massage and touch produced significant short-term reductions in agitation. And the broader autonomic and mood benefits established across the research, the parasympathetic shift from moderate pressure [5] and the session-count-driven mental health benefit [6], apply with particular force in a population where isolation and disrupted sleep are common. For the wider picture of how massage acts on the aging body, see our research guide to <a href="/learn/massage-and-aging">massage and aging</a>.</p>
+<h2>The three cautions, and why each is about pressure</h2>
+<table>
+<thead>
+<tr>
+<th>Concern</th>
+<th>Why it matters in older adults</th>
+<th>The adjustment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bone (osteoporosis)</td>
+<td>Advanced osteoporosis carries a real risk of vertebral compression fracture under perpendicular load</td>
+<td>Avoid deep roller programs and percussion over the spine; use light-to-moderate 2D or minimal 3D depth; airbags apply compressive, not perpendicular, force and stay generally safe</td>
+</tr>
+<tr>
+<td>Blood (anticoagulants)</td>
+<td>Warfarin, direct oral anticoagulants, and antiplatelet drugs are common; aggressive technique has caused serious bleeding in case reports [7]</td>
+<td>Light-to-moderate Swedish-style work is generally acceptable; avoid deep tissue, percussion, and any program over a bruise or varicosity, with the prescribing physician aware</td>
+</tr>
+<tr>
+<td>Skin and sensation</td>
+<td>Aging skin is thinner and marks more easily; diabetic neuropathy can blunt heat perception</td>
+<td>Use gentler contact pressure; keep heat conservative where thermal sensation is reduced, moderate heat elsewhere is fine</td>
+</tr>
+</tbody>
+</table>
+<p>The throughline is that none of these is a stop sign. Each one moves the dial down rather than off. A user with advanced osteoporosis selects lower global intensity and skips deep spinal programs. A user on a blood thinner stays with light-to-moderate work. A user with reduced foot sensation keeps the heat low. In each case the chair still delivers the relaxation, mood, and comfort benefits the research documents.</p>
+<h2>The frequency advantage for older adults</h2>
+<p>The balance and osteoarthritis benefits are short-term and dose-dependent, which makes frequency the variable that turns them into something durable. The barriers that keep older adults from a frequent professional cadence are higher than for any other group: driving to appointments can be difficult, fixed incomes make per-visit costs prohibitive, and limited mobility makes leaving the house a real obstacle. A chair at home removes all of that. An older adult who uses a chair five times a week at moderate intensity accumulates the kind of exposure the Sefton and Wu findings reward, at a cost per session professional care cannot approach. For staying active across the years, our guide to <a href="/learn/massage-and-healthy-aging">massage and healthy aging</a> covers the activity-protection angle in more depth.</p>
+<h2>How a massage chair delivers this</h2>
+<p><strong>Fully delivers:</strong> adjustable systemic relaxation and the autonomic benefit. Moderate-pressure programs deliver the parasympathetic shift, mood support, and short-term comfort the evidence documents, and a genuine <a href="/learn/zero-gravity">zero gravity</a> recline reduces spinal load while taking weight off painful joints. <a href="/learn/lift-assist-massage-chairs">Lift-assist seat designs</a> help users with limited mobility get in and out, which is often the real determinant of whether the chair gets used at all.</p>
+<p><strong>Partially delivers:</strong> zone-specific safety adaptation. A chair can lower overall intensity, but on most models it cannot run the thoracic spine gently while working the lumbar region at full depth, because the roller path covers the whole spine on a given program. Users with advanced osteoporosis manage this by choosing lower global intensity and avoiding deep spinal programs rather than expecting per-segment control.</p>
+<p><strong>Cannot deliver:</strong> clinical screening and real-time judgment. The chair cannot know a user's INR, cannot detect that skin has thinned or that an area is bruised, and cannot decide that today's setting is too much. For active treatment or unstable conditions, the physician's clearance is the entry gate; for stable chronic conditions, a low starting intensity and a courtesy mention to the physician are the operative safeguards. The user is the clinical screen the chair lacks.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Is a massage chair safe for someone with osteoporosis?</strong></summary>
+<p>In most cases yes, at a lowered intensity. The specific risk is deep, perpendicular force over a fragile spine, so the adjustment is to avoid deep roller and percussion programs over the back and stay with light-to-moderate depth. Airbag programs for the calves, hips, and shoulders apply compressive force and remain generally safe. Confirm the plan with the treating physician.</p>
+</details>
+<details>
+<summary><strong>Can seniors on blood thinners use a massage chair?</strong></summary>
+<p>Generally yes, with light-to-moderate work only. There is no controlled trial in anticoagulated patients, and case reports document bleeding from aggressive technique [7], so the workable consensus is to avoid deep tissue, percussion, and any program over a bruise or varicosity, and to keep the prescribing physician aware.</p>
+</details>
+<details>
+<summary><strong>Does massage actually help arthritis pain at this age?</strong></summary>
+<p>The strongest evidence is for knee osteoarthritis, where a twelve-trial meta-analysis found improved pain and stiffness, and a 2025 trial found improved knee range of motion [1, 2]. Massage does not change the joint pathology itself; it reduces the surrounding muscle guarding and pain sensitivity that turn structural change into disability. Our buying guide to <a href="/learn/massage-chairs-for-arthritis">massage chairs for arthritis</a> covers the features that matter most.</p>
+</details>
+<details>
+<summary><strong>How often should an older adult use a massage chair?</strong></summary>
+<p>Because the balance and osteoarthritis benefits are short-term and dose-dependent, frequency is what makes them durable. Three to five moderate-intensity sessions a week is a well-supported maintenance pattern, which is the cadence a home chair makes affordable and a clinic schedule rarely does.</p>
+</details>
+<details>
+<summary><strong>Can a massage chair replace seeing a doctor?</strong></summary>
+<p>No. A chair delivers relaxation, comfort, and short-term functional benefit, but it cannot screen for the conditions that change what is safe. For active treatment or unstable conditions the physician's clearance comes first, and the user remains the one who judges that a setting is too much.</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>For an older buyer, the right chair is the one that is easy to get into, comfortable at a moderate setting, and simple enough to use daily. Prioritize easy entry and exit, a true zero gravity recline, lift-assist where mobility is limited, and genuine low-and-slow intensity options over maximum power. Our buying guide to <a href="/learn/massage-chairs-for-seniors">massage chairs for seniors</a> walks through those details, and the ranked picks live in <a href="/best/seniors">best massage chairs for seniors</a>.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to the body, the conditions, and the way the chair will actually be used.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Wu Q, Zhao J, Guo W. <em>Efficacy of massage therapy in improving outcomes in knee osteoarthritis: A systematic review and meta-analysis.</em> Complementary Therapies in Clinical Practice. 2022;46:101522. <a href="https://pubmed.ncbi.nlm.nih.gov/34890892/">Link</a></p>
+<p>[2] <em>Swedish massage versus hip strengthening exercises for pain and function in older adults with knee osteoarthritis: a randomized controlled trial.</em> Aging Clinical and Experimental Research. 2025. <a href="https://link.springer.com/article/10.1007/s40520-025-03313-z">Link</a></p>
+<p>[3] Sefton JM, Yarar C, Berry JW. <em>Massage Therapy Produces Short-term Improvements in Balance, Neurological, and Cardiovascular Measures in Older Persons.</em> International Journal of Therapeutic Massage and Bodywork. 2012;5(3):16-27. <a href="https://pubmed.ncbi.nlm.nih.gov/23087775/">Link</a></p>
+<p>[4] Liu X, Zang L, Lu Q, Zhang Y, Meng Q. <em>Effect of Massage and Touch on Agitation in Dementia: A Meta-Analysis.</em> Journal of Clinical Nursing. 2025;34(5):1948-1964. <a href="https://pubmed.ncbi.nlm.nih.gov/39902611/">Link</a></p>
+<p>[5] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>
+<p>[6] Packheiser J, Hartmann H, Fredriksen K, Gazzola V, Keysers C, Michon F. <em>A systematic review and multivariate meta-analysis of the physical and mental health benefits of touch interventions.</em> Nature Human Behaviour. 2024;8:1088-1107. <a href="https://www.nature.com/articles/s41562-024-01841-8">Link</a></p>
+<p>[7] <em>Traumatic complications of inpatient massage therapy: Case report and literature review.</em> PMC6250889. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6250889/">Link</a></p>`,
+  },
 
 ]
 
