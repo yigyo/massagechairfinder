@@ -123,6 +123,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-surgery-recovery",
       "massage-and-senior-health",
       "massage-and-desk-work",
+      "massage-and-session-length",
+      "massage-and-consistency",
       "does-reflexology-work",
       "what-is-shiatsu-massage",
     ],
