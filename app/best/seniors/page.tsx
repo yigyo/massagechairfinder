@@ -24,19 +24,19 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "kyota-genki-m380": {
     label: "Best entry pick for seniors",
-    why: "The Genki M380 is the most forgiving chair in the catalog at this price. L-track covers the lower back, glutes, and upper thighs, which is where most chronic pain accumulates in older buyers. The 330-lb weight capacity is the highest in the under-$3,500 range, and the zero gravity position takes pressure off the lumbar during the session. At $2,999, it delivers the fundamentals without requiring buyers to navigate complex programs or settings.",
+    why: "The Genki M380 is the most forgiving chair in the catalog at this price. L-track covers the lower back, glutes, and upper thighs, which is where most chronic pain accumulates in older buyers. The 330-lb weight capacity is the highest among the entry-band chairs here, and the zero gravity position takes pressure off the lumbar during the session. In the Under $3,000 band, it delivers the fundamentals without requiring buyers to navigate complex programs or settings.",
   },
   "inner-balance-jin-2": {
     label: "Best space-saving option",
-    why: "The Jin 2.0 fits within 2 inches of the wall, which matters for seniors who are working with smaller rooms or placing the chair in a bedroom rather than a dedicated space. SL-track coverage, three-stage zero gravity, 300-lb capacity. The upgrade from the original Jin adds deeper recline and a more refined program set. Straightforward controls without unnecessary complexity. At $3,999, it is the most practical SL-track chair in the catalog for buyers prioritizing ease of placement.",
+    why: "The Jin 2.0 fits within 2 inches of the wall, which matters for seniors who are working with smaller rooms or placing the chair in a bedroom rather than a dedicated space. SL-track coverage, three-stage zero gravity, 300-lb capacity. The upgrade from the original Jin adds deeper recline and a more refined program set. Straightforward controls without unnecessary complexity. In the $3,000-$4,999 band, it is the most practical SL-track chair in the catalog for buyers prioritizing ease of placement.",
   },
   "medical-breakthrough-6": {
     label: "Best 4D roller at the mid-range",
-    why: "Medical Breakthrough chairs are built around the premise that therapeutic quality should not require an ultra-premium budget. The MB6 delivers 4D roller depth, heat, stretch, full body scanning, and a 300-lb capacity at $4,249. L-track coverage includes the lower back and glutes. The four-dimensional roller movement allows slower, more deliberate passes, which is preferable for buyers with sensitive joints or chronic pain conditions where the intensity of a 2D roller is too jarring. Strong warranty terms back the purchase.",
+    why: "Medical Breakthrough chairs are built around the premise that therapeutic quality should not require an ultra-premium budget. The MB6 delivers 4D roller depth, heat, stretch, full body scanning, and a 300-lb capacity in the $3,000-$4,999 band. L-track coverage includes the lower back and glutes. The four-dimensional roller movement allows slower, more deliberate passes, which is preferable for buyers with sensitive joints or chronic pain conditions where the intensity of a 2D roller is too jarring. Strong warranty terms back the purchase.",
   },
   "amamedics-hilux-4d": {
     label: "Best for persistent joint and back pain",
-    why: "The Hilux 4D is the one chair in the mid-range with heated rollers rather than just heated pads. The distinction matters for seniors with chronic joint pain: the heat penetrates directly through the roller contact point rather than radiating from a surface pad. SL-track confirmed from 4 foot 11 inches to 6 foot 7 inches, one of the wider confirmed height ranges in the catalog. 270-lb capacity. At $4,999, it is the most feature-complete chair for buyers managing chronic inflammation, arthritis discomfort, or persistent lower back tightness.",
+    why: "The Hilux 4D is the one chair in the mid-range with heated rollers rather than just heated pads. The distinction matters for seniors with chronic joint pain: the heat penetrates directly through the roller contact point rather than radiating from a surface pad. SL-track confirmed from 4 foot 11 inches to 6 foot 7 inches, one of the wider confirmed height ranges in the catalog. 270-lb capacity. In the $3,000-$4,999 band, it is the most feature-complete chair for buyers managing chronic inflammation, arthritis discomfort, or persistent lower back tightness.",
   },
   "human-touch-laevo-zg": {
     label: "Best for pressure-sensitive buyers",
@@ -44,7 +44,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "kyota-yugana-m780": {
     label: "Best premium pick for seniors",
-    why: "The Yugana M780 combines L-track coverage with a 4D roller, TrueFit body scanning, 300-lb capacity, heat, and a 2-inch wall clearance in a space-saving frame. The body scan reads the curvature and length of the spine before each session and adjusts the roller start position accordingly, which matters for seniors whose posture and spinal alignment have shifted over time. 4D roller depth allows the chair to match the pressure profile to the session rather than running a fixed intensity. At $7,999, this is the chair for seniors who want a long-term health investment rather than a temporary solution.",
+    why: "The Yugana M780 combines L-track coverage with a 4D roller, TrueFit body scanning, 300-lb capacity, heat, and a 2-inch wall clearance in a space-saving frame. The body scan reads the curvature and length of the spine before each session and adjusts the roller start position accordingly, which matters for seniors whose posture and spinal alignment have shifted over time. 4D roller depth allows the chair to match the pressure profile to the session rather than running a fixed intensity. In the $5,000-$7,999 band, this is the chair for seniors who want a long-term health investment rather than a temporary solution.",
   },
 }
 
@@ -79,7 +79,7 @@ export default function BestSeniorsPage() {
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">What matters most for senior buyers</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          <strong>Zero gravity recline</strong> is the single most important feature for older buyers. Elevating the knees above the heart removes gravitational stress from the lumbar spine during the session, which makes a meaningful difference for buyers with chronic compression or disc issues. Most chairs in the $2,500+ range include it.
+          <strong>Zero gravity recline</strong> is the single most important feature for older buyers. Elevating the knees above the heart removes gravitational stress from the lumbar spine during the session, which makes a meaningful difference for buyers with chronic compression or disc issues. Most chairs above the entry band include it.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           <strong>Pressure sensitivity</strong> is the most overlooked consideration. Most massage chair returns happen because the massage is too rough, not because the chair did not work. If you bruise easily, have fibromyalgia, or are new to mechanical massage, look for chairs with wide intensity ranges and gentle program modes. The Human Touch Laevo ZG is on this list specifically for buyers who need a non-roller option.
@@ -99,7 +99,7 @@ export default function BestSeniorsPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>

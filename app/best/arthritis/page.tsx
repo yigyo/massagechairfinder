@@ -4,7 +4,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Best Massage Chairs for Arthritis (2026) | MassageChairFinder",
-  description: "The best massage chairs for arthritis combine 4D roller pressure control, multi-zone heat, and two-stage zero gravity. Six picks verified for arthritic buyers across price ranges from $4,249 to $8,999.",
+  description: "The best massage chairs for arthritis combine 4D roller pressure control, multi-zone heat, and two-stage zero gravity. Six picks verified for arthritic buyers across price tiers from mid to premium.",
 }
 
 const PICK_IDS = [
@@ -24,7 +24,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "medical-breakthrough-6": {
     label: "Best value pick for arthritis",
-    why: "The Medical Breakthrough 6 is the strongest entry point for arthritic buyers at $4,249. L-track coverage extends under the seat to address hip and sacroiliac joint arthritis, the most common complaint among buyers over 60. The 4D roller provides the depth control needed to keep pressure gentle on days when joint sensitivity is higher. Heat, zero gravity, and body scanning are all included. The 300 lb weight capacity and published spec set make it a lower-risk purchase. For buyers whose primary arthritis location is the lower back and hips, this is the starting recommendation.",
+    why: "The Medical Breakthrough 6 is the strongest entry point for arthritic buyers in the $3,000-$4,999 band. L-track coverage extends under the seat to address hip and sacroiliac joint arthritis, the most common complaint among buyers over 60. The 4D roller provides the depth control needed to keep pressure gentle on days when joint sensitivity is higher. Heat, zero gravity, and body scanning are all included. The 300 lb weight capacity and published spec set make it a lower-risk purchase. For buyers whose primary arthritis location is the lower back and hips, this is the starting recommendation.",
   },
   "kahuna-hm-078": {
     label: "Best space-saving option for arthritis",
@@ -32,11 +32,11 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "rockertech-bliss": {
     label: "Best for arthritis with circulation concerns",
-    why: "The RockerTech Bliss is the strongest mid-range choice for arthritic buyers whose joint pain is accompanied by poor circulation or lower-limb swelling. The combination of L-track 4D coverage, reflexology foot rollers, calf airbag compression, and lumbar heat addresses multiple arthritis-related symptoms in one session. The space-saving Zero Wall Fit design makes it practical for bedrooms where the chair needs to sit close to the wall. Two-stage zero gravity reduces spinal compression during sessions, which benefits buyers with spinal osteoarthritis. Three-year warranty at $5,499 is strong for this tier.",
+    why: "The RockerTech Bliss is the strongest mid-range choice for arthritic buyers whose joint pain is accompanied by poor circulation or lower-limb swelling. The combination of L-track 4D coverage, reflexology foot rollers, calf airbag compression, and lumbar heat addresses multiple arthritis-related symptoms in one session. The space-saving Zero Wall Fit design makes it practical for bedrooms where the chair needs to sit close to the wall. Two-stage zero gravity reduces spinal compression during sessions, which benefits buyers with spinal osteoarthritis. Three-year warranty in the $5,000-$7,999 band is strong for this tier.",
   },
   "kyota-yugana-m780": {
     label: "Best mid-to-high pick for petite and older buyers",
-    why: "The Kyota Yugana M780 4D is the most accommodating L-track chair at its price point for the body types most common among older arthritic buyers. It fits buyers from 4 feet 8 inches, unusually low for an L-track 4D chair, and requires only 2 inches of wall clearance. At 300 lbs capacity with a wider-than-average seat, it comfortably accommodates a broad range of body types. The L-track covers the hips and glutes, where osteoarthritis is most prevalent in this demographic. At $7,999, it is a long-term investment in daily relief that is well-suited for consistent use over years.",
+    why: "The Kyota Yugana M780 4D is the most accommodating L-track chair at its price point for the body types most common among older arthritic buyers. It fits buyers from 4 feet 8 inches, unusually low for an L-track 4D chair, and requires only 2 inches of wall clearance. At 300 lbs capacity with a wider-than-average seat, it comfortably accommodates a broad range of body types. The L-track covers the hips and glutes, where osteoarthritis is most prevalent in this demographic. In the $5,000-$7,999 band, it is a long-term investment in daily relief that is well-suited for consistent use over years.",
   },
   "bodyfriend-phantom-ii": {
     label: "Best for heavier arthritic buyers",
@@ -44,7 +44,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "osaki-os-pro-maestro-le": {
     label: "Best full-body arthritis coverage",
-    why: "The Maestro LE 2.0 is the right choice for arthritic buyers whose symptoms extend beyond the lower back into the upper back, neck, and shoulders. The SL-track 4D roller covers the full spine from neck through glutes, and the shoulder and upper body airbag system provides compression therapy across the areas where cervical and upper thoracic arthritis is felt. The body scanning system adjusts per session, which is useful for buyers whose shoulder and spine position varies with daily pain levels. At $8,999 with broad feature coverage and a strong brand support network, this is the most comprehensive arthritis option in the catalog.",
+    why: "The Maestro LE 2.0 is the right choice for arthritic buyers whose symptoms extend beyond the lower back into the upper back, neck, and shoulders. The SL-track 4D roller covers the full spine from neck through glutes, and the shoulder and upper body airbag system provides compression therapy across the areas where cervical and upper thoracic arthritis is felt. The body scanning system adjusts per session, which is useful for buyers whose shoulder and spine position varies with daily pain levels. In the $8,000-$11,999 band, with broad feature coverage and a strong brand support network, this is the most comprehensive arthritis option in the catalog.",
   },
 }
 
@@ -70,7 +70,7 @@ export default function BestArthritisPage() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs for Arthritis</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        Arthritis buyers need a different approach to massage chair selection. Fine-grained pressure control matters more than raw power. Heat is not optional. And the roller needs to reach the joints where the pain actually is, not just the mid-back. These six chairs meet the requirements across price tiers from $4,249 to $8,999.
+        Arthritis buyers need a different approach to massage chair selection. Fine-grained pressure control matters more than raw power. Heat is not optional. And the roller needs to reach the joints where the pain actually is, not just the mid-back. These six chairs meet the requirements across price tiers from mid to premium.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
         Updated May 2026. All picks have 3D or 4D rollers for precise pressure control, confirmed heat features, and zero gravity positioning. For specific guidance on arthritis types and session intensity, see the{" "}
@@ -97,7 +97,7 @@ export default function BestArthritisPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>
@@ -218,7 +218,7 @@ export default function BestArthritisPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          Start with where your arthritis is located. Hip and sacroiliac joint pain requires L-track or SL-track coverage. The Medical Breakthrough 6 ($4,249) is the entry L-track pick; the Kyota Yugana M780 ($7,999) is the premium L-track for petite and older buyers. For full-spine plus glute coverage, any SL-track pick on this list works.
+          Start with where your arthritis is located. Hip and sacroiliac joint pain requires L-track or SL-track coverage. The Medical Breakthrough 6 ($3,000-$4,999) is the entry L-track pick; the Kyota Yugana M780 ($5,000-$7,999) is the premium L-track for petite and older buyers. For full-spine plus glute coverage, any SL-track pick on this list works.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If weight capacity matters, the Bodyfriend Phantom II (335 lbs) and Kahuna HM-078 (350 lbs) cover the highest range. If room size is a constraint, the Kahuna HM-078 and RockerTech Bliss both offer space-saving recline.

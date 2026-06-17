@@ -21,7 +21,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'panasonic-maf1': {
     label: 'Best S-track mid-range',
-    why: "The Panasonic MAF1 is a compact S-track chair with 4D rollers, confirmed for 4'8\" to 6'2\" and 264 lbs. Space-saving recline. At $5,999, it is the mid-range S-track specialist in the catalog. S-track focuses the full roller path on the neck, shoulders, and upper back without extending into the lower body, which is the right design when pain is concentrated above the lumbar. The rollers are infrared-heated, meaning heat follows the massage path rather than staying fixed at one zone. Note: no zero gravity on this model.",
+    why: "The Panasonic MAF1 is a compact S-track chair with 4D rollers, confirmed for 4'8\" to 6'2\" and 264 lbs. Space-saving recline. In the $5,000-$7,999 band, it is the mid-range S-track specialist in the catalog. S-track focuses the full roller path on the neck, shoulders, and upper back without extending into the lower body, which is the right design when pain is concentrated above the lumbar. The rollers are infrared-heated, meaning heat follows the massage path rather than staying fixed at one zone. Note: no zero gravity on this model.",
   },
   'osaki-os-pro-maestro-le': {
     label: 'Premium full-coverage',
@@ -81,7 +81,7 @@ export default function BestNeckShouldersPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>

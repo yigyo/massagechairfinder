@@ -24,27 +24,27 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "kyota-yugana-m780": {
     label: "Best space-saving L-track at this tier",
-    why: "The Kyota Yugana M780 4D earns its position here on three factors that are rare in combination at $7,999: an L-track that extends into the glutes for lower back and hip coverage, a 4 feet 8 inch minimum height that makes it one of the most accessible chairs for petite buyers in this price range, and 2 inches of required wall clearance. For buyers who need glute and hip coverage, have a smaller room or a lower body height, and want a strong L-track without paying $10,000+, the Yugana is the clearest recommendation in this list. 300 lb capacity.",
+    why: "The Kyota Yugana M780 4D earns its position here on three factors that are rare in combination in the $5,000-$7,999 band: an L-track that extends into the glutes for lower back and hip coverage, a 4 feet 8 inch minimum height that makes it one of the most accessible chairs for petite buyers in this price range, and 2 inches of required wall clearance. For buyers who need glute and hip coverage, have a smaller room or a lower body height, and want a strong L-track without paying ultra-premium prices, the Yugana is the clearest recommendation in this list. 300 lb capacity.",
   },
   "kahuna-dios-7300": {
     label: "Best SL-track with advanced roller at this tier",
-    why: "The Kahuna Dios-7300 is the standout value for buyers who want more than standard 4D performance without crossing into the $10,000 tier. The 7D roller system adds lateral movement patterns to the standard 4D depth and rhythm, producing a massage that feels noticeably more varied and comprehensive than a conventional 4D chair. SL-track coverage from neck through glutes, combined with heat, zero gravity, body scanning, calf and foot work, puts it among the most fully-featured chairs at $7,999. For buyers who want maximum feature density at this price point, the Dios-7300 is the strongest option.",
+    why: "The Kahuna Dios-7300 is the standout value for buyers who want more than standard 4D performance without crossing into the next tier up. The 7D roller system adds lateral movement patterns to the standard 4D depth and rhythm, producing a massage that feels noticeably more varied and comprehensive than a conventional 4D chair. SL-track coverage from neck through glutes, combined with heat, zero gravity, body scanning, calf and foot work, puts it among the most fully-featured chairs in the $5,000-$7,999 band. For buyers who want maximum feature density at this price point, the Dios-7300 is the strongest option.",
   },
   "bodyfriend-phantom-ii": {
     label: "Best for heavier buyers at this tier",
-    why: "At $8,499 with a 335 lb verified plus-size weight capacity, the Bodyfriend Phantom II is the right answer for buyers in this price tier who are above 265 lbs. Bodyfriend's Korean-manufactured SL-track 4D system is tuned toward a softer default pressure profile than many competitors at this price, which benefits buyers who have found other $8,000 chairs too aggressive. Heat and zero gravity are included. For buyers who need a high-end SL-track chair and confirmed plus-size fit, there is no better option in the $7,000 to $10,000 range.",
+    why: "In the $8,000-$11,999 band with a 335 lb verified plus-size weight capacity, the Bodyfriend Phantom II is the right answer for buyers in this price tier who are above 265 lbs. Bodyfriend's Korean-manufactured SL-track 4D system is tuned toward a softer default pressure profile than many competitors at this price, which benefits buyers who have found other chairs in this band too aggressive. Heat and zero gravity are included. For buyers who need a high-end SL-track chair and confirmed plus-size fit, there is no better option in this tier.",
   },
   "osaki-os-pro-maestro-le": {
     label: "Best full-body SL-track at this tier",
-    why: "The Osaki OS-Pro Maestro LE 2.0 is the best all-around SL-track chair at $8,999. The 4D roller system covers the full spine from cervical through lumbar and into the glutes, while the upper-body airbag system provides serious shoulder, arm, and hip coverage. The body scanning system runs per session and adjusts roller start position, which is particularly useful for buyers whose posture varies or who share the chair with people of different heights. For buyers whose pain extends into the upper back, neck, and shoulders as well as the lower back, the Maestro's full-spine coverage is the strongest single-chair solution in this tier.",
+    why: "The Osaki OS-Pro Maestro LE 2.0 is the best all-around SL-track chair in the $8,000-$11,999 band. The 4D roller system covers the full spine from cervical through lumbar and into the glutes, while the upper-body airbag system provides serious shoulder, arm, and hip coverage. The body scanning system runs per session and adjusts roller start position, which is particularly useful for buyers whose posture varies or who share the chair with people of different heights. For buyers whose pain extends into the upper back, neck, and shoulders as well as the lower back, the Maestro's full-spine coverage is the strongest single-chair solution in this tier.",
   },
   "positive-posture-brio-plus": {
     label: "Best focused L-track at this tier",
-    why: "The Positive Posture Brio Plus is for the buyer who knows their pain is in the lower back, hips, and glutes and wants an L-track chair from a brand with a strong support reputation. At $7,999 with an L-track 4D roller, heat, and foot rollers, it delivers the core L-track experience without the extras that inflate the price of other chairs in this tier. Positive Posture has a smaller catalog than brands like Infinity or Osaki, which means their support resources are more concentrated. For buyers who value brand focus and clean feature implementation over the broadest feature list, the Brio Plus is worth consideration.",
+    why: "The Positive Posture Brio Plus is for the buyer who knows their pain is in the lower back, hips, and glutes and wants an L-track chair from a brand with a strong support reputation. In the $5,000-$7,999 band with an L-track 4D roller, heat, and foot rollers, it delivers the core L-track experience without the extras that inflate the price of other chairs in this tier. Positive Posture has a smaller catalog than brands like Infinity or Osaki, which means their support resources are more concentrated. For buyers who value brand focus and clean feature implementation over the broadest feature list, the Brio Plus is worth consideration.",
   },
   "infinity-genesis-max": {
     label: "Best L-track value at this tier",
-    why: "At $9,299 with L-track 4D coverage, stretch programs, heat, foot rollers, and 2 inches of wall clearance required, the Infinity Genesis Max is one of the strongest overall values in the under-$10,000 tier. The space-saving design opens the chair to buyers in tighter rooms. The stretch program delivers genuine spinal decompression. And the L-track covers the glutes and hips for buyers with lower back pain that radiates downward. The Genesis Max consistently appears in shortlists for buyers who want full-featured L-track coverage without crossing into the $11,000+ tier of the Infinity lineup.",
+    why: "In the $8,000-$11,999 band with L-track 4D coverage, stretch programs, heat, foot rollers, and 2 inches of wall clearance required, the Infinity Genesis Max is one of the strongest overall values in the under-$10,000 tier. The space-saving design opens the chair to buyers in tighter rooms. The stretch program delivers genuine spinal decompression. And the L-track covers the glutes and hips for buyers with lower back pain that radiates downward. The Genesis Max consistently appears in shortlists for buyers who want full-featured L-track coverage without crossing into the ultra-premium tier of the Infinity lineup.",
   },
 }
 
@@ -73,7 +73,7 @@ export default function BestUnder10kPage() {
         The $7,000 to $10,000 tier is where 4D roller quality peaks before the law of diminishing returns sets in. At $10,000+, you are largely paying for brand prestige, Japanese manufacturing, and incremental refinements in feel. At $7,000 to $9,999, you can get genuine 4D performance, full L-track or SL-track coverage, multi-zone heat, and serious airbag compression at the best value-per-feature ratio in the entire category.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated May 2026. Six picks covering L-track and SL-track options, from value-focused choices at $7,999 to full-featured SL-track at $8,999. Compare with{" "}
+        Updated May 2026. Six picks covering L-track and SL-track options, from value-focused choices in the $5,000-$7,999 band to full-featured SL-track in the $8,000-$11,999 band. Compare with{" "}
         <Link href="/best/premium" className="text-bronze hover:text-gold transition-colors">premium picks above $10,000</Link>{" "}
         or{" "}
         <Link href="/best/under-5000" className="text-bronze hover:text-gold transition-colors">chairs under $5,000</Link>.
@@ -82,13 +82,13 @@ export default function BestUnder10kPage() {
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">What changes at $7,000+</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          At this tier, 4D rollers are well-implemented with genuine rhythm variation. The gap between a good $8,000 chair and a good $5,000 chair is most obvious in the feel of the roller's pace and dwelling behavior, where cheaper 4D systems feel repetitive and this tier does not.
+          At this tier, 4D rollers are well-implemented with genuine rhythm variation. The gap between a good upper-tier chair and a good mid-tier chair is most obvious in the feel of the roller's pace and dwelling behavior, where cheaper 4D systems feel repetitive and this tier does not.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           Full-body airbag systems become the norm at $7,000+. Shoulder, arm, hip, calf, and foot airbag compression is typically included in a single session, rather than the partial coverage more common in lower tiers.
         </p>
         <p className="text-charcoal leading-relaxed">
-          Chairs in this tier also generally use better upholstery materials and longer-lasting mechanical components than the $4,000 to $5,000 range. For buyers who plan to use the chair daily for years, the build quality difference is meaningful.
+          Chairs in this tier also generally use better upholstery materials and longer-lasting mechanical components than the mid-tier range. For buyers who plan to use the chair daily for years, the build quality difference is meaningful.
         </p>
       </div>
 
@@ -223,7 +223,7 @@ export default function BestUnder10kPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          Track type is the primary split. For lower back pain that radiates into the hips and glutes, choose an L-track: the Kyota Yugana M780 ($7,999), Positive Posture Brio Plus ($7,999), or Infinity Genesis Max ($9,299). For pain that spans the full back including neck and shoulders, choose SL-track: the Kahuna Dios-7300 ($7,999) or Osaki Maestro LE ($8,999).
+          Track type is the primary split. For lower back pain that radiates into the hips and glutes, choose an L-track: the Kyota Yugana M780 ($5,000-$7,999), Positive Posture Brio Plus ($5,000-$7,999), or Infinity Genesis Max ($8,000-$11,999). For pain that spans the full back including neck and shoulders, choose SL-track: the Kahuna Dios-7300 ($5,000-$7,999) or Osaki Maestro LE ($8,000-$11,999).
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           For buyers above 265 lbs, the Bodyfriend Phantom II is the confirmed 335-lb option in this tier. For buyers in tight rooms, the Kyota Yugana and Infinity Genesis Max both require only 2 inches of wall clearance.

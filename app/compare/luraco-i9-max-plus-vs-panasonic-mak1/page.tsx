@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Luraco i9 Max Plus vs Panasonic MAK1: Which Is Right for You? | MassageChairFinder',
-  description: 'The Luraco i9 Max Plus costs $1,000 less than the Panasonic MAK1, uses an L-track with zero gravity, and carries a 10-year warranty. The MAK1 has no zero gravity and uses an S-track. Here is the full comparison.',
+  description: 'The Luraco i9 Max Plus is the lower-priced of the two, uses an L-track with zero gravity, and carries a 10-year warranty. The MAK1 has no zero gravity and uses an S-track. Here is the full comparison.',
 }
 
 export default function LuracoVsMAK1Page() {
@@ -22,7 +22,7 @@ export default function LuracoVsMAK1Page() {
       </h1>
 
       <p className="text-warm-gray text-lg mb-8">
-        Both chairs sit above $13,000 and represent the engineering-forward end of the category.
+        Both chairs sit in the ultra-premium tier ($12,000 and up) and represent the engineering-forward end of the category.
         The Luraco i9 Max Plus is assembled in Irving, Texas and carries a 10-year warranty.
         The Panasonic MAK1 comes from one of Japan's most established electronics manufacturers.
         Despite similar price points, these chairs make very different choices on the features
@@ -41,7 +41,7 @@ export default function LuracoVsMAK1Page() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Luraco i9 Max Plus</p>
-          <p className="text-sm text-charcoal">$13,490</p>
+          <p className="text-sm text-charcoal">$12,000 and up</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -54,7 +54,7 @@ export default function LuracoVsMAK1Page() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Panasonic MAK1</p>
-          <p className="text-sm text-charcoal">$14,499</p>
+          <p className="text-sm text-charcoal">$12,000 and up</p>
         </div>
       </div>
 
@@ -62,7 +62,7 @@ export default function LuracoVsMAK1Page() {
         <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#D1803E' }}>Quick verdict</p>
         <p className="text-charcoal">
           The <strong>Luraco i9 Max Plus</strong> is the stronger all-around chair for most buyers.
-          It costs $1,000 less, covers a wider body size range, includes zero gravity and L-track
+          It is the lower-priced of the two, covers a wider body size range, includes zero gravity and L-track
           coverage, and carries a 10-year warranty. The <strong>MAK1</strong> is the right choice
           for buyers who specifically want Panasonic brand engineering, the 4D roller depth, or
           an S-track designed around upper back and neck focus. Buyers with lower back pain should
@@ -82,7 +82,7 @@ export default function LuracoVsMAK1Page() {
           </thead>
           <tbody>
             {[
-              ['Price', '$13,490', '$14,499'],
+              ['Price band', '$12,000 and up', '$12,000 and up'],
               ['Track type', 'L-track (split)', 'S-track'],
               ['Roller type', '3D', '4D'],
               ['Height range', '59 to 82 inches', '56 to 74 inches'],
@@ -115,8 +115,8 @@ export default function LuracoVsMAK1Page() {
         at this price. Zero gravity elevates the knees above the heart during the massage,
         distributing body weight away from the lumbar spine. For buyers with chronic lower
         back compression or herniated discs, this positioning meaningfully changes the
-        effectiveness of the massage. The i9 Max Plus includes zero gravity. At $1,000 less
-        than the MAK1, the absence of zero gravity on the more expensive chair is a notable gap.
+        effectiveness of the massage. The i9 Max Plus includes zero gravity. As the lower-priced
+        of the two, its inclusion of zero gravity makes the absence on the pricier MAK1 a notable gap.
       </p>
 
       <h3 className="text-xl font-serif mb-2 text-navy">Track type and body coverage</h3>
@@ -158,9 +158,9 @@ export default function LuracoVsMAK1Page() {
       <p className="text-charcoal mb-6">
         Luraco is the only massage chair manufacturer with a MADE IN USA certification,
         assembling the i9 Max Plus in Irving, Texas. The 10-year warranty that comes with
-        the i9 Max Plus is the strongest in the category by a significant margin. At a
-        $13,000+ price point, warranty coverage is not a minor consideration. The MAK1
-        carries a standard manufacturer warranty. Owning a $14,000 chair without a
+        the i9 Max Plus is the strongest in the category by a significant margin. At an
+        ultra-premium price point, warranty coverage is not a minor consideration. The MAK1
+        carries a standard manufacturer warranty. Owning an ultra-premium chair without a
         decade of coverage is a meaningful risk that the i9 Max Plus eliminates.
       </p>
 
@@ -171,7 +171,7 @@ export default function LuracoVsMAK1Page() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You have lower back pain, hip pain, or sciatica. L-track and zero gravity are the right tools for this profile.</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are over 6 feet 2 inches. The i9 Max Plus is confirmed to 6 feet 10 inches. The MAK1 is not.</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Long-term ownership confidence matters. The 10-year warranty and Made in USA certification are the strongest in the category.</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want to spend less. At $13,490 it is $1,000 less than the MAK1.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want to spend less. It is the lower-priced of the two.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair" target="_blank" rel="noopener noreferrer"
@@ -204,7 +204,7 @@ export default function LuracoVsMAK1Page() {
         engineered chair that earns its consideration for upper-back focused buyers who want
         infrared roller heat and Panasonic's engineering pedigree. But for buyers with lower
         back pain or any compression-related issue, the absence of zero gravity and L-track
-        on a $14,499 chair is a hard position to justify.
+        on an ultra-premium chair is a hard position to justify.
       </p>
 
       <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>

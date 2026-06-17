@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Infinity Evo Max 4D vs JPMedics Kumo 4D | MassageChairFinder',
-  description: 'Both L-track 4D chairs at $10,999. The Infinity Evo Max needs 2 inches of wall clearance. The JPMedics Kumo 4D confirms plus-size fit at 320 lbs and supports buyers up to 6 foot 3.',
+  description: 'Both L-track 4D chairs in the premium tier ($8,000-$11,999). The Infinity Evo Max needs 2 inches of wall clearance. The JPMedics Kumo 4D confirms plus-size fit at 320 lbs and supports buyers up to 6 foot 3.',
 }
 
 export default function ComparePage() {
@@ -21,7 +21,7 @@ export default function ComparePage() {
 
       <h1 className="text-4xl font-serif mb-3">Infinity Evo Max 4D vs JPMedics Kumo 4D</h1>
       <p className="text-warm-gray mb-8 max-w-2xl">
-        At the same price of $10,999, both chairs use an L-track 4D roller with heat, stretch, and calf massage. The Infinity Evo Max is the choice for rooms with tight space behind the chair. The JPMedics Kumo 4D is the choice for heavier and taller buyers, and for those who want Japanese engineering with a strong verified review record.
+        Both in the premium tier ($8,000-$11,999) and closely priced, both chairs use an L-track 4D roller with heat, stretch, and calf massage. The Infinity Evo Max is the choice for rooms with tight space behind the chair. The JPMedics Kumo 4D is the choice for heavier and taller buyers, and for those who want Japanese engineering with a strong verified review record.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-10">
@@ -35,7 +35,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Infinity Evo Max 4D</p>
-          <p className="text-sm text-charcoal">$10,999</p>
+          <p className="text-sm text-charcoal">$8,000-$11,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -47,7 +47,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">JPMedics Kumo 4D</p>
-          <p className="text-sm text-charcoal">$10,999</p>
+          <p className="text-sm text-charcoal">$8,000-$11,999</p>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ export default function ComparePage() {
           </thead>
           <tbody>
             {[
-              ['Price', '$10,999', '$10,999'],
+              ['Price band', '$8,000-$11,999', '$8,000-$11,999'],
               ['Track', 'L-track', 'L-track'],
               ['Roller', '4D', '4D'],
               ['Track Length', '49 inches', 'Not published'],

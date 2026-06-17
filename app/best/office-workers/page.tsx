@@ -4,7 +4,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Best Massage Chairs for Office Workers and Desk Jobs (2026) | MassageChairFinder",
-  description: "Desk workers need SL-track chairs that address neck and upper back tension specifically, with precise 4D roller control for the cervical and thoracic spine. Six picks from $1,899 to $8,999.",
+  description: "Desk workers need SL-track chairs that address neck and upper back tension specifically, with precise 4D roller control for the cervical and thoracic spine. Six picks across price tiers from entry to premium.",
 }
 
 const PICK_IDS = [
@@ -24,27 +24,27 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "synca-wellness-circ-plus": {
     label: "Best entry-level pick for desk workers",
-    why: "The Synca Wellness CirC+ is the strongest entry point for office workers who want a real massage chair without a $5,000 commitment. The SL-track covers neck through glutes, the 3D roller provides depth control for the cervical and upper thoracic regions where desk tension accumulates, and the space-saving design makes it practical for apartment bedrooms or home office setups. At $1,899, it is the starting point for buyers who want to test whether a massage chair will address their desk-related tension before investing more.",
+    why: "The Synca Wellness CirC+ is the strongest entry point for office workers who want a real massage chair without an upper-mid-tier commitment. The SL-track covers neck through glutes, the 3D roller provides depth control for the cervical and upper thoracic regions where desk tension accumulates, and the space-saving design makes it practical for apartment bedrooms or home office setups. In the Under $3,000 band, it is the starting point for buyers who want to test whether a massage chair will address their desk-related tension before investing more.",
   },
   "ogawa-og6400": {
     label: "Best mid-range for larger office workers",
-    why: "The Ogawa Active XL Duo 3D is the strongest mid-range pick for office workers who are heavier or broader than average. At 320 lbs confirmed plus-size capacity with an 11-inch wall clearance and SL-track 3D coverage, it handles more body types than most chairs in its price tier. The dual roller system uses a primary 3D roller for the spine and a secondary roller for supplemental coverage, a design that produces thorough upper back and shoulder-area work. At $4,800, it occupies the mid-range with a feature set more typical of $6,000 chairs.",
+    why: "The Ogawa Active XL Duo 3D is the strongest mid-range pick for office workers who are heavier or broader than average. At 320 lbs confirmed plus-size capacity with an 11-inch wall clearance and SL-track 3D coverage, it handles more body types than most chairs in its price tier. The dual roller system uses a primary 3D roller for the spine and a secondary roller for supplemental coverage, a design that produces thorough upper back and shoulder-area work. In the $3,000-$4,999 band, it occupies the mid-range with a feature set more typical of upper-mid-tier chairs.",
   },
   "relaxonchair-yukon-4d": {
     label: "Best precision control for desk tension",
-    why: "The Relax On Chair YUKON-4D is built around precision pressure control, which is exactly what desk workers need for neck and cervical spine tension. The ability to run very light intensity in the neck and upper trapezius while running deeper work in the lower back, independently, makes it more useful for office workers with uneven tension distribution than chairs with uniform pressure across all zones. SL-track 4D coverage, zero gravity, and lumbar heat are all included. At $6,499, it is the strongest value-focused pick for buyers whose primary complaint is upper body tension from desk work.",
+    why: "The Relax On Chair YUKON-4D is built around precision pressure control, which is exactly what desk workers need for neck and cervical spine tension. The ability to run very light intensity in the neck and upper trapezius while running deeper work in the lower back, independently, makes it more useful for office workers with uneven tension distribution than chairs with uniform pressure across all zones. SL-track 4D coverage, zero gravity, and lumbar heat are all included. In the $5,000-$7,999 band, it is the strongest value-focused pick for buyers whose primary complaint is upper body tension from desk work.",
   },
   "rockertech-sensation-4d": {
     label: "Best body-scanning pick for office workers",
-    why: "Office workers have notoriously inconsistent posture. The roller needs to start in the right place relative to the cervical spine or it misses the primary tension area entirely. The RockerTech Sensation 4D's TrueFit body scanning system solves this by detecting shoulder height and mapping the roller path each session, so the neck and upper trapezius coverage is accurate regardless of how you sit down. Dual reflexology foot rollers add recovery for buyers who also stand for parts of their workday. At $6,999, the Sensation is the best-calibrated chair in the mid-tier for desk workers with variable posture.",
+    why: "Office workers have notoriously inconsistent posture. The roller needs to start in the right place relative to the cervical spine or it misses the primary tension area entirely. The RockerTech Sensation 4D's TrueFit body scanning system solves this by detecting shoulder height and mapping the roller path each session, so the neck and upper trapezius coverage is accurate regardless of how you sit down. Dual reflexology foot rollers add recovery for buyers who also stand for parts of their workday. In the $5,000-$7,999 band, the Sensation is the best-calibrated chair in the upper-mid tier for desk workers with variable posture.",
   },
   "osaki-os-pro-maestro-le": {
     label: "Best full-coverage pick for office workers",
-    why: "Desk workers who carry tension in the neck, shoulders, mid-back, lower back, and hips simultaneously need a chair that can address the whole chain in a single session. The Osaki OS-Pro Maestro LE 2.0's SL-track 4D roller with full upper-body airbag coverage addresses this more thoroughly than any other chair in the $7,000 to $9,000 range. The airbag system compresses the shoulders and upper arms in patterns that relieve the tension that accumulates from typing and mousing, while the roller works the spine from neck to glutes. For the office worker with total-body tension, the Maestro is the single-chair solution.",
+    why: "Desk workers who carry tension in the neck, shoulders, mid-back, lower back, and hips simultaneously need a chair that can address the whole chain in a single session. The Osaki OS-Pro Maestro LE 2.0's SL-track 4D roller with full upper-body airbag coverage addresses this more thoroughly than any other chair in the premium tier. The airbag system compresses the shoulders and upper arms in patterns that relieve the tension that accumulates from typing and mousing, while the roller works the spine from neck to glutes. For the office worker with total-body tension, the Maestro is the single-chair solution.",
   },
   "synca-wellness-kurodo": {
     label: "Best premium pick for office workers",
-    why: "The Synca Wellness Kurodo is a Japanese-informed SL-track 4D chair at $9,999 with a focus on therapeutic precision rather than feature accumulation. For desk workers who want the most refined neck and upper thoracic work in the catalog, the Kurodo's roller tuning targets the cervical and upper thoracic regions with the kind of precision that reflects its Japanese engineering heritage. Zero gravity, heat, and foot rollers are all included. For buyers willing to invest in a premium daily-use chair that excels specifically at the tension patterns desk work creates, the Kurodo is the strongest pick at this tier.",
+    why: "The Synca Wellness Kurodo is a Japanese-informed premium-tier SL-track 4D chair with a focus on therapeutic precision rather than feature accumulation. For desk workers who want the most refined neck and upper thoracic work in the catalog, the Kurodo's roller tuning targets the cervical and upper thoracic regions with the kind of precision that reflects its Japanese engineering heritage. Zero gravity, heat, and foot rollers are all included. For buyers willing to invest in a premium daily-use chair that excels specifically at the tension patterns desk work creates, the Kurodo is the strongest pick at this tier.",
   },
 }
 
@@ -73,7 +73,7 @@ export default function BestOfficeWorkersPage() {
         Desk work creates a specific tension pattern: tight neck and upper trapezius from screen posture, mid-back tension from slouching, and lower back compression from sitting for hours. The right massage chair for an office worker needs to address all three regions, with precise enough roller control to work the cervical spine without being too aggressive for a daily 20-minute session.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated May 2026. All six picks are SL-track chairs with confirmed neck and upper back coverage. Prices range from $1,899 to $9,999.
+        Updated May 2026. All six picks are SL-track chairs with confirmed neck and upper back coverage. Prices span the entry through premium tiers.
       </p>
 
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
@@ -96,7 +96,7 @@ export default function BestOfficeWorkersPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>
@@ -217,10 +217,10 @@ export default function BestOfficeWorkersPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          Start with budget. At $1,899, the Synca CirC+ is the entry point for buyers who want SL-track coverage without overcommitting. At $4,800, the Ogawa Active XL Duo is the right call for larger-framed buyers who need a confirmed higher weight capacity. The $6,000 to $7,000 range is where precision control and body scanning become available.
+          Start with budget. In the Under $3,000 band, the Synca CirC+ is the entry point for buyers who want SL-track coverage without overcommitting. In the $3,000-$4,999 band, the Ogawa Active XL Duo is the right call for larger-framed buyers who need a confirmed higher weight capacity. The upper-mid tier is where precision control and body scanning become available.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your tension is uneven across the spine, the Relax On Chair YUKON-4D ($6,499) allows independent zone pressure control. If your posture changes significantly depending on how tired you are, the RockerTech Sensation 4D ($6,999) adjusts the roller path per session. For full-chain tension from neck through hips, the Osaki Maestro LE ($8,999) is the single-chair solution.
+          If your tension is uneven across the spine, the Relax On Chair YUKON-4D ($5,000-$7,999) allows independent zone pressure control. If your posture changes significantly depending on how tired you are, the RockerTech Sensation 4D ($5,000-$7,999) adjusts the roller path per session. For full-chain tension from neck through hips, the Osaki Maestro LE ($8,000-$11,999) is the single-chair solution.
         </p>
         <p className="text-charcoal leading-relaxed">
           The most effective use pattern for desk-related tension is a 20-minute session immediately after work, before the tension from the day has time to set. The{" "}

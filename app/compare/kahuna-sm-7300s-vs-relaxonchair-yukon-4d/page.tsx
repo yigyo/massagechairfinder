@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Kahuna SM-7300S vs Relax On Chair YUKON-4D | MassageChairFinder',
-  description: 'The Kahuna SM-7300S uses a 6-roller 2D system with three-stage zero gravity and full heat coverage at $6,999. The YUKON-4D delivers 4D precision at $500 less. Here is the full comparison.',
+  description: 'The Kahuna SM-7300S uses a 6-roller 2D system with three-stage zero gravity and full heat coverage in the upper-mid tier. The YUKON-4D delivers 4D precision at the lower price of the two. Here is the full comparison.',
 }
 
 export default function ComparePage() {
@@ -21,7 +21,7 @@ export default function ComparePage() {
 
       <h1 className="text-4xl font-serif mb-3">Kahuna SM-7300S vs Relax On Chair YUKON-4D</h1>
       <p className="text-warm-gray mb-8 max-w-2xl">
-        These chairs sit $500 apart at $6,999 and $6,499. The Kahuna SM-7300S is built around a 6-roller system, three-stage zero gravity, and heat that extends to the lumbar, calves, and feet. The YUKON-4D is built around a 4D roller with precision pressure control. The choice is fundamentally about whether roller technology or heat and decompression coverage matters more.
+        These chairs are closely priced, both in the upper-mid tier ($5,000-$7,999). The Kahuna SM-7300S is built around a 6-roller system, three-stage zero gravity, and heat that extends to the lumbar, calves, and feet. The YUKON-4D is built around a 4D roller with precision pressure control. The choice is fundamentally about whether roller technology or heat and decompression coverage matters more.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-10">
@@ -36,7 +36,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Kahuna SM-7300S</p>
-          <p className="text-sm text-charcoal">$6,999</p>
+          <p className="text-sm text-charcoal">$5,000-$7,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -49,7 +49,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Relax On Chair YUKON-4D</p>
-          <p className="text-sm text-charcoal">$6,499</p>
+          <p className="text-sm text-charcoal">$5,000-$7,999</p>
         </div>
       </div>
 
@@ -59,7 +59,7 @@ export default function ComparePage() {
           For buyers who want the deepest zero gravity decompression, the most heat coverage (lumbar, calf, and feet), and a thorough multi-roller massage at a familiar price from a well-known brand, the Kahuna SM-7300S is the right call. It is a more traditional approach to massage chair design executed at a high level.
         </p>
         <p>
-          For buyers who want 4D roller precision and the ability to fine-tune pressure by zone and session, the YUKON-4D delivers that at $500 less. Its 4D system provides session-by-session depth control that the SM-7300S cannot match with its 2D roller.
+          For buyers who want 4D roller precision and the ability to fine-tune pressure by zone and session, the YUKON-4D delivers that at the lower price of the two. Its 4D system provides session-by-session depth control that the SM-7300S cannot match with its 2D roller.
         </p>
       </div>
 
@@ -75,7 +75,7 @@ export default function ComparePage() {
           </thead>
           <tbody>
             {[
-              ['Price', '$6,999', '$6,499'],
+              ['Price band', '$5,000-$7,999', '$5,000-$7,999'],
               ['Track', 'SL-track', 'SL-track'],
               ['Roller', '2D (6-roller system)', '4D'],
               ['Zero Gravity', '3 stages', 'Yes'],

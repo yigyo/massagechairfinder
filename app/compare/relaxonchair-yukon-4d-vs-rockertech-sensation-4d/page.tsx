@@ -4,8 +4,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Relax On Chair YUKON-4D vs RockerTech Sensation 4D: $500 Apart, Same Tier',
-  description: 'Both SL-track 4D chairs between $6,500 and $7,000. The Sensation 4D adds TrueFit body scanning and dual foot rollers. The YUKON-4D prioritizes pressure control precision. Here is the full breakdown.',
+  title: 'Relax On Chair YUKON-4D vs RockerTech Sensation 4D: Same Tier, Closely Priced',
+  description: 'Both SL-track 4D chairs in the upper-mid tier ($5,000-$7,999). The Sensation 4D adds TrueFit body scanning and dual foot rollers. The YUKON-4D prioritizes pressure control precision. Here is the full breakdown.',
 }
 
 export default function YukonVsSensationPage() {
@@ -18,12 +18,12 @@ export default function YukonVsSensationPage() {
       </nav>
 
       <h1 className="text-4xl font-serif mb-4">
-        Relax On Chair YUKON-4D vs RockerTech Sensation 4D: $500 Apart, Same Tier
+        Relax On Chair YUKON-4D vs RockerTech Sensation 4D: Same Tier, Closely Priced
       </h1>
 
       <p className="text-warm-gray text-lg mb-8">
         Both are SL-track 4D chairs with two-stage zero gravity, lumbar heat, full airbag
-        coverage, and body scanning, priced $500 apart at $6,499 and $6,999 respectively.
+        coverage, and body scanning, closely priced in the upper-mid tier ($5,000-$7,999).
         The decision comes down to two specific differences: the Sensation&apos;s dual
         reflexology foot rollers and TrueFit body scanning vs the YUKON&apos;s premium
         pressure control architecture.
@@ -40,7 +40,7 @@ export default function YukonVsSensationPage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Relax On Chair YUKON-4D</p>
-          <p className="text-sm text-charcoal">$6,499</p>
+          <p className="text-sm text-charcoal">$5,000-$7,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -52,7 +52,7 @@ export default function YukonVsSensationPage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">RockerTech Sensation 4D</p>
-          <p className="text-sm text-charcoal">$6,999</p>
+          <p className="text-sm text-charcoal">$5,000-$7,999</p>
         </div>
       </div>
 
@@ -63,7 +63,7 @@ export default function YukonVsSensationPage() {
           <strong> Sensation 4D</strong>, specifically for its dual reflexology foot rollers.
           For buyers whose primary concern is precision pressure control and full-spine
           coverage without paying for features they will not use: the <strong>YUKON-4D</strong>
-          at $500 less is the tighter, cleaner pick at this tier.
+          as the lower-priced of the two is the tighter, cleaner pick at this tier.
         </p>
       </div>
 
@@ -79,7 +79,7 @@ export default function YukonVsSensationPage() {
           </thead>
           <tbody>
             {[
-              ['Price', '$6,499', '$6,999'],
+              ['Price band', '$5,000-$7,999', '$5,000-$7,999'],
               ['Track', 'SL-track', 'SL-track'],
               ['Roller', '4D', '4D'],
               ['Body scanning', 'Yes', 'TrueFit'],
@@ -127,7 +127,7 @@ export default function YukonVsSensationPage() {
         and session. For buyers who are sensitive to pressure, who share the chair with
         someone who needs different intensity settings, or who want fine-grained day-to-day
         adjustment without the complexity of advanced programming features, the YUKON
-        delivers that control at a $500 lower price point than the Sensation.
+        delivers that control as the lower-priced of the two against the Sensation.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
@@ -135,7 +135,7 @@ export default function YukonVsSensationPage() {
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Your primary focus is back and hip pain, not foot relief</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Precision pressure control is the most important feature for your use case</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>The $500 savings is relevant to your budget</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>The lower price of the two is relevant to your budget</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are in the middle of the height range and body scanning precision matters less</span></li>
           </ul>
           <div className="mt-4">

@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Kyota Yugana M780 vs Osaki OS-Pro Maestro LE 2.0: Premium 4D Comparison',
-  description: 'The Yugana M780 is L-track at $7,999 with a 2-inch wall clearance. The Maestro LE is SL-track at $8,999 with broader upper-body airbag coverage. Here is how to choose between them.',
+  description: 'The Yugana M780 is L-track in the upper-mid tier with a 2-inch wall clearance. The Maestro LE is SL-track a price tier higher with broader upper-body airbag coverage. Here is how to choose between them.',
 }
 
 export default function YuganaVsMaestroPage() {
@@ -22,9 +22,9 @@ export default function YuganaVsMaestroPage() {
       </h1>
 
       <p className="text-warm-gray text-lg mb-8">
-        Both are premium 4D chairs in the $8,000 to $9,000 range, both appear frequently
-        on recommended lists at this tier, and both have strong build quality. The core
-        decision is L-track vs SL-track, a $1,000 price gap, and which specific features
+        Both are 4D chairs in adjacent price tiers, both appear frequently
+        on recommended lists, and both have strong build quality. The core
+        decision is L-track vs SL-track, a price tier gap, and which specific features
         matter most for your body and your room.
       </p>
 
@@ -39,7 +39,7 @@ export default function YuganaVsMaestroPage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Kyota Yugana M780 4D</p>
-          <p className="text-sm text-charcoal">$7,999</p>
+          <p className="text-sm text-charcoal">$5,000-$7,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -51,7 +51,7 @@ export default function YuganaVsMaestroPage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Osaki OS-Pro Maestro LE 2.0</p>
-          <p className="text-sm text-charcoal">$8,999</p>
+          <p className="text-sm text-charcoal">$8,000-$11,999</p>
         </div>
       </div>
 
@@ -79,7 +79,7 @@ export default function YuganaVsMaestroPage() {
           </thead>
           <tbody>
             {[
-              ['Price', '$7,999', '$8,999'],
+              ['Price band', '$5,000-$7,999', '$8,000-$11,999'],
               ['Track', 'L-track', 'SL-track'],
               ['Roller', '4D', '4D'],
               ['Body scanning', 'TrueFit', 'Yes'],
@@ -137,7 +137,7 @@ export default function YuganaVsMaestroPage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are shorter than 5&apos;0&quot;</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You weigh over 260 lbs</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Your pain is primarily lower back and glutes rather than upper back</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>The $1,000 savings matters to your budget</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Staying a price tier lower matters to your budget</span></li>
           </ul>
           <div className="mt-4">
             <a href={affiliateUrlById('kyota-yugana-m780')} className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Yugana M780</a>

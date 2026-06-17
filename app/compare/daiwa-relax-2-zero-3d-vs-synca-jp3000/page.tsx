@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Daiwa Relax 2 Zero 3D vs Synca JP-3000 | MassageChairFinder',
-  description: 'Both S-track chairs for upper and mid-back therapeutic massage. The Daiwa costs $2,000 less and fits buyers from 4 feet 8 to 6 feet 6. The JP-3000 has a 5D roller and Japanese manufacturing.',
+  description: 'Both S-track chairs for upper and mid-back therapeutic massage. The Daiwa is the lower-priced of the two and fits buyers from 4 feet 8 to 6 feet 6. The JP-3000 has a 5D roller and Japanese manufacturing.',
 }
 
 export default function ComparePage() {
@@ -41,7 +41,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Daiwa Relax 2 Zero 3D</p>
-          <p className="text-sm text-charcoal">$9,000</p>
+          <p className="text-sm text-charcoal">$8,000-$11,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -53,14 +53,14 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Synca JP-3000</p>
-          <p className="text-sm text-charcoal">$10,999</p>
+          <p className="text-sm text-charcoal">$8,000-$11,999</p>
         </div>
       </div>
 
       <div className="mb-10 rounded-lg p-5" style={{ background: 'rgba(209,128,62,0.06)', border: '1px solid rgba(209,128,62,0.25)' }}>
         <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#D1803E' }}>Quick verdict</p>
         <p className="mb-3">
-          For buyers with upper and mid-back pain who also need confirmed fit at the extremes, from 4 feet 8 inches to 6 feet 6 inches, at up to 300 lbs, the Daiwa Relax 2 Zero 3D is the more practical and $2,000 less expensive choice. The inversion stretch program is a standout feature for spinal decompression not found in the JP-3000.
+          For buyers with upper and mid-back pain who also need confirmed fit at the extremes, from 4 feet 8 inches to 6 feet 6 inches, at up to 300 lbs, the Daiwa Relax 2 Zero 3D is the more practical and lower-priced choice. The inversion stretch program is a standout feature for spinal decompression not found in the JP-3000.
         </p>
         <p>
           For buyers who want Japanese manufacturing quality and a 5D roller system with advanced rhythm and pattern variation, the Synca JP-3000 justifies the premium. Made in Japan with an 8% affiliate program and a strong support network via Synca Wellness, it is the choice when manufacturing precision and roller sophistication matter more than price.
@@ -79,7 +79,7 @@ export default function ComparePage() {
           </thead>
           <tbody>
             {[
-              ['Price', '$9,000', '$10,999'],
+              ['Price band', '$8,000-$11,999', '$8,000-$11,999'],
               ['Track', 'S-track', 'S-track'],
               ['Roller', '3D', '5D'],
               ['Weight Capacity', '300 lbs', 'Not published'],
@@ -123,7 +123,7 @@ export default function ComparePage() {
         <div className="card" style={{ borderTop: '3px solid #1C2331' }}>
           <h2 className="text-xl font-serif font-semibold text-navy mb-3">Choose the Daiwa Relax 2 Zero 3D if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want S-track upper back coverage at a $2,000 lower price</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want S-track upper back coverage at the lower price of the two</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You need confirmed fit at taller or heavier ranges</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Inversion stretch for spinal decompression is a priority</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Manufacturing origin is less important than confirmed body fit</span></li>

@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs Under $2,000 (2026)',
-  description: 'Three chairs under $2,000, all with SL-track and zero gravity. Here is what you get at this price point, where the limits are, and when it is worth spending more.',
+  description: 'Three chairs under $2,000, all with SL-track and zero gravity. Here is what you get at this entry price point, where the limits are, and when it is worth spending more.',
 }
 
 const PICK_IDS = [
@@ -23,23 +23,23 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'osaki-os-champ': {
     label: 'Entry SL-track, higher weight capacity',
-    why: 'The OS-Champ is an SL-track chair with two-stage zero gravity, lumbar heat, foot and calf massage, and a 260-lb weight capacity at $1,299. The 9-inch wall clearance is larger than the Renew 3D and requires more room planning. For buyers who prioritize weight capacity or are between the two and want the more established model, this is the pick.',
+    why: 'The OS-Champ is an SL-track chair with two-stage zero gravity, lumbar heat, foot and calf massage, and a 260-lb weight capacity, all in the entry tier. The 9-inch wall clearance is larger than the Renew 3D and requires more room planning. For buyers who prioritize weight capacity or are between the two and want the more established model, this is the pick.',
   },
   'synca-wellness-circ': {
     label: 'Entry with 3D rollers and SL-track',
-    why: 'The CirC is priced at $1,299 and uses a 3D roller mechanism on a 34-inch SL-track with zero gravity and lumbar heat. The 34-inch track is shorter than most SL-track chairs and suits average-height users best. 3D rollers allow pressure depth adjustment that 2D chairs at this price do not offer. For buyers who want roller control at the entry price point, this is the pick. Sold via syncamassagechair.com.',
+    why: 'The CirC is one of the most affordable picks here and uses a 3D roller mechanism on a 34-inch SL-track with zero gravity and lumbar heat. The 34-inch track is shorter than most SL-track chairs and suits average-height users best. 3D rollers allow pressure depth adjustment that 2D chairs at this price do not offer. For buyers who want roller control at the entry price point, this is the pick. Sold via syncamassagechair.com.',
   },
   'synca-wellness-circ-plus': {
     label: 'Step-up 3D SL-track with space-saving recline',
-    why: 'The CirC Plus at $1,899 adds 3D roller technology over the entry CirC. 3D rollers provide adjustable pressure depth, which matters for buyers who expect to need firmer or softer massage as their usage patterns develop. Six-inch wall clearance, 45.5-inch SL-track, zero gravity, and lumbar heat are confirmed. 300-lb weight capacity.',
+    why: 'The CirC Plus steps up from the entry CirC, adding 3D roller technology over it. 3D rollers provide adjustable pressure depth, which matters for buyers who expect to need firmer or softer massage as their usage patterns develop. Six-inch wall clearance, 45.5-inch SL-track, zero gravity, and lumbar heat are confirmed. 300-lb weight capacity.',
   },
   'inner-balance-jin': {
     label: 'Best wall-clearance option under $2,000',
     why: 'The Inner Balance Jin requires only 2 inches of wall clearance, the tightest recline footprint of any chair in this price range. SL-track, 300-lb weight capacity, zero gravity, and lumbar heat are confirmed. For buyers who have measured their space and need the chair to sit within inches of the wall, this is the only option under $2,000 that reliably fits.',
   },
   'relaxonchair-jasper': {
-    label: 'SL-track step-up at $1,599',
-    why: "The Relax On Chair Jasper is an SL-track chair at $1,599 with zero gravity, lumbar heat, and foot rollers. The core specs match the RIO, with the Jasper positioned as a step up in build within the Relax On Chair line rather than a change in roller architecture. 2D rollers. No confirmed height or weight capacity data from the retailer spec page. For buyers whose budget lands between the $999 entry tier and the $1,999 range, this fills the mid-tier slot.",
+    label: 'SL-track step-up in the entry tier',
+    why: "The Relax On Chair Jasper is an SL-track chair with zero gravity, lumbar heat, and foot rollers. The core specs match the RIO, with the Jasper positioned as a step up in build within the Relax On Chair line rather than a change in roller architecture. 2D rollers. No confirmed height or weight capacity data from the retailer spec page. For buyers whose budget lands between the floor of the catalog and the top of this under-$2,000 group, this fills the middle slot.",
   },
 }
 
@@ -65,18 +65,18 @@ export default function BestUnder2000Page() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs Under $2,000</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        There are five chairs in the under-$2,000 range in the current catalog, ranging from $1,299 to $1,999. At this price point, buyers can expect SL-track coverage, zero gravity, and basic airbag massage. What you are not paying for yet: adjustable roller depth (2D rollers are standard here), extended warranties, or body fit confirmation data.
+        There are five chairs in the under-$2,000 range in the current catalog, spanning from the floor of the catalog to the top of this budget. At this price point, buyers can expect SL-track coverage, zero gravity, and basic airbag massage. What you are not paying for yet: adjustable roller depth (2D rollers are standard here), extended warranties, or body fit confirmation data.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated April 2026. If your budget can stretch to $2,499, see the{' '}
+        Updated April 2026. If your budget can stretch a little higher, see the{' '}
         <Link href="/best/under-3000" className="text-bronze hover:text-gold transition-colors">under-$3,000 page</Link>{' '}
         for chairs with confirmed body fit data and stronger specs.
       </p>
 
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
-        <h2 className="text-xl font-serif font-semibold text-navy mb-3">What $1,299 gets you, and where the limits are</h2>
+        <h2 className="text-xl font-serif font-semibold text-navy mb-3">What the entry tier gets you, and where the limits are</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          At $1,299, you are paying for the roller mechanism, the SL-track system, and the zero gravity recline. Two things are typically absent at this tier: adjustable roller depth (2D rollers move in two axes but cannot vary how far they press into the back) and confirmed height and weight compatibility data from the retailer.
+          At this entry price, you are paying for the roller mechanism, the SL-track system, and the zero gravity recline. Two things are typically absent at this tier: adjustable roller depth (2D rollers move in two axes but cannot vary how far they press into the back) and confirmed height and weight compatibility data from the retailer.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           Massage intensity will be adjustable within a narrower range than mid-tier chairs. The pressure you experience on the first session may be stronger than expected. Most entry chair returns happen because the massage is too rough, not too light. Start at the lowest setting and adjust upward.
@@ -222,13 +222,13 @@ export default function BestUnder2000Page() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">The case for spending more</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          Both chairs above are legitimate starting points. The gap between $1,299 and $2,499 is meaningful. The Kahuna LM-6800S at $2,499 adds confirmed body fit data (5'0&quot; to 6'0&quot;), three-stage zero gravity, a verified 45-inch track length, and a retailer with a stronger service record.
+          Both chairs above are legitimate starting points. The gap between this entry tier and the top of the under-$3,000 range is meaningful. The Kahuna LM-6800S, near the top of that range, adds confirmed body fit data (5'0&quot; to 6'0&quot;), three-stage zero gravity, a verified 45-inch track length, and a retailer with a stronger service record.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          At $2,999, the Osaki OS-Pro Admiral II adds 3D rollers, a 49-inch track, body scanning, and a 270-lb weight capacity. These are not marginal upgrades at the $1,299 starting point.
+          At the top of the under-$3,000 range, the Osaki OS-Pro Admiral II adds 3D rollers, a 49-inch track, body scanning, and a 270-lb weight capacity. These are not marginal upgrades over the entry starting point.
         </p>
         <p className="text-charcoal leading-relaxed">
-          If the $1,299 price point is a hard limit, both chairs above are sound choices. If budget is the primary constraint but not absolute, the{' '}
+          If the entry price point is a hard limit, both chairs above are sound choices. If budget is the primary constraint but not absolute, the{' '}
           <Link href="/best/under-3000" className="text-bronze hover:text-gold transition-colors">under-$3,000 page</Link>{' '}
           shows what the additional spend makes possible. The{' '}
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}

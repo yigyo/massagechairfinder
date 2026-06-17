@@ -70,22 +70,7 @@ function lookupChairFeatures(chairName: string): Record<string, string> {
   }
 }
 
-// Return a formatted price from the catalog as a fallback when the AI omits it.
-function getCatalogPrice(chairName: string): string {
-  const lowerName = chairName.toLowerCase()
-  const found = CHAIRS.find(c =>
-    c.active &&
-    (c.name.toLowerCase() === lowerName ||
-      (c.goodwinLookupKey && lowerName.includes(c.goodwinLookupKey.toLowerCase())))
-  )
-  if (!found) return ''
-  const fmt = (n: number) => '$' + n.toLocaleString('en-US')
-  if (found.priceMax) {
-    const base = `${fmt(found.priceMin)}-${fmt(found.priceMax)}`
-    return found.priceEstimated ? `${base} est.` : base
-  }
-  return `Starting at ${fmt(found.priceMin)}`
-}
+// (catalog price fallback removed: exact prices no longer sent to Klaviyo)
 
 // Email clients can't resolve relative URLs. Turn '/images/chairs/foo.jpg' into a
 // fully-qualified https URL so the Klaviyo template can render the <img>.
@@ -158,7 +143,6 @@ export async function POST(req: Request) {
     if (chair1) {
       properties.mcf_top_chair       = chair1.name
       properties.mcf_top_chair_url   = chair1.url
-      properties.mcf_top_chair_price = chair1.price || getCatalogPrice(chair1.name)
       properties.mcf_top_chair_body  = chair1.body
       const img1 = absolutizeImageUrl(chair1.imageUrl)
       if (img1) properties.mcf_top_chair_image = img1
@@ -167,7 +151,6 @@ export async function POST(req: Request) {
     if (chair2) {
       properties.mcf_second_chair       = chair2.name
       properties.mcf_second_chair_url   = chair2.url
-      properties.mcf_second_chair_price = chair2.price || getCatalogPrice(chair2.name)
       properties.mcf_second_chair_body  = chair2.body
       const img2 = absolutizeImageUrl(chair2.imageUrl)
       if (img2) properties.mcf_second_chair_image = img2
@@ -176,7 +159,6 @@ export async function POST(req: Request) {
     if (chair3) {
       properties.mcf_third_chair       = chair3.name
       properties.mcf_third_chair_url   = chair3.url
-      properties.mcf_third_chair_price = chair3.price || getCatalogPrice(chair3.name)
       properties.mcf_third_chair_body  = chair3.body
       const img3 = absolutizeImageUrl(chair3.imageUrl)
       if (img3) properties.mcf_third_chair_image = img3

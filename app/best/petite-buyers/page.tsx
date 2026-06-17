@@ -24,27 +24,27 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "luraco-theater-sofy": {
     label: "Best budget entry for petite buyers",
-    why: "The Theater Sofy is confirmed from 5 foot 0 inches to 6 foot 5 inches and built for commercial and home theater use, which means the seat geometry was designed to accommodate a wider range of body proportions than most residential chairs. L-track covers the glutes and upper thighs, 300-lb capacity, lumbar heat, zero gravity. At $3,490, it is the most accessible confirmed-petite chair in the catalog with L-track coverage. The 3D roller delivers meaningful depth without a premium price.",
+    why: "The Theater Sofy is confirmed from 5 foot 0 inches to 6 foot 5 inches and built for commercial and home theater use, which means the seat geometry was designed to accommodate a wider range of body proportions than most residential chairs. L-track covers the glutes and upper thighs, 300-lb capacity, lumbar heat, zero gravity. In the $3,000-$4,999 band, it is the most accessible confirmed-petite chair in the catalog with L-track coverage. The 3D roller delivers meaningful depth without a premium price.",
   },
   "amamedics-hilux-4d": {
     label: "Best SL-track for petite buyers",
-    why: "The Hilux 4D is confirmed from 4 foot 11 inches to 6 foot 7 inches, one of the widest verified height ranges in the catalog, and the only mid-range SL-track chair with a confirmed petite lower bound. SL-track means the roller covers the full spine from the neck to the glutes, which matters for petite buyers who are likely to have a shorter lumbar-to-shoulder distance. The 4D roller depth is adjustable. Heated rollers rather than a surface heat pad. Space-saving design. At $4,999, this is the SL-track pick for buyers under 5 foot 2 inches who want full spinal coverage.",
+    why: "The Hilux 4D is confirmed from 4 foot 11 inches to 6 foot 7 inches, one of the widest verified height ranges in the catalog, and the only mid-range SL-track chair with a confirmed petite lower bound. SL-track means the roller covers the full spine from the neck to the glutes, which matters for petite buyers who are likely to have a shorter lumbar-to-shoulder distance. The 4D roller depth is adjustable. Heated rollers rather than a surface heat pad. Space-saving design. In the $3,000-$4,999 band, this is the SL-track pick for buyers under 5 foot 2 inches who want full spinal coverage.",
   },
   "panasonic-maf1": {
     label: "Best compact Japanese design",
-    why: "The Panasonic MAF1 is confirmed from 4 foot 8 inches to 6 foot 2 inches and measures just 27 inches wide, the most compact full-featured chair in the catalog. S-track covers the neck through the lumbar. No zero gravity and no L or SL extension, which means it is not the right pick for buyers with lower back pain that radiates into the hips. But for petite buyers managing upper and mid-back tension who also have limited room width, the MAF1 is purpose-built. Panasonic manufacturing heritage, 264-lb capacity. At $5,999.",
+    why: "The Panasonic MAF1 is confirmed from 4 foot 8 inches to 6 foot 2 inches and measures just 27 inches wide, the most compact full-featured chair in the catalog. S-track covers the neck through the lumbar. No zero gravity and no L or SL extension, which means it is not the right pick for buyers with lower back pain that radiates into the hips. But for petite buyers managing upper and mid-back tension who also have limited room width, the MAF1 is purpose-built. Panasonic manufacturing heritage, 264-lb capacity. It sits in the $5,000-$7,999 band.",
   },
   "daiwa-majesty-2d": {
     label: "Best L-track confirmed to 4'8\"",
-    why: "The Majesty 2D is confirmed from 4 foot 8 inches to 6 foot 6 inches, the shortest confirmed lower bound of any L-track chair in the catalog. Double reflexology foot rollers, 42 airbags, two-stage zero gravity, 265-lb capacity. The L-track covers the full spine and extends under the glutes, making this a legitimate option for petite buyers with lower back and hip pain rather than just upper back issues. At $6,000, the 2D roller is the tradeoff for the confirmed height range and Daiwa build quality.",
+    why: "The Majesty 2D is confirmed from 4 foot 8 inches to 6 foot 6 inches, the shortest confirmed lower bound of any L-track chair in the catalog. Double reflexology foot rollers, 42 airbags, two-stage zero gravity, 265-lb capacity. The L-track covers the full spine and extends under the glutes, making this a legitimate option for petite buyers with lower back and hip pain rather than just upper back issues. In the $5,000-$7,999 band, the 2D roller is the tradeoff for the confirmed height range and Daiwa build quality.",
   },
   "kyota-yugana-m780": {
     label: "Best 4D roller for petite buyers",
-    why: "The Yugana M780 is confirmed from 4 foot 8 inches to 6 foot 2 inches with a 4D roller, TrueFit body scanning, L-track, 300-lb capacity, heat, and 2-inch wall clearance. The body scan specifically matters for petite buyers: it reads the curvature and length of the spine before each session and repositions the roller start point accordingly. That means the roller is not starting at an average-body assumption but at your actual shoulder position. 4D depth adjustment gives you precise control over intensity. At $7,999, this is the most complete petite-fit verified chair in the mid-premium range.",
+    why: "The Yugana M780 is confirmed from 4 foot 8 inches to 6 foot 2 inches with a 4D roller, TrueFit body scanning, L-track, 300-lb capacity, heat, and 2-inch wall clearance. The body scan specifically matters for petite buyers: it reads the curvature and length of the spine before each session and repositions the roller start point accordingly. That means the roller is not starting at an average-body assumption but at your actual shoulder position. 4D depth adjustment gives you precise control over intensity. In the $5,000-$7,999 band, this is the most complete petite-fit verified chair in the mid-premium range.",
   },
   "daiwa-legacy-4": {
     label: "Best premium pick for petite buyers",
-    why: "The Legacy 4 is confirmed from 4 foot 8 inches to 6 foot 6 inches with a 49-inch L-track, 3D rollers, body scanning, two-stage zero gravity, 300-lb capacity, and space-saving 3.25-inch wall clearance. The 49-inch track length is one of the longer L-track systems in the catalog, which combined with the confirmed 4 foot 8 inch lower bound means the system was designed to cover petite body proportions without the roller sitting too high. At $9,500, the Legacy 4 is the premium petite option for buyers who want confirmed fit data alongside Daiwa build quality.",
+    why: "The Legacy 4 is confirmed from 4 foot 8 inches to 6 foot 6 inches with a 49-inch L-track, 3D rollers, body scanning, two-stage zero gravity, 300-lb capacity, and space-saving 3.25-inch wall clearance. The 49-inch track length is one of the longer L-track systems in the catalog, which combined with the confirmed 4 foot 8 inch lower bound means the system was designed to cover petite body proportions without the roller sitting too high. In the $8,000-$11,999 band, the Legacy 4 is the premium petite option for buyers who want confirmed fit data alongside Daiwa build quality.",
   },
 }
 
@@ -99,7 +99,7 @@ export default function BestPetiteBuyersPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Height Range</th>

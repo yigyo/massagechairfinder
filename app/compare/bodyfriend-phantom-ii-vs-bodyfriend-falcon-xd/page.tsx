@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Bodyfriend Phantom II vs Bodyfriend Falcon XD | MassageChairFinder',
-  description: 'Same brand, same price at $8,499, both SL-track 4D. The Phantom II has a 335 lb weight capacity for larger buyers. The Falcon XD adds stretch programs. Here is how to choose.',
+  description: 'Same brand, closely priced in the premium tier, both SL-track 4D. The Phantom II has a 335 lb weight capacity for larger buyers. The Falcon XD adds stretch programs. Here is how to choose.',
 }
 
 export default function ComparePage() {
@@ -21,7 +21,7 @@ export default function ComparePage() {
 
       <h1 className="text-4xl font-serif mb-3">Bodyfriend Phantom II vs Bodyfriend Falcon XD</h1>
       <p className="text-warm-gray mb-8 max-w-2xl">
-        Choosing between two chairs from the same brand at the same price is one of the more frustrating buying decisions. Both are SL-track 4D chairs from Bodyfriend at $8,499, both include heat and zero gravity, and both have strong build quality. The critical differences are weight capacity and stretch programs.
+        Choosing between two closely priced chairs from the same brand is one of the more frustrating buying decisions. Both are SL-track 4D chairs from Bodyfriend in the premium tier ($8,000-$11,999), both include heat and zero gravity, and both have strong build quality. The critical differences are weight capacity and stretch programs.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-10">
@@ -35,7 +35,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Bodyfriend Phantom II</p>
-          <p className="text-sm text-charcoal">$8,499</p>
+          <p className="text-sm text-charcoal">$8,000-$11,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -47,7 +47,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Bodyfriend Falcon XD 4D</p>
-          <p className="text-sm text-charcoal">$8,499</p>
+          <p className="text-sm text-charcoal">$8,000-$11,999</p>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ export default function ComparePage() {
           </thead>
           <tbody>
             {[
-              ['Price', '$8,499', '$8,499'],
+              ['Price band', '$8,000-$11,999', '$8,000-$11,999'],
               ['Track', 'SL-track', 'SL-track'],
               ['Roller', '4D', '4D'],
               ['Weight Capacity', '335 lbs', '265 lbs'],
@@ -130,7 +130,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You weigh under 250 lbs</span></li>
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Stretch programs are a priority for recovery or decompression</span></li>
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You have tight hip flexors or do strength training</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are comparing against other SL-track 4D chairs in the $8,000-$9,000 tier</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are comparing against other SL-track 4D chairs in the premium tier ($8,000-$11,999)</span></li>
           </ul>
           <div className="mt-4">
             <a href={affiliateUrlById('bodyfriend-falcon-xd')} className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Falcon XD</a>

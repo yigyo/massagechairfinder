@@ -25,31 +25,31 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'synca-wellness-circ-plus': {
     label: 'Most affordable space-saving pick',
-    why: 'The CirC Plus is the most affordable in-stock space-saving chair in the catalog at $1,899. Six-inch wall clearance, 3D SL-track, zero gravity, lumbar heat, and a 45.5-inch track length that covers more of the spine than most entry chairs. SL-track extends under the glutes, which matters for buyers dealing with lower back and hip tightness. 300-lb weight capacity confirmed.',
+    why: 'The CirC Plus is the most affordable in-stock space-saving chair in the catalog, in the Under $3,000 band. Six-inch wall clearance, 3D SL-track, zero gravity, lumbar heat, and a 45.5-inch track length that covers more of the spine than most entry chairs. SL-track extends under the glutes, which matters for buyers dealing with lower back and hip tightness. 300-lb weight capacity confirmed.',
   },
   'inner-balance-jin': {
-    label: 'Best space-saving under $2,000',
-    why: 'The Inner Balance Jin requires only 2 inches of wall clearance and is confirmed at 300 lbs, making it the only chair under $2,000 in the catalog that combines near-zero wall clearance with plus-size capacity. SL-track, 2D rollers, zero gravity, heat. For buyers whose weight exceeds 250 lbs and who need tight wall clearance, this fills a gap the entry-level chairs cannot. $1,999.',
+    label: "Best space-saving in the Under $3,000 band",
+    why: 'The Inner Balance Jin requires only 2 inches of wall clearance and is confirmed at 300 lbs, making it one of the few chairs in the Under $3,000 band that combine near-zero wall clearance with plus-size capacity. SL-track, 2D rollers, zero gravity, heat. For buyers whose weight exceeds 250 lbs and who need tight wall clearance, this fills a gap the entry-level chairs cannot.',
   },
   'titan-3d-prestige': {
     label: 'Smallest footprint in SL-track',
-    why: "The Titan 3D Prestige requires 1 inch of wall clearance, the tightest in the SL-track category. At $4,999, it represents the price point where SL-track, 3D rollers, space-saving recline, and zero gravity all converge. Heat and full-body stretch confirmed. Confirmed up to 6'3\", 260 lbs.",
+    why: "The Titan 3D Prestige requires 1 inch of wall clearance, the tightest in the SL-track category. In the $3,000-$4,999 band, it represents the price point where SL-track, 3D rollers, space-saving recline, and zero gravity all converge. Heat and full-body stretch confirmed. Confirmed up to 6'3\", 260 lbs.",
   },
   'infinity-imperial-syner-d': {
     label: 'Premium with widest confirmed height range',
-    why: "The Syner-D uses a Flex-track mechanism, a hybrid between SL and L-track that adjusts its coverage range between programs. It requires 2 inches of wall clearance and is confirmed for 5'2\" to 6'6\", one of the widest height ranges among space-saving chairs. 4D rollers, 300 lbs, 5-year warranty, body scanning. Price varies by retailer; the confirmed range is $8,000 to $12,000.",
+    why: "The Syner-D uses a Flex-track mechanism, a hybrid between SL and L-track that adjusts its coverage range between programs. It requires 2 inches of wall clearance and is confirmed for 5'2\" to 6'6\", one of the widest height ranges among space-saving chairs. 4D rollers, 300 lbs, 5-year warranty, body scanning. Price varies by retailer; it sits in the $5,000-$7,999 band.",
   },
   'jpmedics-kaze-duo': {
     label: 'Premium 1-inch clearance',
     why: "The KaZe Duo combines 1-inch wall clearance with a dual 4D roller mechanism and a 320-lb weight capacity. For buyers who want the tightest possible wall clearance at the premium tier with high weight capacity, this is the pick. L-track provides strong glute and thigh coverage. Confirmed 5'0\" to 6'3\".",
   },
   'relaxonchair-mk-v-plus': {
-    label: 'L-track with 3.5-inch wall clearance under $2,500',
-    why: "The MK-V Plus is an L-track chair with zero gravity, heat, and foot massage at $2,499, with a 3.5-inch wall clearance. L-track extends under the glutes and thighs, adding lower-body coverage beyond what SL-track chairs at this price typically deliver. For buyers in the mid-price range who need L-track glute coverage in a smaller room, this fills a gap between the SL-track space-saving options below and the 3D-roller chairs above.",
+    label: "L-track with 3.5-inch wall clearance in the Under $3,000 band",
+    why: "The MK-V Plus is an L-track chair with zero gravity, heat, and foot massage in the Under $3,000 band, with a 3.5-inch wall clearance. L-track extends under the glutes and thighs, adding lower-body coverage beyond what SL-track chairs at this price typically deliver. For buyers in the mid-price range who need L-track glute coverage in a smaller room, this fills a gap between the SL-track space-saving options below and the 3D-roller chairs above.",
   },
   'kahuna-hm-5000': {
     label: 'Best entry-price SL-track in a compact footprint',
-    why: "The HM-5000 is an SL-track chair in a space-saving footprint at $2,000, a combination that essentially does not exist at this price elsewhere. Most chairs at $2,000 are S-track or L-track with shorter roller paths. The HM-5000 delivers full-spine SL-track coverage, zero gravity, foot and calf massage, and hip airbags in a compact design that reclines in place. Confirmed up to 6 foot 2 inches at 290 lbs. For buyers who want SL-track coverage with a tight budget and limited floor space, this is the entry point.",
+    why: "The HM-5000 is an SL-track chair in a space-saving footprint in the Under $3,000 band, a combination that essentially does not exist at this price elsewhere. Most chairs at this price point are S-track or L-track with shorter roller paths. The HM-5000 delivers full-spine SL-track coverage, zero gravity, foot and calf massage, and hip airbags in a compact design that reclines in place. Confirmed up to 6 foot 2 inches at 290 lbs. For buyers who want SL-track coverage with a tight budget and limited floor space, this is the entry point.",
   },
 }
 
@@ -103,7 +103,7 @@ export default function BestSmallSpacesPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>
@@ -232,7 +232,7 @@ export default function BestSmallSpacesPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your budget is under $1,500, the AmaMedics Renew 3D at $1,299 with 4-inch clearance is the entry pick. If budget allows $2,999, the Admiral II at 2-inch clearance is the stronger therapeutic option with a longer track and higher weight capacity.
+          At the bottom of the Under $3,000 band, the AmaMedics Renew 3D with 4-inch clearance is the entry pick. Stepping up within that same band, the Admiral II at 2-inch clearance is the stronger therapeutic option with a longer track and higher weight capacity.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           For taller buyers (above 6&apos;1&quot;) who also need a small-space chair, the Syner-D is confirmed to 6&apos;6&quot; and the KaZe Duo to 6&apos;3&quot;. Both require 1 to 2 inches of wall clearance.

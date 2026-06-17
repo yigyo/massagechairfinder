@@ -24,27 +24,27 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "amamedics-hilux-4d": {
     label: "Best value pick for recovery",
-    why: "The Hilux 4D is the only chair in the mid-range with heated rollers rather than just heated lumbar pads. For post-training use, heat that travels with the roller through each pass warms the target tissue directly, which matters for tight glutes and lower back muscles that resist cold-start pressure. SL-track confirmed to 6 feet 7 inches. 270-lb capacity. At $4,999, it delivers the core recovery features without requiring a premium budget: 4D roller depth, SL-track glute coverage, full airbag compression on the legs, and heat that actually reaches the tissue being worked.",
+    why: "The Hilux 4D is the only chair in the mid-range with heated rollers rather than just heated lumbar pads. For post-training use, heat that travels with the roller through each pass warms the target tissue directly, which matters for tight glutes and lower back muscles that resist cold-start pressure. SL-track confirmed to 6 feet 7 inches. 270-lb capacity. In the $3,000-$4,999 band, it delivers the core recovery features without requiring a premium budget: 4D roller depth, SL-track glute coverage, full airbag compression on the legs, and heat that actually reaches the tissue being worked.",
   },
   "titan-pro-vigor-4d": {
     label: "Best mid-range all-rounder",
-    why: "The Pro-Vigor 4D delivers heated rollers, SL-track coverage, two-stage zero gravity, and a 260-lb capacity in a space-saving frame that needs less than 4 inches of wall clearance. The 4D roller allows day-to-day intensity variation that is essential for training recovery: lighter depth on day one post-session, deeper work on day two. The space-saving design makes it practical for home gym setups where room is tight. At $5,999, it is the strongest recovery-specific value in the SL-track 4D tier.",
+    why: "The Pro-Vigor 4D delivers heated rollers, SL-track coverage, two-stage zero gravity, and a 260-lb capacity in a space-saving frame that needs less than 4 inches of wall clearance. The 4D roller allows day-to-day intensity variation that is essential for training recovery: lighter depth on day one post-session, deeper work on day two. The space-saving design makes it practical for home gym setups where room is tight. In the $5,000-$7,999 band, it is the strongest recovery-specific value in the SL-track 4D tier.",
   },
   "relaxonchair-yukon-4d": {
     label: "Best for full-spine and glute coverage",
-    why: "The YUKON-4D is the flagship 4D SL-track offering from Relax On Chair, built around precise pressure control and full-spine coverage at $6,499. The SL-track extension ensures the roller reaches the glutes and proximal hamstrings where lower body training creates the most significant muscle damage. The premium pressure control system allows fine-grained intensity adjustment per zone, which matters for athletes whose recovery needs shift by muscle group and training day. Strong airbag coverage on the calves and feet rounds out the lower body compression benefit.",
+    why: "The YUKON-4D is the flagship 4D SL-track offering from Relax On Chair, built around precise pressure control and full-spine coverage in the $5,000-$7,999 band. The SL-track extension ensures the roller reaches the glutes and proximal hamstrings where lower body training creates the most significant muscle damage. The premium pressure control system allows fine-grained intensity adjustment per zone, which matters for athletes whose recovery needs shift by muscle group and training day. Strong airbag coverage on the calves and feet rounds out the lower body compression benefit.",
   },
   "positive-posture-brio-sport": {
     label: "Best for athletes who train legs hard",
-    why: "The Brio Sport is designed with athletic recovery as an explicit use case. The L-track extends under the seat to cover the glutes and hamstrings, which is the most important feature for any buyer whose primary training load is in the lower body. The 4D roller system provides variable depth and rhythm. The stretch program delivers a genuine hip flexor elongation that runners, cyclists, and lifters with tight hip flexors will notice after the first few sessions. At $8,999, it is the most purpose-built recovery chair in the catalog. 265-lb capacity.",
+    why: "The Brio Sport is designed with athletic recovery as an explicit use case. The L-track extends under the seat to cover the glutes and hamstrings, which is the most important feature for any buyer whose primary training load is in the lower body. The 4D roller system provides variable depth and rhythm. The stretch program delivers a genuine hip flexor elongation that runners, cyclists, and lifters with tight hip flexors will notice after the first few sessions. In the $8,000-$11,999 band, it is the most purpose-built recovery chair in the catalog. 265-lb capacity.",
   },
   "osaki-os-pro-maestro-le": {
     label: "Best full-body recovery at this tier",
-    why: "The Maestro LE 2.0 combines SL-track 4D roller coverage with serious upper-body airbag work and a refined body scanning system that adjusts per session. For athletes who train upper body as well as lower body, the shoulder, arm, and upper back airbag coverage provides compression therapy across the full training zone. 260-lb capacity. The 4D roller depth range on the Maestro is among the widest in the SL-track category, making it effective for both light recovery sessions and deeper tissue work. At $8,999, it is the strongest full-body coverage option at this price point.",
+    why: "The Maestro LE 2.0 combines SL-track 4D roller coverage with serious upper-body airbag work and a refined body scanning system that adjusts per session. For athletes who train upper body as well as lower body, the shoulder, arm, and upper back airbag coverage provides compression therapy across the full training zone. 260-lb capacity. The 4D roller depth range on the Maestro is among the widest in the SL-track category, making it effective for both light recovery sessions and deeper tissue work. In the $8,000-$11,999 band, it is the strongest full-body coverage option at this price point.",
   },
   "infinity-genesis-max": {
     label: "Best premium L-track recovery chair",
-    why: "The Genesis Max 4D is the established premium L-track pick for buyers who prioritize glute and hip coverage above full-spine reach. L-track geometry on the Genesis Max delivers extended under-seat coverage that works well for training-related lower back and hip tightness. The 4D roller system with deep pressure capability and broad program library makes it versatile across different training intensities and recovery phases. At $9,299, it occupies the upper-mid tier with a strong reputation among buyers using it for regular athletic maintenance.",
+    why: "The Genesis Max 4D is the established premium L-track pick for buyers who prioritize glute and hip coverage above full-spine reach. L-track geometry on the Genesis Max delivers extended under-seat coverage that works well for training-related lower back and hip tightness. The 4D roller system with deep pressure capability and broad program library makes it versatile across different training intensities and recovery phases. In the $8,000-$11,999 band, it occupies the premium tier with a strong reputation among buyers using it for regular athletic maintenance.",
   },
 }
 
@@ -96,7 +96,7 @@ export default function BestAthleteRecoveryPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>
@@ -217,10 +217,10 @@ export default function BestAthleteRecoveryPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your training is primarily lower body, prioritize L-track coverage. The Positive Posture Brio Sport ($8,999) is the most purpose-built lower-body recovery chair in the catalog. The Infinity Genesis Max ($9,299) is the L-track value option for glute and hip coverage without the explicit athletic positioning.
+          If your training is primarily lower body, prioritize L-track coverage. The Positive Posture Brio Sport ($8,000-$11,999) is the most purpose-built lower-body recovery chair in the catalog. The Infinity Genesis Max ($8,000-$11,999) is the L-track value option for glute and hip coverage without the explicit athletic positioning.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          If you train upper and lower body and want full-spine recovery per session, the SL-track picks cover more ground. The Amamedics Hilux 4D ($4,999) is the value entry with heated rollers. The Osaki Maestro LE ($8,999) is the most complete full-body option at the top of the range.
+          If you train upper and lower body and want full-spine recovery per session, the SL-track picks cover more ground. The Amamedics Hilux 4D ($3,000-$4,999) is the value entry with heated rollers. The Osaki Maestro LE ($8,000-$11,999) is the most complete full-body option at the top of the range.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{" "}

@@ -24,11 +24,11 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "culanta-sl-track": {
     label: "Best budget pick for guest rooms or multiple units",
-    why: "The Culanta SL-Track Shiatsu is the entry point for a property outfitting several rooms or a pay-per-use corner without a large capital outlay. SL-track shiatsu coverage runs the full spine, and a 4.4 rating across 371 reviews is one of the deepest review bases in the catalog, which matters when the chair will be used by guests who never read a manual. At $1,099 it is affordable enough to place in volume.",
+    why: "The Culanta SL-Track Shiatsu is the entry point for a property outfitting several rooms or a pay-per-use corner without a large capital outlay. SL-track shiatsu coverage runs the full spine, and a 4.4 rating across 371 reviews is one of the deepest review bases in the catalog, which matters when the chair will be used by guests who never read a manual. In the Under $3,000 band it is affordable enough to place in volume.",
   },
   "osaki-os-champ": {
     label: "Best compact chair for a lobby or lounge",
-    why: "The OS-Champ is the simplest chair to drop into a lobby, lounge, or fitness corner. Its 2D roller runs clear one-touch auto programs a guest can start without instruction, and a space-saving recline plus a confirmed 260 lb capacity make it practical against a wall in a shared space. AI body scanning, heat, and calf and foot coverage are unusual at $1,299 and give guests a complete session in a small footprint.",
+    why: "The OS-Champ is the simplest chair to drop into a lobby, lounge, or fitness corner. Its 2D roller runs clear one-touch auto programs a guest can start without instruction, and a space-saving recline plus a confirmed 260 lb capacity make it practical against a wall in a shared space. AI body scanning, heat, and calf and foot coverage are unusual in the Under $3,000 band and give guests a complete session in a small footprint.",
   },
   "healthrelife-4d-15-mode": {
     label: "Best 4D value for a guest amenity",
@@ -44,7 +44,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "luraco-i9-max-plus": {
     label: "Best luxury flagship for a resort spa",
-    why: "The i9 Max Plus is the flagship for a luxury resort or destination spa where the chair is part of the experience. Luraco is built in the United States, and the i9 Max Plus is the tallest-fit chair in the catalog, confirmed up to 6'10\", with L-track coverage, 3D rollers, AI body scanning, heat, and a 300 lb capacity. At $13,490 it is a considered amenity investment for a property marketing wellness at the high end.",
+    why: "The i9 Max Plus is the flagship for a luxury resort or destination spa where the chair is part of the experience. Luraco is built in the United States, and the i9 Max Plus is the tallest-fit chair in the catalog, confirmed up to 6'10\", with L-track coverage, 3D rollers, AI body scanning, heat, and a 300 lb capacity. In the $12,000 and up band it is a considered amenity investment for a property marketing wellness at the high end.",
   },
 }
 
@@ -68,7 +68,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "What is the best budget massage chair for a hotel?",
-    a: "Confirmed picks suitable for guest use start near $1,099. For in-room placement or a multi-unit rollout, an affordable, simple chair with a deep review history is the practical choice, since reliability across many guests matters more than advanced features. For a resort spa or a marquee wellness suite, a luxury flagship makes sense where the chair anchors the experience. Budget by the role of the room and the volume of guests, not by features alone.",
+    a: "Confirmed picks suitable for guest use start in the Under $3,000 band. For in-room placement or a multi-unit rollout, an affordable, simple chair with a deep review history is the practical choice, since reliability across many guests matters more than advanced features. For a resort spa or a marquee wellness suite, a luxury flagship makes sense where the chair anchors the experience. Budget by the role of the room and the volume of guests, not by features alone.",
   },
 ]
 
@@ -117,7 +117,7 @@ export default function BestHotelsHospitalityPage() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs for Hotels and Hospitality</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        The best massage chairs for hotels, resorts, and spas prioritize simple one-touch operation, a clean look, durability under stranger use, and a footprint that fits a lobby or guest room. A hospitality chair serves a guest who will use it once and never read the manual, so the chair has to be obvious to start and reliable across hundreds of different users. The six picks below are chosen for guest-facing placement, from a $1,099 in-room value chair to a resort-spa flagship.
+        The best massage chairs for hotels, resorts, and spas prioritize simple one-touch operation, a clean look, durability under stranger use, and a footprint that fits a lobby or guest room. A hospitality chair serves a guest who will use it once and never read the manual, so the chair has to be obvious to start and reliable across hundreds of different users. The six picks below are chosen for guest-facing placement, from an entry-tier in-room value chair to a resort-spa flagship.
       </p>
       <p className="text-charcoal max-w-2xl mb-3">
         Two practical notes before you choose. First, most residential massage chair warranties exclude commercial and hospitality settings, so confirm coverage in writing for any guest-facing chair. Second, a chair placed in a lobby or guest room can be offered as a free amenity or run as a pay-per-use installation that generates revenue. Every chair here is drawn from the models we have researched and verified pricing and specifications for, and each spec cited comes from the manufacturer or retailer spec sheet, not estimates.
@@ -157,7 +157,7 @@ export default function BestHotelsHospitalityPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>
@@ -289,13 +289,13 @@ export default function BestHotelsHospitalityPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to choose for your property</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For in-room placement or a multi-unit rollout, the Culanta SL-Track Shiatsu ($1,099) and RELX Full Body 20-Mode ($1,999) are the value picks, both chosen for deep review histories that signal reliability across many guests. For a lobby or lounge where footprint matters, the Osaki OS-Champ ($1,299) is the most compact, simplest option.
+          For in-room placement or a multi-unit rollout, the Culanta SL-Track Shiatsu (Under $3,000) and RELX Full Body 20-Mode (Under $3,000) are the value picks, both chosen for deep review histories that signal reliability across many guests. For a lobby or lounge where footprint matters, the Osaki OS-Champ (Under $3,000) is the most compact, simplest option.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          For a space where the chair is on display, the Synca Wellness CirC+ ($1,899) reads as furniture rather than equipment, and the HealthRelife 4D 15-Mode ($1,699) adds 4D movement and a wide preset menu at a price that scales to several rooms.
+          For a space where the chair is on display, the Synca Wellness CirC+ (Under $3,000) reads as furniture rather than equipment, and the HealthRelife 4D 15-Mode (Under $3,000) adds 4D movement and a wide preset menu at a price that scales to several rooms.
         </p>
         <p className="text-charcoal leading-relaxed">
-          For a luxury resort or destination spa, the Luraco i9 Max Plus ($13,490) is the flagship, built in the United States with the tallest confirmed fit in the catalog. The{" "}
+          For a luxury resort or destination spa, the Luraco i9 Max Plus ($12,000 and up) is the flagship, built in the United States with the tallest confirmed fit in the catalog. The{" "}
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{" "}
           narrows by feature priority, footprint, and budget if you are matching a chair to a specific space.
         </p>

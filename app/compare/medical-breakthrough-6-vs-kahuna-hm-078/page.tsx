@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Medical Breakthrough 6 vs Kahuna HM-078 | MassageChairFinder',
-  description: 'Both are 4D chairs under $4,500. The Medical Breakthrough 6 is L-track for glute and hip coverage. The Kahuna HM-078 is SL-track with space-saving design and 350 lb capacity.',
+  description: 'Both are 4D chairs in the $3,000-$4,999 tier. The Medical Breakthrough 6 is L-track for glute and hip coverage. The Kahuna HM-078 is SL-track with space-saving design and 350 lb capacity.',
 }
 
 export default function ComparePage() {
@@ -21,7 +21,7 @@ export default function ComparePage() {
 
       <h1 className="text-4xl font-serif mb-3">Medical Breakthrough 6 vs Kahuna HM-078</h1>
       <p className="text-warm-gray mb-8 max-w-2xl">
-        Both are 4D chairs priced within $150 of each other. The real difference is track type: the MB6 is L-track for buyers with lower back pain that extends into the hips, and the HM-078 is SL-track with space-saving design and a 350 lb weight capacity. The decision comes down to which pain profile and room constraint matter more.
+        Both are 4D chairs closely priced in the $3,000-$4,999 tier. The real difference is track type: the MB6 is L-track for buyers with lower back pain that extends into the hips, and the HM-078 is SL-track with space-saving design and a 350 lb weight capacity. The decision comes down to which pain profile and room constraint matter more.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-10">
@@ -35,7 +35,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Medical Breakthrough 6</p>
-          <p className="text-sm text-charcoal">$4,249</p>
+          <p className="text-sm text-charcoal">$3,000-$4,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -47,7 +47,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Kahuna HM-078 Hubot 4D</p>
-          <p className="text-sm text-charcoal">$4,399</p>
+          <p className="text-sm text-charcoal">$3,000-$4,999</p>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ export default function ComparePage() {
           </thead>
           <tbody>
             {[
-              ['Price', '$4,249', '$4,399'],
+              ['Price band', '$3,000-$4,999', '$3,000-$4,999'],
               ['Track', 'L-track', 'SL-track'],
               ['Roller', '4D', '4D'],
               ['Weight Capacity', '300 lbs', '350 lbs'],

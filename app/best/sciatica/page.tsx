@@ -23,23 +23,23 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'osaki-os-champ': {
     label: 'Best entry option',
-    why: 'The OS-Champ is the lowest-priced SL-track chair in the catalog at $1,299. It covers the full spine and extends under the glutes, the essential requirement for sciatic relief, with 2D rollers and two-stage zero gravity. Space-saving recline (9-inch wall clearance) makes it workable in most rooms. For buyers who want SL-track coverage without crossing into the $2,000 range, this is the straightforward pick.',
+    why: 'The OS-Champ is the lowest-priced SL-track chair in the catalog, sitting in the Under $3,000 band. It covers the full spine and extends under the glutes, the essential requirement for sciatic relief, with 2D rollers and two-stage zero gravity. Space-saving recline (9-inch wall clearance) makes it workable in most rooms. For buyers who want SL-track coverage at the bottom of the entry band, this is the straightforward pick.',
   },
   'kyota-genki-m380': {
     label: 'Best for heavier and taller builds',
-    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest weight capacity in this tier with a Plus Size Confirmed designation. L-track covers the glutes and thighs where sciatic compression typically originates. At $2,999, it is the most affordable chair in the catalog with a confirmed high-capacity rating. For buyers whose dimensions exceed what the OS-Champ or Admiral II can verify, this is the pick.",
+    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest weight capacity in this tier with a Plus Size Confirmed designation. L-track covers the glutes and thighs where sciatic compression typically originates. In the Under $3,000 band, it is the most affordable chair in the catalog with a confirmed high-capacity rating. For buyers whose dimensions exceed what the OS-Champ or Admiral II can verify, this is the pick.",
   },
   'jpmedics-kumo-4d': {
     label: 'Premium pick',
     why: 'The Kumo 4D uses an L-track rather than SL-track, but its under-seat extension reaches deeper into the thigh than most SL-track designs. For buyers whose sciatica pain extends into the hamstrings, that extra lower-body reach can matter more than upper-back coverage. The 4D roller mechanism varies speed and depth within each stroke, producing a more nuanced glute and lumbar massage than fixed-depth rollers. Made in Japan, 320 lb capacity.',
   },
   'ergotec-et-180-pluto': {
-    label: 'Best 3D L-track under $2,000',
-    why: "The Ergotec ET-180 Pluto is an L-track chair with 3D rollers, heat, stretch, and foot massage at $1,999. For sciatica buyers, the L-track covers the glutes and thighs where sciatic compression originates. The 3D roller mechanism allows pressure depth adjustment, which matters for buyers who are sensitive to deep-tissue work and want to increase intensity gradually. 320-lb weight capacity. No zero gravity on this model, which is the main tradeoff versus the SL-track chairs above.",
+    label: 'Best 3D L-track in the entry band',
+    why: "The Ergotec ET-180 Pluto is an L-track chair with 3D rollers, heat, stretch, and foot massage in the Under $3,000 band. For sciatica buyers, the L-track covers the glutes and thighs where sciatic compression originates. The 3D roller mechanism allows pressure depth adjustment, which matters for buyers who are sensitive to deep-tissue work and want to increase intensity gradually. 320-lb weight capacity. No zero gravity on this model, which is the main tradeoff versus the SL-track chairs above.",
   },
   'kahuna-dios-7300': {
     label: 'Dual-track SL roller, coverage into glutes and hips',
-    why: "Sciatica pain often originates at the piriformis and gluteal muscles, not just the lumbar. The Dios-7300 addresses this with a 7D dual-track SL roller that extends coverage through the full lumbar, sacrum, and into the glutes simultaneously from two independent roller assemblies. Heat to the lumbar and legs, zero gravity, foot and calf rollers, AI body scanning. For buyers whose sciatica is worst in the glutes or down the hamstring, the SL extension combined with the dual-roller system gives more targeted coverage than a standard 4D SL-track at this price. Under $8,000 via Wish Rock Relaxation.",
+    why: "Sciatica pain often originates at the piriformis and gluteal muscles, not just the lumbar. The Dios-7300 addresses this with a 7D dual-track SL roller that extends coverage through the full lumbar, sacrum, and into the glutes simultaneously from two independent roller assemblies. Heat to the lumbar and legs, zero gravity, foot and calf rollers, AI body scanning. For buyers whose sciatica is worst in the glutes or down the hamstring, the SL extension combined with the dual-roller system gives more targeted coverage than a standard 4D SL-track at this price. In the $5,000-$7,999 band via Wish Rock Relaxation.",
   },
 }
 
@@ -93,7 +93,7 @@ export default function BestSciaticaPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>

@@ -24,11 +24,11 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best L-track entry for this tier',
-    why: "The Genki M380 is technically a $2,999 chair, sitting just under this range, but it earns its spot here for buyers who are primarily choosing on capacity and L-track coverage rather than roller sophistication. Confirmed 6'5\" and 330 lbs with a Plus Size Confirmed designation. L-track reaches under the glutes and into the thighs. 2D rollers. For buyers who want confirmed high-capacity L-track coverage and a reliable retailer at or near this price tier, this is the starting pick.",
+    why: "The Genki M380 is technically an entry-tier chair, sitting just under this range, but it earns its spot here for buyers who are primarily choosing on capacity and L-track coverage rather than roller sophistication. Confirmed 6'5\" and 330 lbs with a Plus Size Confirmed designation. L-track reaches under the glutes and into the thighs. 2D rollers. For buyers who want confirmed high-capacity L-track coverage and a reliable retailer at or near this price tier, this is the starting pick.",
   },
   'panasonic-maf1': {
     label: 'Best S-track for neck and upper-back focus',
-    why: "The Panasonic MAF1 is the S-track specialist recommendation in this range at $5,999. S-track focuses the entire roller path on the cervical spine and thoracic vertebrae, which is the right design when pain is concentrated in the neck and upper back with no lower-back involvement. 4D rollers, infrared-heated massage heads, confirmed 4'8\" to 6'2\" and 264 lbs, space-saving recline. Note: no zero gravity. Panasonic's engineering prioritizes roller precision over recline positions.",
+    why: "The Panasonic MAF1 is the S-track specialist recommendation in this range, priced a tier above this page's ceiling. S-track focuses the entire roller path on the cervical spine and thoracic vertebrae, which is the right design when pain is concentrated in the neck and upper back with no lower-back involvement. 4D rollers, infrared-heated massage heads, confirmed 4'8\" to 6'2\" and 264 lbs, space-saving recline. Note: no zero gravity. Panasonic's engineering prioritizes roller precision over recline positions.",
   },
   'amamedics-hilux-4d': {
     label: 'Best SL-track 4D, widest body fit',
@@ -36,11 +36,11 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'titan-3d-prestige': {
     label: 'Best for small spaces',
-    why: "The Titan 3D Prestige has 1-inch wall clearance, the tightest in the SL-track category at this price. For buyers in this range whose primary constraint is room size, the Prestige is the only SL-track 3D chair at $4,999 that can sit flush against a wall. Full-body stretch and heat confirmed. Up to 6'3\", 260 lbs.",
+    why: "The Titan 3D Prestige has 1-inch wall clearance, the tightest in the SL-track category at this price. For buyers in this range whose primary constraint is room size, the Prestige is the only SL-track 3D chair in this range that can sit flush against a wall. Full-body stretch and heat confirmed. Up to 6'3\", 260 lbs.",
   },
   'sharper-image-relieve-3d': {
-    label: 'L-track 3D at $4,499',
-    why: "The Sharper Image Relieve 3D is an L-track chair with 3D rollers, zero gravity, heat, and foot massage at $4,499. L-track extends under the glutes and into the thighs, the specification that matters for buyers whose lower back pain radiates into the hips or hamstrings. 3D rollers allow depth adjustment. No confirmed height or weight capacity data from the retailer spec page. For buyers who need L-track glute coverage with 3D roller depth at this tier, this is the pick.",
+    label: 'L-track 3D in this range',
+    why: "The Sharper Image Relieve 3D is an L-track chair with 3D rollers, zero gravity, heat, and foot massage in this range. L-track extends under the glutes and into the thighs, the specification that matters for buyers whose lower back pain radiates into the hips or hamstrings. 3D rollers allow depth adjustment. No confirmed height or weight capacity data from the retailer spec page. For buyers who need L-track glute coverage with 3D roller depth at this tier, this is the pick.",
   },
   'kahuna-hm-078': {
     label: 'Best 350 lb capacity in range, SL-track 4D',
@@ -70,10 +70,10 @@ export default function Best3000To5000Page() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs: $3,000 to $5,000</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        The $3,000 to $5,000 range is where the catalog diverges by use case. For L-track coverage at high body capacity, the Kyota Genki M380 sits at the entry of this tier. At $4,999 and $5,999 you have two distinct options: a 4D SL-track chair with the widest confirmed height range in this tier, an S-track specialist for neck and upper-back focus, and a 3D SL-track with 1-inch wall clearance. The right pick depends entirely on your pain pattern and room constraints.
+        The $3,000 to $5,000 range is where the catalog diverges by use case. For L-track coverage at high body capacity, the Kyota Genki M380 sits at the entry of this tier. From the middle of this range up to just above its ceiling you have several distinct options: a 4D SL-track chair with the widest confirmed height range in this tier, an S-track specialist for neck and upper-back focus, and a 3D SL-track with 1-inch wall clearance. The right pick depends entirely on your pain pattern and room constraints.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated May 2026. Note: the Osaki OS-Pro Admiral II at $2,999 remains one of the most competitive chairs in the full catalog. If your budget is flexible downward, it is worth considering alongside these picks. See the{' '}
+        Updated May 2026. Note: the entry-tier Osaki OS-Pro Admiral II remains one of the most competitive chairs in the full catalog. If your budget is flexible downward, it is worth considering alongside these picks. See the{' '}
         <Link href="/best/under-3000" className="text-bronze hover:text-gold transition-colors">under-$3,000 page</Link>.
       </p>
 
@@ -83,7 +83,7 @@ export default function Best3000To5000Page() {
           The $3,000 to $5,000 range introduces 4D rollers, which add variable speed and rhythm to each stroke rather than fixed-speed 3D motion. For buyers with chronic tension who have found lower-tier chairs feel repetitive or mechanical, 4D is a meaningful upgrade. It is also the tier where specialist options appear: a dedicated S-track chair optimized for neck and upper-back work, and chairs with the widest confirmed height ranges in the mid-tier catalog.
         </p>
         <p className="text-charcoal leading-relaxed">
-          The trade-off compared to the Admiral II at $2,999 is primarily value density. The Admiral II has strong confirmed body fit data and a 49-inch track at a lower price. The chairs above justify the additional spend through roller sophistication, specialist track types, or extreme space-saving. If none of those features are your priority, the Admiral II remains the better value.
+          The trade-off compared to the entry-tier Admiral II is primarily value density. The Admiral II has strong confirmed body fit data and a 49-inch track at a lower price. The chairs above justify the additional spend through roller sophistication, specialist track types, or extreme space-saving. If none of those features are your priority, the Admiral II remains the better value.
         </p>
       </div>
 

@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs for Lower Back Pain (2026)',
-  description: 'The best massage chairs for lower back pain use SL-track rollers that cover the lumbar spine, sacrum, and glutes in one continuous path. Five chairs selected across every budget from $1,299 to $8,999.',
+  description: 'The best massage chairs for lower back pain use SL-track rollers that cover the lumbar spine, sacrum, and glutes in one continuous path. Five chairs selected across every budget tier from entry to premium.',
 }
 
 const PICK_IDS = [
@@ -23,7 +23,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'osaki-os-champ': {
     label: 'Best entry option',
-    why: 'The OS-Champ is the most accessible SL-track chair in the catalog at $1,299. SL-track extends the roller path past the lumbar and under the glutes, which matters for lower back pain that radiates into the hips and sacrum. Two-stage zero gravity, lumbar heat, foot and calf massage, and body scanning are all confirmed. 260-lb weight capacity. For buyers entering the category with lower back pain as the primary concern, this is the clearest entry-level pick.',
+    why: 'The OS-Champ is the most accessible SL-track chair in the catalog, in the Under $3,000 band. SL-track extends the roller path past the lumbar and under the glutes, which matters for lower back pain that radiates into the hips and sacrum. Two-stage zero gravity, lumbar heat, foot and calf massage, and body scanning are all confirmed. 260-lb weight capacity. For buyers entering the category with lower back pain as the primary concern, this is the clearest entry-level pick.',
   },
 
   'amamedics-hilux-4d': {
@@ -32,17 +32,17 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 
   'titan-pro-vigor-4d': {
-    label: 'Best at $6,000, 4D roller',
-    why: 'The Pro-Vigor 4D is the most affordable 4D SL-track chair in the catalog at $5,999. The 4D roller mechanism varies speed and depth within each stroke, a step up from the fixed-depth 3D rollers common at this price tier. Two-stage zero gravity, space-saving 3.9-inch wall clearance. Heat, calf, foot, and stretch programs are all confirmed. For lower back buyers who want 4D roller quality without crossing into the $8,000 range, this is the pick.',
+    label: "Best in the $5,000-$7,999 band, 4D roller",
+    why: 'The Pro-Vigor 4D is the most affordable 4D SL-track chair in the catalog, in the $5,000-$7,999 band. The 4D roller mechanism varies speed and depth within each stroke, a step up from the fixed-depth 3D rollers common at this price tier. Two-stage zero gravity, space-saving 3.9-inch wall clearance. Heat, calf, foot, and stretch programs are all confirmed. For lower back buyers who want 4D roller quality without crossing into the premium tier, this is the pick.',
   },
 
   'osaki-os-pro-maestro-le': {
     label: 'Best premium SL-track',
-    why: 'The Maestro LE is a 4D SL-track chair with body scanning, lumbar heat, and space-saving 5-inch wall clearance at $8,999. The 4D roller system varies both depth and speed across the full spine-to-glute SL-track path. For lower back buyers who want the complete combination of premium roller quality and confirmed full-coverage SL-track without crossing into the $10,000 range, this is the pick. 260 lb capacity.',
+    why: 'The Maestro LE is a 4D SL-track chair with body scanning, lumbar heat, and space-saving 5-inch wall clearance in the $8,000-$11,999 band. The 4D roller system varies both depth and speed across the full spine-to-glute SL-track path. For lower back buyers who want the complete combination of premium roller quality and confirmed full-coverage SL-track without crossing into the ultra-premium tier, this is the pick. 260 lb capacity.',
   },
   'kahuna-dios-7300': {
-    label: 'Best dual-track roller for lower back, under $8,000',
-    why: "The Dios-7300 uses a 7D dual-track roller system, a Kahuna mechanism where two independent roller assemblies move simultaneously through the SL-track path. For buyers with chronic lower back pain, this means the chair can target multiple vertebral segments at the same time rather than sequentially, which changes how the massage feels and how much of the lumbar and sacral region is covered per pass. SL-track extends under the glutes. Heat, zero gravity, foot and calf rollers, AI body scan, voice control. Under $8,000 via Wish Rock Relaxation.",
+    label: "Best dual-track roller for lower back, $5,000-$7,999 band",
+    why: "The Dios-7300 uses a 7D dual-track roller system, a Kahuna mechanism where two independent roller assemblies move simultaneously through the SL-track path. For buyers with chronic lower back pain, this means the chair can target multiple vertebral segments at the same time rather than sequentially, which changes how the massage feels and how much of the lumbar and sacral region is covered per pass. SL-track extends under the glutes. Heat, zero gravity, foot and calf rollers, AI body scan, voice control. In the $5,000-$7,999 band via Wish Rock Relaxation.",
   },
 }
 
@@ -107,7 +107,7 @@ export default function BestLowerBackPainPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'RockerTech Bliss vs Medical Breakthrough 6 Plus | MassageChairFinder',
-  description: 'Same price, same L-track 4D category at $5,499. The Bliss adds space-saving recline and reflexology foot rollers. The MB6 Plus includes stretch programs and a 300 lb confirmed capacity.',
+  description: 'Same price, same L-track 4D category in the upper-mid tier ($5,000-$7,999). The Bliss adds space-saving recline and reflexology foot rollers. The MB6 Plus includes stretch programs and a 300 lb confirmed capacity.',
 }
 
 export default function ComparePage() {
@@ -21,7 +21,7 @@ export default function ComparePage() {
 
       <h1 className="text-4xl font-serif mb-3">RockerTech Bliss vs Medical Breakthrough 6 Plus</h1>
       <p className="text-warm-gray mb-8 max-w-2xl">
-        Both chairs are priced at exactly $5,499, both use an L-track 4D roller, and both include heat, zero gravity, and body scanning. The Bliss is the choice for buyers with space constraints and who want reflexology foot rollers. The Medical Breakthrough 6 Plus is the choice for buyers who prioritize stretch programs and a confirmed 300 lb weight capacity.
+        Both chairs are priced the same in the upper-mid tier ($5,000-$7,999), both use an L-track 4D roller, and both include heat, zero gravity, and body scanning. The Bliss is the choice for buyers with space constraints and who want reflexology foot rollers. The Medical Breakthrough 6 Plus is the choice for buyers who prioritize stretch programs and a confirmed 300 lb weight capacity.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-10">
@@ -35,7 +35,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">RockerTech Bliss</p>
-          <p className="text-sm text-charcoal">$5,499</p>
+          <p className="text-sm text-charcoal">$5,000-$7,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -47,7 +47,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Medical Breakthrough 6 Plus</p>
-          <p className="text-sm text-charcoal">$5,499</p>
+          <p className="text-sm text-charcoal">$5,000-$7,999</p>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ export default function ComparePage() {
           </thead>
           <tbody>
             {[
-              ['Price', '$5,499', '$5,499'],
+              ['Price band', '$5,000-$7,999', '$5,000-$7,999'],
               ['Track', 'L-track', 'L-track'],
               ['Roller', '4D', '4D'],
               ['Zero Gravity', '2-level', 'Yes'],

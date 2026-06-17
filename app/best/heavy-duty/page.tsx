@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Heavy-Duty Massage Chairs (2026)',
-  description: 'Heavy-duty massage chairs verified for 300 lbs or above with confirmed performance. Seven chairs selected from $2,999 to $14,999.',
+  description: 'Heavy-duty massage chairs verified for 300 lbs or above with confirmed performance. Seven chairs selected across price tiers from entry to ultra-premium.',
 }
 
 const PICK_IDS = [
@@ -27,15 +27,15 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best entry heavy-duty',
-    why: 'The Genki M380 is confirmed at 330 lbs with a Plus Size Confirmed designation. L-track covers the glutes and thighs. At $2,999, it is the most affordable chair in the catalog with a verified high-capacity rating. Zero gravity, heat, foot and calf massage, 2D rollers.',
+    why: 'The Genki M380 is confirmed at 330 lbs with a Plus Size Confirmed designation. L-track covers the glutes and thighs. In the Under $3,000 band, it is the most affordable chair in the catalog with a verified high-capacity rating. Zero gravity, heat, foot and calf massage, 2D rollers.',
   },
   'inner-balance-jin-2': {
-    label: 'Best space-saving heavy-duty under $4,000',
-    why: 'The Jin 2.0 is confirmed at 300 lbs with 2-inch wall clearance, SL-track, and a 3-stage zero gravity system at $3,999. For buyers who need 300-lb capacity, a smaller room footprint, and deeper recline stages without spending $7,000 or more, this is the pick. 2D rollers, heat. Distributed via syncamassagechair.com.',
+    label: "Best space-saving heavy-duty in the $3,000-$4,999 band",
+    why: 'The Jin 2.0 is confirmed at 300 lbs with 2-inch wall clearance, SL-track, and a 3-stage zero gravity system in the $3,000-$4,999 band. For buyers who need 300-lb capacity, a smaller room footprint, and deeper recline stages without stepping up to the upper-mid tier, this is the pick. 2D rollers, heat. Distributed via syncamassagechair.com.',
   },
   'kyota-yugana-m780': {
     label: 'Best mid-premium heavy-duty',
-    why: "The Yugana M780 4D is confirmed at 300 lbs with a Plus Size Confirmed designation. L-track with 4D rollers, space-saving 2-inch wall clearance, TrueFit body scanning, heat, and a 49-inch track. Confirmed 4'8\" to 6'2\". At $7,999, it fills the mid-premium gap between the Genki M380 and the premium-tier options below. For buyers who need verified Plus Size capacity alongside 4D roller depth and a space-saving footprint, this is the pick.",
+    why: "The Yugana M780 4D is confirmed at 300 lbs with a Plus Size Confirmed designation. L-track with 4D rollers, space-saving 2-inch wall clearance, TrueFit body scanning, heat, and a 49-inch track. Confirmed 4'8\" to 6'2\". In the $5,000-$7,999 band, it fills the upper-mid gap between the Genki M380 and the premium-tier options below. For buyers who need verified Plus Size capacity alongside 4D roller depth and a space-saving footprint, this is the pick.",
   },
   'bodyfriend-phantom-ii': {
     label: 'Highest weight capacity in the catalog',
@@ -47,19 +47,19 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'kanji-4d-shogun-duo': {
     label: 'Highest-tech heavy-duty option',
-    why: 'The Kanji 4D Shogun Duo is confirmed at 330 lbs with a dual 8D Flex-track roller system and space-saving 5.5-inch wall clearance at $14,999. For buyers whose weight exceeds 300 lbs and who also want the most capable roller technology available, this is the only premium heavy-duty option in the catalog with both specifications confirmed. Distributed by Osaki.',
+    why: 'The Kanji 4D Shogun Duo is confirmed at 330 lbs with a dual 8D Flex-track roller system and space-saving 5.5-inch wall clearance in the $12,000 and up band. For buyers whose weight exceeds 300 lbs and who also want the most capable roller technology available, this is the only premium heavy-duty option in the catalog with both specifications confirmed. Distributed by Osaki.',
   },
   'luraco-i9-max-plus': {
     label: 'Wide body fit, made in USA',
     why: "The Luraco is confirmed at 300 lbs and 6'10\", the widest body fit range in the catalog. Relevant for heavier buyers who are also tall. The only USA-manufactured massage chair in the catalog, with a 10-year warranty. L-track, 3D rollers, body scanning, heat, zero gravity, full-body stretch.",
   },
   'ergotec-et-180-pluto': {
-    label: 'Highest capacity under $2,000',
-    why: "The Ergotec ET-180 Pluto carries a 320-lb weight capacity at $1,999, the most affordable chair in this list. L-track covers the glutes and thighs, 3D rollers allow pressure depth adjustment, and the chair includes heat, stretch, and foot massage. No zero gravity, which is the main tradeoff versus the higher-priced picks above. For buyers whose primary concern is weight capacity at the lowest accessible price, this is the entry point.",
+    label: "Highest capacity in the Under $3,000 band",
+    why: "The Ergotec ET-180 Pluto carries a 320-lb weight capacity in the Under $3,000 band, the most affordable chair in this list. L-track covers the glutes and thighs, 3D rollers allow pressure depth adjustment, and the chair includes heat, stretch, and foot massage. No zero gravity, which is the main tradeoff versus the higher-priced picks above. For buyers whose primary concern is weight capacity at the lowest accessible price, this is the entry point.",
   },
   'kahuna-hm-078': {
-    label: 'Highest weight cap under $5,000, SL-track 4D',
-    why: "At 350 lbs, the HM-078 Hubot has the highest confirmed weight capacity of any SL-track chair under $5,000 in this catalog. SL-track 4D roller with heat, zero gravity, foot massage, AI body scanning, and space-saving recline. Confirmed up to 6 foot 2 inches. For buyers over 300 lbs who want SL-track coverage and 4D roller depth without spending above $5,000, this is the first pick to check.",
+    label: "Highest weight cap in the $3,000-$4,999 band, SL-track 4D",
+    why: "At 350 lbs, the HM-078 Hubot has the highest confirmed weight capacity of any SL-track chair in the $3,000-$4,999 band in this catalog. SL-track 4D roller with heat, zero gravity, foot massage, AI body scanning, and space-saving recline. Confirmed up to 6 foot 2 inches. For buyers over 300 lbs who want SL-track coverage and 4D roller depth without stepping up a tier, this is the first pick to check.",
   },
 }
 
@@ -111,7 +111,7 @@ export default function BestHeavyDutyPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>
@@ -240,7 +240,7 @@ export default function BestHeavyDutyPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For buyers at or below 330 lbs who want the most affordable confirmed option, the Kyota Genki M380 at $2,999 is the pick. For buyers who want 4D roller quality alongside high capacity and a space-saving footprint, the Yugana M780 at $7,999 is the mid-premium step up.
+          For buyers at or below 330 lbs who want the most affordable confirmed option, the Kyota Genki M380 (Under $3,000) is the pick. For buyers who want 4D roller quality alongside high capacity and a space-saving footprint, the Yugana M780 ($5,000-$7,999) is the upper-mid step up.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           The Phantom II has the highest capacity (335 lbs) but lacks confirmed height data. If weight is the primary concern and height fit is secondary, it is the pick. If you need both confirmed, the Yugana M780 (4&apos;8&quot; to 6&apos;2&quot;, 300 lbs) or Luraco (4&apos;11&quot; to 6&apos;10&quot;, 300 lbs) are better-documented options.

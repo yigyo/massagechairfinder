@@ -4,8 +4,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'AmaMedics Hilux 4D vs Titan Pro-Vigor 4D: The $5,000 SL-Track Decision',
-  description: 'Both are SL-track 4D chairs with heated rollers. The Hilux costs $1,000 less and fits buyers from 4\'11". The Vigor adds a space-saving design. Here is the full comparison.',
+  title: 'AmaMedics Hilux 4D vs Titan Pro-Vigor 4D: The SL-Track Decision',
+  description: 'Both are SL-track 4D chairs with heated rollers. The Hilux sits a price tier below and fits buyers from 4\'11". The Vigor adds a space-saving design. Here is the full comparison.',
 }
 
 export default function HiluxVsVigorPage() {
@@ -18,13 +18,13 @@ export default function HiluxVsVigorPage() {
       </nav>
 
       <h1 className="text-4xl font-serif mb-4">
-        AmaMedics Hilux 4D vs Titan Pro-Vigor 4D: The $5,000 SL-Track Decision
+        AmaMedics Hilux 4D vs Titan Pro-Vigor 4D: The SL-Track Decision
       </h1>
 
       <p className="text-warm-gray text-lg mb-8">
         Both chairs share the same core configuration: SL-track, 4D rollers, heated rollers
         (not just heated pads), two-stage zero gravity, and a weight capacity around 260 to
-        270 lbs. The $1,000 price gap and a few specific feature differences are the whole
+        270 lbs. The price-tier gap and a few specific feature differences are the whole
         decision. Here is what actually separates them.
       </p>
 
@@ -39,7 +39,7 @@ export default function HiluxVsVigorPage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">AmaMedics Hilux 4D</p>
-          <p className="text-sm text-charcoal">$4,999</p>
+          <p className="text-sm text-charcoal">$3,000-$4,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -51,7 +51,7 @@ export default function HiluxVsVigorPage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Titan Pro-Vigor 4D</p>
-          <p className="text-sm text-charcoal">$5,999</p>
+          <p className="text-sm text-charcoal">$5,000-$7,999</p>
         </div>
       </div>
 
@@ -59,7 +59,7 @@ export default function HiluxVsVigorPage() {
         <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#D1803E' }}>Quick verdict</p>
         <p className="text-charcoal">
           The <strong>Hilux 4D</strong> is the stronger value for most buyers. It delivers
-          the same core 4D SL-track experience for $1,000 less, has the wider height range
+          the same core 4D SL-track experience a price tier lower, has the wider height range
           (confirmed to 4&apos;11&quot;), and the higher weight capacity. The <strong>Titan
           Pro-Vigor 4D</strong> earns its premium for buyers with space constraints: the
           3.9-inch wall clearance is the tightest in the SL-track 4D tier and makes the
@@ -79,7 +79,7 @@ export default function HiluxVsVigorPage() {
           </thead>
           <tbody>
             {[
-              ['Price', '$4,999', '$5,999'],
+              ['Price band', '$3,000-$4,999', '$5,000-$7,999'],
               ['Track', 'SL-track', 'SL-track'],
               ['Roller', '4D', '4D'],
               ['Heated rollers', 'Yes', 'Yes'],
@@ -117,7 +117,7 @@ export default function HiluxVsVigorPage() {
         recline rather than the backrest tilting backward, which is what keeps the
         wall clearance minimal. For buyers who want this chair in a bedroom, office,
         or any room where pushing furniture is not an option, the Vigor&apos;s placement
-        flexibility is the reason to pay the $1,000 premium.
+        flexibility is the reason to step up a price tier.
       </p>
 
       <h2 className="text-2xl font-serif mb-3">Height range: why it matters for the Hilux</h2>
@@ -147,7 +147,7 @@ export default function HiluxVsVigorPage() {
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>The chair needs to fit within 4 inches of a wall</span></li>
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are placing the chair in a bedroom or tight space</span></li>
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are 5&apos;0&quot; or taller and under 260 lbs</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>The space-saving design justifies the $1,000 premium for your room</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>The space-saving design justifies stepping up a price tier for your room</span></li>
           </ul>
           <div className="mt-4">
             <a href={affiliateUrlById('titan-pro-vigor-4d')} className="inline-block bg-teal text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the Pro-Vigor 4D</a>

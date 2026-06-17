@@ -24,11 +24,11 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "ogawa-og6300": {
     label: "Best value for outfitting a common area",
-    why: "The Active XL 3D is the workhorse pick for a shared space on a facility budget. SL-track coverage runs the full spine from neck to glutes, the 320 lb weight capacity handles residents of widely varying size, and zero gravity recline takes pressure off the lower back while also making the chair easier to get into and out of. At $2,999 it is affordable enough to place in more than one common room, and its Plus Size Confirmed designation means the fit is verified rather than estimated.",
+    why: "The Active XL 3D is the workhorse pick for a shared space on a facility budget. SL-track coverage runs the full spine from neck to glutes, the 320 lb weight capacity handles residents of widely varying size, and zero gravity recline takes pressure off the lower back while also making the chair easier to get into and out of. In the Under $3,000 band it is affordable enough to place in more than one common room, and its Plus Size Confirmed designation means the fit is verified rather than estimated.",
   },
   "kyota-genki-m380": {
     label: "Easiest for residents and staff to operate",
-    why: "The Genki M380 carries the highest confirmed weight capacity in the catalog at 330 lbs and the simplest control scheme on this list. Its 2D roller runs straightforward auto programs without the layered menus of a 4D chair, which matters when residents and activity staff need to start a session with one button. L-track covers the lower back, glutes, and upper thighs where chronic pain concentrates in older adults, and the fit is confirmed up to 6'5\". At $2,999 it is the most forgiving, lowest-friction chair to place in front of a rotating group of residents.",
+    why: "The Genki M380 carries the highest confirmed weight capacity in the catalog at 330 lbs and the simplest control scheme on this list. Its 2D roller runs straightforward auto programs without the layered menus of a 4D chair, which matters when residents and activity staff need to start a session with one button. L-track covers the lower back, glutes, and upper thighs where chronic pain concentrates in older adults, and the fit is confirmed up to 6'5\". In the Under $3,000 band it is the most forgiving, lowest-friction chair to place in front of a rotating group of residents.",
   },
   "human-touch-laevo-zg": {
     label: "Best for frail or pressure-sensitive residents",
@@ -40,7 +40,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "jpmedics-kumo-4d": {
     label: "Best premium pick for a flagship wellness room",
-    why: "The Kumo 4D pairs 4D roller depth with AI body scanning that reads each resident's spine length and curvature before adjusting the roller path, so a single chair adapts across a rotating group rather than running one fixed program. L-track coverage, 320 lb capacity, confirmed fit up to 6'3\", heat, and zero gravity round it out. At $10,999 it is a considered investment for a community that markets wellness amenities to prospective residents and their families.",
+    why: "The Kumo 4D pairs 4D roller depth with AI body scanning that reads each resident's spine length and curvature before adjusting the roller path, so a single chair adapts across a rotating group rather than running one fixed program. L-track coverage, 320 lb capacity, confirmed fit up to 6'3\", heat, and zero gravity round it out. In the $8,000-$11,999 band it is a considered investment for a community that markets wellness amenities to prospective residents and their families.",
   },
   "ogawa-og8900": {
     label: "Best flagship for a marquee amenity space",
@@ -68,7 +68,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "What should a senior living facility budget for a massage chair?",
-    a: "Confirmed high-capacity chairs suitable for shared use start near $2,999, which is the right entry point for a standard common room. Stepping up to $4,999 to $10,999 buys 4D roller sophistication and AI body scanning that adapts to each resident, which suits a structured wellness or physical-therapy program. Flagship chairs reach $15,999 and make sense only when the chair anchors a marquee amenity space. Budget by the prominence of the room and the volume of residents, not by features alone.",
+    a: "Confirmed high-capacity chairs suitable for shared use start in the Under $3,000 band, which is the right entry point for a standard common room. Stepping up into the $3,000-$4,999 and $8,000-$11,999 bands buys 4D roller sophistication and AI body scanning that adapts to each resident, which suits a structured wellness or physical-therapy program. Flagship chairs reach the $12,000 and up band and make sense only when the chair anchors a marquee amenity space. Budget by the prominence of the room and the volume of residents, not by features alone.",
   },
 ]
 
@@ -117,7 +117,7 @@ export default function BestSeniorLivingFacilitiesPage() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs for Senior Living Facilities</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        The best massage chairs for senior living facilities prioritize high weight capacity, simple one-touch controls, easy entry and exit, and durable build over the advanced programming a single home user might want. A chair that serves a rotating group of residents has to fit a wide range of bodies, survive frequent daily starts, and be operable by residents and activity staff alike. The six chairs below are chosen for shared facility use across common areas and wellness rooms, from a $2,999 value workhorse to a flagship amenity piece.
+        The best massage chairs for senior living facilities prioritize high weight capacity, simple one-touch controls, easy entry and exit, and durable build over the advanced programming a single home user might want. A chair that serves a rotating group of residents has to fit a wide range of bodies, survive frequent daily starts, and be operable by residents and activity staff alike. The six chairs below are chosen for shared facility use across common areas and wellness rooms, from an entry-band value workhorse to a flagship amenity piece.
       </p>
       <p className="text-charcoal max-w-2xl mb-3">
         Buying for a facility is a different problem than buying for a home. Confirm one thing before anything else: most residential massage chair warranties exclude commercial or facility settings, so a chair placed in a shared space can fall outside standard coverage unless the retailer confirms multi-user use in writing. That question often shapes total cost of ownership more than the sticker price. Every chair here is drawn from the models we have researched and verified pricing and specifications for, and each spec cited comes from the manufacturer or retailer spec sheet, not estimates.
@@ -162,7 +162,7 @@ export default function BestSeniorLivingFacilitiesPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>
@@ -295,13 +295,13 @@ export default function BestSeniorLivingFacilitiesPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to choose for your community</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For a standard common room on a defined budget, the Ogawa Active XL 3D ($2,999) or Kyota Genki M380 ($2,999) are the two to weigh. Choose the Active XL 3D for full SL-track coverage and the Genki M380 for the highest weight capacity and the simplest controls. Both are affordable enough to place in more than one room.
+          For a standard common room on a defined budget, the Ogawa Active XL 3D (Under $3,000) or Kyota Genki M380 (Under $3,000) are the two to weigh. Choose the Active XL 3D for full SL-track coverage and the Genki M380 for the highest weight capacity and the simplest controls. Both are affordable enough to place in more than one room.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If the program serves residents who cannot tolerate roller pressure, the Human Touch Laevo ZG is a different category, not a compromise. It is the right tool for frail residents, and pairing it with one roller chair in the same space lets staff match the chair to the resident.
         </p>
         <p className="text-charcoal leading-relaxed">
-          For a wellness program or a marquee amenity space, the JPMedics Kumo 4D ($10,999) and Ogawa Master Drive DUO ($15,999) add 4D rollers and body scanning that adapt across a rotating group of residents. The{" "}
+          For a wellness program or a marquee amenity space, the JPMedics Kumo 4D ($8,000-$11,999) and Ogawa Master Drive DUO ($12,000 and up) add 4D rollers and body scanning that adapt across a rotating group of residents. The{" "}
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{" "}
           narrows by body fit, pressure preference, and budget if you are matching a chair to a specific resident profile.
         </p>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Ogawa Active XL Duo vs Titan Pro-Vigor 4D | MassageChairFinder',
-  description: 'The Ogawa OG-6400 is $800 less with a 320 lb verified capacity and 11-inch wall clearance. The Titan Pro-Vigor 4D adds heated rollers and a 4D roller system. Here is how to choose.',
+  description: 'The Ogawa OG-6400 sits a price tier below with a 320 lb verified capacity and 11-inch wall clearance. The Titan Pro-Vigor 4D adds heated rollers and a 4D roller system. Here is how to choose.',
 }
 
 export default function ComparePage() {
@@ -21,7 +21,7 @@ export default function ComparePage() {
 
       <h1 className="text-4xl font-serif mb-3">Ogawa Active XL Duo 3D vs Titan Pro-Vigor 4D</h1>
       <p className="text-warm-gray mb-8 max-w-2xl">
-        The Ogawa OG-6400 costs $800 less than the Pro-Vigor 4D and handles significantly more weight: 320 lbs verified plus-size versus 260 lbs. The Pro-Vigor 4D adds heated rollers and a 4D roller system for more nuanced pressure control. The decision comes down to body fit versus roller technology.
+        The Ogawa OG-6400 sits a price tier below the Pro-Vigor 4D and handles significantly more weight: 320 lbs verified plus-size versus 260 lbs. The Pro-Vigor 4D adds heated rollers and a 4D roller system for more nuanced pressure control. The decision comes down to body fit versus roller technology.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-10">
@@ -36,7 +36,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Ogawa Active XL Duo 3D</p>
-          <p className="text-sm text-charcoal">$5,199</p>
+          <p className="text-sm text-charcoal">$3,000-$4,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -49,7 +49,7 @@ export default function ComparePage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Titan Pro-Vigor 4D</p>
-          <p className="text-sm text-charcoal">$5,999</p>
+          <p className="text-sm text-charcoal">$5,000-$7,999</p>
         </div>
       </div>
 
@@ -59,7 +59,7 @@ export default function ComparePage() {
           If you weigh over 250 lbs or want a confirmed plus-size fit at a lower price, the Ogawa OG-6400 is the clearer choice. Its 320 lb verified capacity and 11-inch wall clearance make it the stronger practical option for heavier buyers or rooms with limited rear space.
         </p>
         <p>
-          If you weigh under 250 lbs and want heated rollers with 4D roller precision, the Titan Pro-Vigor 4D is worth the extra $800. The heated roller system is a significant improvement over a separate heat pad, and the 4D depth control provides session-by-session pressure adjustment that the OG-6400's 3D system does not match.
+          If you weigh under 250 lbs and want heated rollers with 4D roller precision, the Titan Pro-Vigor 4D is worth stepping up a price tier. The heated roller system is a significant improvement over a separate heat pad, and the 4D depth control provides session-by-session pressure adjustment that the OG-6400's 3D system does not match.
         </p>
       </div>
 
@@ -75,7 +75,7 @@ export default function ComparePage() {
           </thead>
           <tbody>
             {[
-              ['Price', '$5,199', '$5,999'],
+              ['Price band', '$3,000-$4,999', '$5,000-$7,999'],
               ['Track', 'SL-track', 'SL-track'],
               ['Roller', '3D (dual system)', '4D'],
               ['Weight Capacity', '320 lbs', '260 lbs'],
@@ -125,7 +125,7 @@ export default function ComparePage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You weigh over 250 lbs or want verified plus-size fit</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Budget is a consideration and 3D roller quality is sufficient</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Your room has only 11 inches of wall clearance but not tight enough for the Vigor's 3.9"</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want to save $800 and the roller type difference is not important</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want to stay a price tier lower and the roller type difference is not important</span></li>
           </ul>
           <div className="mt-4">
             <a href={affiliateUrlById('ogawa-og6400')} className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded transition-colors hover:opacity-90">Shop the OG-6400</a>

@@ -24,7 +24,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   "amamedics-hilux-4d": {
     label: "Best value for a busy floor",
-    why: "The Hilux 4D pairs SL-track 4D rollers with the widest confirmed height range among these picks, 4'11\" to 6'7\", and a 53-inch track that is one of the longer systems in the catalog. For a gym or recovery studio serving members of every build, that range means fewer people fall outside the chair's fit. The rollers themselves are heated, so warmth follows the stroke through the session rather than sitting at the lumbar. At $4,999 it is the value workhorse for a high-traffic room.",
+    why: "The Hilux 4D pairs SL-track 4D rollers with the widest confirmed height range among these picks, 4'11\" to 6'7\", and a 53-inch track that is one of the longer systems in the catalog. For a gym or recovery studio serving members of every build, that range means fewer people fall outside the chair's fit. The rollers themselves are heated, so warmth follows the stroke through the session rather than sitting at the lumbar. In the $3,000-$4,999 band it is the value workhorse for a high-traffic room.",
   },
   "titan-pro-vigor-4d": {
     label: "Best proven 4D recovery pick",
@@ -44,7 +44,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "osaki-os-pro-4d-duomax": {
     label: "Best for the heaviest athletes",
-    why: "The OS-Pro 4D DuoMax carries the highest confirmed weight capacity on this list at 330 lbs, paired with SL-track 4D rollers, AI body scanning, heat, full-body stretch, and calf and foot coverage. For a strength gym or a recovery facility serving larger athletes, the capacity headroom protects both the user and the equipment over heavy daily use. At $12,999 it is the flagship recovery pick when load rating is the deciding factor.",
+    why: "The OS-Pro 4D DuoMax carries the highest confirmed weight capacity on this list at 330 lbs, paired with SL-track 4D rollers, AI body scanning, heat, full-body stretch, and calf and foot coverage. For a strength gym or a recovery facility serving larger athletes, the capacity headroom protects both the user and the equipment over heavy daily use. In the $12,000 and up band it is the flagship recovery pick when load rating is the deciding factor.",
   },
 }
 
@@ -117,7 +117,7 @@ export default function BestGymsWellnessPage() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs for Gyms and Wellness Centers</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        The best massage chairs for gyms, recovery studios, and wellness centers prioritize recovery-grade rollers, a fit range wide enough for every member, high weight capacity, and a build that survives heavy daily traffic. A chair on a gym floor runs far more sessions than a home chair and serves users it has never seen before, so durability and adaptability matter more than any single comfort feature. The six picks below are chosen for commercial recovery use, from a $4,999 value workhorse to a 330 lb flagship.
+        The best massage chairs for gyms, recovery studios, and wellness centers prioritize recovery-grade rollers, a fit range wide enough for every member, high weight capacity, and a build that survives heavy daily traffic. A chair on a gym floor runs far more sessions than a home chair and serves users it has never seen before, so durability and adaptability matter more than any single comfort feature. The six picks below are chosen for commercial recovery use, from a $3,000-$4,999 value workhorse to a 330 lb flagship.
       </p>
       <p className="text-charcoal max-w-2xl mb-3">
         Confirm one thing before anything else: most residential massage chair warranties exclude commercial settings, so a chair placed on a gym floor can fall outside standard coverage unless the retailer confirms commercial use in writing. That question often shapes total cost of ownership more than the sticker price. Every chair here is drawn from the models we have researched and verified pricing and specifications for, and each spec cited comes from the manufacturer or retailer spec sheet, not estimates.
@@ -160,7 +160,7 @@ export default function BestGymsWellnessPage() {
             <thead>
               <tr className="border-b-2 border-sand">
                 <th className="text-left py-3 pl-4 pr-5 font-semibold text-charcoal whitespace-nowrap">Chair</th>
-                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price</th>
+                <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Price band</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Track</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Roller</th>
                 <th className="text-left py-3 pr-5 font-semibold text-charcoal whitespace-nowrap">Zero Gravity</th>
@@ -296,13 +296,13 @@ export default function BestGymsWellnessPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to choose for your facility</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For a standard gym floor or a recovery studio on a defined budget, the AmaMedics Hilux 4D ($4,999) and Titan Pro-Vigor 4D ($5,999) are the two to weigh. Choose the Hilux 4D for the widest confirmed fit range and the Pro-Vigor 4D for the deeper review track record. Both deliver 4D recovery work at a price that scales to more than one unit.
+          For a standard gym floor or a recovery studio on a defined budget, the AmaMedics Hilux 4D ($3,000-$4,999) and Titan Pro-Vigor 4D ($5,000-$7,999) are the two to weigh. Choose the Hilux 4D for the widest confirmed fit range and the Pro-Vigor 4D for the deeper review track record. Both deliver 4D recovery work at a price that scales to more than one unit.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If your members skew tall or heavy, the Infinity Imperial Syner-D (confirmed to 6'6\", 300 lbs), Daiwa Legacy 4 (4'8\" to 6'6\"), or Osaki OS-Pro 4D DuoMax (330 lbs) are the confirmed-capacity options. Match the chair to the largest athlete who will realistically use it.
         </p>
         <p className="text-charcoal leading-relaxed">
-          For a boutique studio or clinic that markets its amenities, the Osaki OS-Pro Maestro LE 2.0 ($8,999) is the premium recovery pick. The{" "}
+          For a boutique studio or clinic that markets its amenities, the Osaki OS-Pro Maestro LE 2.0 ($8,000-$11,999) is the premium recovery pick. The{" "}
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{" "}
           narrows by body fit, feature priority, and budget if you are matching a chair to a specific use.
         </p>

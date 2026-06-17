@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Massage Chairs Under $3,000 (2026)',
-  description: 'From $1,299 to $2,999, the best massage chairs offer SL-track coverage, zero gravity, and improving roller quality. Five chairs selected across the full under-$3,000 range.',
+  description: 'Across the entry tier, the best massage chairs offer SL-track coverage, zero gravity, and improving roller quality. Five chairs selected across the full under-$3,000 range.',
 }
 
 const PICK_IDS = [
@@ -22,25 +22,25 @@ interface Editorial {
 
 const EDITORIAL: Record<string, Editorial> = {
   'osaki-os-champ': {
-    label: 'Entry at $1,299',
-    why: 'The OS-Champ offers SL-track coverage, two-stage zero gravity, lumbar heat, and a 260-lb weight capacity at the lowest price in the catalog. For buyers whose budget tops out at $1,300, this is the pick. 2D rollers, 9-inch wall clearance.',
+    label: 'Lowest-priced pick here',
+    why: 'The OS-Champ offers SL-track coverage, two-stage zero gravity, lumbar heat, and a 260-lb weight capacity at the lowest price in the catalog. For buyers whose budget tops out near the floor of the catalog, this is the pick. 2D rollers, 9-inch wall clearance.',
   },
   'synca-wellness-circ-plus': {
-    label: 'Best space-saving under $2,000',
-    why: 'The CirC+ at $1,899 is a 3D SL-track chair with space-saving 6-inch wall clearance, zero gravity, and heat. The 45.5-inch track is longer than the base CirC and more appropriate for taller buyers. For buyers who need a chair that can sit near a wall at under $2,000, this is the pick. Sold via syncamassagechair.com.',
+    label: 'Best space-saving pick in the lower half of this tier',
+    why: 'The CirC+ is a 3D SL-track chair with space-saving 6-inch wall clearance, zero gravity, and heat. The 45.5-inch track is longer than the base CirC and more appropriate for taller buyers. For buyers who need a chair that can sit near a wall without climbing into the upper half of this tier, this is the pick. Sold via syncamassagechair.com.',
   },
 
   'relaxe-shiatsu': {
     label: 'Best for larger buyers under $3,000',
-    why: 'The Relaxe Shiatsu is confirmed at 330 lbs with a 53-inch SL-track and space-saving 2-inch wall clearance, priced at $2,999 to $2,999. The weight capacity is the highest in the under-$3,000 range, making it the strongest option for buyers who exceed 260 or 270 lbs. Confirmed height range of 61 to 76 inches. 2D rollers, zero gravity, heat. Sold via relaxe.co.',
+    why: 'The Relaxe Shiatsu is confirmed at 330 lbs with a 53-inch SL-track and space-saving 2-inch wall clearance, sitting at the top of this entry tier. The weight capacity is the highest in the under-$3,000 range, making it the strongest option for buyers who exceed 260 or 270 lbs. Confirmed height range of 61 to 76 inches. 2D rollers, zero gravity, heat. Sold via relaxe.co.',
   },
   'kyota-genki-m380': {
     label: 'Best for tall or heavier buyers',
-    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, a notably high weight capacity for this price tier. L-track (covers glutes and thighs, less upper-back reach than SL). For buyers who exceed the 200-lb limit of entry chairs or need a taller accommodation, this is the pick at $2,999.",
+    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, a notably high weight capacity for this price tier. L-track (covers glutes and thighs, less upper-back reach than SL). For buyers who exceed the 200-lb limit of entry chairs or need a taller accommodation, this is the pick at the top of this tier.",
   },
   'kahuna-hm-5000': {
-    label: 'Best SL-track under $2,500, space-saving',
-    why: "At $2,000, the HM-5000 is the only SL-track chair in this price tier with a space-saving recline mechanism. SL-track coverage means the roller path extends from the neck all the way under the glutes, which L-track chairs at this price also offer, but the HM-5000 combines that with a compact footprint and zero gravity. Foot and calf massage, hip airbags, 290 lb capacity, confirmed up to 6 foot 2 inches. A strong starting chair for buyers who are not ready to spend above $2,500 but do not want to compromise on track type.",
+    label: 'Best space-saving SL-track value here',
+    why: "The HM-5000 is the only SL-track chair in this price tier with a space-saving recline mechanism. SL-track coverage means the roller path extends from the neck all the way under the glutes, which L-track chairs at this price also offer, but the HM-5000 combines that with a compact footprint and zero gravity. Foot and calf massage, hip airbags, 290 lb capacity, confirmed up to 6 foot 2 inches. A strong starting chair for buyers who are not ready to spend much higher but do not want to compromise on track type.",
   },
 }
 
@@ -66,7 +66,7 @@ export default function BestUnder3000Page() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs Under $3,000</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        The under-$3,000 range is where the massage chair category starts to reward research. At $1,299 you get SL-track coverage and zero gravity. By $2,999 you get L-track with a high weight capacity confirmation, and the strongest overall therapeutic spec in the tier. The four chairs below cover the full range from entry to the top of this tier.
+        The under-$3,000 range is where the massage chair category starts to reward research. At the floor of the catalog you get SL-track coverage and zero gravity. At the top of this tier you get L-track with a high weight capacity confirmation, and the strongest overall therapeutic spec in the tier. The four chairs below cover the full range from entry to the top of this tier.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
         Updated May 2026. All four chairs below are SL-track or L-track. For chairs above $3,000, see the{' '}
@@ -76,10 +76,10 @@ export default function BestUnder3000Page() {
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">What changes as you spend more in this tier</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          From $1,299 to $2,999, three things change meaningfully. First, roller quality: entry chairs use 2D rollers that move in two axes. Mid-tier chairs often include 3D rollers with adjustable depth. Second, track length: longer tracks extend further under the glutes, which matters for lower back and sacral coverage. Third, body fit confirmation: verified height and weight specs from the retailer become available at $2,999, meaning you have evidence that the chair fits your dimensions before buying.
+          Across this entry tier, three things change meaningfully. First, roller quality: entry chairs use 2D rollers that move in two axes. Mid-tier chairs often include 3D rollers with adjustable depth. Second, track length: longer tracks extend further under the glutes, which matters for lower back and sacral coverage. Third, body fit confirmation: verified height and weight specs from the retailer become available toward the top of this tier, meaning you have evidence that the chair fits your dimensions before buying.
         </p>
         <p className="text-charcoal leading-relaxed">
-          Body scanning, which maps the roller start position to your shoulder height before each session, appears at $2,999. It is not a luxury feature at this price point. It is a meaningful difference in how well the chair covers your specific spine geometry on a daily basis.
+          Body scanning, which maps the roller start position to your shoulder height before each session, appears toward the top of this tier. It is not a luxury feature at this price point. It is a meaningful difference in how well the chair covers your specific spine geometry on a daily basis.
         </p>
       </div>
 
@@ -222,7 +222,7 @@ export default function BestUnder3000Page() {
           For most buyers in this tier, the decision comes down to body fit. If you are 5&apos;2&quot; to 6&apos;1&quot; and under 270 lbs, the Admiral II is the pick. If you are taller than 6&apos;1&quot; or heavier than 270 lbs, the Kyota Genki M380 accommodates a wider range at the same price.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          If budget is strictly under $2,000 and that cannot change, both entry picks above are sound. The gap between $1,299 and $2,999 is real, but not everyone needs the upgrade.
+          If budget is strictly in the lower half of this tier and that cannot change, both entry picks above are sound. The gap between the floor of the catalog and the top of this tier is real, but not everyone needs the upgrade.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}

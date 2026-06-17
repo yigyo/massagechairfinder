@@ -186,11 +186,7 @@ function progressLabel(turnCount: number): string {
 }
 
 // ─── PRICE FORMATTER ───────────────────────────────────────────────────────────
-function formatStartingPrice(price: string): string {
-  const match = price.match(/\$[\d,]+/)
-  if (!match) return price
-  return `Starting at ${match[0]}`
-}
+// (starting-price formatter removed: finder no longer sends exact prices)
 
 // ─── FEATURE TOOLTIPS ──────────────────────────────────────────────────────────
 const FEATURE_TOOLTIPS: Record<string, string> = {
@@ -483,7 +479,7 @@ export default function ChairFinder() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           email,
-          chairs: chairs.map(c => ({ ...c, price: formatStartingPrice(c.price) })),
+          chairs: chairs.map(c => ({ ...c, price: "" })),
           quizAnswers,
           quizFeatures,
           turnstileToken: turnstileTokenRef.current,
