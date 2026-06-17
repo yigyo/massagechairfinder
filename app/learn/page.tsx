@@ -125,6 +125,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-desk-work",
       "massage-and-session-length",
       "massage-and-consistency",
+      "massage-and-blood-thinners",
+      "massage-and-heart-conditions",
       "does-reflexology-work",
       "what-is-shiatsu-massage",
     ],
