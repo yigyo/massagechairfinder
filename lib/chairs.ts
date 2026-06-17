@@ -534,7 +534,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',
     heat: true, calf: true, stretch: true,
     aiScanning: true,
-    aiNotes: 'HT Flex S- and L-Track. DuoSync dual-quad roller system, 3D and 4D programs. Heated foot and calf, dual-lumbar heat. HT Flex full-body stretch. Rapid Acupoint body sensing. Touchscreen controller. Memory and AI-generated programs (Ascent Series flagship). White Glove delivery NOT included ($499 add-on). Zero gravity not explicitly named on product page, needs verification. Foot rollers not confirmed; chair lists heated foot and calf massager without specifying roller mechanism. Weight capacity and height range not on page. Verified from humantouch.com May 2026.',  },
+    aiNotes: 'HT Flex S- and L-Track. DuoSync dual-quad roller system, 3D and 4D programs. Heated foot and calf, dual-lumbar heat. HT Flex full-body stretch. Rapid Acupoint body sensing. Touchscreen controller. Memory and AI-generated programs (Ascent Series flagship). White Glove delivery NOT included (add-on fee). Zero gravity not explicitly named on product page, needs verification. Foot rollers not confirmed; chair lists heated foot and calf massager without specifying roller mechanism. Weight capacity and height range not on page. Verified from humantouch.com May 2026.',  },
 
 
   // ── LURACO ─────────────────────────────────────────────────────────────────
@@ -583,7 +583,7 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '3D',
     heightMinIn: 60, heightMaxIn: 77, weightCapacityLbs: 300,
     zeroGravity: true, heat: true, stretch: false,
-    aiNotes: 'L-Track with 3D roller. Designed for commercial and home theater use. Lumbar heat. $3,490 confirmed at MCW. Height 5\' 0\"-6\' 5\", 300 lb capacity. Verified May 2026.',
+    aiNotes: 'L-Track with 3D roller. Designed for commercial and home theater use. Lumbar heat. Mid tier ($3,000-$4,999) confirmed at MCW. Height 5\' 0\"-6\' 5\", 300 lb capacity. Verified May 2026.',
   },
 
   // ── SYNCA ──────────────────────────────────────────────────────────────────
@@ -1140,7 +1140,7 @@ export const CHAIRS: Chair[] = [
       "Effective for desk workers carrying end-of-day lower back tension; the Thai stretch program earns repeated mention",
       "Buyers who previously owned other premium chairs describe it as a clear step up in both coverage and depth",
     ],
-    aiNotes: 'Made in Japan. Highly regarded in the $8,000-$9,000 range. 320 lb capacity. Verified from massagechairwarehouse.com April 2026.',
+    aiNotes: 'Made in Japan. Highly regarded in the premium tier ($8,000-$11,999). 320 lb capacity. Verified from massagechairwarehouse.com April 2026.',
   },
 
   {
@@ -1663,7 +1663,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/kahuna-dios-6800-6d.jpg',
     track: 'SL', roller: '6D', trackLengthIn: 50,
     zeroGravity: true, heat: true, foot: true,
-    aiNotes: 'SL-track 50". 6D roller. Strong mid-range Kahuna. Good value SL option in the $3k-$4k range. Via Wish Rock Relaxation. Verified May 2026.',
+    aiNotes: 'SL-track 50". 6D roller. Strong mid-range Kahuna. Good value SL option in the mid tier ($3,000-$4,999). Via Wish Rock Relaxation. Verified May 2026.',
     goodwinLookupKey: 'kahuna dios-6800 6d',
     },
 
@@ -2070,7 +2070,7 @@ export const CHAIRS: Chair[] = [
     imageWhiteBg: false,
     track: 'SL', roller: '4D',
     zeroGravity: true, heat: true, aiScanning: true,
-    aiNotes: 'Flagship OHCO model at $18,000. SL-track 4D. Dual zero gravity. Full body scan. Premium leather. Sold exclusively through Johnson Fitness.',
+    aiNotes: 'Flagship OHCO model in the ultra-premium tier ($12,000 and up). SL-track 4D. Dual zero gravity. Full body scan. Premium leather. Sold exclusively through Johnson Fitness.',
     goodwinLookupKey: 'ohco m 8 neo le',
     },
 
@@ -2089,7 +2089,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/relax-on-chair-rio.jpg',
     track: 'SL', roller: null,
     zeroGravity: true, heat: true, foot: true,
-    aiNotes: 'Entry-level SL-track at $999. Zero gravity, heat, foot rollers. Good starting point for budget buyers who still want SL coverage.',
+    aiNotes: 'Entry-level SL-track in the entry tier (Under $3,000). Zero gravity, heat, foot rollers. Good starting point for budget buyers who still want SL coverage.',
     goodwinLookupKey: 'relax on chair rio',
     },
 
@@ -2127,7 +2127,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/relax-on-chair-mk-ii-plus.jpg',
     track: 'L', roller: null,
     zeroGravity: true, heat: true, foot: true,
-    aiNotes: 'L-track extends under glutes. Zero gravity, heat, foot rollers. Good lower-back and hip option at $1,999.',
+    aiNotes: 'L-track extends under glutes. Zero gravity, heat, foot rollers. Good lower-back and hip option in the entry tier (Under $3,000).',
   },
 
   {
@@ -2143,7 +2143,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/relax-on-chair-mk-classic.jpg',
     track: 'L', roller: null,
     zeroGravity: true, heat: true,
-    aiNotes: 'L-track with zero gravity and heat. Classic model in the ROC lineup at $2,299.',
+    aiNotes: 'L-track with zero gravity and heat. Classic model in the ROC lineup in the entry tier (Under $3,000).',
   },
 
   {
@@ -2159,7 +2159,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/relax-on-chair-mk-iii.jpg',
     track: 'SL', roller: null,
     zeroGravity: true, heat: true,
-    aiNotes: 'SL-track with zero gravity and heat. Full-spine coverage in the $2,299 range.',
+    aiNotes: 'SL-track with zero gravity and heat. Full-spine coverage in the entry tier (Under $3,000).',
   },
 
   {    id: 'relaxonchair-mk-v-plus',
@@ -2244,7 +2244,7 @@ export const CHAIRS: Chair[] = [
     reviewRating:      3.67,
     reviewCount:       3,
     reviewSource:      "relaxonchair.com",
-    aiNotes: 'Flagship 4D SL-track from Relax On Chair. Premium pressure control and full-spine coverage at $6,499.',
+    aiNotes: 'Flagship 4D SL-track from Relax On Chair. Premium pressure control and full-spine coverage in the upper-mid tier ($5,000-$7,999).',
     goodwinLookupKey: 'relax on chair yukon-4d',
     },
 
@@ -2262,7 +2262,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/ceragem-m10.jpg',
     track: 'SL', roller: '4D',
     zeroGravity: false, heat: true, aiScanning: true,
-    aiNotes: 'SL-track 4D roller with thermal jade ball therapy and ceramic heating panels. Full-body AI scan with automatic positioning. Heat to lumbar and thoracic regions. Premium thermal therapy chair at $12,999. Verified May 2026.',
+    aiNotes: 'SL-track 4D roller with thermal jade ball therapy and ceramic heating panels. Full-body AI scan with automatic positioning. Heat to lumbar and thoracic regions. Premium thermal therapy chair in the ultra-premium tier ($12,000 and up). Verified May 2026.',
     goodwinLookupKey: 'ceragem m10',
     },
 
@@ -2281,7 +2281,7 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '3D',
     weightCapacityLbs: 320,
     zeroGravity: false, heat: true, stretch: true, foot: true,
-    aiNotes: 'L-track 3D at $1,999. 320 lb weight capacity. Heat, stretch, foot rollers. Strong value entry for buyers needing higher weight support.',
+    aiNotes: 'L-track 3D in the entry tier (Under $3,000). 320 lb weight capacity. Heat, stretch, foot rollers. Strong value entry for buyers needing higher weight support.',
     goodwinLookupKey: 'ergotec et-180 pluto',
     },
 
@@ -2299,7 +2299,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/koyo-303ts.jpg',
     track: 'SL', roller: '4D',
     zeroGravity: false, heat: true,
-    aiNotes: 'SL-track 4D roller. Japanese-made precision massage chair at $7,999. Koyo is a niche Japanese brand emphasizing engineering quality. Verified May 2026.',
+    aiNotes: 'SL-track 4D roller. Japanese-made precision massage chair in the upper-mid tier ($5,000-$7,999). Koyo is a niche Japanese brand emphasizing engineering quality. Verified May 2026.',
     goodwinLookupKey: 'koyo 303ts',
     },
 
@@ -2508,7 +2508,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/positive-posture-brio-plus.jpg',
     track: 'L', roller: '4D',
     zeroGravity: false, heat: true, foot: true,
-    aiNotes: 'L-track 4D with heat and foot rollers. Premium positioning at $7,999. Positive Posture focuses on ergonomic support and spinal alignment.',
+    aiNotes: 'L-track 4D with heat and foot rollers. Premium positioning in the upper-mid tier ($5,000-$7,999). Positive Posture focuses on ergonomic support and spinal alignment.',
     reviewRating:      5.0,
     reviewCount:       1,
     reviewSource:      "massagechairwarehouse.com",
@@ -2555,7 +2555,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/positive-posture-solara.jpg',
     track: 'SL', roller: '2D',
     zeroGravity: false, heat: true,
-    aiNotes: 'SL-track 2D roller. Entry-level Positive Posture model at $2,499. Heat therapy. Verified May 2026.',
+    aiNotes: 'SL-track 2D roller. Entry-level Positive Posture model in the entry tier (Under $3,000). Heat therapy. Verified May 2026.',
     goodwinLookupKey: 'positive posture solara',
     },
 
@@ -2573,7 +2573,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/sharper-image-relieve-3d.jpg',
     track: 'L', roller: '3D',
     zeroGravity: true, heat: true, foot: true,
-    aiNotes: 'L-track 3D with zero gravity, heat, and foot rollers. Sharper Image brand sold through MCW at $4,499.',
+    aiNotes: 'L-track 3D with zero gravity, heat, and foot rollers. Sharper Image brand sold through MCW in the mid tier ($3,000-$4,999).',
     goodwinLookupKey: 'sharper image relieve 3d',
     },
 
@@ -2589,7 +2589,7 @@ export const CHAIRS: Chair[] = [
     imageUrl: '/images/chairs/sharper-image-revival.jpg',
     track: 'L', roller: '2D',
     zeroGravity: true, heat: true, foot: true,
-    aiNotes: 'L-track 2D roller. Zero gravity, heat, foot rollers. Entry point to the Sharper Image massage chair line at $3,999. Verified May 2026.',
+    aiNotes: 'L-track 2D roller. Zero gravity, heat, foot rollers. Entry point to the Sharper Image massage chair line in the mid tier ($3,000-$4,999). Verified May 2026.',
     goodwinLookupKey: 'sharper image revival',
     },
 
@@ -2672,7 +2672,7 @@ export const CHAIRS: Chair[] = [
     track: 'L', roller: '4D',
     spaceSaving: true,
     zeroGravity: true, heat: true, foot: true, aiScanning: true,
-    aiNotes: 'L-track 4D at $5,499. 2-level zero gravity. Lumbar heat. Reflexology foot rollers. TrueFit body scanning. Zero Wall Fit space-saving technology. 3-year warranty. Sold via Massage Chair Heaven.',
+    aiNotes: 'L-track 4D in the upper-mid tier ($5,000-$7,999). 2-level zero gravity. Lumbar heat. Reflexology foot rollers. TrueFit body scanning. Zero Wall Fit space-saving technology. 3-year warranty. Sold via Massage Chair Heaven.',
     goodwinLookupKey: 'rockertech bliss',
     },
 
@@ -2690,7 +2690,7 @@ export const CHAIRS: Chair[] = [
     track: 'SL', roller: '4D',
     spaceSaving: true,
     zeroGravity: true, heat: true, foot: true, aiScanning: true,
-    aiNotes: 'SL-track 4D at $6,999. 2-level zero gravity. Lumbar heat. Dual reflexology foot rollers plus kneading calf rollers. TrueFit body scanning. Zero Wall Fit space-saving. 3-year warranty. Sold via Massage Chair Heaven.',
+    aiNotes: 'SL-track 4D in the upper-mid tier ($5,000-$7,999). 2-level zero gravity. Lumbar heat. Dual reflexology foot rollers plus kneading calf rollers. TrueFit body scanning. Zero Wall Fit space-saving. 3-year warranty. Sold via Massage Chair Heaven.',
     goodwinLookupKey: 'rockertech sensation 4d',
     },
 
@@ -2709,7 +2709,7 @@ export const CHAIRS: Chair[] = [
     imageWhiteBg: false,
     track: 'SL', roller: '4D',
     zeroGravity: true, heat: true, aiScanning: true,
-    aiNotes: 'Standard M.8 NEO at $14,999. SL-track 4D. Zero gravity. Body scan. Step-down from the $18,000 LE. Sold exclusively through Johnson Fitness. Compare with LE before recommending.',
+    aiNotes: 'Standard M.8 NEO in the ultra-premium tier ($12,000 and up). SL-track 4D. Zero gravity. Body scan. Step-down from the ultra-premium LE. Sold exclusively through Johnson Fitness. Compare with LE before recommending.',
     goodwinLookupKey: 'ohco m 8 neo',
     },
 
@@ -2733,7 +2733,7 @@ export const CHAIRS: Chair[] = [
     reviewRating:      4.86,
     reviewCount:       80,
     reviewSource:      "nouhaus.com",
-    aiNotes: 'SL-track with heat at $1,499. 250 lb weight cap. 90-degree swivel. Red Dot Award winner (2020). No zero gravity. Good entry option for buyers who want SL-track without ZG features.',
+    aiNotes: 'SL-track with heat in the entry tier (Under $3,000). 250 lb weight cap. 90-degree swivel. Red Dot Award winner (2020). No zero gravity. Good entry option for buyers who want SL-track without ZG features.',
     goodwinLookupKey: 'nouhaus new classic',
     },
 
@@ -2754,7 +2754,7 @@ export const CHAIRS: Chair[] = [
     reviewRating:      5.0,
     reviewCount:       6,
     reviewSource:      "nouhaus.com",
-    aiNotes: 'Compact SL-track with zero gravity (116-139 degrees) at $2,299. 6 auto programs. Heat. Small footprint (45.47" x 28.54"). Good for buyers who want zero gravity in a smaller chair.',
+    aiNotes: 'Compact SL-track with zero gravity (116-139 degrees) in the entry tier (Under $3,000). 6 auto programs. Heat. Small footprint (45.47" x 28.54"). Good for buyers who want zero gravity in a smaller chair.',
     goodwinLookupKey: 'nouhaus aurora',
     },
 
@@ -2776,7 +2776,7 @@ export const CHAIRS: Chair[] = [
     reviewRating:      5.0,
     reviewCount:       46,
     reviewSource:      "nouhaus.com",
-    aiNotes: 'SL-track built for larger users: fits up to 6\'3" and 250 lbs. Auto shoulder recognition for body scan. Heat. No zero gravity. Good option for taller buyers in the $2,000-$2,500 range.',
+    aiNotes: 'SL-track built for larger users: fits up to 6\'3" and 250 lbs. Auto shoulder recognition for body scan. Heat. No zero gravity. Good option for taller buyers in the entry tier (Under $3,000).',
     goodwinLookupKey: 'nouhaus nou campo',
     },
 
@@ -2797,7 +2797,7 @@ export const CHAIRS: Chair[] = [
     reviewRating:      4.83,
     reviewCount:       6,
     reviewSource:      "nouhaus.com",
-    aiNotes: 'SL-track 3D with zero gravity and ThermoMassage heat (3 levels: 35/40/45 C) at $2,999. Red Dot Award design. Bluetooth speakers. Strong mid-tier option from Nouhaus.',
+    aiNotes: 'SL-track 3D with zero gravity and ThermoMassage heat (3 levels: 35/40/45 C) in the entry tier (Under $3,000). Red Dot Award design. Bluetooth speakers. Strong mid-tier option from Nouhaus.',
     goodwinLookupKey: 'nouhaus luna',
     },
 
@@ -2817,7 +2817,7 @@ export const CHAIRS: Chair[] = [
     reviewRating:      5.0,
     reviewCount:       6,
     reviewSource:      "nouhaus.com",
-    aiNotes: 'Premium 3D zero gravity chair at $3,999. Track type not confirmed. Body recognition technology. Top-grain natural leather. Zero gravity 120-145 degrees. Red Dot Award design. Highest-tier Nouhaus model.',
+    aiNotes: 'Premium 3D zero gravity chair in the mid tier ($3,000-$4,999). Track type not confirmed. Body recognition technology. Top-grain natural leather. Zero gravity 120-145 degrees. Red Dot Award design. Highest-tier Nouhaus model.',
     goodwinLookupKey: 'nouhaus orbit',
     },
 

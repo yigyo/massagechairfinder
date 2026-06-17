@@ -11,8 +11,8 @@ const COMPARISONS = [
     slug: 'infinity-dynasty-4d-vs-infinity-genesis-max-4d',
     chairA: 'Infinity Dynasty 4D',
     chairB: 'Infinity Genesis Max 4D',
-    tier: '$9,000 to $12,000',
-    summary: 'Same brand, same L-track 4D specs, $2,700 apart. The Dynasty confirms petite and plus-size fit. The Genesis Max is the stronger value for typical buyers.',
+    tier: 'Mid to premium tier',
+    summary: 'Same brand, same L-track 4D specs, now a tier apart. The Dynasty is the lower-priced pick with confirmed petite and plus-size fit. The Genesis Max costs more but adds confirmed stretch programs.',
   },
   {
     slug: 'luraco-i9-max-plus-vs-panasonic-mak1',

@@ -392,8 +392,6 @@ export default async function ChairPage({ params }: { params: { slug: string } }
     description: `${c.name} massage chair${c.track ? ', ' + getTrackLabel(c) : ''}${c.roller ? ', ' + c.roller + ' roller' : ''}. ${priceBand(c).range}.`,
     offers: {
       '@type': 'Offer',
-      price: c.priceMin,
-      priceCurrency: 'USD',
       availability,
       url: 'https://massagechairfinder.com/chairs/' + params.slug,
     },
