@@ -1,5 +1,5 @@
 import { getLocalBrand, getBrandSlugs } from '@/lib/local-brands'
-import { CHAIRS } from '@/lib/chairs'
+import { CHAIRS, priceBand } from '@/lib/chairs'
 import PriceBadge from '@/components/PriceBadge'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -39,14 +39,14 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
   // Compute price range dynamically from active in-stock chairs
   // Falls back to the static value only if no chairs are in the catalog
   const inStockChairs = allBrandChairs.filter(c => c.inStock !== false)
-  const allPrices = inStockChairs.flatMap(c =>
-    [c.priceMin, c.priceMax ?? c.priceMin].filter(n => n > 0)
-  )
-  const computedPriceRange = allPrices.length === 0
+  const bandChairs = [...inStockChairs].filter(c => c.priceMin > 0).sort((a, b) => a.priceMin - b.priceMin)
+  const computedPriceRange = bandChairs.length === 0
     ? brand.priceRange
-    : allPrices.length === 1 || Math.min(...allPrices) === Math.max(...allPrices)
-    ? `$${Math.min(...allPrices).toLocaleString()}`
-    : `$${Math.min(...allPrices).toLocaleString()} to $${Math.max(...allPrices).toLocaleString()}`
+    : (() => {
+        const lo = priceBand(bandChairs[0])
+        const hi = priceBand(bandChairs[bandChairs.length - 1])
+        return lo.key === hi.key ? lo.range : `${lo.label} to ${hi.label} tier`
+      })()
 
   return (
     <div className="section" style={{ maxWidth: '900px' }}>

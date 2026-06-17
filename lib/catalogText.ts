@@ -8,7 +8,7 @@
  * The output replaces the hardcoded "## COMPLETE CHAIR CATALOG" sections in both prompts.
  */
 
-import { Chair, CHAIRS, MCF_CHAIRS, GOODWIN_CHAIRS, formatPrice } from './chairs'
+import { Chair, CHAIRS, MCF_CHAIRS, GOODWIN_CHAIRS, formatPrice, priceBand } from './chairs'
 
 // ─── HELPERS ───────────────────────────────────────────────────────────────────
 
@@ -55,7 +55,7 @@ function rollerSpec(chair: Chair): string {
 function mcfLine(i: number, chair: Chair): string {
   const parts: string[] = [
     `${i}. ${chair.name}`,
-    formatPrice(chair),
+    priceBand(chair).range,
     trackSpec(chair),
   ]
 

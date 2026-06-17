@@ -1,4 +1,4 @@
-import { CHAIRS, Chair } from './chairs'
+import { CHAIRS, Chair, priceBand } from './chairs'
 import { LOCAL_ARTICLES } from './local-articles'
 import { LOCAL_BRANDS } from './local-brands'
 
@@ -263,7 +263,7 @@ function chairToResult(c: Chair): SearchResult {
   return {
     type: 'chair',
     title: c.name,
-    subtitle: c.brand + ' · $' + (c.priceMin?.toLocaleString() ?? 'N/A'),
+    subtitle: c.brand + ' · ' + priceBand(c).range,
     href: '/chairs/' + c.id,
   }
 }
