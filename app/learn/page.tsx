@@ -129,6 +129,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-heart-conditions",
       "does-reflexology-work",
       "what-is-shiatsu-massage",
+      "does-trigger-point-massage-work",
+      "what-is-hot-stone-massage",
     ],
   },
 ]
