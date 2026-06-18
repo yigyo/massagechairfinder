@@ -7737,6 +7737,201 @@ The Ajimsha 2014 trial showed significant pain reduction at four weeks with thre
 <p>[4] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. https://pubmed.ncbi.nlm.nih.gov/19283590/</p>
 <p>[5] Supa'at I, et al. <em>Effects of Swedish Massage Therapy on Blood Pressure, Heart Rate, and Inflammatory Markers in Hypertensive Women.</em> Evidence-Based Complementary and Alternative Medicine. 2013. https://pmc.ncbi.nlm.nih.gov/articles/PMC3759268/</p>`,
   },
+  {
+    slug: "does-trigger-point-massage-work",
+    title: "Does Trigger Point Massage Work? The Technique, the Evidence, and What a Chair Can Reach",
+    excerpt: "Does trigger point massage work? Sustained focal pressure on muscle knots has real algometer-measured evidence, and it splits cleanly into what a massage chair can and cannot do.",
+    order: 89,
+    publishedAt: "2026-06-18",
+    body: `<p><strong>Yes, within a specific and measurable boundary. Sustained focal pressure on an active muscle knot raises that spot's pressure-pain threshold, meaning it tolerates more force before it hurts, and the change builds across repeated sessions rather than arriving all at once.</strong> Trigger point therapy is the most targeted of the common massage styles: instead of working a whole region, it finds the discrete hyperirritable knots in a taut muscle band and presses on them until they release. For a massage chair buyer, it is also the modality with the clearest split between what a chair can and cannot do. A chair reproduces the sustained pressure well. It cannot find the knot for you.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>The cleanest demonstration:</strong> In a randomized, placebo-controlled trial, 62 people with tension-type headache received twelve trigger-point-focused massage sessions. Pressure-pain threshold, measured objectively with an algometer, rose at all four treated muscle sites for the massage group but not for the sham or wait-list groups (Moraska et al., 2017)</p>
+<p><strong>The symptom that followed:</strong> The same research group's companion clinical trial found that trigger-point-focused head and neck massage reduced the frequency of tension-type headache attacks, tying the local tissue change to a symptom people actually feel (Moraska et al., 2015)</p>
+<p><strong>Why pressure helps:</strong> Tissue sampled directly inside active trigger points carries elevated pain and inflammation chemicals and a lower, more acidic pH than normal muscle. A trigger point is not just a tight spot; it is a locally disturbed chemical environment (Shah et al., 2008)</p>
+<p><strong>The field-wide ceiling:</strong> A 2024 evidence map of 129 systematic reviews in JAMA Network Open found no massage approach has earned high-certainty superiority for pain. Trigger point work sits inside that same low-to-moderate-certainty range (Crabtree et al., 2024)</p></div>
+<h2>What trigger point therapy actually is</h2>
+<p>A myofascial trigger point is a small, hyperirritable nodule inside a taut band of skeletal muscle. Pressing it produces local tenderness and frequently a referred pain pattern at a predictable distance, which is why a knot in the upper trapezius can present as a headache and a knot in the gluteal muscles can mimic sciatica. Trigger point therapy is the deliberate treatment of these nodules, usually through ischemic compression: the practitioner holds steady pressure directly on the point until the tissue softens and the tenderness drops.</p>
+<p>The defining feature is precision rather than coverage. Swedish massage flushes a whole limb; deep tissue works a broad slab of muscle; trigger point work narrows down to a single square centimeter and stays there. The skill is in the locating. A practitioner palpates along the muscle band, finds the nodule that reproduces the person's familiar pain, and treats that exact spot. The American Academy of Family Physicians, in its 2023 clinical summary, places massage and physical therapy among the first-line, less-invasive strategies and does not recommend trigger point injections as routine initial therapy, which puts manual pressure at the reasonable starting point [1].</p>
+<h2>How it differs from the techniques next to it</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Trigger point</th>
+<th>Swedish</th>
+<th>Deep tissue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Target</td>
+<td>A single nodule in a taut band</td>
+<td>A whole region or limb</td>
+<td>A broad slab of deeper muscle</td>
+</tr>
+<tr>
+<td>Motion</td>
+<td>Sustained pressure held on the spot</td>
+<td>Continuous flowing strokes</td>
+<td>Slow strokes through deeper layers</td>
+</tr>
+<tr>
+<td>Pressure</td>
+<td>Moderate to firm, focal</td>
+<td>Light to moderate</td>
+<td>Firm</td>
+</tr>
+<tr>
+<td>Chair analog</td>
+<td>Spot or fixed-point roller program</td>
+<td>Continuous rolling programs</td>
+<td>Higher-intensity 3D/4D roller depth</td>
+</tr>
+</tbody>
+</table>
+<p>For the full landscape of techniques and what each one is for, see our overview of <a href="/learn/massage-modalities-explained">massage modalities</a>.</p>
+<h2>Does trigger point massage work?</h2>
+<p>The cleanest single demonstration that the technique does something measurable is the 2017 randomized, placebo-controlled trial by Moraska and colleagues [2]. Sixty-two people with tension-type headache were randomized to twelve twice-weekly 45-minute sessions of trigger-point-focused massage, sham ultrasound, or a wait-list. The massage targeted ischemic compression of trigger points in the upper trapezius and suboccipital muscles. Pressure-pain threshold, measured with an algometer rather than self-report, increased at all four treated sites for the massage group alone. The same group's companion clinical trial found that this head and neck massage reduced the frequency of tension-type headache attacks, which connects the local tissue change to a real symptom [3].</p>
+<p>Two details carry straight into the buying conversation. First, the effect is dose-dependent: a single session moved the threshold, but the larger, more durable change accumulated across the twelve-session course. That is the same cumulative pattern that runs through the rest of the massage literature, and the same pattern that favors a daily-access tool. Second, the change is local and mechanical, which is what makes it portable to a machine.</p>
+<p>The mechanism has a biochemical layer. The 2008 in vivo microdialysis study by Shah and colleagues sampled the fluid directly inside active trigger points and found elevated pain and inflammation substances and a lower, more acidic pH than normal muscle [4]. Sustained pressure that increases local circulation and disrupts the contracted tissue gives a plausible route for that environment to normalize. None of this reaches the high-certainty bar. The 2024 JAMA Network Open evidence map found no massage approach with high-certainty superiority for pain, and trigger point work sits inside that same ceiling [5]. The accurate read is that focal compression reliably changes the local tissue and tends to reduce the associated pain, without being a guaranteed cure. For the broader question of whether a chair captures these effects at all, see <a href="/learn/do-massage-chairs-work">do massage chairs work</a>.</p>
+<h2>How a massage chair delivers this</h2>
+<p>Trigger point therapy splits cleanly along the line between applying pressure and finding where to apply it.</p>
+<h3>What it can fully replicate</h3>
+<p>A chair reproduces the sustained focal pressure itself. A <a href="/learn/4d-vs-3d-massage-chair-rollers">3D or 4D roller</a> can hold a fixed position and press inward with adjustable depth, and a spot or partial program lets the chair work a narrow zone of the back or neck repeatedly rather than gliding past it. That is a fair mechanical analog of ischemic compression on the muscles a roller can reach: the upper trapezius, the paraspinals, and the suboccipital region at the base of the skull, which happen to be among the most common trigger point sites and the exact muscles the Moraska trial treated [2]. The moderate-pressure requirement applies here too, since the 2009 Diego and Field comparison found that moderate pressure, not light, produces the physiological response [6]. Used daily on a chronically knotted upper back, a chair delivers the repeated focal input that the dose-response evidence rewards.</p>
+<h3>What it can only partially replicate</h3>
+<p>A chair partially reproduces coverage of trigger points in the airbag-served regions. Calf, foot, shoulder, and arm airbags apply broad compression that can ease tightness, but compression across a whole calf is not the same as pinpoint pressure on a single nodule in the gastrocnemius. For trigger points in muscles a roller cannot reach directly, the chair offers a generalized version of the relief rather than the targeted one. It addresses the neighborhood, not the specific address.</p>
+<h3>What it cannot replicate</h3>
+<p>A chair cannot palpate. The core skill of trigger point therapy is locating the specific nodule that reproduces a person's familiar pain, and that requires a trained hand reading the tissue in real time. A chair runs its rollers along a programmed path informed by a <a href="/learn/body-scanning">body scan</a> that maps general shoulder and spine position, not the location of an individual knot. It cannot follow a referred pain pattern back to its source, cannot adjust to the one trigger point that is the actual problem this week, and cannot treat knots in muscles outside roller range, such as the jaw, the deep hip rotators, or the forearms. The practical synthesis: a chair is a strong tool for maintaining the common, roller-accessible trigger points through daily focal pressure, and a poor tool for hunting a specific stubborn knot.</p>
+<h2>Who should care about this</h2>
+<p>The people this matters most for are those carrying chronic, roller-accessible tension: the knotted upper trapezius and suboccipital muscles behind many tension headaches, and the paraspinal tightness that builds up across a desk-bound week. If that is you, the specs that matter are 3D or 4D rollers with genuine depth, accurate body scanning, and a spot or fixed-point program with adjustable dwell. Our ranked picks for that profile are in <a href="/best/neck-shoulders">best massage chairs for neck and shoulders</a>. For the wider evidence on how this fits chronic muscular pain, see <a href="/learn/massage-and-pain">massage and pain</a>, and for the headache-specific research, <a href="/learn/massage-and-tension-headaches">massage and tension headaches</a>.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Does trigger point massage actually release the knot?</strong></summary>
+<p>Sustained pressure reliably raises the pressure-pain threshold at the treated spot, an objectively measured change, and tends to reduce the associated pain [2]. The larger effect builds across repeated sessions rather than from one [2].</p>
+</details>
+<details>
+<summary><strong>Is trigger point work supposed to hurt?</strong></summary>
+<p>It is moderate-to-firm focal pressure, often described as a satisfying ache, not sharp pain. The evidence is built on moderate pressure; pushing past your tolerance does not make it more effective [6].</p>
+</details>
+<details>
+<summary><strong>Can a massage chair do trigger point therapy?</strong></summary>
+<p>It can reproduce the sustained focal pressure on roller-reachable muscles through a spot program and 3D or 4D rollers [2]. What it cannot do is find the knot. A chair presses where it is programmed, not where the tissue says the problem is.</p>
+</details>
+<details>
+<summary><strong>Which muscles can a chair reach for this?</strong></summary>
+<p>Mainly the upper trapezius, the paraspinals along the spine, and the suboccipital region at the base of the skull, which are also among the most common trigger point sites. Knots in the jaw, deep hip rotators, and forearms are outside roller range.</p>
+</details>
+<details>
+<summary><strong>How often should I use a spot program?</strong></summary>
+<p>The evidence favors frequency over intensity, with benefits accumulating across a multi-session course [2]. Daily or near-daily moderate sessions on a chronically tight area are a sensible pattern, which is the practical advantage of having a chair at home.</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>If targeted pressure on stubborn upper-back and neck tension is what you want from a chair, the shortlist criteria are specific: 3D or 4D rollers with real depth, accurate body scanning, and a spot or fixed-point program with adjustable dwell time.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your tension pattern, body, and room in under three minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Hammi C, Yeung B. <em>Trigger Point Management.</em> American Family Physician / StatPearls clinical summary. 2023. <a href="https://www.aafp.org/pubs/afp/issues/2023/0200/trigger-point-management.html">Link</a></p>
+<p>[2] Moraska AF, Schmiege SJ, Mann JD, Butryn N, Krutsch JP. <em>Responsiveness of Myofascial Trigger Points to Single and Multiple Trigger Point Release Massages: A Randomized, Placebo Controlled Trial.</em> American Journal of Physical Medicine and Rehabilitation. 2017;96(9):639-645. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5561477/">Link</a></p>
+<p>[3] Moraska AF, Stenerson L, Butryn N, Krutsch JP, Schmiege SJ, Mann JD. <em>Myofascial trigger point-focused head and neck massage for recurrent tension-type headache: a randomized, placebo-controlled clinical trial.</em> Clinical Journal of Pain. 2015;31(2):159-168. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4286457/">Link</a></p>
+<p>[4] Shah JP, Danoff JV, Desai MJ, Parikh S, Nakamura LY, Phillips TM, Gerber LH. <em>Biochemicals associated with pain and inflammation are elevated in sites near to and remote from active myofascial trigger points.</em> Archives of Physical Medicine and Rehabilitation. 2008;89(1):16-23. <a href="https://pubmed.ncbi.nlm.nih.gov/18164325/">Link</a></p>
+<p>[5] Crabtree D, Ganesh M, Esparham A, et al. <em>Use of Massage Therapy for Pain, 2018-2023: A Systematic Review.</em> JAMA Network Open. 2024;7(7):e2422259. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11250267/">Link</a></p>
+<p>[6] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>`,
+  },
+  {
+    slug: "what-is-hot-stone-massage",
+    title: "What Is Hot Stone Massage? The Technique, the Evidence, and the Heat Button on Your Chair",
+    excerpt: "What is hot stone massage? Heated stones layered onto Swedish strokes. The standalone evidence is thin, but the two active ingredients, heat and massage, are exactly what a heated chair reproduces.",
+    order: 90,
+    publishedAt: "2026-06-18",
+    body: `<p><strong>Hot stone massage is conventional massage with a thermal layer added: smooth heated stones are placed on or glided across the body to warm the muscle before and during otherwise standard strokes.</strong> It is the modality with the widest gap between how popular it is and how much controlled evidence supports it as a distinct technique. The useful way to understand it is as two ingredients, applied heat and the massage strokes themselves, each with its own rationale. For a massage chair buyer, that breakdown is good news, because both ingredients are things a heated chair reproduces directly.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>The evidence gap, stated plainly:</strong> The first multicenter randomized controlled trial designed to test heat-stone massage as a standalone therapy for chronic musculoskeletal pain was only launched in 2023. The reason its authors gave: at design time, no massage therapy was recommended in any chronic musculoskeletal pain guideline for lack of controlled evidence (Shin et al., 2023)</p>
+<p><strong>Why the heat plausibly helps:</strong> Moderate-pressure massage produces a measurable parasympathetic nervous system response, and applied heat is a long-standing, low-risk comfort measure for muscular tightness. Hot stone combines the two (Diego and Field, 2009)</p>
+<p><strong>The field-wide ceiling:</strong> A 2024 evidence map of 129 systematic reviews in JAMA Network Open found no massage approach has earned high-certainty superiority for pain, and hot stone's specific evidence is thinner than most (Crabtree et al., 2024)</p></div>
+<h2>What hot stone massage actually is</h2>
+<p>Hot stone massage layers heat onto conventional massage. The therapist warms smooth stones, traditionally basalt because it holds heat well, to a comfortable temperature, then either rests them on key points of the body or holds them while performing gliding strokes. The intent is that the heat warms and loosens the muscle so the massage that follows meets less resistance and feels deeper at a lighter pressure. In practice, a hot stone session is usually a Swedish massage with a thermal layer added, not a separate technique with its own distinct strokes.</p>
+<p>That framing tells you where to look for evidence. There is no special biochemical pathway unique to stones. The plausible mechanisms are the well-understood effects of local heat, which include increased local blood flow, reduced muscle tone and guarding, and a general sensation of comfort, combined with the effects of moderate-pressure massage, which the broader literature ties to a parasympathetic shift when the pressure is firm enough to count [1]. The stones are a delivery method for heat, not a mechanism in their own right. For the heat side specifically, see our guide to <a href="/learn/heat-therapy">heat therapy</a>.</p>
+<h2>How it differs from the techniques next to it</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Hot stone</th>
+<th>Swedish</th>
+<th>Deep tissue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Defining feature</td>
+<td>Applied heat plus gliding strokes</td>
+<td>Continuous flowing strokes</td>
+<td>Slow strokes through deeper layers</td>
+</tr>
+<tr>
+<td>Pressure</td>
+<td>Light to moderate</td>
+<td>Light to moderate</td>
+<td>Firm</td>
+</tr>
+<tr>
+<td>Active ingredient</td>
+<td>Warmth that pre-loosens muscle</td>
+<td>The strokes themselves</td>
+<td>Sustained depth</td>
+</tr>
+<tr>
+<td>Chair analog</td>
+<td>Heated rollers with a relaxation program</td>
+<td>Continuous rolling programs</td>
+<td>Higher-intensity 3D/4D roller depth</td>
+</tr>
+</tbody>
+</table>
+<p>For the full landscape of techniques and what each one is for, see our overview of <a href="/learn/massage-modalities-explained">massage modalities</a>.</p>
+<h2>Does hot stone massage work?</h2>
+<p>The defining fact about hot stone massage is the absence of strong standalone trials. The 2023 protocol paper by Shin and colleagues describes what its authors frame as the first multicenter randomized controlled trial designed to test heat-stone massage as a standalone therapy for chronic musculoskeletal pain [2]. The trial plans to enroll 120 patients and compare two weeks of heat-stone massage against an anti-inflammatory plaster. The reason the authors give for running it is itself the headline: at the time of design, no massage therapy was recommended in any chronic musculoskeletal pain guideline because the controlled evidence was lacking. A protocol paper is a plan, not a result, so it cannot be cited for an outcome. What it documents is the accurate state of the field: hot stone massage is widely offered and pleasant, but not yet backed by the kind of randomized evidence that supports, for example, the post-exercise use of sports massage.</p>
+<p>Because hot stone is mechanistically a heat-plus-Swedish hybrid, the fair approach is to borrow the evidence for its parts rather than overclaim a unique effect. Applied heat is a long-standing, low-risk comfort measure for muscular tightness, and moderate-pressure massage has the autonomic and subjective-relaxation support documented across the wider literature [1]. The 2024 JAMA Network Open evidence map, which found no massage approach with high-certainty superiority for pain, is the appropriate ceiling: hot stone is not a breakthrough technique that outperforms other massage, and its specific evidence is thinner than most [3]. The reasonable position: hot stone feels good, the heat component has a sensible rationale for easing tight muscle, and no one should treat it as a cure for an underlying condition.</p>
+<h2>How a massage chair delivers this</h2>
+<p>Hot stone is, perhaps surprisingly, one of the easier sensory experiences for a chair to approximate, precisely because its active ingredients are heat and conventional strokes rather than anything that needs a human hand.</p>
+<h3>What it can fully replicate</h3>
+<p>A <a href="/learn/heated-massage-chairs">heated massage chair</a> reproduces the two ingredients of hot stone work fairly directly. Most mid-range and higher chairs include heating elements, usually in the lumbar region and sometimes in the seat, feet, or along the roller track, which deliver the same broad, comforting warmth the stones provide. Run alongside a Swedish-style relaxation program at moderate pressure, that warmth pre-loosens the muscle and pairs heat with gliding roller work, which is the core of what a hot stone session offers. Since the modality is essentially heat plus Swedish massage, and a chair does both at once on demand, it captures most of the genuine experience. The increased local blood flow that heat encourages is covered further in our guide to <a href="/learn/massage-and-circulation">massage and circulation</a>.</p>
+<h3>What it can only partially replicate</h3>
+<p>A chair partially reproduces the targeted, contoured placement of the stones. A therapist can rest a warm stone exactly on a tight spot between the shoulder blades and leave it there while working elsewhere, conforming the heat to the body's shape. A chair's heating elements warm fixed zones rather than following the individual contour of a given back, so the heat is regional rather than spot-placed. The warmth is there; the pinpoint, conforming placement is approximate.</p>
+<h3>What it cannot replicate</h3>
+<p>A chair cannot replicate the literal stones or the spa ritual around them, which for many people is part of the appeal, and it cannot vary heat with the fine control of a practitioner reading the body. More importantly, the same limit that applies to the modality applies to the chair: warmth and massage are comfort and relaxation measures, not treatments for an underlying disease, and a chair should be used that way. Heat also carries a specific safety boundary the stones share. People with reduced sensation, such as diabetic peripheral neuropathy, can be burned without feeling it, and anyone with impaired heat perception or circulatory disease should use chair heating conservatively and check with a clinician. Within those limits, hot stone is the rare modality where a chair delivers nearly the whole experience, because the whole experience was warmth and strokes to begin with.</p>
+<h2>Who should care about this</h2>
+<p>If the appeal of hot stone for you is the deep, melting warmth rather than the spa setting, a heated chair is a close match and gives you that sensation nightly without booking an appointment. The specs that matter are heating elements in the lumbar region at minimum, ideally extending to the seat and feet, paired with a gentle relaxation program. If you have neuropathy or a circulatory condition, prioritize a chair with adjustable, zone-controlled heat you can keep low.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Is hot stone massage backed by research?</strong></summary>
+<p>Not as a standalone technique. The first multicenter randomized controlled trial of heat-stone massage for chronic pain was launched in 2023 precisely because the controlled evidence was lacking [2]. Its two ingredients, heat and moderate-pressure massage, each have a reasonable basis [1].</p>
+</details>
+<details>
+<summary><strong>What does hot stone massage actually do?</strong></summary>
+<p>The heat warms and loosens muscle and encourages local blood flow, and the massage strokes carry whatever benefit Swedish-style work carries [1]. The stones are a way to deliver heat, not a separate mechanism.</p>
+</details>
+<details>
+<summary><strong>Can a massage chair reproduce hot stone massage?</strong></summary>
+<p>More fully than most modalities. A heated chair delivers warmth plus gliding roller work at the same time, which is the core of a hot stone session [1]. What it cannot do is place heat on one exact spot or recreate the spa ritual.</p>
+</details>
+<details>
+<summary><strong>Is hot stone massage safe?</strong></summary>
+<p>For most people, yes, but heat has a real boundary. Anyone with reduced skin sensation, such as from diabetic neuropathy, or with circulatory disease can be burned without feeling it and should keep heat low and check with a clinician.</p>
+</details>
+<details>
+<summary><strong>Hot stone or a regular heated program: is there a difference on a chair?</strong></summary>
+<p>Functionally they are close. A heated relaxation program is essentially the chair version of hot stone, since both come down to warmth layered onto moderate-pressure strokes.</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>If the warmth is what draws you to hot stone, the shortlist criteria are simple: solid heating elements, ideally multi-zone and adjustable, paired with a gentle relaxation program.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your preferences, body, and room in under three minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>
+<p>[2] Shin S, Kim SR, Kim JI, et al. <em>Heat-stone massage for patients with chronic musculoskeletal pain: a protocol for multicenter randomized controlled trial.</em> Frontiers in Medicine. 2023;10:1215858. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10466406/">Link</a></p>
+<p>[3] Crabtree D, Ganesh M, Esparham A, et al. <em>Use of Massage Therapy for Pain, 2018-2023: A Systematic Review.</em> JAMA Network Open. 2024;7(7):e2422259. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11250267/">Link</a></p>`,
+  },
 
 ]
 
