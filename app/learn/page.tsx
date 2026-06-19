@@ -134,6 +134,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "thai-massage-benefits",
       "swedish-massage-explained",
       "massage-and-cancer-fatigue",
+      "deep-tissue-massage-explained",
     ],
   },
 ]
