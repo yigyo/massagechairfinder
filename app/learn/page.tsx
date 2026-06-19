@@ -131,6 +131,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "what-is-shiatsu-massage",
       "does-trigger-point-massage-work",
       "what-is-hot-stone-massage",
+      "thai-massage-benefits",
+      "swedish-massage-explained",
     ],
   },
 ]
