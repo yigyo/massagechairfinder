@@ -4,6 +4,7 @@ import './globals.css'
 import NavigationWrapper from '@/components/NavigationWrapper'
 import Footer from '@/components/Footer'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
+import MetaPixel from '@/components/MetaPixel'
 import ScrollTracker from '@/components/ScrollTracker'
 import ExitIntentPopup from '@/components/ExitIntentPopup'
 import ChromeGate from '@/components/ChromeGate'
@@ -66,6 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Impact.com website verification (edit-content method): crawlable text kept in page source, visually hidden */}
         <p style={{ position: 'absolute', width: '1px', height: '1px', overflow: 'hidden', clip: 'rect(0,0,0,0)', whiteSpace: 'nowrap' }}>Impact-Site-Verification: f2d064d1-4f6f-44dc-957f-73d0cce73f3c</p>
         <GoogleAnalytics />
+        <MetaPixel />
         <ScrollTracker />
         <script
           type="application/ld+json"

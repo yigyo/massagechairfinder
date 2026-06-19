@@ -1,6 +1,7 @@
 "use client"
 import { useRef, useState } from "react"
 import TurnstileWidget, { TurnstileHandle } from "./TurnstileWidget"
+import { emailOptIn } from "@/lib/gtag"
 
 // Marks this email as captured in localStorage so the exit popup knows.
 function markSubscribed() {
@@ -40,6 +41,7 @@ export default function BuyersGuideForm({
       if (data.success) {
         setStatus("success")
         markSubscribed()
+        emailOptIn(source)  // GA4 email_opt_in + Meta Lead
       } else {
         setStatus("error")
         setErrorMsg("Something went wrong. Please try again.")

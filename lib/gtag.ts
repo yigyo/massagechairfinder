@@ -2,6 +2,8 @@
 // Typed GA4 utility. All event tracking in this project flows through here.
 // Set NEXT_PUBLIC_GA4_ID in .env.local (e.g. G-XXXXXXXXXX).
 
+import { fbqTrack, fbqTrackCustom } from './fbq'
+
 export const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || ''
 
 // ── Pageview ────────────────────────────────────────────────────────────────
@@ -47,6 +49,8 @@ export function affiliateClick(params: {
 // ── Finder events ─────────────────────────────────────────────────────────────
 export function finderStart(): void {
   event('finder_start')
+  // Meta funnel: top of finder
+  fbqTrackCustom('FinderStart')
 }
 
 export function finderEmailSubmit(chairCount: number): void {
@@ -55,11 +59,15 @@ export function finderEmailSubmit(chairCount: number): void {
 
 export function finderComplete(chairCount: number): void {
   event('finder_complete', { chair_count: chairCount })
+  // Meta funnel: recommendations generated
+  fbqTrackCustom('FinderComplete', { chair_count: chairCount })
 }
 
 // ── Lead magnet / email opt-in ────────────────────────────────────────────────
 export function emailOptIn(source: string): void {
   event('email_opt_in', { source })
+  // Meta standard conversion event used for ad optimization
+  fbqTrack('Lead', { source })
 }
 
 // ── Guide engagement ──────────────────────────────────────────────────────────
