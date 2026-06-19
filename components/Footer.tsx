@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-10 pt-8 border-t border-sand">
-          <SocialIcons />
+          <SocialIcons enabled={['facebook', 'pinterest', 'youtube', 'tiktok']} />
         </div>
         <div className="mt-10 pt-6 border-t border-teal text-xs text-warm-gray">
           <p>
