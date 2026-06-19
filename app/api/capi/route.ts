@@ -1,4 +1,3 @@
-"use server"
 // app/api/capi/route.ts
 // Meta Conversions API (server-side) endpoint. Receives a copy of browser pixel
 // events and forwards them to Meta server-to-server, deduplicated against the
