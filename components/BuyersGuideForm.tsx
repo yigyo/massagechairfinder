@@ -41,7 +41,7 @@ export default function BuyersGuideForm({
       if (data.success) {
         setStatus("success")
         markSubscribed()
-        emailOptIn(source)  // GA4 email_opt_in + Meta Lead
+        emailOptIn(source, email)  // GA4 email_opt_in + Meta Lead (pixel + CAPI)
       } else {
         setStatus("error")
         setErrorMsg("Something went wrong. Please try again.")

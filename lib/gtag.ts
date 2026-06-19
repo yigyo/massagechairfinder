@@ -64,10 +64,11 @@ export function finderComplete(chairCount: number): void {
 }
 
 // ── Lead magnet / email opt-in ────────────────────────────────────────────────
-export function emailOptIn(source: string): void {
+export function emailOptIn(source: string, email?: string): void {
   event('email_opt_in', { source })
-  // Meta standard conversion event used for ad optimization
-  fbqTrack('Lead', { source })
+  // Meta standard conversion event used for ad optimization (browser pixel + CAPI, deduped).
+  // Email (when available) is forwarded to the server route, hashed there, for better matching.
+  fbqTrack('Lead', { source }, email ? { email } : undefined)
 }
 
 // ── Guide engagement ──────────────────────────────────────────────────────────

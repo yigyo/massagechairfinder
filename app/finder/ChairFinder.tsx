@@ -472,7 +472,7 @@ export default function ChairFinder() {
     if (!email || emailSending) return
     setEmailSending(true)
     finderEmailSubmit(chairs.length)
-    emailOptIn('finder')
+    emailOptIn('finder', email)
     try {
       await fetch('/api/send-results', {
         method: 'POST',
