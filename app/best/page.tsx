@@ -26,6 +26,12 @@ const categories = [
     { label: 'Office Workers', slug: 'office-workers', desc: 'SL-track chairs for neck, upper back, and posture relief from desk work. Entry-level to premium.' },
 ]
 
+const commercialCategories = [
+  { label: "Senior Living Facilities", slug: "senior-living-facilities", desc: "High weight capacity, one-touch controls, and easy entry for shared resident use." },
+  { label: "Gyms and Wellness Centers", slug: "gyms-wellness-centers", desc: "4D recovery rollers and durable builds for high-traffic recovery studios." },
+  { label: "Hotels and Hospitality", slug: "hotels-hospitality", desc: "Simple guest operation, a clean look, and a small footprint for lobbies and spas." },
+]
+
 export default function BestPage() {
   return (
     <div className="section">
@@ -42,6 +48,23 @@ export default function BestPage() {
             <p className="text-warm-gray text-sm">{cat.desc}</p>
           </Link>
         ))}
+      </div>
+
+      <div className="mt-14">
+        <h2 className="text-2xl font-serif mb-2">For facilities and businesses</h2>
+        <p className="text-warm-gray mb-6 max-w-2xl">
+          Buying for a shared space is a different problem than buying for home. Weight capacity, simple controls, durability under heavy use, and warranty terms that cover commercial placement come first.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {commercialCategories.map((cat) => (
+            <Link key={cat.slug} href={`/best/${cat.slug}`} className="card hover:shadow-md transition-shadow group">
+              <h3 className="text-lg font-serif font-semibold text-navy group-hover:text-gold transition-colors mb-2">
+                {cat.label}
+              </h3>
+              <p className="text-warm-gray text-sm">{cat.desc}</p>
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   )

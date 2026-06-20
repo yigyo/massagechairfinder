@@ -127,7 +127,10 @@ export default function BestSeniorLivingFacilitiesPage() {
         <Link href="/best/seniors" className="text-bronze hover:text-gold transition-colors">best massage chairs for seniors</Link>{" "}
         page, which is organized around the individual buyer. If the goal is to generate revenue rather than offer an amenity, the{" "}
         <Link href="/learn/massage-chair-vending-business" className="text-bronze hover:text-gold transition-colors">massage chair vending business guide</Link>{" "}
-        covers the pay-per-use model instead.
+        covers the pay-per-use model instead. Outfitting a different kind of facility? See the picks for{" "}
+        <Link href="/best/gyms-wellness-centers" className="text-bronze hover:text-gold transition-colors">gyms and wellness centers</Link>{" "}
+        and{" "}
+        <Link href="/best/hotels-hospitality" className="text-bronze hover:text-gold transition-colors">hotels and hospitality</Link>.
       </p>
 
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
