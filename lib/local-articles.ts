@@ -3987,7 +3987,7 @@ C-tactile afferents fire maximally to slow stroking in the <strong>1 to 10 cm pe
 <p>For more on why pressure intensity is the most common reason chairs get returned, see <a href="/learn/why-massage-chairs-get-returned">why massage chairs get returned</a>.</p>
 <h3>What the chair does not deliver</h3>
 <p>A chair does not palpate a specific trigger point the way a therapist's elbow can. A chair does not replace active recovery (10 to 15 minutes of light cycling clears blood lactate in a way passive recovery does not). A chair does not treat an acute injury. For uncomplicated post-training soreness in healthy adults, these gaps are not consequential. For complex orthopedic or competitive-athlete situations, the chair is one part of a broader recovery program, not a replacement for clinical care.</p>
-<h2>Common questions</h2>
+<h2>Frequently asked questions</h2>
 <details>
 <summary><strong>Q: Should I use my massage chair before or after working out?</strong></summary>
 <p>After, within the 2-hour post-exercise window where the Guo 2017 meta-analysis found the strongest effect. Pre-workout chair sessions can produce a parasympathetic state that is not ideal for the sympathetic activation training requires.</p>
@@ -4994,7 +4994,7 @@ Reduce roller intensity, especially over the thoracic spine. Avoid percussion an
 <p><strong>Heat is supportive.</strong> Heat increases tissue extensibility and produces local parasympathetic effects, but it is not the primary mechanism. Use it as an adjunct to support the massage input, not as the headline feature of your chair selection.</p>
 <h2>Typical usage pattern</h2>
 <p>A common pattern is two short sessions per day at low intensity. The morning session (fifteen minutes after waking) takes the edge off morning stiffness and supports getting through the day. The evening session (twenty to twenty-five minutes after dinner) leverages the parasympathetic shift to support sleep onset. On flare days, reduce intensity or shorten the session. On stable days, sessions can extend or intensity can increase modestly. The principle is consistency over peak intensity; the cumulative dose is what the central nervous system responds to.</p>
-<h2>Common questions</h2>
+<h2>Frequently asked questions</h2>
 <details>
 <summary><strong>Will a massage chair trigger a flare?</strong></summary>
 <p>It can if pressure is wrong. The Yuan 2015 review found firmer Swedish-style work less effective than myofascial release for fibromyalgia, and clinical experience shows fibromyalgia patients have lower pressure tolerance than the general population. Start at the lowest intensity setting your chair offers, use the shortest available session, and increase only if the next-day response is neutral or positive. Most chair returns in this population happen because pressure was misjudged on day one.</p>
@@ -5122,7 +5122,7 @@ Reduce roller intensity, especially over the thoracic spine. Avoid percussion an
 <p><strong>Heat is genuinely useful for osteoarthritis.</strong> It increases tissue extensibility, supports the morning-stiffness reduction outcome documented in the trials, and works synergistically with the pain-gating mechanism. Heat is one of the more useful chair add-ons for this condition.</p>
 <h2>Typical daily usage</h2>
 <p>The pattern for knee or hip osteoarthritis is usually one fifteen-to-twenty-minute session in the morning to address overnight stiffness, and one shorter session in the evening to release accumulated guarding from the day. Heat runs during both sessions. On high-pain days, intensity stays moderate and session length stays brief; pushing through with longer or firmer sessions tends to worsen the next day. The principle inherited from the evidence is consistency at moderate dose, not heroic single sessions.</p>
-<h2>Common questions</h2>
+<h2>Frequently asked questions</h2>
 <details>
 <summary><strong>Can massage reverse arthritis or rebuild cartilage?</strong></summary>
 <p>No. The Wu 2022 meta-analysis showed no long-term effect beyond the dosing window, which is the empirical signal that the underlying joint pathology is not being changed. What massage does is reduce muscle guarding, autonomic arousal, and pain perception that translate joint disease into functional disability.</p>
