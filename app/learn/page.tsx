@@ -137,6 +137,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "deep-tissue-massage-explained",
       "massage-and-lower-back-pain",
       "massage-and-deep-sleep",
+      "massage-and-parasympathetic-nervous-system",
+      "massage-and-falling-asleep",
     ],
   },
 ]
