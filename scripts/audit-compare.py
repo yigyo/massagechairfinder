@@ -18,7 +18,7 @@ import re
 
 COMPARE_DIR = "app/compare"
 
-STUB_SLUGS = {"inada-dreamwave-vs-jpmedics-kumo-4d", "synca-jp970-vs-kahuna-lm-6800", "osaki-os-pro-admiral-ii-vs-kahuna-lm-6800s"}
+STUB_SLUGS = {"inada-dreamwave-vs-jpmedics-kumo-4d", "synca-jp970-vs-kahuna-lm-6800", "osaki-os-pro-admiral-ii-vs-kahuna-lm-6800s", "bodyfriend-phantom-ii-vs-bodyfriend-falcon-xd"}
 
 REQUIRED_PATTERNS = {
     "Specs Compared heading":   r"Specs Compared",

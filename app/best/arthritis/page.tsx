@@ -12,7 +12,7 @@ const PICK_IDS = [
   "kahuna-hm-078",
   "rockertech-bliss",
   "kyota-yugana-m780",
-  "bodyfriend-phantom-ii",
+  "ogawa-og8901",
   "osaki-os-pro-maestro-le",
 ]
 
@@ -38,9 +38,9 @@ const EDITORIAL: Record<string, Editorial> = {
     label: "Best mid-to-high pick for petite and older buyers",
     why: "The Kyota Yugana M780 4D is the most accommodating L-track chair at its price point for the body types most common among older arthritic buyers. It fits buyers from 4 feet 8 inches, unusually low for an L-track 4D chair, and requires only 2 inches of wall clearance. At 300 lbs capacity with a wider-than-average seat, it comfortably accommodates a broad range of body types. The L-track covers the hips and glutes, where osteoarthritis is most prevalent in this demographic. In the $5,000-$7,999 band, it is a long-term investment in daily relief that is well-suited for consistent use over years.",
   },
-  "bodyfriend-phantom-ii": {
+  "ogawa-og8901": {
     label: "Best for heavier arthritic buyers",
-    why: "The Bodyfriend Phantom II is the strongest choice for arthritic buyers who also need a higher weight capacity. At 335 lbs with verified plus-size fit, it handles larger buyers with the same full-featured SL-track 4D experience as narrower chairs in its class. Bodyfriend's roller tuning tends toward a softer default pressure profile at this tier, meaningful for buyers whose joint sensitivity makes them uncomfortable in chairs with a harsher default feel. Heat and zero gravity are both included. For buyers above 265 lbs who want a high-end SL-track option without sacrificing features, the Phantom II is the strongest fit.",
+    why: "The Ogawa Master Drive DUO LE is the strongest choice for arthritic buyers who also need a higher weight capacity. At 320 lbs with a confirmed plus-size fit, it accommodates larger buyers without giving up the full-featured SL-track 4D experience. The 53-inch SL-track covers the neck through the glutes in one pass, which helps buyers whose arthritis spans both the cervical spine and the hips. The 4D roller lets pressure depth be dialed back on days when joint sensitivity is higher, and lumbar heat with zero gravity reduces the load on inflamed joints during a session. Near-zero wall clearance at 1 inch keeps it practical for smaller rooms. For arthritic buyers above 265 lbs who want a high-end SL-track option, this is the strongest fit.",
   },
   "osaki-os-pro-maestro-le": {
     label: "Best full-body arthritis coverage",

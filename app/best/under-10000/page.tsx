@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const PICK_IDS = [
   "kyota-yugana-m780",
   "kahuna-dios-7300",
-  "bodyfriend-phantom-ii",
+  "ogawa-og8901",
   "osaki-os-pro-maestro-le",
   "positive-posture-brio-plus",
   "infinity-genesis-max",
@@ -30,9 +30,9 @@ const EDITORIAL: Record<string, Editorial> = {
     label: "Best SL-track with advanced roller at this tier",
     why: "The Kahuna Dios-7300 is the standout value for buyers who want more than standard 4D performance without crossing into the next tier up. The 7D roller system adds lateral movement patterns to the standard 4D depth and rhythm, producing a massage that feels noticeably more varied and comprehensive than a conventional 4D chair. SL-track coverage from neck through glutes, combined with heat, zero gravity, body scanning, calf and foot work, puts it among the most fully-featured chairs in the $5,000-$7,999 band. For buyers who want maximum feature density at this price point, the Dios-7300 is the strongest option.",
   },
-  "bodyfriend-phantom-ii": {
+  "ogawa-og8901": {
     label: "Best for heavier buyers at this tier",
-    why: "In the $8,000-$11,999 band with a 335 lb verified plus-size weight capacity, the Bodyfriend Phantom II is the right answer for buyers in this price tier who are above 265 lbs. Bodyfriend's Korean-manufactured SL-track 4D system is tuned toward a softer default pressure profile than many competitors at this price, which benefits buyers who have found other chairs in this band too aggressive. Heat and zero gravity are included. For buyers who need a high-end SL-track chair and confirmed plus-size fit, there is no better option in this tier.",
+    why: "In the $8,000-$11,999 band with a 320 lb confirmed plus-size capacity, the Ogawa Master Drive DUO LE is the right answer for buyers in this tier who are above 265 lbs. The 53-inch SL-track 4D system covers the full spine from neck through glutes, and the 4D roller lets pressure depth be tuned to preference. Zero gravity, lumbar heat, and foot rollers are included, and near-zero wall clearance at 1 inch opens it to buyers in tighter rooms. For buyers who need a high-end SL-track chair with confirmed plus-size fit while staying under $10,000, this is the strongest option in this tier.",
   },
   "osaki-os-pro-maestro-le": {
     label: "Best full-body SL-track at this tier",

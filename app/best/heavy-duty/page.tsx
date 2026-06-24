@@ -11,7 +11,7 @@ const PICK_IDS = [
   'kyota-genki-m380',
   'inner-balance-jin-2',
   'kyota-yugana-m780',
-  'bodyfriend-phantom-ii',
+  'osaki-os-pro-4d-duomax',
   'kanji-4d-shogun-duo',
   'jpmedics-kumo-4d',
   'luraco-i9-max-plus',
@@ -37,9 +37,9 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best mid-premium heavy-duty',
     why: "The Yugana M780 4D is confirmed at 300 lbs with a Plus Size Confirmed designation. L-track with 4D rollers, space-saving 2-inch wall clearance, TrueFit body scanning, heat, and a 49-inch track. Confirmed 4'8\" to 6'2\". In the $5,000-$7,999 band, it fills the upper-mid gap between the Genki M380 and the premium-tier options below. For buyers who need verified Plus Size capacity alongside 4D roller depth and a space-saving footprint, this is the pick.",
   },
-  'bodyfriend-phantom-ii': {
-    label: 'Highest weight capacity in the catalog',
-    why: 'The Phantom II has the highest confirmed weight capacity in the catalog at 335 lbs, with a Plus Size Confirmed designation from the retailer. SL-track, 4D rollers, heat. Height compatibility data is not confirmed from the retailer spec page. Buyers who need both high weight capacity and confirmed height fit should verify directly with the retailer before purchasing.',
+  'osaki-os-pro-4d-duomax': {
+    label: 'Best premium SL-track for plus-size buyers',
+    why: 'The Osaki OS-Pro 4D DuoMax is confirmed at 330 lbs with a Plus Size Confirmed designation. Its dual 4D and 3D roller mechanism covers the full spine from the neck through the glutes, and AI body scanning adjusts the roller path per session, which helps heavier buyers whose shoulder and spine position shifts with body type. Heat, calf and foot massage, and two-stage zero gravity are all included. Space-saving recline needs 5.5 inches of wall clearance. In the $12,000 and up band, for buyers over 300 lbs who want SL-track 4D depth with the broadest feature set, this is the premium pick.',
   },
   'jpmedics-kumo-4d': {
     label: 'Best premium L-track for heavy-duty',

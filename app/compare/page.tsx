@@ -57,13 +57,6 @@ const COMPARISONS = [
     summary: 'Same price, same L-track 4D. The Bliss adds Zero Wall Fit space-saving and reflexology foot rollers. The MB6 Plus adds stretch programs and a confirmed 300 lb capacity.',
   },
   {
-    slug: 'bodyfriend-phantom-ii-vs-bodyfriend-falcon-xd',
-    chairA: 'Bodyfriend Phantom II',
-    chairB: 'Bodyfriend Falcon XD 4D',
-    tier: '$8,000-$11,999',
-    summary: 'Same brand, same price, both SL-track 4D. The Phantom II supports 335 lbs with verified plus-size fit. The Falcon XD adds stretch programs for buyers under 265 lbs.',
-  },
-  {
     slug: 'infinity-evo-max-vs-jpmedics-kumo-4d',
     chairA: 'Infinity Evo Max 4D',
     chairB: 'JPMedics Kumo 4D',

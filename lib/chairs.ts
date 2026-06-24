@@ -544,7 +544,7 @@ export const CHAIRS: Chair[] = [
     name: 'Luraco i9 Max Plus',
     brand: 'Luraco',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 13490,  // massagechairwarehouse.com verified live 2026-06-01 (Standard Edition base price)
+    priceMin: 11990,  // massagechairwarehouse.com verified live 2026-06-01 (Standard Edition base price)
     affiliateTier: null,
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateCommission: '10%, 30-day cookie',
@@ -906,7 +906,7 @@ export const CHAIRS: Chair[] = [
   {    id: 'bodyfriend-phantom-medical',
     name: 'Bodyfriend Phantom Medical Care 4D SL',
     brand: 'Bodyfriend',
-    active: true, goodwinActive: true, mcfActive: false,  // OOS 2026-05-01; recovathlete.com not on approved retailer list
+    active: false, goodwinActive: false, mcfActive: false,  // OOS 2026-05-01; recovathlete.com not on approved retailer list
     priceMin: 11000,
     affiliateTier: null,
     affiliateRetailer: 'recovathlete.com',
@@ -926,7 +926,7 @@ export const CHAIRS: Chair[] = [
     id: 'bodyfriend-phantom-ii',
     name: 'Bodyfriend Phantom II',
     brand: 'Bodyfriend',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,
     priceMin: 8100,
     affiliateTier: null,
     affiliateRetailer: 'recovathlete.com',
@@ -946,7 +946,7 @@ export const CHAIRS: Chair[] = [
   {    id: 'bodyfriend-palace-ii',
     name: 'Bodyfriend Palace II',
     brand: 'Bodyfriend',
-    active: true, goodwinActive: true, mcfActive: false,  // OOS 2026-05-01; recovathlete.com not on approved retailer list
+    active: false, goodwinActive: false, mcfActive: false,  // OOS 2026-05-01; recovathlete.com not on approved retailer list
     priceMin: 8099,
     affiliateTier: null,
     affiliateRetailer: 'recovathlete.com',
@@ -967,7 +967,7 @@ export const CHAIRS: Chair[] = [
     id: 'bodyfriend-falcon-xd',
     name: 'Bodyfriend Falcon XD 4D',
     brand: 'Bodyfriend',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,
   reviewRating: 4.7,
   reviewCount: 31,
     priceMin: 8499,
@@ -2171,7 +2171,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black?ref=gxoncaks',
-    amazonAsin: 'B07FYRRZGR',  // listing unavailable or version mismatch 2026-06-07; do not set amazonUrl until audit verifies
+    amazonUrl: 'https://www.amazon.com/dp/B07FYRRZGR/?tag=massagechairf-20',  // verified live 2026-06-22 (purchasable via See All Buying Options)
+    amazonAsin: 'B07FYRRZGR',
     imageUrl: '/images/chairs/relax-on-chair-mk-v-plus.jpg',
     track: 'L', roller: null,
     spaceSaving: true, wallClearanceIn: 3.5,
@@ -2641,7 +2642,7 @@ export const CHAIRS: Chair[] = [
     name: 'Svago Newton',
     brand: 'Svago',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 3499,
+    priceMin: 3199,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'massagechairwarehouse.com',
@@ -2942,7 +2943,7 @@ export const CHAIRS: Chair[] = [
     name: 'HealthRelife 4D 20-Mode',
     brand: 'HealthRelife',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 2399,  // amazon.com observed 2026-06-07
+    priceMin: 2699,  // amazon.com observed 2026-06-07
     affiliateTier: null,
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
