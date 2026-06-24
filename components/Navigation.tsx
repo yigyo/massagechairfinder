@@ -39,7 +39,6 @@ function footerColSpan(label: string): string {
 const BY_BRAND_CHILDREN: NavChild[] = [
   { label: 'Ador',               href: '/brands/ador' },
   { label: 'AmaMedics',          href: '/brands/amamedics' },
-  { label: 'Bodyfriend',         href: '/brands/bodyfriend' },
   { label: 'Ceragem',            href: '/brands/ceragem' },
   { label: 'Daiwa',              href: '/brands/daiwa' },
   { label: 'DCORE',              href: '/brands/dcore' },

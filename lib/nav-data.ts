@@ -32,7 +32,6 @@ export const BEST_LABELS: Record<string, string> = {
 
 export const COMPARE_LABELS: Record<string, string> = {
   'amamedics-hilux-4d-vs-titan-pro-vigor-4d':          'AmaMedics Hilux 4D vs Titan Pro Vigor 4D',
-  'bodyfriend-phantom-ii-vs-bodyfriend-falcon-xd':      'Bodyfriend Phantom II vs Bodyfriend Falcon XD',
   'daiwa-relax-2-zero-3d-vs-synca-jp3000':             'Daiwa Relax 2 Zero 3D vs Synca JP3000',
   'infinity-dynasty-4d-vs-infinity-genesis-max-4d':    'Infinity Dynasty 4D vs Infinity Genesis Max 4D',
   'infinity-evo-max-vs-jpmedics-kumo-4d':              'Infinity Evo Max vs JPMedics Kumo 4D',

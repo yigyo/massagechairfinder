@@ -221,7 +221,7 @@ export default function BestArthritisPage() {
           Start with where your arthritis is located. Hip and sacroiliac joint pain requires L-track or SL-track coverage. The Medical Breakthrough 6 ($3,000-$4,999) is the entry L-track pick; the Kyota Yugana M780 ($5,000-$7,999) is the premium L-track for petite and older buyers. For full-spine plus glute coverage, any SL-track pick on this list works.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          If weight capacity matters, the Bodyfriend Phantom II (335 lbs) and Kahuna HM-078 (350 lbs) cover the highest range. If room size is a constraint, the Kahuna HM-078 and RockerTech Bliss both offer space-saving recline.
+          If weight capacity matters, the Kahuna HM-078 (350 lbs) and Ogawa Master Drive DUO LE (320 lbs) cover the highest range. If room size is a constraint, the Kahuna HM-078 and RockerTech Bliss both offer space-saving recline.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{" "}

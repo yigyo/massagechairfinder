@@ -122,22 +122,6 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     ],
   },
 
-  {
-    slug: "bodyfriend",
-    name: "Bodyfriend",
-    tagline: "Korean luxury massage chairs emphasizing clean aesthetics and 4D SL-track technology, with two active US models in the premium tier.",
-    priceRange: "$8,000-$11,999",
-    origin: "South Korea",
-    warrantyNote: "Confirm per model before purchase.",
-    bestFor: "Buyers in the $8,000-$11,999 band who want Korean engineering with a premium aesthetic. The Phantom II is the lower-priced of the two; the Falcon XD adds stretch programs.",
-    seoTitle: "Bodyfriend Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "Bodyfriend is a Korean luxury massage chair brand with premium 4D SL-track technology. Here is what to expect and who their chairs are right for.",
-    description: [
-      "<p>Bodyfriend is South Korea's largest massage chair brand and has a significant presence in the US premium market. Their active US chairs, the Phantom II and the Falcon XD (both $8,000-$11,999), reflect a design philosophy that emphasizes appearance as much as function. Bodyfriend chairs look different from most massage chairs: cleaner lines, more considered material choices, and less visible mechanical structure. For buyers who have ruled out other chairs partly because they could not imagine them in a living room or bedroom, Bodyfriend's aesthetic is a genuine differentiator.</p>",
-      "<p>The two active US models are the Phantom II and the Falcon XD, both in the $8,000-$11,999 band. Both use 4D roller technology and SL-track coverage. The Falcon XD is the pricier of the two and adds stretch programs over the Phantom II. For buyers choosing between them, the modest gap is primarily a question of whether the extended stretch program fits your use case.</p>",
-      "<p>Bodyfriend's US distribution is more limited than Osaki or Infinity, which can affect service response time if a warranty issue arises. That is worth weighing against the premium price. For buyers who are specifically prioritizing Korean engineering and premium aesthetics at this price tier, Bodyfriend is the strongest option available. For buyers who are prioritizing warranty coverage and service infrastructure above all else, Luraco remains the more defensible choice.</p>",
-    ],
-  },
 
   {
     slug: "ogawa",

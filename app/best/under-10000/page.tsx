@@ -226,7 +226,7 @@ export default function BestUnder10kPage() {
           Track type is the primary split. For lower back pain that radiates into the hips and glutes, choose an L-track: the Kyota Yugana M780 ($5,000-$7,999), Positive Posture Brio Plus ($5,000-$7,999), or Infinity Genesis Max ($8,000-$11,999). For pain that spans the full back including neck and shoulders, choose SL-track: the Kahuna Dios-7300 ($5,000-$7,999) or Osaki Maestro LE ($8,000-$11,999).
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          For buyers above 265 lbs, the Bodyfriend Phantom II is the confirmed 335-lb option in this tier. For buyers in tight rooms, the Kyota Yugana and Infinity Genesis Max both require only 2 inches of wall clearance.
+          For buyers above 265 lbs, the Ogawa Master Drive DUO LE is the confirmed 320-lb plus-size option in this tier. For buyers in tight rooms, the Kyota Yugana and Infinity Genesis Max both require only 2 inches of wall clearance.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{" "}

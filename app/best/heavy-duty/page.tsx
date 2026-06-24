@@ -243,7 +243,7 @@ export default function BestHeavyDutyPage() {
           For buyers at or below 330 lbs who want the most affordable confirmed option, the Kyota Genki M380 (Under $3,000) is the pick. For buyers who want 4D roller quality alongside high capacity and a space-saving footprint, the Yugana M780 ($5,000-$7,999) is the upper-mid step up.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          The Phantom II has the highest capacity (335 lbs) but lacks confirmed height data. If weight is the primary concern and height fit is secondary, it is the pick. If you need both confirmed, the Yugana M780 (4&apos;8&quot; to 6&apos;2&quot;, 300 lbs) or Luraco (4&apos;11&quot; to 6&apos;10&quot;, 300 lbs) are better-documented options.
+          The Kahuna HM-078 has the highest capacity on this list at 350 lbs, confirmed up to 6&apos;2&quot;. For buyers who need both high capacity and confirmed height data, the Yugana M780 (4&apos;8&quot; to 6&apos;2&quot;, 300 lbs) or Luraco (4&apos;11&quot; to 6&apos;10&quot;, 300 lbs) are the best-documented options.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}
