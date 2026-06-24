@@ -350,8 +350,6 @@ Synca: Japanese-made. JP970 and JP1100 are well-regarded. Limited spec documenta
 
 Daiwa: Known for long L-tracks and tall-buyer accommodation. Legacy 4 reaches to 6'6".
 
-Bodyfriend: Korean brand. Unique features including PEMF technology on the Phantom Medical. Good quality, less established US distribution.
-
 Panasonic: Long history. AI-powered scanning on newer models. US warranty and support.
 
 Ogawa: Strong L-track lineup. Master Drive AI features body-scanning technology.

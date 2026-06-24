@@ -2924,7 +2924,7 @@ export const CHAIRS: Chair[] = [
     name: 'MYTHIA A303C 4D',
     brand: 'MYTHIA',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1399,  // amazon.com observed 2026-06-07
+    priceMin: 1799,  // amazon.com observed 2026-06-07
     affiliateTier: null,
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',

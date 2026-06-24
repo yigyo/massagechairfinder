@@ -76,7 +76,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>The reason SL-track chairs are not the automatic recommendation for everyone comes down to two factors: price and upper-back precision. SL-track chairs tend to cost more than comparable S-track or L-track chairs because the extended mechanism requires a longer frame and more complex engineering. And for buyers whose pain is exclusively in the neck and upper back, the additional length adds cost without adding benefit.</p>
 
-<p>SL-track chairs in our catalog include the <strong>Osaki OS-Pro Admiral II</strong> (49-inch track), the <strong>Ogawa Master Drive LE 4D</strong>, the <strong>Ogawa Master Drive AI 2.0 4D</strong>, the <strong>Bodyfriend Phantom Medical Care 4D SL</strong>, and the <strong>Ogawa Active XL 3D</strong>. The Admiral II is one of the most-recommended chairs in this category for buyers who want SL-track coverage in the mid price tier.</p>
+<p>SL-track chairs in our catalog include the <strong>Osaki OS-Pro Admiral II</strong> (49-inch track), the <strong>Ogawa Master Drive LE 4D</strong>, the <strong>Ogawa Master Drive AI 2.0 4D</strong>, and the <strong>Ogawa Active XL 3D</strong>. The Admiral II is one of the most-recommended chairs in this category for buyers who want SL-track coverage in the mid price tier.</p>
 
 <h2>Flex-track: the hybrid approach</h2>
 
@@ -604,9 +604,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Kyota</strong> sits in the entry tier with the Genki M380. It is a reasonable option in its price tier but does not have the track record or parts availability of Kahuna at a similar price point.</p>
 
-<h2>Premium design-forward brands: Bodyfriend, Ogawa, Daiwa</h2>
-
-<p><strong>Bodyfriend</strong> is a South Korean brand with a strong medical device positioning. Several of their chairs have FDA 510(k) clearance as medical devices, which is unusual in the category. The Phantom Medical Care 4D SL ($8,000-$11,999) and the Phantom II ($8,000-$11,999) are serious chairs targeted at buyers who want clinical credibility alongside luxury design. Bodyfriend is one of the few brands where the chair functions as a design statement as well as a therapeutic tool.</p>
+<h2>Premium design-forward brands: Ogawa and Daiwa</h2>
 
 <p><strong>Ogawa</strong> is a Malaysian brand with strong engineering and a premium design sensibility. The Master Drive LE 4D and Master Drive AI 2.0 4D sit in the upper-mid through premium tiers and are consistently well-reviewed for massage quality. Both offer the two-stage zero gravity configuration that is worth looking for in this price tier.</p>
 
@@ -1010,9 +1008,9 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h2>Which chairs use 4D roller systems</h2>
 
-<p>4D roller chairs currently in our catalog include the <strong>Ogawa Master Drive LE 4D</strong>, the <strong>Ogawa Master Drive AI 2.0 4D</strong>, the <strong>AmaMedics Hilux 4D</strong>, the <strong>Infinity Dynasty 4D</strong>, the <strong>Infinity Evo Max 4D</strong>, the <strong>Infinity Genesis Max 4D</strong>, and the <strong>Bodyfriend Phantom Medical Care 4D SL</strong>.</p>
+<p>4D roller chairs currently in our catalog include the <strong>Ogawa Master Drive LE 4D</strong>, the <strong>Ogawa Master Drive AI 2.0 4D</strong>, the <strong>AmaMedics Hilux 4D</strong>, the <strong>Infinity Dynasty 4D</strong>, the <strong>Infinity Evo Max 4D</strong>, and the <strong>Infinity Genesis Max 4D</strong>.</p>
 
-<p>These chairs are spread across multiple track types. The Ogawa Master Drive LE and AmaMedics Hilux use SL-track with 4D rollers. The Infinity Dynasty 4D and Evo Max 4D use L-track. The Bodyfriend Phantom uses an SL-track configuration. Track type is a separate and often more consequential decision than roller dimension for buyers with specific pain locations. If you are choosing between an SL-track 3D chair and an L-track 4D chair, track coverage should be the deciding variable, not roller type. The <a href="/learn/track-types">track types guide</a> explains this in full.</p>
+<p>These chairs are spread across multiple track types. The Ogawa Master Drive LE and AmaMedics Hilux use SL-track with 4D rollers. The Infinity Dynasty 4D and Evo Max 4D use L-track. Track type is a separate and often more consequential decision than roller dimension for buyers with specific pain locations. If you are choosing between an SL-track 3D chair and an L-track 4D chair, track coverage should be the deciding variable, not roller type. The <a href="/learn/track-types">track types guide</a> explains this in full.</p>
 
 <p>Price-wise, 4D chairs in the current catalog span the mid through premium tiers depending on track type, brand, and additional features like zero gravity, heated rollers, and extended warranty terms. The 4D premium over a comparable 3D chair in the same product line is typically several hundred to over a thousand dollars.</p>
 
@@ -1261,7 +1259,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Mid to upper-mid tier: meaningful step up in roller quality (3D and 4D), better airbag coverage, body scanning, improved warranty terms. Chairs like the AmaMedics Hilux 4D and Infinity Dynasty 4D. This is the range where daily serious use becomes a realistic expectation.</p>
 
-<p>Premium and ultra-premium tiers: Japanese-manufactured chairs, US-assembled options like Luraco, and top-tier Chinese-manufactured models from Ogawa and Bodyfriend. Built for a decade of daily use with strong parts availability.</p>
+<p>Premium and ultra-premium tiers: Japanese-manufactured chairs, US-assembled options like Luraco, and top-tier Chinese-manufactured models from Ogawa. Built for a decade of daily use with strong parts availability.</p>
 
 <p>Top of the ultra-premium tier: a small category of chairs where the incremental therapeutic improvement over the rest of the premium range is real but increasingly marginal for most buyers. Worth considering only for buyers who have already owned and used mid-premium chairs and are making an informed upgrade decision.</p>
 
@@ -1764,7 +1762,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <details>
 <summary><strong>Is a Chinese-manufactured massage chair lower quality?</strong></summary>
-<p>Not necessarily. The best Chinese-manufactured brands, Bodyfriend, Ogawa, Titan at the upper tier, produce chairs that match or approach Japanese-manufactured quality on specific dimensions. The gap between the best Chinese-manufactured chairs and Japanese-made chairs has narrowed significantly over the past decade. Manufacturing origin is one data point, not the whole picture. Roller quality, warranty terms, and brand service infrastructure matter more than country of origin in most purchasing decisions.</p>
+<p>Not necessarily. The best Chinese-manufactured brands, Ogawa and Titan at the upper tier, produce chairs that match or approach Japanese-manufactured quality on specific dimensions. The gap between the best Chinese-manufactured chairs and Japanese-made chairs has narrowed significantly over the past decade. Manufacturing origin is one data point, not the whole picture. Roller quality, warranty terms, and brand service infrastructure matter more than country of origin in most purchasing decisions.</p>
 </details>
 
 <details>
@@ -2345,7 +2343,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>In the mid-range, look for chairs that specify heated rollers or multi-zone heat. The AmaMedics Hilux 4D, RockerTech Bliss, and Kahuna HM-078 all include heat as a meaningful part of their feature set, not just a checkbox.</p>
 
-<p>At the high end (premium tier and up), heat is nearly universal and often extends to the shoulder and calf areas. Bodyfriend, Osaki OS-Pro, and Infinity chairs in this tier typically include full-body heat with multiple independent zones.</p>
+<p>At the high end (premium tier and up), heat is nearly universal and often extends to the shoulder and calf areas. Osaki OS-Pro and Infinity chairs in this tier typically include full-body heat with multiple independent zones.</p>
 
 <h2>Heat and Safety Considerations</h2>
 
@@ -2422,7 +2420,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>The best fibromyalgia-compatible chairs combine fine pressure control, strong heat, zone-adjustable airbags, and two-stage zero gravity. At the mid-range, the RockerTech Sensation 4D and Relaxonchair YUKON-4D are worth considering for their body-scanning features, which automatically adjust roller depth to your spine profile -- reducing the risk of the rollers digging into a sensitive area.</p>
 
-<p>At higher budgets, the Kyota Yugana M780 4D and Osaki OS-Pro Maestro LE both offer fine-grained intensity control with strong heat coverage. Bodyfriend chairs, particularly the Phantom II, have a reputation for softer default pressure profiles relative to their roller power, which can work well for pressure-sensitive buyers.</p>
+<p>At higher budgets, the Kyota Yugana M780 4D and Osaki OS-Pro Maestro LE both offer fine-grained intensity control with strong heat coverage.</p>
 
 <p>The chair finder includes a pressure sensitivity option -- selecting "gentle" pressure preference filters specifically for chairs with wide intensity ranges and soft low-end settings. Start there: the <a href="/finder">chair finder</a> will narrow the field based on your pain profile and pressure tolerance.</p>
 
@@ -2555,8 +2553,6 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>At the mid-range, the Medical Breakthrough 6 and RockerTech Bliss offer good 4D pressure control with heat and zero gravity. For buyers who also need to confirm weight capacity, the Kahuna HM-078 supports 350 lbs and includes space-saving recline.</p>
 
-<p>At higher budgets, Bodyfriend chairs have a reputation for softer default pressure profiles relative to their roller power, which is valuable for pressure-sensitive arthritic buyers. The Phantom II\'s 335 lb capacity also makes it appropriate for larger buyers.</p>
-
 <p>For buyers whose arthritis is primarily in the hips and lower back, L-track chairs (Medical Breakthrough 6, Kyota Yugana M780) provide better glute and hip coverage than SL-track chairs, which helps with sacroiliac joint arthritis and hip OA.</p>
 
 <p>The <a href="/best/arthritis">best massage chairs for arthritis</a> page covers specific model recommendations with editorial notes on arthritis-relevant features. Use the <a href="/finder">chair finder</a> and select "gentle" pressure preference to see the chairs with the widest low-end pressure range.</p>
@@ -2594,7 +2590,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>In the upper-mid tier and above, 4D rollers are generally well-implemented and produce a noticeable improvement over 3D systems at equivalent price points. The AmaMedics Hilux 4D, Titan Pro-Vigor 4D, and RockerTech Sensation 4D are examples where the 4D system delivers genuine rhythm variation that justifies the label.</p>
 
-<p>In the premium tier and above, 4D is essentially universal in quality chairs, and the differences between brands come from the tuning philosophy rather than the technical specification. Japanese brands like Bodyfriend and chairs in the Synca Wellness line tend toward a more rhythmic, human-like 4D feel. Some American market brands in this tier prioritize raw pressure depth over rhythm variation.</p>
+<p>In the premium tier and above, 4D is essentially universal in quality chairs, and the differences between brands come from the tuning philosophy rather than the technical specification. Chairs in the Synca Wellness line tend toward a more rhythmic, human-like 4D feel. Some American market brands in this tier prioritize raw pressure depth over rhythm variation.</p>
 
 <h2>5D and Beyond</h2>
 
