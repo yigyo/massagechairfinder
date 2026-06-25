@@ -139,6 +139,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-deep-sleep",
       "massage-and-parasympathetic-nervous-system",
       "massage-and-falling-asleep",
+      "massage-and-travel-swelling",
+      "massage-and-mobility-after-60",
     ],
   },
 ]
