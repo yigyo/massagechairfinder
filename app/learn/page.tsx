@@ -141,6 +141,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-falling-asleep",
       "massage-and-travel-swelling",
       "massage-and-mobility-after-60",
+      "massage-and-bedtime-routine",
+      "massage-and-everyday-recovery",
     ],
   },
 ]
