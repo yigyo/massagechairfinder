@@ -143,6 +143,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-mobility-after-60",
       "massage-and-bedtime-routine",
       "massage-and-everyday-recovery",
+      "what-is-sports-massage",
     ],
   },
 ]
