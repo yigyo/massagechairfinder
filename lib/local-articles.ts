@@ -23,6 +23,7 @@ export interface LocalArticle {
   body: string
   order: number
   publishedAt: string
+  heroImage?: string
 }
 
 export const LOCAL_ARTICLES: LocalArticle[] = [
@@ -3174,6 +3175,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
   {
     slug: 'massage-chair-reliability',
     title: 'What Actually Breaks in a Massage Chair and When',
+    heroImage: '/massage-chair-reliability-hero.webp',
     excerpt: 'Most manufacturers report failure rates of 2 to 3 percent. That figure is self-reported with no independent verification. Here is what components actually fail, when they tend to fail, and what out-of-pocket repairs cost.',
     order: 46,
     publishedAt: '2026-05-07',

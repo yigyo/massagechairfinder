@@ -103,6 +103,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
     body: string
     slug?: string
     publishedAt?: string
+    heroImage?: string
   } | null = null
 
   const local = getLocalArticle(params.slug)
@@ -141,6 +142,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         '@type': 'WebPage',
         '@id': pageUrl,
       },
+      ...(article.heroImage ? { image: [`https://massagechairfinder.com${article.heroImage}`] } : {}),
     },
     {
       '@type': 'BreadcrumbList',
@@ -201,6 +203,15 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             &larr; Learn
           </Link>
         </div>
+        {article.heroImage && (
+          <img
+            src={article.heroImage}
+            alt={article.title}
+            width={1600}
+            height={914}
+            className="w-full h-auto rounded-lg mb-8"
+          />
+        )}
         <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: '#2E7D6F' }}>
           Learning Center
         </p>
