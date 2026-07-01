@@ -9133,6 +9133,7 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <p>[5] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>`,
   },
 
+
   {
     slug: "massage-chair-vs-massage-therapist",
     title: "Massage Chair vs Massage Therapist: The Real Cost Over 1, 3, and 5 Years",
@@ -9196,3 +9197,13 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <p>The reliability and <a href="/learn/why-massage-chairs-get-returned">returns breakdown</a> covers the usage-rate math in more depth, and the <a href="/best/under-3000">best chairs under three thousand</a> page shows what is genuinely worth buying at the entry of the range. The <a href="/finder">chair finder</a> matches your specific needs to the chairs most likely to deliver.</p>`,
   },
 ]
+
+// ── HELPERS ─────────────────────────────────────────────────────────────────────────────────
+
+/** All articles sorted by display order. */
+export const PUBLISHED_ARTICLES = LOCAL_ARTICLES.sort((a, b) => a.order - b.order)
+
+/** Look up a single article by slug. Returns undefined if not found. */
+export function getLocalArticle(slug: string): LocalArticle | undefined {
+  return LOCAL_ARTICLES.find(a => a.slug === slug)
+}
