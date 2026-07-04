@@ -27,6 +27,80 @@ export interface LocalArticle {
 }
 
 export const LOCAL_ARTICLES: LocalArticle[] = [
+  {
+    slug: "fake-massage-chair-reviews",
+    title: "How to Spot a Paid or Fake Massage Chair Review",
+    excerpt: "A fake or paid massage chair review usually shares a few tells: it praises everything and criticizes nothing, repeats the model name and marketing phrases, appears in a cluster of similar five-star posts dated to a launch, and never mentions fit, pressure, or any trade-off. Real buyer feedback names specifics, including what a chair does poorly. This guide gives you the red flags and a one-minute checklist to tell marketing from genuine feedback.",
+    order: 104,
+    publishedAt: "2026-07-04",
+    body: `<p>A fake or paid massage chair review usually gives itself away in the first few lines. It praises everything and criticizes nothing, it repeats the exact model name and the brand's marketing phrases, it tends to appear in a cluster of near-identical five-star posts dated to a product launch, and it never mentions fit, pressure intensity, or a single trade-off. Real buyer feedback does the opposite: it names specifics, including what the chair does poorly. When a review reads like the brochure, treat it as marketing, not feedback. Below are the red flags in detail and a checklist you can run on any review in about a minute.</p>
+
+<h2>Why are fake and paid massage chair reviews so common?</h2>
+
+<p>Two forces drive it. The first is the price point. A massage chair is a high-ticket purchase, so a single sale can be worth thousands of dollars, and that puts real money behind ranking and reviewing chairs favorably. The second is the buyer knowledge gap. Most shoppers cannot tell from a spec sheet why one chair costs far more than another, which is a topic worth understanding on its own if you want to see <a href="/learn/why-massage-chairs-are-expensive">why massage chairs are expensive</a>. Because confident-sounding reviews carry outsized weight with buyers who are unsure, sellers are rewarded for flooding the category with glowing, low-substance praise.</p>
+
+<p>The result is a spectrum. At one end are outright fabricated reviews. In the middle are paid placements and affiliate pages where the writer never discloses that they earn a commission on the sale. At the other end are genuine reviews from people who actually own the chair. Your job is to sort which is which, and the tells are consistent enough to learn.</p>
+
+<h2>What does a fake or paid review look like?</h2>
+
+<p><strong>It has no downsides.</strong> Every real chair has trade-offs. A review that only praises, with no mention of who the chair is wrong for or what it does poorly, is selling rather than assessing.</p>
+
+<p><strong>It is vague where it should be specific.</strong> Genuine experience shows up in detail: how the rollers feel on the lower back, whether the foot rollers are too intense, how the chair handles a taller or heavier frame. Fakes stay generic because the writer has no real experience to draw on.</p>
+
+<p><strong>It pushes one button and one outcome.</strong> If the only call to action is Buy Now, repeated, wrapped in urgency language, the page exists to convert a click rather than help you choose. Compare that to a review that points you toward alternatives when the chair is not right for you.</p>
+
+<p><strong>The timing is suspicious.</strong> A wave of glowing reviews that all appear right at a model's launch, before anyone could have lived with the chair for more than a few days, is a marketing push, not accumulated owner experience.</p>
+
+<p><strong>The praise is copy-pasted.</strong> When several sites use near-identical phrasing and the same hero image, you are reading syndicated promotional copy, not first-hand assessments.</p>
+
+<p><strong>The star rating does not match the text.</strong> A five-star headline sitting on top of a body that mentions a real problem, such as a weak lower-back stretch or a noisy motor, often means the rating was set to sell and the text was written by someone who briefly told the truth.</p>
+
+<h2>A one-minute checklist to test any review</h2>
+
+<p>Run a review through these six questions. If it fails three or more, discount it.</p>
+
+<ol>
+<li>Does it name at least one thing the chair does poorly or one type of person it is wrong for?</li>
+<li>Does it describe how the chair actually feels, not just list its features?</li>
+<li>Is the call to action something other than a single repeated Buy Now?</li>
+<li>Was it published after the chair had been on the market long enough for real ownership?</li>
+<li>Is the phrasing distinct, rather than matching other sites word for word?</li>
+<li>Does the reviewer disclose whether they earn a commission on the sale?</li>
+</ol>
+
+<h2>How do you verify a review against real evidence?</h2>
+
+<p>The strongest defense is triangulation. Never trust a single review, however detailed. Look for the same claim across several unrelated sources, and weight the ones that describe long-term ownership. A chair that genuinely lasts will collect steady feedback over years, which is why it helps to understand <a href="/learn/how-long-do-massage-chairs-last">how long massage chairs last</a> before you judge a launch-week rave.</p>
+
+<p>Then cross-check the specifics against the spec sheet. If a review claims a chair delivers a deep full-body stretch, confirm the track type and roller mechanism support that, because the underlying question of whether the technology does what is promised is covered in <a href="/learn/do-massage-chairs-work">do massage chairs work</a>. Reviews that contradict the physical specs are either careless or paid. Finally, separate the review of the chair from the review of the purchase decision: even a real, positive review does not tell you the chair fits your body or your budget, which is the harder and more personal question behind <a href="/learn/are-massage-chairs-worth-it">whether a massage chair is worth it</a>.</p>
+
+<h2>What about affiliate reviews and commissions?</h2>
+
+<p>An affiliate relationship is not the same as a fake review. Many useful reviews are written by people who earn a commission if you buy, and that arrangement is normal in this category. The line that matters is disclosure and balance. A commission-earning review that names trade-offs, tells you who should not buy the chair, and points you to alternatives is doing real work for you. A commission-earning review that only praises and only links to one Buy Now button is using the review format as an ad. Judge the content, not the business model, and give extra weight to any source that discloses the relationship up front.</p>
+
+<p>When you are ready to move from screening reviews to choosing a chair, skip the review lottery entirely and start from your own needs. The <a href="/finder">chair finder</a> matches chairs to your body, your priorities, and your budget, and the <a href="/buyers-guide">Buyer's Guide</a> walks through the specs that actually change the experience. If you want to see how the reviewing question plays out against a human practitioner, <a href="/learn/massage-chair-vs-massage-therapist">massage chair versus massage therapist</a> compares the two on cost and outcome, and if you are shopping a specific band, the <a href="/best/3000-to-5000">best chairs from 3000 to 5000</a> shows how the trade-offs shift as you move up in price.</p>
+
+<details>
+<summary><strong>Are most massage chair reviews online fake?</strong></summary>
+<p>Not all of them, but a large share are written to sell rather than to inform, because the price point rewards it. The useful move is not to assume every review is fake, it is to run each one through a quick filter for missing downsides, vague language, launch-week timing, and a single Buy Now call to action. Real feedback survives that filter.</p>
+</details>
+
+<details>
+<summary><strong>How can I tell if a reviewer was paid?</strong></summary>
+<p>You often cannot know for certain, but the pattern is visible. Watch for reviews that only praise, that echo the brand's own marketing phrases, that appear in clusters at a product launch, and that never disclose whether the writer earns a commission. Any one of these is weak evidence, but several together mean the review was built to convert, not to help.</p>
+</details>
+
+<details>
+<summary><strong>Do star ratings mean anything for massage chairs?</strong></summary>
+<p>Treat the number as a starting point, not a verdict. A rating is easy to inflate, so read the text underneath it. When a five-star rating sits on top of a body that names a real weakness, the rating was likely set to sell. Ratings backed by detailed, specific ownership notes across many sources are the ones worth trusting.</p>
+</details>
+
+<details>
+<summary><strong>Where should I look for trustworthy massage chair feedback?</strong></summary>
+<p>Look for sources that describe long-term ownership, name trade-offs, and disclose any commission. Owner discussions, long-form reviews that cover who the chair is wrong for, and cross-checks against the spec sheet all beat a single glowing post. Then match what you learn to your own body and budget with the chair finder rather than trusting any one review.</p>
+</details>`,
+  },
+
 
   // ── SECTION 1 ───────────────────────────────────────────────────────────────────────────
   {
