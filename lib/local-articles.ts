@@ -2722,7 +2722,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h2>What Repairs Actually Cost Out of Pocket</h2>
 
-<p>When a component fails outside its warranty period, the costs tend to surprise buyers who budgeted only for the sticker price. A service call alone — getting a certified technician to your home for diagnosis and repair — typically runs a few hundred dollars. That fee applies whether the repair takes 30 minutes or two hours.</p>
+<p>When a component fails outside its warranty period, the costs tend to surprise buyers who budgeted only for the sticker price. A service call alone, getting a certified technician to your home for diagnosis and repair, typically runs a few hundred dollars. That fee applies whether the repair takes 30 minutes or two hours.</p>
 
 <p>Add parts costs on top of the service fee. Roller assemblies and control boards, the two most common failure points, run several hundred to over a thousand dollars depending on the brand and model. A chair that needs a technician visit plus a roller replacement in year three has an out-of-pocket bill running into four figures on a component that a longer warranty would have covered for nothing.</p>
 
@@ -2734,6 +2734,16 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>One more scenario worth knowing: warranties do not transfer on private-market sales. A chair purchased through a private seller on a resale marketplace carries no warranty coverage for the new owner, regardless of what the seller claims about remaining warranty time. Warranty protection transfers only through the original retail channel or a manufacturer-certified pre-owned program from a few specific brands. This matters for anyone considering a secondhand chair as a way to buy down the initial price.</p>
 
+
+<h2>What to Do When Your Massage Chair Breaks</h2>
+
+<p>Start with the chair's error code display and owner's manual before calling anyone. A large share of massage chairs that seem broken are a stalled roller motor or a tripped safety sensor that clears with a full power cycle (off at the wall, wait 60 seconds, back on), not an actual mechanical failure. If a specific error code displays, look it up in the manual first. This single step resolves a meaningful share of service calls before they start.</p>
+
+<p>If the issue persists, call the manufacturer's service line, not a generic appliance or furniture repair company. The number is on your warranty registration and original paperwork. Massage chairs use proprietary roller carriages, track rails, and control boards that a general appliance technician is not trained or parts-stocked to service. If you bought through a retailer rather than directly from the manufacturer, the retailer can usually route you to the correct service contact, but the manufacturer's own service network is the first call whenever you have it.</p>
+
+<p>While the chair is in warranty, insist on the service path your coverage actually provides. If your warranty includes in-home service, a certified technician should come to you. If it is depot-only, get the shipping and turnaround terms in writing before you box up a 200-250 lb chair. See the cost section above for what that trip can run if shipping is not covered.</p>
+
+<p>Once the chair is fully out of warranty, you have three practical paths: an independent massage-chair repair technician in your area (search for one that specifically lists massage chair experience, not general furniture repair), a manufacturer-paid service call at the standard out-of-warranty rate, or, for older entry-tier chairs, comparing the repair estimate against the cost of a new chair at the same tier. A roller assembly or control board replacement on a chair that has already depreciated well below its original price is often the point where replacement is the more practical financial decision. The <a href="/learn/massage-chair-reliability">reliability guide</a> covers which components fail most often and roughly when, which helps set expectations before you are staring at a repair quote.</p>
 
 <h2>Authorized Retailers and Warranty Validity</h2>
 
