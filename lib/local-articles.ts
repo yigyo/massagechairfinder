@@ -2337,6 +2337,29 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Once you understand how the chair moves and which zones respond best, start exploring manual mode. Manual mode lets you target a specific area, hold on a tight spot, and control every variable. It takes longer to learn but produces better results for targeted pain relief.</p>
 
+<h2>Making Sense of the Remote and Programs</h2>
+
+<p>The remote is the part most new owners find intimidating. A high-end chair can have thirty or more buttons, and the manual rarely explains them in plain language. You do not need to learn all of them. Three controls do most of the work.</p>
+
+<p>Start every session with these three:</p>
+
+<ul>
+  <li><strong>Pick an auto program.</strong> Names like Relax, Recovery, Stretch, or Deep Tissue are just pre-set sequences of technique, speed, and position. Choose one and let it run. This is the single most useful button on the chair.</li>
+  <li><strong>Recline to zero gravity.</strong> One button drops you into the position the chair is tuned for. See the zero gravity section above for why it matters.</li>
+  <li><strong>Turn on heat.</strong> If the chair has lumbar heat, switch it on at the start of the session.</li>
+</ul>
+
+<p>Everything else is fine-tuning you can learn over time:</p>
+
+<ul>
+  <li><strong>Intensity, speed, and width</strong> adjust how hard, how fast, and how far apart the rollers work. Lower is the safe default.</li>
+  <li><strong>Technique buttons</strong> (kneading, tapping, rolling, shiatsu) change the motion of the rollers. Kneading and rolling are the gentlest; tapping and shiatsu are more percussive.</li>
+  <li><strong>Position or spot</strong> parks the rollers on one area, like a tight spot between the shoulder blades, and holds there.</li>
+  <li><strong>Airbags and foot rollers</strong> turn up, down, or off separately from the back massage.</li>
+</ul>
+
+<p>If the chair has a body scan, run it once at the start so the rollers map to your spine before the program begins. After a week you will reach for the same three or four controls without thinking, and the rest of the remote stops mattering. A genuinely overwhelming remote is worth flagging before you buy; the <a href="/finder">chair finder</a> factors ease of use into its matches, and the <a href="/buyers-guide">buyer's guide</a> covers what to look for.</p>
+
 <h2>What to Expect in the First Week</h2>
 
 <p>Mild soreness after the first two or three sessions is normal. It is the same soreness you feel after a deep-tissue massage from a therapist, and it fades within 24 hours. It is not a sign the chair is too intense.</p>
@@ -2344,6 +2367,22 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>Significant improvement in chronic lower back pain typically takes 10-14 days of consistent daily use. Do not judge the chair's effectiveness after one session. The pattern of consistent use is what produces lasting relief, not a single session.</p>
 
 <p>If pain increases significantly rather than decreasing, or if any session produces sharp pain rather than pressure-and-release, stop and consult a healthcare provider. Massage chairs are not appropriate for all back conditions, and a few conditions (herniated discs with active nerve compression, for example) require medical guidance before use.</p>
+
+<h2>Why Am I Sore After Using a Massage Chair?</h2>
+
+<p>Mild soreness in the first few sessions is usually normal and fades within 24 hours. It is the same delayed muscle soreness you feel after a deep-tissue massage or a new workout: muscles that are not used to being worked respond by feeling tender for a day. Soreness that lasts longer than 24 hours, gets worse session over session, or turns into sharp pain is a different signal, and it almost always means the intensity is too high, not that the chair is wrong for you.</p>
+
+<p>The fix follows a specific order. Change one thing at a time so you can tell what worked.</p>
+
+<ul>
+  <li><strong>Lower the intensity first.</strong> Reduce roller pressure and airbag strength before you touch anything else. On 3D and 4D chairs the rollers push deep into the muscle, and full depth on a body that is not broken in is the most common cause of next-day soreness. Back the depth off. It helps to understand how <a href="/learn/4d-vs-3d-massage-chair-rollers">3D and 4D rollers</a> differ before you crank them up.</li>
+  <li><strong>Shorten the session.</strong> If lower pressure still leaves you sore, cut the session to 10 or 15 minutes. Length matters less than pressure, so only shorten after you have already backed off the intensity.</li>
+  <li><strong>Fix your position.</strong> Soreness in one spot often means the rollers are landing in the wrong place. Sit all the way back, run the body scan if the chair has one, and make sure the neck rollers sit below the bony top of your shoulder, not on it.</li>
+</ul>
+
+<p>Give the chair a break-in period. Most people who feel sore in week one feel relief by the end of week two, once their muscles adapt and their settings are dialed in. That adaptation is the whole reason to start gentle and build up.</p>
+
+<p>Not all soreness is the chair adjusting. Stop and talk to a healthcare provider if a session produces sharp or shooting pain, if pain radiates down an arm or leg, or if soreness keeps building instead of easing. Massage chairs are not right for every back condition; our guide on <a href="/learn/are-massage-chairs-safe">whether massage chairs are safe</a> covers who should avoid one. If a chair feels too aggressive no matter how you set it, it may be the wrong model for your body and pressure tolerance rather than a technique problem, and weighing a <a href="/learn/massage-chair-vs-massage-therapist">massage chair against a massage therapist</a> can help you decide. The <a href="/finder">chair finder</a> matches you to models by pressure preference and body type so the chair fits from the first session.</p>
 
 <h2>Maintenance Basics</h2>
 
@@ -2355,11 +2394,29 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h2>The Most Common Mistakes</h2>
 
-<p>Starting too intense is the single most common mistake, and it is responsible for most of the "I tried it and didn't like it" decisions. Start gentle and build up. The chair will not be less effective at lower intensity -- it will be more comfortable, which means you will use it more, which means it will actually work.</p>
+<p>Starting too intense is the single most common mistake, and it is responsible for most of the "I tried it and didn't like it" decisions. Start gentle and build up. The chair will not be less effective at lower intensity. It will be more comfortable, which means you will use it more, which means it will actually work.</p>
 
 <p>The second most common mistake is inconsistency. Using the chair three times in one week and then ignoring it for two weeks produces no lasting benefit. Build it into your daily routine: after work, before dinner, or as part of a wind-down routine before bed. Twenty minutes every day beats an hour on weekends.</p>
 
 <p>Need help matching a chair to your specific pain profile? The <a href="/finder">chair finder</a> asks about your symptoms, body type, and pressure preferences to match you to models that fit your situation.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Why is my back sore after using a massage chair?</h3>
+<p>Mild soreness in the first few sessions is normal and usually fades within a day, the same way a new workout leaves you tender. If it lasts longer than 24 hours or gets worse, the intensity is set too high. Lower the roller pressure first, then shorten the session, then check that you are seated all the way back so the rollers land correctly.</p>
+
+<h3>How long should soreness last after a massage chair session?</h3>
+<p>No more than about 24 hours. Normal adjustment soreness fades within a day. Soreness that builds across sessions, or sharp pain during a session, is not normal; reduce the intensity and, if it continues, stop and consult a healthcare provider.</p>
+
+<h3>Is it normal to feel worse before feeling better?</h3>
+<p>A short break-in period is common. Many people feel tender in the first week and relief by the end of the second, once their muscles adapt and their settings are dialed in. Starting at low intensity shortens that adjustment.</p>
+
+<h3>What do all the buttons on the remote actually do?</h3>
+<p>Most sessions use only three: pick an auto program, recline to zero gravity, and turn on heat. The rest fine-tune intensity, speed, roller technique, and which body zones are active. You can ignore them until you want to target a specific area.</p>
+
+<h3>How do I make a massage chair less intense?</h3>
+<p>Lower the roller pressure and airbag strength first, and reduce the depth on a 3D or 4D chair. If it still feels like too much, shorten the session and switch to a gentler technique such as kneading or rolling instead of tapping or shiatsu.</p>
+
     `,
   },
 
