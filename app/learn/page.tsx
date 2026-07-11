@@ -144,6 +144,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-bedtime-routine",
       "massage-and-everyday-recovery",
       "what-is-sports-massage",
+      "massage-and-menopause",
+      "massage-and-menstrual-cramps",
     ],
   },
 ]
