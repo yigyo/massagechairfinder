@@ -52,6 +52,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-chairs-for-posture",
       "massage-chairs-during-pregnancy",
       "massage-chair-sleep",
+      "are-massage-chairs-safe",
     ],
   },
   {
@@ -73,6 +74,10 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-chair-trial-period",
       "office-massage-chairs",
       "massage-chair-vending-business",
+      "massage-chair-vs-massage-therapist",
+      "massage-chair-vs-chiropractor",
+      "are-costco-massage-chairs-worth-it",
+      "fake-massage-chair-reviews",
     ],
   },
   {
