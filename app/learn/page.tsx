@@ -151,6 +151,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "what-is-sports-massage",
       "massage-and-menopause",
       "massage-and-menstrual-cramps",
+      "massage-and-migraines",
+      "massage-and-postpartum-recovery",
     ],
   },
 ]
