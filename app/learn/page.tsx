@@ -153,6 +153,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-menstrual-cramps",
       "massage-and-migraines",
       "massage-and-postpartum-recovery",
+      "massage-and-diabetic-neuropathy",
+      "massage-and-jaw-tension",
     ],
   },
 ]
