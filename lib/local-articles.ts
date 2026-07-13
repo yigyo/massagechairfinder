@@ -651,7 +651,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Osaki</strong> is the larger of the two in terms of catalog breadth. The Osaki OS-Pro Admiral II (Under $3,000) is a reliable entry-tier SL-track chair that consistently ranks well for value. The Osaki OS-Pro Maestro LE 2.0 ($8,000-$11,999) steps up in roller quality and program depth. At the top, the Osaki OS-Pro 4D DuoMax ($12,000 and up) is a dual-roller premium system. Osaki also owns the Titan brand, which shares manufacturing with Osaki but is positioned as the value line — functionally similar chairs at lower prices with fewer features and shorter warranty terms.</p>
 
-<p><strong>Infinity</strong> skews toward the higher end. The Infinity Dynasty 4D ($3,000-$4,999) and the Infinity Imperial Syner-D ($5,000-$7,999) are serious chairs targeted at buyers who want near-luxury performance without crossing into the ultra-premium Japanese segment. Infinity's mid-range options fill the mid through premium tiers with competitive feature sets.</p>
+<p><strong>Infinity</strong> skews toward the higher end. The Infinity Dynasty 4D ($5,000-$7,999) and the Infinity Imperial Syner-D ($5,000-$7,999) are serious chairs targeted at buyers who want near-luxury performance without crossing into the ultra-premium Japanese segment. Infinity's mid-range options fill the mid through premium tiers with competitive feature sets.</p>
 
 <p>For buyers comparing Osaki and Infinity directly: the brands are more similar than the marketing suggests. Evaluate specific models head-to-head rather than treating one brand as categorically superior. Both back their products with US-based customer support and parts availability, which matters for a purchase in this price range.</p>
 
@@ -9966,6 +9966,226 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <p>[4] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>
 <p>[5] Pichot V, et al. <em>Automatic massage chair effects on heart rate and muscle tone: a randomized controlled trial.</em> 2025.</p>
 <p>[6] Packheiser J, et al. <em>A systematic review and multivariate meta-analysis of the physical and mental health benefits of touch interventions.</em> Nature Human Behaviour. 2024.</p>`,
+  },
+  {
+    slug: "massage-and-diabetic-neuropathy",
+    title: "Massage and Diabetic Neuropathy: What Helps, and the One Feature to Turn Off",
+    excerpt: "Foot massage improved balance and foot sensation in people with diabetic neuropathy in a small controlled trial. It does not repair nerves. And the heated foot module on a massage chair is the one feature this group should switch off.",
+    order: 111,
+    publishedAt: "2026-07-13",
+    body: `<p><strong>Foot massage has modest, real support in diabetic peripheral neuropathy. In a randomized trial of 60 people with type 2 diabetes and neuropathy, two weeks of Thai foot massage improved balance, foot range of motion, and measured foot sensation [1]. It does not repair nerve damage, and nothing in the literature says it does.</strong></p>
+<p>But the most important thing on this page is not about benefit. It is about heat. If you have diabetic neuropathy in your feet, the heated foot module in a massage chair is a feature you should be able to switch off, and the reason comes straight from federal foot care guidance.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>Up to one-half of people with diabetes have peripheral neuropathy.</strong> It usually hits the feet and legs first, and it can leave you unable to reliably sense pain or temperature there (NIDDK) [2]</p>
+<p><strong>60 patients, 2 weeks:</strong> Thai foot massage (30 minutes, 3 days a week) improved timed-up-and-go more than control, and also improved foot range of motion and monofilament-measured foot sensation [1]</p>
+<p><strong>"If you have nerve damage from diabetes, you may burn your feet and not know you did."</strong> NIDDK's guidance instructs people with diabetic nerve damage not to put a heating pad on their feet, and to test bath water with an elbow or a thermometer because the feet cannot be trusted to test it [3]</p>
+<p><strong>The paper everyone cites is not a result.</strong> The widely shared 2022 "efficacy and safety of massage adjuvant therapy" publication is a <em>protocol</em> for a review that had not been run yet. It reports no findings [4]</p></div>
+<h2>The heat rule, first, because it is the one that can hurt you</h2>
+<p>Neuropathy takes away protective sensation. NIDDK, the NIH institute responsible for diabetes, puts it plainly: you may burn your feet and not know you did [3]. Its foot-protection list is short and specific. Do not put a hot water bottle or heating pad on your feet. Keep your feet away from heaters. Wash your feet in warm, not hot, water, and check the temperature with a thermometer (90 to 95 degrees F) or your elbow [3].</p>
+<p>A heated foot module in a massage chair is a heating pad, held against your feet, for twenty minutes, while you relax. It is the same object under a nicer name.</p>
+<p>So the buying rule for this group is unusual, and we have not seen anyone else state it: <strong>the foot and calf heat must be separately defeatable.</strong> Not adjustable. Off, independently of the back heat, which is applied to skin that still reports a burn. If a chair bundles heat into its programs and you cannot disable the leg zone on its own, it is the wrong chair for you regardless of what else it does well. That is worth knowing before you shop for a <a href="/learn/heated-massage-chairs">heated massage chair</a>, because heat is usually sold as a headline benefit.</p>
+<p>The same logic applies to pressure. Your feedback loop is broken. The normal way people find a safe intensity is that too much hurts, and neuropathy can remove that signal, or invert it: the same condition that numbs one person's feet leaves another with feet that hurt at the lightest touch [2].</p>
+<h2>What the research actually shows</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>What it found</th>
+<th>Evidence strength</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chatchawan et al. RCT, 60 participants [1]</td>
+<td>Thai foot massage, 30 min, 3x/week for 2 weeks. Better timed-up-and-go than control; significant gains in foot range of motion and monofilament foot sensation</td>
+<td>Randomized and controlled. Small, short, single-center</td>
+</tr>
+<tr>
+<td>Foot self-massage RCT, 52 participants [5]</td>
+<td>30 minutes of self foot massage, 3x/week for 4 weeks, measuring neuropathic pain, skin temperature, and comfort</td>
+<td>Randomized. Self-massage, not chair</td>
+</tr>
+<tr>
+<td>Self-Thai foot massage, immediate effects [6]</td>
+<td>Changes in skin blood flow, skin temperature, and foot and ankle range of motion in type 2 diabetes</td>
+<td>Physiological measures, immediate window</td>
+</tr>
+<tr>
+<td>Ren et al., 2022 [4]</td>
+<td><strong>A protocol.</strong> Plans a systematic review of massage for DPN. Reports no results</td>
+<td>Not evidence of anything yet. Cite it and you have read the title only</td>
+</tr>
+<tr>
+<td>NIDDK, peripheral neuropathy [2]</td>
+<td>Up to half of people with diabetes are affected. Physical therapy for strength and balance is among the recommended treatments. Talk to a doctor before using complementary approaches</td>
+<td>Tier 2, authoritative</td>
+</tr>
+<tr>
+<td>NIDDK, diabetes and foot problems [3]</td>
+<td>Loss of protective sensation, burn risk, no heating pads on feet, daily foot checks</td>
+<td>Tier 2, authoritative. The safety spine of this article</td>
+</tr>
+</tbody>
+</table>
+<p>Our position: massage is a plausible comfort and mobility aid for people with diabetic neuropathy, worth trying with a clinician's sign-off, and it is not a treatment for the neuropathy. The balance finding is the most interesting one, because falls are a genuine consequence of neuropathy [2] and balance is something you can measure at home. The sensation finding is intriguing and comes from one small trial. Do not build expectations on it.</p>
+<h2>How a massage chair delivers this</h2>
+<p><strong>What a chair fully replicates: the mechanical work and the frequency.</strong> The trials that produced results used 30-minute foot sessions two to three times a week [1][5]. That is a dose almost nobody sustains by booking appointments and almost anybody sustains with a chair in the living room. Across the touch literature, the number of sessions is what drives cumulative benefit, so the at-home rhythm is the real advantage. See <a href="/learn/massage-and-consistency">why consistency beats intensity</a>.</p>
+<p><strong>What a chair partially replicates: the balance effect.</strong> The Thai protocol includes pressure along the foot plus passive movement of the ankle through its range. Chair foot rollers and calf airbags do the pressure. They do not take your ankle through range. So the ingredient most plausibly responsible for the balance result is only half present, and you should expect less than the trial got.</p>
+<p><strong>What a chair cannot replicate: any effect on the nerve damage.</strong> Nerve damage in diabetes tracks with blood glucose, and no chair touches that [2]. A massage chair is a comfort and mobility tool sitting alongside your medical care, not a substitute for any part of it.</p>
+<p><strong>What a chair can actively get wrong: heat, and pressure you cannot feel.</strong> This is the only condition we cover where a standard chair feature is a contraindication rather than a bonus.</p>
+<h2>How to use a chair if you have diabetic neuropathy</h2>
+<p><strong>Get your clinician's sign-off first.</strong> NIDDK explicitly advises talking to your doctor before using complementary approaches [2]. If you have an ulcer, an open sore, a blister, an active foot infection, Charcot foot, or a foot that has changed shape, the answer is no foot massage at all until that is resolved.</p>
+<p><strong>Foot and calf heat off. Every time.</strong> [3]</p>
+<p><strong>Lowest intensity for the first session. Always.</strong> Your pain signal cannot be trusted to tell you when a setting is too strong, and excessive intensity is <a href="/learn/why-massage-chairs-get-returned">the most common reason massage chairs get returned</a> even among people with normal sensation.</p>
+<p><strong>Start at ten minutes, not thirty.</strong> Build up only if the skin check stays clean.</p>
+<p><strong>Do a skin check after every single session.</strong> Look at both feet, including between the toes, for redness, blisters, or broken skin. You already do this daily [3]. After a chair session it is not optional, because if the chair marks you and you did not feel it, looking is the only warning system you have.</p>
+<p><strong>If your feet hurt at light touch, skip the foot module entirely.</strong> Use the back and shoulder programs. That is a completely reasonable way to own a massage chair.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Is a massage chair safe if I have diabetic neuropathy?</strong></summary>
+<p>It can be, with two conditions: your clinician clears it, and you disable the heated foot and calf functions. NIDDK tells people with diabetic nerve damage not to apply heating pads to their feet, because they may burn without feeling it [3]. Also start at the lowest intensity and inspect both feet after every session.</p>
+</details>
+<details>
+<summary><strong>Does massage help diabetic neuropathy?</strong></summary>
+<p>It helps some of the consequences, not the nerve damage. A randomized trial of 60 people with diabetic peripheral neuropathy found that two weeks of Thai foot massage improved balance, foot range of motion, and monofilament-measured foot sensation compared with control [1]. No study shows massage repairs nerves or improves glycemic control.</p>
+</details>
+<details>
+<summary><strong>Can massage restore feeling in my feet?</strong></summary>
+<p>One small trial measured improved monofilament sensation after two weeks of foot massage [1]. That is a single short study, and it is not a basis for expecting sensation to come back. Treat any improvement as a bonus, not a plan.</p>
+</details>
+<p><strong>Why can't I use the heat setting? It feels good.</strong></p>
+<p>That is exactly the problem. Damaged sensory nerves can fail to report temperature accurately, so heat that feels pleasant, or feels like nothing, can still be doing damage. NIDDK's guidance is unambiguous: no heating pads on the feet, and test bath water with an elbow because the feet cannot be trusted [3].</p>
+<details>
+<summary><strong>What about the swelling and circulation in my legs?</strong></summary>
+<p>Compression and massage do move fluid, and we cover the general case in <a href="/learn/massage-and-swelling">massage and swelling</a> and <a href="/learn/massage-and-circulation">massage and circulation</a>. But if you have diabetes with neuropathy, especially alongside peripheral artery disease, leg swelling and circulation are clinical matters. Get them assessed rather than managed with a chair.</p>
+</details>
+<details>
+<summary><strong>Which chair features actually matter here?</strong></summary>
+<p>Independently defeatable leg and foot heat, genuinely low minimum intensity, a short program you will run several times a week, and easy entry and exit if balance is an issue. Falls are a real neuropathy risk [2], so the same stability and lift considerations we cover in <a href="/learn/massage-chairs-for-seniors">massage chairs for seniors</a> apply.</p>
+</details>
+<h2>Finding a chair that works here</h2>
+<p>The shortlist criteria are unusual for this condition: what you need is a chair that lets you turn things off. Separately controllable heat zones, a low-intensity floor that is actually low, and stable, easy entry. Roller count and program libraries are beside the point. For the wider picture on chairs and medically complex users, see <a href="/learn/special-populations">massage chairs and special populations</a>.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your symptoms, your body, and your budget in a few minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Chatchawan U, Eungpinichpong W, Plandee P, Yamauchi J. <em>Effects of Thai foot massage on balance performance in diabetic patients with peripheral neuropathy: a randomized parallel-controlled trial.</em> Medical Science Monitor Basic Research. 2015;21:68-75. <a href="https://pubmed.ncbi.nlm.nih.gov/25892354/">Link</a></p>
+<p>[2] National Institute of Diabetes and Digestive and Kidney Diseases. <em>Peripheral Neuropathy.</em> <a href="https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies/peripheral-neuropathy">Link</a></p>
+<p>[3] National Institute of Diabetes and Digestive and Kidney Diseases. <em>Diabetes and Foot Problems.</em> <a href="https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/foot-problems">Link</a></p>
+<p>[4] Ren X, et al. <em>The efficacy and safety of massage adjuvant therapy in the treatment of diabetic peripheral neuropathy: a protocol for systematic review and meta-analysis of randomized controlled trials.</em> Medicine. 2022. <a href="https://pubmed.ncbi.nlm.nih.gov/35451409/">Link</a></p>
+<p>[5] <em>The Effect of Foot Self-Massage on Peripheral Neuropathic Pain, Peripheral Skin Temperature and Patient Comfort in Individuals with Diabetes: A Randomized Controlled Trial.</em> 2025. <a href="https://pubmed.ncbi.nlm.nih.gov/40163748/">Link</a></p>
+<p>[6] <em>Immediate Effects of Self-Thai Foot Massage on Skin Blood Flow, Skin Temperature, and Range of Motion of the Foot and Ankle in Type 2 Diabetic Patients.</em> Journal of Alternative and Complementary Medicine. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/32349513/">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-jaw-tension",
+    title: "Massage and Jaw Tension (TMJ): What Works, and Why No Chair Touches Your Jaw",
+    excerpt: "Manual therapy is one of the few TMD treatments the NIH actually endorses. But no massage chair reaches the jaw. Here is what a chair can do for jaw tension, what it cannot, and the two-minute technique that beats it.",
+    order: 112,
+    publishedAt: "2026-07-13",
+    body: `<p><strong>Massage works for jaw muscle pain. The National Institute of Dental and Craniofacial Research says manual therapy has been shown to improve function and relieve pain in temporomandibular disorders [1], which is a stronger endorsement than most treatments on their list get.</strong></p>
+<p>And here is the part the rest of the internet leaves out: <strong>no massage chair touches your jaw.</strong> There is no roller, airbag, or module on any chair that reaches the masseter or the temporalis, which are the muscles that hurt and the muscles the successful trials treated. A chair's leverage on jaw tension is entirely indirect. That is worth knowing before you spend several thousand dollars expecting otherwise.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>11 to 12 million US adults</strong> have pain in the region of the temporomandibular joint. TMDs are twice as common in women as in men, especially between 35 and 44 (NIDCR) [1]</p>
+<p><strong>Massage alone improved pain and maximal mouth opening</strong> in a randomized, assessor-blinded TMD trial. Adding post-isometric relaxation improved it further, but plain massage moved both outcomes on its own [2]</p>
+<p><strong>Manual therapy matched dry needling</strong> for pain, mouth opening, cervical disability, and pressure pain threshold in myofascial TMD [3]</p>
+<p><strong>The neck travels with the jaw.</strong> A meta-analysis found a significant association between neck disability and jaw disability [4], and in one study of 95 young people, 85.4 percent reported cervical spine problems, significantly more often in those with TMD [5]</p></div>
+<h2>What the NIH actually recommends, and what it warns you away from</h2>
+<p>The most useful thing about NIDCR's TMD page is how much of it is a list of things not to do [1]:</p>
+<ul>
+<li>Joint sounds without pain are common, normal, and need no treatment.</li>
+<li>Symptoms resolve on their own in many people.</li>
+<li>Experts strongly recommend staying away from treatments that permanently change your joints, teeth, or bite.</li>
+<li>Occlusal treatment (crowns, grinding down teeth, orthodontics to change your bite) has <strong>no</strong> evidence behind it and may make things worse.</li>
+<li>Night guards and splints do not have a lot of evidence that they improve TMD pain.</li>
+<li>Botulinum toxin is not FDA-approved for TMD and the evidence is unclear.</li>
+</ul>
+<p>Set against that, physical therapy and manual therapy are endorsed rather than cautioned against. A therapist uses their hands to stretch the soft tissues and muscles around the joint, and that has been shown to improve function and relieve pain [1]. Self-management, relaxation, cognitive behavioral therapy, and biofeedback are supported too.</p>
+<p>So the pattern is clear: for jaw tension, the low-risk conservative end of the spectrum is where the evidence lives, and the expensive irreversible end is where it does not. Soft tissue work is on the right side of that line. A massage chair sits nearby, and its actual position there is as a neck and stress tool.</p>
+<h2>What the research actually shows</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>What it found</th>
+<th>Evidence strength</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NIDCR TMD guidance [1]</td>
+<td>Manual therapy improves function and relieves pain. Occlusal treatments have no evidence and may worsen the problem</td>
+<td>Tier 2, authoritative. The spine of this article</td>
+</tr>
+<tr>
+<td>Massage vs massage plus post-isometric relaxation RCT [2]</td>
+<td>Both arms significantly improved pain and maximal mouth opening; the combined arm did better</td>
+<td>Randomized, assessor-blinded</td>
+</tr>
+<tr>
+<td>Dry needling vs manual therapy RCT [3]</td>
+<td>Equally effective on pain, active mouth opening, cervical disability, and pressure pain threshold in myofascial TMD</td>
+<td>Randomized, single-blind. Equivalence with an invasive comparator</td>
+</tr>
+<tr>
+<td>Craniocervical features meta-analysis [4]</td>
+<td>Significant association between neck disability and jaw disability; cervical muscle tenderness higher in TMD, specifically the muscle-type TMD</td>
+<td>Systematic review and meta-analysis of observational studies</td>
+</tr>
+<tr>
+<td>Cervical spine pain in young people with TMD [5]</td>
+<td>85.4 percent of 95 participants reported cervical spine problems; significantly more common in TMD</td>
+<td>Observational</td>
+</tr>
+</tbody>
+</table>
+<p>Our position: the evidence supports hands on the jaw muscles. It supports a chair only through the neck and through arousal, and those are real but secondary. Anyone telling you a massage chair treats TMJ is describing a machine that does not exist.</p>
+<h2>How a massage chair delivers this</h2>
+<p><strong>What a chair cannot replicate: the jaw.</strong> Stated first on purpose. The masseter, the temporalis, the pterygoids, the joint capsule. Every structure the successful trials treated is out of reach of every chair on the market. There is no feature roadmap that fixes this. It is anatomy.</p>
+<p><strong>What a chair fully replicates: the neck and upper trapezius load that comes with TMD.</strong> This is not a consolation prize. Neck disability and jaw disability move together [4], cervical muscle tenderness is elevated in TMD [4], and the great majority of people with jaw pain have neck complaints too [5]. Neck and shoulder rollers work exactly that territory. It is the same roller path we cover in <a href="/learn/massage-and-neck-shoulder-pain">massage and neck and shoulder pain</a>, and here it acts one step upstream of the pain rather than on it.</p>
+<p><strong>What a chair fully replicates: lowering the arousal that drives clenching.</strong> Reducing jaw clenching is on NIDCR's first-line self-care list [1], and clenching is stress-linked. Moderate-pressure massage shifts you toward parasympathetic dominance within about ten minutes [6], and a randomized trial of an automatic massage chair recorded roughly a 22 percent drop in heart rate and a 12 percent drop in muscle tone during sessions [7]. A calmer nervous system in the evening is a plausible route to a quieter jaw overnight. That is mechanism, not an outcome trial, and we are not going to inflate it.</p>
+<p><strong>What beats the chair, for free.</strong> Two fingers on your own masseter, the muscle you feel bulge when you bite down, for two minutes a side. That is closer to what the trials actually did than anything a chair will ever do. Use the chair for the neck and the wind-down, and use your hand for the jaw.</p>
+<h2>How to use a chair if you have jaw tension</h2>
+<p><strong>Neck and shoulder programs, 15 to 25 minutes, most days.</strong> Evening, if you clench or grind at night.</p>
+<p><strong>Moderate pressure, not maximum.</strong> If you are bracing against the rollers you are raising arousal, which runs against the entire point.</p>
+<p><strong>Stack it with the self-care that is already recommended:</strong> soft foods during a flare, heat or cold on the face, gentle jaw stretches, and cutting the gum chewing and nail biting [1].</p>
+<p><strong>Judge it over six to eight weeks.</strong> TMD symptoms fluctuate and frequently resolve on their own [1]. Anybody selling you a chair on a two-week jaw improvement is selling you the natural history of the condition.</p>
+<p><strong>Know the red flags.</strong> Jaw locking, a joint that catches, inability to open or close, a change in how your teeth fit together, or new ringing in the ears or hearing loss all mean see a clinician. Those are likely joint or disc problems, and soft tissue work is not the answer to them.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Does a massage chair help TMJ?</strong></summary>
+<p>Not directly. No massage chair reaches the jaw muscles. What a chair can do is work the neck and upper trapezius, which are strongly associated with jaw disability [4][5], and lower the physiological arousal that drives clenching [6][7]. Both are indirect. If you want the treatment the research supports, that is hands on the jaw muscles [1][2].</p>
+</details>
+<details>
+<summary><strong>Does massage help jaw tension and TMD?</strong></summary>
+<p>Yes, and this is one of the better-supported entries in the TMD toolkit. NIDCR states that manual therapy has been shown to improve function and relieve pain [1]. In a randomized trial, massage alone significantly improved both pain and maximal mouth opening [2], and in another, manual therapy matched dry needling across pain, mouth opening, and pressure pain threshold [3].</p>
+</details>
+<details>
+<summary><strong>Should I get a night guard instead?</strong></summary>
+<p>That is a conversation for your dentist, but go in informed: NIDCR notes there is not a lot of evidence that intraoral appliances improve TMD pain, and advises making sure any appliance is not designed to permanently change your bite [1]. The federal guidance is much firmer about what to avoid, and occlusal treatments (crowns, grinding teeth, orthodontics to shift your bite) have no evidence and may make things worse [1].</p>
+</details>
+<details>
+<summary><strong>My jaw clicks. Is that bad?</strong></summary>
+<p>Clicking or popping without pain is common, considered normal, and does not need treatment [1]. Painful clicking, or clicking with limited or locking movement, is different and should be seen by a clinician.</p>
+</details>
+<details>
+<summary><strong>Can I massage my own jaw?</strong></summary>
+<p>Yes, and it is the most direct thing available to you. Find the masseter by clenching and feeling the muscle bulge just above the angle of the jaw, then release and apply steady, moderate pressure with two fingers for a couple of minutes a side. That is much closer to what the trials tested than anything a machine does. If pain is significant or persistent, get a clinician to guide it.</p>
+</details>
+<details>
+<summary><strong>Is jaw tension the same as a tension headache?</strong></summary>
+<p>They overlap, and they are not the same thing. TMD-associated headache is its own category within the more than 30 conditions TMD covers [1]. If your headaches are band-like and pressing, <a href="/learn/massage-and-tension-headaches">massage and tension headaches</a> is the more useful article.</p>
+</details>
+<h2>Finding a chair that helps here</h2>
+<p>Nothing exotic. What matters is a roller path that genuinely reaches the neck and upper trapezius, low and moderate intensity settings that stay comfortable, and a short evening program you will actually run. For the wider research on how massage acts on pain, see <a href="/learn/massage-and-pain">does massage help chronic pain</a>, and for the arousal side of clenching, <a href="/learn/massage-chairs-for-stress">massage chairs for stress</a>.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your symptoms, your body, and your budget in a few minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] National Institute of Dental and Craniofacial Research. <em>TMD (Temporomandibular Disorders).</em> Last reviewed November 2025. <a href="https://www.nidcr.nih.gov/health-info/tmd">Link</a></p>
+<p>[2] <em>Efficacy of massage versus massage with post isometric relaxation in temporomandibular disorders: a randomized controlled trial.</em> 2024. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11097573/">Link</a></p>
+<p>[3] <em>Effectiveness of Dry Needling versus Manual Therapy in Myofascial Temporomandibular Disorders: A Single-Blind Randomized Controlled Trial.</em> 2023. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10532813/">Link</a></p>
+<p>[4] <em>Craniocervical and Cervical Spine Features of Patients with Temporomandibular Disorders: A Systematic Review and Meta-Analysis of Observational Studies.</em> Journal of Clinical Medicine. 2020;9(9):2806. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7565821/">Link</a></p>
+<p>[5] <em>Occurrence of Cervical Spine Pain and Its Intensity in Young People with Temporomandibular Disorders.</em> 2024. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11012664/">Link</a></p>
+<p>[6] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>
+<p>[7] Pichot V, et al. <em>Automatic massage chair effects on heart rate and muscle tone: a randomized controlled trial.</em> 2025.</p>`,
   },
 
 ]
