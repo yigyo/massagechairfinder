@@ -11,7 +11,7 @@ const COMPARISONS = [
     slug: 'infinity-dynasty-4d-vs-infinity-genesis-max-4d',
     chairA: 'Infinity Dynasty 4D',
     chairB: 'Infinity Genesis Max 4D',
-    tier: 'Mid to premium tier',
+    tier: 'Upper-mid to premium tier',
     summary: 'Same brand, same L-track 4D specs, now a tier apart. The Dynasty is the lower-priced pick with confirmed petite and plus-size fit. The Genesis Max costs more but adds confirmed stretch programs.',
   },
   {

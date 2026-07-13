@@ -28,7 +28,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "kahuna-dios-7300": {
     label: "Best SL-track with advanced roller at this tier",
-    why: "The Kahuna Dios-7300 is the standout value for buyers who want more than standard 4D performance without crossing into the next tier up. The 7D roller system adds lateral movement patterns to the standard 4D depth and rhythm, producing a massage that feels noticeably more varied and comprehensive than a conventional 4D chair. SL-track coverage from neck through glutes, combined with heat, zero gravity, body scanning, calf and foot work, puts it among the most fully-featured chairs in the $5,000-$7,999 band. For buyers who want maximum feature density at this price point, the Dios-7300 is the strongest option.",
+    why: "The Kahuna Dios-7300 is the standout value for buyers who want more than standard 4D performance while staying under $10,000. The 7D roller system adds lateral movement patterns to the standard 4D depth and rhythm, producing a massage that feels noticeably more varied and comprehensive than a conventional 4D chair. SL-track coverage from neck through glutes, combined with heat, zero gravity, body scanning, calf and foot work, puts it among the most fully-featured chairs in the $8,000-$11,999 band. For buyers who want maximum feature density without reaching ultra-premium pricing, the Dios-7300 is the strongest option.",
   },
   "ogawa-og8901": {
     label: "Best for heavier buyers at this tier",

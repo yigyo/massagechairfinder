@@ -371,7 +371,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 4,
-    priceMin: 4999,  // massagechairstore.com verified live 2026-06-01 (was 11999; page shows "Originally $11,999", current price $4,999)
+    priceMin: 6999,  // massagechairstore.com verified live 2026-07-12 (promo ended; was 4999, now $6,999 from $11,999 MSRP) -- crossed mid -> upper-mid band
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -422,6 +422,8 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '5-10% (Impact)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://massagechairstore.com/infinity-evolution-max-4d/',
+    inStock: false,  // 2026-07-12 audit: new SKU gone from massagechairstore (page returns empty body; absent from Infinity/4D/all-chairs collections). Only Certified Pre-Owned remains. Infinity's own site lists it "Limited Availability". Confirm discontinuation, then set active:false.
+    alternativeIds: ['infinity-genesis-max', 'jpmedics-kumo-4d'],
     imageUrl: '/images/chairs/infinity-evo-max-4d.jpg',
     goodwinLookupKey: 'infinity evolution',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/infinity-evo-max-4d-massage-chair.webp?v=1776902757',
@@ -527,7 +529,6 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '3-8% (Awin)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://www.humantouch.com/products/super-novo-3-0-massage-chair',
-    amazonAsin: 'B003O9HBT2',  // listing unavailable or version mismatch 2026-06-07; do not set amazonUrl until audit verifies
     imageUrl: '/images/chairs/human-touch-super-novo-3-0.jpg',
     imageWhiteBg: false,
     goodwinLookupKey: 'human touch super novo',
@@ -1671,7 +1672,7 @@ export const CHAIRS: Chair[] = [
     name: 'Kahuna Dios-1288 8D Massage Chair',
     brand: 'Kahuna',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 16999,
+    priceMin: 17999,  // wishrockrelaxation.com verified 2026-07-12 (was 16999)
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -1740,7 +1741,7 @@ export const CHAIRS: Chair[] = [
     name: 'Kahuna Dios-7300 7D Massage Chair',
     brand: 'Kahuna',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 7999,
+    priceMin: 8999,  // wishrockrelaxation.com verified 2026-07-12 (was 7999) -- crossed upper-mid -> premium band
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -2720,7 +2721,7 @@ export const CHAIRS: Chair[] = [
     name: 'Nouhaus New Classic',
     brand: 'Nouhaus',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 1499,
+    priceMin: 1399,  // nouhaus.com verified 2026-07-12 (lowest variant, from $1,399.99)
     affiliateTier: null,
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',

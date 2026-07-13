@@ -39,7 +39,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'kahuna-dios-7300': {
     label: 'Dual-track SL roller, coverage into glutes and hips',
-    why: "Sciatica pain often originates at the piriformis and gluteal muscles, not just the lumbar. The Dios-7300 addresses this with a 7D dual-track SL roller that extends coverage through the full lumbar, sacrum, and into the glutes simultaneously from two independent roller assemblies. Heat to the lumbar and legs, zero gravity, foot and calf rollers, AI body scanning. For buyers whose sciatica is worst in the glutes or down the hamstring, the SL extension combined with the dual-roller system gives more targeted coverage than a standard 4D SL-track at this price. In the $5,000-$7,999 band via Wish Rock Relaxation.",
+    why: "Sciatica pain often originates at the piriformis and gluteal muscles, not just the lumbar. The Dios-7300 addresses this with a 7D dual-track SL roller that extends coverage through the full lumbar, sacrum, and into the glutes simultaneously from two independent roller assemblies. Heat to the lumbar and legs, zero gravity, foot and calf rollers, AI body scanning. For buyers whose sciatica is worst in the glutes or down the hamstring, the SL extension combined with the dual-roller system gives more targeted coverage than a standard 4D SL-track at this price. In the $8,000-$11,999 band via Wish Rock Relaxation.",
   },
 }
 

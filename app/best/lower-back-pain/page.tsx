@@ -41,8 +41,8 @@ const EDITORIAL: Record<string, Editorial> = {
     why: 'The Maestro LE is a 4D SL-track chair with body scanning, lumbar heat, and space-saving 5-inch wall clearance in the $8,000-$11,999 band. The 4D roller system varies both depth and speed across the full spine-to-glute SL-track path. For lower back buyers who want the complete combination of premium roller quality and confirmed full-coverage SL-track without crossing into the ultra-premium tier, this is the pick. 260 lb capacity.',
   },
   'kahuna-dios-7300': {
-    label: "Best dual-track roller for lower back, $5,000-$7,999 band",
-    why: "The Dios-7300 uses a 7D dual-track roller system, a Kahuna mechanism where two independent roller assemblies move simultaneously through the SL-track path. For buyers with chronic lower back pain, this means the chair can target multiple vertebral segments at the same time rather than sequentially, which changes how the massage feels and how much of the lumbar and sacral region is covered per pass. SL-track extends under the glutes. Heat, zero gravity, foot and calf rollers, AI body scan, voice control. In the $5,000-$7,999 band via Wish Rock Relaxation.",
+    label: "Best dual-track roller for lower back, $8,000-$11,999 band",
+    why: "The Dios-7300 uses a 7D dual-track roller system, a Kahuna mechanism where two independent roller assemblies move simultaneously through the SL-track path. For buyers with chronic lower back pain, this means the chair can target multiple vertebral segments at the same time rather than sequentially, which changes how the massage feels and how much of the lumbar and sacral region is covered per pass. SL-track extends under the glutes. Heat, zero gravity, foot and calf rollers, AI body scan, voice control. In the $8,000-$11,999 band via Wish Rock Relaxation.",
   },
 }
 
