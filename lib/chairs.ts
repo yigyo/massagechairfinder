@@ -843,7 +843,7 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '5-10% (Impact)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
-    amazonAsin: 'B08T4BXGP3',  // 2026-07-13 browser check: listing live, correct product, but NO Amazon buy box (no featured offer, no price shown). Do not wire amazonUrl until a featured offer returns.  // listing unavailable or version mismatch 2026-06-07; do not set amazonUrl until audit verifies
+    amazonAsin: 'B08T4BXGP3',  // 2026-07-13 browser check: listing live, correct product, but NO Amazon buy box (no featured offer, no price shown). Do not wire amazonUrl until a featured offer returns.
     imageUrl: '/images/chairs/kyota-genki-m380.jpg',
     goodwinLookupKey: 'kyota genki',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Kyota-Genki-M380-massage-chair.jpg?v=1776836198',
