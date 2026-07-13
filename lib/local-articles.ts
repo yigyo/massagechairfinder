@@ -2489,7 +2489,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If heat is a priority for your pain profile, tell the <a href="/finder">chair finder</a> that muscle tension and warmth are important factors. The chair finder filters for chairs with confirmed heat features matched to your budget and body fit.</p>
 
-<p>For a full breakdown of feature tradeoffs by price tier, see the <a href="/learn/how-to-buy-a-massage-chair">complete massage chair buying guide</a>.</p>
+<p>For a full breakdown of feature tradeoffs by price tier, see the <a href="/learn/how-to-buy">complete massage chair buying guide</a>.</p>
     `,
   },
 
@@ -2627,7 +2627,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If cardiovascular health is a factor in your purchase, the <a href="/finder">chair finder</a> can narrow your options by pressure preference and heat intensity. Gentler chairs with fine-grained intensity control are generally preferable for buyers managing blood pressure concerns.</p>
 
-<p>For a broader view of how to evaluate chairs across different health conditions, the <a href="/learn/massage-chairs-for-lower-back-pain">lower back pain guide</a> and <a href="/learn/how-to-buy-a-massage-chair">buying guide</a> cover the full spectrum of fit variables in detail.</p>
+<p>For a broader view of how to evaluate chairs across different health conditions, the <a href="/learn/massage-chairs-for-lower-back-pain">lower back pain guide</a> and <a href="/learn/how-to-buy">buying guide</a> cover the full spectrum of fit variables in detail.</p>
     `,
   },
 
@@ -2736,7 +2736,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If you are comparing a 4D chair with poor track type or body fit against a 3D chair with the right track and confirmed fit for your body, choose the 3D. Track type and fit are more important to chronic pain outcomes than the roller dimension.</p>
 
-<p>For a full breakdown of how roller dimensions fit into the complete buying decision, see the <a href="/learn/how-to-buy-a-massage-chair">massage chair buying guide</a>. Ready to filter by roller type and your specific pain profile? The <a href="/finder">chair finder</a> does this automatically.</p>
+<p>For a full breakdown of how roller dimensions fit into the complete buying decision, see the <a href="/learn/how-to-buy">massage chair buying guide</a>. Ready to filter by roller type and your specific pain profile? The <a href="/finder">chair finder</a> does this automatically.</p>
     `,
   },
 
@@ -2753,7 +2753,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Most massage chair warranties cover the following categories separately:</p>
 
-<p><strong>Structural frame:</strong> The chassis, seat frame, and recliner mechanism. This is almost always the longest coverage period -- often lifetime or 10 years for quality brands. Frame failures are rare and expensive to cause, so manufacturers extend generous terms here.</p>
+<p><strong>Structural frame:</strong> The chassis, seat frame, and recliner mechanism. This is almost always the longest coverage period, often lifetime or 10 years for quality brands. Frame failures are rare and expensive to cause, so manufacturers extend generous terms here.</p>
 
 <p><strong>Rollers and mechanisms:</strong> The massage rollers, track rail, and roller drive motor. This is the core mechanism and where most massage chair failures occur. Quality brands cover this for 3-5 years. Entry-level brands often limit roller coverage to 1-2 years.</p>
 
@@ -2767,13 +2767,13 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>A quality warranty for a mid-to-high-end massage chair (mid tier and up) should include at minimum: 3 years on rollers and mechanisms, 2 years on electrical components, and labor included in both. Anything shorter than this on rollers suggests the manufacturer does not have confidence in their own mechanism quality.</p>
 
-<p>The best warranties in the category provide 3-5 years on all mechanical and electrical components with labor included. Medical Breakthrough chairs, some Infinity models, and Synca Wellness chairs tend to have strong warranty terms relative to their price tier. Always confirm current warranty terms directly with the retailer before purchasing -- manufacturers update their terms and what you see on a review site may not reflect current coverage.</p>
+<p>The best warranties in the category provide 3-5 years on all mechanical and electrical components with labor included. Medical Breakthrough chairs, some Infinity models, and Synca Wellness chairs tend to have strong warranty terms relative to their price tier. Always confirm current warranty terms directly with the retailer before purchasing, manufacturers update their terms and what you see on a review site may not reflect current coverage.</p>
 
 <h2>In-Home Service vs Depot Repair</h2>
 
 <p>This is the most practically important warranty distinction and the one most often buried in the fine print. In-home service means a technician comes to your house to perform repairs. Depot repair means you are responsible for shipping the chair back to a service center.</p>
 
-<p>Shipping a 200-250 lb massage chair is not a trivial task. Freight shipping costs for a chair can run a few hundred dollars each way. If your warranty requires depot repair and does not cover shipping, a single claim could cost you several hundred to over a thousand dollars in shipping alone before any repair cost. This is not theoretical -- it is a common complaint from buyers who did not read this clause before purchasing.</p>
+<p>Shipping a 200-250 lb massage chair is not a trivial task. Freight shipping costs for a chair can run a few hundred dollars each way. If your warranty requires depot repair and does not cover shipping, a single claim could cost you several hundred to over a thousand dollars in shipping alone before any repair cost. This is not theoretical, it is a common complaint from buyers who did not read this clause before purchasing.</p>
 
 <p>Quality brands in the upper-mid tier and up typically offer in-home service for at least the first 1-2 years. Some offer it for the full warranty period. This is worth asking about specifically before any purchase.</p>
 
@@ -2808,6 +2808,33 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>This is particularly relevant for high-end Japanese brands like Luraco, Panasonic, and Fujiiryoki, where the warranty difference between authorized and unauthorized purchase can be 10+ years of coverage versus none. Always purchase from an authorized retailer and confirm the authorization status before completing a high-ticket purchase.</p>
 
+<h2>Warranty on Paper vs Warranty in Practice</h2>
+
+<p>A warranty is a promise about parts and labor. What you actually care about is whether the company on the other end of the phone picks up, diagnoses correctly, and fixes the chair. Those are different things, and the gap between them is where most owner regret lives. A brand can advertise 3 years parts and 1 year labor and still leave you with a broken chair for six weeks.</p>
+
+<p>You can check service performance before you buy. It takes about fifteen minutes.</p>
+
+<p><strong>Look up the distributor, not the brand.</strong> Many massage chair brands are sold and serviced by a parent distributor, and that distributor is who handles your repair. Search the distributor name on the Better Business Bureau site and open the complaint file. You are not looking for a complaint count in isolation, since a larger distributor will naturally have more. You are looking at the mix.</p>
+
+<p><strong>Check the share classified as Service or Repair.</strong> BBB categorizes complaints by type. A file weighted heavily toward service and repair, rather than sales or advertising, tells you the chairs are being sold fine and then failing the owner afterward. That is the failure mode that costs you.</p>
+
+<p><strong>Read for repeated patterns, not one-off bad days.</strong> Four patterns show up again and again in massage chair service complaints, and each one has a question you can ask before you pay:</p>
+
+<ul>
+<li><strong>Parts shipped before diagnosis.</strong> The company mails a part based on your description, it does not fix the chair, and the cycle repeats over weeks. Ask: does a technician diagnose the fault before parts are ordered, or do you ship first and diagnose later?</li>
+<li><strong>Tickets closed for non-response.</strong> The owner emails, hears nothing, and the case is later marked closed because the owner did not follow up. Ask: what is your guaranteed response time on a service ticket, and is it in writing?</li>
+<li><strong>Refurbished units offered as replacements.</strong> A chair fails early and the buyer is offered a "factory certified" open-box unit instead of a new one. Ask: if the chair fails in the first year, is the replacement new or refurbished, and who decides?</li>
+<li><strong>Freight disputes.</strong> The part is free, the shipping is not, and a returned chair costs hundreds to move. Ask: on a warranty claim, who pays freight in both directions?</li>
+</ul>
+
+<p><strong>Get the answers in writing before you pay.</strong> A retailer who will answer those four questions by email is telling you something. A retailer who will not is also telling you something. Save the reply. If a claim goes badly later, that email is the difference between an argument and an escalation.</p>
+
+<h2>The Out-of-Warranty Cliff</h2>
+
+<p>The single most expensive thing nobody quotes you at the point of sale is what a repair costs once coverage ends. Rollers and the rolling mechanism are the most commonly cited hardware failure in owner complaints, and they sit in the part of the chair that is both mechanically loaded and labor-intensive to reach. Owners describe spending several hundred dollars on parts and non-refundable labor and still ending up with a chair that does not work, because the wrong component was replaced.</p>
+
+<p>This is why the length of mechanism coverage matters more than the headline warranty number, and why <a href="/learn/how-long-do-massage-chairs-last">how long massage chairs last</a> is worth reading alongside this guide. A 10-year frame warranty is close to meaningless if the roller mechanism is covered for one year and a mechanism replacement in year four costs a meaningful fraction of what you paid for the chair. When you compare two chairs at the same price, compare the mechanism and labor terms, not the biggest number on the page.</p>
+
 <h2>Extended Warranties: Are They Worth It?</h2>
 
 <p>Extended warranties from third-party providers are offered at checkout by many massage chair retailers. The value of these depends almost entirely on how the base manufacturer warranty is structured and what the extended coverage actually adds.</p>
@@ -2824,13 +2851,30 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If you need a repair, document the issue with video before calling the service line. This prevents disputes about what the failure mode was and speeds up the diagnostic process.</p>
 
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>What is the most important part of a massage chair warranty?</strong></p>
+<p>The term length on rollers and mechanisms, and whether labor is included. Those are the parts that fail and the parts that are expensive to fix. Frame coverage is usually long because frames rarely break.</p>
+
+<p><strong>How can I tell if a brand will actually honor its warranty?</strong></p>
+<p>Look up the distributor that services the brand on the Better Business Bureau site and read the complaint mix. A file weighted toward Service and Repair complaints, with repeated patterns of parts shipped before diagnosis or tickets closed for non-response, is a warning about service performance that the advertised warranty terms will not show you.</p>
+
+<p><strong>Does buying from an unauthorized retailer void the warranty?</strong></p>
+<p>It often does. Manufacturers commonly honor warranties only for chairs sold through authorized channels, so a discounted chair from a marketplace seller can arrive with no coverage at all. Verify the retailer with the manufacturer before you buy, not after.</p>
+
+<p><strong>What does a massage chair repair cost after the warranty ends?</strong></p>
+<p>It varies by component, but roller and mechanism work is the expensive case because it is both a costly part and labor-intensive to reach. Owners frequently report several hundred dollars in parts and non-refundable labor, and repeat visits when the fault was diagnosed remotely rather than in person.</p>
+
+<p><strong>Are extended warranties worth buying?</strong></p>
+<p>It depends entirely on what the base warranty already covers. If mechanisms and electrical are covered for 3 or more years with in-home service, an extended plan mostly buys you years 4 and 5. If the manufacturer covers mechanisms for only 1 year, an extended plan from a reputable provider is closer to a baseline necessity. Read the exclusions list, particularly the definition of improper use.</p>
+
 <h2>The Bottom Line</h2>
 
 <p>The most important warranty questions to ask before any massage chair purchase are: How long are rollers and mechanisms covered? Is labor included or separate? Is service in-home or depot? Is this retailer authorized by the manufacturer?</p>
 
 <p>Good answers: 3+ years on mechanisms, labor included, in-home service available, authorized dealer. These are the terms you should expect in the upper-mid tier and up. If a chair in this price range cannot meet these terms, that is a signal worth taking seriously.</p>
 
-<p>For help comparing chairs across price tiers and warranty terms, the <a href="/finder">chair finder</a> routes you to chairs sold through retailers with clear warranty support. The <a href="/learn/how-to-buy-a-massage-chair">buying guide</a> covers warranty evaluation as part of the full decision framework.</p>
+<p>For help comparing chairs across price tiers and warranty terms, the <a href="/finder">chair finder</a> routes you to chairs sold through retailers with clear warranty support. The <a href="/learn/how-to-buy">buying guide</a> covers warranty evaluation as part of the full decision framework, and the <a href="/buyers-guide">Buyer\'s Guide</a> collects the questions to ask a retailer in one place. If you are weighing brands on reputation, <a href="/learn/fake-massage-chair-reviews">how to spot a paid or fake review</a> and <a href="/learn/massage-chair-price-tiers">what you get at each price tier</a> are the next two things to read.</p>
     `,
   },
 
@@ -3377,7 +3421,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Warranty length and structure. Manufacturers who cover rollers and electrical components for three or more years with in-home service are signaling confidence in their own build quality. One-year warranties on mechanisms suggest the manufacturer expects failures in the second year. Confirm whether labor is included or separate — parts-covered warranties that exclude labor still leave you paying a few hundred dollars per service call on covered components.</p>
 
-<p>Time in business and domestic service infrastructure. Brands that have been in the U.S. market for 10+ years and maintain certified technician networks have a demonstrated track record. Newer or unfamiliar brands may offer attractive specs and prices but have no repair infrastructure when issues arise. The <a href="/learn/how-to-buy-a-massage-chair">buying guide</a> includes a framework for evaluating brand credibility before purchase.</p>
+<p>Time in business and domestic service infrastructure. Brands that have been in the U.S. market for 10+ years and maintain certified technician networks have a demonstrated track record. Newer or unfamiliar brands may offer attractive specs and prices but have no repair infrastructure when issues arise. The <a href="/learn/how-to-buy">buying guide</a> includes a framework for evaluating brand credibility before purchase.</p>
 
 <p>Parts availability. Ask whether replacement parts for your model are stocked domestically. Some brands restrict parts sales to chairs purchased through their own channels and maintain limited inventory depth for older models. A chair that cannot be repaired because parts are unavailable is effectively disposable after its first significant failure.</p>
 
