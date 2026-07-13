@@ -7,7 +7,7 @@
 //   <SocialIcons enabled={['instagram', 'facebook', 'pinterest', 'youtube', 'tiktok']} />  // /links
 //
 // To update which icons appear on a surface, change the `enabled` prop.
-// To update a URL or icon, edit SOCIAL_LINKS below — change propagates everywhere.
+// To update a URL or icon, edit SOCIAL_LINKS below, change propagates everywhere.
 
 import type { ReactNode } from 'react'
 

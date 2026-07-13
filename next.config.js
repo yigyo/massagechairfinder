@@ -53,6 +53,12 @@ const nextConfig = {
         destination: '/chairs/synca-wellness-jp3000',
         permanent: true,
       },
+      {
+        // Infinity Evo Max 4D discontinued 2026-07; compare page removed.
+        source: '/compare/infinity-evo-max-vs-jpmedics-kumo-4d',
+        destination: '/compare',
+        permanent: true,
+      },
     ]
   },
   webpack: (config) => {

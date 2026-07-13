@@ -26,7 +26,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Massage Chair Finder — Find the Right Chair for Your Body',
+    default: 'Massage Chair Finder, Find the Right Chair for Your Body',
     template: '%s | Massage Chair Finder',
   },
   description:

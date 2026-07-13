@@ -1,9 +1,9 @@
-// nav-data.ts — display label overrides for nav items
+// nav-data.ts, display label overrides for nav items
 //
 // YOU DO NOT NEED TO EDIT THIS FILE when adding new pages.
 // New best/* and compare/* pages are auto-detected from the filesystem at build time.
 //
-// Edit this file ONLY if the auto-generated label looks wrong — for example to fix
+// Edit this file ONLY if the auto-generated label looks wrong, for example to fix
 // capitalization or phrasing (e.g. "Jpmedics" -> "JPMedics").
 // If a slug has no entry here, a label is generated automatically from the slug.
 
@@ -34,7 +34,6 @@ export const COMPARE_LABELS: Record<string, string> = {
   'amamedics-hilux-4d-vs-titan-pro-vigor-4d':          'AmaMedics Hilux 4D vs Titan Pro Vigor 4D',
   'daiwa-relax-2-zero-3d-vs-synca-jp3000':             'Daiwa Relax 2 Zero 3D vs Synca JP3000',
   'infinity-dynasty-4d-vs-infinity-genesis-max-4d':    'Infinity Dynasty 4D vs Infinity Genesis Max 4D',
-  'infinity-evo-max-vs-jpmedics-kumo-4d':              'Infinity Evo Max vs JPMedics Kumo 4D',
   'kahuna-sm-7300s-vs-relaxonchair-yukon-4d':          'Kahuna SM-7300S vs Relax On Chair Yukon 4D',
   'kyota-yugana-m780-vs-osaki-os-pro-maestro-le':      'Kyota Yugana M780 vs Osaki OS-Pro Maestro LE',
   'luraco-i9-max-plus-vs-panasonic-mak1':              'Luraco i9 Max Plus vs Panasonic MAK1',

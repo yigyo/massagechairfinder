@@ -151,7 +151,7 @@ function isOutOfRangeHeight(text: string): boolean {
 
 // Detect ambiguous-height clarification (e.g. user typed bare "6" and AI asks
 // "did you mean 6'0\" exactly?"). Distinguished from true out-of-range by the
-// absence of "outside/beyond/range/tallest" keywords — those signal that the
+// absence of "outside/beyond/range/tallest" keywords. Those signal that the
 // height is too extreme and would lead to a dead-end; clarification cases
 // proceed normally with the AI's offered interpretation.
 function isHeightClarification(text: string): boolean {
@@ -488,7 +488,7 @@ export default function ChairFinder() {
       })
       setEmailSent(true)
     } catch {
-      // fail silently — show success anyway so UX isn't broken
+      // fail silently, show success anyway so UX isn't broken
       setEmailSent(true)
     } finally {
       setEmailSending(false)
@@ -671,7 +671,7 @@ export default function ChairFinder() {
             </div>
           )}
 
-          {/* Dead-end: no chairs available for this user — show Home button only */}
+          {/* Dead-end: no chairs available for this user, show Home button only */}
           {showDeadEnd && (
             <div style={{ marginTop: 8 }}>
               <a
@@ -688,7 +688,7 @@ export default function ChairFinder() {
             </div>
           )}
 
-          {/* Bridge "Continue" pill — when no options and not a height question and not a dead end */}
+          {/* Bridge "Continue" pill, when no options and not a height question and not a dead end */}
           {options.length === 0 && !showTextInput && !showOutOfRange && !showHeightClarification && !showDeadEnd && (
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 12 }}>
               <button
@@ -701,7 +701,7 @@ export default function ChairFinder() {
             </div>
           )}
 
-          {/* Nav — hide Start over on first question, nothing to restart from yet */}
+          {/* Nav: hide Start over on first question, nothing to restart from yet */}
           {turnCount > 1 && (
             <div style={{ display: 'flex', gap: 20, marginTop: 32 }}>
               <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 3, padding: 0 }}>

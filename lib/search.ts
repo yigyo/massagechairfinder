@@ -90,13 +90,13 @@ const BEST_PAGES: BestPage[] = [
   {
     slug: 'sciatica',
     title: 'Best Massage Chairs for Sciatica',
-    description: 'L-track and SL-track models that extend under the glutes and into the thighs — the anatomy sciatica requires.',
+    description: 'L-track and SL-track models that extend under the glutes and into the thighs, the anatomy sciatica requires.',
     keywords: ['sciatica', 'sciatic', 'sciatic nerve', 'hip pain', 'glute', 'piriformis', 'radiating leg pain'],
   },
   {
     slug: 'lower-back-pain',
     title: 'Best Massage Chairs for Lower Back Pain',
-    description: 'SL-track chairs that reach the lumbar and hips — the right call for 80% of buyers.',
+    description: 'SL-track chairs that reach the lumbar and hips, the right call for 80% of buyers.',
     keywords: ['lower back pain', 'lower back', 'lumbar', 'back pain', 'lumbar pain', 'sacrum'],
   },
   {
@@ -108,7 +108,7 @@ const BEST_PAGES: BestPage[] = [
   {
     slug: 'small-spaces',
     title: 'Best Massage Chairs for Small Spaces',
-    description: 'Space-saving models — some need as little as 2 inches from the wall.',
+    description: 'Space-saving models, some need as little as 2 inches from the wall.',
     keywords: ['small space', 'space saving', 'apartment', 'wall clearance', 'compact', 'wall hugger', 'tight space'],
   },
   {
@@ -120,7 +120,7 @@ const BEST_PAGES: BestPage[] = [
   {
     slug: 'under-3000',
     title: 'Best Massage Chairs Under $3,000',
-    description: 'The sweet spot for most buyers — strong features without flagship pricing.',
+    description: 'The sweet spot for most buyers, strong features without flagship pricing.',
     keywords: ['under 3000', '3000', '2500'],
   },
   {
@@ -296,7 +296,7 @@ export function runSearch(rawQuery: string): {
     }
   }
 
-  // ── Step 1: Chairs — direct name/brand text match ─────────────────────────
+  // ── Step 1: Chairs, direct name/brand text match ─────────────────────────
   const nameMatchChairs: SearchResult[] = []
   for (const chair of CHAIRS) {
     if (!chair.active || !chair.mcfActive) continue
@@ -306,7 +306,7 @@ export function runSearch(rawQuery: string): {
     }
   }
 
-  // ── Step 2: Chairs — condition keyword expansion (sparse conditions only) ──
+  // ── Step 2: Chairs, condition keyword expansion (sparse conditions only) ──
   const conditionChairs: SearchResult[] = []
   for (const { keywords, filter, sparse } of CONDITION_CHAIR_FILTERS) {
     if (!sparse) continue  // skip common features like heat/zero gravity
@@ -322,7 +322,7 @@ export function runSearch(rawQuery: string): {
     break
   }
 
-  // ── Step 3: Articles — score-ranked text match ────────────────────────────
+  // ── Step 3: Articles, score-ranked text match ────────────────────────────
   const scoredArticles: Array<{ slug: string; result: SearchResult; score: number }> = []
   for (const article of LOCAL_ARTICLES) {
     const score = scoreArticle(article.title, article.excerpt, article.body, q)
@@ -343,7 +343,7 @@ export function runSearch(rawQuery: string): {
   scoredArticles.sort((a, b) => b.score - a.score)
   const articles: SearchResult[] = scoredArticles.map(s => s.result)
 
-  // ── Step 4: Articles — condition keyword expansion (fills gaps) ───────────
+  // ── Step 4: Articles, condition keyword expansion (fills gaps) ───────────
   for (const { keywords, slugs } of CONDITION_ARTICLE_MAP) {
     if (!keywords.some(kw => fuzzyMatches(kw, q))) continue
     for (const slug of slugs) {
@@ -361,7 +361,7 @@ export function runSearch(rawQuery: string): {
     }
   }
 
-  // ── Step 5: Brands — name match only (not tagline/description) ────────────
+  // ── Step 5: Brands, name match only (not tagline/description) ────────────
   const brands: SearchResult[] = []
   for (const brand of LOCAL_BRANDS) {
     const brandName = normalize(brand.name)

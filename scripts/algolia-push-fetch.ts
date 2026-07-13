@@ -1,5 +1,5 @@
 /**
- * ALGOLIA PUSH (fetch-based — no npm deps required)
+ * ALGOLIA PUSH (fetch-based, no npm deps required)
  * Uses Node built-in fetch to call Algolia REST API directly.
  * Run: npx tsx scripts/algolia-push-fetch.ts
  */
@@ -99,7 +99,6 @@ const COMPARE_PAGES = [
   { slug: 'bodyfriend-phantom-ii-vs-bodyfriend-falcon-xd',        title: 'Bodyfriend Phantom II vs Bodyfriend Falcon XD' },
   { slug: 'daiwa-relax-2-zero-3d-vs-synca-jp3000',                title: 'Daiwa Relax 2 Zero 3D vs Synca JP-3000' },
   { slug: 'infinity-dynasty-4d-vs-infinity-genesis-max-4d',      title: 'Infinity Dynasty 4D vs Infinity Genesis Max 4D' },
-  { slug: 'infinity-evo-max-vs-jpmedics-kumo-4d',                 title: 'Infinity Evo Max 4D vs JPMedics Kumo 4D' },
   { slug: 'kahuna-sm-7300s-vs-relaxonchair-yukon-4d',             title: 'Kahuna SM-7300S vs Relax On Chair YUKON-4D' },
   { slug: 'kyota-yugana-m780-vs-osaki-os-pro-maestro-le',        title: 'Kyota Yugana M780 vs Osaki OS-Pro Maestro LE 2.0' },
   { slug: 'luraco-i9-max-plus-vs-panasonic-mak1',                 title: 'Luraco i9 Max Plus vs Panasonic MAK1' },

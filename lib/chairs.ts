@@ -413,16 +413,15 @@ export const CHAIRS: Chair[] = [
     id: 'infinity-evolution',
     name: 'Infinity Evo Max 4D',
     brand: 'Infinity',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // discontinued: new SKU pulled from massagechairstore 2026-07 (CPO only); Infinity lists "Limited Availability"
   reviewRating: 5.0,
   reviewCount: 1,
-    priceMin: 10999,  // verified 2026-04-27 (on sale from $12,999 MSRP)
+    priceMin: 10999,  // last verified 2026-04-27 (on sale from $12,999 MSRP)
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://massagechairstore.com/infinity-evolution-max-4d/',
-    inStock: false,  // 2026-07-12 audit: new SKU gone from massagechairstore (page returns empty body; absent from Infinity/4D/all-chairs collections). Only Certified Pre-Owned remains. Infinity's own site lists it "Limited Availability". Confirm discontinuation, then set active:false.
     alternativeIds: ['infinity-genesis-max', 'jpmedics-kumo-4d'],
     imageUrl: '/images/chairs/infinity-evo-max-4d.jpg',
     goodwinLookupKey: 'infinity evolution',

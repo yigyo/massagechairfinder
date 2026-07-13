@@ -7,19 +7,19 @@ export const metadata: Metadata = {
 }
 
 const categories = [
-  { label: 'Lower Back Pain', slug: 'lower-back-pain', desc: 'SL-track chairs that reach the lumbar and hips — the right call for 80% of buyers.' },
+  { label: 'Lower Back Pain', slug: 'lower-back-pain', desc: 'SL-track chairs that reach the lumbar and hips, the right call for 80% of buyers.' },
   { label: 'Sciatica', slug: 'sciatica', desc: 'L-track and SL-track models that work under the glutes and into the thighs.' },
   { label: 'Neck and Shoulders', slug: 'neck-shoulders', desc: 'Chairs with serious upper-body airbag coverage and deep neck rollers.' },
-  { label: 'Small Spaces', slug: 'small-spaces', desc: 'Space-saving models — some need as little as 2 inches from the wall.' },
+  { label: 'Small Spaces', slug: 'small-spaces', desc: 'Space-saving models, some need as little as 2 inches from the wall.' },
   { label: 'Under $2,000', slug: 'under-2000', desc: 'Entry-level chairs that still deliver meaningful relief.' },
-  { label: 'Under $3,000', slug: 'under-3000', desc: 'The sweet spot for most buyers — strong features without flagship pricing.' },
+  { label: 'Under $3,000', slug: 'under-3000', desc: 'The sweet spot for most buyers, strong features without flagship pricing.' },
   { label: 'Under $5,000', slug: 'under-5000', desc: 'Where SL-track gains 4D rollers and body fit ranges widen. The five best uses of this budget.' },
   { label: '$3,000–$5,000', slug: '3000-to-5000', desc: 'Mid-range flagships with SL-track, 4D rollers, and serious build quality.' },
   { label: 'Premium ($5,000+)', slug: 'premium', desc: 'Top-of-market chairs for buyers who want the best and want it to last.' },
   { label: 'Tall People', slug: 'tall-people', desc: 'Chairs with extended roller stroke and generous height accommodation.' },
   { label: 'Heavy-Duty', slug: 'heavy-duty', desc: 'High weight-capacity models with reinforced frames.' },
   { label: 'Seniors', slug: 'seniors', desc: 'Zero gravity, gentle pressure, and heat. Chairs verified for ease of use and long-term daily relief.' },
-  { label: 'Petite Buyers', slug: 'petite-buyers', desc: 'Chairs confirmed for buyers under 5\'2\" — verified height data, not just a spec sheet maximum.' },
+  { label: 'Petite Buyers', slug: 'petite-buyers', desc: 'Chairs confirmed for buyers under 5\'2\", verified height data, not just a spec sheet maximum.' },
   { label: 'Athlete Recovery', slug: 'athlete-recovery', desc: 'SL-track and L-track 4D chairs for post-training recovery. Verified glute and leg coverage.' },
     { label: 'Arthritis', slug: 'arthritis', desc: 'Chairs with 4D pressure control, multi-zone heat, and zero gravity for arthritic buyers across price tiers.' },
     { label: 'Under $10,000', slug: 'under-10000', desc: 'The best chairs in this tier. Where 4D quality peaks before diminishing returns.' },

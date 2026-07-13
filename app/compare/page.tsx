@@ -57,13 +57,6 @@ const COMPARISONS = [
     summary: 'Same price, same L-track 4D. The Bliss adds Zero Wall Fit space-saving and reflexology foot rollers. The MB6 Plus adds stretch programs and a confirmed 300 lb capacity.',
   },
   {
-    slug: 'infinity-evo-max-vs-jpmedics-kumo-4d',
-    chairA: 'Infinity Evo Max 4D',
-    chairB: 'JPMedics Kumo 4D',
-    tier: '$8,000-$11,999',
-    summary: 'Same price, both L-track 4D. The Evo Max needs only 2 inches of wall clearance. The Kumo 4D confirms 320 lb plus-size fit, supports buyers to 6\'3", and is made in Japan.',
-  },
-  {
     slug: 'ogawa-og6400-vs-titan-pro-vigor-4d',
     chairA: 'Ogawa Active XL Duo 3D',
     chairB: 'Titan Pro-Vigor 4D',

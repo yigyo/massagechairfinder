@@ -1,7 +1,7 @@
 import type { Chair } from './chairs'
 
 /**
- * Composite priority score — used for default sort on All Chairs, ordering within
+ * Composite priority score, used for default sort on All Chairs, ordering within
  * Best For pages, and as a tiebreaker in the Chair Finder.
  *
  * ── AFFILIATE PRIORITY ────────────────────────────────────────────────────────
@@ -11,7 +11,7 @@ import type { Chair } from './chairs'
  * chair to the top of every ranked surface on the site automatically.
  *
  * Current state: no active relationships yet. All goodwinStatus values are
- * 'none'. The +40 slot is reserved and ready — flip it when the deal lands.
+ * 'none'. The +40 slot is reserved and ready, flip it when the deal lands.
  *
  * Tiers:
  *   goodwinStatus 'affiliate' → +40  active confirmed deal
@@ -22,7 +22,7 @@ import type { Chair } from './chairs'
 export function chairScore(c: Chair): number {
   let score = 0
 
-  // ── Affiliate relationship (primary lever — you control this) ────────────
+  // ── Affiliate relationship (primary lever, you control this) ────────────
   if (c.goodwinStatus === 'affiliate') score += 40
   if (c.affiliateTier === 'A')         score += 10
   else if (c.affiliateTier === 'C')    score += 3

@@ -1,4 +1,4 @@
-// NavigationWrapper — server component
+// NavigationWrapper, server component
 // Reads app/best/ and app/compare/ at build time and passes the results to
 // the client Navigation component. No manual updates needed: create a new
 // page directory and it appears in the nav automatically on next deploy.

@@ -18,7 +18,10 @@ import re
 
 COMPARE_DIR = "app/compare"
 
-STUB_SLUGS = {"inada-dreamwave-vs-jpmedics-kumo-4d", "synca-jp970-vs-kahuna-lm-6800", "osaki-os-pro-admiral-ii-vs-kahuna-lm-6800s", "bodyfriend-phantom-ii-vs-bodyfriend-falcon-xd"}
+# NOTE: infinity-evo-max-vs-jpmedics-kumo-4d was REMOVED from the git tree when the
+# Evo Max 4D was discontinued (2026-07). The NTFS mount blocks unlink, so a zero-byte
+# page.tsx leftover remains on local disk only. Skip it here; it does not ship.
+STUB_SLUGS = {"inada-dreamwave-vs-jpmedics-kumo-4d", "synca-jp970-vs-kahuna-lm-6800", "osaki-os-pro-admiral-ii-vs-kahuna-lm-6800s", "bodyfriend-phantom-ii-vs-bodyfriend-falcon-xd", "infinity-evo-max-vs-jpmedics-kumo-4d"}
 
 REQUIRED_PATTERNS = {
     "Specs Compared heading":   r"Specs Compared",

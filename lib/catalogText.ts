@@ -2,8 +2,8 @@
  * CATALOG TEXT BUILDERS
  * Formats the chairs array into the text blocks used in AI system prompts.
  *
- * buildMcfCatalogText()     — for massagechairfinder.com (Emily, finder + advisor)
- * buildGoodwinCatalogText() — for goodwin-chat-backend server.js (Florence, quiz)
+ * buildMcfCatalogText(), for massagechairfinder.com (Emily, finder + advisor)
+ * buildGoodwinCatalogText(), for goodwin-chat-backend server.js (Florence, quiz)
  *
  * The output replaces the hardcoded "## COMPLETE CHAIR CATALOG" sections in both prompts.
  */

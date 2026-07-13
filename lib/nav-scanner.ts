@@ -1,6 +1,6 @@
-// nav-scanner.ts — server-only utility
+// nav-scanner.ts, server-only utility
 // Scans app/best/ and app/compare/ at build time to produce nav + sitemap data.
-// Never import this from a 'use client' file — it uses Node fs.
+// Never import this from a 'use client' file. It uses Node fs.
 
 import fs   from 'fs'
 import path from 'path'

@@ -26,13 +26,13 @@ interface LinkEntry {
 function buildLinkMap(excludeSlug?: string): LinkEntry[] {
   const entries: LinkEntry[] = []
 
-  // Chair model names — sort longest first to prevent partial matches
+  // Chair model names, sort longest first to prevent partial matches
   CHAIRS
     .filter(c => c.active && c.mcfActive !== false && c.id !== excludeSlug)
     .sort((a, b) => b.name.length - a.name.length)
     .forEach(c => entries.push({ text: c.name, href: `/chairs/${c.id}` }))
 
-  // Brand names — after chairs so chair names take precedence
+  // Brand names, after chairs so chair names take precedence
   LOCAL_BRANDS
     .filter(b => b.slug !== excludeSlug)
     .forEach(b => entries.push({ text: b.name, href: `/brands/${b.slug}` }))
@@ -45,11 +45,11 @@ export function autolink(html: string, currentSlug?: string): string {
   const linked = new Set<string>()
 
   // Split HTML into: (1) existing <a>...</a> blocks, (2) other tags, (3) text nodes
-  // Only process text nodes — leave everything else untouched.
+  // Only process text nodes. Leave everything else untouched.
   return html.replace(
     /(<a\b[^>]*>[\s\S]*?<\/a>)|(<[^>]+>)|([^<]+)/g,
     (match, anchor, tag, text) => {
-      // Existing anchor or HTML tag — pass through unchanged
+      // Existing anchor or HTML tag, pass through unchanged
       if (anchor || tag || !text) return match
 
       let result = text
