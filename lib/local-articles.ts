@@ -2853,19 +2853,19 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h2>Frequently Asked Questions</h2>
 
-<p><strong>What is the most important part of a massage chair warranty?</strong></p>
+<h3>What is the most important part of a massage chair warranty?</h3>
 <p>The term length on rollers and mechanisms, and whether labor is included. Those are the parts that fail and the parts that are expensive to fix. Frame coverage is usually long because frames rarely break.</p>
 
-<p><strong>How can I tell if a brand will actually honor its warranty?</strong></p>
+<h3>How can I tell if a brand will actually honor its warranty?</h3>
 <p>Look up the distributor that services the brand on the Better Business Bureau site and read the complaint mix. A file weighted toward Service and Repair complaints, with repeated patterns of parts shipped before diagnosis or tickets closed for non-response, is a warning about service performance that the advertised warranty terms will not show you.</p>
 
-<p><strong>Does buying from an unauthorized retailer void the warranty?</strong></p>
+<h3>Does buying from an unauthorized retailer void the warranty?</h3>
 <p>It often does. Manufacturers commonly honor warranties only for chairs sold through authorized channels, so a discounted chair from a marketplace seller can arrive with no coverage at all. Verify the retailer with the manufacturer before you buy, not after.</p>
 
-<p><strong>What does a massage chair repair cost after the warranty ends?</strong></p>
+<h3>What does a massage chair repair cost after the warranty ends?</h3>
 <p>It varies by component, but roller and mechanism work is the expensive case because it is both a costly part and labor-intensive to reach. Owners frequently report several hundred dollars in parts and non-refundable labor, and repeat visits when the fault was diagnosed remotely rather than in person.</p>
 
-<p><strong>Are extended warranties worth buying?</strong></p>
+<h3>Are extended warranties worth buying?</h3>
 <p>It depends entirely on what the base warranty already covers. If mechanisms and electrical are covered for 3 or more years with in-home service, an extended plan mostly buys you years 4 and 5. If the manufacturer covers mechanisms for only 1 year, an extended plan from a reputable provider is closer to a baseline necessity. Read the exclusions list, particularly the definition of improper use.</p>
 
 <h2>The Bottom Line</h2>
