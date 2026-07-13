@@ -843,7 +843,7 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '5-10% (Impact)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
-    amazonAsin: 'B08T4BXGP3',  // listing unavailable or version mismatch 2026-06-07; do not set amazonUrl until audit verifies
+    amazonAsin: 'B08T4BXGP3',  // 2026-07-13 browser check: listing live, correct product, but NO Amazon buy box (no featured offer, no price shown). Do not wire amazonUrl until a featured offer returns.  // listing unavailable or version mismatch 2026-06-07; do not set amazonUrl until audit verifies
     imageUrl: '/images/chairs/kyota-genki-m380.jpg',
     goodwinLookupKey: 'kyota genki',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Kyota-Genki-M380-massage-chair.jpg?v=1776836198',
@@ -978,7 +978,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.amazon.com/dp/B0D97TGBYS/?tag=massagechairf-20',  // tagged 2026-06-07; brand search showed no Bodyfriend listings, audit should verify liveness
     amazonUrl: 'https://www.amazon.com/dp/B0D97TGBYS/?tag=massagechairf-20',
-    amazonAsin: 'B0D97TGBYS',
+    amazonAsin: 'B0D97TGBYS',  // 2026-07-13 browser check: listing live, correct product (Falcon XD), but NO Amazon buy box (no featured offer, no price shown). Do not wire amazonUrl until a featured offer returns.
     goodwinLookupKey: 'bodyfriend falcon',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-falcon-massage-chair.jpg?v=1776904610',
     track: 'SL', roller: '4D',
@@ -2830,7 +2830,7 @@ export const CHAIRS: Chair[] = [
     name: 'RELX Full Body 20-Mode',
     brand: 'RELX',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1999,  // amazon.com observed 2026-06-07
+    priceMin: 1899,  // amazon.com verified 2026-07-13 via browser (was 1999; now $1,899.99 from $2,899.99 list)
     affiliateTier: null,
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2944,7 +2944,7 @@ export const CHAIRS: Chair[] = [
     name: 'HealthRelife 4D 20-Mode',
     brand: 'HealthRelife',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 2699,  // amazon.com observed 2026-06-07
+    priceMin: 2399,  // amazon.com verified 2026-07-13 via browser (was 2699; now $2,399 from $2,999 list)
     affiliateTier: null,
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
