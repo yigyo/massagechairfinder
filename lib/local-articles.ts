@@ -10231,6 +10231,272 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <p>[6] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>
 <p>[7] Pichot V, et al. <em>Automatic massage chair effects on heart rate and muscle tone: a randomized controlled trial.</em> 2025.</p>`,
   },
+  {
+    slug: "massage-and-frozen-shoulder",
+    title: "Massage and Frozen Shoulder: What Helps, What Does Nothing, and What Time Does On Its Own",
+    excerpt: "Frozen shoulder is a joint capsule problem, and massage is a soft tissue tool. Here is what the research supports, why no massage chair reaches the capsule, and the one chair setting that can set you back.",
+    order: 113,
+    publishedAt: "2026-07-14",
+    body: `<p><strong>Frozen shoulder is a problem in the joint capsule, not in the muscle. The connective tissue capsule around the shoulder joint thickens, tightens, and inflames, adhesions form, and the joint stops moving [1].</strong> Massage is a soft tissue tool. That mismatch is the entire story, and it is the part almost every page on this topic skips.</p>
+<p>There is real evidence that skilled hands help. A 2024 systematic review of six randomized trials of deep transverse friction massage found significant pain improvement in four of six and significant range-of-motion improvement in five of six [2]. But that technique is a therapist's fingertips, applied across the fibers of a structure they located by palpation. <strong>No massage chair does that, and no massage chair reaches the joint capsule.</strong> Before you spend several thousand dollars on your shoulder, you should know what you are and are not buying.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>Deep transverse friction massage improved pain in 4 of 6 randomized trials and range of motion in 5 of 6</strong> in a 2024 systematic review of adhesive capsulitis [2]</p>
+<p><strong>Cochrane's verdict is sober.</strong> On low-quality evidence, manual therapy plus exercise plus electrotherapy may not improve pain or function more than a glucocorticoid injection into the shoulder. No trial has even compared manual therapy plus exercise against placebo or no treatment [3]</p>
+<p><strong>It resolves on its own.</strong> Even left completely untreated, shoulder motion and function continue to improve, with full or nearly full recovery after about two years [1]</p>
+<p><strong>10 to 20 percent of people with diabetes develop frozen shoulder</strong> [1], and those cases tend to run longer and respond less well to treatment [4]</p></div>
+<h2>The natural history is the trap</h2>
+<p>Frozen shoulder moves through three stages [1]:</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>What happens</th>
+<th>How long</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Freezing</td>
+<td>Shoulder becomes stiff and painful to move. Pain climbs, often worse at night</td>
+<td>6 weeks to 9 months</td>
+</tr>
+<tr>
+<td>Frozen</td>
+<td>Pain often eases. Stiffness stays. Daily tasks get hard</td>
+<td>2 to 6 months</td>
+</tr>
+<tr>
+<td>Thawing</td>
+<td>Pain fades, motion slowly returns</td>
+<td>6 months to 2 years</td>
+</tr>
+</tbody>
+</table>
+<p>Now think about what that means for anyone selling you something. Buy a chair in month eleven, feel your shoulder start loosening in month fourteen, and you will credit the chair. The chair did not do it. <strong>The thawing stage was going to arrive whether you bought anything or not.</strong> Any product claim about frozen shoulder that is not measured against that natural history is not a claim at all, and we are not going to make one.</p>
+<h2>What the research actually shows</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>What it found</th>
+<th>Evidence strength</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Deep transverse friction massage systematic review [2]</td>
+<td>Pain significantly improved in 4 of 6 RCTs; range of motion in 5 of 6</td>
+<td>Systematic review of randomized trials. Real, and a fingertip technique</td>
+</tr>
+<tr>
+<td>Cochrane manual therapy and exercise [3]</td>
+<td>Manual therapy plus exercise plus electrotherapy may not beat a glucocorticoid injection for pain or function. No placebo-controlled trials of the combination exist</td>
+<td>Low-quality evidence, and the most rigorous look available</td>
+</tr>
+<tr>
+<td>Cleveland Clinic clinical guidance [1]</td>
+<td>Mainstays are physical therapy, stretching and range-of-motion exercise, heat and cold, NSAIDs, and corticosteroid injection. Manipulation under anesthesia or arthroscopic capsular release if a year of conservative care fails</td>
+<td>Tier 2, authoritative. The spine of this article</td>
+</tr>
+<tr>
+<td>StatPearls [4]</td>
+<td>Recovery may take two to three years. People with diabetes or thyroid dysfunction have longer, more severe courses and a less favorable prognosis</td>
+<td>Clinical reference</td>
+</tr>
+</tbody>
+</table>
+<p>Look at what the effective treatments have in common. They either <strong>take the joint through range</strong> (physical therapy, stretching, manipulation) or <strong>reduce the inflammation in the capsule</strong> (injection, NSAIDs). A massage chair does neither.</p>
+<h2>How a massage chair delivers this</h2>
+<p><strong>What a chair cannot replicate: the capsule.</strong> Stated first, on purpose. Rollers ride the muscles along your spine. Shoulder airbags squeeze the deltoid and the top of the arm inward. Neither reaches the glenohumeral joint capsule, and neither takes your shoulder through external rotation or abduction, which is where the restriction lives. No chair on the market mobilizes a shoulder joint. This is anatomy, not a feature gap that a better model will close.</p>
+<p><strong>What a chair cannot replicate: the rehab.</strong> Frozen shoulder recovery is active and progressive. A chair is passive. The risk is not that the chair fails. The risk is that it feels like it is doing the work, and you skip the physical therapy that actually moves the joint.</p>
+<p><strong>What a chair partially replicates: the compensation load.</strong> This is the real role, and it is not a consolation prize. Guard a painful shoulder and you hike it, tighten your upper trapezius and levator scapulae, stop swinging the arm, and start doing everything one-handed with the other side. That secondary tension is ordinary muscular load in exactly the territory neck and shoulder rollers cover, and it is treatable. It is the tax the frozen shoulder charges the rest of your body. See <a href="/learn/massage-and-neck-shoulder-pain">massage and neck and shoulder pain</a> for how that roller path works.</p>
+<p><strong>What a chair partially replicates: the night pain.</strong> Freezing-stage pain is often worse at night [1] and it wrecks sleep. Moderate-pressure massage shifts you toward parasympathetic dominance within about ten minutes [5], and a randomized trial of an automatic massage chair recorded roughly a 22 percent drop in heart rate and a 12 percent drop in muscle tone during sessions [6]. An evening session is a reasonable wind-down when your shoulder is keeping you up. That is mechanism, not an outcome trial in frozen shoulder, and no such trial exists.</p>
+<p><strong>What a chair fully replicates: heat on the back.</strong> Heat is on the conservative list [1] and a heated backrest delivers it. It does not deliver heat into the shoulder joint, which sits well outside anything a backrest heater covers.</p>
+<h2>The two settings that can set you back</h2>
+<p><strong>Turn the shoulder airbags off during the painful stage.</strong> The freezing stage is the inflamed, irritable one [1]. An airbag inflating around an actively inflamed shoulder squeezes and slightly moves the joint that hurts to move. Pain drives guarding, guarding means the shoulder stops moving, and immobilization is a documented risk factor for frozen shoulder in the first place [1]. So the buying rule here is specific: <strong>shoulder airbags must be separately defeatable</strong>, so the rest of the chair can run while your shoulder is left alone. Check that before you buy, not after. Our guide to <a href="/learn/airbag-massage">airbag massage</a> covers how the zones are grouped on different chairs.</p>
+<p><strong>Do not run a stretch program on a frozen shoulder.</strong> Chair <a href="/learn/massage-chair-stretch-program">stretch programs</a> work the spine and hips through end range with airbag traction. They are not built around a shoulder capsule, they cannot be graded to a restricted one, and forcing range into an inflamed capsule is exactly what clinicians tell you not to do. It is not a substitute for a physical therapist's mobilization.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Does massage help frozen shoulder?</strong></summary>
+<p>Skilled hands-on work has evidence behind it. Deep transverse friction massage improved pain in four of six randomized trials and range of motion in five of six [2]. But Cochrane found that manual therapy plus exercise may not outperform a corticosteroid injection, on low-quality evidence [3]. Massage is a reasonable part of conservative care. It is not the main event, and it does not shorten the condition.</p>
+</details>
+<details>
+<summary><strong>Does a massage chair help frozen shoulder?</strong></summary>
+<p>Not the shoulder itself. No chair reaches the joint capsule, and no chair takes the joint through range, which is what the effective treatments do. A chair can help the neck and upper back tension you pick up from guarding, and the sleep that night pain is stealing. Those are worth having. They are not treatment for the capsule.</p>
+</details>
+<details>
+<summary><strong>How long does frozen shoulder last?</strong></summary>
+<p>Typically one to three years from start to finish [1], and recovery may take two to three years in some cases [4]. Even with no treatment at all, motion and function keep improving, with full or nearly full recovery after roughly two years [1]. Judge any treatment, including a chair, against that.</p>
+</details>
+<details>
+<summary><strong>Why do people with diabetes get frozen shoulder?</strong></summary>
+<p>The mechanism is not settled, but the association is strong: between 10 and 20 percent of people with diabetes develop it [1], and diabetic cases tend to be longer, more severe, and less responsive to treatment [4]. If you have diabetes and a stiffening shoulder, get it looked at early rather than waiting it out. Diabetes changes the chair calculus in other ways too, which we cover in <a href="/learn/massage-and-diabetic-neuropathy">massage and diabetic neuropathy</a>.</p>
+</details>
+<details>
+<summary><strong>Is my stiff shoulder frozen shoulder or something else?</strong></summary>
+<p>That is a clinician's call, and it hinges on passive range of motion: in frozen shoulder, both the motion you produce yourself and the motion someone else moves your arm through are limited [1]. A rotator cuff tear behaves differently. Get the diagnosis before you buy equipment for it.</p>
+</details>
+<details>
+<summary><strong>Should I push through the pain to keep it moving?</strong></summary>
+<p>No. Gentle, guided motion is protective. Forcing an inflamed capsule is not, and pain that makes you freeze the shoulder further is the exact loop that makes the condition worse [1]. Get a physical therapist to set the range and the pace.</p>
+</details>
+<h2>Finding a chair that helps here</h2>
+<p>If you have a frozen shoulder, buy a chair for what it can actually do: a roller path that reaches your neck and upper back, low and moderate intensity settings, back heat, and shoulder airbags you can switch off on their own. Skip anything sold to you on the strength of its shoulder work. For the general research on stiffening joints, see <a href="/learn/massage-and-joint-stiffness">massage and joint stiffness</a>, and for chairs that genuinely cover the neck and upper back, our <a href="/best/neck-shoulders">best massage chairs for neck and shoulder pain</a> shortlist is the right starting point.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your symptoms, your body, and your budget in a few minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Cleveland Clinic. <em>Frozen Shoulder (Adhesive Capsulitis).</em> Last updated January 2024. <a href="https://my.clevelandclinic.org/health/diseases/frozen-shoulder-adhesive-capsulitis">Link</a></p>
+<p>[2] <em>Deep transverse friction massage in the management of adhesive capsulitis: A systematic review.</em> 2024. <a href="https://pubmed.ncbi.nlm.nih.gov/38356832/">Link</a></p>
+<p>[3] Page MJ, Green S, Kramer S, et al. <em>Manual therapy and exercise for adhesive capsulitis (frozen shoulder).</em> Cochrane Database of Systematic Reviews. 2014;(8):CD011275. <a href="https://pubmed.ncbi.nlm.nih.gov/25157702/">Link</a></p>
+<p>[4] Mezian K, Coffey R, Chang KV. <em>Frozen Shoulder.</em> StatPearls. <a href="https://www.ncbi.nlm.nih.gov/books/NBK482162/">Link</a></p>
+<p>[5] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>
+<p>[6] Pichot V, et al. <em>Automatic massage chair effects on heart rate and muscle tone: a randomized controlled trial.</em> 2025.</p>`,
+  },
+  {
+    slug: "massage-and-restless-leg-syndrome",
+    title: "Massage and Restless Legs Syndrome: The One Thing a Chair Is Already Told To Do, and the One Thing It Gets Wrong",
+    excerpt: "NIH guidance already lists leg massage and vibration as RLS relief measures, which is exactly what a chair's calf modules do. Here is the evidence, the timing rule that decides everything, and why sitting still in a chair is also the trigger.",
+    order: 114,
+    publishedAt: "2026-07-14",
+    body: `<p><strong>Get your ferritin checked before you buy anything.</strong> Low iron in the brain is implicated in restless legs syndrome, and the first step in treatment is to fix what is making it worse, iron deficiency included [1]. A massage chair does nothing about iron. A blood test costs a fraction of a chair and is the actual lever.</p>
+<p>With that said: this is the one condition we cover where the federal guidance already recommends what a chair does. NINDS lists <strong>massaging the legs</strong> and <strong>using vibration pads to the back of the legs</strong> among the measures that may relieve RLS, alongside warm baths, heat or ice, and moderate exercise [1]. A chair's calf and foot modules squeeze, roll, and vibrate the back of the legs. That is not a stretch of the recommendation. It is the recommendation, delivered by a machine.</p>
+<p>And there is a catch that nobody mentions, which we will get to. It is the most important paragraph on this page.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>NINDS lists leg massage and vibration to the back of the legs among RLS relief measures</strong> [1], which is precisely what a chair's calf and foot modules do</p>
+<p><strong>A mechanical foot massager improved RLS severity in a randomized pilot.</strong> After four weeks, the massager group improved on the RLS severity score by an average of 9.0 points versus no intervention (95% CI: 1.7 to 16.3, p = 0.017) and improved on a sleep scale by 22.0 points (p = 0.005) [2]. It was 28 people across four arms, so treat it as a pilot, not a proof</p>
+<p><strong>In hemodialysis patients, massage moved the needle hard.</strong> A meta-analysis of five randomized trials in 369 patients found a pooled RLS score difference of 12.01 points favoring massage (95% CI: 9.11 to 14.91) [3]. Different population, different driver, and worth naming as such</p>
+<p><strong>RLS has no cure</strong> [1]. Everything below is symptom relief</p></div>
+<h2>The catch: the chair is also the trigger</h2>
+<p>Here is the defining feature of RLS, in NINDS's own framing: symptoms are provoked by <strong>rest</strong>. They occur when you are inactive and sitting for extended periods, and the examples given are a plane trip and a movie. Movement relieves the sensations, and they come back as soon as the movement stops [1].</p>
+<p>Now describe a massage chair. It is a device that asks you to sit still, reclined, without moving your legs, for twenty to thirty minutes, in the evening.</p>
+<p>That is a near-perfect model of an RLS provocation.</p>
+<p>So the chair does two opposite things at once. The calf and foot modules deliver the counter-stimulation the NIH endorses. The reclined stillness delivers the trigger. Which side wins is individual, and the rules that follow are not optional:</p>
+<ul>
+<li><strong>The massage has to be running.</strong> A chair used as a recliner with the program off is a movie seat, and a movie seat is one of the two examples NINDS gives for what sets symptoms off.</li>
+<li><strong>Keep sessions short.</strong> 15 to 20 minutes, not 45. The longer you sit still, the more the trigger side of the ledger fills.</li>
+<li><strong>Get up when it ends.</strong> Do not fall asleep in the chair, do not linger. Movement is what relieves the sensations [1]. The chair should hand you off to walking to bed.</li>
+<li><strong>If a session makes your legs worse instead of better, stop.</strong> That outcome is entirely plausible here, and you should not push through it.</li>
+</ul>
+<h2>Timing is not a detail. It is the intervention.</h2>
+<p>RLS symptoms cluster in the late afternoon and evening, get worse at night, and usually leave a symptom-free window in the early morning [1].</p>
+<p>Which means a morning massage lands in the window where you do not have symptoms. It is close to useless for this purpose.</p>
+<p>The only session that makes sense for restless legs is an evening one, after dinner and near bedtime, aimed at the hour where the symptoms actually bite. In most topics we cover, timing is a preference. Here it is the whole mechanism, and getting it wrong wastes the purchase.</p>
+<h2>What the research actually shows</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>What it found</th>
+<th>Evidence strength</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NINDS RLS guidance [1]</td>
+<td>Leg massage, vibration to the back of the legs, warm baths, heat or ice, and moderate exercise are listed relief measures. No cure. Treat iron deficiency first</td>
+<td>Tier 2, authoritative. The spine of this article</td>
+</tr>
+<tr>
+<td>MMF07 foot massager randomized pilot [2]</td>
+<td>The massager group improved significantly on RLS severity and sleep at 4 weeks versus no intervention. Heat alone improved sleep but not severity</td>
+<td>Randomized, but 28 people across 4 arms. A pilot</td>
+</tr>
+<tr>
+<td>Massage in hemodialysis RLS, meta-analysis of 5 RCTs [3]</td>
+<td>Pooled RLS score 12.01 points lower with massage, 369 patients</td>
+<td>The strongest effect size here, and confined to dialysis patients</td>
+</tr>
+<tr>
+<td>Lavender oil massage in hemodialysis RLS [4]</td>
+<td>Significant RLS score decrease in the massage group; controls unchanged</td>
+<td>Randomized, single population</td>
+</tr>
+</tbody>
+</table>
+<p>Two things we will not do with this evidence. We will not tell you the foot-massager pilot proves a chair works: it is 28 people, six to eight per arm, and its own authors call it a pilot. And we will not carry the dialysis effect size across to you. <strong>Uremic RLS in end-stage kidney disease is a recognized secondary form with a different driver</strong> [1], and those were clinicians' hands in a dialysis unit, not a chair in a living room. The number is real. It is not your number.</p>
+<p>One more thing worth saying plainly: in that foot-massager trial, the combined massager-plus-heat group did not show a significant severity improvement, while the massager-alone group did [2]. It is tempting to conclude that heat cancels the benefit. Do not. Seven people per arm is far more likely to produce a null through lack of power than to reveal a real antagonism, and we would rather tell you the evidence is thin than hand you a clean story that is not there. Use heat if it feels good, skip it if it does not.</p>
+<h2>How a massage chair delivers this</h2>
+<table>
+<thead>
+<tr>
+<th>What NINDS lists as relief [1]</th>
+<th>Can a chair do it?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Massaging the legs</td>
+<td>Yes. Calf and foot modules, directly</td>
+</tr>
+<tr>
+<td>Vibration to the back of the legs</td>
+<td>Yes. Named explicitly in the guidance, and standard in calf modules</td>
+</tr>
+<tr>
+<td>Applying a heating pad</td>
+<td>Yes, on chairs with calf or foot heat</td>
+</tr>
+<tr>
+<td>Warm bath</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Moderate, consistent exercise</td>
+<td>No, and this one matters more than anything the chair offers</td>
+</tr>
+<tr>
+<td>Regular sleep schedule</td>
+<td>No, though an evening routine supports it</td>
+</tr>
+<tr>
+<td>Cutting alcohol, nicotine, caffeine</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Treating iron deficiency</td>
+<td>No. This is the actual treatment lever</td>
+</tr>
+</tbody>
+</table>
+<p>Three of eight, all of them in the symptom-relief column, none of them disease-modifying. That is a fair account of what a chair is worth in RLS, and it is more than we can say for most conditions people buy chairs for.</p>
+<p>The mechanism side supports the timing: moderate-pressure massage shifts you toward parasympathetic dominance within about ten minutes [5], and a randomized trial of an automatic massage chair recorded roughly a 22 percent drop in heart rate and a 12 percent drop in muscle tone during sessions [6]. Lowering arousal in the pre-sleep window is coherent with a disorder that lives in that window. It is not evidence of an effect on the disorder itself.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Does massage help restless legs syndrome?</strong></summary>
+<p>It is one of the relief measures NINDS lists [1], and a randomized pilot of a mechanical foot massager found a significant improvement in RLS severity and sleep at four weeks [2]. In hemodialysis patients, the evidence is stronger still [3]. What none of it shows is a cure, or a change to the underlying disorder. It is symptom relief in the evening, and that is a legitimate thing to want.</p>
+</details>
+<details>
+<summary><strong>Does a massage chair help restless legs?</strong></summary>
+<p>A chair's calf and foot modules do exactly what the NIH guidance describes: massage the legs and apply vibration to the back of them [1]. But sitting still is also the RLS trigger [1], so keep sessions to 15 to 20 minutes, always with the program running, and get up and walk to bed afterward rather than settling in.</p>
+</details>
+<details>
+<summary><strong>When should I use the chair if I have RLS?</strong></summary>
+<p>Evening, close to bed. Symptoms are worst in the late afternoon and at night and there is typically a symptom-free window in the early morning [1], so a morning session works on a problem you do not have yet.</p>
+</details>
+<details>
+<summary><strong>Should I use heat on my legs for restless legs?</strong></summary>
+<p>Optional. NINDS lists a heating pad or an ice pack among relief measures [1], and in the one device trial, heat alone improved sleep scores but not RLS severity [2]. Use it if it feels good. Do not buy a chair for it.</p>
+</details>
+<details>
+<summary><strong>Is restless legs the same as neuropathy or leg cramps?</strong></summary>
+<p>No, and they get confused constantly. RLS is an urge to move with uncomfortable sensations that ease when you move and return when you stop [1]. Neuropathy is nerve damage with burning, tingling, or numbness that does not care whether you are moving. They can coexist, and neuropathy is a named RLS-associated condition [1]. If you have diabetes, read <a href="/learn/massage-and-diabetic-neuropathy">massage and diabetic neuropathy</a> too, because the safety rules there are different and stricter.</p>
+</details>
+<details>
+<summary><strong>Do I need to see a doctor, or can I just buy a chair?</strong></summary>
+<p>See a doctor. RLS has no specific diagnostic test, but blood work can find the low iron, kidney disease, or other causes that are actually treatable [1], and some common drugs including certain antihistamines, antidepressants, and anti-nausea medications make RLS worse [1]. No chair setting will out-argue a prescription that is aggravating your symptoms.</p>
+</details>
+<h2>Finding a chair that helps here</h2>
+<p>For restless legs, everything you care about is below the knee: calf modules that squeeze and vibrate, foot rollers, and an evening program short enough that you are not sitting still for too long. Chairs sold on the strength of their back rollers are not solving this problem. Our guide to <a href="/learn/airbag-massage">airbag massage</a> explains what the calf modules actually do, <a href="/learn/massage-and-sleep">massage and sleep</a> covers the broader sleep evidence, and <a href="/learn/massage-chair-sleep">using a massage chair for sleep</a> covers where the session belongs in your evening. If your problem is trouble falling asleep rather than restless legs specifically, <a href="/learn/massage-and-insomnia">massage and insomnia</a> is the more useful page.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your symptoms, your body, and your budget in a few minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] National Institute of Neurological Disorders and Stroke. <em>Restless Legs Syndrome.</em> Last reviewed March 2026. <a href="https://www.ninds.nih.gov/health-information/disorders/restless-legs-syndrome">Link</a></p>
+<p>[2] <em>Randomized pilot trial for the efficacy of the MMF07 foot massager and heat therapy for restless legs syndrome.</em> 2020. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7117678/">Link</a></p>
+<p>[3] <em>Clinical Efficacy and Safety of Massage for the Treatment of Restless Leg Syndrome in Hemodialysis Patients: A Meta-Analysis of 5 Randomized Controlled Trials.</em> 2022. <a href="https://pubmed.ncbi.nlm.nih.gov/35479488/">Link</a></p>
+<p>[4] <em>The Effect of Massage With Lavender Oil on Restless Leg Syndrome in Hemodialysis Patients: A Randomized Controlled Trial.</em> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4733501/">Link</a></p>
+<p>[5] Diego MA, Field T. <em>Moderate pressure massage elicits a parasympathetic nervous system response.</em> International Journal of Neuroscience. 2009;119(5):630-638. <a href="https://pubmed.ncbi.nlm.nih.gov/19283590/">Link</a></p>
+<p>[6] Pichot V, et al. <em>Automatic massage chair effects on heart rate and muscle tone: a randomized controlled trial.</em> 2025.</p>`,
+  },
 
 ]
 
