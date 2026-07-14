@@ -155,6 +155,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-postpartum-recovery",
       "massage-and-diabetic-neuropathy",
       "massage-and-jaw-tension",
+      "massage-and-frozen-shoulder",
+      "massage-and-restless-leg-syndrome",
     ],
   },
 ]
