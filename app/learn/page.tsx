@@ -157,6 +157,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-jaw-tension",
       "massage-and-frozen-shoulder",
       "massage-and-restless-leg-syndrome",
+      "massage-and-scar-tissue",
     ],
   },
 ]
