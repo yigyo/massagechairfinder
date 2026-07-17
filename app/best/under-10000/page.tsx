@@ -235,6 +235,15 @@ export default function BestUnder10kPage() {
           <Link href="/best/premium" className="text-bronze hover:text-gold transition-colors">premium tier</Link>{" "}
           if you are considering chairs above $10,000 and want to understand what the additional spend actually adds.
         </p>
+        <p className="text-charcoal leading-relaxed">
+          At this spend, two reads matter most: {" "}
+          <Link href="/learn/why-massage-chairs-are-expensive" className="text-bronze hover:text-gold transition-colors">why massage chairs are expensive</Link>{" "}
+          explains what the extra cost actually buys, and the{" "}
+          <Link href="/learn/massage-chair-warranty-guide" className="text-bronze hover:text-gold transition-colors">warranty guide</Link>{" "}
+          covers how to check service and repair coverage before you commit. The{" "}
+          <Link href="/learn/4d-vs-3d-massage-chair-rollers" className="text-bronze hover:text-gold transition-colors">4D vs 3D rollers</Link>{" "}
+          guide explains the roller technology most chairs in this tier use.
+        </p>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

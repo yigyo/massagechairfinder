@@ -237,6 +237,15 @@ export default function BestSeniorsPage() {
           <Link href="/learn/track-types" className="text-bronze hover:text-gold transition-colors">track types guide</Link>{" "}
           explains S, L, and SL coverage in plain terms if the distinction is still unclear.
         </p>
+        <p className="text-charcoal leading-relaxed">
+          For the health side of the decision,{" "}
+          <Link href="/learn/massage-and-senior-health" className="text-bronze hover:text-gold transition-colors">massage and senior health</Link>{" "}
+          and{" "}
+          <Link href="/learn/massage-and-mobility-after-60" className="text-bronze hover:text-gold transition-colors">mobility after 60</Link>{" "}
+          cover what a chair can and cannot help with as you age. If roller pressure is a concern, the{" "}
+          <Link href="/learn/zero-gravity" className="text-bronze hover:text-gold transition-colors">zero gravity</Link>{" "}
+          guide explains the recline position that takes weight off the spine.
+        </p>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

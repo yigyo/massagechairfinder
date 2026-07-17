@@ -231,6 +231,15 @@ export default function BestUnder3000Page() {
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}
           uses budget as a primary filter and narrows by body fit from there.
         </p>
+        <p className="text-charcoal leading-relaxed">
+          Two more reads help at this tier: the{' '}
+          <Link href="/learn/4d-vs-3d-massage-chair-rollers" className="text-bronze hover:text-gold transition-colors">4D vs 3D rollers</Link>{' '}
+          guide explains what the roller upgrade feels like, and the{' '}
+          <Link href="/learn/massage-chair-price-tiers" className="text-bronze hover:text-gold transition-colors">price tier breakdown</Link>{' '}
+          shows where the under-$3,000 range sits against the rest of the catalog. If body fit is the open question, the{' '}
+          <Link href="/learn/body-fit" className="text-bronze hover:text-gold transition-colors">body fit guide</Link>{' '}
+          covers height, shoulder width, and weight limits.
+        </p>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

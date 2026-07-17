@@ -235,6 +235,15 @@ export default function Best3000To5000Page() {
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}
           narrows by pain pattern, body fit, and budget together.
         </p>
+        <p className="text-charcoal leading-relaxed">
+          To go deeper on the trade-offs at this tier, the{' '}
+          <Link href="/learn/4d-vs-3d-massage-chair-rollers" className="text-bronze hover:text-gold transition-colors">4D vs 3D rollers</Link>{' '}
+          guide explains the roller difference you are paying for,{' '}
+          <Link href="/learn/why-massage-chairs-are-expensive" className="text-bronze hover:text-gold transition-colors">why massage chairs are expensive</Link>{' '}
+          breaks down where the cost goes, and the{' '}
+          <Link href="/learn/massage-chair-price-tiers" className="text-bronze hover:text-gold transition-colors">price tier breakdown</Link>{' '}
+          maps each band to what it buys.
+        </p>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

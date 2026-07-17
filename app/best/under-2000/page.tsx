@@ -234,6 +234,15 @@ export default function BestUnder2000Page() {
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}
           includes budget as a primary filter.
         </p>
+        <p className="text-charcoal leading-relaxed">
+          Three reads pay off before buying at the entry tier: the{' '}
+          <Link href="/learn/massage-chair-price-tiers" className="text-bronze hover:text-gold transition-colors">price tier breakdown</Link>{' '}
+          shows what each band actually buys, the{' '}
+          <Link href="/learn/are-massage-chairs-worth-it" className="text-bronze hover:text-gold transition-colors">worth-it guide</Link>{' '}
+          sets realistic expectations at this price, and the{' '}
+          <Link href="/learn/refurbished-massage-chairs" className="text-bronze hover:text-gold transition-colors">refurbished guide</Link>{' '}
+          covers when a reconditioned unit beats a new entry chair.
+        </p>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">
