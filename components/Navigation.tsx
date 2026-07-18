@@ -25,6 +25,8 @@ function dropdownClass(label: string): string {
     return 'grid grid-cols-2 gap-x-4 min-w-[360px] px-3'
   if (label === 'Compare')
     return 'grid grid-cols-2 gap-x-4 min-w-[640px] px-3'
+  if (label === 'Learn')
+    return 'grid grid-cols-2 gap-x-4 min-w-[430px] px-3'
   return 'flex flex-col min-w-[230px]'
 }
 
@@ -33,7 +35,7 @@ function itemNoWrap(label: string): boolean {
 }
 
 function footerColSpan(label: string): string {
-  return label === 'By Brand' || label === 'Compare' ? 'col-span-2' : ''
+  return label === 'By Brand' || label === 'Compare' || label === 'Learn' ? 'col-span-2' : ''
 }
 
 const BY_BRAND_CHILDREN: NavChild[] = [
@@ -70,6 +72,28 @@ const BY_BRAND_CHILDREN: NavChild[] = [
   { label: 'Titan',              href: '/brands/titan' },
 ]
 
+// Learn dropdown links straight to the guides, not to anchors on /learn.
+// Fragment links pass no crawl signal to the articles themselves, which is why
+// the whole /learn cluster sat at "Discovered - currently not indexed" while
+// /best and /compare leaf pages (linked directly from their dropdowns) were
+// getting impressions. These fourteen are the foundational guides.
+const LEARN_CHILDREN: NavChild[] = [
+  { label: 'Track Types Explained',    href: '/learn/track-types' },
+  { label: 'How to Buy a Chair',       href: '/learn/how-to-buy' },
+  { label: 'Sizing a Chair to You',    href: '/learn/body-fit' },
+  { label: 'Zero Gravity',             href: '/learn/zero-gravity' },
+  { label: 'SL-Track Chairs',          href: '/learn/sl-track' },
+  { label: '4D vs 3D Rollers',         href: '/learn/4d-vs-3d-massage-chair-rollers' },
+  { label: 'Body Scanning',            href: '/learn/body-scanning' },
+  { label: 'Heat Therapy',             href: '/learn/heat-therapy' },
+  { label: 'Are They Worth It?',       href: '/learn/are-massage-chairs-worth-it' },
+  { label: 'Budget vs. Premium',       href: '/learn/massage-chair-price-tiers' },
+  { label: 'How Long They Last',       href: '/learn/how-long-do-massage-chairs-last' },
+  { label: 'Warranty Guide',           href: '/learn/massage-chair-warranty-guide' },
+  { label: 'For Lower Back Pain',      href: '/learn/massage-chairs-for-lower-back-pain' },
+  { label: 'For Seniors',              href: '/learn/massage-chairs-for-seniors' },
+]
+
 export default function Navigation({ bestPages = [], comparePages = [] }: Props) {
   const [menuOpen, setMenuOpen]     = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
@@ -99,14 +123,7 @@ export default function Navigation({ bestPages = [], comparePages = [] }: Props)
       label:   'Learn',
       href:    '/learn',
       viewAll: 'Browse the Learning Center',
-      children: [
-        { label: 'Core Decisions',    href: '/learn#core-decisions' },
-        { label: 'Tech Explained',    href: '/learn#tech-explained' },
-        { label: 'Health & Conditions', href: '/learn#health-conditions' },
-        { label: 'Buying Questions',  href: '/learn#buying-questions' },
-        { label: 'Owning a Chair',    href: '/learn#owning-a-chair' },
-        { label: 'Massage Research',  href: '/learn#massage-research' },
-      ],
+      children: LEARN_CHILDREN,
     },
     { label: "Buyer's Guide", href: '/buyers-guide' },
   ]
