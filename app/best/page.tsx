@@ -24,6 +24,8 @@ const categories = [
     { label: 'Arthritis', slug: 'arthritis', desc: 'Chairs with 4D pressure control, multi-zone heat, and zero gravity for arthritic buyers across price tiers.' },
     { label: 'Under $10,000', slug: 'under-10000', desc: 'The best chairs in this tier. Where 4D quality peaks before diminishing returns.' },
     { label: 'Office Workers', slug: 'office-workers', desc: 'SL-track chairs for neck, upper back, and posture relief from desk work. Entry-level to premium.' },
+    { label: 'Stress Relief', slug: 'stress-relief', desc: 'Zero gravity, heat, and foot coverage in chairs gentle enough to use every single evening.' },
+    { label: 'Sleep', slug: 'sleep', desc: 'Chairs that lower arousal before bed, with the room fit that makes a nightly session realistic.' },
 ]
 
 const commercialCategories = [
