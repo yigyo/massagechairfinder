@@ -235,13 +235,15 @@ export default function BestUnder2000Page() {
           includes budget as a primary filter.
         </p>
         <p className="text-charcoal leading-relaxed">
-          Three reads pay off before buying at the entry tier: the{' '}
+          A few reads pay off before buying at the entry tier: the{' '}
           <Link href="/learn/massage-chair-price-tiers" className="text-bronze hover:text-gold transition-colors">price tier breakdown</Link>{' '}
           shows what each band actually buys, the{' '}
           <Link href="/learn/are-massage-chairs-worth-it" className="text-bronze hover:text-gold transition-colors">worth-it guide</Link>{' '}
           sets realistic expectations at this price, and the{' '}
           <Link href="/learn/refurbished-massage-chairs" className="text-bronze hover:text-gold transition-colors">refurbished guide</Link>{' '}
-          covers when a reconditioned unit beats a new entry chair.
+          covers when a reconditioned unit beats a new entry chair, and the{' '}
+          <Link href="/learn/massage-chair-vs-massage-gun" className="text-bronze hover:text-gold transition-colors">massage chair vs massage gun comparison</Link>{' '}
+          weighs whether a chair earns its price over a cheaper handheld tool at this budget.
         </p>
       </div>
 

@@ -77,6 +77,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-chair-vs-massage-therapist",
       "massage-chair-vs-chiropractor",
       "are-costco-massage-chairs-worth-it",
+      "massage-chair-vs-massage-gun",
       "fake-massage-chair-reviews",
     ],
   },
