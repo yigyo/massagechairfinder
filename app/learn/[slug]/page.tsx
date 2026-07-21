@@ -4,6 +4,15 @@ import { notFound } from 'next/navigation'
 import { autolink } from '@/lib/autolink'
 import type { Metadata } from 'next'
 import BuyersGuideCallout from '@/components/BuyersGuideCallout'
+import YouTubeShort from '@/components/YouTubeShort'
+
+// Slug -> published YouTube Short. Only PUBLIC videos belong here (a private
+// video renders "unavailable"). Add a matched Short to its single best-fit
+// article; the facade below the article body loads on click only.
+const SHORT_BY_SLUG: Record<string, { id: string; title: string }> = {
+  "track-types": { id: "cIsTyL6uT2c", title: "S-track vs L-track vs SL-track, in 30 seconds" },
+  "massage-and-sleep": { id: "QqX0TtEFMGw", title: "Why a massage chair before bed helps you fall asleep" },
+}
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const local = getLocalArticle(params.slug)
@@ -243,6 +252,10 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             </>
           )
         })()}
+
+        {SHORT_BY_SLUG[params.slug] && (
+          <YouTubeShort id={SHORT_BY_SLUG[params.slug].id} title={SHORT_BY_SLUG[params.slug].title} />
+        )}
 
         {/* Article pagination */}
         <nav className="mt-12 pt-8 border-t border-sand grid grid-cols-3 gap-4 text-sm">
