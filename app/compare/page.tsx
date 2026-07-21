@@ -8,6 +8,20 @@ export const metadata: Metadata = {
 
 const COMPARISONS = [
   {
+    slug: 'osaki-os-pro-maestro-le-vs-ogawa-og8901',
+    chairA: 'Osaki OS-Pro Maestro LE 2.0',
+    chairB: 'Ogawa Master Drive DUO LE (OG-8901)',
+    tier: '$8,000-$11,999',
+    summary: 'Two premium SL-track 4D chairs around $9,000. The Maestro LE adds AI body scanning; the OG-8901 adds a 320 lb rating, a dual roller system, and near-zero wall clearance.',
+  },
+  {
+    slug: 'titan-3d-prestige-vs-ogawa-og6400',
+    chairA: 'Titan 3D Prestige',
+    chairB: 'Ogawa Active XL Duo (OG-6400)',
+    tier: '$3,000-$4,999',
+    summary: 'Two mid-tier SL-track 3D chairs priced within $200. The Titan reclines within an inch of the wall; the OG-6400 carries a 320 lb rating and a dual roller system.',
+  },
+  {
     slug: 'infinity-dynasty-4d-vs-infinity-genesis-max-4d',
     chairA: 'Infinity Dynasty 4D',
     chairB: 'Infinity Genesis Max 4D',
