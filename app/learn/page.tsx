@@ -17,6 +17,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "body-fit",
       "multi-user-households",
       "room-fit",
+      "will-a-massage-chair-ruin-your-living-room",
       "roller-dimensions",
       "zero-gravity",
       "brands-overview",

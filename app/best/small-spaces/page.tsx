@@ -242,7 +242,9 @@ export default function BestSmallSpacesPage() {
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}
           includes a space constraint question that surfaces only space-saving chairs when selected. The{' '}
           <Link href="/learn/room-fit" className="text-bronze hover:text-gold transition-colors">room fit guide</Link>{' '}
-          covers placement, clearance, and how to verify a chair will work in your specific room before it arrives.
+          covers placement, clearance, and how to verify a chair will work in your specific room before it arrives, and the{' '}
+          <Link href="/learn/will-a-massage-chair-ruin-your-living-room" className="text-bronze hover:text-gold transition-colors">will a massage chair ruin your living room</Link>{' '}
+          guide handles the aesthetics and whether a compact chair gives up massage quality.
         </p>
       </div>
 
