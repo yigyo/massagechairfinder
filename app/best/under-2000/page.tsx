@@ -243,7 +243,9 @@ export default function BestUnder2000Page() {
           <Link href="/learn/refurbished-massage-chairs" className="text-bronze hover:text-gold transition-colors">refurbished guide</Link>{' '}
           covers when a reconditioned unit beats a new entry chair, and the{' '}
           <Link href="/learn/massage-chair-vs-massage-gun" className="text-bronze hover:text-gold transition-colors">massage chair vs massage gun comparison</Link>{' '}
-          weighs whether a chair earns its price over a cheaper handheld tool at this budget.
+          weighs whether a chair earns its price over a cheaper handheld tool at this budget, and the{' '}
+          <Link href="/learn/massage-chair-repair-guide" className="text-bronze hover:text-gold transition-colors">repair guide</Link>{' '}
+          explains what actually happens when an entry chair breaks and why the distributor behind it matters more than the warranty length.
         </p>
       </div>
 

@@ -3279,6 +3279,14 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Is there a restocking fee, and what is the exact amount? Get this in writing before purchasing.</p>
 
+<h2>What the Return Trip Looks Like If You Live Up a Flight of Stairs</h2>
+
+<p>The hardest returns are not about paperwork, they are about physics. A massage chair weighs 200 pounds or more, and getting it back down from a second-floor condo or a third-floor walk-up is a heavier job than getting it up there was. The single most useful thing you can do is confirm, in writing and before you order, exactly how the chair leaves the building if you decide to send it back.</p>
+
+<p>The trap to watch for is a delivery tier mismatch. Many buyers pay for white glove delivery, where a two-person crew carries the chair upstairs, sets it in the room, and assembles it. But a return is often authorized as curbside only, which makes you responsible for getting that same 200-pound box back down to the street and packaged for the freight carrier. White glove in and curbside out is a real gap, and it is the reason some buyers who technically had a return option found they could not actually use it. If you live above the ground floor or do not have help on hand, ask specifically whether return pickup includes in-home or upstairs removal, not just a curbside handoff. For how the delivery tiers differ in the first place, see the <a href="/learn/massage-chair-delivery-types">delivery types guide</a>.</p>
+
+<p>Three things to get in writing before you buy, especially in a walk-up: who schedules and pays for the freight pickup, whether that pickup is curbside or in-home, and whether you need to keep the original carton to send the chair back. Confirming these three points at the point of sale costs nothing and turns an impossible-feeling return into a manageable one.</p>
+
 <h2>When to Keep a Chair That Felt Wrong at First</h2>
 
 <p>Apply the five-session rule before returning based on initial feel. Beyond that, consider whether the issue is adjustable. A chair that feels too firm at the current settings but has room to reduce depth, speed, and airbag intensity may simply need a few sessions of configuration. A chair already at the lowest setting that still feels wrong has nowhere left to go.</p>
@@ -10726,6 +10734,79 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <details>
 <summary><strong>What is the smallest massage chair that still gives a full-back massage?</strong></summary>
 <p>Look for a wall-hugging chair that keeps a full SL-track, such as the Titan 3D Prestige or the Osaki OS-Pro Admiral II. The SL-track preserves full spine-to-glute coverage while the space-saving base keeps the footprint and wall clearance down, so you get the complete massage path without the room-planning problem.</p>
+</details>`,
+  },
+  {
+    slug: "massage-chair-repair-guide",
+    title: "Massage Chair Repair: What Actually Happens When Yours Breaks",
+    excerpt: "When a massage chair breaks, the repair runs through the distributor that sold it, not a local technician. Most claims are handled by shipping a replacement part for you or a visiting tech to install, so the experience depends far more on how responsive that distributor is than on the warranty length printed on the box. Here is how repair really works, what tends to fail first, why a discontinued model is the riskiest chair to own, and how to judge a brand's service before you buy.",
+    order: 117,
+    publishedAt: "2026-07-24",
+    body: `<p>When a massage chair breaks, the repair almost always runs through the distributor or brand that sold it, not a local repair shop. Most warranty claims are resolved one of two ways: the distributor ships a replacement part to your home for you or a contracted technician to install, or a visiting tech comes out to diagnose and fix the chair in place. That means the thing that decides whether a repair is painless or maddening is not the number of years on the warranty, it is how responsive and well-stocked the service organization behind the chair is. This guide explains how repair actually works, what breaks first, why a discontinued chair is the riskiest one to own, and how to check a brand's service before you spend the money.</p>
+
+<h2>If a massage chair breaks, who actually fixes it?</h2>
+
+<p>The distributor does, or a technician the distributor contracts. Massage chairs are not serviced by general appliance repair shops, and there is no equivalent of a corner electronics store that stocks parts for them. When something fails, you open a claim with the company whose name is on the invoice, they diagnose the problem remotely, and they send either a part or a person. For most owners the entire relationship is with that one company, which is why the quality of its support desk matters as much as the engineering of the chair.</p>
+
+<p>This is also the single most common thing massage chair owners complain about in public. The warranty exists on paper, but the experience of using it varies enormously by distributor: some answer the phone and own the claim end to end, others leave tickets unanswered until the frustrated owner gives up. A long warranty from a company that does not pick up the phone is worth less than a shorter one from a company that does. The lesson is to weigh service reputation, not just warranty length, and the <a href="/learn/massage-chair-warranty-guide">warranty guide</a> covers what the coverage terms themselves actually include.</p>
+
+<h2>What does a warranty claim actually look like?</h2>
+
+<p>A typical claim starts with remote diagnosis. You describe the symptom, sometimes send a video, and the support team decides which part is likely at fault. They then ship that part to your home. Depending on your coverage tier, either a contracted technician comes to install it or you install it yourself with phone guidance. Higher tiers include in-home labor for a set number of years; lower tiers or later years often shift to parts-only, where you become the installer.</p>
+
+<p>The failure mode to understand before you buy is the parts-first loop. Because diagnosis is done remotely, the wrong part is sometimes shipped, or a part arrives dead on arrival, and the cycle restarts: new diagnosis, new part, more waiting. A claim that should take a week can stretch into a month or more when this happens. You cannot fully prevent it, but you can reduce the odds by choosing a distributor with a real service desk and by documenting every call, every ticket number, and every part shipment in writing. If a return window is running at the same time as a stalled repair, that documentation is what protects you.</p>
+
+<h2>What tends to break first on a massage chair?</h2>
+
+<p>The parts that move or generate heat are the ones that fail. In rough order of how often owners report them: the handheld remote and its cable, the airbag pump and its solenoids, the roller mechanism and its motor, the recline or slide actuators, and the power supply board. Upholstery wear and seam splitting show up later in a chair's life rather than as early failures. None of these is unusual for a machine with this many moving parts, which is why the service relationship matters so much over a chair's decade-long life. For how long chairs last in general and what shortens that life, see <a href="/learn/how-long-do-massage-chairs-last">how long massage chairs last</a> and the deeper <a href="/learn/massage-chair-reliability">reliability guide</a>.</p>
+
+<h2>Can you get parts for a discontinued massage chair?</h2>
+
+<p>Often you cannot, and that makes a discontinued model the riskiest chair to own. When a brand retires a model, spare parts for it stop being produced and existing stock runs down. Owners of orphaned chairs describe getting bounced in a circle: the manufacturer points them to third-party vendors, the vendors point them back to the manufacturer, and no one actually has the part. Even something as simple as a replacement remote can become impossible to source, leaving an owner running an expensive chair from the buttons on its side.</p>
+
+<p>This is the hidden cost in a used or heavily discounted chair. A resale unit or a clearance model at a steep markdown can be a genuine bargain, but only if parts are still available, so the age and current-production status of the model matter more than the sticker. Before buying used or discontinued, confirm the model is still supported and that remotes and common wear parts can still be ordered. The <a href="/learn/refurbished-massage-chairs">refurbished chairs guide</a> covers how to judge a reconditioned unit and when a new current-model chair is the safer buy.</p>
+
+<h2>How do you vet a brand's service before you buy?</h2>
+
+<p>Warranty length is published on every product page. Warranty behavior is not, and it is the number that actually predicts your experience. The way to close that gap is to ask specific questions before you order and get the answers in writing:</p>
+
+<p>Who owns the claim from start to finish, and is there a direct number or is support email-only? What does in-home labor coverage look like, for how many years, and when does the chair shift to parts-only? What is the typical response time on a service ticket? Are parts, including remotes, kept in stock for this model, and how long does the brand commit to supporting it after purchase? Is the chair a current-production model or one being phased out? A distributor that answers these plainly is showing you the service organization you would actually be relying on. One that dodges them is telling you something too.</p>
+
+<p>Delivery tier is part of this picture as well, because the crew that brings the chair in is often the same service path a repair or return travels back through. The <a href="/learn/massage-chair-delivery-types">delivery types guide</a> explains white glove versus curbside and why that choice matters beyond the first day.</p>
+
+<h2>What can you fix yourself before opening a claim?</h2>
+
+<p>A surprising share of massage chair problems are not failures at all, they are loose connections or power issues. Before you open a claim, unplug the chair for a minute and restart it, which clears many controller glitches. Check that the remote cable and the internal air hoses are seated firmly, since shipping and repositioning can work a connector loose. Confirm the chair is on its own outlet and not sharing a heavily loaded circuit. If a specific function like heat or one airbag zone stops working, note exactly which and when, because that detail speeds up remote diagnosis. When a restart and a cable check do not resolve it, that is the point to open a claim rather than keep troubleshooting a 200-pound machine yourself.</p>
+
+<h2>The bottom line</h2>
+
+<p>Repairability on a massage chair is really a question about the company behind it, not the chair itself. Buy a current-production model from a distributor with a real service desk, get the service terms in writing, and keep a paper trail on any claim. Do that and a broken part is an inconvenience; skip it and the same part can turn a $4,000 chair into a piece of furniture you cannot use. If you are still choosing, the <a href="/finder">chair finder</a> matches you to current models from supported brands, and the free <a href="/buyers-guide">Buyer's Guide</a> walks through service and warranty alongside fit and features.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary><strong>Who repairs a massage chair when it breaks?</strong></summary>
+<p>The distributor or brand that sold it, or a technician they contract. Massage chairs are not serviced by general appliance shops, so you open a claim with the company on your invoice and they ship a part or send a tech. This is why the responsiveness of that company matters as much as the warranty length.</p>
+</details>
+
+<details>
+<summary><strong>How long does a massage chair warranty repair take?</strong></summary>
+<p>A straightforward claim is often resolved in one to two weeks: remote diagnosis, a part shipped, and installation by you or a visiting technician. It stretches longer when the wrong part is sent or a part arrives faulty and the diagnosis restarts. Documenting ticket numbers and calls in writing helps keep a stalled claim moving.</p>
+</details>
+
+<details>
+<summary><strong>Can you still get parts for a discontinued massage chair?</strong></summary>
+<p>Frequently you cannot. Once a model is retired, spare parts stop being produced and existing stock runs out, and owners often get bounced between the manufacturer and third-party vendors with no one holding the part. Before buying a used or discontinued chair, confirm the model is still supported and that remotes and wear parts can be ordered.</p>
+</details>
+
+<details>
+<summary><strong>What breaks first on a massage chair?</strong></summary>
+<p>The moving and heat-generating parts: the remote and its cable, the airbag pump, the roller motor, the recline actuators, and the power board. Upholstery wear tends to appear later rather than as an early failure. A machine with this many moving parts will need service over a decade of use, which is why the service relationship is worth vetting up front.</p>
+</details>
+
+<details>
+<summary><strong>Is a massage chair worth repairing out of warranty?</strong></summary>
+<p>It depends on the part and whether it is still made. A remote, airbag pump, or board on a current-production model is usually worth replacing against the cost of a new chair. A major mechanism on a discontinued model with no available parts often is not, which is the case for confirming parts support before buying used.</p>
 </details>`,
   },
 ]

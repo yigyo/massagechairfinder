@@ -90,6 +90,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-chair-stretch-program",
       "heated-massage-chairs",
       "massage-chair-reliability",
+      "massage-chair-repair-guide",
     ],
   },
   {
