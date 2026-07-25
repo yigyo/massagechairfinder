@@ -1,4 +1,4 @@
-import { CHAIRS, Chair, priceBand, resolveAffiliateUrl } from '@/lib/chairs'
+import { CHAIRS, Chair, priceBand, priceTier, resolveAffiliateUrl } from '@/lib/chairs'
 import PriceBadge from '@/components/PriceBadge'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -154,6 +154,20 @@ function featuresLine(chair: Chair): string[] {
   if (chair.whiteGlove) features.push('White glove delivery')
   if (chair.madeInUSA) features.push('Made in USA')
   return features
+}
+
+function relatedChairs(chair: Chair): Chair[] {
+  const pool = CHAIRS.filter(c => c.active && c.mcfActive && c.id !== chair.id)
+  const tier = priceTier(chair)
+  const scored = pool.map(c => {
+    let score = 0
+    if (c.brand === chair.brand) score += 3
+    if (chair.track && c.track === chair.track) score += 2
+    if (priceTier(c) === tier) score += 2
+    return { c, score }
+  })
+  scored.sort((a, b) => b.score - a.score || a.c.name.localeCompare(b.c.name))
+  return scored.slice(0, 4).map(s => s.c)
 }
 
 function verdictSummary(chair: Chair): string {
@@ -372,6 +386,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
   const rollerInfo = rollerSummary(c)
   const features = featuresLine(c)
   const verdict = verdictSummary(c)
+  const related = relatedChairs(c)
   const faqs = faqItems(c)
   const brandSlug = c.brand.toLowerCase().replace(/\s+/g, '-')
 
@@ -664,6 +679,26 @@ export default async function ChairPage({ params }: { params: { slug: string } }
                 </div>
               ))}
             </div>
+          </div>
+        )}
+
+        {/* Related chairs (sibling internal links) */}
+        {related.length > 0 && (
+          <div className="mb-8 max-w-2xl">
+            <h2 className="text-2xl font-serif text-navy mb-4">Related chairs to compare</h2>
+            <p className="text-warm-gray mb-4 text-base leading-relaxed">
+              Weighing the {c.name} against other options? These sit in a comparable range on track type, roller, or price, and are worth a look before you decide.
+            </p>
+            <ul className="flex flex-col gap-3">
+              {related.map(rc => (
+                <li key={rc.id}>
+                  <Link href={'/chairs/' + rc.id} className="text-bronze hover:text-gold font-medium">
+                    {rc.name} review
+                  </Link>
+                  <span className="text-warm-gray text-sm"> ({getTrackLabel(rc)}, {priceBand(rc).range})</span>
+                </li>
+              ))}
+            </ul>
           </div>
         )}
 
