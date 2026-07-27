@@ -64,6 +64,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "do-massage-chairs-work",
       "why-massage-chairs-are-expensive",
       "massage-chair-price-tiers",
+      "massage-chairs-under-1000",
       "how-long-do-massage-chairs-last",
       "hsa-fsa-massage-chairs",
       "massage-chairs-made-in-usa",
