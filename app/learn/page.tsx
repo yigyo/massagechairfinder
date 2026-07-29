@@ -162,6 +162,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-frozen-shoulder",
       "massage-and-restless-leg-syndrome",
       "massage-and-scar-tissue",
+      "massage-and-immune-function",
+      "massage-and-digestion",
     ],
   },
 ]
