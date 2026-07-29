@@ -520,7 +520,29 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Consider shoulder width if you have had fit issues before, or if you are broadly built. The Ogawa Active XL is the only chair in our catalog specifically engineered for this. Most other chairs assume a standard frame.</p>
 
-<p>Track type, roller intensity, and features can all be decided after you have confirmed the chair fits your body. A chair with every feature you want that does not fit correctly is still the wrong chair.</p>`,
+<p>Track type, roller intensity, and features can all be decided after you have confirmed the chair fits your body. A chair with every feature you want that does not fit correctly is still the wrong chair.</p>
+
+<h2>Frequently asked questions</h2>
+
+<p>If you are not sure where you land on any of these, the <a href="/finder">chair finder</a> screens for height, weight, and build and returns only chairs that fit.</p>
+
+<h3>Will a massage chair fit me if I am over six feet tall?</h3>
+<p>Often, but not automatically. Most chairs cap their confirmed range around 6'1" or 6'2", so a buyer at 6'4" can end up with the headrest hitting the back of the head and the roller track stopping short of the lumbar. Start from the chairs that are confirmed taller: the Infinity Imperial Syner-D and the Daiwa Legacy 4 are both confirmed to 6'6", and the Luraco i9 Max Plus is confirmed to 6'10", the tallest range in our catalog. Use those as a starting point, then confirm the maximum height with the retailer for your exact build. The <a href="/learn/how-to-buy">how to buy</a> guide covers the rest of the pre-purchase checklist.</p>
+
+<h3>What if I am under five feet tall?</h3>
+<p>This is the hardest segment to shop for, because most chairs list a minimum user height of 5'2" or higher, which leaves a shorter buyer sitting with the neck above the top of the roller track. In our catalog the Infinity Dynasty 4D is the one chair confirmed to fit buyers as short as 5'0". If it is outside your budget, do not rely on the spec sheet for any other chair. Contact the retailer and ask them to confirm the minimum user height for your body before purchasing.</p>
+
+<h3>Does my shoe size or foot length matter?</h3>
+<p>It can, and it is the fit detail buyers check least. The footrest houses the calf and foot rollers, and a longer foot can hang past the foot rollers so the sole never gets full contact. Most chairs include a footrest that extends several inches to add length for taller legs, but the foot well itself is a fixed size. If you wear a large shoe or have long feet, look for a chair with an extending footrest and, when you can, sit in it with your heel seated at the bottom of the well to confirm your foot lines up with the rollers. Fit is not only about your body; the <a href="/learn/room-fit">room fit</a> guide covers the space the chair needs around it.</p>
+
+<h3>I have scoliosis, kyphosis, or a C-shaped spine. Can I still use a massage chair?</h3>
+<p>Body fit in the usual height-and-weight sense does not fully apply when a spinal condition is involved, because roller pressure at an unexpected angle can aggravate rather than relieve. Talk to a physical therapist or physician first. If you are cleared, favor gentler 2D or 3D roller mechanisms over high-intensity 4D pressure, let the <a href="/learn/body-scanning">body scan</a> position the rollers, and start on the lowest intensity. This is guidance, not medical advice.</p>
+
+<h3>Will the chair reach my glutes and lower back, or just my upper body?</h3>
+<p>That depends on track length against your torso, not on price. An SL-track chair extends the roller path down under the glutes, but it still has to be long enough to reach yours. A buyer with a compact torso may get full glute coverage from a chair that stops at the lower lumbar for someone with a long torso at the same height. If glute and lower-back massage is part of what you need, confirm the track length in inches before purchasing rather than assuming SL-track alone guarantees it.</p>
+
+<h3>The height range includes me, but only at the edge. Should I still buy it?</h3>
+<p>Being at the very top or bottom of a chair's stated range is a yellow flag, not a no. The range describes where the roller track produces an accurate massage, and the ends of that range are where accuracy starts to slip. If you sit right at the edge, favor a chair whose range you land in the middle of, or contact the retailer and confirm real-world fit for your height before you spend several thousand dollars. When in doubt, an <a href="/learn/massage-chair-trial-period">in-home trial period</a> is the surest way to find out.</p>`,
   },
 
   // ── SECTION 5 ───────────────────────────────────────────────────────────────────────────
