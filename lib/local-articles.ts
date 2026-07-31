@@ -1440,6 +1440,10 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>For buyers who are on the fence about whether they would actually use it, the trial removes most of the fear. The question "what if I buy a chair this expensive and never use it?" becomes "what if I risk a few hundred dollars to find out?" That is a different decision.</p>
 
+<h2>Does track type change the value math?</h2>
+
+<p>Yes, indirectly. The cost-per-use math above assumes the chair actually relieves the pain you bought it for, and track type is what determines that. An S-track chair covers the neck through mid-back but stops short of the glutes and hips, so a buyer with lower back or sciatic pain who buys an S-track chair can end up with a chair they use less often than planned, because it does not reach the area that hurts. That turns a three-year payback into a much longer one, not because the chair itself is expensive, but because the usage rate assumption breaks down. An L-track or SL-track chair that actually covers the pain area is worth paying more for if it means the difference between daily use and occasional use. See the <a href="/learn/track-types">track types guide</a> for which coverage matches which pain profile before running the cost math on a specific chair.</p>
+
 <h2>Frequently asked questions</h2>
 
 <details>
