@@ -1,0 +1,2599 @@
+[
+  {
+    "id": "osaki-os-champ",
+    "name": "Osaki OS-Champ",
+    "affiliateUrl": "https://osakimassagechair.com/products/osaki-os-champ",
+    "affiliateRetailer": "osakimassagechair.com",
+    "priceMin": 1299,
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/osaki-os-champ",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      1299.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      129900.0,
+      129900.0,
+      154895.0,
+      164895.0,
+      157400.0
+    ],
+    "shopifyComparePricesSample": [
+      299900.0,
+      299900.0,
+      324895.0,
+      334895.0,
+      327400.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "osaki-os-pro-yamato",
+    "name": "Osaki OS-Pro Yamato",
+    "affiliateUrl": "https://www.massagechairs.com/products/osaki-os-pro-yamato",
+    "affiliateRetailer": "massagechairs.com",
+    "priceMin": 3999,
+    "hops": [
+      {
+        "url": "https://www.massagechairs.com/products/osaki-os-pro-yamato",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairs.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "osaki-os-pro-admiral-ii",
+    "name": "Osaki OS-Pro Admiral II",
+    "affiliateUrl": "https://www.massagechairs.com/products/osaki-os-pro-admiral-3d",
+    "affiliateRetailer": "massagechairs.com",
+    "priceMin": 2999,
+    "hops": [
+      {
+        "url": "https://www.massagechairs.com/products/osaki-os-pro-admiral-3d",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairs.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "osaki-os-pro-maestro-le",
+    "name": "Osaki OS-Pro Maestro LE 2.0",
+    "affiliateUrl": "https://osakimassagechair.com/products/osaki-os-pro-maestro-le",
+    "affiliateRetailer": "osakimassagechair.com",
+    "priceMin": 8999,
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/osaki-os-pro-maestro-le",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      8999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      899900.0,
+      899900.0,
+      927400.0,
+      899900.0,
+      927400.0
+    ],
+    "shopifyComparePricesSample": [
+      1099900.0,
+      1099900.0,
+      1127400.0,
+      1099900.0,
+      1127400.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "osaki-os-pro-4d-duomax",
+    "name": "Osaki OS-Pro 4D DuoMax",
+    "affiliateUrl": "https://osakimassagechair.com/products/os-pro-4d-duomax",
+    "affiliateRetailer": "osakimassagechair.com",
+    "priceMin": 12999,
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/os-pro-4d-duomax",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      12999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      1299900.0,
+      1299900.0,
+      1327400.0,
+      1299900.0,
+      1327400.0
+    ],
+    "shopifyComparePricesSample": [
+      1499900.0,
+      1499900.0,
+      1527400.0,
+      1499900.0,
+      1527400.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "infinity-dynasty-4d",
+    "name": "Infinity Dynasty 4D",
+    "affiliateUrl": "https://massagechairstore.com/infinity-dynasty-4d/",
+    "affiliateRetailer": "massagechairstore.com",
+    "priceMin": 6999,
+    "httpStatus": 200,
+    "finalUrl": "https://massagechairstore.com/infinity-dynasty-4d/",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      3999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      3999.0,
+      3999.0,
+      3999.0,
+      3999.0
+    ],
+    "shopifyComparePricesSample": [],
+    "probeResult": "OK",
+    "probeSource": "pass1",
+    "note": "pass2 retry got PROBE_BLOCKED (likely velocity-triggered bot-detection, not a real delisting) since pass1 succeeded cleanly seconds earlier"
+  },
+  {
+    "id": "infinity-celebrity",
+    "name": "Infinity Celebrity 3D/4D",
+    "affiliateUrl": "https://www.massagechairplanet.com/products/infinity-celebrity-elite-4d-massage-chair",
+    "affiliateRetailer": "massagechairplanet.com",
+    "priceMin": 5999,
+    "hops": [
+      {
+        "url": "https://www.massagechairplanet.com/products/infinity-celebrity-elite-4d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairplanet.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "infinity-genesis-max",
+    "name": "Infinity Genesis Max 4D",
+    "affiliateUrl": "https://massagechairstore.com/infinity-genesis-max/",
+    "affiliateRetailer": "massagechairstore.com",
+    "priceMin": 9299,
+    "httpStatus": 200,
+    "finalUrl": "https://massagechairstore.com/infinity-genesis-max/",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      9299.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      9299.0,
+      9299.0,
+      9299.0,
+      9299.0
+    ],
+    "shopifyComparePricesSample": [],
+    "probeResult": "OK",
+    "probeSource": "pass1",
+    "note": "pass2 retry got PROBE_BLOCKED (likely velocity-triggered bot-detection, not a real delisting) since pass1 succeeded cleanly seconds earlier"
+  },
+  {
+    "id": "infinity-imperial-syner-d",
+    "name": "Infinity Imperial Syner-D",
+    "affiliateUrl": "https://massagechairstore.com/infinity-imperial-syner-d-massage-chair/",
+    "affiliateRetailer": "massagechairstore.com",
+    "priceMin": 7999,
+    "httpStatus": 200,
+    "finalUrl": "https://massagechairstore.com/infinity-imperial-syner-d-massage-chair/",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      7999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      7999.0,
+      7999.0,
+      7999.0,
+      7999.0
+    ],
+    "shopifyComparePricesSample": [],
+    "probeResult": "OK",
+    "probeSource": "pass1",
+    "note": "pass2 retry got PROBE_BLOCKED (likely velocity-triggered bot-detection, not a real delisting) since pass1 succeeded cleanly seconds earlier"
+  },
+  {
+    "id": "infinity-circadian-4d-dualflex",
+    "name": "Infinity Circadian 4D DualFlex",
+    "affiliateUrl": "https://massagechairstore.com/infinity-circadian-4d-dualflex-massage-chair/",
+    "affiliateRetailer": "massagechairstore.com",
+    "priceMin": 16999,
+    "httpStatus": 200,
+    "finalUrl": "https://massagechairstore.com/infinity-circadian-4d-dualflex-massage-chair/",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      16999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      16999.0,
+      16999.0,
+      16999.0,
+      16999.0
+    ],
+    "shopifyComparePricesSample": [],
+    "probeResult": "OK",
+    "probeSource": "pass1",
+    "note": "pass2 retry got PROBE_BLOCKED (likely velocity-triggered bot-detection, not a real delisting) since pass1 succeeded cleanly seconds earlier"
+  },
+  {
+    "id": "human-touch-laevo-zg",
+    "name": "Human Touch Laevo ZG",
+    "affiliateUrl": "https://www.humantouch.com/products/laevo",
+    "affiliateRetailer": "humantouch.com",
+    "priceMin": 4499,
+    "hops": [
+      {
+        "url": "https://www.humantouch.com/products/laevo",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.humantouch.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "human-touch-super-novo-3",
+    "name": "Human Touch Super Novo 3.0",
+    "affiliateUrl": "https://www.humantouch.com/products/super-novo-3-0-massage-chair",
+    "affiliateRetailer": "humantouch.com",
+    "priceMin": 11999,
+    "hops": [
+      {
+        "url": "https://www.humantouch.com/products/super-novo-3-0-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.humantouch.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "luraco-i9-max-plus",
+    "name": "Luraco i9 Max Plus",
+    "affiliateUrl": "https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 11990,
+    "hops": [
+      {
+        "url": "https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair",
+        "status": 301,
+        "location": "https://gameroomempire.com/products/luraco-i9-max-plus-massage-chair",
+        "error": null
+      },
+      {
+        "url": "https://gameroomempire.com/products/luraco-i9-max-plus-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "gameroomempire.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "luraco-theater-sofy",
+    "name": "Luraco Theater Sofy",
+    "affiliateUrl": "https://massagechairwarehouse.com/products/luraco-theater-sofy-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 3490,
+    "hops": [
+      {
+        "url": "https://massagechairwarehouse.com/products/luraco-theater-sofy-massage-chair",
+        "status": 301,
+        "location": "https://gameroomempire.com/products/luraco-theater-sofy-massage-chair",
+        "error": null
+      },
+      {
+        "url": "https://gameroomempire.com/products/luraco-theater-sofy-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "gameroomempire.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "daiwa-legacy-4",
+    "name": "Daiwa Legacy 4",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-legacy-4-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 9500,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/daiwa-legacy-4-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "daiwa-black-panther-supreme-hybrid",
+    "name": "Daiwa Black Panther Supreme Hybrid Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-black-panther-supreme-hybrid-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 15500,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/daiwa-black-panther-supreme-hybrid-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "daiwa-supreme-hybrid",
+    "name": "Daiwa Supreme Hybrid Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-supreme-hybrid-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 13500,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/daiwa-supreme-hybrid-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "daiwa-pegasus-hybrid",
+    "name": "Daiwa Pegasus Hybrid Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-pegasus-hybrid-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 12000,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/daiwa-pegasus-hybrid-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "daiwa-hubble-plus-4d",
+    "name": "Daiwa Hubble Plus 4D Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-hubble-plus-4d-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 11000,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/daiwa-hubble-plus-4d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "daiwa-pegasus-2-smart",
+    "name": "Daiwa Pegasus 2 Smart Massage Chair (DWA-9400)",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-pegasus-2-smart-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 11000,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/daiwa-pegasus-2-smart-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "daiwa-hubble-3d",
+    "name": "Daiwa Hubble 3D Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-hubble-3d-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 10000,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/daiwa-hubble-3d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "daiwa-relax-2-zero-3d",
+    "name": "Daiwa Relax 2 Zero 3D Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-relax-2-zero-3d-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 9000,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/daiwa-relax-2-zero-3d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "daiwa-majesty-2d",
+    "name": "Daiwa Majesty 2D Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-majesty-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 6000,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/daiwa-majesty-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "kyota-genki-m380",
+    "name": "Kyota Genki M380",
+    "affiliateUrl": "https://massagechairstore.com/kyota-genki-m380-massage-chair/",
+    "affiliateRetailer": "massagechairstore.com",
+    "priceMin": 2999,
+    "httpStatus": 200,
+    "finalUrl": "https://massagechairstore.com/kyota-genki-m380-massage-chair/",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      7999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      7999.0,
+      7999.0,
+      7999.0,
+      7999.0
+    ],
+    "shopifyComparePricesSample": [],
+    "probeResult": "OK",
+    "probeSource": "pass1",
+    "note": "pass2 retry got PROBE_BLOCKED (likely velocity-triggered bot-detection, not a real delisting) since pass1 succeeded cleanly seconds earlier"
+  },
+  {
+    "id": "kyota-yugana-m780",
+    "name": "Kyota Yugana M780 4D",
+    "affiliateUrl": "https://massagechairwarehouse.com/products/kyota-yugana-m780-4d-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 7999,
+    "hops": [
+      {
+        "url": "https://massagechairwarehouse.com/products/kyota-yugana-m780-4d-massage-chair",
+        "status": 301,
+        "location": "https://gameroomempire.com/products/kyota-yugana-m780-4d-massage-chair",
+        "error": null
+      },
+      {
+        "url": "https://gameroomempire.com/products/kyota-yugana-m780-4d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "gameroomempire.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "kyota-konbi-m728-dualpro-4d",
+    "name": "Kyota Konbi M728 DualPro 4D",
+    "affiliateUrl": "https://massagechairstore.com/kyota-konbi-m728-dualpro-4d-massage-chair/",
+    "affiliateRetailer": "massagechairstore.com",
+    "priceMin": 7999,
+    "httpStatus": 200,
+    "finalUrl": "https://massagechairstore.com/kyota-konbi-m728-dualpro-4d-massage-chair/",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      7999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      7999.0,
+      7999.0,
+      7999.0,
+      7999.0
+    ],
+    "shopifyComparePricesSample": [],
+    "probeResult": "OK",
+    "probeSource": "pass1",
+    "note": "pass2 retry got PROBE_BLOCKED (likely velocity-triggered bot-detection, not a real delisting) since pass1 succeeded cleanly seconds earlier"
+  },
+  {
+    "id": "amamedics-hilux-4d",
+    "name": "AmaMedics Hilux 4D",
+    "affiliateUrl": "https://osakimassagechair.com/products/amamedic-hilux-4d",
+    "affiliateRetailer": "osakimassagechair.com",
+    "priceMin": 4999,
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/amamedic-hilux-4d",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      4999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      499900.0,
+      499900.0,
+      527400.0,
+      499900.0,
+      527400.0
+    ],
+    "shopifyComparePricesSample": [
+      899900.0,
+      899900.0,
+      927400.0,
+      899900.0,
+      927400.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "amamedics-renew-3d",
+    "name": "AmaMedics Renew 3D",
+    "affiliateUrl": "https://clearancechair.com/products/amamedic-renew",
+    "affiliateRetailer": "clearancechair.com",
+    "priceMin": 1299,
+    "hops": [
+      {
+        "url": "https://clearancechair.com/products/amamedic-renew",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "clearancechair.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "jpmedics-kumo-4d",
+    "name": "JPMedics Kumo 4D",
+    "affiliateUrl": "https://massagechairwarehouse.com/products/jpmedics-kumo-4d-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 10999,
+    "hops": [
+      {
+        "url": "https://massagechairwarehouse.com/products/jpmedics-kumo-4d-massage-chair",
+        "status": 301,
+        "location": "https://gameroomempire.com/products/jpmedics-kumo-4d-massage-chair",
+        "error": null
+      },
+      {
+        "url": "https://gameroomempire.com/products/jpmedics-kumo-4d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "gameroomempire.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "jpmedics-kaze-duo",
+    "name": "JPMedics KaZe Duo",
+    "affiliateUrl": "https://www.massagechairplanet.com/products/jpmedics-kaze-duo-massage-chair",
+    "affiliateRetailer": "massagechairplanet.com",
+    "priceMin": 12999,
+    "hops": [
+      {
+        "url": "https://www.massagechairplanet.com/products/jpmedics-kaze-duo-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairplanet.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "panasonic-mak1",
+    "name": "Panasonic MAK1",
+    "affiliateUrl": "https://www.massagechairs.com/products/panasonic-mak1-massage-chair",
+    "affiliateRetailer": "massagechairs.com",
+    "priceMin": 14499,
+    "hops": [
+      {
+        "url": "https://www.massagechairs.com/products/panasonic-mak1-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairs.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "panasonic-maf1",
+    "name": "Panasonic MAF1",
+    "affiliateUrl": "https://www.primemassagechairs.com/products/panasonic-maf1-massage-chair",
+    "affiliateRetailer": "primemassagechairs.com",
+    "priceMin": 5999,
+    "hops": [
+      {
+        "url": "https://www.primemassagechairs.com/products/panasonic-maf1-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.primemassagechairs.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "titan-3d-prestige",
+    "name": "Titan 3D Prestige",
+    "affiliateUrl": "https://titanchair.com/products/titan-3d-prestige",
+    "affiliateRetailer": "titanchair.com",
+    "priceMin": 4999,
+    "httpStatus": 200,
+    "finalUrl": "https://titanchair.com/products/titan-3d-prestige",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      4999.0,
+      5248.95,
+      5348.95,
+      5274.0,
+      5523.95,
+      5623.95,
+      4999.0,
+      5248.95,
+      5348.95,
+      5274.0,
+      4999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      4999.0,
+      4999.0,
+      5248.95,
+      5348.95,
+      5274.0
+    ],
+    "shopifyComparePricesSample": [
+      499900.0,
+      499900.0,
+      524895.0,
+      534895.0,
+      527400.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "titan-pro-vigor-4d",
+    "name": "Titan Pro-Vigor 4D",
+    "affiliateUrl": "https://massagechairwarehouse.com/products/titan-pro-vigor-4d-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 5999,
+    "hops": [
+      {
+        "url": "https://massagechairwarehouse.com/products/titan-pro-vigor-4d-massage-chair",
+        "status": 301,
+        "location": "https://gameroomempire.com/products/titan-pro-vigor-4d-massage-chair",
+        "error": null
+      },
+      {
+        "url": "https://gameroomempire.com/products/titan-pro-vigor-4d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "gameroomempire.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "synca-wellness-circ",
+    "name": "Synca Wellness CirC",
+    "affiliateUrl": "https://syncamassagechair.com/products/circ",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 1299,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/circ",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      1299.99,
+      1299.99,
+      1299.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      129999.0,
+      129999.0,
+      129999.0,
+      129999.0,
+      129999.0
+    ],
+    "shopifyComparePricesSample": [
+      99999.0,
+      99999.0,
+      99999.0,
+      99999.0,
+      99999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "synca-wellness-circ-plus",
+    "name": "Synca Wellness CirC+",
+    "affiliateUrl": "https://syncamassagechair.com/products/circ-plus",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 1899,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/circ-plus",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      1899.99,
+      1899.99,
+      1899.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      189999.0,
+      189999.0,
+      189999.0,
+      189999.0,
+      1899.99
+    ],
+    "shopifyComparePricesSample": [
+      199999.0,
+      199999.0,
+      199999.0,
+      199999.0,
+      199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "synca-wellness-circ-3",
+    "name": "Synca Wellness CirC 3",
+    "affiliateUrl": "https://syncamassagechair.com/products/circ3",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 1999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/circ3",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      1999.99,
+      1999.99,
+      1999.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      199999.0,
+      199999.0,
+      199999.0,
+      199999.0,
+      1999.99
+    ],
+    "shopifyComparePricesSample": [
+      229999.0,
+      229999.0,
+      229999.0,
+      229999.0,
+      229999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "synca-wellness-kurodo",
+    "name": "Synca Wellness Kurodo",
+    "affiliateUrl": "https://syncamassagechair.com/products/kurodo",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 9999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/kurodo",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock",
+      "instock"
+    ],
+    "prices": [
+      9999.99,
+      9999.99
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      999999.0,
+      999999.0,
+      9999.99,
+      999999.0,
+      999999.0
+    ],
+    "shopifyComparePricesSample": [
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "inner-balance-jin",
+    "name": "Inner Balance Jin",
+    "affiliateUrl": "https://syncamassagechair.com/products/jin",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 1999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/jin",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      1999.99,
+      1999.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      199999.0,
+      199999.0,
+      199999.0,
+      1999.99,
+      1999.99
+    ],
+    "shopifyComparePricesSample": [
+      449999.0,
+      449999.0,
+      449999.0,
+      449999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "inner-balance-jin-2",
+    "name": "Inner Balance Jin 2.0",
+    "affiliateUrl": "https://syncamassagechair.com/products/jin2",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 3999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/jin2",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      3999.99,
+      3999.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      399999.0,
+      399999.0,
+      399999.0,
+      399999.0,
+      3999.99
+    ],
+    "shopifyComparePricesSample": [
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "synca-wellness-jp3000",
+    "name": "Synca JP-3000",
+    "affiliateUrl": "https://syncamassagechair.com/products/jp3000",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 10999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/jp3000",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      10999.99,
+      10999.99,
+      10999.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      1099999.0,
+      1099999.0,
+      1099999.0,
+      1099999.0,
+      1099999.0
+    ],
+    "shopifyComparePricesSample": [
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "fujiiryoki-cyber-relax-ai",
+    "name": "Fujiiryoki Cyber Relax Ai",
+    "affiliateUrl": "https://syncamassagechair.com/products/cyber-relax-ai",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 10999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/cyber-relax-ai",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      10999.99,
+      10999.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      1099999.0,
+      1099999.0,
+      1099999.0,
+      1099999.0,
+      10999.99
+    ],
+    "shopifyComparePricesSample": [
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "fujiiryoki-cyber-relax-ai-executive",
+    "name": "Fujiiryoki Cyber Relax Ai Executive",
+    "affiliateUrl": "https://syncamassagechair.com/products/cyber-relax-ai-executive",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 12999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/cyber-relax-ai-executive",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock",
+      "instock"
+    ],
+    "prices": [
+      12999.99,
+      12999.99
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      1299999.0,
+      1299999.0,
+      1299999.0,
+      12999.99,
+      1299999.0
+    ],
+    "shopifyComparePricesSample": [
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "fujiiryoki-calm-plus",
+    "name": "Fujiiryoki Calm Plus",
+    "affiliateUrl": "https://syncamassagechair.com/products/calmplus",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 3999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/calmplus",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      3999.99,
+      3999.99,
+      3999.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      399999.0,
+      399999.0,
+      399999.0,
+      399999.0,
+      3999.99
+    ],
+    "shopifyComparePricesSample": [
+      419999.0,
+      419999.0,
+      419999.0,
+      419999.0,
+      419999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "fujiiryoki-cyber-relax-elite",
+    "name": "Fujiiryoki Cyber Relax Elite",
+    "affiliateUrl": "https://syncamassagechair.com/products/cyber-relax-elite",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 9999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/cyber-relax-elite",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      9999.99,
+      9999.99,
+      9999.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      999999.0,
+      999999.0,
+      999999.0,
+      999999.0,
+      999999.0
+    ],
+    "shopifyComparePricesSample": [
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "fujiiryoki-cyber-relax-pro",
+    "name": "Fujiiryoki Cyber Relax Pro",
+    "affiliateUrl": "https://syncamassagechair.com/products/cyber-relax-pro",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 14999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/cyber-relax-pro",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "outstock",
+      "outstock",
+      "outstock",
+      "instock"
+    ],
+    "prices": [
+      14999.99,
+      14999.99,
+      14999.99,
+      14999.99,
+      14999.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "outstock",
+      "outstock",
+      "outstock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      1499999.0,
+      1499999.0,
+      1499999.0,
+      1499999.0,
+      1499999.0
+    ],
+    "shopifyComparePricesSample": [
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "dcore-d-core-2",
+    "name": "DCORE D.Core 2",
+    "affiliateUrl": "https://syncamassagechair.com/products/dcore2",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 16999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/dcore2",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      16999.99,
+      16999.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      1699999.0,
+      1699999.0,
+      1699999.0,
+      16999.99,
+      16999.99
+    ],
+    "shopifyComparePricesSample": [
+      1699999.0,
+      1699999.0,
+      1699999.0,
+      1699999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "dcore-cirrus-jp",
+    "name": "DCORE CIRRUS-JP",
+    "affiliateUrl": "https://syncamassagechair.com/products/cirrus-jp",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 12999,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/cirrus-jp",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      12999.99,
+      12999.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      1299999.0,
+      1299999.0,
+      1299999.0,
+      12999.99,
+      12999.99
+    ],
+    "shopifyComparePricesSample": [
+      1399999.0,
+      1399999.0,
+      1399999.0,
+      1399999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "dcore-stratus-jp",
+    "name": "DCORE STRATUS-JP",
+    "affiliateUrl": "https://syncamassagechair.com/products/stratus-jp",
+    "affiliateRetailer": "syncamassagechair.com",
+    "priceMin": 11499,
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/stratus-jp",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "instock",
+      "instock"
+    ],
+    "prices": [
+      11499.99,
+      11499.99
+    ],
+    "stockStatus": "STOCK_UNKNOWN",
+    "rawAvailabilities": [
+      "instock",
+      "instock"
+    ],
+    "shopifyPricesSample": [
+      1149999.0,
+      1149999.0,
+      1149999.0,
+      11499.99,
+      11499.99
+    ],
+    "shopifyComparePricesSample": [
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0,
+      1199999.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "kahuna-dios-6800",
+    "name": "Kahuna Dios-6800 6D Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-6800-6d-massage-chair",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 3799,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/kahuna-dios-6800-6d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "kahuna-dios-1288",
+    "name": "Kahuna Dios-1288 8D Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-1288-4d-massage-chair",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 17999,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/kahuna-dios-1288-4d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "kahuna-dios-flexa",
+    "name": "Kahuna Dios Flexa Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-flexa-massage-chair",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 8499,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/kahuna-dios-flexa-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "kahuna-hm-kappa",
+    "name": "Kahuna HM-KAPPA Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-kappa-massage-chair",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 9500,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/kahuna-hm-kappa-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "kahuna-em-8500",
+    "name": "Kahuna EM-8500 Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-em-8500-massage-chair",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 8900,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/kahuna-em-8500-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "kahuna-dios-7300",
+    "name": "Kahuna Dios-7300 7D Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-7300-7d-massage-chair",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 8999,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/kahuna-dios-7300-7d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "kahuna-sm-7300s",
+    "name": "Kahuna Massage Chair SM-7300S",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-massage-chair-sm-7300s",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 6999,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/kahuna-massage-chair-sm-7300s",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "kahuna-hm-078",
+    "name": "Kahuna HM-078 Hubot 4D Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-078-hubot-4d-massage-chair",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 4399,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/kahuna-hm-078-hubot-4d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "kahuna-hm-5000",
+    "name": "Kahuna HM-5000 Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-5000-massage-chair",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 2000,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/kahuna-hm-5000-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "ador-3d-allure",
+    "name": "Ador 3D Allure",
+    "affiliateUrl": "https://osakimassagechair.com/products/ador-3d-allure",
+    "affiliateRetailer": "osakimassagechair.com",
+    "priceMin": 4999,
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/ador-3d-allure",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      4999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      499900.0,
+      499900.0,
+      524895.0,
+      534895.0,
+      527400.0
+    ],
+    "shopifyComparePricesSample": [],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "theramedic-flex",
+    "name": "Theramedic Flex",
+    "affiliateUrl": "https://osakimassagechair.com/products/theramedic-flex",
+    "affiliateRetailer": "osakimassagechair.com",
+    "priceMin": 3499,
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/theramedic-flex",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      3499.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      349900.0,
+      349900.0,
+      374895.0,
+      384895.0,
+      377400.0
+    ],
+    "shopifyComparePricesSample": [
+      349900.0,
+      349900.0,
+      374895.0,
+      384895.0,
+      377400.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "kanji-4d-shogun-duo",
+    "name": "Kanji 4D Shogun Duo",
+    "affiliateUrl": "https://osakimassagechair.com/products/kanji-4d-shogun-duo",
+    "affiliateRetailer": "osakimassagechair.com",
+    "priceMin": 14999,
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/kanji-4d-shogun-duo",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      14999.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      1499900.0,
+      1499900.0,
+      1524895.0,
+      1534895.0,
+      1527400.0
+    ],
+    "shopifyComparePricesSample": [
+      1599900.0,
+      1599900.0,
+      1624895.0,
+      1634895.0,
+      1627400.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "ogawa-og6300",
+    "name": "Ogawa Active XL 3D Massage Chair (OG-6300)",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-3d-massage-chair-og-6300",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 2999,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-3d-massage-chair-og-6300",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "ogawa-og8901",
+    "name": "Ogawa Master Drive DUO LE 4D+3D Massage Chair (OG-8901)",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-le-4d-3d-massage-chair-og-8901",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 9399,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-le-4d-3d-massage-chair-og-8901",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "ogawa-og6400",
+    "name": "Ogawa Active XL Duo 3D + 2D Massage Chair (OG-6400)",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-duo-3d-massage-chair-og-6400",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 4799,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-duo-3d-massage-chair-og-6400",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "ogawa-og8801",
+    "name": "Ogawa Master Drive AI 2.0 4D Massage Chair (OG-8801)",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-ai-2-0-4d-massage-chair-og-8801",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 12999,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-ai-2-0-4d-massage-chair-og-8801",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "ogawa-og8900",
+    "name": "Ogawa Master Drive DUO 4D+3D Massage Chair (OG-8900)",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-4d-3d-massage-chair-og-8900",
+    "affiliateRetailer": "wishrockrelaxation.com",
+    "priceMin": 15999,
+    "hops": [
+      {
+        "url": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-4d-3d-massage-chair-og-8900",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.wishrockrelaxation.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "relaxe-shiatsu",
+    "name": "Relaxe Shiatsu",
+    "affiliateUrl": "https://relaxe.co/collections/massage/products/shiatsu-massage-chair",
+    "affiliateRetailer": "relaxe.co",
+    "priceMin": 2999,
+    "httpStatus": 200,
+    "finalUrl": "https://relaxe.co/collections/massage/products/shiatsu-massage-chair",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      2.0,
+      279900.0,
+      279900.0,
+      279900.0,
+      279900.0
+    ],
+    "shopifyComparePricesSample": [
+      533000.0,
+      533000.0,
+      533000.0,
+      533000.0,
+      533000.0
+    ],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "ohco-m8-neo-le",
+    "name": "OHCO M.8 NEO LE",
+    "affiliateUrl": "https://www.johnsonfitness.com/OHCO-M8-NEO-LE-Massage-Chair-P39084.aspx",
+    "affiliateRetailer": "johnsonfitness.com",
+    "priceMin": 18000,
+    "hops": [
+      {
+        "url": "https://www.johnsonfitness.com/OHCO-M8-NEO-LE-Massage-Chair-P39084.aspx",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.johnsonfitness.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "relaxonchair-rio",
+    "name": "Relax On Chair RIO",
+    "affiliateUrl": "https://relaxonchair.com/products/rio-massage-recliner-chair-black?ref=gxoncaks",
+    "affiliateRetailer": "relaxonchair.com",
+    "priceMin": 999,
+    "httpStatus": 200,
+    "finalUrl": "https://relaxonchair.com/products/rio-massage-recliner-chair-black?ref=gxoncaks",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "OutOfStock"
+    ],
+    "prices": [
+      999.0
+    ],
+    "stockStatus": "OutOfStock",
+    "shopifyPricesSample": [
+      99900.0,
+      999.0,
+      999.0,
+      999.0
+    ],
+    "shopifyComparePricesSample": [],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "relaxonchair-jasper",
+    "name": "Relax On Chair Jasper",
+    "affiliateUrl": "https://www.relaxonchair.com/products/jasper-full-body-massage-chair?ref=gxoncaks",
+    "affiliateRetailer": "relaxonchair.com",
+    "priceMin": 1599,
+    "hops": [
+      {
+        "url": "https://www.relaxonchair.com/products/jasper-full-body-massage-chair?ref=gxoncaks",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.relaxonchair.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "relaxonchair-mk-v-plus",
+    "name": "Relax On Chair MK-V Plus",
+    "affiliateUrl": "https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black?ref=gxoncaks",
+    "affiliateRetailer": "relaxonchair.com",
+    "priceMin": 2499,
+    "httpStatus": 200,
+    "finalUrl": "https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black?ref=gxoncaks",
+    "error": null,
+    "hasOwnTitle": true,
+    "jsonldFound": true,
+    "availabilities": [
+      "InStock"
+    ],
+    "prices": [
+      2499.0
+    ],
+    "stockStatus": "InStock",
+    "shopifyPricesSample": [
+      249900.0,
+      2499.0,
+      2499.0,
+      2499.0
+    ],
+    "shopifyComparePricesSample": [],
+    "probeResult": "OK",
+    "probeSource": "pass1"
+  },
+  {
+    "id": "relaxonchair-yukon-4d",
+    "name": "Relax On Chair YUKON-4D",
+    "affiliateUrl": "https://www.relaxonchair.com/products/yukon-4d-full-body-massage-chair?ref=gxoncaks",
+    "affiliateRetailer": "relaxonchair.com",
+    "priceMin": 6499,
+    "hops": [
+      {
+        "url": "https://www.relaxonchair.com/products/yukon-4d-full-body-massage-chair?ref=gxoncaks",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.relaxonchair.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "ceragem-m10",
+    "name": "Ceragem M10",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/ceragem-m10-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 12999,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/ceragem-m10-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "ergotec-et-180-pluto",
+    "name": "Ergotec ET-180 Pluto",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/ergotec-et-180-pluto-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 1999,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/ergotec-et-180-pluto-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "koyo-303ts",
+    "name": "Koyo 303TS",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/koyo-303ts-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 7999,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/koyo-303ts-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "medical-breakthrough-5",
+    "name": "Medical Breakthrough 5",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-5-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 2249,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-5-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "medical-breakthrough-6",
+    "name": "Medical Breakthrough 6",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-6",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 4249,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-6",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "medical-breakthrough-6-plus",
+    "name": "Medical Breakthrough 6 Plus",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-6-plus-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 5499,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-6-plus-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "medical-breakthrough-7",
+    "name": "Medical Breakthrough 7",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-7-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 6249,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-7-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "medical-breakthrough-7-plus",
+    "name": "Medical Breakthrough 7 Plus",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-7-plus",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 8399,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-7-plus",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "medical-breakthrough-8",
+    "name": "Medical Breakthrough 8",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-8-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 8249,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-8-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "medical-breakthrough-8-plus",
+    "name": "Medical Breakthrough 8 Plus",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-8-plus-open-feet-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 10899,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-8-plus-open-feet-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "medical-breakthrough-9",
+    "name": "Medical Breakthrough 9",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-9-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 10399,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-9-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "medical-breakthrough-9-plus",
+    "name": "Medical Breakthrough 9 Plus",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-9-plus-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 14649,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-9-plus-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "medical-breakthrough-x",
+    "name": "Medical Breakthrough X",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-x-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 12499,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/medical-breakthrough-x-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "positive-posture-brio-plus",
+    "name": "Positive Posture Brio Plus",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/positive-posture-brio-plus-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 7999,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/positive-posture-brio-plus-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "positive-posture-brio-sport",
+    "name": "Positive Posture Brio Sport",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/positive-posture-brio-sport-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 8999,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/positive-posture-brio-sport-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "positive-posture-solara",
+    "name": "Positive Posture Solara",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/positive-posture-solara-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 2499,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/positive-posture-solara-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "sharper-image-relieve-3d",
+    "name": "Sharper Image Relieve 3D",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/sharper-image-relieve-3d-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 4499,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/sharper-image-relieve-3d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "sharper-image-revival",
+    "name": "Sharper Image Revival",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/sharper-image-revival-zero-gravity-massage-chair",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 3999,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/sharper-image-revival-zero-gravity-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "svago-lite-2",
+    "name": "Svago Lite 2",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/svago-lite-2-zero-gravity-recliner",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 1499,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/svago-lite-2-zero-gravity-recliner",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "svago-zgr",
+    "name": "Svago ZGR",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/svago-zgr-zero-gravity-recliner",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 2199,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/svago-zgr-zero-gravity-recliner",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "svago-newton",
+    "name": "Svago Newton",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/svago-newton-zero-gravity-recliner",
+    "affiliateRetailer": "massagechairwarehouse.com",
+    "priceMin": 3199,
+    "hops": [
+      {
+        "url": "https://www.massagechairwarehouse.com/products/svago-newton-zero-gravity-recliner",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairwarehouse.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "rockertech-bliss",
+    "name": "RockerTech Bliss",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/rockertech-bliss%E2%84%A2-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 5499,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/rockertech-bliss%E2%84%A2-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "rockertech-sensation-4d",
+    "name": "RockerTech Sensation 4D",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/rockertech-sensation-4d-massage-chair",
+    "affiliateRetailer": "massagechairheaven.com",
+    "priceMin": 6999,
+    "hops": [
+      {
+        "url": "https://www.massagechairheaven.com/products/rockertech-sensation-4d-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.massagechairheaven.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "ohco-m8-neo",
+    "name": "OHCO M.8 NEO",
+    "affiliateUrl": "https://www.johnsonfitness.com/OHCO-M8-NEO-Massage-Chair-P39080.aspx",
+    "affiliateRetailer": "johnsonfitness.com",
+    "priceMin": 14999,
+    "hops": [
+      {
+        "url": "https://www.johnsonfitness.com/OHCO-M8-NEO-Massage-Chair-P39080.aspx",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.johnsonfitness.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "nouhaus-new-classic",
+    "name": "Nouhaus New Classic",
+    "affiliateUrl": "https://www.nouhaus.com/products/new-classic-massage-chair",
+    "affiliateRetailer": "nouhaus.com",
+    "priceMin": 1399,
+    "hops": [
+      {
+        "url": "https://www.nouhaus.com/products/new-classic-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.nouhaus.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "nouhaus-aurora",
+    "name": "Nouhaus Aurora",
+    "affiliateUrl": "https://www.nouhaus.com/products/nouhaus-aurora-zero-gravity-premium-full-body-electric-massage-chair",
+    "affiliateRetailer": "nouhaus.com",
+    "priceMin": 2299,
+    "hops": [
+      {
+        "url": "https://www.nouhaus.com/products/nouhaus-aurora-zero-gravity-premium-full-body-electric-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.nouhaus.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "nouhaus-noucampo",
+    "name": "Nouhaus Nou Campo",
+    "affiliateUrl": "https://www.nouhaus.com/products/nouhaus-noucampo-massage-chair",
+    "affiliateRetailer": "nouhaus.com",
+    "priceMin": 2299,
+    "hops": [
+      {
+        "url": "https://www.nouhaus.com/products/nouhaus-noucampo-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.nouhaus.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "nouhaus-luna",
+    "name": "Nouhaus Luna",
+    "affiliateUrl": "https://www.nouhaus.com/products/nouhaus-luna-zero-gravity-massage-chair",
+    "affiliateRetailer": "nouhaus.com",
+    "priceMin": 2999,
+    "hops": [
+      {
+        "url": "https://www.nouhaus.com/products/nouhaus-luna-zero-gravity-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.nouhaus.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "nouhaus-orbit",
+    "name": "Nouhaus Orbit",
+    "affiliateUrl": "https://www.nouhaus.com/products/nouhaus-orbit-zero-gravity-massage-chair",
+    "affiliateRetailer": "nouhaus.com",
+    "priceMin": 3999,
+    "hops": [
+      {
+        "url": "https://www.nouhaus.com/products/nouhaus-orbit-zero-gravity-massage-chair",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.nouhaus.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "relx-20-mode",
+    "name": "RELX Full Body 20-Mode",
+    "affiliateUrl": "https://www.amazon.com/dp/B0FJGWZS5L/?tag=massagechairf-20",
+    "affiliateRetailer": "amazon.com",
+    "priceMin": 1899,
+    "hops": [
+      {
+        "url": "https://www.amazon.com/dp/B0FJGWZS5L/?tag=massagechairf-20",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.amazon.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "culanta-sl-track",
+    "name": "Culanta SL-Track Shiatsu",
+    "affiliateUrl": "https://www.amazon.com/dp/B0D9HCBZMY/?tag=massagechairf-20",
+    "affiliateRetailer": "amazon.com",
+    "priceMin": 1099,
+    "hops": [
+      {
+        "url": "https://www.amazon.com/dp/B0D9HCBZMY/?tag=massagechairf-20",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.amazon.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "tlife-160-zg",
+    "name": "TLIFE 160 Zero Gravity",
+    "affiliateUrl": "https://www.amazon.com/dp/B0F2FMVT7M/?tag=massagechairf-20",
+    "affiliateRetailer": "amazon.com",
+    "priceMin": 1349,
+    "hops": [
+      {
+        "url": "https://www.amazon.com/dp/B0F2FMVT7M/?tag=massagechairf-20",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.amazon.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "healthrelife-4d-15-mode",
+    "name": "HealthRelife 4D 15-Mode",
+    "affiliateUrl": "https://www.amazon.com/dp/B0DWMRFHRV/?tag=massagechairf-20",
+    "affiliateRetailer": "amazon.com",
+    "priceMin": 1699,
+    "hops": [
+      {
+        "url": "https://www.amazon.com/dp/B0DWMRFHRV/?tag=massagechairf-20",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.amazon.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "ktentito-g6",
+    "name": "KTENTITO G6",
+    "affiliateUrl": "https://www.amazon.com/dp/B0D4DQCW2P/?tag=massagechairf-20",
+    "affiliateRetailer": "amazon.com",
+    "priceMin": 1439,
+    "hops": [
+      {
+        "url": "https://www.amazon.com/dp/B0D4DQCW2P/?tag=massagechairf-20",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.amazon.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "mythia-a303c",
+    "name": "MYTHIA A303C 4D",
+    "affiliateUrl": "https://www.amazon.com/dp/B0FNWJ239X/?tag=massagechairf-20",
+    "affiliateRetailer": "amazon.com",
+    "priceMin": 1799,
+    "hops": [
+      {
+        "url": "https://www.amazon.com/dp/B0FNWJ239X/?tag=massagechairf-20",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.amazon.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "healthrelife-4d-20-mode",
+    "name": "HealthRelife 4D 20-Mode",
+    "affiliateUrl": "https://www.amazon.com/dp/B0D87C16Q8/?tag=massagechairf-20",
+    "affiliateRetailer": "amazon.com",
+    "priceMin": 2399,
+    "hops": [
+      {
+        "url": "https://www.amazon.com/dp/B0D87C16Q8/?tag=massagechairf-20",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.amazon.com",
+    "probeSource": "pass2"
+  },
+  {
+    "id": "casinta-4d",
+    "name": "CASINTA 4D",
+    "affiliateUrl": "https://www.amazon.com/dp/B0GHWHX93Y/?tag=massagechairf-20",
+    "affiliateRetailer": "amazon.com",
+    "priceMin": 1199,
+    "hops": [
+      {
+        "url": "https://www.amazon.com/dp/B0GHWHX93Y/?tag=massagechairf-20",
+        "status": null,
+        "location": null,
+        "error": "curl: (56) CONNECT tunnel failed, response 403"
+      }
+    ],
+    "probeResult": "SANDBOX_POLICY_BLOCKED",
+    "blockedHost": "www.amazon.com",
+    "probeSource": "pass2"
+  }
+]
