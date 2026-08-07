@@ -15,15 +15,28 @@ export function generateStaticParams() {
 
 // ─── METADATA ────────────────────────────────────────────────────────────────
 
+// Most entries in chairs.ts carry the model name only ("Osaki OS-Champ"); a
+// minority already carry the category ("Daiwa Legacy 4 Massage Chair"). Search
+// demand is overwhelmingly for "[model] massage chair", so titles, H1s and
+// Product schema use the category-qualified form, added only when it is absent.
+function categoryName(name: string): string {
+  return /massage chair/i.test(name) ? name : `${name} Massage Chair`
+}
+
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const chair = CHAIRS.find(c => c.id === params.slug)
   if (!chair) return {}
   const trackLabel = chair.track === 'SL' ? 'SL-track' : chair.track === 'L' ? 'L-track' : chair.track === 'S' ? 'S-track' : ''
   const parts = [trackLabel, chair.roller].filter(Boolean).join(', ')
   const discontinued = !chair.active ? ' (Discontinued)' : ''
-  const desc = `${chair.name}${discontinued} review: ${parts ? parts + ' massage chair, ' : ''}${priceBand(chair).range}. Who it fits, full specs, body fit guide, and our verdict.`
+  const fullName = categoryName(chair.name)
+  const descBase = `${fullName}${discontinued} review: ${parts ? parts + ', ' : ''}${priceBand(chair).range}. Who it fits, full specs, body fit, and our verdict.`
+  const descLong = `${descBase} Compare it with similar chairs first.`
+  const desc = descLong.length <= 160 ? descLong : descBase
+  const titleBase = `${fullName} Review${discontinued}`
+  const titleHooked = `${titleBase}, Is It Right for You?`
   return {
-    title: `${chair.name} Review${discontinued}, Is It Right for You?`,
+    title: titleHooked.length <= 62 ? titleHooked : titleBase,
     description: desc.slice(0, 160),
   }
 }
@@ -397,9 +410,9 @@ export default async function ChairPage({ params }: { params: { slug: string } }
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: c.name,
+    name: categoryName(c.name),
     brand: { '@type': 'Brand', name: c.brand },
-    description: `${c.name} massage chair${c.track ? ', ' + getTrackLabel(c) : ''}${c.roller ? ', ' + c.roller + ' roller' : ''}. ${priceBand(c).range}.`,
+    description: `${categoryName(c.name)}${c.track ? ', ' + getTrackLabel(c) : ''}${c.roller ? ', ' + c.roller + ' roller' : ''}. ${priceBand(c).range}.`,
     offers: {
       '@type': 'Offer',
       availability,
@@ -481,7 +494,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
           <div className="flex flex-col justify-between">
             <div>
               <p className="text-warm-gray text-sm font-medium mb-1 uppercase tracking-wide">{c.brand}</p>
-              <h1 className="text-3xl font-serif font-bold text-navy mb-2">{c.name}</h1>
+              <h1 className="text-3xl font-serif font-bold text-navy mb-2">{categoryName(c.name)}</h1>
 
               {/* Status badges */}
               <div className="flex flex-wrap gap-2 mb-2">
