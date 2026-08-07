@@ -13,7 +13,7 @@ const BASE = 'https://www.massagechairfinder.com'
 // So: articles report their own publishedAt, and everything else reports a
 // stable CONTENT_REVISION date that we bump by hand only when that section of
 // the site genuinely changes. Never use new Date() here.
-const CONTENT_REVISION = new Date('2026-07-11')
+const CONTENT_REVISION = new Date('2026-08-07')
 
 // To add a new /best/* or /compare/* page to the sitemap AND the nav dropdown,
 // just create the page directory. No changes needed here - the scanner picks it up.
