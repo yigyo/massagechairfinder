@@ -6,17 +6,44 @@ import { fbqTrack, fbqTrackCustom } from './fbq'
 
 export const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || ''
 
+// ── dataLayer-safe bridge ────────────────────────────────────────────────────
+// Every call in this file can run during hydration, before the gtag.js loader
+// script has executed. Calling window.gtag directly in that window throws, the
+// error is swallowed inside the effect, and the hit is lost. Seeding the queue
+// ourselves means early calls buffer on dataLayer and gtag.js replays them in
+// order once it loads.
+function ready(): boolean {
+  if (!GA4_ID || typeof window === 'undefined') return false
+  window.dataLayer = window.dataLayer || []
+  if (typeof window.gtag !== 'function') {
+    window.gtag = function gtagQueue(...args: unknown[]): void {
+      window.dataLayer.push(args)
+    } as typeof window.gtag
+  }
+  return true
+}
+
 // ── Pageview ────────────────────────────────────────────────────────────────
+// GA4 wants an explicit page_view event. A repeat gtag("config") call for an
+// already-configured measurement ID is debounced by gtag.js and sends nothing,
+// which is why SPA route changes were never recorded. page_location and
+// page_referrer are sent explicitly so GA4 can attribute the traffic source
+// instead of defaulting the session to Direct.
 export function pageview(url: string): void {
-  if (!GA4_ID || typeof window === 'undefined') return
-  window.gtag('config', GA4_ID, { page_path: url })
+  if (!ready()) return
+  window.gtag('event', 'page_view', {
+    page_path: url,
+    page_location: window.location.href,
+    page_title: document.title,
+    page_referrer: document.referrer || undefined,
+  })
 }
 
 // ── Generic event ────────────────────────────────────────────────────────────
 type GtagEventParams = Record<string, string | number | boolean | undefined>
 
 export function event(action: string, params?: GtagEventParams): void {
-  if (!GA4_ID || typeof window === 'undefined') return
+  if (!ready()) return
   window.gtag('event', action, params)
 }
 
@@ -92,5 +119,6 @@ declare global {
       targetId: string | Date,
       params?: Record<string, unknown>
     ) => void
+    dataLayer: unknown[]
   }
 }

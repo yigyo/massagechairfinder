@@ -75,9 +75,15 @@ export default function GoogleAnalytics() {
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}
       />
+      {/*
+        beforeInteractive so window.gtag and the js/config commands are queued
+        before React hydrates. PageviewTracker fires its page_view from an
+        effect on mount; if config had not been queued first, that hit would be
+        dropped for an unconfigured measurement ID.
+      */}
       <Script
         id="google-analytics"
-        strategy="afterInteractive"
+        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
