@@ -3,7 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Massage Chair Brands Compared | MassageChairFinder',
+  title: "Massage Chair Brands Compared",
   description: 'Osaki, Infinity, Luraco, Kahuna, and more -- who manufactures their own chairs, who imports, and what that means for price and warranty.',
 }
 

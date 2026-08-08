@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'Ogawa Active XL Duo vs Titan Pro-Vigor 4D | MassageChairFinder',
+  title: "Ogawa Active XL Duo vs Titan Pro-Vigor 4D",
   description: 'The Ogawa OG-6400 sits a price tier below with a 320 lb verified capacity and 11-inch wall clearance. The Titan Pro-Vigor 4D adds heated rollers and a 4D roller system. Here is how to choose.',
 }
 

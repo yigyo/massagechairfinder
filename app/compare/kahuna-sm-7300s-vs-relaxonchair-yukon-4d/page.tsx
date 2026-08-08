@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'Kahuna SM-7300S vs Relax On Chair YUKON-4D | MassageChairFinder',
+  title: "Kahuna SM-7300S vs Relax On Chair YUKON-4D",
   description: 'The Kahuna SM-7300S uses a 6-roller 2D system with three-stage zero gravity and full heat coverage in the upper-mid tier. The YUKON-4D delivers 4D precision at the lower price of the two. Here is the full comparison.',
 }
 

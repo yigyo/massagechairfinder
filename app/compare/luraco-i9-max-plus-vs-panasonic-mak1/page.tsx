@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Luraco i9 Max Plus vs Panasonic MAK1: Which Is Right for You? | MassageChairFinder',
+  title: "Luraco i9 Max Plus vs Panasonic MAK1, Which Is Right for You?",
   description: 'The Luraco i9 Max Plus is the lower-priced of the two, uses an L-track with zero gravity, and carries a 10-year warranty. The MAK1 has no zero gravity and uses an S-track. Here is the full comparison.',
 }
 

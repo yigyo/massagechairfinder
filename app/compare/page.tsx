@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Compare Massage Chairs Side by Side | MassageChairFinder',
-  description: 'Head-to-head comparisons of the most cross-shopped massage chairs. Same price tier, same use case -- find out which one is right for you.',
+  title: "Compare Massage Chairs Head to Head",
+  description: "Head to head comparisons of the most cross-shopped massage chairs. Same price tier, same use case, so you can see which one actually fits your body, your room, and your budget.",
 }
 
 const COMPARISONS = [

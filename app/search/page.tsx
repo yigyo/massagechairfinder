@@ -9,7 +9,7 @@ interface Props {
 export function generateMetadata({ searchParams }: Props): Metadata {
   const q = searchParams.q || ''
   return {
-    title: q ? 'Search results for "' + q + '" | Massage Chair Finder' : 'Search | Massage Chair Finder',
+    title: q ? 'Search results for "' + q + '"' : "Search",
     description: 'Search massage chairs, buying guides, and brand profiles on Massage Chair Finder.',
     robots: { index: false },
   }
