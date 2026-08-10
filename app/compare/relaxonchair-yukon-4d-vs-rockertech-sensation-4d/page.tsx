@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Relax On Chair YUKON-4D vs RockerTech Sensation 4D: Same Tier, Closely Priced',
+  title: 'Relax On Chair YUKON-4D vs RockerTech Sensation 4D',
   description: 'Both SL-track 4D chairs in the upper-mid tier ($5,000-$7,999). The Sensation 4D adds TrueFit body scanning and dual foot rollers. The YUKON-4D prioritizes pressure control precision. Here is the full breakdown.',
 }
 

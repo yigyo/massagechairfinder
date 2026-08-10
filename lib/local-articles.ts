@@ -2828,6 +2828,12 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Quality brands in the upper-mid tier and up typically offer in-home service for at least the first 1-2 years. Some offer it for the full warranty period. This is worth asking about specifically before any purchase.</p>
 
+<h2>When a Warranty Replacement Isn't Free to Receive</h2>
+
+<p>A warranty that promises a free replacement chair is not making the same promise as a free delivery. When a defective unit is swapped rather than repaired, someone still has to remove a 200-250 lb chair from your home and get a new one in, and that freight and removal step is a separate line item from the "free" part. Some manufacturers cover it in full as part of the warranty. Others split it with the owner, and in documented cases the owner's share alone has run several hundred dollars on a part that cost nothing.</p>
+
+<p>Ask this before you buy, not after you need it: on a full warranty replacement, who pays to remove the old unit, and who pays to deliver and place the new one? Is that cost split, and if so, what is the owner's share in dollars? Get the answer in writing before you purchase. A distributor who will commit to a number in writing is telling you something different than one who will only say "case by case." The <a href="/learn/massage-chair-delivery-types">delivery types guide</a> covers what white glove delivery and depot shipping cost on a first purchase; the same freight math applies to a warranty swap.</p>
+
 <h2>What Repairs Actually Cost Out of Pocket</h2>
 
 <p>When a component fails outside its warranty period, the costs tend to surprise buyers who budgeted only for the sticker price. A service call alone, getting a certified technician to your home for diagnosis and repair, typically runs a few hundred dollars. That fee applies whether the repair takes 30 minutes or two hours.</p>
@@ -2850,6 +2856,8 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>If the issue persists, call the manufacturer's service line, not a generic appliance or furniture repair company. The number is on your warranty registration and original paperwork. Massage chairs use proprietary roller carriages, track rails, and control boards that a general appliance technician is not trained or parts-stocked to service. If you bought through a retailer rather than directly from the manufacturer, the retailer can usually route you to the correct service contact, but the manufacturer's own service network is the first call whenever you have it.</p>
 
 <p>While the chair is in warranty, insist on the service path your coverage actually provides. If your warranty includes in-home service, a certified technician should come to you. If it is depot-only, get the shipping and turnaround terms in writing before you box up a 200-250 lb chair. See the cost section above for what that trip can run if shipping is not covered.</p>
+
+<p>Watch the calendar as closely as the repair ticket. A single diagnose-then-ship-then-install cycle can run several weeks on its own, and if a fault surfaces late in your return window, a slow repair process can quietly run out the clock on your right to return the chair instead of waiting on a fix. If you are within two to three weeks of your return deadline and a technician visit has not been scheduled, treat that as your signal to request a replacement or invoke the return rather than continuing to wait on a repair.</p>
 
 <p>Once the chair is fully out of warranty, you have three practical paths: an independent massage-chair repair technician in your area (search for one that specifically lists massage chair experience, not general furniture repair), a manufacturer-paid service call at the standard out-of-warranty rate, or, for older entry-tier chairs, comparing the repair estimate against the cost of a new chair at the same tier. A roller assembly or control board replacement on a chair that has already depreciated well below its original price is often the point where replacement is the more practical financial decision. The <a href="/learn/massage-chair-reliability">reliability guide</a> covers which components fail most often and roughly when, which helps set expectations before you are staring at a repair quote.</p>
 
@@ -9481,6 +9489,14 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 
 <p>The safe-use rules are simple and they prevent almost every problem. Start at the lowest intensity and work up over several sessions rather than starting deep. Keep early sessions to about fifteen minutes; more is not better while your body is adjusting. Do not target one painful spot repeatedly in a single session. Stay hydrated, and treat sharp or radiating pain as a reason to stop, not push through. If you have any of the conditions above, get clearance first and favor a gentler 2D or 3D roller chair over an aggressive high-intensity 4D one. Buyers worried about pressure on a tender lower back will find the feature guidance in <a href="/learn/massage-chairs-for-lower-back-pain">massage chairs for lower back pain</a> useful for choosing the right track and intensity range.</p>
 
+<h2>What to Do If the Remote Stops Responding</h2>
+
+<p>A remote that stops responding mid-session is rare, but it is a more serious failure mode than any roller or airbag issue, because the chair can keep running programs while no longer answering commands. Every massage chair has a physical power switch or a plug that works separately from the remote, and cutting power there stops the chair immediately no matter what the remote is doing.</p>
+
+<p>Before your first session, locate that switch or outlet and confirm you, or whoever else uses the chair, can reach it quickly from a seated, reclined position. This matters most for buyers with limited mobility or grip strength, since they are the least able to physically exit a stuck chair or reach behind it under pressure. If the person using the chair could not reach the power control unassisted while reclined, do not use the chair unsupervised until that is fixed, for example by relocating the outlet, adding an accessible power strip within reach, or having a second person present for early sessions.</p>
+
+<p>This is a documented, if uncommon, failure reported by owners, not a hypothetical. Treat locating the power control as part of setup, the same way you would confirm where the circuit breaker is in a new home.</p>
+
 <h2>How to use this when choosing a chair</h2>
 
 <p>Safety is partly a buying decision, not only a usage one. If you have a condition that calls for caution, prioritize chairs with adjustable intensity, a gentle low end, and a body scan that positions the rollers accurately, and steer away from chairs marketed purely on maximum power. Match the chair to your body and your medical situation, not to the longest feature list. The <a href="/finder">chair finder</a> filters by body type and needs so you can narrow to chairs that fit your situation, and the free <a href="/buyers-guide">Buyer's Guide</a> walks through the same decisions at your own pace. When a medical condition is in play, the right sequence is clinician first, then chair.</p>
@@ -9505,6 +9521,11 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <details>
 <summary><strong>Can a massage chair make sciatica or back pain worse?</strong></summary>
 <p>It can if the pain is structural or nerve-driven and you use high intensity directly over the area. A chair can also help muscular back pain at gentle settings. The deciding factors are the cause of the pain and how you use the chair. If your pain is sharp, radiating, or accompanied by numbness, get it assessed before relying on a chair.</p>
+</details>
+
+<details>
+<summary><strong>What if the remote stops responding while I am in the chair?</strong></summary>
+<p>Use the chair's physical power switch or unplug it. Both work separately from the remote and stop the chair immediately. Locate that control before your first session and confirm you can reach it while reclined. This failure is rare but it is the most serious one reported by owners, and knowing where the power control is before you need it is the entire fix.</p>
 </details>
 
 <p>For the groups that need extra care, <a href="/learn/special-populations">massage for special populations</a> and <a href="/learn/massage-and-blood-thinners">massage and blood thinners</a> go deeper. When you are ready to match a chair to your body and your situation, the <a href="/finder">chair finder</a> narrows the field to chairs that fit.</p>`,

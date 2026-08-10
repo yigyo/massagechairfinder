@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Osaki OS-Pro Maestro LE 2.0 vs Ogawa Master Drive DUO LE (OG-8901): The Premium SL-Track 4D Decision',
+  title: 'Osaki Maestro LE 2.0 vs Ogawa OG-8901: SL-Track 4D',
   description: 'Two premium SL-track 4D chairs around $9,000. The Maestro LE adds AI body scanning; the OG-8901 adds a dual roller system, a 320 lb capacity, and near-zero wall clearance. Here is the full comparison.',
 }
 
