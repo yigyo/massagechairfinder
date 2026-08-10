@@ -36,6 +36,13 @@ const COMPARISONS = [
     summary: 'The i9 Max Plus is Made in USA, has L-track and zero gravity, and is the lower-priced of the two. The MAK1 has no zero gravity and an S-track. A clear case for most buyers.',
   },
   {
+    slug: 'medical-breakthrough-x-vs-medical-breakthrough-8-plus',
+    chairA: 'Medical Breakthrough X',
+    chairB: 'Medical Breakthrough 8 Plus',
+    tier: 'Premium to ultra-premium tier',
+    summary: 'Same L-track 4D engine, same 300 lb rating, one price band apart. The 8 Plus adds an open-foot design and costs less. The X is the flagship.',
+  },
+  {
     slug: 'amamedics-hilux-4d-vs-titan-pro-vigor-4d',
     chairA: 'AmaMedics Hilux 4D',
     chairB: 'Titan Pro-Vigor 4D',
