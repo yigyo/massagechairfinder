@@ -28,6 +28,121 @@ export interface LocalArticle {
 
 export const LOCAL_ARTICLES: LocalArticle[] = [
   {
+    slug: "who-fixes-your-massage-chair",
+    title: "Who Fixes Your Massage Chair When It Breaks?",
+    excerpt: "The retailer owns your return window. The brand or its distributor owns the warranty, the parts, and the technician. Here is who to call, by channel.",
+    order: 121,
+    publishedAt: "2026-08-12",
+    body: `<p>Whoever sold you the chair is usually not whoever fixes it. In almost every case the retailer owns your return window and very little else, while the brand or its United States distributor owns the warranty, the parts, and the technician who shows up. That split is the single biggest reason a repair turns into a standoff. By the time a chair fails, the retailer's window has closed and the distributor is the only party left with the authority to help. Before you pay, find out which company actually takes the service call, and confirm the return window is long enough to outlast one full repair attempt.</p>
+
+<h2>Who fixes a massage chair bought from Costco, Amazon, or a big-box store?</h2>
+
+<p>Three separate parties are involved in almost every massage chair sale, and buyers routinely assume they are one company.</p>
+
+<p><strong>The retailer</strong> is whoever took your money: a warehouse club, a marketplace listing, a big-box electronics store, a specialty dealer, or the brand's own site. The retailer controls the return window and the refund. In most cases it stocks no parts, employs no technicians, and has no role in the warranty once the return window closes.</p>
+
+<p><strong>The brand or its distributor</strong> holds the warranty. For most chairs sold in the United States, the name on the chair belongs to a brand that a domestic distributor imports and supports. That distributor ships the parts, approves or denies the claims, and interprets what the warranty covers. It is the party you will be dealing with in year two and beyond, regardless of where you bought.</p>
+
+<p><strong>The technician</strong> is usually neither of the above. Few distributors employ a national service force. Most contract regional third-party appliance or furniture technicians, who arrive with whatever part the distributor shipped and may be seeing your model for the first time.</p>
+
+<p>The failure pattern that recurs across publicly filed consumer complaint records follows directly from that structure. A part gets shipped based on a phone description rather than a diagnosis, the contracted technician arrives without the part that was actually needed, and the cycle restarts. Meanwhile the retailer's return window quietly expires while the owner is still waiting on the first visit. The <a href="/learn/massage-chair-warranty-guide">warranty guide</a> covers what the coverage terms themselves say. This page is about who is on the other end of the phone.</p>
+
+<h2>Warehouse clubs: the return policy is the benefit, and it is the whole benefit</h2>
+
+<p>A warehouse club is the strongest return position in the category, and that is genuinely worth something on a purchase this size. It is also the only part of the transaction the club owns. The club does not repair the chair, does not stock parts, and does not employ a technician. If the chair fails inside the return window, you return it. If it fails after, you are in the distributor's service queue like everyone else.</p>
+
+<p>Two things to confirm in writing before you buy at a club. First, the specific return window that applies to this item, because general membership return language and the window on a large item are not always the same thing, and the difference matters more here than on anything else in the cart. Second, who removes the chair. A return on a three hundred pound item is a freight pickup, not a trip to the returns desk, and who schedules and pays for that pickup is a separate question from whether the refund is approved. The <a href="/learn/are-costco-massage-chairs-worth-it">Costco massage chairs guide</a> covers what the club channel does and does not get you.</p>
+
+<h2>Marketplace listings: find out who the seller actually is first</h2>
+
+<p>On a marketplace, the first question is not the price. It is whether the seller is the brand, a distributor the brand recognizes, or an unrelated reseller. That answer determines whether a warranty claim is even enforceable, because most manufacturer warranties are written to cover the original purchaser from a seller the brand recognizes, and a chair bought from an unrelated third party can fall outside coverage before it is ever unboxed.</p>
+
+<p>The return window on a marketplace listing is typically short relative to how long a real fault takes to surface, and it can differ by seller rather than following the platform default, so read it on the listing rather than assuming. The practical risk is timing. A roller or control board fault often appears in weeks two through eight of ownership, and a first service attempt can consume more calendar time than the window allows. If a chair on a marketplace is meaningfully cheaper than the same chair elsewhere, price in what you are giving up on the service side before treating the difference as a saving.</p>
+
+<h2>Big-box electronics retailers: the handoff is where it breaks</h2>
+
+<p>Buying a chair from a large electronics or furniture retailer looks like the safest option and often behaves like the most confusing one. The retailer takes the order and, in many cases, the first service call. It then routes both the parts and the technician through the brand's distributor. That handoff is where responsibility gets lost. Complaint records in this category repeatedly describe the same sequence: parts sent to a retailer warehouse, a technician who never calls to schedule, the return window closing during the delay, and then each company naming the other as the one who owns the refund.</p>
+
+<p>If you buy through this channel, get one thing on record at the point of sale: whether the retailer or the brand takes the first service call, and what happens to your return eligibility if a repair is still open when the window ends. A retailer that will pause the return clock while a warranty repair is in progress is offering something real. One that will not is offering a return window that a single slow repair can consume entirely.</p>
+
+<h2>Buying direct from the brand or a specialty dealer</h2>
+
+<p>Buying direct removes a layer. The company that sold you the chair is the company that warranties it, so there is nobody to point at when something fails. That is the structural advantage, and it is a real one.</p>
+
+<p>What it does not do is guarantee good service. A direct seller with a thin support operation is not better than a retailer with a generous return policy, and the difference between distributors on this axis is wider than the difference between chairs. This is where a specialty dealer can genuinely outperform both a club and a marketplace: a dealer that sells this category all day usually has a working relationship with the distributor, knows which models generate service calls, and has a reason to keep you happy that a warehouse club does not. The trade-off is that the return window at a specialty dealer is often shorter and sometimes carries a restocking charge, so read it before you assume direct means flexible. The <a href="/learn/massage-chair-reliability">reliability guide</a> covers which components actually fail and when.</p>
+
+<h2>Trade shows, mall kiosks, and roadshows: the weakest position</h2>
+
+<p>A pop-up seller is the hardest channel to enforce anything against, for an obvious reason: the storefront leaves. Complaint records from this channel describe a recognizable pattern in which contact goes quiet after delivery and stays quiet until the return window has passed. The chair itself may be perfectly good. The problem is that the entity you would call has no fixed address by the time you need it.</p>
+
+<p>If you buy this way, treat the paperwork as the product. Get the legal name of the selling company, not the brand on the chair, plus a service phone number that is not the salesperson's mobile, and the return window in writing. Then verify the warranty is registered to you with the brand's distributor within the first week rather than waiting until something breaks.</p>
+
+<h2>The channels compared</h2>
+
+<table>
+<thead>
+<tr><th>Where you bought</th><th>Who takes the service call</th><th>What the seller actually gives you</th><th>Biggest risk</th></tr>
+</thead>
+<tbody>
+<tr><td>Warehouse club</td><td>The brand's distributor</td><td>The strongest return window in the category</td><td>Nothing at all after the window closes</td></tr>
+<tr><td>Marketplace listing</td><td>Depends entirely on who the seller is</td><td>Price, and sometimes fast shipping</td><td>Warranty may not be enforceable at all</td></tr>
+<tr><td>Big-box retailer</td><td>Split between retailer and distributor</td><td>A recognizable name to escalate to</td><td>The handoff stalls and the window expires</td></tr>
+<tr><td>Brand direct</td><td>The brand or its distributor</td><td>One accountable party, no finger pointing</td><td>Shorter return window, possible restocking charge</td></tr>
+<tr><td>Specialty dealer</td><td>The dealer, backed by the distributor</td><td>Category knowledge and a working distributor relationship</td><td>Varies widely by dealer</td></tr>
+<tr><td>Trade show or kiosk</td><td>Often unclear after delivery</td><td>A showroom sit and a closing discount</td><td>The seller is gone when you need it</td></tr>
+</tbody>
+</table>
+
+<h2>Five questions to ask before you pay, in any channel</h2>
+
+<p>These take a few minutes and they are the difference between a warranty on paper and a warranty you can use.</p>
+
+<ol>
+  <li><strong>Which company do I call for warranty service, and what is its phone number?</strong> If the answer is the salesperson's cell, that is the answer.</li>
+  <li><strong>Who dispatches the technician, and is it an employee or a contractor?</strong> Contracted service is normal in this category, but knowing it tells you to expect a diagnosis visit before a repair visit.</li>
+  <li><strong>How long is the labor warranty, separately from the parts warranty?</strong> These commonly run on different clocks, and the shorter one decides who pays to install a free part.</li>
+  <li><strong>Does my return window pause if a warranty repair is open when it expires?</strong> This is the question almost nobody asks and the one that produces the worst outcomes.</li>
+  <li><strong>If the chair has to be replaced under warranty, who pays the freight and the removal of the old unit?</strong> A replacement can carry several hundred dollars of white glove cost per trip, and a swap is two trips.</li>
+</ol>
+
+<p>If a seller will not answer these in writing before the sale, that is information. The <a href="/learn/how-to-buy">step-by-step buying guide</a> puts these checks in the full decision order, and the <a href="/learn/massage-chair-trial-period">trial period guide</a> covers what a return actually involves once a chair is inside your house.</p>
+
+<h2>What to do if you already bought and nobody will own it</h2>
+
+<p>Start by identifying the distributor rather than the retailer. The warranty document, the registration card, or the brand's support page will name the company that actually holds the obligation, and that is the party to address. Put the request in writing with dates, describe the fault rather than naming the part you think is broken, and ask for a diagnosis before any part is shipped. Shipping a guessed part is the step that starts most of the long repair cycles in this category.</p>
+
+<p>Keep a dated record of every call and every promised ship date. If the chair is still under warranty and the process has stalled, a written complaint to a consumer complaint service creates a public record, and complaint records show that response times to those filings are frequently faster than response times to a support queue. That is a comment on how these operations are staffed, not an endorsement of the tactic as a first step.</p>
+
+<p>If you are still choosing and want to skip the guesswork on which chair suits your body and budget in the first place, the <a href="/finder">chair finder</a> narrows the catalog to chairs that match your height, your priorities, and your price band, and the <a href="/buyers-guide">Buyer's Guide</a> walks through the specs that change the experience. If you are weighing whether to send a chair back, <a href="/learn/why-massage-chairs-get-returned">why massage chairs get returned</a> covers the reasons that come up most, and <a href="/learn/massage-chair-delivery-types">delivery types</a> explains what curbside and white glove actually include.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<details>
+<summary><strong>Does Costco or Amazon repair a massage chair?</strong></summary>
+<p>Neither repairs the chair. A warehouse club gives you a return window and a refund path, and a marketplace gives you a return window that varies by seller. In both cases the actual repair, the parts, and the technician come from the brand's distributor. The retailer's role ends when the return window ends.</p>
+</details>
+
+<details>
+<summary><strong>Does buying direct from the brand get me better service?</strong></summary>
+<p>It removes the finger pointing, which is a real advantage, because the company that sold you the chair is the company that warranties it. It does not guarantee the service is good. Distributors vary widely on how fast they diagnose, dispatch, and ship parts, and that variation matters more than the channel itself. The trade-off is that direct return windows are often shorter than a warehouse club's.</p>
+</details>
+
+<details>
+<summary><strong>Is my warranty valid if I bought from a third-party marketplace seller?</strong></summary>
+<p>Often it is not. Most manufacturer warranties in this category cover the original purchaser buying from a seller the brand recognizes, so a chair bought from an unrelated reseller can sit outside coverage from day one. Confirm who the seller is and whether the brand will register the warranty to you before you buy, not after something fails.</p>
+</details>
+
+<details>
+<summary><strong>What if the repair takes longer than my return window?</strong></summary>
+<p>This is the most common way buyers end up stuck, and the answer depends entirely on what you agreed to at the point of sale. Some retailers will pause the return clock while a warranty repair is open. Many will not, and a single slow diagnosis and parts cycle can consume a thirty day window. Ask the question before you buy and get the answer in writing.</p>
+</details>
+
+<details>
+<summary><strong>Who pays to remove the old chair on a warranty replacement?</strong></summary>
+<p>Frequently the owner does, at least in part. A warranty replacement covers the chair, but the freight and white glove handling to deliver the new unit and take the defective one away are usually billed separately, and a swap means two trips rather than one. Confirm the freight and removal terms before accepting a replacement, and see the <a href="/learn/massage-chair-warranty-guide">warranty guide</a> for how these costs are typically split.</p>
+</details>`,
+  },
+  {
     slug: "fake-massage-chair-reviews",
     title: "How to Spot a Paid or Fake Massage Chair Review",
     excerpt: "A fake or paid massage chair review usually shares a few tells: it praises everything and criticizes nothing, repeats the model name and marketing phrases, appears in a cluster of similar five-star posts dated to a launch, and never mentions fit, pressure, or any trade-off. Real buyer feedback names specifics, including what a chair does poorly. This guide gives you the red flags and a one-minute checklist to tell marketing from genuine feedback.",
@@ -455,6 +570,12 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If you are shopping in this height range and the Dynasty 4D is outside your budget or preference, the practical guidance is: before purchasing any other chair, contact the retailer and ask them to confirm the minimum user height for your specific body. Do not rely on the spec sheet alone. Some chairs have more adjustment range than their published specs suggest, and some have less.</p>
 
+<p>The concrete failure mode is worth naming, because petite owners describe it the same way over and over: the upper back rollers are working the air above their shoulders. The chair runs a normal program, the lower back feels fine, and the neck and shoulder section never makes contact at all. It is not a defect and no setting fixes it. The roller track simply ends higher than the body sitting in it.</p>
+
+<p>You can test for this in about a minute, and it is worth doing before you pay rather than after. Sit fully back with your hips against the seat back, not perched forward, and run the body scan. Then note where the top of the roller travel actually lands. If it stops at or above the tops of your shoulders instead of engaging the muscle between your neck and shoulder, the chair is too long for you, and moving the seat or raising the intensity will not change it. The same check applies to the shoulder airbags: if they close around your ears rather than around your deltoids, they are positioned for a taller frame.</p>
+
+<p>Two workarounds get suggested and both have a cost. A cushion under the hips raises you into the roller track, but it also pushes your legs further down the footrest and can shorten the calf and foot contact you just paid for. Reclining further can improve roller contact at the shoulders on some chairs, but only if the fit problem is marginal. Neither substitutes for a chair whose stated minimum height actually includes you.</p>
+
 <h3>Tall buyers: above 6'2"</h3>
 
 <p>At the other end, tall buyers face a different problem. Most chairs cap their confirmed range around 6'1" or 6'2". A buyer at 6'4" in a chair designed for 6'1" may find that the footrest does not extend far enough, that the headrest hits the back of their head instead of cradling the base of their skull, or that the roller track ends before it reaches their lumbar region.</p>
@@ -509,6 +630,14 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>If you have lower back pain that radiates into your hips and glutes, body fit interacts with track type in a specific way. An SL-track chair (which extends the roller path under the glutes) needs to be long enough to actually reach your gluteus muscles. A buyer who is 5'3" with a compact torso may find that an SL-track chair reaches their glutes fine. A buyer who is 5'11" with a long torso may find the same chair's roller track ends at their lower lumbar. If glute massage is part of what you need, confirm the track length in inches before purchasing.</p>
 
 <p>If you have a medical condition that affects your spine (scoliosis, significant kyphosis, prior spinal surgery), body fit in the conventional sense does not fully apply to you. Roller pressure at unexpected angles can aggravate rather than relieve these conditions. Consult with a physical therapist or physician before using a massage chair, and prioritize chairs with gentler 2D or 3D roller mechanisms over 4D chairs with high-intensity pressure.</p>
+
+<h3>Foot length: the footrest extends, the footwell does not</h3>
+
+<p>The second failure mode buyers do not see coming is foot length, and it is a different mechanic from leg length. Most chairs advertise an extending footrest, and buyers reasonably read that as adjustable for large feet. It is not. The extension adds distance between the seat and the foot module to accommodate longer legs. The footwell itself, the pocket your foot sits in with rollers underneath and airbags on either side, is a fixed size on almost every chair.</p>
+
+<p>What that means in practice for a size 13 to 15 foot: the toes press against the top of the well before the heel ever seats at the bottom, so the sole never lines up with the foot rollers, and the calf airbags land on the ankle rather than the calf. The foot massage is the part that stops working, and it is one of the more used features on a chair once it is in the house.</p>
+
+<p>Check it directly rather than reading the height range. Sit in the chair, extend the footrest fully, and confirm your heel reaches the bottom of the well with your toes clear of the top. If you cannot sit in it, ask the retailer for the interior footwell length rather than the chair's overall dimensions, and be specific that you mean the usable pocket, not the module. Some chairs also allow the foot module to be used with the feet resting slightly proud of the well, which is a workable compromise for calf massage but gives up the sole rollers entirely.</p>
 
 <h2>How to use body fit to narrow your shortlist</h2>
 
