@@ -1547,6 +1547,18 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>The chair pays for itself in roughly three years at that rate. After that, every session is effectively free. Most buyers think about an upper-mid-tier chair as a luxury purchase, not as a capital investment in something that replaces an ongoing service expense. When you look at it as the latter, the numbers are not close.</p>
 
+<h2>Will you actually use it? The variable the math depends on</h2>
+
+<p>Everything above assumes daily use. Frequency, not price, is what decides whether a chair is worth it, and it is the input buyers estimate optimistically. Run the number at your realistic rate rather than your intended one. At three sessions a week instead of seven the per session cost roughly doubles and the payback period stretches, which may still clear what you currently spend on pain management, or may not. Do that arithmetic against your own spending before you shop.</p>
+
+<p>Usage almost always starts high and settles. The first two weeks are novel and the chair gets used daily; where the rate lands after that is what matters. Owners still using a chair years later tend to describe the same two conditions.</p>
+
+<p><strong>Placement.</strong> A chair in the room you already sit in every evening gets used. The same chair in a spare bedroom, a basement, or a garage gets used far less, because using it becomes a decision instead of a habit. This is the strongest single predictor of long term use and it is settled before delivery. Work out where the chair will physically live, with the recline clearance it needs, before you buy it. The <a href="/learn/room-fit">room fit guide</a> covers the measurements that constrain that choice.</p>
+
+<p><strong>Fit and intensity.</strong> A chair that lands wrong on your body is one you quietly stop using. Rollers passing above the shoulders, a footwell that is short for your feet, or a default intensity that leaves you sore the next day all produce the same outcome, which is a chair nobody sits in. Both causes are checkable in advance and adjustable afterward. See <a href="/learn/body-fit">body fit</a> for the first and <a href="/learn/how-to-use-a-massage-chair">how to use a massage chair</a> for the second.</p>
+
+<p>The usage question is worth testing rather than estimating. An in-home return window is the only test that measures frequency, since it runs in your house on your own schedule in a way that a few minutes in a showroom cannot. Two weeks of ownership tells you your real weekly rate while you can still act on it, which is the point of the trial window covered further down this page.</p>
+
 <h2>What a chair gives you that appointments never will</h2>
 
 <p>The strongest case for a massage chair is not the cost math. It is access. A massage chair is available at 10pm on a Tuesday when your back has tightened up after dinner. It does not require scheduling, a co-pay, a commute, or 45 minutes carved out of a workday. For buyers who have been managing chronic pain through appointments for years, this shift from reactive to on-demand relief is the actual value proposition.</p>
@@ -1578,6 +1590,11 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <details>
 <summary><strong>How many times per week do I need to use it to make it worth it financially?</strong></summary>
 <p>At daily use, an upper-mid-tier chair costs only a few dollars per session over five years and pays for itself in about two and a half years versus two chiropractic sessions per month. Even at four sessions per week, the math holds comfortably. The real break-even depends on what you are currently spending on pain management, not just chiropractor visits.</p>
+</details>
+
+<details>
+<summary><strong>Will a massage chair end up sitting unused?</strong></summary>
+<p>It can, and the two causes are predictable. The first is placement: a chair in a spare room or a basement gets used far less than the same chair in the room you already sit in every evening. The second is fit and intensity: rollers that miss your shoulders, or a default program that leaves you sore, produce a chair people avoid rather than adjust. Both are decidable before purchase, and an in-home return window lets you measure your actual weekly usage while you can still send the chair back.</p>
 </details>
 
 <details>
@@ -2943,6 +2960,26 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Upholstery:</strong> The seat covering, armrests, and footrest material. Most warranties cover upholstery defects for 1-2 years but do not cover normal wear. Understanding what constitutes "normal wear" versus a defect is important for buyers who use chairs daily.</p>
 
+<h2>Labor Usually Runs Out Long Before Parts Do</h2>
+
+<p>The detail buyers miss most often is not whether labor is covered, it is for how long. Parts and labor are commonly written as separate terms on separate clocks, and the labor clock is the short one. A chair advertised with three to five years on rollers and mechanisms will frequently carry one year of labor. From month thirteen forward the replacement part is still free and the technician is not.</p>
+
+<p>That gap is where a covered failure turns into a bill. A service call for diagnosis and repair typically runs a few hundred dollars, and a repair that needs a diagnostic visit followed by a second visit once the correct part arrives is two of those. An owner sitting comfortably inside the parts warranty can still pay several hundred dollars for a failure the warranty technically covers.</p>
+
+<p>It is easy to miss because the number a brand leads with is the longest one. Frame and parts coverage are the headline figures; labor sits further down the terms as its own line. When a warranty is summarized as a five year warranty on a product page, that figure almost never describes labor.</p>
+
+<p>It costs more again if service is depot based rather than in-home. Once labor has expired on a depot warranty, you are paying freight in both directions on a chair that can weigh over 200 pounds, on top of the repair itself. The <a href="/learn/who-fixes-your-massage-chair">guide to who actually fixes your chair</a> covers which party dispatches the technician in the first place, which decides how quickly any of this happens.</p>
+
+<p>Three questions settle it before you buy, and all three should be answered in writing:</p>
+
+<ul>
+<li><strong>How long is labor covered, stated separately from parts?</strong> A single number for the warranty is not an answer.</li>
+<li><strong>Is service in-home or depot once labor expires?</strong> This decides whether a year three repair also includes freight.</li>
+<li><strong>What does a service call cost after labor has run out?</strong> Ask for the current callout fee rather than a range.</li>
+</ul>
+
+<p>A warranty with three years of parts and three years of labor is worth more in practice than one with five years of parts and one year of labor, even though the second advertises the bigger number. Weigh the labor term the way you would weigh the roller term. If you are still narrowing the field, the <a href="/finder">chair finder</a> takes about three minutes and filters by price tier and use case so you are comparing warranty terms across a shortlist rather than the whole catalog.</p>
+
 <h2>What a Good Warranty Looks Like</h2>
 
 <p>A quality warranty for a mid-to-high-end massage chair (mid tier and up) should include at minimum: 3 years on rollers and mechanisms, 2 years on electrical components, and labor included in both. Anything shorter than this on rollers suggests the manufacturer does not have confidence in their own mechanism quality.</p>
@@ -3043,6 +3080,9 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h3>What is the most important part of a massage chair warranty?</h3>
 <p>The term length on rollers and mechanisms, and whether labor is included. Those are the parts that fail and the parts that are expensive to fix. Frame coverage is usually long because frames rarely break.</p>
+
+<h3>Is labor covered for as long as parts?</h3>
+<p>Usually not. Parts and labor commonly run on separate clocks and labor is the shorter one. A chair with three to five years on rollers and mechanisms will often carry one year of labor, which means that from year two onward the replacement part is free and the technician visit is not. Ask for the labor term as its own number before you buy, and ask what a service call costs once it expires.</p>
 
 <h3>How can I tell if a brand will actually honor its warranty?</h3>
 <p>Look up the distributor that services the brand on the Better Business Bureau site and read the complaint mix. A file weighted toward Service and Repair complaints, with repeated patterns of parts shipped before diagnosis or tickets closed for non-response, is a warning about service performance that the advertised warranty terms will not show you.</p>
