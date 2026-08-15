@@ -169,6 +169,24 @@ export default function YuganaVsMaestroPage() {
         </Link>
       </div>
 
+
+      <div className="border-t border-sand pt-8">
+        <h3 className="text-lg font-serif mb-3 text-navy">Learn more</h3>
+        <div className="flex flex-wrap gap-3 text-sm">
+          <Link href="/chairs/kyota-yugana-m780" className="text-bronze hover:text-gold">Kyota Yugana M780 4D full review</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/chairs/osaki-os-pro-maestro-le" className="text-bronze hover:text-gold">Osaki OS-Pro Maestro LE 2.0 full review</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/brands/kyota" className="text-bronze hover:text-gold">About Kyota</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/brands/osaki" className="text-bronze hover:text-gold">About Osaki</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/learn/track-types" className="text-bronze hover:text-gold">Track types explained</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/compare" className="text-bronze hover:text-gold">All comparisons</Link>
+        </div>
+      </div>
+
 </div>
   )
 }

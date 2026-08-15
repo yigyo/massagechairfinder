@@ -189,6 +189,22 @@ export default function MbxVsMb8PlusPage() {
         </Link>
       </div>
 
+
+      <div className="border-t border-sand pt-8">
+        <h3 className="text-lg font-serif mb-3 text-navy">Learn more</h3>
+        <div className="flex flex-wrap gap-3 text-sm">
+          <Link href="/chairs/medical-breakthrough-x" className="text-bronze hover:text-gold">Medical Breakthrough X full review</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/chairs/medical-breakthrough-8-plus" className="text-bronze hover:text-gold">Medical Breakthrough 8 Plus full review</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/brands/medical-breakthrough" className="text-bronze hover:text-gold">About Medical Breakthrough</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/learn/track-types" className="text-bronze hover:text-gold">Track types explained</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/compare" className="text-bronze hover:text-gold">All comparisons</Link>
+        </div>
+      </div>
+
 </div>
   )
 }

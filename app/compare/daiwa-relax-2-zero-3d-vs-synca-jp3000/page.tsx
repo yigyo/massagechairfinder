@@ -158,6 +158,24 @@ export default function ComparePage() {
         </Link>
       </div>
 
+
+      <div className="border-t border-sand pt-8">
+        <h3 className="text-lg font-serif mb-3 text-navy">Learn more</h3>
+        <div className="flex flex-wrap gap-3 text-sm">
+          <Link href="/chairs/daiwa-relax-2-zero-3d" className="text-bronze hover:text-gold">Daiwa Relax 2 Zero 3D full review</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/chairs/synca-wellness-jp3000" className="text-bronze hover:text-gold">Synca JP-3000 full review</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/brands/daiwa" className="text-bronze hover:text-gold">About Daiwa</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/brands/synca-wellness" className="text-bronze hover:text-gold">About Synca Wellness</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/learn/track-types" className="text-bronze hover:text-gold">Track types explained</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/compare" className="text-bronze hover:text-gold">All comparisons</Link>
+        </div>
+      </div>
+
 </div>
   )
 }

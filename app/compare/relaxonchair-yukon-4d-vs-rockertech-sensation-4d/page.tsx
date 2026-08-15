@@ -168,6 +168,24 @@ export default function YukonVsSensationPage() {
         </Link>
       </div>
 
+
+      <div className="border-t border-sand pt-8">
+        <h3 className="text-lg font-serif mb-3 text-navy">Learn more</h3>
+        <div className="flex flex-wrap gap-3 text-sm">
+          <Link href="/chairs/relaxonchair-yukon-4d" className="text-bronze hover:text-gold">Relax On Chair YUKON-4D full review</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/chairs/rockertech-sensation-4d" className="text-bronze hover:text-gold">RockerTech Sensation 4D full review</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/brands/relax-on-chair" className="text-bronze hover:text-gold">About Relax On Chair</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/brands/rockertech" className="text-bronze hover:text-gold">About RockerTech</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/learn/track-types" className="text-bronze hover:text-gold">Track types explained</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/compare" className="text-bronze hover:text-gold">All comparisons</Link>
+        </div>
+      </div>
+
 </div>
   )
 }

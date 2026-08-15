@@ -167,6 +167,24 @@ export default function HiluxVsVigorPage() {
         </Link>
       </div>
 
+
+      <div className="border-t border-sand pt-8">
+        <h3 className="text-lg font-serif mb-3 text-navy">Learn more</h3>
+        <div className="flex flex-wrap gap-3 text-sm">
+          <Link href="/chairs/amamedics-hilux-4d" className="text-bronze hover:text-gold">AmaMedics Hilux 4D full review</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/chairs/titan-pro-vigor-4d" className="text-bronze hover:text-gold">Titan Pro-Vigor 4D full review</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/brands/amamedics" className="text-bronze hover:text-gold">About AmaMedics</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/brands/titan" className="text-bronze hover:text-gold">About Titan</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/learn/track-types" className="text-bronze hover:text-gold">Track types explained</Link>
+          <span className="text-warm-gray">|</span>
+          <Link href="/compare" className="text-bronze hover:text-gold">All comparisons</Link>
+        </div>
+      </div>
+
 </div>
   )
 }
