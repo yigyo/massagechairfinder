@@ -23,8 +23,8 @@ interface Editorial {
 
 const EDITORIAL: Record<string, Editorial> = {
   "kyota-genki-m380": {
-    label: "Best entry pick for seniors",
-    why: "The Genki M380 is the most forgiving chair in the catalog at this price. L-track covers the lower back, glutes, and upper thighs, which is where most chronic pain accumulates in older buyers. The 330-lb weight capacity is the highest among the entry-band chairs here, and the zero gravity position takes pressure off the lumbar during the session. In the Under $3,000 band, it delivers the fundamentals without requiring buyers to navigate complex programs or settings.",
+    label: "Best high-capacity pick for seniors",
+    why: "The Genki M380 is one of the most forgiving chairs in the catalog to operate. L-track covers the lower back, glutes, and upper thighs, which is where most chronic pain accumulates in older buyers. The 330-lb weight capacity is among the highest on this list, and the zero gravity position takes pressure off the lumbar during the session. It delivers the fundamentals without complex programs or settings, though its entry-tier promotion has ended and it now sits in the $5,000-$7,999 band.",
   },
   "inner-balance-jin-2": {
     label: "Best space-saving option",
@@ -225,7 +225,7 @@ export default function BestSeniorsPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If the main concern is chronic lower back or hip pain, the Genki M380 (entry), Medical Breakthrough 6 (mid-range), or Kyota Yugana M780 (premium) are all L-track chairs that cover the glutes. Any of the SL-track picks also cover that range. If the pain is primarily upper back and neck, any chair on this list works.
+          If the main concern is chronic lower back or hip pain, the Genki M380 (upper-mid), Medical Breakthrough 6 (mid-range), or Kyota Yugana M780 (upper-mid) are all L-track chairs that cover the glutes. Any of the SL-track picks also cover that range. If the pain is primarily upper back and neck, any chair on this list works.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If pressure sensitivity is the concern, start at the lowest intensity setting on any roller chair before building up over multiple sessions. If roller pressure is not tolerable regardless of intensity, the Human Touch Laevo ZG is the right category. It is not a compromise; it is a different tool for a different need.

@@ -812,7 +812,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Osaki</strong> is the larger of the two in terms of catalog breadth. The Osaki OS-Pro Admiral II (Under $3,000) is a reliable entry-tier SL-track chair that consistently ranks well for value. The Osaki OS-Pro Maestro LE 2.0 ($8,000-$11,999) steps up in roller quality and program depth. At the top, the Osaki OS-Pro 4D DuoMax ($12,000 and up) is a dual-roller premium system. Osaki also owns the Titan brand, which shares manufacturing with Osaki but is positioned as the value line, functionally similar chairs at lower prices with fewer features and shorter warranty terms.</p>
 
-<p><strong>Infinity</strong> skews toward the higher end. The Infinity Dynasty 4D ($5,000-$7,999) and the Infinity Imperial Syner-D ($5,000-$7,999) are serious chairs targeted at buyers who want near-luxury performance without crossing into the ultra-premium Japanese segment. Infinity's mid-range options fill the mid through premium tiers with competitive feature sets.</p>
+<p><strong>Infinity</strong> skews toward the higher end. The Infinity Dynasty 4D ($3,000-$4,999 on a while-supplies-last promotion) and the Infinity Imperial Syner-D ($5,000-$7,999) are serious chairs targeted at buyers who want near-luxury performance without crossing into the ultra-premium Japanese segment. Infinity's mid-range options fill the mid through premium tiers with competitive feature sets.</p>
 
 <p>For buyers comparing Osaki and Infinity directly: the brands are more similar than the marketing suggests. Evaluate specific models head-to-head rather than treating one brand as categorically superior. Both back their products with US-based customer support and parts availability, which matters for a purchase in this price range.</p>
 
@@ -838,7 +838,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>AmaMedics</strong> spans budget and mid-range with the Renew 3D (Under $3,000) at entry level and the Hilux 4D ($3,000-$4,999) as their flagship. The Hilux 4D is a credible 4D chair at a price significantly below what Japanese brands charge for the same roller technology. Buyers who want 4D performance without a five-figure budget should look at it closely.</p>
 
-<p><strong>Kyota</strong> sits in the entry tier with the Genki M380. It is a reasonable option in its price tier but does not have the track record or parts availability of Kahuna at a similar price point.</p>
+<p><strong>Kyota</strong> fields the Genki M380, which now sits in the $5,000-$7,999 band after its long-running entry-tier promotion ended. It shares distribution infrastructure with Osaki, which helps on parts and service, but at full list price it competes against far stronger chairs than it did at its old promotional price.</p>
 
 <h2>Premium design-forward brands: Ogawa and Daiwa</h2>
 
@@ -1528,7 +1528,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <details>
 <summary><strong>Are there good options in the entry tier?</strong></summary>
-<p>Yes. The Kahuna LM-6800S and the Kyota Genki M380, both in the Under $3,000 band, are legitimate chairs with SL-track and L-track coverage respectively. The limitation is roller quality and warranty depth rather than the core massage experience. For buyers who cannot stretch further, these are real options worth considering. See the <a href="/best/under-3000">best chairs under $3,000</a> for the full comparison.</p>
+<p>Yes. The Kahuna LM-6800S, in the Under $3,000 band, is a legitimate chair with SL-track coverage. The limitation is roller quality and warranty depth rather than the core massage experience. For buyers who cannot stretch further, it is a real option worth considering. See the <a href="/best/under-3000">best chairs under $3,000</a> for the full comparison.</p>
 </details>
 
 <p>The <a href="/learn/how-to-buy">buying framework guide</a> walks through the decision sequence from physical need through budget and track type. The <a href="/learn/brands-overview">brands overview</a> explains what each brand name actually tells you about build quality and support. The <a href="/finder">chair finder</a> filters the full catalog by your specific requirements.</p>`,

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'kyota-genki-m380',
+  'relaxe-shiatsu',
   'panasonic-maf1',
   'titan-pro-vigor-4d',
   'amamedics-hilux-4d',
@@ -22,9 +22,9 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'kyota-genki-m380': {
+  'relaxe-shiatsu': {
     label: 'Best for tall or heavier builds',
-    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest capacity in this price range with a Plus Size Confirmed designation. L-track covers the glutes and thighs. It is the most affordable chair in the catalog with a high-capacity verification. For buyers whose dimensions exceed what the Admiral II can confirm, this is the pick.",
+    why: "The Relaxe Shiatsu is confirmed at 330 lbs with a confirmed height range of 61 to 76 inches, the highest weight capacity on this page. The 53-inch SL-track is one of the longer roller paths in the catalog, and the space-saving 2-inch wall clearance fits tight rooms. 2D rollers, zero gravity, heat. For buyers whose dimensions exceed what the Admiral II can confirm, this is the pick, at a price well under this page's ceiling.",
   },
   'panasonic-maf1': {
     label: 'Best for neck and upper-back focus',
@@ -72,7 +72,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "Which massage chair under $5,000 is best for tall or heavier builds?",
-    a: "The Kyota Genki M380 confirms fit up to 6'5\" and 330 lbs, and the AmaMedics Hilux 4D confirms up to 6'7\". For weight capacity specifically, the Kahuna HM-078 supports up to 350 lbs while keeping SL-track 4D roller quality. Always check the confirmed height and weight range before buying, since fit determines whether the rollers track your spine correctly.",
+    a: "The Relaxe Shiatsu confirms fit up to 6'4\" and 330 lbs, and the AmaMedics Hilux 4D confirms up to 6'7\". For weight capacity specifically, the Kahuna HM-078 supports up to 350 lbs while keeping SL-track 4D roller quality. Always check the confirmed height and weight range before buying, since fit determines whether the rollers track your spine correctly.",
   },
 ]
 
@@ -293,7 +293,7 @@ export default function BestUnder5000Page() {
           If lower back pain is the primary concern, the Admiral II (SL-track, 3D, entry tier) or the Hilux 4D (SL-track, 4D, mid-tier) are the two picks depending on whether roller sophistication justifies the additional spend for your situation. If neck and upper back is the primary concern, the MAF1&apos;s S-track 4D setup is the specialist pick.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          For buyers with height above 6&apos;1&quot; or weight above 270 lbs, the Genki M380 (up to 6&apos;5&quot;, 330 lbs) or Hilux 4D (up to 6&apos;7&quot;) are the confirmed-fit options in this range. If you are unsure whether your measurements fall inside a chair&apos;s range, the{' '}
+          For buyers with height above 6&apos;1&quot; or weight above 270 lbs, the Relaxe Shiatsu (up to 6&apos;4&quot;, 330 lbs) or Hilux 4D (up to 6&apos;7&quot;) are the confirmed-fit options in this range. If you are unsure whether your measurements fall inside a chair&apos;s range, the{' '}
           <Link href="/learn/body-fit" className="text-bronze hover:text-gold transition-colors">body fit guide</Link>{' '}
           explains how height and weight limits are set and why they matter.
         </p>

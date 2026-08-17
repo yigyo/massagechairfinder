@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const PICK_IDS = [
   'synca-wellness-circ-plus',
   'inner-balance-jin',
-  'titan-3d-prestige',
+  'relaxe-shiatsu',
   'infinity-imperial-syner-d',
   'jpmedics-kaze-duo',
   'relaxonchair-mk-v-plus',
@@ -29,11 +29,11 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'inner-balance-jin': {
     label: "Best space-saving in the Under $3,000 band",
-    why: 'The Inner Balance Jin requires only 2 inches of wall clearance and is confirmed at 300 lbs, making it one of the few chairs in the Under $3,000 band that combine near-zero wall clearance with plus-size capacity. SL-track, 2D rollers, zero gravity, heat. For buyers whose weight exceeds 250 lbs and who need tight wall clearance, this fills a gap the entry-level chairs cannot.',
+    why: 'The Inner Balance Jin requires only 2 inches of wall clearance and is confirmed at 300 lbs, making it one of the few chairs in the Under $3,000 band that combine near-zero wall clearance with plus-size capacity. L-track, 2D rollers, zero gravity, heat. For buyers whose weight exceeds 250 lbs and who need tight wall clearance, this fills a gap the entry-level chairs cannot.',
   },
-  'titan-3d-prestige': {
-    label: 'Smallest footprint in SL-track',
-    why: "The Titan 3D Prestige requires 1 inch of wall clearance, the tightest in the SL-track category. In the $3,000-$4,999 band, it represents the price point where SL-track, 3D rollers, space-saving recline, and zero gravity all converge. Heat and full-body stretch confirmed. Confirmed up to 6'3\", 260 lbs.",
+  'relaxe-shiatsu': {
+    label: 'Best budget SL-track for tight rooms',
+    why: "The Relaxe Shiatsu pairs a 53-inch SL-track with a space-saving 2-inch wall clearance at an entry-tier price. Confirmed from 5'1\" to 6'4\" and up to 330 lbs, with zero gravity and heat. For buyers fitting a full SL-track chair into a small room without moving past the Under $3,000 band, this is the pick.",
   },
   'infinity-imperial-syner-d': {
     label: 'Premium with widest confirmed height range',

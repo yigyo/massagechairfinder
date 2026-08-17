@@ -8,10 +8,9 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'kyota-genki-m380',
+  'infinity-dynasty-4d',
   'panasonic-maf1',
   'amamedics-hilux-4d',
-  'titan-3d-prestige',
   'sharper-image-relieve-3d',
   'kahuna-hm-078',
 ]
@@ -22,9 +21,9 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'kyota-genki-m380': {
+  'infinity-dynasty-4d': {
     label: 'Best L-track entry for this tier',
-    why: "The Genki M380 is technically an entry-tier chair, sitting just under this range, but it earns its spot here for buyers who are primarily choosing on capacity and L-track coverage rather than roller sophistication. Confirmed 6'5\" and 330 lbs with a Plus Size Confirmed designation. L-track reaches under the glutes and into the thighs. 2D rollers. For buyers who want confirmed high-capacity L-track coverage and a reliable retailer at or near this price tier, this is the starting pick.",
+    why: "The Dynasty 4D moved into this band on a while-supplies-last promotion, and it brings the best-documented fit range here: confirmed from 5'0\" to 6'0\" and up to 300 lbs, the only petite-confirmed chair in the catalog. The 49-inch L-track reaches under the glutes, with 4D rollers, heat, and a space-saving 2-inch wall clearance. For buyers at either end of the size range who want verified fit rather than spec-sheet guesswork, this is the pick.",
   },
   'panasonic-maf1': {
     label: 'Best S-track for neck and upper-back focus',
@@ -33,10 +32,6 @@ const EDITORIAL: Record<string, Editorial> = {
   'amamedics-hilux-4d': {
     label: 'Best SL-track 4D, widest body fit',
     why: "The Hilux 4D has the widest confirmed height range at this price tier (4'11\" to 6'7\") and a 53-inch track, one of the longer SL-track systems in the catalog. The 4D roller varies speed and depth within each stroke. A distinctive feature: the rollers themselves are heated, meaning heat follows the roller path throughout the session rather than staying fixed at the lumbar. For buyers who need SL-track coverage with 4D quality and want confidence the chair fits their height, this is the pick.",
-  },
-  'titan-3d-prestige': {
-    label: 'Best for small spaces',
-    why: "The Titan 3D Prestige has 1-inch wall clearance, the tightest in the SL-track category at this price. For buyers in this range whose primary constraint is room size, the Prestige is the only SL-track 3D chair in this range that can sit flush against a wall. Full-body stretch and heat confirmed. Up to 6'3\", 260 lbs.",
   },
   'sharper-image-relieve-3d': {
     label: 'L-track 3D in this range',
@@ -70,7 +65,7 @@ export default function Best3000To5000Page() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs: $3,000 to $5,000</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        The $3,000 to $5,000 range is where the catalog diverges by use case. For L-track coverage at high body capacity, the Kyota Genki M380 sits at the entry of this tier. From the middle of this range up to just above its ceiling you have several distinct options: a 4D SL-track chair with the widest confirmed height range in this tier, an S-track specialist for neck and upper-back focus, and a 3D SL-track with 1-inch wall clearance. The right pick depends entirely on your pain pattern and room constraints.
+        The $3,000 to $5,000 range is where the catalog diverges by use case. For L-track coverage with confirmed fit data, the Infinity Dynasty 4D now sits in this tier on promotional pricing. From the middle of this range up to just above its ceiling you have several distinct options: a 4D SL-track chair with the widest confirmed height range in this tier, an S-track specialist for neck and upper-back focus, and a 3D SL-track with 1-inch wall clearance. The right pick depends entirely on your pain pattern and room constraints.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
         Updated May 2026. Note: the entry-tier Osaki OS-Pro Admiral II remains one of the most competitive chairs in the full catalog. If your budget is flexible downward, it is worth considering alongside these picks. See the{' '}
@@ -223,7 +218,7 @@ export default function Best3000To5000Page() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your pain is neck and shoulders only, the Panasonic MAF1 is the S-track specialist in this tier. If your pain spans the full back or is concentrated in the lower back, the Hilux 4D covers more ground with better roller quality. If room size is the constraint, the Titan Prestige is the only 1-inch wall clearance option in the SL-track category at this price.
+          If your pain is neck and shoulders only, the Panasonic MAF1 is the S-track specialist in this tier. If your pain spans the full back or is concentrated in the lower back, the Hilux 4D covers more ground with better roller quality. If room size is the constraint, the Dynasty 4D folds to 2 inches from the wall, the tightest clearance among these picks.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           For buyers above 6&apos;3&quot; or above 270 lbs, the Hilux 4D accommodates the widest range. Note that the Panasonic MAF1 does not include zero gravity, which is a trade-off worth confirming before purchasing.

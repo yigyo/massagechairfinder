@@ -24,7 +24,7 @@ export default function DynastyVsGenesisMaxPage() {
       <p className="text-warm-gray text-lg mb-8">
         Both chairs come from Infinity and both use a 49-inch L-track with a 4D roller. On paper
         they look nearly identical, but they now sit in different price tiers: the Dynasty lands in
-        the upper-mid tier ($5,000-$7,999) while the Genesis Max sits in the premium tier ($8,000-$11,999).
+        the mid tier ($3,000-$4,999) while the Genesis Max sits in the premium tier ($8,000-$11,999).
         The Dynasty also carries confirmed petite and plus-size fit data the Genesis Max does not
         publish. Which one fits your situation is the question this page answers.
       </p>
@@ -41,7 +41,7 @@ export default function DynastyVsGenesisMaxPage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Infinity Dynasty 4D</p>
-          <p className="text-sm text-charcoal">$5,000-$7,999</p>
+          <p className="text-sm text-charcoal">$3,000-$4,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -81,7 +81,7 @@ export default function DynastyVsGenesisMaxPage() {
           </thead>
           <tbody>
             {[
-              ['Price band', '$5,000-$7,999', '$8,000-$11,999'],
+              ['Price band', '$3,000-$4,999', '$8,000-$11,999'],
               ['Track type', 'L-track', 'L-track'],
               ['Track length', '49 inches', '49 inches'],
               ['Roller type', '4D', '4D'],

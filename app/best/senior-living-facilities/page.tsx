@@ -28,7 +28,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "kyota-genki-m380": {
     label: "Easiest for residents and staff to operate",
-    why: "The Genki M380 carries the highest confirmed weight capacity in the catalog at 330 lbs and the simplest control scheme on this list. Its 2D roller runs straightforward auto programs without the layered menus of a 4D chair, which matters when residents and activity staff need to start a session with one button. L-track covers the lower back, glutes, and upper thighs where chronic pain concentrates in older adults, and the fit is confirmed up to 6'5\". In the Under $3,000 band it is the most forgiving, lowest-friction chair to place in front of a rotating group of residents.",
+    why: "The Genki M380 carries the highest confirmed weight capacity in the catalog at 330 lbs and the simplest control scheme on this list. Its 2D roller runs straightforward auto programs without the layered menus of a 4D chair, which matters when residents and activity staff need to start a session with one button. L-track covers the lower back, glutes, and upper thighs where chronic pain concentrates in older adults, and the fit is confirmed up to 6'5\". It is the most forgiving, lowest-friction chair to place in front of a rotating group of residents, though its entry-tier promotion has ended and it now sits in the $5,000-$7,999 band.",
   },
   "human-touch-laevo-zg": {
     label: "Best for frail or pressure-sensitive residents",
@@ -298,7 +298,7 @@ export default function BestSeniorLivingFacilitiesPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to choose for your community</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For a standard common room on a defined budget, the Ogawa Active XL 3D (Under $3,000) or Kyota Genki M380 (Under $3,000) are the two to weigh. Choose the Active XL 3D for full SL-track coverage and the Genki M380 for the highest weight capacity and the simplest controls. Both are affordable enough to place in more than one room.
+          For a standard common room on a defined budget, the Ogawa Active XL 3D (Under $3,000) is the value anchor: full SL-track coverage at a price low enough to place in more than one room. The Genki M380 still brings the highest weight capacity and the simplest controls on this list, but its entry-tier promotion has ended and it now prices in the $5,000-$7,999 band.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If the program serves residents who cannot tolerate roller pressure, the Human Touch Laevo ZG is a different category, not a compromise. It is the right tool for frail residents, and pairing it with one roller chair in the same space lets staff match the chair to the resident.

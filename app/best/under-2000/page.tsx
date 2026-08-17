@@ -35,7 +35,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'inner-balance-jin': {
     label: 'Best wall-clearance option under $2,000',
-    why: 'The Inner Balance Jin requires only 2 inches of wall clearance, the tightest recline footprint of any chair in this price range. SL-track, 300-lb weight capacity, zero gravity, and lumbar heat are confirmed. For buyers who have measured their space and need the chair to sit within inches of the wall, this is the only option under $2,000 that reliably fits.',
+    why: 'The Inner Balance Jin requires only 2 inches of wall clearance, the tightest recline footprint of any chair in this price range. L-track, 300-lb weight capacity, zero gravity, and lumbar heat are confirmed. For buyers who have measured their space and need the chair to sit within inches of the wall, this is the only option under $2,000 that reliably fits.',
   },
   'relaxonchair-jasper': {
     label: 'SL-track step-up in the entry tier',

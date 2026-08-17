@@ -26,7 +26,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best entry for tall buyers',
-    why: 'The Genki M380 is confirmed for buyers up to 6\'5" and 330 lbs. L-track covers the glutes and upper thighs. In the Under $3,000 band, it is the most affordable chair in the catalog with a confirmed tall-buyer fit verification. 2D rollers. For buyers who need documented tall-buyer compatibility at an accessible price, this is the entry pick.',
+    why: 'The Genki M380 is confirmed for buyers up to 6\'5" and 330 lbs. L-track covers the glutes and upper thighs. 2D rollers. Its entry-tier promotion has ended and it now sits in the $5,000-$7,999 band, so the case for it is the documented 6\'5" fit rather than price.',
   },
   'amamedics-hilux-4d': {
     label: 'Best SL-track for tall buyers',
@@ -235,7 +235,7 @@ export default function BestTallPeoplePage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your height is between 6'3&quot; and 6'6&quot;, you have four confirmed options above across a range of prices and track types. The Hilux 4D is the SL-track pick; the Legacy 4 and Syner-D are the L-track and Flex-track picks; the Genki M380 is the entry option.
+          If your height is between 6'3&quot; and 6'6&quot;, you have four confirmed options above across a range of prices and track types. The Hilux 4D is the SL-track pick; the Legacy 4 and Syner-D are the L-track and Flex-track picks; the Genki M380 is the high-capacity L-track option.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If you are above 6'6&quot;, the Luraco i9 Max Plus is the only chair in this catalog confirmed to that range (6'10&quot;). The Legacy 4 and Syner-D confirm to 6'6&quot; and may work depending on your proportions, but the Luraco has the explicit verification.

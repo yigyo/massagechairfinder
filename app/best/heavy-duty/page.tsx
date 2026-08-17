@@ -27,7 +27,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best entry heavy-duty',
-    why: 'The Genki M380 is confirmed at 330 lbs with a Plus Size Confirmed designation. L-track covers the glutes and thighs. In the Under $3,000 band, it is the most affordable chair in the catalog with a verified high-capacity rating. Zero gravity, heat, foot and calf massage, 2D rollers.',
+    why: 'The Genki M380 is confirmed at 330 lbs with a Plus Size Confirmed designation. L-track covers the glutes and thighs. Zero gravity, heat, foot and calf massage, 2D rollers. Its entry-tier promotion has ended and it now sits in the $5,000-$7,999 band, so the case for it is the verified capacity rather than price.',
   },
   'inner-balance-jin-2': {
     label: "Best space-saving heavy-duty in the $3,000-$4,999 band",
@@ -240,7 +240,7 @@ export default function BestHeavyDutyPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For buyers at or below 330 lbs who want the most affordable confirmed option, the Kyota Genki M380 (Under $3,000) is the pick. For buyers who want 4D roller quality alongside high capacity and a space-saving footprint, the Yugana M780 ($5,000-$7,999) is the upper-mid step up.
+          For buyers at or below 330 lbs, the Kyota Genki M380 remains the confirmed pick, though its entry-tier promotion has ended and it now sits in the $5,000-$7,999 band alongside the Yugana M780. For buyers who want 4D roller quality alongside high capacity and a space-saving footprint, the Yugana M780 is the step up.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           The Kahuna HM-078 has the highest capacity on this list at 350 lbs, confirmed up to 6&apos;2&quot;. For buyers who need both high capacity and confirmed height data, the Yugana M780 (4&apos;8&quot; to 6&apos;2&quot;, 300 lbs) or Luraco (4&apos;11&quot; to 6&apos;10&quot;, 300 lbs) are the best-documented options.

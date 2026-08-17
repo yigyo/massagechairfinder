@@ -11,7 +11,6 @@ const PICK_IDS = [
   'osaki-os-champ',
   'synca-wellness-circ-plus',
   'relaxe-shiatsu',
-  'kyota-genki-m380',
   'kahuna-hm-5000',
 ]
 
@@ -33,10 +32,6 @@ const EDITORIAL: Record<string, Editorial> = {
   'relaxe-shiatsu': {
     label: 'Best for larger buyers under $3,000',
     why: 'The Relaxe Shiatsu is confirmed at 330 lbs with a 53-inch SL-track and space-saving 2-inch wall clearance, sitting at the top of this entry tier. The weight capacity is the highest in the under-$3,000 range, making it the strongest option for buyers who exceed 260 or 270 lbs. Confirmed height range of 61 to 76 inches. 2D rollers, zero gravity, heat. Sold via relaxe.co.',
-  },
-  'kyota-genki-m380': {
-    label: 'Best for tall or heavier buyers',
-    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, a notably high weight capacity for this price tier. L-track (covers glutes and thighs, less upper-back reach than SL). For buyers who exceed the 200-lb limit of entry chairs or need a taller accommodation, this is the pick at the top of this tier.",
   },
   'kahuna-hm-5000': {
     label: 'Best space-saving SL-track value here',
@@ -219,7 +214,7 @@ export default function BestUnder3000Page() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For most buyers in this tier, the decision comes down to body fit. If you are 5&apos;2&quot; to 6&apos;1&quot; and under 270 lbs, the Admiral II is the pick. If you are taller than 6&apos;1&quot; or heavier than 270 lbs, the Kyota Genki M380 accommodates a wider range at the same price.
+          For most buyers in this tier, the decision comes down to body fit. If you are 5&apos;2&quot; to 6&apos;1&quot; and under 270 lbs, the Admiral II is the pick. If you are taller than 6&apos;1&quot; or heavier than 270 lbs, the Relaxe Shiatsu accommodates up to 6&apos;4&quot; and 330 lbs at a similar price.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If budget is strictly in the lower half of this tier and that cannot change, both entry picks above are sound. The gap between the floor of the catalog and the top of this tier is real, but not everyone needs the upgrade.

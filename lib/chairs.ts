@@ -241,8 +241,7 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '5% (Rakuten)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.massagechairs.com/products/osaki-os-pro-admiral-3d',
-    amazonUrl: 'https://www.amazon.com/dp/B09HW3F2BB/?tag=massagechairf-20',
-    amazonAsin: 'B09HW3F2BB',
+    amazonAsin: 'B09HW3F2BB',  // re-verified 2026-08-16: still 'Currently unavailable' (no offer). Primary massagechairs.com in stock $2,999 (Grey only). Re-wire if a featured offer returns.
     imageUrl: '/images/chairs/osaki-os-pro-admiral-ii.jpg',
     goodwinLookupKey: 'osaki os-pro admiral ii',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-admiral-gray-massage-chair.webp?v=1776836197',
@@ -371,7 +370,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 4,
-    priceMin: 6999,  // massagechairstore.com verified live 2026-07-12 (promo ended; was 4999, now $6,999 from $11,999 MSRP) -- crossed mid -> upper-mid band
+    priceMin: 3999,  // massagechairstore.com verified 2026-08-16: 'Save $8,000 While Supplies Last' promo, $3,999 (was 6999) -- crossed upper-mid -> mid band; watch for promo end
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -500,7 +499,7 @@ export const CHAIRS: Chair[] = [
     name: 'Human Touch Laevo ZG',
     brand: 'Human Touch',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 4499,
+    priceMin: 4499,  // humantouch.com verified 2026-08-16: back to $4,499 (was 4999; price cycles between 4499/4999) -- same band
     affiliateTier: null,
     affiliateRetailer: 'humantouch.com',
     affiliateCommission: 'Awin / direct',
@@ -836,13 +835,13 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 2,
-    priceMin: 2999,
+    priceMin: 7999,  // massagechairstore.com verified 2026-08-16: promo over, back to full MSRP $7,999 (was 2999) -- crossed entry -> upper-mid band
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
-    amazonAsin: 'B08T4BXGP3',  // 2026-07-13 browser check: listing live, correct product, but NO Amazon buy box (no featured offer, no price shown). Do not wire amazonUrl until a featured offer returns.
+    amazonAsin: 'B08T4BXGP3',  // 2026-08-16 browser check: buy box GONE again (only '1 option from $7,499' 3P, no featured offer). amazonUrl dropped per no-buy-box rule. Re-wire if a featured offer returns.
     imageUrl: '/images/chairs/kyota-genki-m380.jpg',
     goodwinLookupKey: 'kyota genki',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Kyota-Genki-M380-massage-chair.jpg?v=1776836198',
@@ -1024,6 +1023,7 @@ export const CHAIRS: Chair[] = [
     brand: 'AmaMedics',
     active: true, goodwinActive: true, mcfActive: true,
     priceMin: 1299,
+    inStock: false,  // clearancechair.com verified 2026-08-16: page live at $1,299 but ALL variants Sold Out
     affiliateTier: 'A',
     affiliateRetailer: 'clearancechair.com',  // 2026-06-01 switched from osakimassagechair (OOS) to clearancechair (in stock $1,299); affiliate tier needs confirmation
     affiliateCommission: '5% (Rakuten)',
@@ -1258,6 +1258,7 @@ export const CHAIRS: Chair[] = [
     brand: 'Titan',
     active: true, goodwinActive: true, mcfActive: true,
     priceMin: 4999,
+    inStock: false,  // titanchair.com verified 2026-08-16: page live at $4,999 but Sold Out across all 3 colors
     affiliateTier: 'A',
     affiliateRetailer: 'titanchair.com',
     affiliateCommission: 'VigLink / FlexOffers',
@@ -1433,12 +1434,12 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://syncamassagechair.com/products/jin',
     imageUrl: '/images/chairs/inner-balance-jin.jpg',
-    track: 'SL', roller: '2D',
+    track: 'L', roller: '2D',
     spaceSaving: true, wallClearanceIn: 2,
     weightCapacityLbs: 300,
     zeroGravity: true, heat: true, foot: true,
     plusSizeConfirmed: true,
-    aiNotes: 'SL-track. 2D roller. Space-saving 2" wall clearance. 300 lb capacity. Inner Balance brand distributed via Synca Wellness.',
+    aiNotes: 'L-track. 2D roller. Space-saving 2" wall clearance. 300 lb capacity. Inner Balance brand distributed via Synca Wellness.',
     reviewRating:      5.0,
     reviewCount:       9,
     reviewSource:      "syncamassagechair.com",
@@ -1461,13 +1462,13 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://syncamassagechair.com/products/jin2',
     imageUrl: '/images/chairs/inner-balance-jin-2-0.jpg',
-    track: 'SL', roller: '2D',
+    track: 'L', roller: '2D',
     spaceSaving: true, wallClearanceIn: 2,
     weightCapacityLbs: 300,
     zeroGravityStages: 3,
     zeroGravity: true, heat: true, foot: true,
     plusSizeConfirmed: true,
-    aiNotes: 'SL-track. 2D roller. 3-stage zero gravity. Space-saving 2" wall clearance. 300 lb capacity. Upgraded Jin with deeper recline stages.',
+    aiNotes: 'L-track. 2D roller. 3-stage zero gravity. Space-saving 2" wall clearance. 300 lb capacity. Upgraded Jin with deeper recline stages.',
     reviewRating:      4.9,
     reviewCount:       8,
     reviewSource:      "syncamassagechair.com",
@@ -1764,7 +1765,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.wishrockrelaxation.com/products/kahuna-massage-chair-sm-7300s',
     imageUrl: '/images/chairs/kahuna-sm-7300s.jpg',
-    track: 'SL', roller: '2D',
+    track: 'L', roller: '2D',
     heightMaxIn: 74,
     zeroGravity: true, zeroGravityStages: 3, heat: true, stretch: true, foot: true, aiScanning: true,
     aiNotes: 'Big and tall SL-track 2D. 6-roller system. Heat to lumbar, calf, and feet. Three-stage zero gravity. Stretch. Designed for larger users. Via Wish Rock Relaxation. Verified May 2026.',
@@ -1799,7 +1800,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.wishrockrelaxation.com/products/kahuna-hm-5000-massage-chair',
     imageUrl: '/images/chairs/kahuna-hm-5000.jpg',
-    track: 'SL', roller: '2D',
+    track: 'L', roller: '2D',
     heightMaxIn: 74, weightCapacityLbs: 290,
     zeroGravity: true, heat: false, foot: true, calf: true,
     spaceSaving: true,
@@ -1981,7 +1982,7 @@ export const CHAIRS: Chair[] = [
     name: 'Relaxe Shiatsu',
     brand: 'Relaxe',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 2999,
+    priceMin: 2799,
     affiliateTier: 'A',
     affiliateRetailer: 'relaxe.co',
     goodwinStatus: 'affiliate',
@@ -2102,8 +2103,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://www.relaxonchair.com/products/jasper-full-body-massage-chair?ref=gxoncaks',
-    amazonUrl: 'https://www.amazon.com/dp/B0D325QC32/?tag=massagechairf-20',
-    amazonAsin: 'B0D325QC32',
+    amazonAsin: 'B0D325QC32',  // 2026-07-26: Amazon listing live + correct product but NO featured buy box ('See All Buying Options' only). amazonUrl dropped; primary relaxonchair.com in stock. Re-wire when a featured offer returns.
     imageUrl: '/images/chairs/relax-on-chair-jasper.jpg',
     track: 'SL', roller: null,
     zeroGravity: true, heat: true, foot: true,
@@ -2605,8 +2605,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'massagechairwarehouse.com',
     affiliateUrl: 'https://www.massagechairwarehouse.com/products/svago-lite-2-zero-gravity-recliner',
-    amazonUrl: 'https://www.amazon.com/dp/B0CN1S3XV1/?tag=massagechairf-20',
-    amazonAsin: 'B0CN1S3XV1',
+    amazonAsin: 'B0CN1S3XV1',  // 2026-08-16 browser check: listing live but NO buy box ('See All Buying Options' only). amazonUrl dropped per no-buy-box rule. Primary retailer in stock $1,499.99.
     imageUrl: '/images/chairs/svago-lite-2.jpg',
     track: null, roller: null,
     zeroGravity: true, heat: true,
@@ -2720,7 +2719,7 @@ export const CHAIRS: Chair[] = [
     name: 'Nouhaus New Classic',
     brand: 'Nouhaus',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 1399,  // nouhaus.com verified 2026-07-12 (lowest variant, from $1,399.99)
+    priceMin: 1499,  // nouhaus.com verified 2026-07-26 (was 1399; now $1,499.99 direct. Amazon shows temporary deal $1,274.99 -- may revert; using stable direct price)
     affiliateTier: null,
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
@@ -2848,7 +2847,7 @@ export const CHAIRS: Chair[] = [
     name: 'Culanta SL-Track Shiatsu',
     brand: 'Culanta',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1099,  // amazon.com observed 2026-06-07
+    priceMin: 999,  // amazon.com verified 2026-08-16: $999.99 limited deal, 'Only 1 left' (was 1099) -- same band, likely reverts
     affiliateTier: null,
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2867,7 +2866,7 @@ export const CHAIRS: Chair[] = [
     name: 'TLIFE 160 Zero Gravity',
     brand: 'TLIFE',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1349,  // amazon.com observed 2026-06-07
+    priceMin: 1199,  // amazon.com verified 2026-08-16: $1,199.99 deal (was 1349) -- same band; NOTE dp/B0F2FMVT7M redirects to variant ASIN B0F2FP5DP5 (12-mode Black)
     affiliateTier: null,
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2924,7 +2923,7 @@ export const CHAIRS: Chair[] = [
     name: 'MYTHIA A303C 4D',
     brand: 'MYTHIA',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1799,  // amazon.com observed 2026-06-07
+    priceMin: 1399,  // amazon.com featured buy-box verified 2026-07-26 (was 1799 = stale list price; featured price now $1,399, -22%)
     affiliateTier: null,
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',

@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'amamedics-renew-3d',
   'osaki-os-pro-yamato',
   'titan-pro-vigor-4d',
   'infinity-dynasty-4d',
@@ -21,10 +20,6 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'amamedics-renew-3d': {
-    label: 'Best entry option',
-    why: 'A nightly wind-down session does not require a flagship, and the Renew 3D covers the sleep-relevant feature set at the bottom of the entry band. Three zero gravity stages, which is more recline adjustment than most chairs twice the price offer, plus heat, foot and calf coverage, body scanning, and SL-track. It folds to 4 inches from the wall, so a bedroom or a corner of the den both work. 3D rollers give you pressure adjustment, which matters at night: the goal is to lower arousal, so being able to keep the session gentle is the point. Listed as a clearance model, so availability may be limited.',
-  },
   'osaki-os-pro-yamato': {
     label: 'Best for a bedroom',
     why: 'At 4 inches of wall clearance and with the gentlest roller set in this group, the Yamato is built for the room the session should actually happen in. 2D rollers mean it cannot go deep, which for a pre-bed session is the correct trade: firm work raises arousal at exactly the moment you want it falling. Two-stage zero gravity, heat, stretch, body scanning, and full foot and calf coverage. Two limits to check before buying, both from the spec sheet: 220 lb capacity, the lowest here, and no confirmed fit for petite buyers.',
