@@ -590,6 +590,12 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If you are 6'3" or taller, use these as your starting point and work outward. Do not assume a chair that lists 6'0" as its maximum will accommodate you adequately.</p>
 
+<h3>On the boundary between two ranges: which way to round</h3>
+
+<p>Buyers whose height sits right at the edge of a published range, at 5'10" looking at a chair rated to 5'11", or at 6'1" against a 6'1" maximum, regularly ask whether one inch is enough to change the recommendation. The answer is that the inch itself is not the deciding number, because the roller track fits your spine, not your total height. Two people at the same height can carry it very differently. If your height is in your torso, the track has more spine to cover and you should treat yourself as taller than the number on the measuring tape. If your height is in your legs, the track fits fine and the constraint to check is the footrest extension instead.</p>
+
+<p>So the tiebreaker is torso length, and the test is the same one-minute check described above: sit fully back, run the body scan, and note where the top of the roller travel lands. If you cannot sit in the chair before buying, tell the retailer your height and whether you are long or short in the torso, and ask them to confirm fit for your build specifically. Published ranges carry some engineering margin and are not cliffs, but an inch past the stated maximum lands differently on a long-torsoed body than a short one, and the retailer's confirmation is the only substitute for the sit test. The <a href="/finder">chair finder</a> screens by confirmed height ranges, which keeps boundary cases out of your shortlist in the first place.</p>
+
 <h2>Weight capacity: what the number actually means</h2>
 
 <p>Most massage chairs list a maximum weight capacity of 265 to 300 pounds. This comes up often enough that buyers sometimes treat it as a massage quality indicator, as if a higher capacity means a better chair. It does not. Weight capacity is a structural engineering specification. It describes the load the chair's frame, motors, and mechanical components were tested to handle safely.</p>
@@ -654,6 +660,9 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <h2>Frequently asked questions</h2>
 
 <p>If you are not sure where you land on any of these, the <a href="/finder">chair finder</a> screens for height, weight, and build and returns only chairs that fit.</p>
+
+<h3>What if my height is right at the edge of a chair's published range?</h3>
+<p>Round by torso length, not total height. The roller track fits your spine, so a long torso should be treated as taller than the tape measure says, while a long-legged build at the same height usually fits the track and needs the footrest checked instead. Within an inch of a boundary, the one-minute sit test decides, and if you cannot sit in the chair first, ask the retailer to confirm fit for your specific build in writing.</p>
 
 <h3>Will a massage chair fit me if I am over six feet tall?</h3>
 <p>Often, but not automatically. Most chairs cap their confirmed range around 6'1" or 6'2", so a buyer at 6'4" can end up with the headrest hitting the back of the head and the roller track stopping short of the lumbar. Start from the chairs that are confirmed taller: the Infinity Imperial Syner-D and the Daiwa Legacy 4 are both confirmed to 6'6", and the Luraco i9 Max Plus is confirmed to 6'10", the tallest range in our catalog. Use those as a starting point, then confirm the maximum height with the retailer for your exact build. The <a href="/learn/how-to-buy">how to buy</a> guide covers the rest of the pre-purchase checklist.</p>
@@ -3000,6 +3009,16 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Ask this before you buy, not after you need it: on a full warranty replacement, who pays to remove the old unit, and who pays to deliver and place the new one? Is that cost split, and if so, what is the owner's share in dollars? Get the answer in writing before you purchase. A distributor who will commit to a number in writing is telling you something different than one who will only say "case by case." The <a href="/learn/massage-chair-delivery-types">delivery types guide</a> covers what white glove delivery and depot shipping cost on a first purchase; the same freight math applies to a warranty swap.</p>
 
+<h2>Is a Warranty Replacement a New Chair?</h2>
+
+<p>Not necessarily, and this is the surprise most owners discover only after their chair has already failed. The word "replacement" in a warranty document does not commit anyone to a new unit. Publicly filed consumer complaint records from 2026 describe owners who were offered used chairs from the distributor's inventory in place of a defective unit, including chairs that were not the same model or color as the one they purchased, and owners pressed to accept a returned and repaired unit as the resolution of a claim on a chair they bought new.</p>
+
+<p>The economics explain why. A distributor accumulates returned chairs, trial-period comebacks, and repaired units, and a swap from that pool costs far less than shipping a new chair from the factory. Whether that pool is a legitimate source of replacements depends entirely on what the warranty says, and most warranties do not say. Silence on the question is what makes the substitution possible.</p>
+
+<p>Three questions close the gap, and they belong in writing before you buy, not in a phone argument after the failure. First, if the chair is replaced under warranty, is the replacement new, and is it the same model and color? Second, who decides whether a failed chair is repaired or replaced, the owner or the distributor? Third, does a replacement unit restart the warranty, continue the original clock, or carry a shorter term of its own? A properly reconditioned unit is not worthless, and the <a href="/learn/refurbished-massage-chairs">refurbished chairs guide</a> covers what real reconditioning involves, but a reconditioned chair is priced 20 to 40 percent below new for a reason. Accepting one as a warranty replacement for a chair you paid full price for is accepting that discount as a loss, and it is worth knowing in advance whether that is the deal on offer.</p>
+
+<p>If you are already in a claim and a used or substitute-model unit is what is being offered, treat it as an offer rather than a ruling. Ask for the replacement terms in writing, compare them against the warranty language you bought under, and if the two do not match, say so in writing as well. The <a href="/learn/who-fixes-your-massage-chair">who fixes your chair guide</a> covers who is actually on the other end of that conversation and why the retailer and the warranty servicer are usually different companies.</p>
+
 <h2>What Repairs Actually Cost Out of Pocket</h2>
 
 <p>When a component fails outside its warranty period, the costs tend to surprise buyers who budgeted only for the sticker price. A service call alone, getting a certified technician to your home for diagnosis and repair, typically runs a few hundred dollars. That fee applies whether the repair takes 30 minutes or two hours.</p>
@@ -3083,6 +3102,9 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h3>Is labor covered for as long as parts?</h3>
 <p>Usually not. Parts and labor commonly run on separate clocks and labor is the shorter one. A chair with three to five years on rollers and mechanisms will often carry one year of labor, which means that from year two onward the replacement part is free and the technician visit is not. Ask for the labor term as its own number before you buy, and ask what a service call costs once it expires.</p>
+
+<h3>If my chair is replaced under warranty, will the replacement be new?</h3>
+<p>Only if the warranty says so, and most do not. Documented owner complaints describe used, repaired, and substitute-model chairs offered as warranty replacements. Before buying, get in writing whether a replacement is new and same-model, who makes the repair-or-replace decision, and whether the replacement restarts the warranty clock.</p>
 
 <h3>How can I tell if a brand will actually honor its warranty?</h3>
 <p>Look up the distributor that services the brand on the Better Business Bureau site and read the complaint mix. A file weighted toward Service and Repair complaints, with repeated patterns of parts shipped before diagnosis or tickets closed for non-response, is a warning about service performance that the advertised warranty terms will not show you.</p>
@@ -9666,6 +9688,10 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 
 <p>This is a documented, if uncommon, failure reported by owners, not a hypothetical. Treat locating the power control as part of setup, the same way you would confirm where the circuit breaker is in a new home.</p>
 
+<p>If the chair is running and not responding, the stop sequence runs from least to most disruptive: press and hold the power button on the remote, flip the physical power switch on the chair body (usually near where the cord enters), pull the plug at the wall, and, if you cannot reach any of those, cut the circuit at the breaker. Every step after the remote works regardless of what the remote or the software is doing, which is the point. The failure mode to plan for is not a broken chair, it is a chair that keeps running a program it was told to stop.</p>
+
+<p>Households with children need one more habit. Some remotes include a lock function that disables the controls, and it is worth using where offered, but the reliable child lock on any massage chair is the power switch. A powered chair can be started by a child pressing buttons, and the leg ports and reclining backrest of a running chair are not built with a small body in mind. When the chair is not in use in a home with young children, switch it off at the chair or unplug it. That single habit removes the scenario entirely.</p>
+
 <h2>How to use this when choosing a chair</h2>
 
 <p>Safety is partly a buying decision, not only a usage one. If you have a condition that calls for caution, prioritize chairs with adjustable intensity, a gentle low end, and a body scan that positions the rollers accurately, and steer away from chairs marketed purely on maximum power. Match the chair to your body and your medical situation, not to the longest feature list. The <a href="/finder">chair finder</a> filters by body type and needs so you can narrow to chairs that fit your situation, and the free <a href="/buyers-guide">Buyer's Guide</a> walks through the same decisions at your own pace. When a medical condition is in play, the right sequence is clinician first, then chair.</p>
@@ -9685,6 +9711,11 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <details>
 <summary><strong>Is it safe to use a massage chair every day?</strong></summary>
 <p>For most people, yes, with sensible settings. Daily use at low to moderate intensity for fifteen to twenty minutes is fine and is where much of the value comes from. Listen to your body: if you are persistently sore, reduce frequency or intensity. People with the medical conditions listed above should follow their clinician's guidance on frequency.</p>
+</details>
+
+<details>
+<summary><strong>Do massage chairs have a child lock?</strong></summary>
+<p>Some remotes include a control lock, and it is worth enabling where offered. The dependable child lock on any chair is the power switch: a chair that is switched off or unplugged cannot be started by a child pressing buttons. In homes with young children, cut power when the chair is not in use.</p>
 </details>
 
 <details>
