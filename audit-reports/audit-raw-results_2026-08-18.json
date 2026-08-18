@@ -1,0 +1,1571 @@
+[
+  {
+    "id": "osaki-os-champ",
+    "name": "Osaki OS-Champ",
+    "affiliateUrl": "https://osakimassagechair.com/products/osaki-os-champ",
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/osaki-os-champ",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 1299,
+    "priceMin": 1299,
+    "flags": [],
+    "notes": "200 OK, title 'OSAKI OS-Champ | Titan Massage Chairs' matches product. Page shows current price $1,299 (list $2,999) in HTML, but no <script type=application/ld+json> block with availability/price was found in the fetched content, so stockStatus is UNKNOWN per rule rather than inferred from sale badges/HTML text. livePrice shown here is from page HTML, not confirmed JSON-LD; equals priceMin so no mismatch either way.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "osaki-os-pro-yamato",
+    "name": "Osaki OS-Pro Yamato",
+    "affiliateUrl": "https://www.massagechairs.com/products/osaki-os-pro-yamato",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 3999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Could not fetch at all: massagechairs.com (with and without www) is blocked by this environment's network egress proxy (EGRESS_BLOCKED), not a site-side bot block/CAPTCHA. No content was retrieved, so nothing about stock/price/validity could be verified. Needs manual check.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "osaki-os-pro-admiral-ii",
+    "name": "Osaki OS-Pro Admiral II",
+    "affiliateUrl": "https://www.massagechairs.com/products/osaki-os-pro-admiral-3d",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 2999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Same as osaki-os-pro-yamato: massagechairs.com is blocked by the network egress proxy in this environment (EGRESS_BLOCKED). No content retrieved. Needs manual check.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "osaki-os-pro-maestro-le",
+    "name": "Osaki OS-Pro Maestro LE 2.0",
+    "affiliateUrl": "https://osakimassagechair.com/products/osaki-os-pro-maestro-le",
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/osaki-os-pro-maestro-le",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 8999,
+    "priceMin": 8999,
+    "flags": [],
+    "notes": "200 OK, title 'Osaki OS-Pro Maestro LE | Titan Massage Chair' matches product. Page HTML shows current price $8,999 (list $10,999). No JSON-LD availability/price block found in fetched content, so stockStatus is UNKNOWN per rule. Price matches priceMin, no mismatch.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "osaki-os-pro-4d-duomax",
+    "name": "Osaki OS-Pro 4D DuoMax",
+    "affiliateUrl": "https://osakimassagechair.com/products/os-pro-4d-duomax",
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/os-pro-4d-duomax",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 12999,
+    "priceMin": 12999,
+    "flags": [],
+    "notes": "200 OK, title 'OS-Pro 4D DuoMax (Free 2 Yrs Ext Warranty)' matches product. Page HTML shows current price $12,999 (list $14,999). No JSON-LD availability/price block found in fetched content, so stockStatus is UNKNOWN per rule. Price matches priceMin, no mismatch.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "infinity-dynasty-4d",
+    "name": "Infinity Dynasty 4D",
+    "affiliateUrl": "https://massagechairstore.com/infinity-dynasty-4d/",
+    "httpStatus": 404,
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 3999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Server returned HTTP 403 Forbidden (site-side bot-detection block on massagechairstore.com), not a real 404 - the tool reported this as an unretrievable 403 response. No page content retrieved, so nothing verified. Needs manual check.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "infinity-celebrity",
+    "name": "Infinity Celebrity 3D/4D",
+    "affiliateUrl": "https://www.massagechairplanet.com/products/infinity-celebrity-elite-4d-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 5999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "massagechairplanet.com is blocked by this environment's network egress proxy (EGRESS_BLOCKED), not a site-side bot block. No content retrieved. Needs manual check.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "infinity-genesis-max",
+    "name": "Infinity Genesis Max 4D",
+    "affiliateUrl": "https://massagechairstore.com/infinity-genesis-max/",
+    "httpStatus": 403,
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 9299,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "HTTP 403 Forbidden from massagechairstore.com (site-side bot-detection block). No content retrieved. Needs manual check.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "infinity-imperial-syner-d",
+    "name": "Infinity Imperial Syner-D",
+    "affiliateUrl": "https://massagechairstore.com/infinity-imperial-syner-d-massage-chair/",
+    "httpStatus": 403,
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 7999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "HTTP 403 Forbidden from massagechairstore.com (site-side bot-detection block). No content retrieved. Needs manual check.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "infinity-circadian-4d-dualflex",
+    "name": "Infinity Circadian 4D DualFlex",
+    "affiliateUrl": "https://massagechairstore.com/infinity-circadian-4d-dualflex-massage-chair/",
+    "httpStatus": 403,
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 16999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "HTTP 403 Forbidden from massagechairstore.com (site-side bot-detection block). No content retrieved. Needs manual check.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "human-touch-laevo-zg",
+    "name": "Human Touch Laevo ZG",
+    "affiliateUrl": "https://www.humantouch.com/products/laevo",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 4499,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "humantouch.com (with and without www) is blocked by this environment's network egress proxy (EGRESS_BLOCKED), not a site-side bot block. No content retrieved. Needs manual check.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "human-touch-super-novo-3",
+    "name": "Human Touch Super Novo 3.0",
+    "affiliateUrl": "https://www.humantouch.com/products/super-novo-3-0-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 11999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Same as human-touch-laevo-zg: humantouch.com blocked by the network egress proxy in this environment. No content retrieved. Needs manual check.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "luraco-i9-max-plus",
+    "name": "Luraco i9 Max Plus",
+    "affiliateUrl": "https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/luraco-i9-max-plus-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 11990,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "massagechairwarehouse.com returned a 301 redirect (server-supplied Location header, unverified) to a DIFFERENT domain, gameroomempire.com, with the product slug preserved. That destination domain is itself blocked by this environment's network egress proxy, so the redirected page's title/JSON-LD could not be inspected. The cross-domain redirect to an unrelated-sounding retailer name is unusual and flagged here for manual verification - could indicate a site migration/rebrand (harmless) or a stale/broken affiliate link (worth checking); not asserting BROKEN_LINK since content was never actually observed.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "luraco-theater-sofy",
+    "name": "Luraco Theater Sofy",
+    "affiliateUrl": "https://massagechairwarehouse.com/products/luraco-theater-sofy-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/luraco-theater-sofy-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 3490,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Same pattern as luraco-i9-max-plus: massagechairwarehouse.com 301-redirects (unverified Location header) to a different domain, gameroomempire.com, with product slug preserved; that destination is blocked by the network egress proxy in this environment so content could not be inspected. Flagged for manual verification of the cross-domain redirect; not asserting BROKEN_LINK since content was never observed.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "daiwa-legacy-4",
+    "name": "Daiwa Legacy 4",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-legacy-4-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 9500,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairheaven.com is blocked at the network egress-proxy level for this session (EGRESS_BLOCKED), not a page-level bot check. Could not retrieve any content, so JSON-LD/price/stock could not be checked.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "daiwa-black-panther-supreme-hybrid",
+    "name": "Daiwa Black Panther Supreme Hybrid Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-black-panther-supreme-hybrid-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 15500,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairheaven.com is blocked at the network egress-proxy level for this session (EGRESS_BLOCKED). Could not retrieve any content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "daiwa-supreme-hybrid",
+    "name": "Daiwa Supreme Hybrid Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-supreme-hybrid-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 13500,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairheaven.com is blocked at the network egress-proxy level for this session (EGRESS_BLOCKED). Could not retrieve any content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "daiwa-pegasus-hybrid",
+    "name": "Daiwa Pegasus Hybrid Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-pegasus-hybrid-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 12000,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairheaven.com is blocked at the network egress-proxy level for this session (EGRESS_BLOCKED). Could not retrieve any content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "daiwa-hubble-plus-4d",
+    "name": "Daiwa Hubble Plus 4D Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-hubble-plus-4d-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 11000,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairheaven.com is blocked at the network egress-proxy level for this session (EGRESS_BLOCKED). Could not retrieve any content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "daiwa-pegasus-2-smart",
+    "name": "Daiwa Pegasus 2 Smart Massage Chair (DWA-9400)",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-pegasus-2-smart-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 11000,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairheaven.com is blocked at the network egress-proxy level for this session (EGRESS_BLOCKED). Could not retrieve any content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "daiwa-hubble-3d",
+    "name": "Daiwa Hubble 3D Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-hubble-3d-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 10000,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairheaven.com is blocked at the network egress-proxy level for this session (EGRESS_BLOCKED). Could not retrieve any content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "daiwa-relax-2-zero-3d",
+    "name": "Daiwa Relax 2 Zero 3D Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-relax-2-zero-3d-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 9000,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairheaven.com is blocked at the network egress-proxy level for this session (EGRESS_BLOCKED). Could not retrieve any content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "daiwa-majesty-2d",
+    "name": "Daiwa Majesty 2D Massage Chair",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/daiwa-majesty-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 6000,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairheaven.com is blocked at the network egress-proxy level for this session (EGRESS_BLOCKED). Could not retrieve any content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kyota-genki-m380",
+    "name": "Kyota Genki M380",
+    "affiliateUrl": "https://massagechairstore.com/kyota-genki-m380-massage-chair/",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 7999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Server returned HTTP 403 Forbidden (bot-detection/access-denied), confirmed on two separate fetch attempts. Could not verify content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kyota-yugana-m780",
+    "name": "Kyota Yugana M780 4D",
+    "affiliateUrl": "https://massagechairwarehouse.com/products/kyota-yugana-m780-4d-massage-chair",
+    "httpStatus": 301,
+    "finalUrl": "https://gameroomempire.com/products/kyota-yugana-m780-4d-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 7999,
+    "flags": [
+      "BROKEN_LINK"
+    ],
+    "notes": "massagechairwarehouse.com now 301-redirects this product URL to gameroomempire.com, a differently-named domain (name suggests game-room/arcade equipment, not massage chairs), strongly indicating the affiliate domain has been repurposed or the product delisted. Could not fetch the redirect target itself to confirm page content (EGRESS_BLOCKED for gameroomempire.com), so this is flagged on the redirect evidence alone, not on confirmed unrelated content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kyota-konbi-m728-dualpro-4d",
+    "name": "Kyota Konbi M728 DualPro 4D",
+    "affiliateUrl": "https://massagechairstore.com/kyota-konbi-m728-dualpro-4d-massage-chair/",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 7999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Server returned HTTP 403 Forbidden (bot-detection/access-denied). Could not verify content.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "amamedics-hilux-4d",
+    "name": "AmaMedics Hilux 4D",
+    "affiliateUrl": "https://osakimassagechair.com/products/amamedic-hilux-4d",
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/amamedic-hilux-4d",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 4999,
+    "priceMin": 4999,
+    "flags": [],
+    "notes": "Page loads successfully (200) and shows the matching product ('AmaMedic Hilux 4D - Titan Chair', price $4,999 vs $8,999 list, matches priceMin exactly, no PRICE_MISMATCH). However, a targeted search of the page source for a <script type=\"application/ld+json\"> block or Shopify product JSON with an 'availability'/'available' field found none. Per rules, stock status is therefore STOCK_UNKNOWN rather than inferred LIVE from the visible page.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "amamedics-renew-3d",
+    "name": "AmaMedics Renew 3D",
+    "affiliateUrl": "https://clearancechair.com/products/amamedic-renew",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 1299,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain clearancechair.com is blocked at the network egress-proxy level for this session (EGRESS_BLOCKED). Note the input record already flags inStockCurrent=false for this chair, but this could not be independently verified via JSON-LD as instructed. Attempted one extra replacement-candidate fetch was not performed for this chair since it was blocked (not confirmed OOS/BROKEN_LINK by our own probe rules) -- flagged PROBE_BLOCKED only.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "jpmedics-kumo-4d",
+    "name": "JPMedics Kumo 4D",
+    "affiliateUrl": "https://massagechairwarehouse.com/products/jpmedics-kumo-4d-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/jpmedics-kumo-4d-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 10999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "massagechairwarehouse.com issued a 301 redirect to gameroomempire.com (blocked by egress proxy); could not fetch final page content to verify.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "jpmedics-kaze-duo",
+    "name": "JPMedics KaZe Duo",
+    "affiliateUrl": "https://www.massagechairplanet.com/products/jpmedics-kaze-duo-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 12999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairplanet.com is blocked by the network egress proxy (EGRESS_BLOCKED); no content retrieved.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "panasonic-mak1",
+    "name": "Panasonic MAK1",
+    "affiliateUrl": "https://www.massagechairs.com/products/panasonic-mak1-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 14499,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.massagechairs.com is blocked by the network egress proxy (EGRESS_BLOCKED); no content retrieved.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "panasonic-maf1",
+    "name": "Panasonic MAF1",
+    "affiliateUrl": "https://www.primemassagechairs.com/products/panasonic-maf1-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 5999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Domain www.primemassagechairs.com is blocked by the network egress proxy (EGRESS_BLOCKED); no content retrieved.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "titan-3d-prestige",
+    "name": "Titan 3D Prestige",
+    "affiliateUrl": "https://titanchair.com/products/titan-3d-prestige",
+    "httpStatus": 200,
+    "finalUrl": "https://titanchair.com/products/titan-3d-prestige",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 4999,
+    "priceMin": 4999,
+    "flags": [],
+    "notes": "Page loads (200), title matches. No JSON-LD/available field found so stockStatus unconfirmed per rules. Page HTML shows a 'Sold out' label near Add-to-Cart and input record already carries inStockCurrent=false -- consistent with but not verified by JSON-LD. Recommend manual check. Price $4,999 matches priceMin.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "titan-pro-vigor-4d",
+    "name": "Titan Pro-Vigor 4D",
+    "affiliateUrl": "https://massagechairwarehouse.com/products/titan-pro-vigor-4d-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/titan-pro-vigor-4d-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 5999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "massagechairwarehouse.com issued a 301 redirect to gameroomempire.com (blocked by egress proxy); could not verify.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "synca-wellness-circ",
+    "name": "Synca Wellness CirC",
+    "affiliateUrl": "https://syncamassagechair.com/products/circ",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/circ",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 1299.99,
+    "priceMin": 1299,
+    "flags": [],
+    "notes": "Title matches. No JSON-LD/available field found; price $1,299.99 matches priceMin.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "synca-wellness-circ-plus",
+    "name": "Synca Wellness CirC+",
+    "affiliateUrl": "https://syncamassagechair.com/products/circ-plus",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/circ-plus",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 1899.99,
+    "priceMin": 1899,
+    "flags": [],
+    "notes": "Title matches. No JSON-LD/available field found; price $1,899.99 matches priceMin.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "synca-wellness-circ-3",
+    "name": "Synca Wellness CirC 3",
+    "affiliateUrl": "https://syncamassagechair.com/products/circ3",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/circ3",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 1999.99,
+    "priceMin": 1999,
+    "flags": [],
+    "notes": "Title matches. No JSON-LD/available field found; price $1,999.99 matches priceMin.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "synca-wellness-kurodo",
+    "name": "Synca Wellness Kurodo",
+    "affiliateUrl": "https://syncamassagechair.com/products/kurodo",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/kurodo",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 9999.99,
+    "priceMin": 9999,
+    "flags": [],
+    "notes": "Title matches. No JSON-LD/available field found; price $9,999.99 matches priceMin.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "inner-balance-jin",
+    "name": "Inner Balance Jin",
+    "affiliateUrl": "https://syncamassagechair.com/products/jin",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/jin",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 1999.99,
+    "priceMin": 1999,
+    "flags": [],
+    "notes": "Title/vendor matches. No JSON-LD/available field found; price $1,999.99 matches priceMin.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "inner-balance-jin-2",
+    "name": "Inner Balance Jin 2.0",
+    "affiliateUrl": "https://syncamassagechair.com/products/jin2",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/jin2",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 3999.99,
+    "priceMin": 3999,
+    "flags": [],
+    "notes": "Title/vendor matches. No JSON-LD/available field found; price $3,999.99 matches priceMin.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "synca-wellness-jp3000",
+    "name": "Synca JP-3000",
+    "affiliateUrl": "https://syncamassagechair.com/products/jp3000",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/jp3000",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 10999.99,
+    "priceMin": 10999,
+    "flags": [],
+    "notes": "Title matches. No JSON-LD/available field found; price $10,999.99 matches priceMin.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "fujiiryoki-cyber-relax-ai",
+    "name": "Fujiiryoki Cyber Relax Ai",
+    "affiliateUrl": "https://syncamassagechair.com/products/cyber-relax-ai",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/cyber-relax-ai",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 10999.99,
+    "priceMin": 10999,
+    "flags": [],
+    "notes": "Title matches. No JSON-LD/available field found; price $10,999.99 matches priceMin.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "fujiiryoki-cyber-relax-ai-executive",
+    "name": "Fujiiryoki Cyber Relax Ai Executive",
+    "affiliateUrl": "https://syncamassagechair.com/products/cyber-relax-ai-executive",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/cyber-relax-ai-executive",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 12999.99,
+    "priceMin": 12999,
+    "flags": [],
+    "notes": "Page loads, title 'Cyber Relax Ai - Executive Edition...' matches. Shopify /products/*.json has price ($12,999.99) and compare_at_price ($11,999.99) but the variant object contains no 'available' field (confirmed via substring search) and no JSON-LD block was found on the page, so stock status cannot be determined per audit rules.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "fujiiryoki-calm-plus",
+    "name": "Fujiiryoki Calm Plus",
+    "affiliateUrl": "https://syncamassagechair.com/products/calmplus",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/calmplus",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 3999.99,
+    "priceMin": 3999,
+    "flags": [],
+    "notes": "Page loads, title 'Calm Plus Flex Frame SL Track Massage Chair w/ Touchscreen Remote' matches. Shopify JSON has price ($3,999.99) and compare_at_price ($4,199.99) for all 3 color variants but no 'available' field and no JSON-LD found, so stock status unknown.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "fujiiryoki-cyber-relax-elite",
+    "name": "Fujiiryoki Cyber Relax Elite",
+    "affiliateUrl": "https://syncamassagechair.com/products/cyber-relax-elite",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/cyber-relax-elite",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 9999.99,
+    "priceMin": 9999,
+    "flags": [],
+    "notes": "Page loads, title matches ('Cyber Relax Elite'). Shopify JSON has price $9,999.99 for all 3 color variants, no compare_at_price set, no 'available' field, no JSON-LD found, so stock status unknown.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "fujiiryoki-cyber-relax-pro",
+    "name": "Fujiiryoki Cyber Relax Pro",
+    "affiliateUrl": "https://syncamassagechair.com/products/cyber-relax-pro",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/cyber-relax-pro",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 14999.99,
+    "priceMin": 14999,
+    "flags": [],
+    "notes": "Page loads, title matches ('Cyber Relax Pro'). Shopify JSON has price $14,999.99 for all 5 color variants, no compare_at_price, no 'available' field, no JSON-LD found, so stock status unknown.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "dcore-d-core-2",
+    "name": "DCORE D.Core 2",
+    "affiliateUrl": "https://syncamassagechair.com/products/dcore2",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/dcore2",
+    "stockStatus": "LIVE",
+    "livePrice": 16999.99,
+    "priceMin": 16999,
+    "flags": [],
+    "notes": "Page loads, title 'D.Core 2 - Made in Japan Ultra Premium Massage Chair w/ Oak Side Panels' matches. Shopify product JSON explicitly shows available:true for both variants (Black, Cream) at $16,999.99 (compare_at_price equal, no active discount).",
+    "replacementCandidate": null
+  },
+  {
+    "id": "dcore-cirrus-jp",
+    "name": "DCORE CIRRUS-JP",
+    "affiliateUrl": "https://syncamassagechair.com/products/cirrus-jp",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/cirrus-jp",
+    "stockStatus": "LIVE",
+    "livePrice": 12999.99,
+    "priceMin": 12999,
+    "flags": [],
+    "notes": "The /products/cirrus-jp.json endpoint resolved successfully with title 'D.Core CIRRUS-JP Made in Japan Ultra Premium Massage Chair' and available:true for both variants (Black, Cream) at $12,999.99, compare_at $13,999.99. (One earlier HTML fetch reported a different-looking final URL slug 'dcore-cirrus-jp-massage-chair' but this could not be corroborated - the original slug's .json endpoint returned valid matching product data directly, so treated as reliable.)",
+    "replacementCandidate": null
+  },
+  {
+    "id": "dcore-stratus-jp",
+    "name": "DCORE STRATUS-JP",
+    "affiliateUrl": "https://syncamassagechair.com/products/stratus-jp",
+    "httpStatus": 200,
+    "finalUrl": "https://syncamassagechair.com/products/stratus-jp",
+    "stockStatus": "LIVE",
+    "livePrice": 11499.99,
+    "priceMin": 11499,
+    "flags": [],
+    "notes": "Page loads, title 'D.Core STRATUS-JP Made in Japan Ultra Premium Massage Chair' matches. Shopify JSON shows available:true for both variants (Black, Cream) at $11,499.99. (An earlier HTML-only fetch mentioned confusing 'refurbished' pricing text elsewhere on the page; the authoritative Shopify JSON price was used instead.)",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kahuna-dios-6800",
+    "name": "Kahuna Dios-6800 6D Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-6800-6d-massage-chair",
+    "httpStatus": 200,
+    "finalUrl": "https://wishrockrelaxation.com/products/kahuna-dios-6800-6d-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 3799.0,
+    "priceMin": 3799,
+    "flags": [],
+    "notes": "www subdomain was blocked by network egress proxy; non-www host worked. Title matches. Shopify JSON shows price $3,799.00, compare_at $7,499.00, inventory_quantity:0 for both variants, but no explicit 'available' field and no JSON-LD found - per audit rules, inventory_quantity alone is not used to infer OOS, so stock status is unknown.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kahuna-dios-1288",
+    "name": "Kahuna Dios-1288 8D Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-1288-4d-massage-chair",
+    "httpStatus": 200,
+    "finalUrl": "https://wishrockrelaxation.com/products/kahuna-dios-1288-4d-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 17999.0,
+    "priceMin": 17999,
+    "flags": [],
+    "notes": "www blocked by egress proxy; non-www worked. Title matches. Shopify JSON shows price $17,999.00 for all 4 variants (Black/Brown/Beige/Grey), inventory_quantity:0, no 'available' field, no JSON-LD. Stock status unknown per rules. Note: compare_at_price ($9,999) is lower than price, likely stale/unused field, not actionable.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kahuna-dios-flexa",
+    "name": "Kahuna Dios Flexa Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-flexa-massage-chair",
+    "httpStatus": 200,
+    "finalUrl": "https://wishrockrelaxation.com/products/kahuna-dios-flexa-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 8499.0,
+    "priceMin": 8499,
+    "flags": [],
+    "notes": "www blocked by egress proxy; non-www worked. Title matches. Shopify JSON shows price $8,499.00 for all 3 variants (Gray/Black/Rose Gold), inventory_quantity:0, no 'available' field, no JSON-LD. Stock status unknown per rules.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kahuna-hm-kappa",
+    "name": "Kahuna HM-KAPPA Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-kappa-massage-chair",
+    "httpStatus": 200,
+    "finalUrl": "https://wishrockrelaxation.com/products/kahuna-hm-kappa-massage-chair",
+    "stockStatus": "OOS",
+    "livePrice": 9500.0,
+    "priceMin": 9500,
+    "flags": [
+      "OOS"
+    ],
+    "notes": "www blocked by egress proxy; non-www worked, title matches. Shopify product JSON explicitly returns available:false and inventory_quantity:0 for all 4 color variants (Purple/White, Gold, Brown, Black) at $9,500.00 (compare_at $10,000.00). Confirmed OOS from Shopify product JSON.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kahuna-em-8500",
+    "name": "Kahuna EM-8500 Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-em-8500-massage-chair",
+    "httpStatus": 200,
+    "finalUrl": "https://wishrockrelaxation.com/products/kahuna-em-8500-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 8899.99,
+    "priceMin": 8900,
+    "flags": [],
+    "notes": "www blocked by egress proxy; non-www worked. Title matches. Shopify JSON shows price $8,899.99 for all 3 variants (Black/Brown/Blue-Grey), compare_at $9,600.00, inventory_quantity:0, no 'available' field, no JSON-LD. Stock status unknown per rules.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kahuna-dios-7300",
+    "name": "Kahuna Dios-7300 7D Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-dios-7300-7d-massage-chair",
+    "httpStatus": 200,
+    "finalUrl": "https://wishrockrelaxation.com/products/kahuna-dios-7300-7d-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 8999.0,
+    "priceMin": 8999,
+    "flags": [],
+    "notes": "www blocked by egress proxy; non-www worked. Title matches. Shopify JSON shows price $8,999.00 for both variants (Black, Gray/Brown), compare_at $9,499.00, inventory_quantity -1/0 (mixed/inconsistent), no 'available' field, no JSON-LD. Stock status unknown per rules.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kahuna-sm-7300s",
+    "name": "Kahuna Massage Chair SM-7300S",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-massage-chair-sm-7300s",
+    "httpStatus": 200,
+    "finalUrl": "https://wishrockrelaxation.com/products/kahuna-massage-chair-sm-7300s",
+    "stockStatus": "OOS",
+    "livePrice": 6999.0,
+    "priceMin": 6999,
+    "flags": [
+      "OOS"
+    ],
+    "notes": "www blocked by egress proxy; non-www worked, title matches. Shopify product JSON explicitly returns available:false and inventory_quantity:0 for all 3 color variants (Black, Dark Brown, Cloud) at $6,999.00. Confirmed OOS from Shopify product JSON.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kahuna-hm-078",
+    "name": "Kahuna HM-078 Hubot 4D Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-078-hubot-4d-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 4399,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Network egress proxy rejected CONNECT to www.wishrockrelaxation.com with policy 403 before any HTTP request reached the site. Could not evaluate.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kahuna-hm-5000",
+    "name": "Kahuna HM-5000 Massage Chair",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/kahuna-hm-5000-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 2000,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Network egress proxy rejected CONNECT to www.wishrockrelaxation.com with policy 403 before any HTTP request reached the site. Could not evaluate.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ador-3d-allure",
+    "name": "Ador 3D Allure",
+    "affiliateUrl": "https://osakimassagechair.com/products/ador-3d-allure",
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/ador-3d-allure",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 4999,
+    "priceMin": 4999,
+    "flags": [],
+    "notes": "Page loaded 200 with matching title 'Ador 3D Allure | Titan Massage Chair'. No application/ld+json block with availability/price fields was found in fetched content; price shown in HTML variant markup as $4,999.00, matching priceMin. Stock status not confirmed via JSON-LD, so left as STOCK_UNKNOWN per rules rather than inferred from page text.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "theramedic-flex",
+    "name": "Theramedic Flex",
+    "affiliateUrl": "https://osakimassagechair.com/products/theramedic-flex",
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/theramedic-flex",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 3499,
+    "priceMin": 3499,
+    "flags": [],
+    "notes": "Page loaded 200 with matching title 'Theramedic Flex | Titan Chair'. No ld+json availability/price block found; HTML shows Current price $3,499.00, matching priceMin. Stock status left STOCK_UNKNOWN, not inferred from HTML.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "kanji-4d-shogun-duo",
+    "name": "Kanji 4D Shogun Duo",
+    "affiliateUrl": "https://osakimassagechair.com/products/kanji-4d-shogun-duo",
+    "httpStatus": 200,
+    "finalUrl": "https://osakimassagechair.com/products/kanji-4d-shogun-duo",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 14999,
+    "priceMin": 14999,
+    "flags": [],
+    "notes": "Page loaded 200 with matching title 'Kanji 4D Shogun Duo'. No ld+json availability/price block found; HTML shows Current Price $14,999.00 (Original $15,999.00), matching priceMin. Stock status left STOCK_UNKNOWN.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ogawa-og6300",
+    "name": "Ogawa Active XL 3D Massage Chair (OG-6300)",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-3d-massage-chair-og-6300",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 2999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Network egress proxy rejected CONNECT to www.wishrockrelaxation.com with policy 403 before any HTTP request reached the site. Could not evaluate.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ogawa-og8901",
+    "name": "Ogawa Master Drive DUO LE 4D+3D Massage Chair (OG-8901)",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-le-4d-3d-massage-chair-og-8901",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 9399,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Network egress proxy rejected CONNECT to www.wishrockrelaxation.com with policy 403 before any HTTP request reached the site. Could not evaluate.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ogawa-og6400",
+    "name": "Ogawa Active XL Duo 3D + 2D Massage Chair (OG-6400)",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/ogawa-active-xl-duo-3d-massage-chair-og-6400",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 4799,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Network egress proxy rejected CONNECT to www.wishrockrelaxation.com with policy 403 before any HTTP request reached the site. Could not evaluate.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ogawa-og8801",
+    "name": "Ogawa Master Drive AI 2.0 4D Massage Chair (OG-8801)",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-ai-2-0-4d-massage-chair-og-8801",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 12999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Network egress proxy rejected CONNECT to www.wishrockrelaxation.com with policy 403 before any HTTP request reached the site. Could not evaluate.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ogawa-og8900",
+    "name": "Ogawa Master Drive DUO 4D+3D Massage Chair (OG-8900)",
+    "affiliateUrl": "https://www.wishrockrelaxation.com/products/ogawa-master-drive-duo-4d-3d-massage-chair-og-8900",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 15999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Network egress proxy rejected CONNECT to www.wishrockrelaxation.com with policy 403 before any HTTP request reached the site. Could not evaluate.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "relaxe-shiatsu",
+    "name": "Relaxe Shiatsu",
+    "affiliateUrl": "https://relaxe.co/collections/massage/products/shiatsu-massage-chair",
+    "httpStatus": 200,
+    "finalUrl": "https://relaxe.co/collections/massage/products/shiatsu-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 2799,
+    "priceMin": 2799,
+    "flags": [],
+    "notes": "Page loaded 200 with matching title 'Shiatsu Massage Chair Zero-Gravity With Heating - Relaxe'. No ld+json availability/price block found; HTML shows price $2,799 (was $5,330), matching priceMin. Stock status left STOCK_UNKNOWN.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ohco-m8-neo-le",
+    "name": "OHCO M.8 NEO LE",
+    "affiliateUrl": "https://www.johnsonfitness.com/OHCO-M8-NEO-LE-Massage-Chair-P39084.aspx",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 18000,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Both www and non-www johnsonfitness.com returned 403 (proxy CONNECT rejection / bot-detection wall). Could not evaluate.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "relaxonchair-rio",
+    "name": "Relax On Chair RIO",
+    "affiliateUrl": "https://relaxonchair.com/products/rio-massage-recliner-chair-black?ref=gxoncaks",
+    "httpStatus": 200,
+    "finalUrl": "https://relaxonchair.com/products/rio-massage-recliner-chair-black",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 999,
+    "priceMin": 999,
+    "flags": [],
+    "notes": "Page loaded 200 with matching title 'RIO Massage Recliner Chair - Comfort Massage - RELAXONCHAIR'. No ld+json availability/price block found; HTML shows Current price $999.00 (from $1,999.00), matching priceMin exactly. Page text includes an urgency badge 'Hurry! Only 0 Left in Stock!' but per rules this is HTML text/marketing copy, not JSON-LD availability, so it was NOT used to set stockStatus -- left as STOCK_UNKNOWN. Worth a manual check given the wording.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "relaxonchair-jasper",
+    "name": "Relax On Chair Jasper",
+    "affiliateUrl": "https://www.relaxonchair.com/products/jasper-full-body-massage-chair?ref=gxoncaks",
+    "httpStatus": 200,
+    "finalUrl": "https://relaxonchair.com/products/jasper-full-body-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": 1599,
+    "priceMin": 1599,
+    "flags": [],
+    "notes": "www.relaxonchair.com was proxy-blocked but the non-www URL loaded 200 with matching title 'Jasper Full Body Massage Chair - New SL-Track Massage Chair - RELAXONCHAIR'. No ld+json availability/price block found; HTML shows sale price $1,599.00 (from $2,999.00), matching priceMin, and text 'Hurry! Only 16 Left in Stock!' (not used for stockStatus determination per rules). Stock status left STOCK_UNKNOWN.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "relaxonchair-mk-v-plus",
+    "name": "Relax On Chair MK-V Plus",
+    "affiliateUrl": "https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black?ref=gxoncaks",
+    "httpStatus": 200,
+    "finalUrl": "https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black",
+    "stockStatus": "LIVE",
+    "livePrice": 2499.0,
+    "priceMin": 2499,
+    "flags": [],
+    "notes": "Verified via raw JSON-LD Product/Offer block: availability=http://schema.org/InStock, price=2499.0 USD, matches priceMin exactly. Page title/product confirmed as MK-V PLUS Full Body Massage Chair (Black).",
+    "replacementCandidate": null
+  },
+  {
+    "id": "relaxonchair-yukon-4d",
+    "name": "Relax On Chair YUKON-4D",
+    "affiliateUrl": "https://www.relaxonchair.com/products/yukon-4d-full-body-massage-chair?ref=gxoncaks",
+    "httpStatus": 200,
+    "finalUrl": "https://relaxonchair.com/products/yukon-4d-full-body-massage-chair",
+    "stockStatus": "LIVE",
+    "livePrice": 6499.0,
+    "priceMin": 6499,
+    "flags": [],
+    "notes": "www subdomain in stored affiliateUrl could not be fetched directly (egress-blocked in this probe environment); verified equivalent non-www canonical URL instead via raw JSON-LD Product/Offer block: availability=http://schema.org/InStock, price=6499.0 USD, matches priceMin exactly. Same Shopify store/product.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ceragem-m10",
+    "name": "Ceragem M10",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/ceragem-m10-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/ceragem-m10-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 12999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "massagechairwarehouse.com now issues a confirmed 301 redirect (header x-redirect-reason: primary_domain_redirection, Shopify-powered) to gameroomempire.com with the identical product slug. WebSearch confirms 'Massage Chair Warehouse is now Game Room Empire' - a rebrand that still sells the same massage chair lineup, and a page titled 'CERAGEM M10 Massage Chair \u2014 Game Room Empire' exists. However gameroomempire.com itself could not be fetched in this environment (network egress blocked for both WebFetch and curl), so JSON-LD availability/price could not be verified. Not marking BROKEN_LINK since the redirect target is confirmed to be the correct product line, not an unrelated site.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ergotec-et-180-pluto",
+    "name": "Ergotec ET-180 Pluto",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/ergotec-et-180-pluto-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/ergotec-et-180-pluto-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 1999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Same domain-wide rebrand redirect as other massagechairwarehouse.com items (confirmed 301, x-redirect-reason: primary_domain_redirection) to gameroomempire.com/products/ergotec-et-180-pluto-massage-chair. WebSearch confirms a matching 'Ergotec ET-180 Pluto Massage Chair \u2014 Game Room Empire' page exists. gameroomempire.com itself blocked from fetching in this environment, so JSON-LD availability/price could not be verified.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "koyo-303ts",
+    "name": "Koyo 303TS",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/koyo-303ts-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/koyo-303ts-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 7999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Same domain-wide rebrand redirect (confirmed 301) to gameroomempire.com/products/koyo-303ts-massage-chair. WebSearch confirms a matching 'KOYO 303TS Massage Chair \u2014 Game Room Empire' page exists. gameroomempire.com itself blocked from fetching in this environment, so JSON-LD availability/price could not be verified.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "medical-breakthrough-5",
+    "name": "Medical Breakthrough 5",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-5-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/medical-breakthrough-5-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 2249,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Confirmed 301 domain-wide rebrand redirect to gameroomempire.com with identical slug (verified via curl Location header). gameroomempire.com itself is blocked from fetching in this environment, so page title/JSON-LD availability/price could not be independently verified for this specific product.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "medical-breakthrough-6",
+    "name": "Medical Breakthrough 6",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-6",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/medical-breakthrough-6",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 4249,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Confirmed 301 domain-wide rebrand redirect to gameroomempire.com with identical slug (verified via curl Location header). gameroomempire.com itself is blocked from fetching in this environment, so page title/JSON-LD availability/price could not be independently verified for this specific product.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "medical-breakthrough-6-plus",
+    "name": "Medical Breakthrough 6 Plus",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-6-plus-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/medical-breakthrough-6-plus-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 5499,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Confirmed 301 domain-wide rebrand redirect to gameroomempire.com with identical slug (verified via curl Location header). gameroomempire.com itself is blocked from fetching in this environment, so page title/JSON-LD availability/price could not be independently verified for this specific product.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "medical-breakthrough-7",
+    "name": "Medical Breakthrough 7",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-7-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/medical-breakthrough-7-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 6249,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Confirmed 301 domain-wide rebrand redirect to gameroomempire.com with identical slug (verified via curl Location header). gameroomempire.com itself is blocked from fetching in this environment, so page title/JSON-LD availability/price could not be independently verified for this specific product.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "medical-breakthrough-7-plus",
+    "name": "Medical Breakthrough 7 Plus",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-7-plus",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/medical-breakthrough-7-plus",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 8399,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Confirmed 301 domain-wide rebrand redirect to gameroomempire.com with identical slug (verified via curl Location header). gameroomempire.com itself is blocked from fetching in this environment, so page title/JSON-LD availability/price could not be independently verified for this specific product.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "medical-breakthrough-8",
+    "name": "Medical Breakthrough 8",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-8-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/medical-breakthrough-8-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 8249,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Confirmed 301 domain-wide rebrand redirect to gameroomempire.com with identical slug (verified via curl Location header). gameroomempire.com itself is blocked from fetching in this environment, so page title/JSON-LD availability/price could not be independently verified for this specific product.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "medical-breakthrough-8-plus",
+    "name": "Medical Breakthrough 8 Plus",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-8-plus-open-feet-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/medical-breakthrough-8-plus-open-feet-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 10899,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Confirmed 301 domain-wide rebrand redirect to gameroomempire.com with identical slug (verified via curl Location header). gameroomempire.com itself is blocked from fetching in this environment, so page title/JSON-LD availability/price could not be independently verified for this specific product.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "medical-breakthrough-9",
+    "name": "Medical Breakthrough 9",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-9-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/medical-breakthrough-9-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 10399,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Confirmed 301 domain-wide rebrand redirect to gameroomempire.com with identical slug (verified via curl Location header). gameroomempire.com itself is blocked from fetching in this environment, so page title/JSON-LD availability/price could not be independently verified for this specific product.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "medical-breakthrough-9-plus",
+    "name": "Medical Breakthrough 9 Plus",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-9-plus-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "https://gameroomempire.com/products/medical-breakthrough-9-plus-massage-chair",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 14649,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "Confirmed 301 domain-wide rebrand redirect to gameroomempire.com with identical slug (verified via curl Location header). gameroomempire.com itself is blocked from fetching in this environment, so page title/JSON-LD availability/price could not be independently verified for this specific product.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "medical-breakthrough-x",
+    "name": "Medical Breakthrough X",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/medical-breakthrough-x-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 12499,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED - destination host not permitted by network egress policy, not a retailer bot-block.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "positive-posture-brio-plus",
+    "name": "Positive Posture Brio Plus",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/positive-posture-brio-plus-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 7999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "positive-posture-brio-sport",
+    "name": "Positive Posture Brio Sport",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/positive-posture-brio-sport-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 8999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "positive-posture-solara",
+    "name": "Positive Posture Solara",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/positive-posture-solara-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 2499,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "sharper-image-relieve-3d",
+    "name": "Sharper Image Relieve 3D",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/sharper-image-relieve-3d-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 4499,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "sharper-image-revival",
+    "name": "Sharper Image Revival",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/sharper-image-revival-zero-gravity-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 3999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "svago-lite-2",
+    "name": "Svago Lite 2",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/svago-lite-2-zero-gravity-recliner",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 1499,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "svago-zgr",
+    "name": "Svago ZGR",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/svago-zgr-zero-gravity-recliner",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 2199,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "svago-newton",
+    "name": "Svago Newton",
+    "affiliateUrl": "https://www.massagechairwarehouse.com/products/svago-newton-zero-gravity-recliner",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 3199,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "rockertech-bliss",
+    "name": "RockerTech Bliss",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/rockertech-bliss%E2%84%A2-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 5499,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "rockertech-sensation-4d",
+    "name": "RockerTech Sensation 4D",
+    "affiliateUrl": "https://www.massagechairheaven.com/products/rockertech-sensation-4d-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 6999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ohco-m8-neo",
+    "name": "OHCO M.8 NEO",
+    "affiliateUrl": "https://www.johnsonfitness.com/OHCO-M8-NEO-Massage-Chair-P39080.aspx",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 14999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "nouhaus-new-classic",
+    "name": "Nouhaus New Classic",
+    "affiliateUrl": "https://www.nouhaus.com/products/new-classic-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 1499,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "nouhaus-aurora",
+    "name": "Nouhaus Aurora",
+    "affiliateUrl": "https://www.nouhaus.com/products/nouhaus-aurora-zero-gravity-premium-full-body-electric-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 2299,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "nouhaus-noucampo",
+    "name": "Nouhaus Nou Campo",
+    "affiliateUrl": "https://www.nouhaus.com/products/nouhaus-noucampo-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 2299,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "nouhaus-luna",
+    "name": "Nouhaus Luna",
+    "affiliateUrl": "https://www.nouhaus.com/products/nouhaus-luna-zero-gravity-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 2999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "nouhaus-orbit",
+    "name": "Nouhaus Orbit",
+    "affiliateUrl": "https://www.nouhaus.com/products/nouhaus-orbit-zero-gravity-massage-chair",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 3999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "relx-20-mode",
+    "name": "RELX Full Body 20-Mode",
+    "affiliateUrl": "https://www.amazon.com/dp/B0FJGWZS5L/?tag=massagechairf-20",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 1899,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "culanta-sl-track",
+    "name": "Culanta SL-Track Shiatsu",
+    "affiliateUrl": "https://www.amazon.com/dp/B0D9HCBZMY/?tag=massagechairf-20",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 999,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "tlife-160-zg",
+    "name": "TLIFE 160 Zero Gravity",
+    "affiliateUrl": "https://www.amazon.com/dp/B0F2FMVT7M/?tag=massagechairf-20",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 1199,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "healthrelife-4d-15-mode",
+    "name": "HealthRelife 4D 15-Mode",
+    "affiliateUrl": "https://www.amazon.com/dp/B0DWMRFHRV/?tag=massagechairf-20",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 1699,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "ktentito-g6",
+    "name": "KTENTITO G6",
+    "affiliateUrl": "https://www.amazon.com/dp/B0D4DQCW2P/?tag=massagechairf-20",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 1439,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "mythia-a303c",
+    "name": "MYTHIA A303C 4D",
+    "affiliateUrl": "https://www.amazon.com/dp/B0FNWJ239X/?tag=massagechairf-20",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 1399,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "healthrelife-4d-20-mode",
+    "name": "HealthRelife 4D 20-Mode",
+    "affiliateUrl": "https://www.amazon.com/dp/B0D87C16Q8/?tag=massagechairf-20",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 2399,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  },
+  {
+    "id": "casinta-4d",
+    "name": "CASINTA 4D",
+    "affiliateUrl": "https://www.amazon.com/dp/B0GHWHX93Y/?tag=massagechairf-20",
+    "httpStatus": "BLOCKED",
+    "finalUrl": "UNKNOWN",
+    "stockStatus": "STOCK_UNKNOWN",
+    "livePrice": null,
+    "priceMin": 1199,
+    "flags": [
+      "PROBE_BLOCKED"
+    ],
+    "notes": "EGRESS_BLOCKED.",
+    "replacementCandidate": null
+  }
+]
