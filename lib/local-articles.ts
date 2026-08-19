@@ -107,6 +107,35 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If a seller will not answer these in writing before the sale, that is information. The <a href="/learn/how-to-buy">step-by-step buying guide</a> puts these checks in the full decision order, and the <a href="/learn/massage-chair-trial-period">trial period guide</a> covers what a return actually involves once a chair is inside your house.</p>
 
+<h2>What a service call costs once labor coverage runs out</h2>
+
+<p>The expensive surprise in this category is rarely the failure itself. It is the first invoice after the labor term ends, because parts and labor almost always run on separate clocks and labor is the short one. A part can still be covered while every hour spent installing it is billable. Knowing how that bill is assembled, before you are the one paying it, is the difference between a manageable repair and a chair you stop using because fixing it feels open ended.</p>
+
+<p>An out-of-labor service call is not one charge. It is a stack, and each layer is negotiated separately by the distributor:</p>
+
+<ul>
+  <li><strong>A trip or diagnostic charge</strong> to get a technician to your door. Some distributors credit it toward the repair if you approve the work, and some do not. Ask which.</li>
+  <li><strong>Labor time</strong> billed at the servicing company's rate, not the brand's. Contracted service is normal here, which means the rate is set by a third party the brand does not control.</li>
+  <li><strong>A second dispatch</strong> in many cases, because the first visit diagnoses and the second one installs. Two visits can mean two trip charges.</li>
+  <li><strong>Freight</strong>, if the repair is a depot repair rather than an in-home one. A massage chair is a crated freight item weighing several hundred pounds, and depot service moves it in both directions.</li>
+  <li><strong>The part itself</strong>, once the parts term has also expired. Inside the parts term this line is zero, which is exactly why the parts and labor dates matter separately.</li>
+</ul>
+
+<p>We are not publishing dollar figures for these, because the amounts vary by distributor, by region, and by whether your address is inside a technician's normal service area. A quoted national average would be a number you could not rely on when you called. The useful move is to get your own chair's numbers in writing while you still have leverage, which is before you buy.</p>
+
+<h3>What to ask, and when to ask it</h3>
+
+<p>Ask these before the sale, when the seller wants the transaction, rather than at the moment something is broken:</p>
+
+<ol>
+  <li><strong>What is the labor rate and the trip charge once the labor term ends?</strong> Both numbers, separately.</li>
+  <li><strong>Is diagnosis a separate visit from the repair, and is it billed separately?</strong> This is the line that quietly doubles a small job.</li>
+  <li><strong>Is service in home or depot for my address?</strong> If depot, who pays the freight both ways, and who crates it.</li>
+  <li><strong>Will you ship the part and let me install it?</strong> Several common failures are module swaps rather than surgery, and a distributor willing to send the part with instructions removes the labor line entirely. Not every company allows it, and some treat self-installation as voiding coverage, so get the answer before you need it.</li>
+</ol>
+
+<p>The last one is worth pressing on. Get the answer in writing either way, because a support agent's verbal yes two years from now is not something you can hold anyone to. Our <a href="/learn/massage-chair-warranty-guide">warranty guide</a> covers how the parts and labor terms are written and where the gap between them opens up, and if you are still choosing, the <a href="/finder">chair finder</a> narrows the catalog to chairs that fit your body, your room, and your price band.</p>
+
 <h2>What to do if you already bought and nobody will own it</h2>
 
 <p>Start by identifying the distributor rather than the retailer. The warranty document, the registration card, or the brand's support page will name the company that actually holds the obligation, and that is the party to address. Put the request in writing with dates, describe the fault rather than naming the part you think is broken, and ask for a diagnosis before any part is shipped. Shipping a guessed part is the step that starts most of the long repair cycles in this category.</p>
@@ -116,6 +145,11 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>If you are still choosing and want to skip the guesswork on which chair suits your body and budget in the first place, the <a href="/finder">chair finder</a> narrows the catalog to chairs that match your height, your priorities, and your price band, and the <a href="/buyers-guide">Buyer's Guide</a> walks through the specs that change the experience. If you are weighing whether to send a chair back, <a href="/learn/why-massage-chairs-get-returned">why massage chairs get returned</a> covers the reasons that come up most, and <a href="/learn/massage-chair-delivery-types">delivery types</a> explains what curbside and white glove actually include.</p>
 
 <h2>Frequently Asked Questions</h2>
+
+<details>
+<summary><strong>What does a massage chair repair cost after the labor warranty ends?</strong></summary>
+<p>It depends on how the distributor assembles the bill, not on one flat number. Expect a trip or diagnostic charge, labor billed at the servicing company's rate, possibly a second dispatch because diagnosis and repair are often separate visits, and freight on top of all of it if your address gets depot service rather than in-home service. The part is free only while the parts term is still running. Ask the seller for the post-warranty labor rate and trip charge in writing before you buy, and ask whether they will ship a part for you to install yourself.</p>
+</details>
 
 <details>
 <summary><strong>Does Costco or Amazon repair a massage chair?</strong></summary>
@@ -5345,6 +5379,32 @@ Pharmacological medicine expanded rapidly after World War II, shifting physician
 <p>Massage chairs address the upstream muscular contributors to carpal tunnel syndrome well: the cervical tension, upper trapezius trigger points, and thoracic tightness that worsen median nerve mobility at the wrist. A clinical trial of 21 CTS patients using 30-minute massage sessions twice weekly for six weeks found significant improvement in symptom severity and functional status from week two onward.</p>
 <p>Where the chair falls short: the forearm, wrist, and hand (the primary CTS sites) are not covered by most chairs' roller mechanisms. The chair handles the systemic load that desk work imposes. Targeted wrist and forearm work is better pursued with a physical therapist or massage therapist.</p>
 <hr />
+<h2>Kyphosis, Scoliosis, and Spines the Body Scan Does Not Expect</h2>
+
+<p>Every massage chair on the market runs a body scan before the first program, and every body scan makes the same assumption: that your spine is roughly S-shaped and roughly centered. The scan is looking for shoulder height and spinal length so it can set where the rollers start and stop. It is not a diagnostic tool, it does not map a curve, and it has no way to tell the chair that yours is shaped differently. That is a mechanical fact about how the hardware works, and it is the reason chairs feel different to buyers with a pronounced curvature than the marketing suggests.</p>
+
+<h3>Pronounced thoracic kyphosis, the rounded upper back</h3>
+
+<p>With a C-shaped upper back, the apex of the curve sits further forward than the backrest expects, and the shoulders follow it forward. Two things follow. The rollers concentrate on the apex rather than distributing along the length of the back, so pressure that would feel moderate on a flatter spine feels sharp at one point. And the shoulder airbags, which are positioned for shoulders that rest against the backrest, may squeeze air rather than shoulder. Buyers describe this as the chair working the wrong part of the back and missing the part that hurts.</p>
+
+<p>The adjustments that matter here are intensity and depth first, position second. Start at the lowest roller intensity and the shallowest 3D depth available and escalate only after confirming tolerance at the apex. Zero gravity recline helps, because reclining reduces how hard the body loads into the rollers at the point of the curve. Chairs with adjustable shoulder position, and chairs whose upper roller travel can be limited, give you more room to work with than chairs that run a fixed program top to bottom. Percussion and tapping modes over the apex are the first thing to leave off.</p>
+
+<h3>Scoliosis, a lateral curve</h3>
+
+<p>A massage chair's rollers travel as a pair straddling the spine, riding the muscle on either side. That geometry assumes the spine runs up the centerline. With a lateral curve the pair sits asymmetrically at some points in its travel, so one roller works soft tissue while the other sits closer to bone than it was designed to. The result is uneven pressure that changes as the rollers move up and down rather than a single consistent sensation, which is why a chair can feel fine over the lower back and wrong across the mid back.</p>
+
+<p>Lower intensity and reduced 3D depth are again the primary controls. Air-only programs, which use the airbags without deep roller work, are worth trying, because compression distributes across a surface instead of tracking a line. If a chair has an option to narrow or widen roller spacing, test it in both settings rather than accepting the default. And treat the in-home trial period as the actual test: a curvature is exactly the case that a showroom sit of a few minutes will not surface. Our <a href="/learn/massage-chair-trial-period">trial period guide</a> covers what that window really gives you.</p>
+
+<h3>After spinal surgery, including discectomy and fusion</h3>
+
+<p>This one is a clinician's call, not ours, and we are not going to pretend otherwise. Post-surgical timing is covered above as a general principle, and spinal surgery specifically raises questions this site cannot answer for an individual: whether lumbar roller work is appropriate over or near the operated level, whether the hip and pelvic airbag programs that rotate the pelvis are appropriate at all, and how long after the procedure any of it becomes reasonable. Those depend on which levels were operated, what was done, and how the site has healed.</p>
+
+<p>What is useful to bring to that conversation is specifics rather than the word massage. A surgeon or physical therapist can give you a far better answer if you can describe what the chair actually does: rollers that apply mechanical pressure along the paraspinal muscles at an adjustable depth, airbags that compress the hips and legs, some programs that introduce pelvic rotation or stretch, and heat in the lumbar area. Ask specifically about the stretch and pelvic rotation programs, because those are the features most likely to be ruled out first while the rest of the chair remains fine.</p>
+
+<h3>How to check it in the first five minutes</h3>
+
+<p>Whatever the curve, the body scan result tells you quickly whether the chair read you correctly. Run the scan, start a gentle program, and pay attention to where the neck rollers land. If they sit behind your head instead of on your neck, or the shoulder airbags close on nothing, the scan mapped a body that is not yours and every program that follows inherits that error. Some chairs let you manually correct the shoulder position after the scan, which is a meaningful feature in this situation rather than a nice extra. Fit generally is covered in more depth in our <a href="/learn/body-fit">body fit guide</a>, and <a href="/learn/track-types">track types</a> explains how far up the neck and how far around the hips a given track can actually reach.</p>
+
 <h2>The Self-Screening Principle</h2>
 <p>A massage chair is a self-directed tool. The user controls intensity and program selection; the chair does not know the user's clinical situation. This is important: a chair cannot avoid a surgical wound, detect a fragile radiation-treated skin patch, or know about an acute DVT. For high-acuity situations (active cancer treatment, first six weeks post-surgery, first trimester, acute DVT), physician clearance is the entry gate. For stable chronic conditions (hypertension, stable anticoagulation, managed osteoporosis), the physician conversation is a reasonable precaution.</p>
 <p>The chair's adjustability is the clinical adaptation toolkit: pressure settings, airbag intensity, 3D depth, heat on/off, zero gravity angle, program type. For most special-population buyers, starting at the lowest intensity setting available and escalating only after confirming tolerance is the right entry approach.</p>
@@ -5361,6 +5421,12 @@ The evidence does not support this concern for standard massage techniques. Adap
 For programs that contact the surgical area: physician clearance first, typically around 6 to 8 weeks for incision healing. During recovery, upper-body programs and zero gravity recline for general relaxation are appropriate.</p>
 <p><strong>Can a massage chair help with carpal tunnel syndrome?</strong>
 Partially. The chair addresses the upstream muscular load (cervical, trapezius, thoracic tension) that worsens CTS. It cannot replicate targeted forearm and wrist trigger-point work. Use the chair for systemic relief alongside targeted CTS treatment from a physical therapist.</p>
+<p><strong>Is a massage chair suitable if I have kyphosis or scoliosis?</strong>
+Usually yes, with the intensity turned down and the expectation that the fit takes some adjusting. The body scan assumes a roughly centered, roughly S-shaped spine, so with a pronounced curve the rollers concentrate at the apex or sit asymmetrically instead of distributing evenly. Start at the lowest intensity and shallowest 3D depth, use zero gravity recline, favor air-only programs, and leave percussion off over the apex. Prioritize chairs with adjustable shoulder position, and use the in-home trial period as the real test rather than a short showroom sit.</p>
+
+<p><strong>I had a discectomy or a spinal fusion. Can I use a massage chair?</strong>
+That is a question for your surgeon or physical therapist, and the answer depends on which levels were operated and how the site has healed. Bring specifics to the conversation rather than the word massage: rollers apply adjustable mechanical pressure along the muscles beside the spine, airbags compress the hips and legs, some programs introduce pelvic rotation and stretch, and heat is applied in the lumbar area. Ask about the stretch and pelvic rotation programs specifically, since those are the features most likely to be ruled out while the rest of the chair remains appropriate.</p>
+
 <p><strong>I have severe osteoporosis. Is the chair safe?</strong>
 Reduce roller intensity, especially over the thoracic spine. Avoid percussion and maximum 3D depth spinal programs. Airbag, heat, and zero gravity are all appropriate. Those with prior vertebral compression fractures should discuss spinal massage specifically with their physician.</p>
 <hr />
