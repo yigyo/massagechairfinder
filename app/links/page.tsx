@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   },
   description:
     'Find the massage chair that fits your body, your space, and your budget. Match your fit in 10 questions, read our articles, get the free Buyer\u2019s Guide.',
-  alternates: { canonical: 'https://massagechairfinder.com/links' },
+  alternates: { canonical: 'https://www.massagechairfinder.com/links' },
   robots: { index: true, follow: true },
 }
 

@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: brand.seoTitle,
     description: brand.seoDescription,
+    alternates: { canonical: `https://www.massagechairfinder.com/brands/${params.slug}` },
   }
 }
 
@@ -48,7 +49,69 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
         return lo.key === hi.key ? lo.range : `${lo.label} to ${hi.label} tier`
       })()
 
+  // Schema markup: BreadcrumbList (required on all pages per the content guidelines)
+  // plus a CollectionPage node and an ItemList mirroring the reviewed-chairs list
+  // that is already rendered below. No visible markup and no layout change; this
+  // only describes content that is on the page.
+  const pageUrl = `https://www.massagechairfinder.com/brands/${brand.slug}`
+  const graph: Record<string, unknown>[] = [
+    {
+      '@type': 'CollectionPage',
+      '@id': pageUrl,
+      url: pageUrl,
+      name: `${brand.name} Massage Chairs`,
+      description: brand.seoDescription,
+      isPartOf: { '@id': 'https://www.massagechairfinder.com/#website' },
+      publisher: { '@id': 'https://www.massagechairfinder.com/#organization' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://www.massagechairfinder.com',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Brands',
+          item: 'https://www.massagechairfinder.com/brands',
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: `${brand.name} Massage Chairs`,
+          item: pageUrl,
+        },
+      ],
+    },
+  ]
+
+  if (allBrandChairs.length > 0) {
+    graph.push({
+      '@type': 'ItemList',
+      '@id': `${pageUrl}#chairs`,
+      name: `${brand.name} Chairs We Have Reviewed`,
+      numberOfItems: allBrandChairs.length,
+      itemListElement: allBrandChairs.map((chair, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: chair.name,
+        url: `https://www.massagechairfinder.com/chairs/${chair.id}`,
+      })),
+    })
+  }
+
+  const schema = { '@context': 'https://schema.org', '@graph': graph }
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     <div className="section" style={{ maxWidth: '900px' }}>
       <div className="mb-6">
         <Link href="/brands" className="text-bronze hover:text-gold text-sm">
@@ -143,5 +206,6 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
         </Link>
       </div>
     </div>
+    </>
   )
 }

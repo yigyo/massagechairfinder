@@ -4,7 +4,8 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Massage Chair Brands Compared",
-  description: 'Osaki, Infinity, Luraco, Kahuna, and more -- who manufactures their own chairs, who imports, and what that means for price and warranty.',
+  description: 'Osaki, Infinity, Luraco, Kahuna, and more. Who manufactures their own chairs, who imports, and what that means for price and warranty.',
+  alternates: { canonical: 'https://www.massagechairfinder.com/brands' },
 }
 
 export default function BrandsPage() {
@@ -12,7 +13,59 @@ export default function BrandsPage() {
     a.name.toLowerCase().localeCompare(b.name.toLowerCase())
   )
 
+  // Schema markup: BreadcrumbList plus a CollectionPage and an ItemList mirroring
+  // the brand grid already rendered below. No visible markup, no layout change.
+  const pageUrl = 'https://www.massagechairfinder.com/brands'
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'CollectionPage',
+        '@id': pageUrl,
+        url: pageUrl,
+        name: 'Massage Chair Brands',
+        description: 'Massage chair brands compared: who manufactures their own chairs, who imports, and what that means for price and warranty.',
+        isPartOf: { '@id': 'https://www.massagechairfinder.com/#website' },
+        publisher: { '@id': 'https://www.massagechairfinder.com/#organization' },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: 'https://www.massagechairfinder.com',
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Massage Chair Brands',
+            item: pageUrl,
+          },
+        ],
+      },
+      {
+        '@type': 'ItemList',
+        '@id': pageUrl + '#brands',
+        name: 'Massage Chair Brands',
+        numberOfItems: brands.length,
+        itemListElement: brands.map((brand, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          name: brand.name + ' Massage Chairs',
+          url: 'https://www.massagechairfinder.com/brands/' + brand.slug,
+        })),
+      },
+    ],
+  }
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     <div className="section" style={{ maxWidth: '900px' }}>
       <h1 className="text-4xl font-serif mb-3">Massage Chair Brands</h1>
       <p className="text-warm-gray mb-10 max-w-2xl">
@@ -49,5 +102,6 @@ export default function BrandsPage() {
         </p>
       </div>
     </div>
+    </>
   )
 }

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   description:
     'Find the massage chair that fits your body, your space, and your budget.',
-  metadataBase: new URL('https://massagechairfinder.com'),
+  metadataBase: new URL('https://www.massagechairfinder.com'),
   openGraph: {
     siteName: 'Massage Chair Finder',
   },
@@ -45,17 +45,17 @@ const siteSchema = JSON.stringify({
   '@graph': [
     {
       '@type': 'WebSite',
-      '@id': 'https://massagechairfinder.com/#website',
-      url: 'https://massagechairfinder.com',
+      '@id': 'https://www.massagechairfinder.com/#website',
+      url: 'https://www.massagechairfinder.com',
       name: 'Massage Chair Finder',
       description:
         'Find the massage chair that fits your body, your space, and your budget.',
     },
     {
       '@type': 'Organization',
-      '@id': 'https://massagechairfinder.com/#organization',
+      '@id': 'https://www.massagechairfinder.com/#organization',
       name: 'Massage Chair Finder',
-      url: 'https://massagechairfinder.com',
+      url: 'https://www.massagechairfinder.com',
     },
   ],
 })
