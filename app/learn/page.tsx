@@ -81,6 +81,8 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "are-costco-massage-chairs-worth-it",
       "massage-chair-vs-massage-gun",
       "fake-massage-chair-reviews",
+      "who-fixes-your-massage-chair",
+      "rebadged-massage-chair-brands",
     ],
   },
   {
