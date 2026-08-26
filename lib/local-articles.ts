@@ -750,6 +750,41 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>For most buyers, shoulder width does not require active research. But if you have had the experience of feeling compressed or constrained in a chair during a store demo, shoulder width is likely the cause, and it is worth checking the spec before purchasing.</p>
 
+<h2>Hip and seat width, and why nearly every chair is the same width inside</h2>
+
+<p>Shoulder width is one of two width measurements that decide whether you fit. The other is hip and seat width, measured across the seat pan rather than across the seat back, and it is entirely possible to clear one and fail the other. A buyer who is broad through the shoulders and narrow at the waist has a different problem from a buyer who carries width through the hips and thighs, and the two are not solved by the same chair.</p>
+
+<p>The reason both numbers cluster so tightly across the whole category is structural rather than commercial. A massage chair has to reach the room it will live in. It has to clear a standard interior doorway, and on many deliveries it has to turn a hallway corner or make a stair landing on the way. Manufacturers design the exterior width against that constraint, and the exterior width is what caps the interior width. So seat widths across brands and price bands differ by a few inches, not by a foot, and no amount of budget buys a dramatically wider seat.</p>
+
+<h3>Weight capacity is not a width spec</h3>
+
+<p>This is the most common misreading of a massage chair spec sheet. Weight capacity describes what the frame, the rails and the recline motors are rated to carry. It says nothing about how much room there is between the side panels. Two chairs with the same rating can seat very differently, and a chair with a high rating can still be a narrow seat.</p>
+
+<p>The catalog tops out around 350 pounds of rated capacity, on chairs such as the <a href="/chairs/kahuna-hm-078">Kahuna HM-078 Hubot 4D</a>, with a large cluster of models rated between 300 and 330 pounds. Read those figures as a load rating, and treat interior width as a separate question you still have to ask.</p>
+
+<h3>Measure yourself first, in about two minutes</h3>
+
+<p>Sit upright on a firm dining chair with your feet flat. Have someone measure straight across your back from the outer edge of one shoulder to the outer edge of the other. Then measure across the widest point of your hips and thighs while you are seated, which is usually wider than a trouser waist measurement and is the number that actually governs seat fit. Write both down. Those two figures, not your clothing size, are what you compare a chair against.</p>
+
+<h3>What to ask when the width is not published</h3>
+
+<p>Most listings publish a height range and a weight capacity and stop there. Ask the seller for two specific numbers: the interior seat width at the seat pan, and the width of the shoulder airbag opening at its narrowest setting. Ask in writing, in the same message where you confirm warranty and delivery terms, so there is one record of what you were told. A seller who cannot produce either number is telling you something useful about how well they know the product.</p>
+
+<h3>The sit test, if you can get to a showroom</h3>
+
+<p>Four checks, in this order:</p>
+
+<ul>
+<li>Sit back fully. Your shoulders should settle inside the seat back without riding upward or rolling forward to fit.</li>
+<li>Rest your forearms in the arm troughs. If your elbows have to angle outward to get your hands in, the arm sleeves are too narrow for your frame, and arm massage will be uncomfortable in every session.</li>
+<li>Check your hips at rest. Light contact with the side panels is normal. Being wedged between them is not, and it gets tighter once the seat airbags inflate.</li>
+<li>Run one full program if the store allows it. Width problems that feel minor in a still chair become obvious the moment the shoulder and hip airbags cycle.</li>
+</ul>
+
+<p>If there is nowhere near you to sit in one, an <a href="/learn/massage-chair-trial-period">in-home trial period</a> is the only real substitute, and width is exactly the kind of problem a trial exists to catch.</p>
+
+<p>If you sit outside the usual range at either end, start from a shortlist that is already screened for build: <a href="/best/heavy-duty">chairs for heavier and broader frames</a>, <a href="/best/tall-people">chairs for tall buyers</a>, or <a href="/best/petite-buyers">chairs for petite buyers</a>. The <a href="/finder">chair finder</a> screens on height, weight and build and returns only chairs that fit you. And because the same exterior width that caps your seat is what has to get through your front door, settle <a href="/learn/room-fit">room fit</a> and <a href="/learn/massage-chair-delivery-types">delivery access</a> before you buy rather than after.</p>
+
 <h2>Body proportions: when the numbers do not tell the whole story</h2>
 
 <p>Height and weight are the specs manufacturers publish, but bodies do not follow a single proportion at any given height. Two people who are 5'9" and 190 lbs may have completely different leg-to-torso ratios, shoulder widths, and hip dimensions. The massage chair industry has not yet solved for this variability, which is why in-home trials matter.</p>
@@ -805,7 +840,13 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>That depends on track length against your torso, not on price. An SL-track chair extends the roller path down under the glutes, but it still has to be long enough to reach yours. A buyer with a compact torso may get full glute coverage from a chair that stops at the lower lumbar for someone with a long torso at the same height. If glute and lower-back massage is part of what you need, confirm the track length in inches before purchasing rather than assuming SL-track alone guarantees it.</p>
 
 <h3>The height range includes me, but only at the edge. Should I still buy it?</h3>
-<p>Being at the very top or bottom of a chair's stated range is a yellow flag, not a no. The range describes where the roller track produces an accurate massage, and the ends of that range are where accuracy starts to slip. If you sit right at the edge, favor a chair whose range you land in the middle of, or contact the retailer and confirm real-world fit for your height before you spend several thousand dollars. When in doubt, an <a href="/learn/massage-chair-trial-period">in-home trial period</a> is the surest way to find out.</p>`,
+<p>Being at the very top or bottom of a chair's stated range is a yellow flag, not a no. The range describes where the roller track produces an accurate massage, and the ends of that range are where accuracy starts to slip. If you sit right at the edge, favor a chair whose range you land in the middle of, or contact the retailer and confirm real-world fit for your height before you spend several thousand dollars. When in doubt, an <a href="/learn/massage-chair-trial-period">in-home trial period</a> is the surest way to find out.</p>
+<h3>I have broad shoulders and a narrow waist. Which measurement decides fit?</h3>
+<p>Both of them, separately. Shoulder width decides whether the upper airbags make clean contact or squeeze at the wrong angle, and hip and seat width decides whether you can sit square in the seat pan. Clearing one does not rescue the other. If you are broad at the top and narrow at the bottom, the shoulder opening is your binding constraint and the seat pan is not, so prioritize the shoulder airbag width when you compare two chairs and let seat width be the tiebreaker.</p>
+
+<h3>Does a higher weight capacity mean a wider seat?</h3>
+<p>No. Weight capacity is a structural load rating for the frame, rails and recline motors. It is not a measurement of the space between the side panels, and chairs with the same rating can seat very differently. If width is your concern, ask for the interior seat width and the shoulder airbag opening as separate numbers rather than using the capacity figure as a proxy for room.</p>
+`,
   },
 
   // ── SECTION 5 ───────────────────────────────────────────────────────────────────────────
