@@ -68,7 +68,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-chairs-under-1000",
       "how-long-do-massage-chairs-last",
       "hsa-fsa-massage-chairs",
-      "massage-chairs-made-in-usa",
+      "massage-chairs-made-in-usa", "medical-grade-massage-chairs",
       "japanese-massage-chairs",
       "refurbished-massage-chairs",
       "massage-chair-delivery-types",

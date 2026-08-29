@@ -131,7 +131,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   const next = currentIndex < PUBLISHED_ARTICLES.length - 1 ? PUBLISHED_ARTICLES[currentIndex + 1] : null
 
   // Schema markup: Article + BreadcrumbList (+ FAQPage when the article has an FAQ)
-  const pageUrl = `https://massagechairfinder.com/learn/${params.slug}`
+  const pageUrl = `https://www.massagechairfinder.com/learn/${params.slug}`
   const graph: Record<string, unknown>[] = [
     {
       '@type': 'Article',
@@ -144,18 +144,18 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       author: {
         '@type': 'Organization',
         name: 'Massage Chair Finder',
-        url: 'https://massagechairfinder.com',
+        url: 'https://www.massagechairfinder.com',
       },
       publisher: {
         '@type': 'Organization',
         name: 'Massage Chair Finder',
-        url: 'https://massagechairfinder.com',
+        url: 'https://www.massagechairfinder.com',
       },
       mainEntityOfPage: {
         '@type': 'WebPage',
         '@id': pageUrl,
       },
-      ...(article.heroImage ? { image: [`https://massagechairfinder.com${article.heroImage}`] } : {}),
+      ...(article.heroImage ? { image: [`https://www.massagechairfinder.com${article.heroImage}`] } : {}),
     },
     {
       '@type': 'BreadcrumbList',
@@ -164,13 +164,13 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://massagechairfinder.com',
+          item: 'https://www.massagechairfinder.com',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'Learn',
-          item: 'https://massagechairfinder.com/learn',
+          item: 'https://www.massagechairfinder.com/learn',
         },
         {
           '@type': 'ListItem',

@@ -98,9 +98,9 @@ export default function BestHotelsHospitalityPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://massagechairfinder.com/" },
-      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://massagechairfinder.com/best" },
-      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Hotels and Hospitality", item: "https://massagechairfinder.com/best/hotels-hospitality" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Hotels and Hospitality", item: "https://www.massagechairfinder.com/best/hotels-hospitality" },
     ],
   }
 

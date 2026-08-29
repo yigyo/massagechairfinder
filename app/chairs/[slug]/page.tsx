@@ -417,7 +417,7 @@ export default async function ChairPage({ params }: { params: { slug: string } }
     offers: {
       '@type': 'Offer',
       availability,
-      url: 'https://massagechairfinder.com/chairs/' + params.slug,
+      url: 'https://www.massagechairfinder.com/chairs/' + params.slug,
     },
     ...(c.reviewRating ? {
       aggregateRating: {

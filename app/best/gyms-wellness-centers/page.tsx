@@ -98,9 +98,9 @@ export default function BestGymsWellnessPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://massagechairfinder.com/" },
-      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://massagechairfinder.com/best" },
-      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Gyms and Wellness Centers", item: "https://massagechairfinder.com/best/gyms-wellness-centers" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Gyms and Wellness Centers", item: "https://www.massagechairfinder.com/best/gyms-wellness-centers" },
     ],
   }
 

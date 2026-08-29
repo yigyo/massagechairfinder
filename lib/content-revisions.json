@@ -1,0 +1,26 @@
+{
+  "articles": {
+    "hash": "d7ca043cbea8f8fe",
+    "revised": "2026-08-29"
+  },
+  "best": {
+    "hash": "2c5c93656ce13c8d",
+    "revised": "2026-08-29"
+  },
+  "brands": {
+    "hash": "1906a7d4a983a96a",
+    "revised": "2026-08-29"
+  },
+  "chairs": {
+    "hash": "40fdfc3652cf293f",
+    "revised": "2026-08-29"
+  },
+  "compare": {
+    "hash": "6b27765727b1c3de",
+    "revised": "2026-08-29"
+  },
+  "core": {
+    "hash": "fdf840060cbf3c3e",
+    "revised": "2026-08-29"
+  }
+}
