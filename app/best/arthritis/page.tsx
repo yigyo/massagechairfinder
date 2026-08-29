@@ -3,6 +3,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/best/arthritis" },
   title: "Best Massage Chairs for Arthritis (2026)",
   description: "The best massage chairs for arthritis combine 4D roller pressure control, multi-zone heat, and two-stage zero gravity. Six picks verified for arthritic buyers across price tiers from mid to premium.",
 }

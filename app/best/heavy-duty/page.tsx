@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/best/heavy-duty" },
   title: 'Best Heavy-Duty Massage Chairs (2026)',
   description: 'Heavy-duty massage chairs verified for 300 lbs or above with confirmed performance. Seven chairs selected across price tiers from entry to ultra-premium.',
 }

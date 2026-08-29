@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/best/under-3000" },
   title: 'Best Massage Chairs Under $3,000 (2026)',
   description: 'Across the entry tier, the best massage chairs offer SL-track coverage, zero gravity, and improving roller quality. Five chairs selected across the full under-$3,000 range.',
 }

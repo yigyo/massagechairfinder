@@ -17,7 +17,11 @@ const SHORT_BY_SLUG: Record<string, { id: string; title: string }> = {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const local = getLocalArticle(params.slug)
   if (!local) return {}
-  return { title: local.title, description: local.excerpt }
+  return {
+    title: local.title,
+    description: local.excerpt,
+    alternates: { canonical: `https://www.massagechairfinder.com/learn/${params.slug}` },
+  }
 }
 
 // Splits article HTML roughly at the midpoint of block elements

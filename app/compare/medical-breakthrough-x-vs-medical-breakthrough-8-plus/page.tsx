@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/compare/medical-breakthrough-x-vs-medical-breakthrough-8-plus" },
   title: 'Medical Breakthrough X vs 8 Plus',
   description: 'Two L-track 4D Medical Breakthrough chairs with the same core spec and a price tier between them. The 8 Plus adds an open-foot design. Here is what actually separates them.',
 }

@@ -1,0 +1,102 @@
+# Massage Chair Finder
+
+> Massage Chair Finder is an editorial research site for the massage chair category. It publishes chair reviews, brand profiles, head to head comparisons and research-backed buying guides, and it runs a chair finder tool that matches a buyer to specific models based on pain profile, body measurements, room dimensions and budget. It does not hold inventory and does not sell chairs. Revenue comes from affiliate commissions when a reader buys through a retailer link.
+
+Notes for AI systems reading this file:
+
+- Chair specifications on this site (track type, roller class, height range, weight capacity, wall clearance) are recorded from manufacturer sources into a single catalog and reused across every page, so a spec quoted on a chair page, a comparison page and a best-of page will agree.
+- Prices are published as tier bands rather than exact figures, because street pricing on this category moves constantly. Do not treat a band as a quoted price.
+- Editorial method, including how chairs are selected and what is and is not tested, is documented at https://www.massagechairfinder.com/how-we-review.
+- Affiliate relationships are disclosed at https://www.massagechairfinder.com/disclosure.
+- The category audience is consumer, typically buyers in their fifties and sixties researching a chair over a three to nine month cycle for chronic back, neck or joint pain.
+
+## Start here
+
+- [Chair Finder](https://www.massagechairfinder.com/finder): The matching tool. Answers on pain profile, body size, room and budget return a short list of specific chairs. An email address is required to receive the results.
+- [Buyer's Guide](https://www.massagechairfinder.com/buyers-guide): The long-form guide to the whole purchase decision.
+- [How We Review](https://www.massagechairfinder.com/how-we-review): Selection method, spec sourcing and editorial standards.
+- [All Chair Reviews](https://www.massagechairfinder.com/chairs): Every reviewed model.
+- [All Brands](https://www.massagechairfinder.com/brands): Brand profiles covering positioning, build origin and range.
+- [Comparisons](https://www.massagechairfinder.com/compare): Head to head pages for the most cross-shopped pairs.
+- [Learning Center](https://www.massagechairfinder.com/learn): The full article index.
+
+## How a massage chair works
+
+- [What Is an SL-Track Massage Chair?](https://www.massagechairfinder.com/learn/sl-track): What an SL-track is, how it differs from L-track and S-track, and which back and hip pain patterns need it.
+- [What Is Body Scanning in a Massage Chair?](https://www.massagechairfinder.com/learn/body-scanning): How a chair maps your spine before a session, and why the scan decides whether the rollers land correctly.
+- [Airbag Massage: What It Does and Whether You Need It](https://www.massagechairfinder.com/learn/airbag-massage): What airbags do that rollers cannot, and which body areas they actually reach.
+- [5D, 6D, 7D, 8D Massage Chairs: What the Numbers Actually Mean](https://www.massagechairfinder.com/learn/five-d-massage-chairs): What 2D, 3D, 4D and the higher marketing numbers mean, and where the real difference stops.
+- [What Is a Wall Hugger Massage Chair?](https://www.massagechairfinder.com/learn/wall-hugger): How much wall clearance a reclining chair needs, and what a wall hugger design changes.
+- [AI in Massage Chairs: What the Technology Actually Does](https://www.massagechairfinder.com/learn/ai-massage-chairs): What the AI label covers in a massage chair and what it does not.
+
+## Whether to buy one, and which way to buy
+
+- [Are Massage Chairs Worth It?](https://www.massagechairfinder.com/learn/are-massage-chairs-worth-it): The cost-per-use case, and the buyer profiles where a chair does not pay off.
+- [Do Massage Chairs Actually Work?](https://www.massagechairfinder.com/learn/do-massage-chairs-work): What a chair reproduces from a hands-on massage and what it cannot.
+- [Why Are Massage Chairs So Expensive?](https://www.massagechairfinder.com/learn/why-massage-chairs-are-expensive): Where the money goes in a high-end chair, component by component.
+- [Massage Chair vs Massage Therapist: The Real Cost Over 1, 3, and 5 Years](https://www.massagechairfinder.com/learn/massage-chair-vs-massage-therapist): Cost comparison over one, three and five years.
+- [Massage Chair vs. Chiropractor for Back Pain: Which One Actually Helps?](https://www.massagechairfinder.com/learn/massage-chair-vs-chiropractor): What each one addresses for back pain, and where they do not overlap.
+- [Massage Chair vs Massage Gun vs Foam Roller: Which One Do You Actually Keep Using?](https://www.massagechairfinder.com/learn/massage-chair-vs-massage-gun): Chair against gun against foam roller, judged on what people keep using.
+- [Are Costco Massage Chairs Worth It?](https://www.massagechairfinder.com/learn/are-costco-massage-chairs-worth-it): What the warehouse channel gets right and where the specs fall short.
+- [Buying a Refurbished Massage Chair: What to Look For and What to Avoid](https://www.massagechairfinder.com/learn/refurbished-massage-chairs): What to check before buying used or refurbished.
+- [Is This Massage Chair a Rebadged Version of Another Brand?](https://www.massagechairfinder.com/learn/rebadged-massage-chair-brands): How to tell when two brand names ship the same chair.
+- [How to Spot a Paid or Fake Massage Chair Review](https://www.massagechairfinder.com/learn/fake-massage-chair-reviews): How to identify paid and fabricated massage chair reviews.
+
+## Living with a chair
+
+- [How Long Do Massage Chairs Last?](https://www.massagechairfinder.com/learn/how-long-do-massage-chairs-last): Realistic service life and the parts that fail first.
+- [Massage Chair Repair: What Actually Happens When Yours Breaks](https://www.massagechairfinder.com/learn/massage-chair-repair-guide): What happens when a chair breaks, and who actually performs the repair.
+- [Who Fixes Your Massage Chair When It Breaks?](https://www.massagechairfinder.com/learn/who-fixes-your-massage-chair): How warranty labor, parts and third party service divide up.
+- [Will a Massage Chair Ruin Your Living Room?](https://www.massagechairfinder.com/learn/will-a-massage-chair-ruin-your-living-room): Room fit, sight lines and the measurements to take before ordering.
+- [White Glove vs Threshold vs Curbside Delivery for Massage Chairs](https://www.massagechairfinder.com/learn/massage-chair-delivery-types): White glove against threshold against curbside, and what each one leaves you to do.
+- [Massage Chairs for Couples and Multi-User Households: How to Pick One Chair That Fits Everyone](https://www.massagechairfinder.com/learn/multi-user-households): Choosing one chair that fits two bodies of different heights.
+- [Can You Use HSA or FSA Funds for a Massage Chair?](https://www.massagechairfinder.com/learn/hsa-fsa-massage-chairs): When HSA or FSA funds can apply, and the documentation involved.
+
+## Health conditions and the evidence
+
+- [Are Massage Chairs Safe? Who Should Avoid One and When](https://www.massagechairfinder.com/learn/are-massage-chairs-safe): Who should avoid a massage chair, and the conditions that need medical clearance first.
+- [Does Massage Help Lower Back Pain? What the Research Shows](https://www.massagechairfinder.com/learn/massage-and-lower-back-pain): What the research shows for chronic lower back pain.
+- [Massage for Sciatica: Evidence, Mechanisms, and the SL-Track Requirement](https://www.massagechairfinder.com/learn/massage-and-sciatica): Why sciatica coverage depends on the track reaching the glutes and sacrum.
+- [Massage for Neck and Shoulder Pain: Evidence, Desk-Worker Anatomy, and Chair Selection](https://www.massagechairfinder.com/learn/massage-and-neck-shoulder-pain): Desk-worker anatomy and the chair coverage that matters for it.
+- [Massage for Osteoarthritis: Evidence for Knee, Hip, and Hand Pain](https://www.massagechairfinder.com/learn/massage-and-osteoarthritis): Evidence for knee, hip and hand pain.
+- [Massage for Fibromyalgia: Evidence, Chair Features, and Daily Use](https://www.massagechairfinder.com/learn/massage-and-fibromyalgia): Evidence, chair features and daily use.
+- [Does Massage Help Insomnia? What the Research Shows](https://www.massagechairfinder.com/learn/massage-and-insomnia): What the research shows for sleep onset and sleep quality.
+- [Massage for Anxiety: What the Research Shows and What a Chair Can Deliver](https://www.massagechairfinder.com/learn/massage-and-anxiety): What the research shows, and what a chair can deliver of it.
+- [Does Massage Improve Circulation? What the Research Actually Shows](https://www.massagechairfinder.com/learn/massage-and-circulation): What massage does and does not do for circulation.
+- [Massage Chairs and Special Populations: Who Can Use One, and How](https://www.massagechairfinder.com/learn/special-populations): Who can use a chair safely, and the adjustments involved.
+- [Is Massage Safe for Seniors? Benefits, Cautions, and How to Use a Chair](https://www.massagechairfinder.com/learn/massage-and-senior-health): Benefits, cautions and chair use for older adults.
+- [Is Massage Safe During Pregnancy? What the Research Shows](https://www.massagechairfinder.com/learn/massage-and-pregnancy): What is safe during pregnancy and what to avoid.
+- [Is Massage Safe on Blood Thinners? What the Research Shows](https://www.massagechairfinder.com/learn/massage-and-blood-thinners): The safety question for anticoagulant users.
+- [Is Massage Safe With a Heart Condition? What the Research Shows](https://www.massagechairfinder.com/learn/massage-and-heart-conditions): The safety question for cardiac patients.
+
+## Chairs picked for a specific need
+
+- [Best Massage Chairs $3,000 to $5,000 (2026)](https://www.massagechairfinder.com/best/3000-to-5000): Mid tier picks.
+- [Best Massage Chairs for Arthritis (2026)](https://www.massagechairfinder.com/best/arthritis): Chairs selected for joint-friendly pressure and heat.
+- [Best Massage Chairs for Athletes and Sports Recovery (2026)](https://www.massagechairfinder.com/best/athlete-recovery): Chairs selected for calf, hamstring and glute recovery work.
+- [Best Massage Chairs for Gyms and Wellness Centers (2026)](https://www.massagechairfinder.com/best/gyms-wellness-centers): Commercial use in gyms and wellness centers.
+- [Best Heavy-Duty Massage Chairs (2026)](https://www.massagechairfinder.com/best/heavy-duty): Chairs with the highest verified weight capacities.
+- [Best Massage Chairs for Hotels and Hospitality (2026)](https://www.massagechairfinder.com/best/hotels-hospitality): Commercial use in hotels and hospitality settings.
+- [Best Massage Chairs for Lower Back Pain (2026)](https://www.massagechairfinder.com/best/lower-back-pain): Chairs selected for lumbar and hip coverage.
+- [Best Massage Chairs for Neck and Shoulder Pain (2026)](https://www.massagechairfinder.com/best/neck-shoulders): Chairs selected for cervical and trapezius coverage.
+- [Best Massage Chairs for Office Workers and Desk Jobs (2026)](https://www.massagechairfinder.com/best/office-workers): Chairs selected for desk-posture patterns.
+- [Best Massage Chairs for Petite Buyers (2026)](https://www.massagechairfinder.com/best/petite-buyers): Chairs verified against shorter frames.
+- [Best Premium Massage Chairs Over $5,000 (2026)](https://www.massagechairfinder.com/best/premium): The top tier, and what the extra spend actually buys.
+- [Best Massage Chairs for Sciatica (2026)](https://www.massagechairfinder.com/best/sciatica): Chairs whose track reaches the glutes and sacral area.
+- [Best Massage Chairs for Senior Living Facilities (2026)](https://www.massagechairfinder.com/best/senior-living-facilities): Commercial use in senior living and assisted living settings.
+- [Best Massage Chairs for Seniors (2026)](https://www.massagechairfinder.com/best/seniors): Chairs selected for easy entry, exit and controls.
+- [Best Massage Chairs for Sleep (2026)](https://www.massagechairfinder.com/best/sleep): Chairs selected for evening wind-down use.
+- [Best Massage Chairs for Small Spaces (2026)](https://www.massagechairfinder.com/best/small-spaces): Chairs with the smallest verified recline footprint.
+- [Best Massage Chairs for Stress Relief (2026)](https://www.massagechairfinder.com/best/stress-relief): Chairs selected for parasympathetic programs and gentler pressure.
+- [Best Massage Chairs for Tall People (2026)](https://www.massagechairfinder.com/best/tall-people): Chairs verified against taller frames.
+- [Best Massage Chairs Under $10,000 (2026)](https://www.massagechairfinder.com/best/under-10000): Upper tier picks.
+- [Best Massage Chairs Under $2,000 (2026)](https://www.massagechairfinder.com/best/under-2000): Entry tier picks.
+- [Best Massage Chairs Under $3,000 (2026)](https://www.massagechairfinder.com/best/under-3000): Lower mid tier picks.
+- [Best Massage Chairs Under $5,000 (2026): 6 Picks by Use Case](https://www.massagechairfinder.com/best/under-5000): Everything at or below the mid tier ceiling.
+
+## Optional
+
+- [Sitemap](https://www.massagechairfinder.com/sitemap.xml): Every indexable URL, including all chair reviews, all brand profiles and the full article set. This file lists a curated subset.
+- [About](https://www.massagechairfinder.com/about)
+- [Contact](https://www.massagechairfinder.com/contact)
+

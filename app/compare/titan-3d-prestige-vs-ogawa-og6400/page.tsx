@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/compare/titan-3d-prestige-vs-ogawa-og6400" },
   title: 'Titan 3D Prestige vs Ogawa OG-6400: SL-Track 3D',
   description: 'Two mid-tier SL-track 3D chairs priced within $200 of each other. The Titan reclines within an inch of the wall; the OG-6400 carries a 320 lb rating and a dual roller system. Here is the full comparison.',
 }

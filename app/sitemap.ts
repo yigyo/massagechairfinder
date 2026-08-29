@@ -30,7 +30,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + '/compare',     priority: 0.85, changeFrequency: 'monthly', lastModified: CONTENT_REVISION },
     { url: BASE + '/learn',       priority: 0.85, changeFrequency: 'weekly',  lastModified: CONTENT_REVISION },
     { url: BASE + '/how-we-review', priority: 0.6, changeFrequency: 'yearly', lastModified: CONTENT_REVISION },
-    { url: BASE + '/news',        priority: 0.6,  changeFrequency: 'weekly',  lastModified: CONTENT_REVISION },
     { url: BASE + '/about',       priority: 0.4,  changeFrequency: 'yearly',  lastModified: CONTENT_REVISION },
     { url: BASE + '/contact',     priority: 0.4,  changeFrequency: 'yearly',  lastModified: CONTENT_REVISION },
     { url: BASE + '/disclosure',  priority: 0.3,  changeFrequency: 'yearly',  lastModified: CONTENT_REVISION },

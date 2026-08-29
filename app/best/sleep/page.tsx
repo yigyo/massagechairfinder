@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/best/sleep" },
   title: 'Best Massage Chairs for Sleep (2026)',
   description: 'A massage chair does not sedate you. It removes the physical barriers to falling asleep. Five chairs selected for zero gravity, heat, foot and calf coverage, and the room fit that makes a nightly session realistic.',
 }

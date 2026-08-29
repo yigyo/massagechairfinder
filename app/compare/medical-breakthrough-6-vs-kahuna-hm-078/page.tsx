@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/compare/medical-breakthrough-6-vs-kahuna-hm-078" },
   title: "Medical Breakthrough 6 vs Kahuna HM-078",
   description: 'Both are 4D chairs in the $3,000-$4,999 tier. The Medical Breakthrough 6 is L-track for glute and hip coverage. The Kahuna HM-078 is SL-track with space-saving design and 350 lb capacity.',
 }

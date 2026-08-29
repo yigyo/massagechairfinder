@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/compare/amamedics-hilux-4d-vs-titan-pro-vigor-4d" },
   title: 'AmaMedics Hilux 4D vs Titan Pro-Vigor 4D: The SL-Track Decision',
   description: 'Both are SL-track 4D chairs with heated rollers. The Hilux sits a price tier below and fits buyers from 4\'11". The Vigor adds a space-saving design. Here is the full comparison.',
 }

@@ -3,6 +3,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/best/petite-buyers" },
   title: "Best Massage Chairs for Petite Buyers (2026)",
   description: "Most massage chairs are designed for buyers 5'2\" and taller. For buyers under 5'2\", confirmed height fit data matters more than a spec sheet maximum. Six picks with verified small-body accommodation.",
 }

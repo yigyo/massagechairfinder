@@ -3,6 +3,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/best/office-workers" },
   title: "Best Massage Chairs for Office Workers and Desk Jobs (2026)",
   description: "Desk workers need SL-track chairs that address neck and upper back tension specifically, with precise 4D roller control for the cervical and thoracic spine. Six picks across price tiers from entry to premium.",
 }

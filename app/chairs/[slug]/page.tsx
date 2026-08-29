@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: titleHooked.length <= 62 ? titleHooked : titleBase,
     description: desc.slice(0, 160),
+    alternates: { canonical: `https://www.massagechairfinder.com/chairs/${params.slug}` },
   }
 }
 

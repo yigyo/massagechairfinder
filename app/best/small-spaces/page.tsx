@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/best/small-spaces" },
   title: 'Best Massage Chairs for Small Spaces (2026)',
   description: 'Space-saving massage chairs require as little as 1 inch of wall clearance by sliding forward as they recline. Six chairs selected for wall clearance, therapeutic specs, and verified body fit.',
 }

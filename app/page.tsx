@@ -1,6 +1,11 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CHAIRS } from '@/lib/chairs'
 import ChairCard from '@/components/ChairCard'
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com" },
+}
 
 export default function HomePage() {
   // Top-rated mcfActive chairs for the featured section

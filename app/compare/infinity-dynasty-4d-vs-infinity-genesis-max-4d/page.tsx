@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.massagechairfinder.com/compare/infinity-dynasty-4d-vs-infinity-genesis-max-4d" },
   title: "Infinity Dynasty 4D vs Genesis Max 4D, Which Is Right for You?",
   description: 'The Infinity Dynasty 4D and Genesis Max 4D share the same L-track and 4D roller, but now sit in different price tiers. The Dynasty is the lower-priced pick with confirmed petite and plus-size fit; the Genesis Max adds confirmed stretch programs.',
 }
