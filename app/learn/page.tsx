@@ -167,6 +167,10 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-scar-tissue",
       "massage-and-immune-function",
       "massage-and-digestion",
+      "massage-and-flexibility",
+      "myofascial-release-explained",
+      "massage-and-rheumatoid-arthritis",
+      "massage-and-parkinsons",
     ],
   },
 ]
