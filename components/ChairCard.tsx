@@ -91,6 +91,10 @@ export default function ChairCard({ chair }: { chair: Chair }) {
             rel="sponsored noopener"
             className="text-sm btn-primary py-1 px-3"
             onClick={handleShopClick}
+            data-aff-tracked="1"
+            data-chair-slug={chair.id}
+            data-chair-name={chair.name}
+            data-brand={chair.brand}
           >
             Shop
           </a>

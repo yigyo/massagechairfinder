@@ -63,12 +63,17 @@ export function affiliateClick(params: {
   brand: string
   retailer: string
   price?: number
+  linkText?: string
 }): void {
+  // source_path is always sent. Knowing which page a buy click came from is the
+  // difference between "7 affiliate clicks" and knowing which page earned them.
   event('affiliate_click', {
-    chair_slug: params.chairSlug,
-    chair_name: params.chairName,
+    chair_slug: params.chairSlug || '(unattributed)',
+    chair_name: params.chairName || '(unattributed)',
     brand: params.brand,
     retailer: params.retailer,
+    source_path: typeof window !== 'undefined' ? window.location.pathname : '',
+    ...(params.linkText ? { link_text: params.linkText } : {}),
     ...(params.price ? { price: params.price } : {}),
   })
 }

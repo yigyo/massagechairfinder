@@ -569,6 +569,9 @@ export default async function ChairPage({ params }: { params: { slug: string } }
                   target="_blank"
                   rel="sponsored noopener"
                   className="btn-primary block text-center py-3 px-6 rounded font-semibold"
+                  data-chair-slug={c.id}
+                  data-chair-name={c.name}
+                  data-brand={c.brand}
                 >
                   Shop This Chair
                 </a>
