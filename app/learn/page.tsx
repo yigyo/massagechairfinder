@@ -171,6 +171,10 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "myofascial-release-explained",
       "massage-and-rheumatoid-arthritis",
       "massage-and-parkinsons",
+      "massage-and-osteoporosis",
+      "massage-and-varicose-veins",
+      "massage-and-sleep-apnea",
+      "massage-and-pacemaker",
     ],
   },
 ]
