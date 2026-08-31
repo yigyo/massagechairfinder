@@ -12160,6 +12160,567 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <p>[16] Behm DG, Wilke J. <em>Do Self-Myofascial Release Devices Release Myofascia? Rolling Mechanisms: A Narrative Review.</em> Sports Medicine. 2019;49(8):1173-1181. PMID: 31256353.</p>
 <p>[17] National Center for Complementary and Integrative Health. <em>Massage Therapy: What You Need To Know.</em> <a href="https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know">Link</a></p>`,
   },
+  {
+    slug: "massage-and-osteoporosis",
+    title: "Massage and Osteoporosis: One Documented Chair Fracture, and What It Changes",
+    excerpt: "No study has tested massage as a treatment for osteoporosis. But one published case describes a massage chair causing a spinal compression fracture. Here is what the evidence actually supports, and how to set a chair up safely.",
+    order: 128,
+    publishedAt: "2026-08-31",
+    body: `<p><strong>Massage does not treat osteoporosis. No controlled trial has ever tested it in people with the diagnosis, so there is no benefit to weigh. What does exist is a case report in the field's main journal describing an elderly woman who fractured a thoracic vertebra while using an electric massage chair.</strong> That single case, plus the rule that osteoporotic spines break under forces most people would not think twice about, is what should drive your decision. This page is about pressure settings and screening, not about whether massage helps.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>A massage chair has caused a spinal fracture:</strong> An elderly woman developed abrupt severe upper back pain during use of an electrical automated massage chair. Imaging showed an acute T8 compression fracture, and a bone scan confirmed osteoporosis. Her authors wrote that "research regarding the safety of this device is lacking" [1]</p>
+<p><strong>Hands-on massage has caused fractures too:</strong> A 66-year-old man with osteoporosis sustained an L5 pedicle fracture after a back massage, with no other trauma, and needed spinal fusion surgery [2]. A 70-year-old woman fractured L3 and L4 following manual therapy [3]</p>
+<p><strong>Most people who have it do not know:</strong> In US national survey data, 69.12 percent of people with osteoporosis were undiagnosed, rising to 86.88 percent among men and 84.77 percent among adults aged 50 to 59 [4]</p>
+<p><strong>The population is large:</strong> 12.6 percent of US adults aged 50 and over have osteoporosis, and 43.1 percent have low bone mass. Among adults 65 and over, osteoporosis prevalence is 17.7 percent [5]</p></div>
+<h2>There is no efficacy evidence, and that is the finding</h2>
+<p>A title search of the medical literature for massage combined with osteoporosis returns nothing. There is no Cochrane review. There is no randomised trial of massage therapy in an osteoporotic population. Any page telling you that massage "supports bone health" or "stimulates bone remodelling" is not reporting research.</p>
+<p>The closest real trial is <strong>PROVE</strong>, and it is worth knowing about because it cuts both ways. PROVE randomised 615 adults with symptomatic osteoporotic vertebral fractures across 21 NHS physiotherapy departments, with 203 of them assigned to seven sessions of manual therapy. At twelve months, manual therapy produced no significant advantage over a single physiotherapy session on quality of life (difference 1.35 points, 95 percent CI -1.76 to 2.93, p=0.744) [6]. The trialists concluded there was inadequate evidence that a short course of either manual therapy or home exercise provides long-term benefit [7].</p>
+<p>The other half of PROVE matters as much: <strong>"There were no treatment-related serious adverse events"</strong> across 203 people receiving hands-on treatment [6]. Careful, calibrated manual work by a trained physiotherapist did not hurt anyone in that trial. That is genuinely reassuring, and it is also the exact thing a machine cannot reproduce, for reasons the next section makes concrete.</p>
+<p>One study is likely to surface if you search: a 2013 crossover trial reporting that Thai massage raised a bone-formation marker in postmenopausal women. Read the population carefully. Those women were postmenopausal, <strong>not diagnosed with osteoporosis</strong>, the study measured no bone density and no fractures, and a turnover marker shifting over four weeks is not bone gain. It does not support massage for osteoporosis.</p>
+<h2>What actually breaks an osteoporotic vertebra</h2>
+<p>A vertebra fractures when the force applied to it exceeds its strength. Strength comes from bone size, shape and mineral density; load comes from body size, muscle forces and whatever you happen to be doing [8]. In osteoporosis the strength side collapses, so the threshold moves down into the range of ordinary activity.</p>
+<p>How far down is startling. The Bone Health and Osteoporosis Foundation puts it plainly: "For some people with a lot of bone loss, simply hugging a friend or picking up a grandchild can cause a broken bone in the spine. So can sneezing and coughing" [9].</p>
+<p>Two more details shape the chair question. Most vertebral fractures never come to clinical attention, which means the activities that cause them have never been properly catalogued [8]. And fractures cluster in the mid-thoracic and thoracolumbar spine [8], which is exactly the stretch of back where a chair's rollers spend most of a program.</p>
+<h2>The one thing chairs get right, and the one thing they get wrong</h2>
+<p>Here is the part that surprised us, and it should change how you shop.</p>
+<p><strong>Reclining is the safe direction.</strong> Osteoporosis guidance is emphatic that forward flexion is the dangerous motion. BHOF: "Do not flex or bend your spine forward. Backward bending or leaning back however reduces stress on the front of the spine" [9]. A UK expert consensus in the British Journal of Sports Medicine recommends "avoiding postures involving a high degree of spinal flexion during exercise or daily life" [10]. A zero-gravity recline puts you in extension. The recline is not your problem.</p>
+<p><strong>The rollers and the percussion modes are the problem.</strong> Mayo Clinic's osteoporosis exercise guidance says to "avoid jerky, rapid movements in general" and to choose slow, controlled movement instead [11]. Tapping, percussion, and knocking programs are precisely jerky, rapid loading, delivered focally to individual thoracic vertebrae. And the authors of the T8 fracture case were specific about which setting they were warning against: patients with or at risk for osteoporosis "should be cautious while opting for deep tissue massage" using these chairs [1].</p>
+<p>So a massage chair is not one thing here. Its posture is protective and its mechanism is the hazard, and that split is the whole buying decision.</p>
+<h2>How a massage chair delivers this</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Can a chair do it?</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Improve bone density</td>
+<td><strong>No</strong></td>
+<td>Bone responds to active muscular and gravitational loading, which a chair does not provide [12]</td>
+</tr>
+<tr>
+<td>Treat osteoporosis</td>
+<td><strong>No</strong></td>
+<td>No trial of massage in this population exists</td>
+</tr>
+<tr>
+<td>Reproduce the PROVE manual therapy</td>
+<td>No</td>
+<td>That was a physiotherapist calibrating force by hand across seven sessions [6]</td>
+</tr>
+<tr>
+<td>Comfort and general muscle relaxation</td>
+<td>Yes</td>
+<td>Standard massage benefit, never measured in this group</td>
+</tr>
+<tr>
+<td>Keep the spine out of flexion</td>
+<td>Yes</td>
+<td>Recline is extension, the protective direction [9]</td>
+</tr>
+<tr>
+<td>Apply focal force to one thoracic vertebra</td>
+<td><strong>Yes, and this is the risk</strong></td>
+<td>Documented T8 fracture during chair use [1]</td>
+</tr>
+<tr>
+<td>Sense that a vertebra is fragile and back off</td>
+<td><strong>No</strong></td>
+<td>A roller runs a program. It gets no feedback from your tissue</td>
+</tr>
+</tbody>
+</table>
+<h2>Screening: the question that actually works</h2>
+<p>Asking an older buyer "do you have osteoporosis?" misses most of the people it needs to catch, because 69.12 percent of those who have it are undiagnosed, and among men that figure is 86.88 percent [4].</p>
+<p>The questions that work better: How old are you? Have you ever broken a bone from a minor fall? Have you taken oral steroids long-term? Have you ever had a DXA bone scan? A no to the last question in a woman over 65 or a man over 70 is not reassurance, it is a gap.</p>
+<p>If any of that applies, the conversation to have is with a doctor, not with a salesperson. Mayo's medical massage precautions list names "severe osteoporosis or poor bone density" among conditions requiring provider clearance before treatment [13]. Cleveland Clinic names osteoporosis directly among conditions to raise with your provider first, because it "could make you vulnerable to fractures" [14].</p>
+<h2>Setting a chair up if you have low bone density</h2>
+<p>Assuming your doctor has cleared it:</p>
+<ul>
+<li><strong>Lowest intensity, permanently.</strong> Not as a starting point you work up from. Roller depth and airbag pressure stay at minimum.</li>
+<li><strong>Percussion and tapping modes off.</strong> These are the jerky, rapid loading Mayo warns against [11], and they are the modes closest to what the fracture case describes.</li>
+<li><strong>No deep tissue or shiatsu-style deep-kneading programs.</strong> This is the specific caution from the case report authors [1].</li>
+<li><strong>Short sessions.</strong> Ten to fifteen minutes rather than a full program cycle.</li>
+<li><strong>Air-only where the chair allows it.</strong> Calf, foot and arm compression carries none of the spinal loading risk.</li>
+<li><strong>Stop for new focal back pain and get imaging.</strong> The published case presented as abrupt severe upper back pain during use [1]. Sudden, localised mid-back pain during a session is not soreness to be dialled down. It is a reason to call your doctor.</li>
+</ul>
+<p>The broader adverse-event picture supports proportion rather than alarm. A systematic review covering ten years and six databases found 40 reports describing 138 adverse events from massage of all kinds, and concluded that massage is "not totally devoid of risks. But the incidence of such events is low" [15]. Rare, documented, mechanically plausible, and with no published incidence rate for chairs specifically. That is the accurate read.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Can you use a massage chair if you have osteoporosis?</strong></summary>
+<p>Only with your doctor's clearance, at the lowest intensity, with percussion and deep-tissue programs switched off. One published case describes an osteoporotic woman fracturing a T8 vertebra during massage chair use, and the authors specifically warned against deep tissue settings on these chairs [1].</p>
+</details>
+<details>
+<summary><strong>Does massage help osteoporosis?</strong></summary>
+<p>No. No controlled trial or systematic review of massage therapy in people with osteoporosis exists, so there is no evidence of benefit for bone density, fracture risk, or disease progression.</p>
+</details>
+<details>
+<summary><strong>Can a massage chair build bone density?</strong></summary>
+<p>No. Bone adapts to active muscular and gravitational loading, and exercise trials show measurable gains from that kind of loading [12]. Passive external pressure has never been shown to do the same thing, and a chair supplies neither muscle contraction nor ground reaction force.</p>
+</details>
+<details>
+<summary><strong>Is deep tissue massage safe with osteoporosis?</strong></summary>
+<p>It is the setting most directly implicated. NCCIH notes that rare serious side effects from massage, including bone fracture, "have involved vigorous types of massage, such as deep tissue massage, or patients who might be at increased risk of injury, such as elderly people" [16]. Skip it.</p>
+</details>
+<details>
+<summary><strong>What if I do not know whether I have osteoporosis?</strong></summary>
+<p>Assume you might if you are over 65, or over 50 with a history of a low-trauma fracture or long-term steroid use. Roughly seven in ten people with osteoporosis are undiagnosed [4]. Ask about a DXA scan before buying a chair you plan to use daily.</p>
+</details>
+<details>
+<summary><strong>Is the reclining part dangerous?</strong></summary>
+<p>No, and this is the counterintuitive part. Spinal flexion is the hazardous direction in osteoporosis, and reclining is extension, which reduces stress on the front of the spine [9]. The rollers and the percussion modes are what to control, not the recline.</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>For low bone density, the specification list runs opposite to the usual one. You want genuinely gentle minimum settings rather than an impressive maximum, roller intensity that adjusts independently of program choice, percussion modes that can be switched off rather than baked into every program, and easy entry and exit. The 4D roller depth and the aggressive deep-tissue programs that sell chairs are the features you will never use.</p>
+<p>That is close to the same list we argue for in <a href="/learn/massage-chairs-for-seniors">massage chairs for seniors</a>, and the models in our <a href="/best/seniors">best massage chairs for seniors</a> roundup are selected on those criteria. For the wider context on ageing bodies and massage, see <a href="/learn/massage-and-senior-health">massage and senior health</a> and <a href="/learn/massage-and-mobility-after-60">massage and mobility after 60</a>. If joint pain rather than bone density is your main driver, <a href="/learn/massage-and-osteoarthritis">massage and osteoarthritis</a> covers a literature that actually has trials in it. For general boundaries, see <a href="/learn/are-massage-chairs-safe">are massage chairs safe?</a>.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist filtered for gentle intensity ranges and easy entry, rather than for maximum roller depth.</p>
+<p><em>This article is general information, not medical advice. Talk to your doctor before using a massage chair if you have osteoporosis, low bone mass, a history of fragility fracture, or long-term steroid use.</em></p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Jeon CH, Chung NS, Lee HD, Won SH. <em>Vertebral compression fracture caused by an electrical automated massage chair.</em> Osteoporosis International. 2019;30(7):1533-1536. PMID: 31016352. <a href="https://doi.org/10.1007/s00198-019-04961-4">Link</a></p>
+<p>[2] Guo Z, Chen W, Su Y, Yuan J, Zhang Y. <em>Isolated unilateral vertebral pedicle fracture caused by a back massage in an elderly patient: a case report and literature review.</em> European Journal of Orthopaedic Surgery and Traumatology. 2013;23(Suppl 2):S149-S153. PMID: 23412164. <a href="https://doi.org/10.1007/s00590-012-1031-y">Link</a></p>
+<p>[3] Cha JY, Choi S, Kim S, Jang IT. <em>Vertebral fractures following manual therapy after spinal implant removal.</em> Korean Journal of Neurotrauma. 2025;21:216-221. PMID: 40778253. <a href="https://doi.org/10.13004/kjnt.2025.21.e23">Link</a></p>
+<p>[4] Naso CM, Lin SY, Song G, Xue H. <em>Trends in osteoporosis prevalence and diagnosis, NHANES 2005-2018.</em> Osteoporosis International. 2025;36:547-554. PMID: 39873744. <a href="https://doi.org/10.1007/s00198-025-07395-3">Link</a></p>
+<p>[5] Sarafrazi N, Wambogo EA, Shepherd JA. <em>Osteoporosis or Low Bone Mass in Older Adults: United States, 2017-2018.</em> NCHS Data Brief No. 405, National Center for Health Statistics, March 2021. <a href="https://www.cdc.gov/nchs/products/databriefs/db405.htm">Link</a></p>
+<p>[6] Barker KL, Newman M, Stallard N, et al. <em>Physiotherapy rehabilitation for osteoporotic vertebral fracture (PROVE): a randomised controlled trial.</em> Health Technology Assessment. 2019;23(44):1-318. PMID: 31456562. <a href="https://doi.org/10.3310/hta23440">Link</a></p>
+<p>[7] Barker KL, Newman M, Stallard N, et al. <em>Physiotherapy rehabilitation for osteoporotic vertebral fracture.</em> Osteoporosis International. 2020;31:277-289. PMID: 31720722. <a href="https://doi.org/10.1007/s00198-019-05133-0">Link</a></p>
+<p>[8] Christiansen BA, Bouxsein ML. <em>Biomechanics of vertebral fractures and the vertebral fracture cascade.</em> Current Osteoporosis Reports. 2010;8:198-204. PMID: 20838942. <a href="https://doi.org/10.1007/s11914-010-0031-2">Link</a></p>
+<p>[9] Bone Health and Osteoporosis Foundation. <em>Protecting Your Spine.</em> <a href="https://www.bonehealthandosteoporosis.org/patients/treatment/exercisesafe-movement/protecting-your-spine/">Link</a></p>
+<p>[10] Brooke-Wavell K, Skelton DA, Barker KL, et al. <em>Strong, steady and straight: UK consensus statement on physical activity and exercise for osteoporosis.</em> British Journal of Sports Medicine. 2022;56:837-846. PMID: 35577538. <a href="https://doi.org/10.1136/bjsports-2021-104634">Link</a></p>
+<p>[11] Mayo Clinic. <em>Exercising with osteoporosis: Stay active the safe way.</em> 12 March 2025. <a href="https://www.mayoclinic.org/diseases-conditions/osteoporosis/in-depth/osteoporosis/art-20044989">Link</a></p>
+<p>[12] Hejazi K, Rahimi GRM, Hofmeister M. <em>Effects of exercise training on bone mineral density in postmenopausal women: a systematic review and meta-analysis.</em> Archives of Osteoporosis. 2025;20:105. PMID: 40715912. <a href="https://doi.org/10.1007/s11657-025-01594-5">Link</a></p>
+<p>[13] Mayo Clinic. <em>Medical-Based Massage Therapy</em> (MC6113). <a href="https://sharedfiles.mayoclinic.org/bedside/ope/GNT-20232852.html">Link</a></p>
+<p>[14] Cleveland Clinic. <em>Therapeutic Massage: What It Is and 4 Benefits.</em> 21 April 2025. <a href="https://health.clevelandclinic.org/therapeutic-massage-can-great-addition-treatment">Link</a></p>
+<p>[15] Yin P, Gao N, Wu J, Litscher G, Xu S. <em>Adverse events of massage therapy in pain-related conditions: a systematic review.</em> Evidence-Based Complementary and Alternative Medicine. 2014;2014:480956. PMID: 25197310. <a href="https://doi.org/10.1155/2014/480956">Link</a></p>
+<p>[16] National Center for Complementary and Integrative Health. <em>Massage Therapy: What You Need To Know.</em> <a href="https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-pacemaker",
+    title: "Massage Chairs and Pacemakers: The Interference Claim Is Wrong",
+    excerpt: "Retailer sites warn that massage chair motors interfere with pacemakers. The American Heart Association, Medtronic, and a study of 86 device patients all say otherwise. Here is what the evidence shows, and the three caveats that are real.",
+    order: 129,
+    publishedAt: "2026-08-31",
+    body: `<p><strong>Search this question and you will be told that massage chair motors generate electromagnetic fields that can interfere with a pacemaker. That claim appears almost exclusively on retailer and vendor blogs, and the sources that actually matter contradict it.</strong> The American Heart Association lists massage chairs among devices with little risk. Medtronic lists "Massage Chair/Pad" under no known risk. And a study that connected 86 patients with implanted cardiac devices to a powered massager and then interrogated their devices found no interference at all. There are real caveats here, but they are narrower and more specific than the ones you have been reading.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>It has been tested in people:</strong> 86 patients with cardiac implantable devices (59 pacemakers, 27 ICDs, 151 leads) used a commercially available electronic backrest massager for 10 minutes. There was no inappropriate pacing inhibition, no inappropriate defibrillation, and no significant change in pacing threshold, sensing or lead impedance [1]</p>
+<p><strong>The AHA is specific:</strong> "Massage chairs and massage pads" appear under the heading <strong>"Other devices with little risk"</strong> in the American Heart Association's guidance on devices and implanted cardiac devices [2]</p>
+<p><strong>So is the manufacturer:</strong> Medtronic's household electromagnetic compatibility guide lists "Massage Chair/Pad" under <strong>"No Known Risk"</strong>, while placing the hand-held back massager in the 6-inch-distance tier [3]</p>
+<p><strong>The real documented mechanism is not electrical:</strong> In 46 device patients, chest wall oscillation caused no electromagnetic interference, but it did inappropriately accelerate the pacing rate to maximum in seven patients, because the device's motion sensor read the vibration as exercise [4]</p></div>
+<h2>Where the interference claim comes from</h2>
+<p>There is no published case report of a massage chair, massage pad or shiatsu recliner interfering with a pacemaker or defibrillator. Searching for one returns retailer blogs, several of which assert that case reports exist while citing nothing.</p>
+<p>The claim is not baseless in origin, it is misapplied. Electromagnetic interference with cardiac devices is a genuine phenomenon, and a systematic review of the intermediate-frequency range found cardiac implants can malfunction under some fields, particularly from <strong>security systems and induction hobs</strong> [5]. Massage devices are not among the appliance classes that review identified. A separate review in Circulation concluded that "the overall risk of clinically significant adverse events related to electromagnetic interference in recipients of CIEDs is very low" [6].</p>
+<p>There is also a naming collision doing real damage. Boston Scientific advises avoiding <strong>"magnetic mattresses and chairs"</strong>, and Abbott lists <strong>"magnetic mattresses or chairs"</strong> among items to avoid [7]. Those are magnet-therapy furniture, which contain actual magnets. They are not massage chairs. If you have seen a claim that device manufacturers ban massage chairs, this is almost certainly the sentence it came from, read carelessly.</p>
+<h2>What the direct study found</h2>
+<p>In 2021, cardiologists at Tan Tock Seng Hospital in Singapore ran the study everybody had been arguing about without data. They took 86 patients with cardiac implantable electronic devices, 59 with pacemakers and 27 with implantable cardioverter defibrillators, covering 151 leads, and had them use a commercially available electronic backrest upper-body massager for ten minutes while their devices were monitored and interrogated.</p>
+<p>The result was clean. <strong>No electromagnetic interference. No inappropriate inhibition of pacing. No inappropriate defibrillation. No significant change in pacing threshold, sensing or lead impedance compared with baseline</strong> [1].</p>
+<p>Two limits belong on the record, because reporting this well means reporting it with its edges. It was one study, one ten-minute exposure, and the device tested was a <strong>backrest massager rather than a full roller-and-airbag recliner</strong>. The authors themselves qualified their conclusion, writing that it is "potentially safe" to use "commercially available electronic massagers with similar characteristics as the one tested" [1]. A separate 2024 randomised trial of osteopathic manipulative treatment in 41 device patients found no change in arrhythmia burden and no adverse effects, concluding that manual treatment "appears to be safe in cardiac patients" [8].</p>
+<p>That is not a blank cheque. It is a good deal more than the internet currently gives you.</p>
+<h2>The caveat nobody mentions, which is the interesting one</h2>
+<p>Here is a real mechanism, and it has nothing to do with electromagnetism.</p>
+<p>Most modern pacemakers are <strong>rate-responsive</strong>. They contain an accelerometer that detects body movement and raises your heart rate when it thinks you are exerting yourself, which is how the device lets you climb stairs.</p>
+<p>In a study of 46 device patients undergoing chest physiotherapy, there was no electromagnetic interference of any kind. But <strong>high-frequency chest wall oscillation inappropriately accelerated the pacing rate to the maximum programmed value in five pacemaker patients and two with cardiac resynchronisation devices</strong> [4]. The cause was mechanical. The oscillation shook the chest wall, the accelerometer interpreted the vibration as vigorous activity, and the device sped the heart up to match. The authors noted that deactivating the activity sensor may be necessary.</p>
+<p>A massage chair vibrating your torso is plausibly the same category of event. <strong>It has never been tested</strong>, so this is a question to raise rather than a finding to act on. But it is a far better question to bring to your cardiologist than the electromagnetic one: <em>is my device rate-responsive, and could sustained chair vibration be read as activity by its motion sensor?</em></p>
+<h2>The pocket, and the first few weeks</h2>
+<p>Your generator sits under the skin near the collarbone, above the muscle. That location is within reach of the shoulder and upper-back airbags on many massage chairs.</p>
+<p>The AHA's post-implant guidance is time-limited and specific: for two to three weeks, <strong>"avoid causing pressure where your pacemaker was implanted,"</strong> avoid heavy lifting, pushing, pulling and twisting, and do not raise the arm on the pacemaker side above your shoulder [9]. NHS guidance extends the activity restrictions to four to six weeks. This is wound healing and lead maturation, not interference.</p>
+<p>Long term, Abbott flags hand-held massagers as no known risk but marks them <strong>"do not place directly over device"</strong> [7], and that is the sensible standing rule for a chair too. In practice it means checking whether a chair's shoulder airbags press the upper chest near the collarbone on your implant side, and padding or disabling them if they do.</p>
+<p>One thing you may read and should discount: that massage can cause <strong>Twiddler's syndrome</strong>, where leads dislodge and the device malfunctions. Twiddler's is defined by <strong>the patient's own deliberate or unconscious manipulation of the generator</strong>, twisting it inside its pocket, with a reported incidence of 0.7 to 7 percent [10]. No source links it to external massage or a chair. It is a reason the device site is treated as hands-off, not evidence that massage causes lead displacement.</p>
+<h2>The exception that proves the rule</h2>
+<p>If you have been told electrical devices are dangerous with a pacemaker, you were told something true. A systematic review of electrical stimulation in pacemaker and ICD patients includes reported cases of <strong>inappropriate ICD shocks during lumbar TENS and abdominal neuromuscular electrical stimulation</strong> [11].</p>
+<p>That matters here for one practical reason: some massage chairs include <strong>TENS or EMS pads</strong>, often in the footrest, as an add-on feature. Electrical stimulation is a genuinely different technology from rollers and airbags, and it carries a genuinely different risk profile. <strong>If a chair you are considering has a TENS or EMS function, that specific feature is what to ask your cardiologist about</strong>, separately from the massage mechanism.</p>
+<h2>How a massage chair delivers this</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Can a chair do it?</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Interfere electromagnetically with your device</td>
+<td><strong>No evidence, and contradicted</strong></td>
+<td>86 device patients, no interference [1]; AHA and Medtronic classify massage chairs as little or no known risk [2][3]</td>
+</tr>
+<tr>
+<td>Trigger magnet mode</td>
+<td>No, unless a magnet is involved</td>
+<td>Requires a sufficiently strong magnet within about 6 inches of the generator [3][12]</td>
+</tr>
+<tr>
+<td>Trip a rate-responsive motion sensor</td>
+<td><strong>Plausible, never tested</strong></td>
+<td>Documented for chest wall oscillation [4]. A question for your cardiologist</td>
+</tr>
+<tr>
+<td>Press on the generator site</td>
+<td><strong>Yes, on many models</strong></td>
+<td>Shoulder airbags reach the upper chest near the implant [9]</td>
+</tr>
+<tr>
+<td>Cause Twiddler's syndrome</td>
+<td><strong>No</strong></td>
+<td>That is self-manipulation of the device [10]</td>
+</tr>
+<tr>
+<td>Deliver TENS or EMS safely</td>
+<td><strong>Different question entirely</strong></td>
+<td>Electrical stimulation is a documented hazard in this population [11]</td>
+</tr>
+<tr>
+<td>Address why you have the device</td>
+<td>No</td>
+<td>The underlying heart condition is the real consideration</td>
+</tr>
+</tbody>
+</table>
+<h2>The question that actually matters</h2>
+<p>Almost nobody has a pacemaker or defibrillator without an underlying reason. Pacemakers are implanted for heart block, arrhythmias and heart failure. Defibrillators go in after cardiac arrest, or for ventricular tachycardia, ventricular fibrillation, heart failure with reduced ejection fraction, hypertrophic cardiomyopathy, Brugada syndrome or long QT syndrome.</p>
+<p><strong>That underlying condition, not the device, is what your cardiologist should be weighing.</strong> Massage has a measurable blood-pressure effect: a meta-analysis of 9 randomised trials found systolic pressure fell by 7.39 mmHg and diastolic by 5.04 mmHg in hypertensive and prehypertensive patients compared with control [13], though the authors called for higher-quality trials and a later meta-analysis found a much smaller effect. That is a cardiovascular consideration, and it is covered properly in <a href="/learn/massage-and-heart-conditions">massage and heart conditions</a> and <a href="/learn/massage-chairs-and-blood-pressure">massage chairs and blood pressure</a>.</p>
+<p>So the conversation to have is not "will this chair interfere with my pacemaker." It is "given my heart condition, is regular massage sensible, and is my device rate-responsive."</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Can you use a massage chair if you have a pacemaker?</strong></summary>
+<p>The available evidence says yes, with cardiologist clearance. A study of 86 device patients using a powered massager found no interference [1], the American Heart Association lists massage chairs under devices with little risk [2], and Medtronic lists them under no known risk [3].</p>
+</details>
+<details>
+<summary><strong>Do massage chair motors interfere with pacemakers?</strong></summary>
+<p>There is no evidence that they do, and the claim is contradicted by manufacturer and AHA guidance [2][3] and by direct testing in patients [1]. The claim circulates almost entirely on retailer blogs, none of which cite a source.</p>
+</details>
+<details>
+<summary><strong>Is it safe with an implantable defibrillator (ICD)?</strong></summary>
+<p>The 86-patient study included 27 ICD patients and found no inappropriate defibrillation and no interference [1]. ICD patients typically have more serious underlying heart disease, so the clearance conversation matters more, not less.</p>
+</details>
+<details>
+<summary><strong>How soon after pacemaker surgery can I use a massage chair?</strong></summary>
+<p>Not on the implant side for at least the first two to three weeks, per AHA guidance to avoid pressure where the device was implanted [9], and NHS guidance restricts vigorous activity and overhead arm movement for four to six weeks. Confirm timing with your own team.</p>
+</details>
+<details>
+<summary><strong>Should I avoid the shoulder airbags?</strong></summary>
+<p>On the implant side, it is a reasonable precaution. Abbott's guidance for hand-held massagers is "do not place directly over device" [7], and the same logic applies to any airbag that presses the upper chest near your collarbone.</p>
+</details>
+<details>
+<summary><strong>What about massage chairs with TENS or EMS pads?</strong></summary>
+<p>Ask about that feature specifically. Electrical stimulation is a documented hazard in device patients, with reported cases of inappropriate ICD shocks during TENS use [11]. It is a separate question from the rollers and airbags.</p>
+</details>
+<details>
+<summary><strong>Do I need to keep magnets away?</strong></summary>
+<p>Yes. The AHA, FDA and device manufacturers all recommend keeping magnets and consumer electronics that generate magnetic fields at least six inches from your device [2][3][12]. That applies to a phone stored in a chair's side pocket, and to magnetic-therapy accessories, not to the chair mechanism itself.</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>For device patients the specification list is short and it is not the usual one. Look for shoulder airbags you can disable separately from the rest of the program, so you are not choosing between a full massage and pressure on your implant site. Prefer chairs without TENS or EMS features unless your cardiologist has cleared that specifically. And since most device patients are older, the same entry-and-exit and gentle-intensity criteria we argue for in <a href="/learn/massage-chairs-for-seniors">massage chairs for seniors</a> apply here.</p>
+<p>For the broader cardiac picture, start with <a href="/learn/massage-and-heart-conditions">massage and heart conditions</a>. For general boundaries, <a href="/learn/are-massage-chairs-safe">are massage chairs safe?</a>. For context on ageing and massage, <a href="/learn/massage-and-senior-health">massage and senior health</a>. Models selected for gentle, adjustable operation are in our <a href="/best/seniors">best massage chairs for seniors</a> roundup.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist of chairs with zone-by-zone airbag control, so you can switch off what you need to.</p>
+<p><em>This article is general information, not medical advice. Talk to your cardiologist or device clinic before using a massage chair, and ask specifically about your underlying heart condition, whether your device is rate-responsive, and any electrical stimulation features on the chair.</em></p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Chia PL, Mok KH, Wong SW, Foo D. <em>Electromagnetic interference of cardiac implantable electronic devices by a commercial electronic massager.</em> Pacing and Clinical Electrophysiology. 2021;44(1):167-170. PMID: 33118195. <a href="https://doi.org/10.1111/pace.14115">Link</a></p>
+<p>[2] American Heart Association. <em>Devices That May Interfere with ICDs and Pacemakers.</em> Last reviewed 29 October 2024. <a href="https://www.heart.org/en/health-topics/arrhythmia/prevention--treatment-of-arrhythmia/devices-that-may-interfere-with-icds-and-pacemakers">Link</a></p>
+<p>[3] Medtronic. <em>Household and Hobby Items Electromagnetic Compatibility Guide.</em> <a href="https://www.medtronic.com/en-us/l/patients/electromagnetic-guide/household-hobby.html">Link</a></p>
+<p>[4] Gwag HB, et al. <em>Safety of chest physiotherapy in patients with cardiac implantable electronic devices.</em> Clinical Cardiology. 2021;44(3). PMID: 33590902. <a href="https://doi.org/10.1002/clc.23571">Link</a></p>
+<p>[5] Driessen S, Napp A, Schmiedchen K, Kraus T, Stunder D. <em>Electromagnetic interference in cardiac electronic implants caused by novel electrical appliances emitting electromagnetic fields in the intermediate frequency range: a systematic review.</em> Europace. 2019;21(2):219-229. <a href="https://doi.org/10.1093/europace/euy155">Link</a></p>
+<p>[6] Beinart R, Nazarian S. <em>Effects of external electrical and magnetic fields on pacemakers and defibrillators: from engineering principles to clinical practice.</em> Circulation. 2013;128(25):2799-2809. <a href="https://doi.org/10.1161/CIRCULATIONAHA.113.005697">Link</a></p>
+<p>[7] Abbott. <em>Electromagnetic Interference: Guide to Electromagnetic Compatibility and Your Cardiac Device.</em> MAT-2102032 v3.0. <a href="https://www.cardiovascular.abbott/us/en/patients/cardiovascular-device-patient-services/emi.html">Link</a> See also Boston Scientific, <em>Using household appliances and tools</em>, doc ref 92481216 B. <a href="https://www.bostonscientific.com/en-US/patients-caregivers/device-support/pacemaker/emi.html">Link</a></p>
+<p>[8] Cohen T, et al. <em>Osteopathic manipulative treatment in patients with cardiac implantable electronic devices: a double-blind randomized controlled trial.</em> The Journal of Innovations in Cardiac Rhythm Management. 2024. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11717155/">Link</a></p>
+<p>[9] American Heart Association. <em>Living With Your Pacemaker.</em> Last reviewed 29 October 2024. <a href="https://www.heart.org/en/health-topics/arrhythmia/prevention--treatment-of-arrhythmia/living-with-your-pacemaker">Link</a></p>
+<p>[10] Montisci R, Soro C, Demelas R, et al. <em>Twiddler syndrome: a case series.</em> European Heart Journal Case Reports. 2024;8(1):ytae004. <a href="https://doi.org/10.1093/ehjcr/ytae004">Link</a></p>
+<p>[11] Badger J, Taylor P, Swain I. <em>The safety of electrical stimulation in patients with pacemakers and implantable cardioverter defibrillators: a systematic review.</em> Journal of Rehabilitation and Assistive Technologies Engineering. 2017. <a href="https://doi.org/10.1177/2055668317745498">Link</a></p>
+<p>[12] U.S. Food and Drug Administration. <em>Magnets in Cell Phones and Smart Watches May Affect Pacemakers and Other Implanted Medical Devices.</em> 13 May 2021. <a href="https://www.fda.gov/radiation-emitting-products/cell-phones/magnets-cell-phones-and-smart-watches-may-affect-pacemakers-and-other-implanted-medical-devices">Link</a></p>
+<p>[13] Liao IC, Chen SL, Wang MY, Tsai PS. <em>Effects of massage on blood pressure in patients with hypertension and prehypertension: a meta-analysis of randomized controlled trials.</em> Journal of Cardiovascular Nursing. 2016;31(1):73-83. PMID: 25419947. <a href="https://www.ncbi.nlm.nih.gov/books/NBK291398/">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-sleep-apnea",
+    title: "Massage and Sleep Apnea: The Answer Is No, and Why That Matters",
+    excerpt: "No study has ever measured massage against the apnea-hypopnea index. Massage does move sleep-quality scores, which is precisely the problem: feeling more rested can mask an untreated condition.",
+    order: 130,
+    publishedAt: "2026-08-31",
+    body: `<p><strong>No randomised trial or systematic review has ever measured massage therapy against the apnea-hypopnea index. There is no evidence that massage of any kind, by hand or by chair, treats obstructive sleep apnea.</strong> That would be a short page, except for one complication that makes it worth writing: massage does improve how rested people say they feel. If a chair makes you feel better while an untreated airway problem continues every night, the chair has made things worse, not better.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>Nothing has been measured:</strong> No systematic review or meta-analysis of massage therapy for obstructive sleep apnea exists. NCCIH's 2024 evidence review of physical and psychological approaches for sleep disorders does not include massage among the approaches it reviews [1]</p>
+<p><strong>Massage moves the questionnaire, not the airway:</strong> A 2024 review of 23 trials and 1,780 insomnia patients found Tuina massage improved Pittsburgh Sleep Quality Index scores by 2.34 points (95 percent CI -2.94 to -1.74) [2]. Not one of those 23 trials measured a single breath</p>
+<p><strong>And even the sleep effect is inconsistent:</strong> In 9 randomised trials and 404 fibromyalgia patients, massage improved pain, anxiety and depression but had <strong>no effect on sleep disturbance</strong> (SMD 0.19, 95 percent CI -0.38 to 0.75, p=0.52) [3]</p>
+<p><strong>The cost of the delay is real:</strong> In a cohort study adjusted for age, sex, smoking, BMI, diabetes, hypertension and other factors, obstructive sleep apnea was associated with stroke or death from any cause at a hazard ratio of 1.97 (95 percent CI 1.12 to 3.48) [4]</p></div>
+<h2>Why there is nothing to report</h2>
+<p>Search the literature for massage, manual therapy, Tuina, acupressure or reflexology combined with sleep apnea, apnea-hypopnea index or polysomnography, and no controlled trial comes back. No professional body recommends it. NCCIH's review of what actually has evidence for sleep disorders covers cognitive behavioural therapy for insomnia, relaxation, yoga, tai chi, meditation, music and acupuncture, and does not list massage at all [1].</p>
+<p>This is not a case of weak evidence. It is a case of no evidence, and those are different claims that deserve different language.</p>
+<h2>Two things that get borrowed to fill the gap</h2>
+<p><strong>Myofunctional therapy is not massage.</strong> You will find impressive numbers attached to it: a pooled analysis of 9 studies and 120 adults reported the apnea-hypopnea index falling from 24.5 to 12.3 events per hour, roughly a 50 percent reduction [5], and a 2024 review of 7 randomised trials in 310 patients found an AHI reduction of 10.19 events per hour in adults [6].</p>
+<p>Read what the intervention is. Myofunctional therapy is <strong>the patient actively exercising their own tongue, soft palate and throat muscles</strong>, on a daily schedule, to build tone in the airway that collapses. It is closer to physiotherapy for your throat than to anything a chair does. No massage chair can deliver it, and no external pressure on your back reproduces it. Worth noting too: the 2015 analysis pooled before-and-after data rather than comparing against a sham group [5], and in children the 2024 review found no significant improvement at all [6].</p>
+<p><strong>Acupuncture is not massage either.</strong> There is a meta-analysis showing modest AHI reduction with acupuncture. Acupuncture is needle insertion into tissue. Acupressure and Tuina press the same named points without needles, which is exactly why the finding gets borrowed for massage marketing. Different intervention, different evidence.</p>
+<h2>The real risk is feeling better</h2>
+<p>Here is the mechanism worth understanding, because it is not obvious.</p>
+<p>Massage genuinely does shift how people rate their sleep. Across 23 randomised trials in 1,780 people with insomnia, Tuina improved Pittsburgh Sleep Quality Index scores by 2.34 points and Athens Insomnia Scale scores by 2.10 points [2]. Those are real findings in a real condition.</p>
+<p>Now notice what a sleep-quality questionnaire measures. It asks how long you took to fall asleep, how rested you feel, how often you woke up <strong>that you remember</strong>. Obstructive sleep apnea is defined by breathing events you do not remember, scored by a machine counting how many times per hour your airway closes. <strong>Not one of those 23 trials measured a breath, an oxygen level, or a respiratory event.</strong> A questionnaire is structurally incapable of detecting the disease.</p>
+<p>So the chain runs: your airway keeps collapsing every night, your oxygen keeps dipping, your cardiovascular risk keeps accruing, and you report sleeping better. The instrument that would have caught the problem is the sleep study you did not book.</p>
+<p>It gets one step worse. The subjective sleep effect is not even reliable. In a meta-analysis of 9 randomised trials in fibromyalgia, massage improved pain, anxiety and depression but produced <strong>no improvement in sleep disturbance</strong> (SMD 0.19, 95 percent CI -0.38 to 0.75, p=0.52) [3]. So the argument "massage improves sleep, so it must help sleep apnea" fails at both links.</p>
+<p>NCCIH puts the principle in one sentence, and it is the whole article: <strong>"Don't use massage therapy to postpone seeing a health care provider about a medical problem"</strong> [7].</p>
+<h2>What untreated sleep apnea is associated with</h2>
+<p>These are observational studies, so read them as associations rather than proof of cause. They are still the reason this page exists.</p>
+<p>Adjusted for age, sex, race, smoking, alcohol, BMI, diabetes, hyperlipidaemia, atrial fibrillation and hypertension, obstructive sleep apnea was associated with stroke or death from any cause at a hazard ratio of 1.97 (95 percent CI 1.12 to 3.48), with risk rising across severity [4]. In a separate cohort, untreated severe sleep apnea-hypopnea was associated with fatal cardiovascular events at an adjusted odds ratio of 2.87 (95 percent CI 1.17 to 7.51), and the group treated with CPAP did not show that excess [8]. A review of driving risk concluded the crash-rate ratio for drivers with sleep apnea likely falls somewhere between 1.21 and 4.89 [9].</p>
+<p>Mayo Clinic states it without numbers: "The worse the obstructive sleep apnea, the greater the risk of coronary artery disease, heart attack, heart failure and stroke," alongside a higher risk of fatal work and motor vehicle accidents [10].</p>
+<p>The treatment with evidence is CPAP. Across 36 trials and 1,718 people, it reduced Epworth Sleepiness Scale scores by 3.83 points against inactive control, and outperformed oral appliances on AHI by 7.97 events per hour [11].</p>
+<h2>What about reclining? The one adjacent finding</h2>
+<p>There is a real study on sleeping position, and it is worth reporting accurately because it is the closest anything comes to a chair.</p>
+<p>Raising the head of a bed by just <strong>7.5 degrees</strong>, using a 15 cm wedge, reduced median AHI from 15.7 to 10.7 events per hour in 52 patients during full sleep-lab polysomnography, a 31.8 percent mean reduction, with minimum oxygen saturation improving from 83.5 to 87 percent [12].</p>
+<p>Now the limits, all of which matter. The study was <strong>not randomised</strong>. <strong>38.4 percent of patients did not respond.</strong> In the 13 patients with positional sleep apnea, the change was <strong>not statistically significant</strong>. People with a BMI over 40 were excluded. And most importantly: this was a bed, elevated by a small fixed angle, measured across a full night in a laboratory.</p>
+<p>A massage chair is not a bed. Nobody sleeps a full night in one, nobody has ever measured one in a sleep lab, and a zero-gravity recline is a different geometry from a modest head-of-bed wedge. This finding supports "head elevation modestly helps some people with mild to moderate sleep apnea." It does not support any claim about a chair.</p>
+<h2>How a massage chair delivers this</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Can a chair do it?</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reduce your AHI</td>
+<td><strong>No evidence at all</strong></td>
+<td>Nobody has measured it</td>
+</tr>
+<tr>
+<td>Treat obstructive sleep apnea</td>
+<td><strong>No</strong></td>
+<td>No body of evidence, no professional endorsement [1]</td>
+</tr>
+<tr>
+<td>Deliver myofunctional therapy</td>
+<td><strong>No</strong></td>
+<td>That is you exercising your own throat muscles [5][6]</td>
+</tr>
+<tr>
+<td>Keep your airway open overnight</td>
+<td><strong>No</strong></td>
+<td>Not a night-long sleep surface, never studied in polysomnography</td>
+</tr>
+<tr>
+<td>Reduce snoring</td>
+<td><strong>No evidence</strong></td>
+<td>Snoring reduction in the literature belongs to myofunctional therapy and CPAP</td>
+</tr>
+<tr>
+<td>Make you feel more rested</td>
+<td>Plausibly yes</td>
+<td>And that is the risk, not the benefit [2]</td>
+</tr>
+<tr>
+<td>Help with insomnia or falling asleep</td>
+<td>Partially</td>
+<td>A different condition, covered in <a href="/learn/massage-and-insomnia">massage and insomnia</a></td>
+</tr>
+<tr>
+<td>Tell you whether you have sleep apnea</td>
+<td><strong>No</strong></td>
+<td>Only a sleep study does that</td>
+</tr>
+</tbody>
+</table>
+<h2>When to book a sleep study instead</h2>
+<p>Mayo Clinic's referral triggers are worth reading literally [10]:</p>
+<ul>
+<li>Snoring loud enough to disturb your sleep or someone else's</li>
+<li>Waking up gasping or choking</li>
+<li>Someone observing you pause your breathing during sleep</li>
+<li>Excessive daytime drowsiness</li>
+<li>Falling asleep while working, watching television, or driving</li>
+</ul>
+<p>Mayo adds two nuances. Snoring alone does not mean sleep apnea, and not everyone who snores has it. But <strong>snoring interrupted by periods of silence</strong> is the pattern that warrants a conversation with a professional.</p>
+<p>One more reason not to wait on self-assessment: in the Wisconsin Sleep Cohort, among employed adults with moderate to severe sleep apnea, an estimated 93 percent of women and 82 percent of men <strong>had never been clinically diagnosed</strong> [13]. That figure is from 1997 and describes a specific population, so treat it as an indication of scale rather than a current rate. The direction is not in doubt: most people who have this do not know.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Does massage help sleep apnea?</strong></summary>
+<p>No. No randomised trial or systematic review has measured massage against the apnea-hypopnea index, and no professional body recommends it for obstructive sleep apnea.</p>
+</details>
+<details>
+<summary><strong>Can a massage chair treat sleep apnea?</strong></summary>
+<p>No. A massage chair has never been tested in a sleep laboratory, and there is no mechanism by which back and leg massage would keep a collapsing airway open.</p>
+</details>
+<details>
+<summary><strong>Will a massage chair help my snoring?</strong></summary>
+<p>There is no evidence that it will. Snoring reduction in the research literature belongs to myofunctional therapy, which is throat-muscle exercise you perform yourself [5], and to CPAP.</p>
+</details>
+<details>
+<summary><strong>I sleep better since getting a massage chair. Does that mean my sleep apnea is better?</strong></summary>
+<p>Not necessarily, and this is the important one. Massage improves subjective sleep-quality scores [2] while measuring nothing about breathing. Feeling more rested is compatible with an airway that is still closing dozens of times an hour. If you have symptoms, get the sleep study regardless of how you feel.</p>
+</details>
+<details>
+<summary><strong>Is it safe to use a massage chair if I have sleep apnea?</strong></summary>
+<p>There is no known safety hazard. The risk is not physical harm, it is delay in getting diagnosed and treated.</p>
+</details>
+<details>
+<summary><strong>Does sleeping in a reclined position help sleep apnea?</strong></summary>
+<p>Head-of-bed elevation of 7.5 degrees reduced AHI by an average of 31.8 percent in a non-randomised sleep-lab study, but 38 percent of patients did not respond and positional-apnea patients showed no significant benefit [12]. That is about beds, not chairs, and it is a discussion for your sleep doctor.</p>
+</details>
+<details>
+<summary><strong>What actually treats sleep apnea?</strong></summary>
+<p>CPAP has the strongest evidence [11]. Other options depending on your case include oral appliances, positional therapy, weight management, myofunctional therapy as an adjunct [5][6], and surgery. A sleep physician decides which.</p>
+</details>
+<h2>Where a massage chair does earn its place</h2>
+<p>None of this makes a massage chair useless for sleep. It makes it useless for <strong>this</strong>. If your problem is difficulty winding down, tension keeping you awake, or a restless evening routine, the evidence is more encouraging and we cover it in <a href="/learn/massage-and-sleep">massage and sleep</a> and <a href="/learn/massage-and-falling-asleep">massage and falling asleep</a>. If you are wondering whether sleeping in the chair itself is a reasonable idea, <a href="/learn/massage-chair-sleep">can you sleep in a massage chair</a> answers that directly. For general boundaries, see <a href="/learn/are-massage-chairs-safe">are massage chairs safe?</a>, and for chairs selected around evening use, our <a href="/best/sleep">best massage chairs for sleep</a> roundup.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to what you actually want the chair to do, whether that is winding down at night or something else entirely.</p>
+<p><em>This article is general information, not medical advice. If you snore loudly, wake gasping, or feel excessively sleepy during the day, ask your doctor about a sleep study. Do not use a massage chair in place of diagnosis or treatment.</em></p>
+<hr />
+<h2>Sources</h2>
+<p>[1] National Center for Complementary and Integrative Health. <em>Psychological and Physical Approaches for Sleep Disorders: What the Science Says.</em> Clinical Digest, March 2024. <a href="https://www.nccih.nih.gov/health/providers/digest/psychological-and-physical-approaches-for-sleep-disorders-science">Link</a></p>
+<p>[2] Wang Zhen, Xu H, Wang Zheng, et al. <em>Efficacy of Tuina in patients with chronic insomnia: a systematic review and meta-analysis.</em> Frontiers in Neurology. 2024;15:1273194. <a href="https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2024.1273194/full">Link</a></p>
+<p>[3] Li YH, Wang FY, Feng CQ, Yang XF, Sun YH. <em>Massage therapy for fibromyalgia: a systematic review and meta-analysis of randomized controlled trials.</em> PLOS ONE. 2014;9(2):e89304. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089304">Link</a></p>
+<p>[4] Yaggi HK, Concato J, Kernan WN, Lichtman JH, Brass LM, Mohsenin V. <em>Obstructive sleep apnea as a risk factor for stroke and death.</em> New England Journal of Medicine. 2005;353(19):2034-2041. <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa043104">Link</a></p>
+<p>[5] Camacho M, Certal V, Abdullatif J, et al. <em>Myofunctional therapy to treat obstructive sleep apnea: a systematic review and meta-analysis.</em> Sleep. 2015;38(5):669-675. PMID: 25348130. <a href="https://doi.org/10.5665/sleep.4652">Link</a></p>
+<p>[6] Saba ES, Kim H, et al. <em>Orofacial myofunctional therapy for obstructive sleep apnea: a systematic review and meta-analysis of randomized controlled trials.</em> The Laryngoscope. 2024;134(1):480-495. PMID: 37606313. <a href="https://doi.org/10.1002/lary.30974">Link</a></p>
+<p>[7] National Center for Complementary and Integrative Health. <em>Massage Therapy: What You Need To Know.</em> <a href="https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know">Link</a></p>
+<p>[8] Marin JM, Carrizo SJ, Vicente E, Agusti AGN. <em>Long-term cardiovascular outcomes in men with obstructive sleep apnoea-hypopnoea with or without treatment with continuous positive airway pressure.</em> The Lancet. 2005;365(9464):1046-1053. <a href="https://doi.org/10.1016/S0140-6736(05)71141-7">Link</a></p>
+<p>[9] Tregear S, Reston J, Schoelles K, Phillips B. <em>Obstructive sleep apnea and risk of motor vehicle crash: systematic review and meta-analysis.</em> Journal of Clinical Sleep Medicine. 2009;5(6):573-581. PMID: 20465027. <a href="https://doi.org/10.5664/jcsm.27662">Link</a></p>
+<p>[10] Mayo Clinic. <em>Obstructive sleep apnea: Symptoms and causes.</em> Updated 4 December 2025. <a href="https://www.mayoclinic.org/diseases-conditions/obstructive-sleep-apnea/symptoms-causes/syc-20352090">Link</a></p>
+<p>[11] Giles TL, Lasserson TJ, Smith BJ, White J, Wright J, Cates CJ. <em>Continuous positive airways pressure for obstructive sleep apnoea in adults.</em> Cochrane Database of Systematic Reviews. 2006;CD001106.pub2. <a href="https://doi.org/10.1002/14651858.CD001106.pub2">Link</a></p>
+<p>[12] Souza FJFB, Genta PR, de Souza Filho AJ, Wellman A, Lorenzi-Filho G. <em>The influence of head-of-bed elevation in patients with obstructive sleep apnea.</em> Sleep and Breathing. 2017;21(4):815-820. <a href="https://doi.org/10.1007/s11325-017-1524-3">Link</a></p>
+<p>[13] Young T, Evans L, Finn L, Palta M. <em>Estimation of the clinically diagnosed proportion of sleep apnea syndrome in middle-aged men and women.</em> Sleep. 1997;20(9):705-706. PMID: 9406321. <a href="https://doi.org/10.1093/sleep/20.9.705">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-varicose-veins",
+    title: "Massage and Varicose Veins: Temporary Relief at Most, and One Absolute Stop",
+    excerpt: "No trial has ever tested massage over varicose veins. What the evidence does show is temporary symptom relief from lymphatic drainage, no change in leg volume, and one absolute contraindication worth knowing.",
+    order: 131,
+    publishedAt: "2026-08-31",
+    body: `<p><strong>No study has ever tested massage applied directly over varicose veins. The closest evidence, manual lymphatic drainage in chronic venous insufficiency, improved how legs felt but did not change leg volume at all.</strong> So the accurate answer is that massage may ease heaviness and aching for a while, changes nothing structurally, and carries one rule that is not negotiable: if you have signs of a deep vein clot, do not massage the leg and get medical help the same day.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>Symptoms moved, measurements did not:</strong> In the best randomised trial of lymphatic drainage in chronic venous insufficiency, 41 patients showed improvement in pain, clinical severity score, fatigue and heaviness. Leg volume, ankle strength and ankle range of motion showed <strong>no effect at all</strong> [1]</p>
+<p><strong>The effect ends when the session does:</strong> Thigh lymphatic drainage raised femoral vein flow volume from 5.19 to 7.03 cm3 per second while the technique was being performed [2]. That is a during-treatment measurement, not a lasting change</p>
+<p><strong>Massage-triggered clot events are documented:</strong> A pregnant woman suffered cardiac arrest and massive pulmonary embolism shortly after a leg and foot massage, with fetal death [3]. A 23-year-old man died of pulmonary thromboembolism after a leg massage, confirmed at autopsy [4]</p>
+<p><strong>Varicose veins are common and they progress:</strong> 40 percent of men and 32 percent of women aged 18 to 64 had trunk varices in a randomly sampled population study. Over 13 years, 57.8 percent of people with venous disease progressed, at 4.3 percent per year [5][6]</p></div>
+<h2>The evidence gap, and what fills it</h2>
+<p>Search the medical literature for a trial of massage over varicose veins and you find two things: a 2024 letter with no abstract, and a 1966 German-language paper with no abstract. That is the entire direct literature. The 2023 and 2024 clinical practice guidelines from the Society for Vascular Surgery and the American Venous Forum do not contain the word massage anywhere in their full text [7].</p>
+<p>What does exist is research on manual lymphatic drainage in chronic venous insufficiency, and it deserves a careful reading rather than the enthusiastic summary it usually gets.</p>
+<p>The strongest study randomised 41 people with chronic venous insufficiency to ten sessions of lymphatic drainage over four weeks plus education, or education alone. The drainage group improved on the pain domain of quality of life (p=.035), on the Venous Clinical Severity Score (p=.007), on fatigue (p=.012), and on heaviness (p=.001, and the largest effect in the study). <strong>It produced no change in leg volume, ankle muscle strength, or ankle range of motion</strong> [1].</p>
+<p>That pattern is the accurate read of the data, and it is worth sitting with: the things patients report feeling got better, and every objective measurement stayed put. A 2018 systematic review of lymphatic drainage across chronic oedema reached a compatible conclusion, finding that the two trials in venous insufficiency showed no between-group difference in overall quality of life, and that the effect on quality of life is unclear [8].</p>
+<p>Why does the benefit not last? Because the mechanism does not. Lymphatic drainage measurably increases femoral vein flow <strong>while a therapist is performing it</strong> [2]. Move the blood along, and it refills. Nothing about the vein valve that failed has changed.</p>
+<h2>The rule that matters more than any of this</h2>
+<p>Varicose veins and deep vein thrombosis are related conditions, and the NHS lists having varicose veins among the risk factors for DVT [9]. That proximity is why the safety section here is not boilerplate.</p>
+<p>Massage of a leg containing a clot can dislodge it. The case reports are specific and they are grim:</p>
+<ul>
+<li>A 25-year-old woman, 25 weeks pregnant, visited a traditional massage shop. Shortly after leg and foot massage she became breathless, lost consciousness, convulsed, and went into cardiac arrest. Imaging showed massive bilateral pulmonary embolism. She was resuscitated but remained comatose, and the pregnancy was lost [3].</li>
+<li>A 23-year-old man with a hairline ankle fracture died suddenly after his mother massaged his leg. Autopsy found pulmonary thromboembolism from a dislodged leg-vein clot [4].</li>
+<li>A 56-year-old man with a previous DVT became breathless after a leg massage. Echocardiography showed a worm-shaped clot sitting in his right atrium, a cast of a femoral vein [10].</li>
+</ul>
+<p>Keep the proportion right. A systematic review of massage adverse events concluded that "massage is not entirely risk free. However, serious adverse events are probably true rarities" [11]. These are rare events. They are also documented, mechanistically obvious, and preventable by knowing what to look for.</p>
+<p><strong>Stop and get help the same day if a leg shows:</strong> throbbing or cramping pain, usually in one calf or thigh; swelling in one leg; skin that has turned red, blue or darker around the painful area, which can be harder to see on brown or black skin; unusual warmth; newly swollen veins. Mayo Clinic also notes that DVT can occur with no noticeable symptoms at all [12]. <strong>If any of that comes with breathlessness or chest pain, treat it as an emergency</strong> [9].</p>
+<h2>How a massage chair delivers this</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Can a chair do it?</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Treat varicose veins</td>
+<td><strong>No</strong></td>
+<td>No conservative therapy corrects a failed valve [7]</td>
+</tr>
+<tr>
+<td>Reduce vein size or appearance</td>
+<td><strong>No</strong></td>
+<td>Unsupported anywhere in the literature</td>
+</tr>
+<tr>
+<td>Reduce leg swelling</td>
+<td><strong>No evidence</strong></td>
+<td>The best drainage trial found no leg-volume change [1]</td>
+</tr>
+<tr>
+<td>Perform manual lymphatic drainage</td>
+<td><strong>No</strong></td>
+<td>Drainage is light, slow, directional and sequential. Calf airbags are none of those</td>
+</tr>
+<tr>
+<td>Ease heaviness and aching for a while</td>
+<td>Plausible, unstudied</td>
+<td>Those are the symptoms that responded to drainage [1], but no chair has been tested</td>
+</tr>
+<tr>
+<td>Move venous blood during the session</td>
+<td>Partially</td>
+<td>External compression does change venous flow, and it stops when the chair does [2]</td>
+</tr>
+<tr>
+<td>Detect a clot before starting</td>
+<td><strong>No</strong></td>
+<td>This is the boundary, and why the screening above matters</td>
+</tr>
+</tbody>
+</table>
+<h2>What actually works, including one surprise</h2>
+<p>If you are weighing massage against "the real treatment," it helps to know how the real treatments grade out.</p>
+<p><strong>Compression stockings are not proven for uncomplicated varicose veins.</strong> A 2021 Cochrane review of 13 studies and 1,021 participants concluded there is "insufficient high-certainty evidence to determine whether or not compression stockings are effective as the sole and initial treatment of varicose veins" in people without venous ulceration, with GRADE certainty rated low to very low [13]. Compression's hard evidence lies in healing <strong>venous leg ulcers</strong>, a different and more advanced problem, where 48 trials and over 4,000 participants show it works [14].</p>
+<p><strong>Exercise does not fix them either.</strong> A 2023 Cochrane review of physical exercise for non-ulcerated chronic venous insufficiency found only five trials and 146 people in total, could not pool them, and reported no clear difference in signs and symptoms at six months on very low-certainty evidence [15].</p>
+<p><strong>What has a strong recommendation is intervention.</strong> The vascular surgery guidelines recommend superficial venous intervention over long-term compression stockings for symptomatic varicose veins with saphenous reflux in people who are candidates, at Grade 1 (strong) with moderate-quality evidence [7].</p>
+<p>So the fair framing is not "massage is a poor substitute for compression." It is that everything conservative, massage and stockings and exercise alike, manages symptoms, and only a procedure addresses the vein.</p>
+<h2>Using a massage chair if you have varicose veins</h2>
+<p>With no studied protocol to follow, the sensible defaults are conservative:</p>
+<ul>
+<li><strong>The calf and foot airbags are the relevant feature</strong>, not the back rollers. Varicose veins are a leg problem.</li>
+<li><strong>Low intensity.</strong> There is no evidence that harder compression helps, and there is no benefit to weigh against pressing firmly on a structurally compromised vein wall.</li>
+<li><strong>No deep, focal pressure directly over a visible varicosity.</strong> No indication exists for it.</li>
+<li><strong>Reclining with legs elevated is the low-risk part</strong> of what a chair offers, and zero-gravity positions do this by design.</li>
+<li><strong>Screen every session, informally.</strong> New pain or swelling in one leg means skip the chair and call your doctor.</li>
+<li><strong>After venous surgery or sclerotherapy</strong>, follow your surgeon's instructions rather than any general massage guidance.</li>
+</ul>
+<p>Mayo Clinic's medical massage precautions list includes deep vein thrombosis, phlebitis and pulmonary embolism among the conditions requiring clearance from your provider before treatment [16], so if you have a clotting history this is a conversation to have rather than a judgment call to make yourself.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Can you use a massage chair if you have varicose veins?</strong></summary>
+<p>Generally yes, at low intensity, avoiding deep focal pressure over the visible veins, provided you have no signs of a deep vein clot. There is no trial evidence either way, so this is a reasoning-from-safety answer rather than an evidence-based one.</p>
+</details>
+<details>
+<summary><strong>Does massage get rid of varicose veins?</strong></summary>
+<p>No. Nothing conservative reverses a failed vein valve. The vascular surgery guidelines give a strong recommendation for intervention over long-term compression in candidates [7], and no massage technique has ever been shown to change vein structure.</p>
+</details>
+<details>
+<summary><strong>Can leg massage cause a blood clot to travel?</strong></summary>
+<p>It has been documented. Case reports describe pulmonary embolism after leg massage, including a fatal case confirmed at autopsy [4] and a maternal cardiac arrest with fetal loss [3]. These are rare events [11], but they are the reason to never massage a leg with new unilateral pain, swelling, warmth or colour change.</p>
+</details>
+<details>
+<summary><strong>Does massage help the aching and heaviness?</strong></summary>
+<p>Possibly, temporarily. Lymphatic drainage improved heaviness, fatigue and pain scores in a randomised trial [1]. Whether a mechanical chair reproduces that is unknown, and the same trial found no change in any objective measure.</p>
+</details>
+<details>
+<summary><strong>Is lymphatic drainage the same as what a massage chair does?</strong></summary>
+<p>No. Manual lymphatic drainage is light, slow, sequential and directional, performed by hand. Airbag compression is rhythmic squeezing. They are different interventions and the drainage evidence does not transfer. See <a href="/learn/massage-and-lymphatic-drainage">massage and lymphatic drainage</a> for the full distinction.</p>
+</details>
+<details>
+<summary><strong>Do compression stockings work better than massage?</strong></summary>
+<p>For uncomplicated varicose veins, Cochrane found insufficient high-certainty evidence that stockings work as sole initial treatment [13]. They are well established for healing venous ulcers [14], which is a different stage of disease.</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>If leg symptoms are your reason for buying, prioritise the calf and foot section rather than the headline roller specification. Look for calf airbags with genuinely adjustable intensity, a foot roller you can switch off separately, a true zero-gravity recline that raises the legs above the heart, and calf units that extend far enough to fit your leg length rather than compressing one spot.</p>
+<p>For the underlying mechanism, see <a href="/learn/massage-and-circulation">massage and circulation</a>, and for the swelling question specifically, <a href="/learn/massage-and-swelling">massage and swelling</a> and <a href="/learn/massage-and-travel-swelling">massage and travel swelling</a>. For general boundaries, see <a href="/learn/are-massage-chairs-safe">are massage chairs safe?</a>. Since varicose veins become more common with age, our <a href="/best/seniors">best massage chairs for seniors</a> roundup covers models built around gentle, adjustable leg work.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to leg symptoms and adjustable calf compression rather than maximum roller intensity.</p>
+<p><em>This article is general information, not medical advice. See a doctor about varicose veins, and seek same-day care for new pain or swelling in one leg.</em></p>
+<hr />
+<h2>Sources</h2>
+<p>[1] dos Santos Crisostomo RS, Candeias MS, Ribeiro AM, da Luz Belo Martins C, Armada-da-Silva PA. <em>Manual lymphatic drainage in chronic venous disease: a randomized controlled trial.</em> Archives of Physical Medicine and Rehabilitation. 2015;96:283-291. PMID: 25308883. <a href="https://doi.org/10.1016/j.apmr.2014.09.020">Link</a></p>
+<p>[2] Crisostomo RSS, Candeias MS, Armada-da-Silva PAS. <em>The influence of manual lymphatic drainage on deep vein thrombosis risk factors and venous flow.</em> Physiotherapy. 2017;103. PMID: 27083323. <a href="https://doi.org/10.1016/j.physio.2015.12.005">Link</a></p>
+<p>[3] Sutham K, Na-Nan S, Paiboonsithiwong S, Chaksuwat P, Tongsong T. <em>Leg massage during pregnancy with unrecognized deep vein thrombosis could be life threatening: a case report.</em> BMC Pregnancy and Childbirth. 2020;20:237. PMID: 32321459. <a href="https://doi.org/10.1186/s12884-020-02924-w">Link</a></p>
+<p>[4] Behera C, Rautji R, Krishna K, Gupta SK. <em>Fatal pulmonary thromboembolism following leg massage.</em> Medico-Legal Journal. 2018;86:146-150. PMID: 28441907. <a href="https://doi.org/10.1177/0025817217706645">Link</a></p>
+<p>[5] Evans CJ, Fowkes FGR, Ruckley CV, Lee AJ. <em>Prevalence of varicose veins and chronic venous insufficiency in men and women in the general population: Edinburgh Vein Study.</em> Journal of Epidemiology and Community Health. 1999;53:149-153. PMID: 10396491. <a href="https://doi.org/10.1136/jech.53.3.149">Link</a></p>
+<p>[6] Lee AJ, Robertson LA, Boghossian SM, et al. <em>Progression of varicose veins and chronic venous insufficiency in the general population in the Edinburgh Vein Study.</em> Journal of Vascular Surgery: Venous and Lymphatic Disorders. 2015;3:18-26. PMID: 26993676. <a href="https://doi.org/10.1016/j.jvsv.2014.09.008">Link</a></p>
+<p>[7] Gloviczki P, Lawrence PF, Wasan SM, et al. <em>The 2023 Society for Vascular Surgery, American Venous Forum, and American Vein and Lymphatic Society clinical practice guidelines for the management of varicose veins of the lower extremities. Part II.</em> Journal of Vascular Surgery: Venous and Lymphatic Disorders. 2024;12(1):101670. PMID: 37652254. <a href="https://doi.org/10.1016/j.jvsv.2023.08.011">Link</a></p>
+<p>[8] Muller M, Klingberg K, Wertli MM, Carreira H. <em>Manual lymphatic drainage and quality of life in patients with lymphoedema and mixed oedema: a systematic review of randomised controlled trials.</em> Quality of Life Research. 2018;27:1403-1414. PMID: 29404923. <a href="https://doi.org/10.1007/s11136-018-1796-5">Link</a></p>
+<p>[9] National Health Service. <em>DVT (deep vein thrombosis).</em> Page last reviewed 30 April 2026. <a href="https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/">Link</a></p>
+<p>[10] Lim CS, Bhattacharya V, Stansby G. <em>Pulmonary embolism after leg massage.</em> BMJ Case Reports. 2009;2009:bcr01.2009.1505. PMID: 21687002. <a href="https://doi.org/10.1136/bcr.01.2009.1505">Link</a></p>
+<p>[11] Ernst E. <em>The safety of massage therapy.</em> Rheumatology (Oxford). 2003;42:1101-1106. PMID: 12777645. <a href="https://doi.org/10.1093/rheumatology/keg306">Link</a></p>
+<p>[12] Mayo Clinic. <em>Deep vein thrombosis (DVT): Symptoms and causes.</em> 11 June 2022. <a href="https://www.mayoclinic.org/diseases-conditions/deep-vein-thrombosis/symptoms-causes/syc-20352557">Link</a></p>
+<p>[13] Knight Nee Shingler SL, Robertson L, Stewart M. <em>Graduated compression stockings for the initial treatment of varicose veins in people without venous ulceration.</em> Cochrane Database of Systematic Reviews. 2021;7:CD008819. PMID: 34271595. <a href="https://doi.org/10.1002/14651858.CD008819.pub4">Link</a></p>
+<p>[14] O'Meara S, Cullum N, Nelson EA, Dumville JC. <em>Compression for venous leg ulcers.</em> Cochrane Database of Systematic Reviews. 2012;11:CD000265. PMID: 23152202. <a href="https://doi.org/10.1002/14651858.CD000265.pub3">Link</a></p>
+<p>[15] Araujo DN, Ribeiro CTD, Maciel ACC, Bruno SS, Fregonezi GAF, Dias FAL. <em>Physical exercise for the treatment of non-ulcerated chronic venous insufficiency.</em> Cochrane Database of Systematic Reviews. 2023;6:CD010637. PMID: 37314059. <a href="https://doi.org/10.1002/14651858.CD010637.pub3">Link</a></p>
+<p>[16] Mayo Clinic. <em>Medical-Based Massage Therapy</em> (MC6113). <a href="https://sharedfiles.mayoclinic.org/bedside/ope/GNT-20232852.html">Link</a></p>`,
+  },
 
 ]
 
