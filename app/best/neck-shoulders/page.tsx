@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/neck-shoulders" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/neck-shoulders"),
   title: 'Best Massage Chairs for Neck and Shoulder Pain (2026)',
   description: 'The best massage chairs for neck and shoulder pain depend on whether pain is isolated to the upper body or also involves the lower back. Three chairs selected across S-track and SL-track for every budget.',
 }

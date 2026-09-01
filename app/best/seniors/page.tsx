@@ -1,9 +1,11 @@
 import {MCF_CHAIRS, priceBand, resolveAffiliateUrl } from "@/lib/chairs"
 import Link from "next/link"
 import type { Metadata } from "next"
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/seniors" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/seniors"),
   title: "Best Massage Chairs for Seniors (2026)",
   description: "The best massage chairs for seniors prioritize zero gravity positioning, gentle pressure options, and reliable heat therapy. Six picks verified for ease of use, comfort, and long-term durability.",
 }

@@ -2,9 +2,11 @@ import type { Metadata } from 'next'
 import { affiliateUrlById } from '@/lib/chairs'
 import Image from 'next/image'
 import Link from 'next/link'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/kyota-yugana-m780-vs-osaki-os-pro-maestro-le" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/kyota-yugana-m780-vs-osaki-os-pro-maestro-le"),
   title: 'Kyota Yugana M780 vs Osaki Maestro LE 2.0',
   description: 'The Yugana M780 is L-track in the upper-mid tier with a 2-inch wall clearance. The Maestro LE is SL-track a price tier higher with broader upper-body airbag coverage. Here is how to choose between them.',
 }

@@ -2,9 +2,11 @@ import type { Metadata } from 'next'
 import { affiliateUrlById } from '@/lib/chairs'
 import Link from 'next/link'
 import Image from 'next/image'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/daiwa-relax-2-zero-3d-vs-synca-jp3000" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/daiwa-relax-2-zero-3d-vs-synca-jp3000"),
   title: "Daiwa Relax 2 Zero 3D vs Synca JP-3000",
   description: 'Both S-track chairs for upper and mid-back therapeutic massage. The Daiwa is the lower-priced of the two and fits buyers from 4 feet 8 to 6 feet 6. The JP-3000 has a 5D roller and Japanese manufacturing.',
 }

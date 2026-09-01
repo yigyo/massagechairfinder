@@ -1,11 +1,13 @@
 import { LOCAL_BRANDS } from '@/lib/local-brands'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: "Massage Chair Brands Compared",
   description: 'Osaki, Infinity, Luraco, Kahuna, and more. Who manufactures their own chairs, who imports, and what that means for price and warranty.',
   alternates: { canonical: 'https://www.massagechairfinder.com/brands' },
+  openGraph: pageOpenGraph('https://www.massagechairfinder.com/brands'),
 }
 
 export default function BrandsPage() {

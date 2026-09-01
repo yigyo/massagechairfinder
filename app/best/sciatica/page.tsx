@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/sciatica" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/sciatica"),
   title: 'Best Massage Chairs for Sciatica (2026)',
   description: 'The best massage chairs for sciatica are L-track and SL-track models that reach the glutes and sacral area directly. Four chairs selected for track coverage, roller quality, and verified body fit.',
 }

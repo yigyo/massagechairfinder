@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/under-2000" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/under-2000"),
   title: 'Best Massage Chairs Under $2,000 (2026)',
   description: 'Three chairs under $2,000, all with SL-track and zero gravity. Here is what you get at this entry price point, where the limits are, and when it is worth spending more.',
 }

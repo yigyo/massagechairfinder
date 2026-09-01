@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/lower-back-pain" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/lower-back-pain"),
   title: 'Best Massage Chairs for Lower Back Pain (2026)',
   description: 'The best massage chairs for lower back pain use SL-track rollers that cover the lumbar spine, sacrum, and glutes in one continuous path. Five chairs selected across every budget tier from entry to premium.',
 }

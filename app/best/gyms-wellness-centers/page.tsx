@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from "@/lib/chairs"
 import Link from "next/link"
 import type { Metadata } from "next"
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/gyms-wellness-centers" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/gyms-wellness-centers"),
   title: "Best Massage Chairs for Gyms and Wellness Centers (2026)",
   description: "The best massage chairs for gyms, recovery studios, and wellness centers prioritize 4D recovery rollers, high weight capacity, body scanning for many users, and durability under high traffic. Six commercial picks compared.",
 }

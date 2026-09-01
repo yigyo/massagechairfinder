@@ -2,9 +2,16 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CHAIRS } from '@/lib/chairs'
 import ChairCard from '@/components/ChairCard'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com" },
+  openGraph: {
+    ...pageOpenGraph('https://www.massagechairfinder.com'),
+    title: 'Massage Chair Finder',
+    description:
+      'Find the massage chair that fits your body, your space, and your budget.',
+  },
 }
 
 export default function HomePage() {

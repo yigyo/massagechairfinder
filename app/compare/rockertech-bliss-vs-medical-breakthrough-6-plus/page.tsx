@@ -2,9 +2,11 @@ import type { Metadata } from 'next'
 import { affiliateUrlById } from '@/lib/chairs'
 import Link from 'next/link'
 import Image from 'next/image'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/rockertech-bliss-vs-medical-breakthrough-6-plus" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/rockertech-bliss-vs-medical-breakthrough-6-plus"),
   title: "RockerTech Bliss vs Medical Breakthrough 6 Plus",
   description: 'Same price, same L-track 4D category in the upper-mid tier ($5,000-$7,999). The Bliss adds space-saving recline and reflexology foot rollers. The MB6 Plus includes stretch programs and a 300 lb confirmed capacity.',
 }

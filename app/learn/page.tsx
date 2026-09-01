@@ -1,9 +1,11 @@
 import { PUBLISHED_ARTICLES, LocalArticle } from "@/lib/local-articles"
 import Link from "next/link"
 import type { Metadata } from "next"
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/learn" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/learn"),
   title: "Learning Center",
   description: "Research on every aspect of buying and owning a massage chair. Track types, health conditions, tech explained, and the buying questions that matter answered.",
 }

@@ -2,9 +2,11 @@ import type { Metadata } from 'next'
 import { affiliateUrlById } from '@/lib/chairs'
 import Link from 'next/link'
 import Image from 'next/image'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/kahuna-sm-7300s-vs-relaxonchair-yukon-4d" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/kahuna-sm-7300s-vs-relaxonchair-yukon-4d"),
   title: "Kahuna SM-7300S vs Relax On Chair YUKON-4D",
   description: 'The Kahuna SM-7300S uses a 6-roller 2D system with three-stage zero gravity and full heat coverage in the upper-mid tier. The YUKON-4D delivers 4D precision at the lower price of the two. Here is the full comparison.',
 }

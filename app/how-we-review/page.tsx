@@ -1,8 +1,10 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/how-we-review" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/how-we-review"),
   title: "How We Review Massage Chairs",
   description:
     "How Massage Chair Finder selects chairs for its catalog, verifies specifications, and makes fit-based recommendations.",

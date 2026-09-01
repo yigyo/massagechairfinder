@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/premium" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/premium"),
   title: 'Best Premium Massage Chairs Over $5,000 (2026)',
   description: 'Above $5,000, massage chairs differentiate by roller sophistication, confirmed body fit range, and warranty coverage. Five chairs selected across the upper-mid, premium, and ultra-premium tiers for distinct use cases.',
 }

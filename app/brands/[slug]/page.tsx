@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { autolink } from '@/lib/autolink'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export async function generateStaticParams() {
   return getBrandSlugs().map(slug => ({ slug }))
@@ -17,6 +18,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: brand.seoTitle,
     description: brand.seoDescription,
     alternates: { canonical: `https://www.massagechairfinder.com/brands/${params.slug}` },
+    openGraph: pageOpenGraph(`https://www.massagechairfinder.com/brands/${params.slug}`),
   }
 }
 

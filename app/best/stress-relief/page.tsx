@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/stress-relief" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/stress-relief"),
   title: 'Best Massage Chairs for Stress Relief (2026)',
   description: 'The best massage chairs for stress relief are the ones you will actually use every day. Five chairs selected for zero gravity, heat, and full foot coverage across every price band.',
 }

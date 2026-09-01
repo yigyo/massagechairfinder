@@ -2,9 +2,11 @@ import type { Metadata } from 'next'
 import { affiliateUrlById } from '@/lib/chairs'
 import Link from 'next/link'
 import Image from 'next/image'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/ogawa-og6400-vs-titan-pro-vigor-4d" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/ogawa-og6400-vs-titan-pro-vigor-4d"),
   title: "Ogawa Active XL Duo vs Titan Pro-Vigor 4D",
   description: 'The Ogawa OG-6400 sits a price tier below with a 320 lb verified capacity and 11-inch wall clearance. The Titan Pro-Vigor 4D adds heated rollers and a 4D roller system. Here is how to choose.',
 }

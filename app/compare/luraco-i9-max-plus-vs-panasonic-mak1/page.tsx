@@ -1,9 +1,11 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/luraco-i9-max-plus-vs-panasonic-mak1" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/luraco-i9-max-plus-vs-panasonic-mak1"),
   title: "Luraco i9 Max Plus vs Panasonic MAK1, Which Is Right for You?",
   description: 'The Luraco i9 Max Plus is the lower-priced of the two, uses an L-track with zero gravity, and carries a 10-year warranty. The MAK1 has no zero gravity and uses an S-track. Here is the full comparison.',
 }

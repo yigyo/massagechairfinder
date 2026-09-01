@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from "@/lib/chairs"
 import Link from "next/link"
 import type { Metadata } from "next"
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/hotels-hospitality" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/hotels-hospitality"),
   title: "Best Massage Chairs for Hotels and Hospitality (2026)",
   description: "The best massage chairs for hotels, resorts, and spas prioritize simple one-touch operation for guests, durable build, a clean look, and a small footprint. Six guest-facing picks compared, from in-room value to a resort-spa flagship.",
 }

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 // ─── STATIC PARAMS ───────────────────────────────────────────────────────────
 
@@ -39,6 +40,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: titleHooked.length <= 62 ? titleHooked : titleBase,
     description: desc.slice(0, 160),
     alternates: { canonical: `https://www.massagechairfinder.com/chairs/${params.slug}` },
+    openGraph: pageOpenGraph(`https://www.massagechairfinder.com/chairs/${params.slug}`),
   }
 }
 

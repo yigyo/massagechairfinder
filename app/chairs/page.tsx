@@ -1,9 +1,11 @@
 import { CHAIRS } from '@/lib/chairs'
 import ChairsClient from '@/components/ChairsClient'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/chairs" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/chairs"),
   title: 'All Massage Chairs',
   description: 'Browse massage chairs researched and compared by track type, price, and use case.',
 }

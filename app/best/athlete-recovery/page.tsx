@@ -1,9 +1,11 @@
 import {MCF_CHAIRS, priceBand, resolveAffiliateUrl } from "@/lib/chairs"
 import Link from "next/link"
 import type { Metadata } from "next"
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/athlete-recovery" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/athlete-recovery"),
   title: "Best Massage Chairs for Athletes and Sports Recovery (2026)",
   description: "The best massage chairs for sports recovery combine SL-track or L-track roller coverage with serious leg compression, 4D roller depth control, and stretch programs. Six picks verified for post-training use across price ranges.",
 }

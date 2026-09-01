@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/tall-people" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/tall-people"),
   title: 'Best Massage Chairs for Tall People (2026)',
   description: "Massage chairs for tall buyers must confirm effective coverage at heights of 6'3\" and above, not just structural clearance. Five chairs verified for buyers 6'3\" to 6'10\".",
 }

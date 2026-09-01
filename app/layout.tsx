@@ -9,6 +9,7 @@ import ScrollTracker from '@/components/ScrollTracker'
 import ExitIntentPopup from '@/components/ExitIntentPopup'
 import ChromeGate from '@/components/ChromeGate'
 import Script from 'next/script'
+import { OG_IMAGE } from '@/lib/seo'
 
 const notoSerif = Noto_Serif({
   subsets: ['latin'],
@@ -33,7 +34,13 @@ export const metadata: Metadata = {
     'Find the massage chair that fits your body, your space, and your budget.',
   metadataBase: new URL('https://www.massagechairfinder.com'),
   openGraph: {
+    type: 'website',
     siteName: 'Massage Chair Finder',
+    images: [OG_IMAGE],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: [OG_IMAGE.url],
   },
   other: {
     'p:domain_verify': '73bf3c39201c0d9252eb77e95e611435',

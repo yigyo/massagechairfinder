@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/3000-to-5000" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/3000-to-5000"),
   title: 'Best Massage Chairs $3,000 to $5,000 (2026)',
   description: 'The $3,000 to $5,000 range offers 4D rollers, S-track specialist options, and the widest confirmed body fit ranges in the mid-tier. Four chairs selected across distinct use cases.',
 }

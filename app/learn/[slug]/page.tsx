@@ -5,6 +5,7 @@ import { autolink } from '@/lib/autolink'
 import type { Metadata } from 'next'
 import BuyersGuideCallout from '@/components/BuyersGuideCallout'
 import YouTubeShort from '@/components/YouTubeShort'
+import { pageOpenGraph } from '@/lib/seo'
 
 // Slug -> published YouTube Short. Only PUBLIC videos belong here (a private
 // video renders "unavailable"). Add a matched Short to its single best-fit
@@ -21,6 +22,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     title: local.title,
     description: local.excerpt,
     alternates: { canonical: `https://www.massagechairfinder.com/learn/${params.slug}` },
+    openGraph: pageOpenGraph(`https://www.massagechairfinder.com/learn/${params.slug}`),
   }
 }
 

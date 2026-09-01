@@ -1,8 +1,10 @@
 import type { Metadata } from "next"
 import BuyersGuideForm from "@/components/BuyersGuideForm"
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/buyers-guide" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/buyers-guide"),
   title: "Free Massage Chair Buyer's Guide",
   description:
     "Six decisions that separate a massage chair you will use every day from one you will regret. Free PDF delivered to your inbox.",

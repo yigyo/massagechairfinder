@@ -1,9 +1,11 @@
 import { MCF_CHAIRS , priceBand, resolveAffiliateUrl } from "@/lib/chairs"
 import Link from "next/link"
 import type { Metadata } from "next"
+import { pageOpenGraph } from '@/lib/seo'
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/senior-living-facilities" },
+  openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/senior-living-facilities"),
   title: "Best Massage Chairs for Senior Living Facilities (2026)",
   description: "The best massage chairs for senior living facilities prioritize high weight capacity, simple controls, easy entry and exit, and durable build over advanced features. Six picks for common areas and wellness rooms.",
 }
