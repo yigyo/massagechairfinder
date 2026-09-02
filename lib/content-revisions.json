@@ -1,11 +1,11 @@
 {
   "articles": {
-    "hash": "dd7daf649741ec6b",
-    "revised": "2026-08-31"
+    "hash": "ba80202f708fcc62",
+    "revised": "2026-09-02"
   },
   "best": {
-    "hash": "2c5c93656ce13c8d",
-    "revised": "2026-08-29"
+    "hash": "44cb9a6d61002cbd",
+    "revised": "2026-09-02"
   },
   "brands": {
     "hash": "1906a7d4a983a96a",
@@ -16,11 +16,11 @@
     "revised": "2026-08-29"
   },
   "compare": {
-    "hash": "6b27765727b1c3de",
-    "revised": "2026-08-29"
+    "hash": "6352029e94c0e1f9",
+    "revised": "2026-09-02"
   },
   "core": {
-    "hash": "fdf840060cbf3c3e",
-    "revised": "2026-08-29"
+    "hash": "9167d1cc52874c70",
+    "revised": "2026-09-02"
   }
 }
