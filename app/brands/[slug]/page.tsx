@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation'
 import { autolink } from '@/lib/autolink'
 import type { Metadata } from 'next'
 import { pageOpenGraph } from '@/lib/seo'
+import { extractFaqs } from '@/lib/faq'
 
 export async function generateStaticParams() {
   return getBrandSlugs().map(slug => ({ slug }))
@@ -90,6 +91,22 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
       ],
     },
   ]
+
+  // Mirror the FAQ that already renders at the bottom of the brand body into
+  // FAQPage structured data. No visible change: this only describes content that
+  // is on the page. Brands without an FAQ block emit nothing extra.
+  const brandFaqs = extractFaqs(brand.description.join('\n'))
+  if (brandFaqs.length >= 2) {
+    graph.push({
+      '@type': 'FAQPage',
+      '@id': `${pageUrl}#faq`,
+      mainEntity: brandFaqs.map((f) => ({
+        '@type': 'Question',
+        name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: f.answer },
+      })),
+    })
+  }
 
   if (allBrandChairs.length > 0) {
     graph.push({
