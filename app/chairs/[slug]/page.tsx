@@ -79,7 +79,7 @@ function trackSummary(chair: Chair): { heading: string; body: string } {
     case 'Flex':
       return {
         heading: 'Flex-Track: the most complete coverage available',
-        body: `The ${chair.name} uses Infinity's Flex-Track mechanism, which combines the reach of an SL-track with the extended lower-body path of an L-track. The roller runs from the neck through the full lower back, under the glutes, and into the thighs. For buyers who need full-body coverage without compromise, particularly those who experience pain in the upper back, lower back, and hips simultaneously, this is one of the most complete track configurations in the consumer market.`,
+        body: `The ${chair.name} uses a flex-track mechanism, which combines the reach of an SL-track with the extended lower-body path of an L-track. The roller runs from the neck through the full lower back, under the glutes, and into the thighs. For buyers who need full-body coverage without compromise, particularly those who experience pain in the upper back, lower back, and hips simultaneously, this is one of the most complete track configurations in the consumer market.`,
       }
     default:
       return {
