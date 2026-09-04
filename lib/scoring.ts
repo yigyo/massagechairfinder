@@ -10,8 +10,15 @@ import type { Chair } from './chairs'
  * on that chair in chairs.ts. That single change adds +40 points, floating the
  * chair to the top of every ranked surface on the site automatically.
  *
- * Current state: no active relationships yet. All goodwinStatus values are
- * 'none'. The +40 slot is reserved and ready, flip it when the deal lands.
+ * Current state (audited 2026-09-03): 29 chairs genuinely earn and carry
+ * 'affiliate'; 106 carry 'none'. Before that audit, 124 of 135 chairs held
+ * 'affiliate' while only 29 earned, so the +40 discriminated nothing and 9
+ * chairs that DO pay commission were being outranked by chairs that pay zero.
+ *
+ * INVARIANT, do not break it again: goodwinStatus 'affiliate' means the chair
+ * earns TODAY, which means a tagged amazonUrl or a retailer in APPROVED_DIRECT.
+ * A retailer that merely HAS a program we have not applied to belongs in
+ * affiliateTier 'A' (+10), never in goodwinStatus. Keep the two separate.
  *
  * Tiers:
  *   goodwinStatus 'affiliate' → +40  active confirmed deal
