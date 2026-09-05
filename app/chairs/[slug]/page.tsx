@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { pageOpenGraph } from '@/lib/seo'
+import { bestDirectoriesFor } from '@/lib/best-membership'
 
 // ─── STATIC PARAMS ───────────────────────────────────────────────────────────
 
@@ -698,6 +699,26 @@ export default async function ChairPage({ params }: { params: { slug: string } }
                 </div>
               ))}
             </div>
+          </div>
+        )}
+
+        {/* Category directories this chair is picked for (internal links) */}
+        {bestDirectoriesFor(c.id).length > 0 && (
+          <div className="mb-12 max-w-2xl">
+            <h2 className="text-2xl font-serif text-navy mb-4">Where the {c.name} is a pick</h2>
+            <p className="text-warm-gray mb-4 text-base leading-relaxed">
+              If you arrived here from a category search rather than looking for this model by name, these directories compare the {c.name} against the rest of the field on the same need.
+            </p>
+            <ul className="flex flex-col gap-3">
+              {bestDirectoriesFor(c.id).map(b => (
+                <li key={b.slug} className="flex items-baseline gap-2">
+                  <span className="text-navy">&rsaquo;</span>
+                  <Link href={"/best/" + b.slug} className="text-bronze hover:text-gold font-medium">
+                    {b.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         )}
 
