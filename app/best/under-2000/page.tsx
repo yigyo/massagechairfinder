@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'osaki-os-champ',
+  'synca-wellness-circ-3',
   'synca-wellness-circ',
   'synca-wellness-circ-plus',
   'inner-balance-jin',
@@ -24,9 +24,9 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'osaki-os-champ': {
+  'synca-wellness-circ-3': {
     label: 'Entry SL-track, higher weight capacity',
-    why: 'The OS-Champ is an SL-track chair with two-stage zero gravity, lumbar heat, foot and calf massage, and a 260-lb weight capacity, all in the entry tier. The 9-inch wall clearance is larger than the Renew 3D and requires more room planning. For buyers who prioritize weight capacity or are between the two and want the more established model, this is the pick.',
+    why: 'The CirC 3 is an SL-track chair with a 47-inch track, zero gravity, heat, foot rollers, and a 300-lb weight capacity, all at the top of the under-$2,000 group. That capacity is the highest in this group and the reason it earns the slot. 2D rollers. For buyers who prioritize weight capacity or want the longest roller path available at this price, this is the pick.',
   },
   'synca-wellness-circ': {
     label: 'Entry with 3D rollers and SL-track',
@@ -42,7 +42,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'relaxonchair-jasper': {
     label: 'SL-track step-up in the entry tier',
-    why: "The Relax On Chair Jasper is an SL-track chair with zero gravity, lumbar heat, and foot rollers. The core specs match the RIO, with the Jasper positioned as a step up in build within the Relax On Chair line rather than a change in roller architecture. 2D rollers. No confirmed height or weight capacity data from the retailer spec page. For buyers whose budget lands between the floor of the catalog and the top of this under-$2,000 group, this fills the middle slot.",
+    why: "The Relax On Chair Jasper is an SL-track chair with zero gravity, lumbar heat, and foot rollers. The Jasper is the entry point to the Relax On Chair line now that the RIO has sold through, and its core specs mirror the rest of the lineup rather than introducing a different roller architecture. 2D rollers. No confirmed height or weight capacity data from the retailer spec page. For buyers whose budget lands between the floor of the catalog and the top of this under-$2,000 group, this fills the middle slot.",
   },
 }
 

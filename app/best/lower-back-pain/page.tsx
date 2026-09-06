@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'osaki-os-champ',
+  'synca-wellness-circ-3',
   'amamedics-hilux-4d',
   'titan-pro-vigor-4d',
   'osaki-os-pro-maestro-le',
@@ -24,9 +24,9 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'osaki-os-champ': {
+  'synca-wellness-circ-3': {
     label: 'Best entry option',
-    why: 'The OS-Champ is the most accessible SL-track chair in the catalog, in the Under $3,000 band. SL-track extends the roller path past the lumbar and under the glutes, which matters for lower back pain that radiates into the hips and sacrum. Two-stage zero gravity, lumbar heat, foot and calf massage, and body scanning are all confirmed. 260-lb weight capacity. For buyers entering the category with lower back pain as the primary concern, this is the clearest entry-level pick.',
+    why: 'The CirC 3 is the most accessible full-length SL-track chair in stock right now, in the Under $3,000 band. Its 47-inch SL-track extends the roller path past the lumbar and under the glutes, which matters for lower back pain that radiates into the hips and sacrum. Zero gravity, heat, and foot rollers are confirmed, and the 300-lb weight capacity is unusual at this price. 2D rollers keep the massage gentle rather than deep. For buyers entering the category with lower back pain as the primary concern, this is the clearest entry-level pick.',
   },
 
   'amamedics-hilux-4d': {

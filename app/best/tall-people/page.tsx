@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const PICK_IDS = [
   'kyota-genki-m380',
   'amamedics-hilux-4d',
-  'infinity-imperial-syner-d',
+  'daiwa-majesty-2d',
   'daiwa-legacy-4',
   'luraco-i9-max-plus',
   'positive-posture-brio-sport',
@@ -35,9 +35,9 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best SL-track for tall buyers',
     why: 'The Hilux 4D is confirmed for 4\'11" to 6\'7", the widest confirmed height range of any SL-track chair in the catalog. The 53-inch track is one of the longer SL-track systems available, which helps ensure the roller reaches the lumbar on taller bodies. 4D rollers, heated roller element, space-saving. The 270-lb weight limit is the constraint: tall buyers who also need higher capacity should see the Daiwa Legacy 4 or Luraco below.',
   },
-  'infinity-imperial-syner-d': {
-    label: 'Best Flex-track for tall buyers',
-    why: 'The Syner-D is confirmed for 5\'2" to 6\'6" with a confirmed tall-buyer designation from the retailer, 300 lbs, 2-inch wall clearance. The Flex-track adjusts between SL and L-track coverage depending on the program, giving tall buyers with both upper and lower back pain the option to vary coverage range by session. 4D rollers, body scanning, 5-year warranty.',
+  'daiwa-majesty-2d': {
+    label: 'Widest confirmed range in the $5,000-$7,999 band',
+    why: 'The Majesty 2D is confirmed for 4\'8" to 6\'6", a tall-buyer designation from the retailer, with a 265 lb capacity. Its L-track reaches under the glutes, which is where most tall buyers find shorter tracks stop early. Zero gravity, heat, and double reflexology foot rollers are confirmed; there is no stretch program. The 2D roller keeps the massage steady rather than deep, so it suits tall buyers who want reach and fit over intensity.',
   },
   'daiwa-legacy-4': {
     label: 'Best L-track range for tall buyers',
@@ -238,10 +238,10 @@ export default function BestTallPeoplePage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your height is between 6'3&quot; and 6'6&quot;, you have four confirmed options above across a range of prices and track types. The Hilux 4D is the SL-track pick; the Legacy 4 and Syner-D are the L-track and Flex-track picks; the Genki M380 is the high-capacity L-track option.
+          If your height is between 6'3&quot; and 6'6&quot;, you have four confirmed options above across a range of prices and track types. The Hilux 4D is the SL-track pick; the Legacy 4 and Majesty 2D are the L-track picks at two different price bands; the Genki M380 is the high-capacity L-track option.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          If you are above 6'6&quot;, the Luraco i9 Max Plus is the only chair in this catalog confirmed to that range (6'10&quot;). The Legacy 4 and Syner-D confirm to 6'6&quot; and may work depending on your proportions, but the Luraco has the explicit verification.
+          If you are above 6'6&quot;, the Luraco i9 Max Plus is the only chair in this catalog confirmed to that range (6'10&quot;). The Legacy 4 and Majesty 2D confirm to 6'6&quot; and may work depending on your proportions, but the Luraco has the explicit verification.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}

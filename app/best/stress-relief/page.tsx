@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'osaki-os-champ',
+  'synca-wellness-circ',
   'relaxe-shiatsu',
   'inner-balance-jin-2',
   'amamedics-hilux-4d',
@@ -24,9 +24,9 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'osaki-os-champ': {
+  'synca-wellness-circ': {
     label: 'Best for building a daily habit',
-    why: 'If the research points anywhere, it points at frequency, and the chair you use every evening beats the better chair you use twice a week. The OS-Champ is the lowest-priced SL-track chair in the catalog and it still carries the three features that matter for the stress response: two-stage zero gravity, heat, and full foot and calf coverage. It folds to 9 inches from the wall, so it fits a living room without rearranging the room around it. Buyers consistently report that daily use relieves accumulated aches over weeks and months, which is exactly the pattern the dosing research describes. 2D rollers mean gentle rather than deep, and for stress work that is a feature.',
+    why: 'If the research points anywhere, it points at frequency, and the chair you use every evening beats the better chair you use twice a week. The CirC is the lowest-priced SL-track chair in stock and it still carries the features that matter for the stress response: zero gravity, heat, and foot rollers. Its compact 34-inch track and small footprint mean it fits a living room without rearranging the room around it. 3D rollers on a short track make it best for average-height users with an upper and mid-back focus, and for stress work a gentle, consistent session is the point.',
   },
   'relaxe-shiatsu': {
     label: 'Most buyer feedback in the catalog',

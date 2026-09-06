@@ -190,6 +190,7 @@ export const CHAIRS: Chair[] = [
     brand: 'Osaki',
     active: true, goodwinActive: true, mcfActive: true,
     priceMin: 1299,
+    inStock: false,  // 2026-09-06: osakimassagechair.com Sold Out in all 4 colors (also Sold Out at titanchair.com). Brand site osakiusa.com has it in stock at $1,299 (no affiliate program on file). Not discontinued; successor OS-3D Champ II exists. Repoint or restore next run.
     affiliateTier: 'A',
     affiliateRetailer: 'osakimassagechair.com',
     affiliateCommission: '5% (Rakuten)',
@@ -241,7 +242,7 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '5% (Rakuten)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://www.massagechairs.com/products/osaki-os-pro-admiral-3d',
-    amazonAsin: 'B09HW3F2BB',  // re-verified 2026-08-16: still 'Currently unavailable' (no offer). Primary massagechairs.com in stock $2,999 (Grey only). Re-wire if a featured offer returns.
+    amazonAsin: 'B09HW3F2BB',  // re-verified 2026-09-06: still 'Currently unavailable', no offers; primary massagechairs.com in stock $2,999 (Grey only). Earlier 2026-08-16: still 'Currently unavailable' (no offer). Primary massagechairs.com in stock $2,999 (Grey only). Re-wire if a featured offer returns.
     imageUrl: '/images/chairs/osaki-os-pro-admiral-ii.jpg',
     goodwinLookupKey: 'osaki os-pro admiral ii',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-admiral-gray-massage-chair.webp?v=1776836197',
@@ -453,7 +454,7 @@ export const CHAIRS: Chair[] = [
     id: 'infinity-imperial-syner-d',
     name: 'Infinity Imperial Syner-D',
     brand: 'Infinity',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-09-06: deactivated. massagechairstore.com product URL is a hard 404 (only a $5,999 Certified Pre-Owned unit remains); brand site lists it 'Limited Availability' at $15,999; successor is the Ultra Imperial Syner-D.
     priceMin: 7999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
@@ -835,13 +836,13 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 2,
-    priceMin: 7999,  // massagechairstore.com verified 2026-08-16: promo over, back to full MSRP $7,999 (was 2999) -- crossed entry -> upper-mid band
+    priceMin: 7999,  // 2026-09-06: massagechairstore.com buy box back to $2,999 ('Save $5,000 Limited Time Sale', originally $7,999). Delta >25%, so NOT applied on first detection per guardrail; apply if $2,999 holds on the next audit. Price has flip-flopped 2999/7999 every audit since 2026-07-26.
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
-    amazonAsin: 'B08T4BXGP3',  // 2026-08-16 browser check: buy box GONE again (only '1 option from $7,499' 3P, no featured offer). amazonUrl dropped per no-buy-box rule. Re-wire if a featured offer returns.
+    amazonAsin: 'B08T4BXGP3',  // 2026-09-06: still no buy box ('1 option from $2,999' 3P only). 2026-08-16 browser check: buy box GONE again (only '1 option from $7,499' 3P, no featured offer). amazonUrl dropped per no-buy-box rule. Re-wire if a featured offer returns.
     imageUrl: '/images/chairs/kyota-genki-m380.jpg',
     goodwinLookupKey: 'kyota genki',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Kyota-Genki-M380-massage-chair.jpg?v=1776836198',
@@ -1021,7 +1022,7 @@ export const CHAIRS: Chair[] = [
     id: 'amamedics-renew-3d',
     name: 'AmaMedics Renew 3D',
     brand: 'AmaMedics',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-09-06: deactivated. Clearance model, all variants Sold Out at clearancechair.com two audits running; no new unit at osakimassagechair, osakiusa, titanchair, amamedic.com, gameroomempire or massagechairs.com.
     priceMin: 1299,
     inStock: false,  // clearancechair.com verified 2026-08-16: page live at $1,299 but ALL variants Sold Out
     affiliateTier: 'A',
@@ -1258,12 +1259,12 @@ export const CHAIRS: Chair[] = [
     brand: 'Titan',
     active: true, goodwinActive: true, mcfActive: true,
     priceMin: 4999,
-    inStock: false,  // titanchair.com verified 2026-08-16: page live at $4,999 but Sold Out across all 3 colors
+    // 2026-09-06: titanchair.com Sold Out two audits running; repointed to massagechairs.com (Add to Cart live, $4,999, all 3 colors; inventory untracked). Osaki outlet lists it as a previous model, so watch for end of life.
     affiliateTier: 'A',
-    affiliateRetailer: 'titanchair.com',
-    affiliateCommission: 'VigLink / FlexOffers',
+    affiliateRetailer: 'massagechairs.com',
+    affiliateCommission: '5%',
     goodwinStatus: 'none',
-    affiliateUrl: 'https://titanchair.com/products/titan-3d-prestige',
+    affiliateUrl: 'https://www.massagechairs.com/products/titan-3d-prestige',
     imageUrl: '/images/chairs/titan-3d-prestige.webp',
     goodwinLookupKey: 'titan 3d prestige',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/titan-3d-prestige-massage-chair.webp?v=1776836198',
@@ -2080,7 +2081,7 @@ export const CHAIRS: Chair[] = [
   {    id: 'relaxonchair-rio',
     name: 'Relax On Chair RIO',
     brand: 'Relax On Chair',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-09-06: deactivated. Out of Stock at relaxonchair.com two audits running (2026-08-16, 2026-09-06) and delisted from its collection; Amazon B09YSW17DX 'Currently unavailable'; gameroomempire Sold Out. Only non-program stock seen: bestbodymassagechair.com $999 (4 units). Reactivate if relaxonchair.com restocks.
     priceMin: 999,
     affiliateTier: null,
     goodwinStatus: 'affiliate',
@@ -2103,7 +2104,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://www.relaxonchair.com/products/jasper-full-body-massage-chair?ref=gxoncaks',
-    amazonAsin: 'B0D325QC32',  // 2026-07-26: Amazon listing live + correct product but NO featured buy box ('See All Buying Options' only). amazonUrl dropped; primary relaxonchair.com in stock. Re-wire when a featured offer returns.
+    amazonAsin: 'B0D325QC32',  // 2026-09-06: still no buy box. 2026-07-26: Amazon listing live + correct product but NO featured buy box ('See All Buying Options' only). amazonUrl dropped; primary relaxonchair.com in stock. Re-wire when a featured offer returns.
     imageUrl: '/images/chairs/relax-on-chair-jasper.jpg',
     track: 'SL', roller: null,
     zeroGravity: true, heat: true, foot: true,
@@ -2605,7 +2606,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'none',
     affiliateRetailer: 'gameroomempire.com',
     affiliateUrl: 'https://gameroomempire.com/products/svago-lite-2-zero-gravity-recliner',
-    amazonAsin: 'B0CN1S3XV1',  // 2026-08-16 browser check: listing live but NO buy box ('See All Buying Options' only). amazonUrl dropped per no-buy-box rule. Primary retailer in stock $1,499.99.
+    amazonUrl: 'https://www.amazon.com/dp/B0CN1S3XV1/?tag=massagechairf-20',
+    amazonAsin: 'B0CN1S3XV1',  // 2026-09-06 browser check: buy box BACK, In Stock $1,499, re-wired. (2026-08-16: no buy box, amazonUrl dropped.)
     imageUrl: '/images/chairs/svago-lite-2.jpg',
     track: null, roller: null,
     zeroGravity: true, heat: true,
@@ -2762,7 +2764,7 @@ export const CHAIRS: Chair[] = [
     name: 'Nouhaus Nou Campo',
     brand: 'Nouhaus',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 2299,
+    priceMin: 2099,  // nouhaus.com verified 2026-09-06: default Mellow Sand variant $2,099.99 (other colors $2,299.99); same band
     affiliateTier: null,
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
@@ -2828,7 +2830,7 @@ export const CHAIRS: Chair[] = [
     name: 'RELX Full Body 20-Mode',
     brand: 'RELX',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1899,  // amazon.com verified 2026-07-13 via browser (was 1999; now $1,899.99 from $2,899.99 list)
+    priceMin: 1899,  // 2026-09-06 browser check: buy box now $2,899.99 (+53%, no deal shown). Delta >25%, NOT applied on first detection per guardrail; apply if it holds next audit. 2026-07-13: $1,899.99 from $2,899.99 list
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2866,7 +2868,7 @@ export const CHAIRS: Chair[] = [
     name: 'TLIFE 160 Zero Gravity',
     brand: 'TLIFE',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1199,  // amazon.com verified 2026-08-16: $1,199.99 deal (was 1349) -- same band; NOTE dp/B0F2FMVT7M redirects to variant ASIN B0F2FP5DP5 (12-mode Black)
+    priceMin: 1199,  // amazon.com verified 2026-09-06 ($1,199.99, limited time deal, still redirects to B0F2FP5DP5) and 2026-08-16: $1,199.99 deal (was 1349) -- same band; NOTE dp/B0F2FMVT7M redirects to variant ASIN B0F2FP5DP5 (12-mode Black)
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2961,7 +2963,7 @@ export const CHAIRS: Chair[] = [
     name: 'CASINTA 4D',
     brand: 'CASINTA',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1199,  // amazon.com observed 2026-06-07
+    priceMin: 1100,  // amazon.com verified 2026-09-06 via browser: $1,099.99 buy box, 'lowest price in 30 days' (was 1199); same band
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',

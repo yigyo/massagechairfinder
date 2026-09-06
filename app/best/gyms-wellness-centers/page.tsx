@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const PICK_IDS = [
   "amamedics-hilux-4d",
   "titan-pro-vigor-4d",
-  "infinity-imperial-syner-d",
+  "kyota-genki-m380",
   "osaki-os-pro-maestro-le",
   "daiwa-legacy-4",
   "osaki-os-pro-4d-duomax",
@@ -33,9 +33,9 @@ const EDITORIAL: Record<string, Editorial> = {
     label: "Best proven 4D recovery pick",
     why: "The Pro-Vigor 4D is the most-reviewed dedicated recovery chair on this list, with a 4.7 rating across 38 reviews. 4D rollers vary speed and depth within each stroke for the deeper, slower passes athletes use after training, and it adds AI body scanning, full-body stretch, heat, and calf and foot coverage. Confirmed fit 5'0\" to 6'2\". A space-saving recline keeps it practical in a studio where floor space is shared with equipment.",
   },
-  "infinity-imperial-syner-d": {
-    label: "Best for tall athletes",
-    why: "The Imperial Syner-D confirms fit up to 6'6\" and carries a 300 lb capacity, making it the pick for a member base that includes tall or larger athletes the smaller chairs cannot seat correctly. Its Flex-track adjusts the roller path, 4D rollers handle deep recovery work, and AI body scanning re-reads each user's spine, which matters when the chair serves a rotating roster rather than one person. Heat, stretch, and calf and foot coverage round it out.",
+  "kyota-genki-m380": {
+    label: "Best for tall or heavy athletes",
+    why: "The Genki M380 is confirmed to 6'5\" and carries a 330 lb capacity, the highest on this list, making it the pick for a member base that includes tall or larger athletes the smaller chairs cannot seat correctly. Its L-track reaches under the glutes and hamstrings, and zero gravity, heat, and calf and foot coverage round out a recovery session. 2D rollers keep the massage firm but not punishing, which suits a rotating roster of users rather than one tuned-in owner.",
   },
   "osaki-os-pro-maestro-le": {
     label: "Best premium pick for an upscale studio",
@@ -302,7 +302,7 @@ export default function BestGymsWellnessPage() {
           For a standard gym floor or a recovery studio on a defined budget, the AmaMedics Hilux 4D ($3,000-$4,999) and Titan Pro-Vigor 4D ($5,000-$7,999) are the two to weigh. Choose the Hilux 4D for the widest confirmed fit range and the Pro-Vigor 4D for the deeper review track record. Both deliver 4D recovery work at a price that scales to more than one unit.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your members skew tall or heavy, the Infinity Imperial Syner-D (confirmed to 6'6\", 300 lbs), Daiwa Legacy 4 (4'8\" to 6'6\"), or Osaki OS-Pro 4D DuoMax (330 lbs) are the confirmed-capacity options. Match the chair to the largest athlete who will realistically use it.
+          If your members skew tall or heavy, the Kyota Genki M380 (confirmed to 6'5\", 330 lbs), Daiwa Legacy 4 (4'8\" to 6'6\"), or Osaki OS-Pro 4D DuoMax (330 lbs) are the confirmed-capacity options. Match the chair to the largest athlete who will realistically use it.
         </p>
         <p className="text-charcoal leading-relaxed">
           For a boutique studio or clinic that markets its amenities, the Osaki OS-Pro Maestro LE 2.0 ($8,000-$11,999) is the premium recovery pick. The{" "}

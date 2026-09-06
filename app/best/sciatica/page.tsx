@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'osaki-os-champ',
+  'synca-wellness-circ-3',
   'kyota-genki-m380',
   'jpmedics-kumo-4d',
   'ergotec-et-180-pluto',
@@ -24,13 +24,13 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'osaki-os-champ': {
+  'synca-wellness-circ-3': {
     label: 'Best entry option',
-    why: 'The OS-Champ is the lowest-priced SL-track chair in the catalog, sitting in the Under $3,000 band. It covers the full spine and extends under the glutes, the essential requirement for sciatic relief, with 2D rollers and two-stage zero gravity. Space-saving recline (9-inch wall clearance) makes it workable in most rooms. For buyers who want SL-track coverage at the bottom of the entry band, this is the straightforward pick.',
+    why: 'The CirC 3 is the lowest-priced full-length SL-track chair in stock, sitting in the Under $3,000 band. Its 47-inch track covers the full spine and extends under the glutes, the essential requirement for sciatic relief, with 2D rollers, zero gravity, heat, and foot rollers. A 300-lb weight capacity gives it more headroom than most entry chairs. For buyers who want SL-track coverage at the bottom of the entry band, this is the straightforward pick.',
   },
   'kyota-genki-m380': {
     label: 'Best for heavier and taller builds',
-    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest weight capacity in this tier with a Plus Size Confirmed designation. L-track covers the glutes and thighs where sciatic compression typically originates. Its entry-tier promotion has ended and it now sits in the $5,000-$7,999 band, so the case for it is the confirmed fit rather than price. For buyers whose dimensions exceed what the OS-Champ or Admiral II can verify, this is the pick.",
+    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest weight capacity in this tier with a Plus Size Confirmed designation. L-track covers the glutes and thighs where sciatic compression typically originates. Its entry-tier promotion has ended and it now sits in the $5,000-$7,999 band, so the case for it is the confirmed fit rather than price. For buyers whose dimensions exceed what the CirC 3 or Admiral II can verify, this is the pick.",
   },
   'jpmedics-kumo-4d': {
     label: 'Premium pick',

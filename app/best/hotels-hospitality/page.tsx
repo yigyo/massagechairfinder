@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const PICK_IDS = [
   "culanta-sl-track",
-  "osaki-os-champ",
+  "inner-balance-jin",
   "healthrelife-4d-15-mode",
   "synca-wellness-circ-plus",
   "relx-20-mode",
@@ -29,9 +29,9 @@ const EDITORIAL: Record<string, Editorial> = {
     label: "Best budget pick for guest rooms or multiple units",
     why: "The Culanta SL-Track Shiatsu is the entry point for a property outfitting several rooms or a pay-per-use corner without a large capital outlay. SL-track shiatsu coverage runs the full spine, and a 4.4 rating across 371 reviews is one of the deepest review bases in the catalog, which matters when the chair will be used by guests who never read a manual. In the Under $3,000 band it is affordable enough to place in volume.",
   },
-  "osaki-os-champ": {
+  "inner-balance-jin": {
     label: "Best compact chair for a lobby or lounge",
-    why: "The OS-Champ is the simplest chair to drop into a lobby, lounge, or fitness corner. Its 2D roller runs clear one-touch auto programs a guest can start without instruction, and a space-saving recline plus a confirmed 260 lb capacity make it practical against a wall in a shared space. AI body scanning, heat, and calf and foot coverage are unusual in the Under $3,000 band and give guests a complete session in a small footprint.",
+    why: "The Inner Balance Jin is the simplest chair to drop into a lobby, lounge, or fitness corner. Its 2D roller runs clear auto programs a guest can start without instruction, and a space-saving recline that needs only 2 inches of wall clearance plus a confirmed 300 lb capacity make it practical against a wall in a shared space. L-track coverage, zero gravity, heat, and foot rollers are unusual in the Under $3,000 band and give guests a complete session in a small footprint.",
   },
   "healthrelife-4d-15-mode": {
     label: "Best 4D value for a guest amenity",
@@ -292,7 +292,7 @@ export default function BestHotelsHospitalityPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to choose for your property</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For in-room placement or a multi-unit rollout, the Culanta SL-Track Shiatsu (Under $3,000) and RELX Full Body 20-Mode (Under $3,000) are the value picks, both chosen for deep review histories that signal reliability across many guests. For a lobby or lounge where footprint matters, the Osaki OS-Champ (Under $3,000) is the most compact, simplest option.
+          For in-room placement or a multi-unit rollout, the Culanta SL-Track Shiatsu (Under $3,000) and RELX Full Body 20-Mode (Under $3,000) are the value picks, both chosen for deep review histories that signal reliability across many guests. For a lobby or lounge where footprint matters, the Inner Balance Jin (Under $3,000) is the most compact, simplest option, reclining within 2 inches of a wall.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           For a space where the chair is on display, the Synca Wellness CirC+ (Under $3,000) reads as furniture rather than equipment, and the HealthRelife 4D 15-Mode (Under $3,000) adds 4D movement and a wide preset menu at a price that scales to several rooms.

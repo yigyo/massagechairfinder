@@ -14,7 +14,7 @@ const PICK_IDS = [
   'synca-wellness-circ-plus',
   'inner-balance-jin',
   'relaxe-shiatsu',
-  'infinity-imperial-syner-d',
+  'daiwa-legacy-4',
   'jpmedics-kaze-duo',
   'relaxonchair-mk-v-plus',
   'kahuna-hm-5000',
@@ -38,9 +38,9 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best budget SL-track for tight rooms',
     why: "The Relaxe Shiatsu pairs a 53-inch SL-track with a space-saving 2-inch wall clearance at an entry-tier price. Confirmed from 5'1\" to 6'4\" and up to 330 lbs, with zero gravity and heat. For buyers fitting a full SL-track chair into a small room without moving past the Under $3,000 band, this is the pick.",
   },
-  'infinity-imperial-syner-d': {
+  'daiwa-legacy-4': {
     label: 'Premium with widest confirmed height range',
-    why: "The Syner-D uses a Flex-track mechanism, a hybrid between SL and L-track that adjusts its coverage range between programs. It requires 2 inches of wall clearance and is confirmed for 5'2\" to 6'6\", one of the widest height ranges among space-saving chairs. 4D rollers, 300 lbs, 5-year warranty, body scanning. Price varies by retailer; it sits in the $5,000-$7,999 band.",
+    why: "The Legacy 4 needs about 3 inches of wall clearance and is confirmed for 4'8\" to 6'6\", one of the widest height ranges among space-saving chairs. 49-inch L-track, 3D rollers, two-stage zero gravity, heat, calf and foot coverage, AI body scanning, and a 300 lb capacity. It sits in the $8,000-$11,999 band, so it is the step up for a household that needs one compact chair to fit everyone.",
   },
   'jpmedics-kaze-duo': {
     label: 'Premium 1-inch clearance',
@@ -235,10 +235,10 @@ export default function BestSmallSpacesPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          At the bottom of the Under $3,000 band, the AmaMedics Renew 3D with 4-inch clearance is the entry pick. Stepping up within that same band, the Admiral II at 2-inch clearance is the stronger therapeutic option with a longer track and higher weight capacity.
+          At the bottom of the Under $3,000 band, the Inner Balance Jin with 2-inch clearance is the entry pick. Stepping up within that same band, the Admiral II at 2-inch clearance is the stronger therapeutic option with a longer track and body scanning.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          For taller buyers (above 6&apos;1&quot;) who also need a small-space chair, the Syner-D is confirmed to 6&apos;6&quot; and the KaZe Duo to 6&apos;3&quot;. Both require 1 to 2 inches of wall clearance.
+          For taller buyers (above 6&apos;1&quot;) who also need a small-space chair, the Legacy 4 is confirmed to 6&apos;6&quot; and the KaZe Duo to 6&apos;3&quot;. They need about 3 inches and 1 inch of wall clearance respectively.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}

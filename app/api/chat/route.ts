@@ -315,9 +315,9 @@ Most chairs offer heat in the lumbar region. A smaller number extend heat throug
 
 Petite buyers (under 5'1"): Most chairs don't publish minimum height specs. The Infinity Dynasty 4D is the only chair in the market with a confirmed 5'0" minimum.
 
-Tall buyers (over 6'2"): The roller track must be long enough to reach the full spine. Confirmed options for tall buyers include: Luraco i9 Max Plus (to 6'10"), Infinity Imperial Syner-D (to 6'6"), Daiwa Legacy 4 (to 6'6").
+Tall buyers (over 6'2"): The roller track must be long enough to reach the full spine. Confirmed options for tall buyers include: Luraco i9 Max Plus (to 6'10"), Daiwa Legacy 4 (to 6'6"), Daiwa Majesty 2D (to 6'6"), Kyota Genki M380 (to 6'5").
 
-Plus-size buyers (over 300 lbs): Weight capacity is a structural safety issue. Only chairs with confirmed 300+ lb ratings should be recommended. Several chairs in the catalog meet this: Osaki OS-Champ, Kahuna LM-6800S, Infinity Dynasty 4D, Infinity Imperial Syner-D, Luraco i9 Max Plus.
+Plus-size buyers (over 300 lbs): Weight capacity is a structural safety issue. Only chairs with confirmed 300+ lb ratings should be recommended. Several chairs in the catalog meet this: Kyota Genki M380 (330 lbs), Osaki OS-Pro 4D DuoMax (330 lbs), Synca CirC 3, Infinity Dynasty 4D, Daiwa Legacy 4, Luraco i9 Max Plus.
 
 ### COMMON BUYING MISTAKES
 

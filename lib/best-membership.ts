@@ -80,6 +80,10 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "premium"
     },
     {
+      label: "Best Massage Chairs for Small Spaces",
+      slug: "small-spaces"
+    },
+    {
       label: "Best Massage Chairs for Tall People",
       slug: "tall-people"
     }
@@ -88,6 +92,10 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
     {
       label: "Best Massage Chairs for Petite Buyers",
       slug: "petite-buyers"
+    },
+    {
+      label: "Best Massage Chairs for Tall People",
+      slug: "tall-people"
     }
   ],
   "daiwa-pegasus-hybrid": [
@@ -146,25 +154,11 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "under-10000"
     }
   ],
-  "infinity-imperial-syner-d": [
-    {
-      label: "Best Massage Chairs for Gyms and Wellness Centers",
-      slug: "gyms-wellness-centers"
-    },
-    {
-      label: "Best Premium Massage Chairs Over $5,000",
-      slug: "premium"
-    },
-    {
-      label: "Best Massage Chairs for Small Spaces",
-      slug: "small-spaces"
-    },
-    {
-      label: "Best Massage Chairs for Tall People",
-      slug: "tall-people"
-    }
-  ],
   "inner-balance-jin": [
+    {
+      label: "Best Massage Chairs for Hotels and Hospitality",
+      slug: "hotels-hospitality"
+    },
     {
       label: "Best Massage Chairs for Small Spaces",
       slug: "small-spaces"
@@ -268,6 +262,10 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "kyota-genki-m380": [
     {
+      label: "Best Massage Chairs for Gyms and Wellness Centers",
+      slug: "gyms-wellness-centers"
+    },
+    {
       label: "Best Heavy-Duty Massage Chairs",
       slug: "heavy-duty"
     },
@@ -306,6 +304,10 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
     {
       label: "Best Massage Chairs for Petite Buyers",
       slug: "petite-buyers"
+    },
+    {
+      label: "Best Premium Massage Chairs Over $5,000",
+      slug: "premium"
     },
     {
       label: "Best Massage Chairs for Seniors",
@@ -372,32 +374,6 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
     {
       label: "Best Massage Chairs Under $10,000",
       slug: "under-10000"
-    }
-  ],
-  "osaki-os-champ": [
-    {
-      label: "Best Massage Chairs for Hotels and Hospitality",
-      slug: "hotels-hospitality"
-    },
-    {
-      label: "Best Massage Chairs for Lower Back Pain",
-      slug: "lower-back-pain"
-    },
-    {
-      label: "Best Massage Chairs for Sciatica",
-      slug: "sciatica"
-    },
-    {
-      label: "Best Massage Chairs for Stress Relief",
-      slug: "stress-relief"
-    },
-    {
-      label: "Best Massage Chairs Under $2,000",
-      slug: "under-2000"
-    },
-    {
-      label: "Best Massage Chairs Under $3,000",
-      slug: "under-3000"
     }
   ],
   "osaki-os-pro-4d-duomax": [
@@ -567,6 +543,28 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
     }
   ],
   "synca-wellness-circ": [
+    {
+      label: "Best Massage Chairs for Stress Relief",
+      slug: "stress-relief"
+    },
+    {
+      label: "Best Massage Chairs Under $2,000",
+      slug: "under-2000"
+    },
+    {
+      label: "Best Massage Chairs Under $3,000",
+      slug: "under-3000"
+    }
+  ],
+  "synca-wellness-circ-3": [
+    {
+      label: "Best Massage Chairs for Lower Back Pain",
+      slug: "lower-back-pain"
+    },
+    {
+      label: "Best Massage Chairs for Sciatica",
+      slug: "sciatica"
+    },
     {
       label: "Best Massage Chairs Under $2,000",
       slug: "under-2000"

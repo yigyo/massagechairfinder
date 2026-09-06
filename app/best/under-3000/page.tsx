@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 }
 
 const PICK_IDS = [
-  'osaki-os-champ',
+  'synca-wellness-circ',
   'synca-wellness-circ-plus',
   'relaxe-shiatsu',
   'kahuna-hm-5000',
@@ -23,9 +23,9 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  'osaki-os-champ': {
+  'synca-wellness-circ': {
     label: 'Lowest-priced pick here',
-    why: 'The OS-Champ offers SL-track coverage, two-stage zero gravity, lumbar heat, and a 260-lb weight capacity at the lowest price in the catalog. For buyers whose budget tops out near the floor of the catalog, this is the pick. 2D rollers, 9-inch wall clearance.',
+    why: 'The CirC offers SL-track coverage, zero gravity, heat, and foot rollers at the lowest price of any in-stock chair in the catalog. For buyers whose budget tops out near the floor of the catalog, this is the pick. 3D rollers on a compact 34-inch track, so it suits average-height users with an upper and mid-back focus.',
   },
   'synca-wellness-circ-plus': {
     label: 'Best space-saving pick in the lower half of this tier',

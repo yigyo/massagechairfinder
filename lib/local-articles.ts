@@ -398,9 +398,9 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h2>Flex-track: the hybrid approach</h2>
 
-<p>A small number of chairs use a Flex-track, which combines elements of an SL-track and an L-track into a mechanism that can adjust its coverage range. The <strong>Infinity Imperial Syner-D</strong> in our catalog uses this system. It provides both full SL-track coverage and deeper L-track extension depending on the program, giving buyers the versatility of both in a single chair.</p>
+<p>A small number of chairs use a Flex-track, which combines elements of an SL-track and an L-track into a mechanism that can adjust its coverage range. The <strong>Infinity Circadian 4D DualFlex</strong> in our catalog uses this system. It provides both full SL-track coverage and deeper L-track extension depending on the program, giving buyers the versatility of both in a single chair.</p>
 
-<p>Flex-track chairs represent the upper end of the market. The Infinity Imperial Syner-D sits in the $5,000-$7,999 band and is primarily recommended for buyers who want maximum coverage flexibility or who cannot decide between SL and L-track because they have significant pain across multiple zones.</p>
+<p>Flex-track chairs represent the upper end of the market. The Infinity Circadian 4D DualFlex sits in the top band, $12,000 and up, and is primarily recommended for buyers who want maximum coverage flexibility or who cannot decide between SL and L-track because they have significant pain across multiple zones.</p>
 
 <h2>Track type comparison at a glance</h2>
 
@@ -711,7 +711,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>Several chairs in our catalog are confirmed to accommodate taller buyers:</p>
 
 <ul>
-  <li>The <strong>Infinity Imperial Syner-D</strong> (Flex-Track) is confirmed to 6'6".</li>
+  <li>The <strong>Daiwa Majesty 2D</strong> (L-track) is confirmed to 6'6".</li>
   <li>The <strong>Daiwa Legacy 4</strong> is confirmed to 6'6".</li>
   <li>The <strong>Luraco i9 Max Plus</strong> is confirmed to 6'10", the tallest confirmed range in the catalog.</li>
 </ul>
@@ -734,7 +734,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <ul>
   <li><strong>Infinity Dynasty 4D</strong>: confirmed 300 lbs</li>
-  <li><strong>Infinity Imperial Syner-D</strong>: confirmed 300 lbs</li>
+  <li><strong>Kyota Genki M380</strong>: confirmed 330 lbs</li>
   <li><strong>Luraco i9 Max Plus</strong>: confirmed 300 lbs</li>
   <li><strong>Kahuna LM-6800S</strong>: confirmed 300 lbs</li>
   <li><strong>Ogawa Master Drive LE and AI 2.0</strong>: confirmed 320 lbs</li>
@@ -828,7 +828,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>Round by torso length, not total height. The roller track fits your spine, so a long torso should be treated as taller than the tape measure says, while a long-legged build at the same height usually fits the track and needs the footrest checked instead. Within an inch of a boundary, the one-minute sit test decides, and if you cannot sit in the chair first, ask the retailer to confirm fit for your specific build in writing.</p>
 
 <h3>Will a massage chair fit me if I am over six feet tall?</h3>
-<p>Often, but not automatically. Most chairs cap their confirmed range around 6'1" or 6'2", so a buyer at 6'4" can end up with the headrest hitting the back of the head and the roller track stopping short of the lumbar. Start from the chairs that are confirmed taller: the Infinity Imperial Syner-D and the Daiwa Legacy 4 are both confirmed to 6'6", and the Luraco i9 Max Plus is confirmed to 6'10", the tallest range in our catalog. Use those as a starting point, then confirm the maximum height with the retailer for your exact build. The <a href="/learn/how-to-buy">how to buy</a> guide covers the rest of the pre-purchase checklist.</p>
+<p>Often, but not automatically. Most chairs cap their confirmed range around 6'1" or 6'2", so a buyer at 6'4" can end up with the headrest hitting the back of the head and the roller track stopping short of the lumbar. Start from the chairs that are confirmed taller: the Daiwa Legacy 4 and the Daiwa Majesty 2D are both confirmed to 6'6", and the Luraco i9 Max Plus is confirmed to 6'10", the tallest range in our catalog. Use those as a starting point, then confirm the maximum height with the retailer for your exact build. The <a href="/learn/how-to-buy">how to buy</a> guide covers the rest of the pre-purchase checklist.</p>
 
 <h3>What if I am under five feet tall?</h3>
 <p>This is the hardest segment to shop for, because most chairs list a minimum user height of 5'2" or higher, which leaves a shorter buyer sitting with the neck above the top of the roller track. In our catalog the Infinity Dynasty 4D is the one chair confirmed to fit buyers as short as 5'0". If it is outside your budget, do not rely on the spec sheet for any other chair. Contact the retailer and ask them to confirm the minimum user height for your body before purchasing.</p>
@@ -990,7 +990,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Osaki</strong> is the larger of the two in terms of catalog breadth. The Osaki OS-Pro Admiral II (Under $3,000) is a reliable entry-tier SL-track chair that consistently ranks well for value. The Osaki OS-Pro Maestro LE 2.0 ($8,000-$11,999) steps up in roller quality and program depth. At the top, the Osaki OS-Pro 4D DuoMax ($12,000 and up) is a dual-roller premium system. Osaki also owns the Titan brand, which shares manufacturing with Osaki but is positioned as the value line, functionally similar chairs at lower prices with fewer features and shorter warranty terms.</p>
 
-<p><strong>Infinity</strong> skews toward the higher end. The Infinity Dynasty 4D ($3,000-$4,999 on a while-supplies-last promotion) and the Infinity Imperial Syner-D ($5,000-$7,999) are serious chairs targeted at buyers who want near-luxury performance without crossing into the ultra-premium Japanese segment. Infinity's mid-range options fill the mid through premium tiers with competitive feature sets.</p>
+<p><strong>Infinity</strong> skews toward the higher end. The Infinity Dynasty 4D ($3,000-$4,999 on a while-supplies-last promotion) and the Infinity Genesis Max 4D ($8,000-$11,999) are serious chairs targeted at buyers who want near-luxury performance without crossing into the ultra-premium Japanese segment. Infinity's mid-range options fill the mid through premium tiers with competitive feature sets.</p>
 
 <p>For buyers comparing Osaki and Infinity directly: the brands are more similar than the marketing suggests. Evaluate specific models head-to-head rather than treating one brand as categorically superior. Both back their products with US-based customer support and parts availability, which matters for a purchase in this price range.</p>
 
@@ -1014,7 +1014,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Kahuna</strong> built its reputation on the LM-6800 series, which has become one of the most-reviewed chairs in the entry-to-mid tier. The LM-6800S (Under $3,000) is a consistent recommendation for buyers with lower back and hip pain who need SL-track coverage without a large budget outlay. Kahuna is not an innovative brand and does not need to be. The LM-6800 earned its position by being reliable and effective at a price point where many competitors underdeliver.</p>
 
-<p><strong>AmaMedics</strong> spans budget and mid-range with the Renew 3D (Under $3,000) at entry level and the Hilux 4D ($3,000-$4,999) as their flagship. The Hilux 4D is a credible 4D chair at a price significantly below what Japanese brands charge for the same roller technology. Buyers who want 4D performance without a five-figure budget should look at it closely.</p>
+<p><strong>AmaMedics</strong> is represented by a single active model, the Hilux 4D ($3,000-$4,999). The Hilux 4D is a credible 4D chair at a price significantly below what Japanese brands charge for the same roller technology. Buyers who want 4D performance without a five-figure budget should look at it closely.</p>
 
 <p><strong>Kyota</strong> fields the Genki M380, which now sits in the $5,000-$7,999 band after its long-running entry-tier promotion ended. It shares distribution infrastructure with Osaki, which helps on parts and service, but at full list price it competes against far stronger chairs than it did at its old promotional price.</p>
 
@@ -1398,7 +1398,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <details>
 <summary>Is SL-track the same as Flex-track?</summary>
-<p>No. Flex-track is a proprietary mechanism used by Infinity Massage Chairs on models like the Imperial Syner-D. It combines the characteristics of an SL-track with a deeper L-track extension, allowing the roller to cover both the full spinal path and deeper into the thighs than a standard SL-track. Flex-track is effectively a superset of SL-track, available at premium price points.</p>
+<p>No. Flex-track is a proprietary mechanism used by Infinity Massage Chairs on models like the Circadian 4D DualFlex. It combines the characteristics of an SL-track with a deeper L-track extension, allowing the roller to cover both the full spinal path and deeper into the thighs than a standard SL-track. Flex-track is effectively a superset of SL-track, available at premium price points.</p>
 </details>
 
 <p>To see SL-track coverage in the context of a buying decision, the <a href="/learn/track-types">track types guide</a> covers all three track types with recommendations by pain location. The <a href="/finder">chair finder</a> uses track type as a primary filter based on your pain profile, body dimensions, and budget.</p>`,
@@ -4699,7 +4699,7 @@ C-tactile afferents fire maximally to slow stroking in the <strong>1 to 10 cm pe
 
 <p><strong>2. Weight capacity.</strong> The catalog tracks confirmed weight limits in <code>weightCapacityLbs</code>. The 300-pound threshold is the practical cutoff for most plus-size buyers. A chair rated to 260 pounds works for one partner and is unsafe for the other if their weights straddle that line. The chair's mechanism is also tuned to the weight range, so even a user just under the cap may get a less effective massage than the chair gives a user in its middle range. When household weights vary widely, the higher number is the constraint.</p>
 
-<p><strong>3. Body scanning or AI scanning.</strong> Every modern premium chair scans the user before the program starts, locating shoulder height, spine curvature, and torso length, and adjusting the roller path accordingly. This is the single most important multi-user feature. A chair without body scanning is calibrated to one shape and one shape only. A chair with reliable scanning re-calibrates every time a new person sits down. AI scanning, the more refined version, runs continuously through the session rather than just at the start, which matters for chairs used by people with different proportions in succession. In our catalog, AI scanning is flagged on chairs including the <a href="/chairs/luraco-i9-max-plus">Luraco i9 Max Plus</a>, <a href="/chairs/daiwa-legacy-4">Daiwa Legacy 4</a>, <a href="/chairs/infinity-imperial-syner-d">Infinity Imperial Syner-D</a>, and several others. We list the full set below.</p>
+<p><strong>3. Body scanning or AI scanning.</strong> Every modern premium chair scans the user before the program starts, locating shoulder height, spine curvature, and torso length, and adjusting the roller path accordingly. This is the single most important multi-user feature. A chair without body scanning is calibrated to one shape and one shape only. A chair with reliable scanning re-calibrates every time a new person sits down. AI scanning, the more refined version, runs continuously through the session rather than just at the start, which matters for chairs used by people with different proportions in succession. In our catalog, AI scanning is flagged on chairs including the <a href="/chairs/luraco-i9-max-plus">Luraco i9 Max Plus</a>, <a href="/chairs/daiwa-legacy-4">Daiwa Legacy 4</a>, <a href="/chairs/infinity-circadian-4d-dualflex">Infinity Circadian 4D DualFlex</a>, and several others. We list the full set below.</p>
 
 <p><strong>4. Pressure intensity range, especially the low end.</strong> Massage chair marketing emphasizes how firm a chair can get. For a multi-user household, the question that matters more is how gentle the chair can get. The 3D roller is the practical minimum for households where pressure preferences differ, because 3D adds depth control, the ability to extend the rollers further into the back or retract them to a lighter touch. We explain the difference in detail in our <a href="/learn/4d-vs-3d-massage-chair-rollers">3D vs 4D rollers guide</a>. 2D chairs have a fixed pressure profile that cannot be softened, which is why most chairs returned for being too rough are 2D models or 3D models that the buyer never realized had adjustable depth.</p>
 
@@ -4721,7 +4721,6 @@ C-tactile afferents fire maximally to slow stroking in the <strong>1 to 10 cm pe
 
 <p><strong>Daiwa Legacy 4</strong>. Confirmed fit from 4'8" to 6'6", 300-pound capacity, AI scanning, 3D rollers, 49-inch L-track. A strong middle-premium option for couples in the 5'0" to 6'4" range who want full lower-back and glute coverage. The L-track is well-suited to couples where one or both partners have sciatica or hip tightness.</p>
 
-<p><strong>Infinity Imperial Syner-D</strong>. Confirmed fit from 5'2" to 6'6", 300-pound capacity, AI scanning, 4D rollers, and a Flex-track that adjusts coverage area depending on the program. The Flex-track is genuinely useful in a multi-user household. One partner can run a full SL coverage program. The other can run a deep L-track program focused on hips and glutes. The chair accommodates both without compromising either.</p>
 
 <p><strong>AmaMedics Hilux 4D</strong>. Confirmed fit from 4'11" to 6'7", 270-pound capacity, 4D rollers, and a 53-inch SL-track, the longest confirmed in our catalog. A 4D chair in this height range and price tier is unusual. Better for couples both under the weight cap. Worth considering for buyers who want 4D feel without the premium-tier price.</p>
 
@@ -4790,7 +4789,7 @@ C-tactile afferents fire maximally to slow stroking in the <strong>1 to 10 cm pe
 
 <details>
 <summary><strong>What if my partner is over 6'4" and I'm under 5'2"?</strong></summary>
-<p>This is the most demanding fit case in the category, and the catalog narrows to a small number of chairs that confirm both ends of the range. The Luraco i9 Max Plus, confirmed 4'11" to 6'10", is the strongest match. The Daiwa Legacy 4 and Infinity Imperial Syner-D also confirm wide ranges, though their upper bounds stop short of 6'8". For a household at the 5'2" to 6'4" span specifically, the Infinity Imperial Syner-D is the most cost-effective option that fits both partners and adds 4D rollers with a Flex-track.</p>
+<p>This is the most demanding fit case in the category, and the catalog narrows to a small number of chairs that confirm both ends of the range. The Luraco i9 Max Plus, confirmed 4'11" to 6'10", is the strongest match. The Daiwa Legacy 4 and Daiwa Majesty 2D also confirm wide ranges, 4'8" to 6'6" on both, though their upper bounds stop short of 6'8". For a household at the 5'0" to 6'4" span specifically, the Daiwa Legacy 4 is the most cost-effective option that fits both partners and adds 3D rollers with AI body scanning.</p>
 </details>
 
 <details>
@@ -4827,7 +4826,7 @@ C-tactile afferents fire maximally to slow stroking in the <strong>1 to 10 cm pe
       "name": "What if my partner is over 6'4\\" and I'm under 5'2\\"?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This is the most demanding fit case in the category, and the catalog narrows to a small number of chairs that confirm both ends of the range. The Luraco i9 Max Plus, confirmed 4'11\\" to 6'10\\", is the strongest match. The Daiwa Legacy 4 and Infinity Imperial Syner-D also confirm wide ranges."
+        "text": "This is the most demanding fit case in the category, and the catalog narrows to a small number of chairs that confirm both ends of the range. The Luraco i9 Max Plus, confirmed 4'11\\" to 6'10\\", is the strongest match. The Daiwa Legacy 4 and Daiwa Majesty 2D also confirm wide ranges."
       }
     },
     {

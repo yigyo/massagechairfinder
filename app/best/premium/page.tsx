@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const PICK_IDS = [
   'titan-pro-vigor-4d',
-  'infinity-imperial-syner-d',
+  'kyota-yugana-m780',
   'jpmedics-kumo-4d',
   'daiwa-legacy-4',
   'osaki-os-pro-maestro-le',
@@ -31,9 +31,9 @@ const EDITORIAL: Record<string, Editorial> = {
     label: 'Best entry premium, SL-track 4D',
     why: "The Titan Pro-Vigor 4D is the entry point for SL-track 4D roller quality in this tier, sitting in the $5,000-$7,999 band. 4D rollers vary speed and depth within each stroke, a step beyond the fixed-depth 3D mechanisms in the mid-tier. Two-stage zero gravity, heated rollers, calf and foot massage, full-body stretch, space-saving 3.9-inch wall clearance, body scanning. Confirmed 5'0\" to 6'2\", 260 lbs. For buyers who want 4D roller quality and full-spine coverage without crossing into the upper bands, this is where the premium catalog starts.",
   },
-  'infinity-imperial-syner-d': {
-    label: 'Best Flex-track, widest height range',
-    why: "The Syner-D uses a Flex-track mechanism, a hybrid between SL and L-track that adjusts its coverage range between programs. Confirmed for 5'2\" to 6'6\", one of the widest height ranges in this catalog. 4D rollers, space-saving 2-inch wall clearance, 5-year warranty, body scanning, 300 lbs. Price varies by retailer; current pricing places it in the $5,000-$7,999 band.",
+  'kyota-yugana-m780': {
+    label: 'Best space-saving 4D under $8,000',
+    why: "The Yugana M780 pairs a 49-inch L-track with 4D rollers and TrueFit body scanning, and it reclines within 2 inches of a wall, one of the tightest footprints in the $5,000-$7,999 band. Confirmed for 4'8\" to 6'2\" with a 300 lb capacity. Zero gravity, heat, and calf and foot coverage are all confirmed. For a premium buyer who needs the chair to fit a real room rather than a showroom, this is the pick.",
   },
   'jpmedics-kumo-4d': {
     label: 'Best for lower body focus, made in Japan',
@@ -239,7 +239,7 @@ export default function BestPremiumPage() {
           If full-spine coverage matters (neck through glutes), the Titan Pro-Vigor 4D in the $5,000-$7,999 band is the entry point, and the Maestro LE in the $8,000-$11,999 band adds body scanning accuracy at the higher end. If lower back and glute focus is the priority, the Kumo 4D&apos;s L-track 4D combination is more targeted.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          If you are above 6&apos;3&quot; and in the premium tier, the Daiwa Legacy 4 is confirmed to 6&apos;6&quot; and the Syner-D to 6&apos;6&quot; as well. Both are the right options for tall buyers at this tier.
+          If you are above 6&apos;3&quot; and in the premium tier, the Daiwa Legacy 4 is confirmed to 6&apos;6&quot; and the Black Panther Supreme Hybrid to 6&apos;6&quot; as well. Both are the right options for tall buyers at this tier.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}
