@@ -118,6 +118,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
     body: string
     slug?: string
     publishedAt?: string
+    updatedAt?: string
     heroImage?: string
   } | null = null
 
