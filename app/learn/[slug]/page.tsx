@@ -142,7 +142,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       description: article.excerpt ?? '',
       url: pageUrl,
       datePublished: article.publishedAt ?? '2026-04-27',
-      dateModified: article.publishedAt ?? '2026-04-27',
+      dateModified: article.updatedAt ?? article.publishedAt ?? '2026-04-27',
       author: {
         '@type': 'Organization',
         name: 'Massage Chair Finder',

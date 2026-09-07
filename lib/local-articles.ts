@@ -2656,6 +2656,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'Start here before your first session. The right starting intensity, session length, and positioning make the difference between a chair you use daily and one you stop using after a week.',
     order: 32,
     publishedAt: '2026-05-03',
+    updatedAt: '2026-09-07',
     body: `
 <p>Most buyers spend weeks choosing a massage chair and about three minutes learning how to use it. That is backwards. The way you set up your first few sessions shapes whether the chair becomes a daily habit or a piece of furniture you feel vaguely guilty about.</p>
 
@@ -2766,6 +2767,36 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Not all soreness is the chair adjusting. Stop and talk to a healthcare provider if a session produces sharp or shooting pain, if pain radiates down an arm or leg, or if soreness keeps building instead of easing. Massage chairs are not right for every back condition; our guide on <a href="/learn/are-massage-chairs-safe">whether massage chairs are safe</a> covers who should avoid one. If a chair feels too aggressive no matter how you set it, it may be the wrong model for your body and pressure tolerance rather than a technique problem, and weighing a <a href="/learn/massage-chair-vs-massage-therapist">massage chair against a massage therapist</a> can help you decide. The <a href="/finder">chair finder</a> matches you to models by pressure preference and body type so the chair fits from the first session.</p>
 
+<h2>Why Does My Massage Chair Hurt My Back?</h2>
+
+<p>If a massage chair hurts your back rather than leaving you mildly tender, one of four things is going on: the rollers are landing in the wrong place, the depth is set beyond what your back can take yet, the airbags are gripping a joint instead of a muscle, or your body bruises more easily than the chair's designers assumed. All four are fixable at home, and the fix is nearly always cheaper than the conclusion most new owners jump to, which is that they bought the wrong chair.</p>
+
+<p>Work through them in this order, and change one thing per session so you can tell which one made the difference.</p>
+
+<h3>The rollers are landing on bone, not muscle</h3>
+
+<p>A massage chair is designed to work the muscle on either side of the spine, not the spine itself and not the shoulder blade. When a session feels like something hard is being ground against something hard, the roller carriage is positioned wrong for your frame. That happens when the body scan misreads you, which it does most often when you sit forward of the backrest, cross your ankles, or hold your head up off the pillow while the chair is measuring. Re-run the scan sitting all the way back with your shoulders relaxed and your head resting, then use the shoulder-position adjustment, if your chair has one, to move the rollers down until they sit below the bony top of the shoulder. Our guide to <a href="/learn/body-scanning">body scanning</a> explains what the chair is actually measuring and why a bad read produces a painful session.</p>
+
+<p>If the rollers still track the spine or catch the edge of a shoulder blade no matter how you sit, the roller path is a poor match for your back width or height, and that is a fit problem rather than a settings problem. Check the published height range on the chair's page against your own, and read <a href="/learn/body-fit">body fit</a> before assuming the chair is defective.</p>
+
+<h3>The depth is deeper than your back is ready for</h3>
+
+<p>On a 3D or 4D chair, the rollers push into the muscle as well as traveling along it, and the deepest setting on a chair like that is a serious amount of pressure. Someone who has never had regular deep-tissue work should not start there. Set the depth to its lowest position and the speed to slow for the first week, and only add depth once a session at the current setting leaves you feeling loose the next morning rather than tender. Owners who report that a chair hurts even on its gentlest program have often left the depth at the factory default, which on many chairs is the middle of the range, not the bottom.</p>
+
+<p>There is a widely used fix for the stretch of time when the lowest setting is still too much: fold a bath towel and lay it between your back and the backrest. It is not elegant, but it takes the edge off roller pressure without changing anything on the remote, and you can remove it a week or two later once your back has adapted. If you need the towel permanently, the chair is stronger than your pressure tolerance, and the section below on returns applies.</p>
+
+<h3>The airbags are squeezing a joint</h3>
+
+<p>Pain in the calves, ankles, shoulders, or hips during a session usually comes from the airbags, not the rollers. Airbag compression is meant to wrap a muscle group and release it. When it lands on a knee, an ankle bone, or the point of the shoulder, it feels like a blood-pressure cuff pumped too far. Turn the airbag intensity down first, and turn the leg and foot airbags off entirely if the foot section pinches. Foot rollers are the other common culprit: some people find them painful at any setting, and most chairs let you switch them off while keeping the calf massage. Wear socks for the first sessions until you know how the foot section treats you.</p>
+
+<h3>Your back bruises more easily than average</h3>
+
+<p>If your back feels bruised after a massage chair session, or you can see marks the next day, treat that as a stop signal rather than something to push through. Visible bruising from a massage chair is not normal adaptation soreness. It is most common in people on blood thinners, people with osteoporosis or low bone density, and older users whose skin and the tissue beneath it have thinned. Our guides on <a href="/learn/massage-and-blood-thinners">massage chairs and blood thinners</a> and <a href="/learn/massage-and-osteoporosis">massage chairs and osteoporosis</a> cover when to check with a doctor before using one at all. If neither applies to you and you still bruise, the depth is too high for your body, and nothing else. Back it off to the minimum, shorten the session, and if the marks return, the chair is not a fit.</p>
+
+<h3>When it is the chair and not the settings</h3>
+
+<p>Give the fixes above two weeks of daily short sessions at the gentlest settings. If the chair still hurts at the end of that, you have learned something useful about your pressure tolerance, and it is time to act on it while you still can. Most massage chairs that get returned come back because the massage was too intense, and the return window is the one thing that turns that discovery from an expensive mistake into an inconvenient one. Read the <a href="/learn/massage-chair-trial-period">trial period guide</a> for how those windows work, and <a href="/learn/why-massage-chairs-get-returned">why massage chairs get returned</a> for what the exit actually costs. For a replacement, the <a href="/finder">chair finder</a> asks about pressure preference directly so the next chair matches your back instead of fighting it.</p>
+
 <h2>Maintenance Basics</h2>
 
 <p>Wipe down upholstered surfaces monthly with a slightly damp cloth. Most massage chair upholstery is synthetic leather or fabric that degrades with harsh cleaning chemicals. Mild soap and water is all you need.</p>
@@ -2798,6 +2829,12 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h3>How do I make a massage chair less intense?</h3>
 <p>Lower the roller pressure and airbag strength first, and reduce the depth on a 3D or 4D chair. If it still feels like too much, shorten the session and switch to a gentler technique such as kneading or rolling instead of tapping or shiatsu.</p>
+
+<h3>Why does my back feel bruised after using a massage chair?</h3>
+<p>A bruised feeling, and especially visible marks, means the roller depth or airbag pressure is beyond what your tissue can take, not that your back is adapting. Drop the depth to minimum and the session to 10 minutes. If you take blood thinners or have osteoporosis, stop and check with your doctor before the next session, since both raise bruising risk from mechanical massage.</p>
+
+<h3>Is it normal for a massage chair to hurt even at the lowest setting?</h3>
+<p>For the first week or two, sometimes, particularly on a 3D or 4D chair whose lowest depth is still firm. A folded towel between your back and the backrest takes the edge off while your muscles adapt. If the chair still hurts at its gentlest settings after two weeks of short daily sessions, it is stronger than your pressure tolerance and you should use the return window rather than keep pushing.</p>
 
     `,
   },
