@@ -37,8 +37,24 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const desc = descLong.length <= 160 ? descLong : descBase
   const titleBase = `${fullName} Review${discontinued}`
   const titleHooked = `${titleBase}, Is It Right for You?`
+  // Feature-qualified brand+model queries are a large, low-competition slice of this
+  // category. "osaki os-champ zero gravity massage chair" runs 880/mo at competition
+  // 0.03 with ranking pages carrying under one referring domain, and the plain
+  // "osaki os-champ massage chair" term does 6,600/mo at competition 0.07. The title
+  // only ever carried the plain model name, so the qualified variants had nothing to
+  // match. Append the qualifier when the chair genuinely has the feature and it fits.
+  // Word order matters: the query is "osaki os-champ ZERO GRAVITY massage chair", so the
+  // qualifier goes before "Massage Chair", not after it. Skipped when the model name
+  // already contains "massage chair", where there is no clean insertion point.
+  const qualifier = chair.zeroGravity ? 'Zero Gravity' : chair.heat ? 'Heated' : ''
+  const titleQualified = qualifier && !/massage chair/i.test(chair.name)
+    ? `${chair.name} ${qualifier} Massage Chair Review${discontinued}`
+    : ''
+  const title = titleQualified && titleQualified.length <= 62
+    ? titleQualified
+    : (titleHooked.length <= 62 ? titleHooked : titleBase)
   return {
-    title: titleHooked.length <= 62 ? titleHooked : titleBase,
+    title,
     description: desc.slice(0, 160),
     alternates: { canonical: `https://www.massagechairfinder.com/chairs/${params.slug}` },
     openGraph: pageOpenGraph(`https://www.massagechairfinder.com/chairs/${params.slug}`),
@@ -431,12 +447,31 @@ export default async function ChairPage({ params }: { params: { slug: string } }
     } : {}),
   }
 
+  // The FAQ block below is rendered on every chair page but was never emitted as
+  // structured data, so 145 pages were ineligible for FAQ rich results and gave AI
+  // engines no machine-readable Q&A to cite. Emitted as a @graph next to Product.
+  const faqSchema = faqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  } : null
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <div className="section max-w-5xl">
 
