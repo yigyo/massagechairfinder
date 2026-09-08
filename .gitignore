@@ -21,3 +21,6 @@ scripts/goodwin-output/
 
 # Scratch output from scripts/audit-compare.py runs
 scripts/_audit_targets_tmp.tsv
+
+# Regenerated each run by scripts/catalog-audit-prepass.py
+scripts/audit-targets.json
