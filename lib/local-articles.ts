@@ -3165,6 +3165,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'Warranty terms for massage chairs vary more than most buyers realize, and the gaps between coverage categories matter when an upper-mid-tier chair breaks in year three. Here is what to look for before you buy.',
     order: 38,
     publishedAt: '2026-05-03',
+    updatedAt: '2026-09-15',
     body: `
 <p>A massage chair warranty is not a single thing. Most manufacturers break their coverage into four or five separate categories with different term lengths, and the category that fails most often is typically covered for the shortest period. Understanding the warranty structure before you buy is one of the most practical things you can do when spending several thousand dollars on a piece of furniture you expect to use daily.</p>
 
@@ -3302,6 +3303,24 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Get the answers in writing before you pay.</strong> A retailer who will answer those four questions by email is telling you something. A retailer who will not is also telling you something. Save the reply. If a claim goes badly later, that email is the difference between an argument and an escalation.</p>
 
+<h2>Buying a Part Yourself Can Cost You the Claim</h2>
+
+<p>There is a trap in the repair path that owners walk into with good intentions. The chair develops a fault, the owner describes it, and the company suggests a part. The owner pays for it directly, installs it, and the chair is still broken, or the failed part turns out to have a defect the warranty should have covered. When the owner then asks for a refund on the part or a warranty decision on the original failure, the answer that shows up again and again in publicly filed consumer complaint records is that the parts purchase was final sale and the defect claim is closed with it. In more than one 2026 complaint, the company never physically inspected the failed part before reaching that conclusion.</p>
+
+<p>Most manufacturer and distributor policies treat directly purchased replacement parts as non-returnable. That is not unusual on its own. What makes it costly is that paying for the part can quietly convert a warranty claim into a retail transaction, and the retail transaction has no defect hearing attached. Three habits protect you:</p>
+
+<ul>
+<li><strong>Ask for a diagnosis before you buy anything.</strong> Put the request in writing: is this failure covered, and will a technician or a photo-and-video review confirm the fault before a part is ordered? A company that will only sell you a part is answering the coverage question by not answering it.</li>
+<li><strong>Document the failure before touching it.</strong> Photograph the failed component in place, from more than one angle, with the date visible if you can. Keep the failed part after any replacement. A claim without the physical evidence is a claim on your word against a policy.</li>
+<li><strong>Keep the part purchase separate from the claim.</strong> If you decide to buy the part to get the chair working, say in the same email that you are doing so without withdrawing the warranty claim on the original failure. It costs nothing to write and it keeps the two questions apart if the dispute reaches a card issuer or a complaint file later.</li>
+</ul>
+
+<h3>When the model you paid for is suddenly unavailable</h3>
+
+<p>A second pattern in the same complaint records happens before the chair ever arrives. A buyer pays for a specific model, is told after payment that it is discontinued or out of stock, and is offered an "upgrade" with a higher list price and a lesser mechanism, for example a 2D roller in place of the 4D roller the buyer chose. In one documented case the equivalent replacement was approved only after the buyer filed a formal complaint.</p>
+
+<p>You do not have to accept a functional downgrade at the same price, and you do not have to argue the point on list price. Compare the specs that matter, meaning track type, roller dimensionality, body scanning, and the confirmed height and weight range, and ask in writing for either a chair that matches or exceeds the one you paid for on those specs or a full refund. If the retailer will not do either, a credit card dispute for goods not as described is the fastest lever most buyers have, and the window for it starts at the charge date, so do not let the conversation drift for months. The <a href="/learn/rebadged-massage-chair-brands">rebadged brands guide</a> explains why two chairs with similar names can carry very different mechanisms, and <a href="/learn/why-massage-chairs-get-returned">why massage chairs get returned</a> covers the fit checks that tell you whether the substitute would have worked for you anyway.</p>
+
 <h2>The Out-of-Warranty Cliff</h2>
 
 <p>The single most expensive thing nobody quotes you at the point of sale is what a repair costs once coverage ends. Rollers and the rolling mechanism are the most commonly cited hardware failure in owner complaints, and they sit in the part of the chair that is both mechanically loaded and labor-intensive to reach. Owners describe spending several hundred dollars on parts and non-refundable labor and still ending up with a chair that does not work, because the wrong component was replaced.</p>
@@ -3337,6 +3356,12 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h3>How can I tell if a brand will actually honor its warranty?</h3>
 <p>Look up the distributor that services the brand on the Better Business Bureau site and read the complaint mix. A file weighted toward Service and Repair complaints, with repeated patterns of parts shipped before diagnosis or tickets closed for non-response, is a warning about service performance that the advertised warranty terms will not show you.</p>
+
+<h3>If I buy a replacement part myself, can I still make a warranty claim on the original failure?</h3>
+<p>Only if you keep the two separate. Most direct parts purchases are final sale, and publicly filed complaints describe defect claims being closed on the grounds that the owner bought a part rather than requesting an inspection. Ask for a written coverage decision before buying the part, photograph and keep the failed component, and state in writing that the purchase does not withdraw the claim.</p>
+
+<h3>The chair I paid for is out of stock and the retailer offered a different model. Do I have to accept it?</h3>
+<p>No. Compare the substitute on track type, roller dimensionality, body scanning, and the confirmed fit range, not on list price. Ask in writing for a chair that matches or exceeds what you paid for on those specs or a full refund. If the retailer refuses both, a card dispute for goods not as described is the usual next step, and the clock on it runs from the charge date.</p>
 
 <h3>Does buying from an unauthorized retailer void the warranty?</h3>
 <p>It often does. Manufacturers commonly honor warranties only for chairs sold through authorized channels, so a discounted chair from a marketplace seller can arrive with no coverage at all. Verify the retailer with the manufacturer before you buy, not after.</p>
