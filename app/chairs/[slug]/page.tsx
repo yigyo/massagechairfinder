@@ -50,12 +50,19 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const titleQualified = qualifier && !/massage chair/i.test(chair.name)
     ? `${chair.name} ${qualifier} Massage Chair Review${discontinued}`
     : ''
-  const title = titleQualified && titleQualified.length <= 62
+  const titleGenerated = titleQualified && titleQualified.length <= 62
     ? titleQualified
     : (titleHooked.length <= 62 ? titleHooked : titleBase)
+  // A small number of pages have a documented zero-click mismatch (W-007):
+  // ranking on page 1 for category queries the generated review-style title
+  // does not answer. seoTitleOverride/seoDescriptionOverride let a specific
+  // chair's metadata be hand-tuned without changing the shared template that
+  // the rest of the catalog already relies on.
+  const title = chair.seoTitleOverride || titleGenerated
+  const description = chair.seoDescriptionOverride || desc.slice(0, 160)
   return {
     title,
-    description: desc.slice(0, 160),
+    description,
     alternates: { canonical: `https://www.massagechairfinder.com/chairs/${params.slug}` },
     openGraph: pageOpenGraph(`https://www.massagechairfinder.com/chairs/${params.slug}`),
   }

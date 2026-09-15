@@ -104,6 +104,10 @@ export interface Chair {
   // ─ AI notes ──────────────────────────────────────────────────────────────
   aiNotes?: string  // rules for the AI: "DO NOT recommend for lower back/hip pain -- S-track only"
 
+  // ─ SEO overrides (rare; only when a page's zero-click cluster needs a targeted fix) ─
+  seoTitleOverride?:       string  // full <title>, replaces the generated template when present
+  seoDescriptionOverride?: string  // full meta description, replaces the generated template when present
+
   // -- Social proof -------------------------------------------------------------
     reviewRating?:      number    // e.g. 4.8 -- aggregate star rating
     reviewCount?:       number    // e.g. 312 -- total review count at source
@@ -558,6 +562,8 @@ export const CHAIRS: Chair[] = [
     zeroGravity: true, heat: true, foot: true, calf: true, stretch: true, aiScanning: true,
     tallConfirmed: true, plusSizeConfirmed: true, madeInUSA: true,
     aiNotes: 'Tallest chair in catalog, confirmed to 6\'10". Only USA-manufactured massage chair. 10-year warranty. Split L-Track with 3D roller. Verified April 2026.',
+    seoTitleOverride: "Luraco i9 Max Plus Review: USA-Made, 300 lb, Fits to 6'10\"",
+    seoDescriptionOverride: "Luraco i9 Max Plus review: USA-made L-track chair, AI body scanning, 300 lb weight capacity, fits up to 6'10\". Full specs, fit, and our verdict.",
     reviewRating:      5.0,
     reviewCount:       4,
     reviewSource:      "massagechairwarehouse.com",
