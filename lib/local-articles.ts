@@ -1719,6 +1719,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: "For buyers with chronic lower back or neck pain who would use a chair daily, the answer is yes for most of them. The math holds up and the daily access advantage is real. The caveat is that the calculation depends on how often you would actually use it.",
     order: 15,
     publishedAt: "2026-05-03",
+    updatedAt: "2026-09-16",
     body: `<p>For buyers with chronic lower back or neck pain who would use a chair daily, the answer is yes for most of them. The math holds up, the access advantage is real, and the daily ownership of relief is something recurring appointments cannot provide. The caveat is that "worth it" depends on how often you would actually use it. A chair used three times per week is a different calculation from one used every day.</p>
 
 <h2>The cost comparison that actually matters</h2>
@@ -1765,6 +1766,22 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Yes, indirectly. The cost-per-use math above assumes the chair actually relieves the pain you bought it for, and track type is what determines that. An S-track chair covers the neck through mid-back but stops short of the glutes and hips, so a buyer with lower back or sciatic pain who buys an S-track chair can end up with a chair they use less often than planned, because it does not reach the area that hurts. That turns a three-year payback into a much longer one, not because the chair itself is expensive, but because the usage rate assumption breaks down. An L-track or SL-track chair that actually covers the pain area is worth paying more for if it means the difference between daily use and occasional use. See the <a href="/learn/track-types">track types guide</a> for which coverage matches which pain profile before running the cost math on a specific chair.</p>
 
+<h2>The disadvantages owners name, and where regret actually comes from</h2>
+
+<p>Buyers who say they regret buying a massage chair are rarely describing a chair that broke. They are describing one of five specific disadvantages, and every one of them is visible before the money changes hands.</p>
+
+<p><strong>The massage is too intense.</strong> This is the single most common reason a chair goes back. A chair that feels firm and effective for ten minutes in a showroom can leave you sore the next morning after a full program, and the discovery happens at home rather than on the sales floor. Pressure tolerance varies more between people than any other variable in this category, and it is the one buyers almost never test properly. <a href="/learn/why-massage-chairs-get-returned">Why massage chairs get returned</a> covers what to ask about intensity adjustability before you buy, and <a href="/learn/how-to-use-a-massage-chair">how to use a massage chair</a> covers the settings that fix it if you already own one.</p>
+
+<p><strong>It is far bigger in use than it looked in the store.</strong> A chair that measures a little over four feet upright can stretch past six feet in full recline, and it needs clearance behind it and room on both sides to get in and out. Buyers measure the upright footprint, not the reclined one, and end up with a chair that dominates the room or cannot recline fully where it sits. <a href="/learn/room-fit">Room fit</a> gives both numbers and the clearances that go with them, and <a href="/learn/will-a-massage-chair-ruin-your-living-room">will a massage chair ruin your living room</a> covers the placement question directly.</p>
+
+<p><strong>Getting out of it costs real money.</strong> Buyers budget for the purchase and not for the exit. Sending a chair back inside a trial window typically means paying return freight, and moving one to a different house later means either a specialist crew or a partial disassembly. Neither cost appears in the sticker price. <a href="/learn/massage-chair-trial-period">Trial periods</a> explains what the return fee usually covers, and <a href="/learn/how-to-move-a-massage-chair">how to move a massage chair</a> covers the rest.</p>
+
+<p><strong>Labor coverage runs out long before parts coverage does.</strong> A brand can advertise a multi-year parts warranty and cover the technician who installs those parts for a fraction of that time. The part arrives free and the visit is billed, which is a surprise buyers discover in year two or three rather than at purchase. Read the labor line before the parts line in <a href="/learn/massage-chair-warranty-guide">the warranty guide</a>, and <a href="/learn/who-fixes-your-massage-chair">who fixes your massage chair</a> covers who actually turns up.</p>
+
+<p><strong>It sits idle.</strong> The disadvantage nobody puts on a spec sheet. A chair in a spare room becomes a decision rather than a habit, and a chair that is never quite comfortable gets avoided instead of adjusted. <a href="/learn/massage-and-consistency">Consistency</a> covers why the chair you actually sit in beats the one with better specs.</p>
+
+<p>Read that list again and the pattern is clear. Regret in this category is a fit and logistics problem, not a technology one. Nobody regrets the roller count. They regret a chair that is too strong for them, too large for the room, too expensive to undo, or parked somewhere they never go. All four are decidable in advance, which is what the <a href="/finder">chair finder</a> is for: it narrows the catalog by your height, your pressure preference, your room and your budget before you are committed to anything.</p>
+
 <h2>Frequently asked questions</h2>
 
 <details>
@@ -1785,6 +1802,16 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <details>
 <summary><strong>What if I already see a chiropractor and want to keep going?</strong></summary>
 <p>A massage chair and chiropractic care are not mutually exclusive. Many buyers reduce appointment frequency rather than eliminating it. If you are currently going twice a month and a chair reduces that to once every six weeks, the math still works and you get daily maintenance in between. The goal is not to replace care you need but to stop paying repeatedly for relief you could maintain on your own.</p>
+</details>
+
+<details>
+<summary><strong>What are the disadvantages of a massage chair?</strong></summary>
+<p>Five come up repeatedly: the massage can be more intense than you expected, the reclined footprint is much larger than the upright one, returning or relocating the chair costs money the sticker price never showed you, labor coverage usually expires well before parts coverage does, and a chair placed somewhere inconvenient stops getting used. None of them are faults in the machine. All of them are answerable before you buy.</p>
+</details>
+
+<details>
+<summary><strong>Do people regret buying a massage chair?</strong></summary>
+<p>Some do, and the reasons cluster tightly. The regret almost always traces back to fit or logistics rather than to the chair being a bad machine: pressure that is too strong for the owner, a chair too large for the room it went in, an exit cost nobody budgeted for, or a placement that turned daily use into a chore. Owners who checked pressure adjustability, measured the reclined footprint, read the labor line in the warranty and put the chair in a room they already sit in describe the purchase very differently.</p>
 </details>
 
 <details>
