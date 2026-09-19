@@ -6,8 +6,8 @@ import { pageOpenGraph } from '@/lib/seo'
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/sciatica" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/sciatica"),
-  title: 'Best Massage Chairs for Sciatica (2026)',
-  description: 'The best massage chairs for sciatica are L-track and SL-track models that reach the glutes and sacral area directly. Four chairs selected for track coverage, roller quality, and verified body fit.',
+  title: "Best Massage Chairs for Sciatica (2026): 5 L/SL-Track Picks",
+  description: "Sciatica relief needs rollers that reach the glutes, so all five picks run an L-track or SL-track, from the Under $3,000 band up. Verified track and fit data.",
 }
 
 const PICK_IDS = [

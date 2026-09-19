@@ -5,7 +5,7 @@ import { pageOpenGraph } from '@/lib/seo'
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare"),
-  title: "Compare Massage Chairs Head to Head",
+  title: "Compare Massage Chairs Head to Head (2026): Same Tier, Same Use Case",
   description: "Head to head comparisons of the most cross-shopped massage chairs. Same price tier, same use case, so you can see which one actually fits your body, your room, and your budget.",
 }
 

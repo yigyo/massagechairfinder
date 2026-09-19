@@ -6,8 +6,8 @@ import { pageOpenGraph } from '@/lib/seo'
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/seniors" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/seniors"),
-  title: "Best Massage Chairs for Seniors (2026)",
-  description: "The best massage chairs for seniors prioritize zero gravity positioning, gentle pressure options, and reliable heat therapy. Six picks verified for ease of use, comfort, and long-term durability.",
+  title: "Best Massage Chairs for Seniors (2026): 6 Zero Gravity + Heat Picks",
+  description: "All six picks have zero gravity and heat, with confirmed capacities from 270 to 330 lb. Chosen for simple controls, gentle pressure, and reliable daily relief.",
 }
 
 const PICK_IDS = [
