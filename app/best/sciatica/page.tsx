@@ -30,7 +30,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'kyota-genki-m380': {
     label: 'Best for heavier and taller builds',
-    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest weight capacity in this tier with a Plus Size Confirmed designation. L-track covers the glutes and thighs where sciatic compression typically originates. Its entry-tier promotion has ended and it now sits in the $5,000-$7,999 band, so the case for it is the confirmed fit rather than price. For buyers whose dimensions exceed what the CirC 3 or Admiral II can verify, this is the pick.",
+    why: "The Genki M380 is confirmed for buyers up to 6'5\" and 330 lbs, the highest weight capacity in this tier with a Plus Size Confirmed designation. L-track covers the glutes and thighs where sciatic compression typically originates. Its price has moved between the entry and upper-mid bands with retailer promotions through 2026, so check the current band badge; the case for it is the confirmed fit at any of those prices. For buyers whose dimensions exceed what the CirC 3 or Admiral II can verify, this is the pick.",
   },
   'jpmedics-kumo-4d': {
     label: 'Premium pick',

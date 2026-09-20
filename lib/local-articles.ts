@@ -1016,7 +1016,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>AmaMedics</strong> is represented by a single active model, the Hilux 4D ($3,000-$4,999). The Hilux 4D is a credible 4D chair at a price significantly below what Japanese brands charge for the same roller technology. Buyers who want 4D performance without a five-figure budget should look at it closely.</p>
 
-<p><strong>Kyota</strong> fields the Genki M380, which now sits in the $5,000-$7,999 band after its long-running entry-tier promotion ended. It shares distribution infrastructure with Osaki, which helps on parts and service, but at full list price it competes against far stronger chairs than it did at its old promotional price.</p>
+<p><strong>Kyota</strong> fields the Genki M380, whose price has swung between the entry band and the $5,000-$7,999 band with retailer promotions through 2026. It shares distribution infrastructure with Osaki, which helps on parts and service. At the promotional price it is a strong high-capacity value; at full list price it competes against far stronger chairs, so check the current band before you weigh it.</p>
 
 <h2>Premium design-forward brands: Ogawa and Daiwa</h2>
 
@@ -1280,7 +1280,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Massage chairs apply heat in four locations, and they are not equal in therapeutic value.</p>
 
-<p><strong>Lumbar heat</strong> is the most common and the most useful for back pain. It targets the lower back muscles and spinal erectors, which are the muscles most commonly involved in chronic back stiffness, desk fatigue, and lower back pain that does not radiate into the hips. Almost every mid-range and premium chair in the catalog has lumbar heat. Even entry-level chairs like the Osaki OS-Champ (Under $3,000) include confirmed lumbar heating.</p>
+<p><strong>Lumbar heat</strong> is the most common and the most useful for back pain. It targets the lower back muscles and spinal erectors, which are the muscles most commonly involved in chronic back stiffness, desk fatigue, and lower back pain that does not radiate into the hips. Almost every mid-range and premium chair in the catalog has lumbar heat. Even entry-level chairs like the Synca Wellness CirC 3 (Under $3,000) include confirmed heat.</p>
 
 <p><strong>Seat heat</strong> targets the glutes and the sacrum, the triangular bone at the base of the spine. This matters specifically for buyers dealing with sciatica, sacroiliac joint pain, or lower back pain that radiates into the hips or down the leg. The piriformis muscle, one of the common compression points in sciatica, sits directly beneath where seat heat is applied. Fewer chairs include seat heat as a distinct zone. Confirm the specific model includes it before purchasing.</p>
 
@@ -1312,7 +1312,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If heat is important to your situation, here is how to approach it: first, confirm that the chair has lumbar heat explicitly, not just heat listed as a feature. Second, if your back pain extends into your hips or glutes, look for chairs with seat heat in addition to lumbar heat. The combination targets the full lower back and sacral zone. Third, treat foot heat as a pleasant addition to any chair rather than a differentiating factor for back pain relief. Fourth, if heated rollers are available in your budget, they are worth considering as the most direct application of heat to the area being worked.</p>
 
-<p>The chairs in our catalog that handle heat particularly well for back pain: the <a href="/chairs/amamedics-hilux-4d">AmaMedics Hilux 4D</a> for heated roller coverage at a mid-range price, and the Luraco i9 Max Plus for buyers looking at medical-grade heat application. At the entry level, the Osaki OS-Champ confirms that useful lumbar heat is not exclusively a premium feature.</p>
+<p>The chairs in our catalog that handle heat particularly well for back pain: the <a href="/chairs/amamedics-hilux-4d">AmaMedics Hilux 4D</a> for heated roller coverage at a mid-range price, and the Luraco i9 Max Plus for buyers looking at medical-grade heat application. At the entry level, chairs like the Synca Wellness CirC 3 confirm that useful heat is not exclusively a premium feature.</p>
 
 <p>If you are still working out which chair fits your pain profile, budget, and body type, the <a href="/finder">chair finder</a> will narrow the field based on those variables. Heat placement is one of the factors it weighs in its recommendations.</p>
 
@@ -11313,7 +11313,7 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 
 <p>Every chair below is space-saving, currently in our catalog, and keeps a full SL-track so you are not trading coverage for footprint. Prices are shown as tiers rather than exact figures, because listed prices move.</p>
 
-<p>In the Entry tier (Under $3,000), the Synca Wellness CirC+ is an SL-track chair with a modest footprint, the Osaki OS-Champ pairs an SL-track with a compact frame, and the Osaki OS-Pro Admiral II reclines in about 2 inches of clearance while keeping a full SL-track. In the Mid tier ($3,000 to $4,999), the Titan 3D Prestige adds a 3D roller for deeper pressure and still reclines in roughly 1 inch, which is about as space-efficient as the catalog gets. For a curated list built around exactly this problem, see our <a href="/best/small-spaces">best massage chairs for small spaces</a>, and to match one to your room, body, and budget in a couple of minutes, use the <a href="/finder">chair finder</a>.</p>
+<p>In the Entry tier (Under $3,000), the Synca Wellness CirC+ is an SL-track chair with a modest footprint, and the Osaki OS-Pro Admiral II reclines in about 2 inches of clearance while keeping a full SL-track. In the Mid tier ($3,000 to $4,999), the Titan 3D Prestige adds a 3D roller for deeper pressure and still reclines in roughly 1 inch, which is about as space-efficient as the catalog gets. For a curated list built around exactly this problem, see our <a href="/best/small-spaces">best massage chairs for small spaces</a>, and to match one to your room, body, and budget in a couple of minutes, use the <a href="/finder">chair finder</a>.</p>
 
 <h2>How to use this to narrow your choices</h2>
 

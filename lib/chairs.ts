@@ -192,9 +192,9 @@ export const CHAIRS: Chair[] = [
     id: 'osaki-os-champ',
     name: 'Osaki OS-Champ',
     brand: 'Osaki',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-09-20: deactivated per the two-run rule. Sold Out at osakimassagechair.com (all 4 colors) on 09-06 and 09-20, and now also Sold Out at osakiusa.com (brand direct, was in stock 09-06) and titanchair.com. Successor Osaki OS-3D Champ II is in stock at osakiusa.com and titanchair.com at $2,199 (not yet in catalog).
     priceMin: 1299,
-    inStock: false,  // 2026-09-06: osakimassagechair.com Sold Out in all 4 colors (also Sold Out at titanchair.com). Brand site osakiusa.com has it in stock at $1,299 (no affiliate program on file). Not discontinued; successor OS-3D Champ II exists. Repoint or restore next run.
+    inStock: false,  // 2026-09-06: osakimassagechair.com Sold Out in all 4 colors (also Sold Out at titanchair.com).
     affiliateTier: 'A',
     affiliateRetailer: 'osakimassagechair.com',
     affiliateCommission: '5% (Rakuten)',
@@ -246,7 +246,7 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '5% (Rakuten)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://www.massagechairs.com/products/osaki-os-pro-admiral-3d',
-    amazonAsin: 'B09HW3F2BB',  // re-verified 2026-09-06: still 'Currently unavailable', no offers; primary massagechairs.com in stock $2,999 (Grey only). Earlier 2026-08-16: still 'Currently unavailable' (no offer). Primary massagechairs.com in stock $2,999 (Grey only). Re-wire if a featured offer returns.
+    // amazonAsin B09HW3F2BB DROPPED 2026-09-20: 'Currently unavailable. We don't know when or if this item will be back in stock' on 08-16, 09-06 and 09-20. Primary massagechairs.com in stock $2,999 (Grey only; Black, Brown, Taupe Sold Out).
     imageUrl: '/images/chairs/osaki-os-pro-admiral-ii.jpg',
     goodwinLookupKey: 'osaki os-pro admiral ii',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/osaki-os-pro-admiral-gray-massage-chair.webp?v=1776836197',
@@ -375,7 +375,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 4,
-    priceMin: 3999,  // massagechairstore.com verified 2026-08-16: 'Save $8,000 While Supplies Last' promo, $3,999 (was 6999) -- crossed upper-mid -> mid band; watch for promo end
+    priceMin: 3999,  // 2026-09-20: promo has ENDED. massagechairstore.com buy box now $11,999 with no strikethrough (+200%); a separate Certified Pre-Owned SKU is listed. Delta >25%, NOT applied on first buy-box detection per guardrail; apply (and propagate mid -> premium: /best/3000-to-5000 slot, compare page vs Genesis Max, brand and article prose) if $11,999 holds next audit. 2026-08-16: 'Save $8,000 While Supplies Last' promo, $3,999 (was 6999)
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -842,13 +842,14 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 2,
-    priceMin: 7999,  // 2026-09-06: massagechairstore.com buy box back to $2,999 ('Save $5,000 Limited Time Sale', originally $7,999). Delta >25%, so NOT applied on first detection per guardrail; apply if $2,999 holds on the next audit. Price has flip-flopped 2999/7999 every audit since 2026-07-26.
+    priceMin: 2999,  // 2026-09-20: APPLIED. massagechairstore.com buy box $2,999 on two consecutive audits (09-06 and 09-20), 'Save $5,000 Limited Time Sale' off $7,999 list. Crossed upper-mid -> entry. Price flip-flopped 2999/7999 between 07-26 and 09-06, so site prose is now written band-neutral (entry to upper-mid depending on promotion) to avoid rewrites on the next flip.
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
-    amazonAsin: 'B08T4BXGP3',  // 2026-09-06: still no buy box ('1 option from $2,999' 3P only). 2026-08-16 browser check: buy box GONE again (only '1 option from $7,499' 3P, no featured offer). amazonUrl dropped per no-buy-box rule. Re-wire if a featured offer returns.
+    amazonUrl: 'https://www.amazon.com/dp/B08T4BXGP3/?tag=massagechairf-20',
+    amazonAsin: 'B08T4BXGP3',  // 2026-09-20 browser check: featured offer BACK, buy box $2,999 (List $4,999), 'usually ships 13-14 days'. Re-wired. History: no buy box 08-16 and 09-06; if it disappears again drop amazonUrl per the no-buy-box rule.
     imageUrl: '/images/chairs/kyota-genki-m380.jpg',
     goodwinLookupKey: 'kyota genki',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Kyota-Genki-M380-massage-chair.jpg?v=1776836198',
@@ -2836,7 +2837,7 @@ export const CHAIRS: Chair[] = [
     name: 'RELX Full Body 20-Mode',
     brand: 'RELX',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1899,  // 2026-09-06 browser check: buy box now $2,899.99 (+53%, no deal shown). Delta >25%, NOT applied on first detection per guardrail; apply if it holds next audit. 2026-07-13: $1,899.99 from $2,899.99 list
+    priceMin: 2699,  // 2026-09-20: APPLIED. Buy box $2,699.99, no deal badge, second consecutive audit well above the old $1,899 (09-06 read $2,899.99). Same band. 2026-07-13: $1,899.99 from $2,899.99 list
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2874,7 +2875,7 @@ export const CHAIRS: Chair[] = [
     name: 'TLIFE 160 Zero Gravity',
     brand: 'TLIFE',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1199,  // amazon.com verified 2026-09-06 ($1,199.99, limited time deal, still redirects to B0F2FP5DP5) and 2026-08-16: $1,199.99 deal (was 1349) -- same band; NOTE dp/B0F2FMVT7M redirects to variant ASIN B0F2FP5DP5 (12-mode Black)
+    priceMin: 999,  // amazon.com browser check 2026-09-20: $999.99 buy box (-17% off typical $1,199.99, 'Only 7 left'), B0F2FMVT7M did NOT redirect this run. Same band. Earlier: 2026-09-06 $1,199.99 deal (redirected to B0F2FP5DP5), 2026-08-16 $1,199.99 (was 1349)
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2969,7 +2970,7 @@ export const CHAIRS: Chair[] = [
     name: 'CASINTA 4D',
     brand: 'CASINTA',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1100,  // amazon.com verified 2026-09-06 via browser: $1,099.99 buy box, 'lowest price in 30 days' (was 1199); same band
+    priceMin: 949,  // amazon.com browser check 2026-09-20: $949.99 buy box (-21% off typical $1,199.99, 'Only 15 left'); same band. 2026-09-06: $1,099.99 (was 1199)
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',

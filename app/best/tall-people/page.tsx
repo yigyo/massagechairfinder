@@ -29,7 +29,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'kyota-genki-m380': {
     label: 'Best entry for tall buyers',
-    why: 'The Genki M380 is confirmed for buyers up to 6\'5" and 330 lbs. L-track covers the glutes and upper thighs. 2D rollers. Its entry-tier promotion has ended and it now sits in the $5,000-$7,999 band, so the case for it is the documented 6\'5" fit rather than price.',
+    why: 'The Genki M380 is confirmed for buyers up to 6\'5" and 330 lbs. L-track covers the glutes and upper thighs. 2D rollers. Its price has moved between the entry and upper-mid bands with retailer promotions through 2026, so check the current band badge; the case for it is the documented 6\'5" fit at any of those prices.',
   },
   'amamedics-hilux-4d': {
     label: 'Best SL-track for tall buyers',
