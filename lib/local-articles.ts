@@ -11404,6 +11404,14 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 
 <p>This is the hidden cost in a used or heavily discounted chair. A resale unit or a clearance model at a steep markdown can be a genuine bargain, but only if parts are still available, so the age and current-production status of the model matter more than the sticker. Before buying used or discontinued, confirm the model is still supported and that remotes and common wear parts can still be ordered. The <a href="/learn/refurbished-massage-chairs">refurbished chairs guide</a> covers how to judge a reconditioned unit and when a new current-model chair is the safer buy.</p>
 
+<h2>Will a brand sell you a part if you are out of warranty, or if you did not buy it new?</h2>
+
+<p>Sometimes not, and that is a different problem from a part being discontinued. A handful of brands restrict parts sales to active warranty holders or to buyers who purchased through an approved channel, and will decline to sell a board, a remote, or a motor to anyone else, even for a chair still in production. One owner spent seven months learning that a major distributor would not service or sell parts for any chair without an active warranty or a purchase through a specific approved company. Another owner, unable to find a replacement mainboard, was told directly that the brand does not supply the part and will not point buyers to anyone who does. Neither chair was discontinued. The part existed. The policy was the obstacle.</p>
+
+<p>This changes the math on a budget chair more than a premium one. A chair with a short warranty and a no-parts-after-warranty policy has an effective lifespan closer to that warranty term than the decade-plus the hardware might otherwise support, because a single board or motor failure the year after coverage ends can strand the whole chair. A premium chair from a brand with a published parts channel does not carry the same risk, even at a similar age.</p>
+
+<p>Ask before you buy, not after something breaks: can I purchase a remote, control board, or motor for this model directly from the brand once the warranty ends, and from whom? Is that policy the same whether I bought new from an authorized retailer or secondhand? Get the answer in writing rather than relying on a sales rep's verbal reassurance, because the support desk that answers a warranty claim is not always the same team that answers a parts-only request years later. The <a href="/learn/massage-chair-warranty-guide">warranty guide</a> covers how to read the published terms, and <a href="/learn/who-fixes-your-massage-chair">who fixes your massage chair</a> covers the related question of who owns the claim when you bought through a third party. If effective lifespan matters more to you than sticker price, see <a href="/learn/how-long-do-massage-chairs-last">how long massage chairs last</a> for the components most likely to force this question.</p>
+
 <h2>How do you vet a brand's service before you buy?</h2>
 
 <p>Warranty length is published on every product page. Warranty behavior is not, and it is the number that actually predicts your experience. The way to close that gap is to ask specific questions before you order and get the answers in writing:</p>
@@ -11435,6 +11443,11 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <details>
 <summary><strong>Can you still get parts for a discontinued massage chair?</strong></summary>
 <p>Frequently you cannot. Once a model is retired, spare parts stop being produced and existing stock runs out, and owners often get bounced between the manufacturer and third-party vendors with no one holding the part. Before buying a used or discontinued chair, confirm the model is still supported and that remotes and wear parts can be ordered.</p>
+</details>
+
+<details>
+<summary><strong>Will a brand sell you parts if your chair is out of warranty?</strong></summary>
+<p>Not always, even for a chair still in production. Some brands restrict parts sales to active warranty holders or to purchases made through an approved channel, and will decline to sell a remote, board, or motor to anyone else. Ask before you buy whether the brand sells parts directly once the warranty ends and to whom, and get the answer in writing.</p>
 </details>
 
 <details>
