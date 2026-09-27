@@ -990,7 +990,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Osaki</strong> is the larger of the two in terms of catalog breadth. The Osaki OS-Pro Admiral II (Under $3,000) is a reliable entry-tier SL-track chair that consistently ranks well for value. The Osaki OS-Pro Maestro LE 2.0 ($8,000-$11,999) steps up in roller quality and program depth. At the top, the Osaki OS-Pro 4D DuoMax ($12,000 and up) is a dual-roller premium system. Osaki also owns the Titan brand, which shares manufacturing with Osaki but is positioned as the value line, functionally similar chairs at lower prices with fewer features and shorter warranty terms.</p>
 
-<p><strong>Infinity</strong> skews toward the higher end. The Infinity Dynasty 4D ($3,000-$4,999 on a while-supplies-last promotion) and the Infinity Genesis Max 4D ($8,000-$11,999) are serious chairs targeted at buyers who want near-luxury performance without crossing into the ultra-premium Japanese segment. Infinity's mid-range options fill the mid through premium tiers with competitive feature sets.</p>
+<p><strong>Infinity</strong> skews toward the higher end. The Infinity Dynasty 4D ($8,000-$11,999) and the Infinity Genesis Max 4D ($8,000-$11,999) are serious chairs targeted at buyers who want near-luxury performance without crossing into the ultra-premium Japanese segment. Infinity's mid-range options fill the mid through premium tiers with competitive feature sets.</p>
 
 <p>For buyers comparing Osaki and Infinity directly: the brands are more similar than the marketing suggests. Evaluate specific models head-to-head rather than treating one brand as categorically superior. Both back their products with US-based customer support and parts availability, which matters for a purchase in this price range.</p>
 

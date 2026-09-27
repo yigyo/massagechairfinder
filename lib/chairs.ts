@@ -375,7 +375,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 4,
-    priceMin: 3999,  // 2026-09-20: promo has ENDED. massagechairstore.com buy box now $11,999 with no strikethrough (+200%); a separate Certified Pre-Owned SKU is listed. Delta >25%, NOT applied on first buy-box detection per guardrail; apply (and propagate mid -> premium: /best/3000-to-5000 slot, compare page vs Genesis Max, brand and article prose) if $11,999 holds next audit. 2026-08-16: 'Save $8,000 While Supplies Last' promo, $3,999 (was 6999)
+    priceMin: 11999,  // 2026-09-27: APPLIED per guardrail -- $11,999 held across two consecutive audits (09-20, 09-27), no strikethrough, in stock. Band moved mid ($3,000-$4,999) -> premium ($8,000-$11,999). Propagated: /best/3000-to-5000 (removed), compare page vs Genesis Max (reframed), brand/article prose. 2026-08-16: 'Save $8,000 While Supplies Last' promo, $3,999 (was 6999)
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -982,9 +982,9 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
     goodwinStatus: 'affiliate',
-    affiliateUrl: 'https://www.amazon.com/dp/B0D97TGBYS/?tag=massagechairf-20',  // tagged 2026-06-07; brand search showed no Bodyfriend listings, audit should verify liveness
+    affiliateUrl: 'https://www.amazon.com/dp/B0D97TGBYS/?tag=massagechairf-20',  // tagged 2026-06-07; brand search showed no Bodyfriend listings
     amazonUrl: 'https://www.amazon.com/dp/B0D97TGBYS/?tag=massagechairf-20',
-    amazonAsin: 'B0D97TGBYS',  // 2026-07-13 browser check: listing live, correct product (Falcon XD), but NO Amazon buy box (no featured offer, no price shown). Do not wire amazonUrl until a featured offer returns.
+    amazonAsin: 'B0D97TGBYS',  // 2026-09-27: still live, correct product (Falcon XD), still NO Amazon buy box (no featured offer, no price shown). Do not wire amazonUrl until a featured offer returns. 2026-07-13: same finding.
     goodwinLookupKey: 'bodyfriend falcon',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/bodyfriend-falcon-massage-chair.jpg?v=1776904610',
     track: 'SL', roller: '4D',
@@ -1844,7 +1844,7 @@ export const CHAIRS: Chair[] = [
   {    id: 'theramedic-flex',
     name: 'Theramedic Flex',
     brand: 'Theramedic',
-    active: true, goodwinActive: true, mcfActive: true,
+    active: true, goodwinActive: false, mcfActive: false,  // 2026-09-27: affiliateUrl confirmed 404 at osakimassagechair.com. Candidates found, neither wired (no confirmed affiliate program): titanchair.com/products/theramedic-flex ($1,999) and brand site theramedicchair.com/products/theramedicflexedition ($2,999, titled 'Flex Edition' -- confirm same SKU before using). Needs Yigyo decision on new affiliate relationship.
     priceMin: 3499,
     affiliateTier: 'A',
     affiliateRetailer: 'osakimassagechair.com',
@@ -1912,6 +1912,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 merged duplicate Goodwin shadow
     goodwinLookupKey: 'ogawa master drive duo le 4d+3d',
     priceMin: 9399,
+    inStock: false,  // 2026-09-27: wishrockrelaxation.com shows 'Notify Me'/'Request a Quote', no Add to Cart. Same price ($9,399.99) confirmed IN STOCK at the brand's own site, ogawaworldusa.com -- candidate new affiliate source, needs Yigyo decision (no confirmed program today).
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'none',
@@ -2111,7 +2112,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://www.relaxonchair.com/products/jasper-full-body-massage-chair?ref=gxoncaks',
-    amazonAsin: 'B0D325QC32',  // 2026-09-06: still no buy box. 2026-07-26: Amazon listing live + correct product but NO featured buy box ('See All Buying Options' only). amazonUrl dropped; primary relaxonchair.com in stock. Re-wire when a featured offer returns.
+    amazonAsin: 'B0D325QC32',  // 2026-09-27: still no buy box (confirmed 3rd consecutive audit). 2026-09-06 / 2026-07-26: same finding -- Amazon listing live + correct product but NO featured buy box ('See All Buying Options' only). amazonUrl dropped; primary relaxonchair.com in stock. Re-wire when a featured offer returns.
     imageUrl: '/images/chairs/relax-on-chair-jasper.jpg',
     track: 'SL', roller: null,
     zeroGravity: true, heat: true, foot: true,
@@ -2837,7 +2838,7 @@ export const CHAIRS: Chair[] = [
     name: 'RELX Full Body 20-Mode',
     brand: 'RELX',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 2699,  // 2026-09-20: APPLIED. Buy box $2,699.99, no deal badge, second consecutive audit well above the old $1,899 (09-06 read $2,899.99). Same band. 2026-07-13: $1,899.99 from $2,899.99 list
+    priceMin: 1899,  // 2026-09-27: Buy box now $1,899.99, list price $2,699.99 struck through (sale live). Same band (<$3,000), no propagation needed. Watch: may revert to ~$2,699 when sale ends. 2026-09-20: APPLIED $2,699.99, no deal badge. 2026-07-13: $1,899.99 from $2,899.99 list
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2992,6 +2993,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: null,
     affiliateRetailer: 'cozzia.com',
     goodwinStatus: 'none',
+    inStock: false,  // 2026-09-27: 'Sold Out' at cozzia.com (our affiliate retailer). Found in stock at massagechairplanet.com/products/cozzia-cz800-quantum-massage-chair ($10,999) -- not a confirmed affiliate program, flagged for Yigyo review, not wired.
     affiliateUrl: 'https://cozzia.com/products/quantum',
     imageUrl: 'https://cozzia.com/cdn/shop/files/CZ_800_-_Silver_and_black-nobackground.png?v=1785421613',
     track: 'Flex', roller: '5D',
@@ -3009,6 +3011,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: null,
     affiliateRetailer: 'cozzia.com',
     goodwinStatus: 'none',
+    inStock: false,  // 2026-09-27: 'Sold Out' at cozzia.com (our affiliate retailer). Found in stock at midwest-mattress.com/product/cozzia-cz-716/ ($8,999) -- not a confirmed affiliate program, flagged for Yigyo review, not wired.
     affiliateUrl: 'https://cozzia.com/products/cz-716',
     imageUrl: 'https://cozzia.com/cdn/shop/files/CZ-716-Champagne-champagne_1.png?v=1783960491',
     track: 'L', roller: '4D', trackLengthIn: 53,
@@ -3045,6 +3048,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: null,
     affiliateRetailer: 'cozzia.com',
     goodwinStatus: 'none',
+    inStock: false,  // 2026-09-27: 'Sold Out' at cozzia.com (our affiliate retailer). Found in stock at exclusivefurniture.com/products/cozzia-qi-se-duo-cz-712-massage-chair ($8,999.99) -- not a confirmed affiliate program, flagged for Yigyo review, not wired.
     affiliateUrl: 'https://cozzia.com/products/qi-se-duo',
     imageUrl: 'https://cozzia.com/cdn/shop/files/P1251155_fdbd7d5a-9ca9-4505-baeb-36dee8ea5b0c.png?v=1783960572',
     track: 'Flex', roller: '4D',
@@ -3062,6 +3066,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: null,
     affiliateRetailer: 'cozzia.com',
     goodwinStatus: 'none',
+    inStock: false,  // 2026-09-27: 'Sold Out' at cozzia.com (our affiliate retailer). Found in stock at massagechairplanet.com/products/cozzia-cz718-qi-xe-pro-duo-massage-chair ($9,999) -- not a confirmed affiliate program, flagged for Yigyo review, not wired.
     affiliateUrl: 'https://cozzia.com/products/qi-xe-pro-duo',
     imageUrl: 'https://cozzia.com/cdn/shop/files/P1238025_1_0c694055-9f6d-4812-90a6-570f29a502d2.png?v=1783960378',
     track: 'Flex', roller: '4D',
@@ -3079,6 +3084,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: null,
     affiliateRetailer: 'cozzia.com',
     goodwinStatus: 'none',
+    inStock: false,  // 2026-09-27: 'Sold Out' at cozzia.com (our affiliate retailer). Found in stock at nbmattress.com/products/cozzia-qi-se ($10,449) -- not a confirmed affiliate program, flagged for Yigyo review, not wired.
     affiliateUrl: 'https://cozzia.com/products/qi-se',
     imageUrl: 'https://cozzia.com/cdn/shop/files/3Q-black-pearl-black-carousel-cz711.png?v=1783960558',
     track: 'L', roller: '4D',
@@ -3186,7 +3192,8 @@ export const CHAIRS: Chair[] = [
     petiteConfirmed: true,
     tallConfirmed: true,
     plusSizeConfirmed: true,
-    aiNotes: 'S-track, 30 inches, so roller coverage stops at the buttock and does not wrap under the glutes. Do NOT position as a glute or hamstring solution. Rare genuinely tall-friendly chair at 6 feet 5 inches. Zero gravity is NOT recorded: the listing states a reclining angle of approximately 120 to 165 degrees and never claims zero gravity. Currently sold out at the verifying retailer.',
+    alternativeIds: ['dcore-d-core-2'],
+    aiNotes: 'S-track, 30 inches, so roller coverage stops at the buttock and does not wrap under the glutes. Do NOT position as a glute or hamstring solution. Rare genuinely tall-friendly chair at 6 feet 5 inches. Zero gravity is NOT recorded: the listing states a reclining angle of approximately 120 to 165 degrees and never claims zero gravity. 2026-09-27: massagechairheaven.com explicitly states this model is discontinued and redirects shoppers to the DCORE D.Core 2; not found in stock at any checked retailer. Sold out at the verifying retailer (gameroomempire.com) since at least 2026-07.',
   },
   {
     id: 'inada-robo',
@@ -3212,7 +3219,7 @@ export const CHAIRS: Chair[] = [
     heat: true,
     aiScanning: true,
     petiteConfirmed: true,
-    aiNotes: 'Lowest weight capacity in the catalog at 220 lbs. Screen hard on weight before recommending. The listing prints two conflicting figures, 220 lbs in the structured spec block and 240 lbs in a lower block whose labels and values are visibly misaligned; the conservative 220 is recorded. Height recorded as the narrower of the two stated ranges. S-track, so not a glute or hamstring solution. Currently sold out at the verifying retailer.',
+    aiNotes: 'Lowest weight capacity in the catalog at 220 lbs. Screen hard on weight before recommending. The listing prints two conflicting figures, 220 lbs in the structured spec block and 240 lbs in a lower block whose labels and values are visibly misaligned; the conservative 220 is recorded. Height recorded as the narrower of the two stated ranges. S-track, so not a glute or hamstring solution. Sold out at the verifying retailer (gameroomempire.com) since at least 2026-07. 2026-09-27: in stock at massagechairs.com/products/inada-robo-4d for $6,999 -- notably below our $9,999-$11,999 catalog range, possibly a different configuration; verify before wiring as a new affiliate source.',
   },
 
   // ── OSAKI (backfill) ───────────────────────────────────────────────────────

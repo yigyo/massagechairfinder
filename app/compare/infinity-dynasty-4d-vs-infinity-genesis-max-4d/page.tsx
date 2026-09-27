@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/infinity-dynasty-4d-vs-infinity-genesis-max-4d" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/infinity-dynasty-4d-vs-infinity-genesis-max-4d"),
   title: "Infinity Dynasty 4D vs Genesis Max 4D, Which Is Right for You?",
-  description: 'The Infinity Dynasty 4D and Genesis Max 4D share the same L-track and 4D roller, but now sit in different price tiers. The Dynasty is the lower-priced pick with confirmed petite and plus-size fit; the Genesis Max adds confirmed stretch programs.',
+  description: 'The Infinity Dynasty 4D and Genesis Max 4D share the same L-track and 4D roller and now sit in the same premium tier. The Genesis Max is the lower-priced pick and adds confirmed stretch programs; the Dynasty costs more but has confirmed petite and plus-size fit data.',
 }
 
 export default function DynastyVsGenesisMaxPage() {
@@ -26,9 +26,9 @@ export default function DynastyVsGenesisMaxPage() {
 
       <p className="text-warm-gray text-lg mb-8">
         Both chairs come from Infinity and both use a 49-inch L-track with a 4D roller. On paper
-        they look nearly identical, but they now sit in different price tiers: the Dynasty lands in
-        the mid tier ($3,000-$4,999) while the Genesis Max sits in the premium tier ($8,000-$11,999).
-        The Dynasty also carries confirmed petite and plus-size fit data the Genesis Max does not
+        they look nearly identical, and after a 2026-09 price change they now sit in the same
+        premium tier ($8,000-$11,999), and the Genesis Max is now the lower-priced of the two.
+        The Dynasty still carries confirmed petite and plus-size fit data the Genesis Max does not
         publish. Which one fits your situation is the question this page answers.
       </p>
 
@@ -44,7 +44,7 @@ export default function DynastyVsGenesisMaxPage() {
             />
           </div>
           <p className="text-sm font-semibold text-navy">Infinity Dynasty 4D</p>
-          <p className="text-sm text-charcoal">$3,000-$4,999</p>
+          <p className="text-sm text-charcoal">$8,000-$11,999</p>
         </div>
         <div className="text-center">
           <div className="rounded-lg overflow-hidden bg-white border border-sand mb-3" style={{ aspectRatio: '4/3' }}>
@@ -64,11 +64,12 @@ export default function DynastyVsGenesisMaxPage() {
       <div className="mb-10 rounded-lg p-5" style={{ background: 'rgba(209,128,62,0.06)', border: '1px solid rgba(209,128,62,0.25)' }}>
         <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#D1803E' }}>Quick verdict</p>
         <p className="text-charcoal">
-          For most buyers, the <strong>Dynasty</strong> is now the stronger value. It delivers the
-          same core Infinity L-track 4D experience at a lower price tier and adds confirmed petite
-          and plus-size fit. The <strong>Genesis Max</strong> sits a tier higher and earns its price
-          for one specific reason: it confirms stretch programs, which the Dynasty does not. If
-          stretch is central to how you will use the chair, the Genesis Max is worth the step up.
+          For most buyers, the <strong>Genesis Max</strong> is now the stronger value. It costs less
+          than the Dynasty and adds confirmed stretch programs, which the Dynasty does not have. The{' '}
+          <strong>Dynasty</strong> earns its higher price for one specific reason: confirmed petite
+          (from 5'0") and plus-size (to 300 lbs) fit data that Infinity has not published for the
+          Genesis Max. If body fit certainty at either end of the range is central to your decision,
+          the Dynasty is worth the premium.
         </p>
       </div>
 
@@ -84,7 +85,7 @@ export default function DynastyVsGenesisMaxPage() {
           </thead>
           <tbody>
             {[
-              ['Price band', '$3,000-$4,999', '$8,000-$11,999'],
+              ['Price band', '$8,000-$11,999', '$8,000-$11,999'],
               ['Track type', 'L-track', 'L-track'],
               ['Track length', '49 inches', '49 inches'],
               ['Roller type', '4D', '4D'],
@@ -116,14 +117,16 @@ export default function DynastyVsGenesisMaxPage() {
         confirms body fit ranges, so direct comparison is limited by available data. What
         is confirmed: both chairs use the same 49-inch L-track, the same 4D roller mechanism,
         the same 2-inch wall clearance, and the same core feature set of zero gravity, heat,
-        foot massage, and calf massage. The Dynasty adds confirmed sizing data for petite
-        buyers and buyers over 280 lbs.
+        foot massage, and calf massage. The Genesis Max adds confirmed stretch programs and
+        costs less; the Dynasty adds confirmed sizing data for petite buyers and buyers over
+        280 lbs, and costs more.
       </p>
       <p className="text-charcoal mb-6">
         For a buyer in the 5 feet 4 inches to 6 feet range, at a typical weight, both chairs
-        deliver the same L-track 4D experience. The Dynasty now does so at a lower price tier,
-        which makes it the default value pick. The Genesis Max only pulls ahead if you
-        specifically need its confirmed stretch programs.
+        deliver the same L-track 4D experience. The Genesis Max does so at a lower price and
+        adds stretch programs, which makes it the default value pick for most buyers. The
+        Dynasty only pulls ahead if you specifically need its confirmed petite or plus-size
+        fit data.
       </p>
 
       <h3 className="text-xl font-serif mb-2 text-navy">Petite and plus-size fit</h3>
@@ -133,17 +136,17 @@ export default function DynastyVsGenesisMaxPage() {
         price point. It is also confirmed for buyers up to 300 lbs. The Genesis Max does
         not have published height minimums or weight limits from Infinity, which means
         buyers with non-standard body dimensions are taking on uncertainty. If fit certainty
-        matters to you, that alone is worth the premium.
+        matters to you, that alone is worth the premium the Dynasty now carries.
       </p>
 
       <h3 className="text-xl font-serif mb-2 text-navy">Stretch programs</h3>
       <p className="text-charcoal mb-6">
-        The Genesis Max confirms stretch programs. The Dynasty does not, which is the main
-        trade-off for its lower price. Stretch programs extend the legs against resistance
+        The Genesis Max confirms stretch programs. The Dynasty does not, which is one of the
+        trade-offs for its higher price. Stretch programs extend the legs against resistance
         to lengthen the hip flexors and decompress the lumbar spine. Buyers with sciatica,
         tight hip flexors, or recurring lower back tension use stretch programs consistently.
-        If stretch is part of how you plan to use the chair, verify the Dynasty includes it
-        before purchasing.
+        If stretch is part of how you plan to use the chair, the Genesis Max has the edge here
+        as well as on price.
       </p>
 
       <h3 className="text-xl font-serif mb-2 text-navy">Same core massage experience</h3>
@@ -152,8 +155,8 @@ export default function DynastyVsGenesisMaxPage() {
         equivalent. The 49-inch L-track from neck to glutes, the 4D roller with full depth
         variation, zero gravity, heat, and foot and calf massage are all shared. The difference
         is in the edge cases: body fit extremes and stretch programs. For a buyer squarely
-        in the typical size range who does not need stretch programs, the Dynasty is the
-        stronger value purchase.
+        in the typical size range who wants stretch programs at the lower price, the Genesis
+        Max is the stronger value purchase.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
@@ -162,7 +165,7 @@ export default function DynastyVsGenesisMaxPage() {
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are under 5 feet 2 inches and need verified petite fit. The Dynasty confirms from 5 feet 0 inches.</span></li>
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You are over 280 lbs and want confirmed weight clearance. The Dynasty is verified to 300 lbs.</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want the lower price. The Dynasty now sits a full tier below the Genesis Max for the same core L-track 4D experience.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>Body fit certainty matters more to you than price or stretch programs. The Dynasty is the only one of the two with confirmed fit data, and costs more for it.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://massagechairstore.com/infinity-dynasty-4d/" target="_blank" rel="noopener noreferrer"
@@ -174,9 +177,9 @@ export default function DynastyVsGenesisMaxPage() {
         <div className="card" style={{ borderTop: '3px solid #2E7D6F' }}>
           <h2 className="text-xl font-serif font-semibold text-teal mb-3">Choose the Genesis Max if:</h2>
           <ul className="text-charcoal space-y-2 text-sm list-none p-0">
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Stretch programs matter to you. The Genesis Max confirms them; the Dynasty does not. This is the main reason to pay more.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>Stretch programs matter to you. The Genesis Max confirms them; the Dynasty does not.</span></li>
             <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You are in the typical size range (roughly 5 feet 4 inches to 6 feet, under 280 lbs) and do not need the confirmed petite or plus-size fit the Dynasty offers.</span></li>
-            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You prefer the higher-tier model and want confirmed stretch programs in the same chair.</span></li>
+            <li className="flex items-baseline gap-2"><span className="text-teal">›</span><span>You want the lower price. The Genesis Max now costs less than the Dynasty for the same core L-track 4D experience, plus confirmed stretch.</span></li>
           </ul>
           <div className="mt-4">
             <a href="https://massagechairstore.com/infinity-genesis-max/" target="_blank" rel="noopener noreferrer"
@@ -189,12 +192,12 @@ export default function DynastyVsGenesisMaxPage() {
 
       <h2 className="text-2xl font-serif mb-3">Bottom line</h2>
       <p className="text-charcoal mb-8">
-        The Dynasty is the right starting point for most buyers comparing these two chairs.
-        It delivers the same core Infinity L-track 4D massage at a lower price tier and adds
-        confirmed petite and plus-size fit. The Genesis Max costs more and earns it in one
-        situation: you want confirmed stretch programs. For buyers who need stretch, or who
-        prefer the higher-tier model, the Genesis Max remains a strong chair, but for most
-        people the Dynasty is now the smarter purchase.
+        The Genesis Max is the right starting point for most buyers comparing these two chairs.
+        It delivers the same core Infinity L-track 4D massage at a lower price and adds confirmed
+        stretch programs. The Dynasty costs more and earns it in one situation: you need confirmed
+        petite or plus-size fit data, which Infinity has not published for the Genesis Max. For
+        buyers at either end of the size range, the Dynasty remains the safer pick, but for most
+        people the Genesis Max is now the smarter purchase.
       </p>
       <div className="rounded-lg p-6 mb-10" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
         <p className="text-xs font-medium uppercase tracking-wider mb-2" style={{ color: '#2E7D6F' }}>Chair Finder</p>
