@@ -1847,6 +1847,16 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If you have pressure-sensitive areas, check whether the chair you are considering has granular intensity control per zone, not just a master intensity dial. This matters more than roller dimensions for many buyers. The <a href="/best/seniors">best chairs for seniors</a> page covers the options with the gentlest pressure profiles, which are also the right options for anyone with sensitivity concerns.</p>
 
+<h2>Why a massage chair can leave you sorer, not less</h2>
+
+<p>Some buyers report the opposite of what they expected: more soreness after a session, not less. This traces to one of two mismatches almost every time, not to the chair failing to do what it claims.</p>
+
+<p>The first is intensity. Deep tissue programs and the highest pressure zones are calibrated for a general population, not for muscle that is already inflamed or a first-time user with no baseline tolerance. Running a chair on its most aggressive setting against tissue that has not adapted yet produces the same soreness a first deep tissue session from a human therapist would: temporary, expected, and a sign to dial the pressure down rather than push through it.</p>
+
+<p>The second is the track-length mismatch covered above. A roller that stops short of where the pain actually lives, or runs past a joint it should not be pressing on, applies force to the wrong tissue. An S-track chair working a lower back that needs L-track coverage can leave the lumbar area more irritated, not less, because the roller compensates by pressing harder at its endpoint instead of reaching the area that needed the pressure in the first place.</p>
+
+<p>The fix in both cases is the same: start at the lowest intensity setting, run shorter sessions of 10 minutes rather than 30 for the first week, and confirm the <a href="/learn/track-types">track type</a> actually reaches your pain area before assuming the chair itself is the problem. If soreness persists past the first week at a conservative setting, that points to a fit mismatch between the chair and your body, not a chair that does not work.</p>
+
 <h2>Body scanning and whether the roller starts in the right position</h2>
 
 <p>A roller that starts at the top of the chair and runs to the bottom will position itself differently on a 5'1" body than a 6'1" body. Without body scanning, the rollers may start above your shoulders, miss the neck entirely, or begin past the lumbar before the useful range. Body scanning uses infrared or ultrasonic sensors to map your shoulder position before each session and adjusts the roller start point accordingly. For buyers on either end of the height range, this is a meaningful feature. The <a href="/learn/body-scanning">body scanning guide</a> explains what to look for in practice.</p>
@@ -1872,6 +1882,11 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <details>
 <summary><strong>What types of pain do massage chairs reliably help with?</strong></summary>
 <p>Consistently: chronic lower back tension with SL-track coverage, neck and shoulder tightness from desk work, leg and foot fatigue, and stress-related full-body tension. Less reliably: sciatic pain where the nerve compression is structural rather than muscular, upper shoulder impingement where the rollers do not reach the joint, and hip flexor tightness where coverage varies by chair.</p>
+</details>
+
+<details>
+<summary><strong>Why did a massage chair make my pain worse instead of better?</strong></summary>
+<p>Almost always one of two things: the intensity was set too high for tissue that had not adapted yet, or the track type does not reach the area that actually hurts. Start at the lowest intensity setting for the first week and check your track type against your pain location before assuming the chair does not work for you.</p>
 </details>
 
 <p>The <a href="/learn/why-massage-chairs-are-expensive">pricing breakdown</a> explains what roller quality differences actually mean for how well a chair works day to day. The <a href="/finder">chair finder</a> filters the catalog by your specific pain profile and body type to match you with chairs that will reach the right areas.</p>`,
