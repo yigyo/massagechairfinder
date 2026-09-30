@@ -676,6 +676,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'Most massage chairs are built for a specific range of bodies. Here is how to find out whether a chair will actually fit you, before you spend several thousand dollars and find out it will not.',
     order: 4,
     publishedAt: '2026-04-27',
+    updatedAt: '2026-09-30',
     body: `<p>Most massage chair descriptions list a height range somewhere in the specs. Most buyers glance at it, confirm they are vaguely within the numbers, and move on. This is a mistake.</p>
 
 <p>The height spec is not a suggestion. It describes the physical range the chair's roller track was engineered to travel. A buyer who is two inches outside that range does not get a slightly off massage. They get a roller that misses their neck, or one that presses into their lower back at the wrong angle. A chair that fits is transformative. A chair that does not fit gets used twice and then becomes an expensive end table.</p>
@@ -700,6 +701,8 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>The concrete failure mode is worth naming, because petite owners describe it the same way over and over: the upper back rollers are working the air above their shoulders. The chair runs a normal program, the lower back feels fine, and the neck and shoulder section never makes contact at all. It is not a defect and no setting fixes it. The roller track simply ends higher than the body sitting in it.</p>
 
+<p>A petite owner reviewing a mainstream chair described it in almost exactly those terms: "I'm only 5ft nothing and the upper back literally is just punching air above my shoulders. Wish more chairs could be adjusted for us petite ladies." That is the same failure mode from someone who lived it rather than a hypothetical. If you are under 5'2", treat the one-minute sit test above as mandatory rather than optional, and start your shortlist from <a href="/best/petite-buyers">chairs confirmed to fit petite buyers</a> instead of screening the general catalog by price alone.</p>
+
 <p>You can test for this in about a minute, and it is worth doing before you pay rather than after. Sit fully back with your hips against the seat back, not perched forward, and run the body scan. Then note where the top of the roller travel actually lands. If it stops at or above the tops of your shoulders instead of engaging the muscle between your neck and shoulder, the chair is too long for you, and moving the seat or raising the intensity will not change it. The same check applies to the shoulder airbags: if they close around your ears rather than around your deltoids, they are positioned for a taller frame.</p>
 
 <p>Two workarounds get suggested and both have a cost. A cushion under the hips raises you into the roller track, but it also pushes your legs further down the footrest and can shorten the calf and foot contact you just paid for. Reclining further can improve roller contact at the shoulders on some chairs, but only if the fit problem is marginal. Neither substitutes for a chair whose stated minimum height actually includes you.</p>
@@ -717,6 +720,8 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 </ul>
 
 <p>If you are 6'3" or taller, use these as your starting point and work outward. Do not assume a chair that lists 6'0" as its maximum will accommodate you adequately.</p>
+
+<p>Tall buyers raise the mirror-image concern in owner comments and reviews: before ordering, they want a straight answer on whether their exact height was actually tested, not inferred from a spec range that tops out an inch or two below them. A phone rep saying it "should be fine" is not a confirmed fit. Ask for the confirmed maximum height in writing, and if it is not at least an inch above your own height, treat that inch as real margin already spent rather than assume the engineering has slack in it. The <a href="/best/tall-people">chairs confirmed for tall buyers</a> list only models with a documented maximum above 6'2", so it is a faster starting point than the general catalog.</p>
 
 <h3>On the boundary between two ranges: which way to round</h3>
 
@@ -3599,6 +3604,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'The most common reason a massage chair comes back has nothing to do with price or features. It is because the massage is too rough. Here is how to evaluate pressure range before you commit.',
     order: 41,
     publishedAt: '2026-05-07',
+    updatedAt: '2026-09-30',
     body: `
 <p>The most common reason a massage chair comes back has nothing to do with price, aesthetics, features, or fit. It is because the massage is too rough. A buyer spends three months researching roller types, track coverage, and warranty terms, and then the chair arrives, turns on for the first time, and the pressure is uncomfortable enough that they never use it again.</p>
 
@@ -3651,6 +3657,26 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>The first is to choose a chair with a genuine soft lower limit and verified gentle pressure at the low end. Some chairs in the mid through upper-mid tiers are specifically designed with broader intensity ranges that serve sensitive buyers well. The <a href="/finder">Chair Finder</a> allows you to select "gentle" pressure preference as a filter, which surfaces chairs with verified soft lower limits.</p>
 
 <p>The second is to consider a vibration-based chair rather than a roller chair. Vibration massage delivers whole-body stimulation without mechanical pressure on specific spinal points. It is not a substitute for roller massage therapeutically, but for buyers who genuinely cannot tolerate roller pressure at any intensity, vibration provides meaningful circulation benefit and muscle relaxation without the risk of discomfort.</p>
+
+<h2>What a Wrong Guess Actually Costs</h2>
+
+<p>Buyers plan carefully for the purchase price and rarely plan at all for the cost of being wrong. Returning a massage chair is not free, and the fee is not trivial next to what you paid. One buyer's complaint on file with the Better Business Bureau put a $581.34 return charge against a $2,528.99 purchase, roughly a quarter of the price gone before the chair was even back out of the house. A separate complaint cited a $275 white-glove fee per trip, charged again on the return leg after already being charged on delivery.</p>
+
+<p>The reason the fee runs that high has nothing to do with the retailer padding a charge. A massage chair is a 200 to 250 pound freight item, not a parcel. Reverse freight on something that size requires a freight carrier, a scheduled pickup window, and often the same white-glove crew that delivered it, and all of that costs money moving in either direction. Curbside drop-off pricing does not apply to something you cannot lift; the <a href="/learn/massage-chair-delivery-types">delivery types guide</a> covers what each service level actually includes and costs on the way in.</p>
+
+<p>Budget for the exit before you buy, not after the chair arrives and disappoints. Ask the seller for the exact return shipping cost in dollars, not a description like "reasonable" or "at cost," and get it in writing in the same message where you confirm the trial length. The <a href="/learn/massage-chair-trial-period">trial period guide</a> covers how these windows work and what to confirm before the clock starts. If the number is not disclosed up front, assume it will land closer to the $275 to $580 range in these complaint records than to anything smaller, and weigh that figure against how confident you actually are in the fit and pressure match before you order.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<details>
+<summary><strong>What does it actually cost to return a massage chair?</strong></summary>
+<p>More than most buyers expect. Complaint records show return shipping charges in the $275 to $580 range on chairs in the $2,500 to $8,000 price band, driven by the cost of reverse freight and white-glove pickup on a 200 to 250 pound item. Confirm the exact dollar figure with the seller in writing before you buy, not after you decide to send the chair back.</p>
+</details>
+
+<details>
+<summary><strong>Why is return shipping so expensive on a massage chair?</strong></summary>
+<p>Because it ships as freight, not as a parcel. A massage chair weighs 200 to 250 pounds and typically arrives by the same white-glove crew and freight carrier used for delivery. Sending it back requires a scheduled pickup and the same freight-class shipping in reverse, which costs real money regardless of the direction it travels. That is a structural cost of the product category, not a markup a specific retailer is adding.</p>
+</details>
 
 <p>The <a href="/learn/airbag-massage">airbag massage guide</a> covers compression intensity in more detail, and the <a href="/learn/how-to-buy">buying framework</a> walks through how to sequence all of the major decisions, with pressure preference as the starting point.</p>
     `,
