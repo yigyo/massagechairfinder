@@ -14,6 +14,34 @@ export const metadata: Metadata = {
 export default function ComparePage() {
   return (
     <div className="section" style={{ maxWidth: '900px' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.massagechairfinder.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Compare",
+              "item": "https://www.massagechairfinder.com/compare"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Ogawa Active XL Duo vs Titan Pro-Vigor 4D",
+              "item": "https://www.massagechairfinder.com/compare/ogawa-og6400-vs-titan-pro-vigor-4d"
+            }
+          ]
+        }) }}
+      />
+
       <nav className="text-sm text-warm-gray mb-6">
         <Link href="/" className="hover:text-gold">Home</Link>
         <span className="mx-2">/</span>

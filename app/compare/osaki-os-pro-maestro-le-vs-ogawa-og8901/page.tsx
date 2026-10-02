@@ -14,6 +14,34 @@ export const metadata: Metadata = {
 export default function MaestroLeVsOg8901Page() {
   return (
     <div className="section" style={{ maxWidth: '860px' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.massagechairfinder.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Compare",
+              "item": "https://www.massagechairfinder.com/compare"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Osaki Maestro LE 2.0 vs Ogawa OG-8901: SL-Track 4D",
+              "item": "https://www.massagechairfinder.com/compare/osaki-os-pro-maestro-le-vs-ogawa-og8901"
+            }
+          ]
+        }) }}
+      />
+
       <nav className="text-sm text-warm-gray mb-6">
         <Link href="/compare" className="hover:text-gold">Compare</Link>
         <span className="mx-2">/</span>

@@ -14,6 +14,34 @@ export const metadata: Metadata = {
 export default function YukonVsSensationPage() {
   return (
     <div className="section" style={{ maxWidth: '860px' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.massagechairfinder.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Compare",
+              "item": "https://www.massagechairfinder.com/compare"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Relax On Chair YUKON-4D vs RockerTech Sensation 4D",
+              "item": "https://www.massagechairfinder.com/compare/relaxonchair-yukon-4d-vs-rockertech-sensation-4d"
+            }
+          ]
+        }) }}
+      />
+
       <nav className="text-sm text-warm-gray mb-6">
         <Link href="/compare" className="hover:text-gold">Compare</Link>
         <span className="mx-2">/</span>

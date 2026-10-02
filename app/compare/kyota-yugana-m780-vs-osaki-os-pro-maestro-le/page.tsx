@@ -14,6 +14,34 @@ export const metadata: Metadata = {
 export default function YuganaVsMaestroPage() {
   return (
     <div className="section" style={{ maxWidth: '860px' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.massagechairfinder.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Compare",
+              "item": "https://www.massagechairfinder.com/compare"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Kyota Yugana M780 vs Osaki Maestro LE 2.0",
+              "item": "https://www.massagechairfinder.com/compare/kyota-yugana-m780-vs-osaki-os-pro-maestro-le"
+            }
+          ]
+        }) }}
+      />
+
       <nav className="text-sm text-warm-gray mb-6">
         <Link href="/compare" className="hover:text-gold">Compare</Link>
         <span className="mx-2">/</span>

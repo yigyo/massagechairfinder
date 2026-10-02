@@ -14,6 +14,34 @@ export const metadata: Metadata = {
 export default function Titan3dPrestigeVsOg6400Page() {
   return (
     <div className="section" style={{ maxWidth: '860px' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.massagechairfinder.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Compare",
+              "item": "https://www.massagechairfinder.com/compare"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Titan 3D Prestige vs Ogawa OG-6400: SL-Track 3D",
+              "item": "https://www.massagechairfinder.com/compare/titan-3d-prestige-vs-ogawa-og6400"
+            }
+          ]
+        }) }}
+      />
+
       <nav className="text-sm text-warm-gray mb-6">
         <Link href="/compare" className="hover:text-gold">Compare</Link>
         <span className="mx-2">/</span>

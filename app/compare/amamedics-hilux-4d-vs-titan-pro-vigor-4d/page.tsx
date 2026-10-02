@@ -14,6 +14,34 @@ export const metadata: Metadata = {
 export default function HiluxVsVigorPage() {
   return (
     <div className="section" style={{ maxWidth: '860px' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.massagechairfinder.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Compare",
+              "item": "https://www.massagechairfinder.com/compare"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "AmaMedics Hilux 4D vs Titan Pro-Vigor 4D: The SL-Track Decision",
+              "item": "https://www.massagechairfinder.com/compare/amamedics-hilux-4d-vs-titan-pro-vigor-4d"
+            }
+          ]
+        }) }}
+      />
+
       <nav className="text-sm text-warm-gray mb-6">
         <Link href="/compare" className="hover:text-gold">Compare</Link>
         <span className="mx-2">/</span>

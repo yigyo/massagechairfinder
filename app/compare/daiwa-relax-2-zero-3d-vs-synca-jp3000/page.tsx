@@ -14,6 +14,34 @@ export const metadata: Metadata = {
 export default function ComparePage() {
   return (
     <div className="section" style={{ maxWidth: '900px' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.massagechairfinder.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Compare",
+              "item": "https://www.massagechairfinder.com/compare"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Daiwa Relax 2 Zero 3D vs Synca JP-3000",
+              "item": "https://www.massagechairfinder.com/compare/daiwa-relax-2-zero-3d-vs-synca-jp3000"
+            }
+          ]
+        }) }}
+      />
+
       <nav className="text-sm text-warm-gray mb-6">
         <Link href="/" className="hover:text-gold">Home</Link>
         <span className="mx-2">/</span>

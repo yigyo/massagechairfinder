@@ -14,6 +14,34 @@ export const metadata: Metadata = {
 export default function ComparePage() {
   return (
     <div className="section" style={{ maxWidth: '900px' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.massagechairfinder.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Compare",
+              "item": "https://www.massagechairfinder.com/compare"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Medical Breakthrough 6 vs Kahuna HM-078",
+              "item": "https://www.massagechairfinder.com/compare/medical-breakthrough-6-vs-kahuna-hm-078"
+            }
+          ]
+        }) }}
+      />
+
       <nav className="text-sm text-warm-gray mb-6">
         <Link href="/" className="hover:text-gold">Home</Link>
         <span className="mx-2">/</span>
