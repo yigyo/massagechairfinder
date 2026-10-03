@@ -13079,6 +13079,583 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 
 <p>If you are buying for a business, the shortlist is set by capacity, confirmed fit range, footprint and warranty terms, and every one of those is knowable before you order. The <a href="/finder">chair finder</a> screens the catalog against measurements, budget and use, and returns the chairs that actually qualify. Our <a href="/how-we-review">review method</a> sets out where those specifications come from, and the rest of the <a href="/learn">learning articles</a> cover the individual decisions in more depth.</p>`,
   },
+  {
+    slug: "massage-and-carpal-tunnel",
+    title: "Massage and Carpal Tunnel: What Helps, and What a Chair Cannot Reach",
+    excerpt: "Massage trials for carpal tunnel syndrome are real but short-term, and every one treated the hand and forearm directly. Here is what the evidence shows, why a chair's hand airbags deserve caution, and the diagnosis question to settle first.",
+    order: 134,
+    publishedAt: "2026-10-03",
+    body: `<p><strong>Massage can ease carpal tunnel symptoms in the short term, but every controlled trial that found a benefit treated the wrist, hand and forearm directly, with a therapist's hands or the patient's own. A massage chair reaches neither, and no study has tested one for carpal tunnel syndrome.</strong> There is one more thing worth knowing before you shop: the hand airbags on many chairs squeeze the palm, and pressure on the palm raises pressure inside the carpal tunnel in lab studies.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>The best review is modest:</strong> A systematic review of 22 randomised trials found moderate evidence for myofascial massage in the short term, and no trials at all that measured long-term effects [1]</p>
+<p><strong>The positive trials are hands-on:</strong> Targeted massage raised grip strength 17.3 percent over baseline in a 27-person pilot [2], and a self-applied hand massage added to a splint beat the splint alone in 84 patients [3]</p>
+<p><strong>Palm pressure works against you:</strong> In cadaver hands, a 1 kg force over the flexor retinaculum raised carpal tunnel pressure by 103 mmHg [4]</p>
+<p><strong>Many suspected cases are something else:</strong> Of 335 people referred for suspected carpal tunnel syndrome, 36 percent had normal nerve tests, and about half of those had trigger points in a shoulder-blade muscle that refers pain to the hand [5]</p></div>
+<h2>Does massage help carpal tunnel syndrome?</h2>
+<p>Somewhat, briefly, and only the hands-on kind. The most thorough review, Huisstede and colleagues in 2018, pooled 2 earlier reviews and 22 randomised trials of physical therapy for carpal tunnel syndrome. It found moderate evidence for myofascial massage over some other active treatments <strong>in the short term</strong>, and it found no trial that followed patients long enough to say anything about lasting benefit [1].</p>
+<p>The individual trials point the same way:</p>
+<table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Who</th>
+<th>What they did</th>
+<th>What happened</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moraska 2008 [2]</td>
+<td>27 adults</td>
+<td>Therapist massage twice weekly, 6 weeks, general vs targeted</td>
+<td>Both groups improved over time; targeted massage raised grip strength 17.3 percent. No untreated control</td>
+</tr>
+<tr>
+<td>Madenci 2012 [3]</td>
+<td>84 adults</td>
+<td>Night splint plus self-applied hand massage vs splint alone</td>
+<td>Pain and grip strength better with massage added</td>
+</tr>
+<tr>
+<td>Field 2004 [6]</td>
+<td>16 adults</td>
+<td>Daily self-massage plus one therapist session a week, 4 weeks</td>
+<td>Less pain and fewer symptoms, better grip</td>
+</tr>
+<tr>
+<td>Elliott 2013 [7]</td>
+<td>21 adults</td>
+<td>Massage plus trigger-point work, 6 weeks</td>
+<td>Symptoms improved from week two. No control group</td>
+</tr>
+</tbody>
+</table>
+<p>Look at the third column. Every one of these is a person working directly on the wrist, palm and forearm. Two of them are the patient's own hand. That is the version of massage with evidence behind it.</p>
+<p>A larger meta-analysis is sometimes quoted for "manual therapy" and carpal tunnel, with sizeable effects across 6 trials and 401 patients [8]. That review covers soft tissue work and nerve-gliding techniques performed by clinicians, which is a different thing from massage, and very different from anything a consumer device does.</p>
+<h2>The trial that compared hands-on therapy with surgery</h2>
+<p>The most striking result in this literature is a Spanish trial of 120 women. Half had three sessions of manual physical therapy aimed at the median nerve's path, and half had carpal tunnel release surgery. Therapy was ahead at one and three months, the groups were level at six and twelve months, and at four years there was still no difference, with similar numbers in each group going on to have surgery [9].</p>
+<p>That is a strong argument for trying conservative care first. It is not an argument for a massage chair, because the treatment was a skilled clinician performing nerve and soft tissue techniques.</p>
+<h2>Why a chair's hand airbags deserve caution</h2>
+<p>Carpal tunnel syndrome is a pressure problem. The median nerve runs through a narrow tunnel at the wrist, and when pressure inside that tunnel rises, the nerve suffers.</p>
+<p>Biomechanics researchers applied a 1 kg force to 16 spots on the palms of cadaver hands and measured what happened inside the tunnel. Pressure over the flexor retinaculum, the band across the base of the palm, raised tunnel pressure by 103 mmHg, and pressure over the fleshy pads on either side raised it too [4]. A later study found tunnel pressure climbed in a straight line as palm force increased [10].</p>
+<p>Many full-body chairs include hand and arm airbags that inflate around the palm and wrist. Nobody has measured what those airbags do to carpal tunnel pressure, so this is not a finding that chairs cause or worsen the condition. It is a good reason for one simple rule: <strong>if you have carpal tunnel symptoms, start with the hand airbags off</strong>, and if switching them on brings on tingling or numbness in your thumb and first fingers, leave them off. Our guide to <a href="/learn/airbag-massage">airbag massage</a> covers how these zones work and which chairs let you control them separately.</p>
+<h2>Make sure it is carpal tunnel first</h2>
+<p>This is the part of the story that a chair can actually touch.</p>
+<p>Hand tingling and aching are not always the median nerve. In a Danish study of 335 people referred for suspected carpal tunnel syndrome, 36 percent had normal nerve conduction tests. Of those, 49 percent had trigger points in the infraspinatus, a muscle over the shoulder blade whose referred pain can travel down the arm [5]. An Iranian study found upper trapezius trigger points in every hand with normal nerve tests [11].</p>
+<p>These are associations, not treatment trials, and no study shows that rollers on your upper back fix hand symptoms. But they make the case for a proper diagnosis, including a nerve conduction test if your clinician suggests one, before you spend money on a device. If it turns out to be referred pain from the shoulder girdle, that is a different and much more chair-friendly problem, covered in <a href="/learn/massage-and-neck-shoulder-pain">massage and neck and shoulder pain</a> and our explainer on <a href="/learn/does-trigger-point-massage-work">whether trigger point massage works</a>.</p>
+<h2>What actually treats carpal tunnel</h2>
+<p>The NHS notes that carpal tunnel syndrome sometimes improves on its own within a few months, especially in pregnancy. First-line care is a wrist splint worn at night, which may take up to 6 weeks to help, plus cutting back on activities that bend the wrist or require a hard grip. Painkillers help short-term only. A steroid injection is the next step if a splint does not work, and surgery "usually cures CTS" [12].</p>
+<p>Do not sit on it. Cleveland Clinic warns that untreated carpal tunnel syndrome "can permanently damage your median nerve" [13]. Constant numbness, a weak grip, or wasting of the muscle at the base of your thumb are reasons to see a clinician soon, not reasons to buy anything.</p>
+<h2>How a massage chair delivers this</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Can a chair do it?</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Massage the wrist, palm and forearm the way the trials did</td>
+<td><strong>No</strong></td>
+<td>Every positive trial used human hands [1][2][3]</td>
+</tr>
+<tr>
+<td>Nerve-gliding and neurodynamic techniques</td>
+<td><strong>No</strong></td>
+<td>Clinician-delivered [8][9]</td>
+</tr>
+<tr>
+<td>Compress the palm and wrist</td>
+<td><strong>Yes, and it may be the wrong direction</strong></td>
+<td>Palm pressure raises tunnel pressure in cadaver studies [4][10]</td>
+</tr>
+<tr>
+<td>Work the upper back and shoulder blades</td>
+<td><strong>Yes</strong></td>
+<td>Useful only if referred trigger-point pain is part of the picture [5]</td>
+</tr>
+<tr>
+<td>Relieve the nerve compression itself</td>
+<td><strong>No</strong></td>
+<td>Splint, injection or surgery [12]</td>
+</tr>
+</tbody>
+</table>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Can a massage chair help carpal tunnel syndrome?</strong></summary>
+<p>Not directly. No study has tested a chair for carpal tunnel syndrome, and every positive massage trial worked on the hand and forearm, which chairs do not reach with rollers [1]. A chair can work the neck and upper back, which matters only if part of your hand pain is referred from there [5].</p>
+</details>
+<details>
+<summary><strong>Should I use the hand airbags?</strong></summary>
+<p>Start with them off. Pressure on the palm raises carpal tunnel pressure in lab studies [4]. If you try them later and get tingling or numbness, switch them off for good.</p>
+</details>
+<details>
+<summary><strong>Does self-massage work for carpal tunnel?</strong></summary>
+<p>It has the most practical support. Two of the controlled trials taught patients to massage their own hand and wrist, and both reported benefit alongside standard care [3][6]. The effects were measured over weeks, not years.</p>
+</details>
+<details>
+<summary><strong>Is massage better than a wrist splint?</strong></summary>
+<p>There is no good evidence that it is. The larger trial added massage to a splint rather than replacing it [3], and night splinting remains first-line NHS advice [12].</p>
+</details>
+<details>
+<summary><strong>Can massage avoid surgery?</strong></summary>
+<p>Skilled manual therapy matched surgery at one and four years in one well-run trial [9], but that was a clinician treating the median nerve's path. Talk to a hand specialist about conservative options before deciding.</p>
+</details>
+<details>
+<summary><strong>When should I see a doctor?</strong></summary>
+<p>Now, if numbness is constant, your grip is weakening, or the muscle at the base of your thumb looks thinner. Delay risks permanent nerve damage [13].</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>If you are shopping with carpal tunnel syndrome, two features matter more than any program list. First, hand and arm airbags you can switch off on their own, separate from the shoulder and leg zones. Second, strong neck and upper-back coverage, because that is the region a chair can genuinely work on. If your symptoms come from long hours at a keyboard, our guide to <a href="/learn/massage-and-desk-work">massage and desk work</a> covers the posture side, and our <a href="/best/office-workers">best massage chairs for office workers</a> roundup focuses on upper-body coverage. For wrists and hands that feel stiff rather than numb, see <a href="/learn/massage-and-joint-stiffness">massage and joint stiffness</a>.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist filtered for zone-by-zone airbag control and strong upper-back coverage.</p>
+<p><em>This article is general information, not medical advice. Numbness, tingling and weakness in the hand have several causes. Get a diagnosis before choosing equipment, and see a clinician promptly if symptoms are constant or getting worse.</em></p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Huisstede BM, Hoogvliet P, Franke TP, Randsdorp MS, Koes BW. <em>Carpal tunnel syndrome: effectiveness of physical therapy and electrophysical modalities. An updated systematic review of randomized controlled trials.</em> Archives of Physical Medicine and Rehabilitation. 2018;99(8):1623-1634. PMID: 28942118. <a href="https://doi.org/10.1016/j.apmr.2017.08.482">Link</a></p>
+<p>[2] Moraska A, Chandler C, Edmiston-Schaetzel A, et al. <em>Comparison of a targeted and general massage protocol on strength, function, and symptoms associated with carpal tunnel syndrome: a randomized pilot study.</em> Journal of Alternative and Complementary Medicine. 2008;14(3):259-267. PMID: 18370581. <a href="https://doi.org/10.1089/acm.2007.0647">Link</a></p>
+<p>[3] Madenci E, Altindag O, Koca I, Yilmaz M, Gur A. <em>Reliability and efficacy of the new massage technique on the treatment in the patients with carpal tunnel syndrome.</em> Rheumatology International. 2012;32(10):3171-3179. PMID: 21953301. <a href="https://doi.org/10.1007/s00296-011-2149-7">Link</a></p>
+<p>[4] Cobb TK, An KN, Cooney WP. <em>Externally applied forces to the palm increase carpal tunnel pressure.</em> Journal of Hand Surgery. 1995;20(2):181-185. PMID: 7775748. <a href="https://doi.org/10.1016/S0363-5023(05)80004-8">Link</a></p>
+<p>[5] Qerama E, Kasch H, Fuglsang-Frederiksen A. <em>Occurrence of myofascial pain in patients with possible carpal tunnel syndrome: a single-blinded study.</em> European Journal of Pain. 2009;13(6):588-591. PMID: 18778960. <a href="https://doi.org/10.1016/j.ejpain.2008.07.009">Link</a></p>
+<p>[6] Field T, Diego M, Cullen C, et al. <em>Carpal tunnel syndrome symptoms are lessened following massage therapy.</em> Journal of Bodywork and Movement Therapies. 2004;8(1):9-14. <a href="https://doi.org/10.1016/S1360-8592(03)00064-0">Link</a></p>
+<p>[7] Elliott R, Burkett B. <em>Massage therapy as an effective treatment for carpal tunnel syndrome.</em> Journal of Bodywork and Movement Therapies. 2013;17(3):332-338. PMID: 23768278. <a href="https://doi.org/10.1016/j.jbmt.2012.12.003">Link</a></p>
+<p>[8] Jimenez-del-Barrio S, Cadellans-Arroniz A, Ceballos-Laita L, et al. <em>The effectiveness of manual therapy on pain, physical function, and nerve conduction studies in carpal tunnel syndrome patients: a systematic review and meta-analysis.</em> International Orthopaedics. 2022;46(2):301-312. PMID: 34862562. <a href="https://doi.org/10.1007/s00264-021-05272-2">Link</a></p>
+<p>[9] Fernandez-de-las-Penas C, Ortega-Santiago R, de la Llave-Rincon AI, et al. <em>Manual physical therapy versus surgery for carpal tunnel syndrome: a randomized parallel-group trial.</em> Journal of Pain. 2015;16(11):1087-1094. PMID: 26281946. Four-year follow-up: Physical Therapy. 2020;100(11):1987-1996. PMID: 32766779. <a href="https://doi.org/10.1093/ptj/pzaa150">Link</a></p>
+<p>[10] Kubo K, Cheng YS, Zhou B, et al. <em>The quantitative evaluation of the relationship between the forces applied to the palm and carpal tunnel pressure.</em> Journal of Biomechanics. 2018;66:170-174. PMID: 29137727. <a href="https://doi.org/10.1016/j.jbiomech.2017.10.039">Link</a></p>
+<p>[11] Azadeh H, Dehghani M, Zarezadeh A. <em>Incidence of trapezius myofascial trigger points in patients with the possible carpal tunnel syndrome.</em> Journal of Research in Medical Sciences. 2010;15(5):250-255. PMID: 21526092. <a href="https://pubmed.ncbi.nlm.nih.gov/21526092/">Link</a></p>
+<p>[12] National Health Service. <em>Carpal tunnel syndrome.</em> Page last reviewed 17 April 2024. <a href="https://www.nhs.uk/conditions/carpal-tunnel-syndrome/">Link</a></p>
+<p>[13] Cleveland Clinic. <em>Carpal Tunnel Syndrome.</em> Last updated 12 January 2024. <a href="https://my.clevelandclinic.org/health/diseases/4005-carpal-tunnel-syndrome">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-endometriosis",
+    title: "Massage and Endometriosis: What the Trials Actually Tested",
+    excerpt: "Two randomised trials suggest hands-on therapy can ease endometriosis pain, but neither tested massage on its own, and one was not massage at all. Here is what the evidence supports, where a massage chair fits, and where it does not.",
+    order: 135,
+    publishedAt: "2026-10-03",
+    body: `<p><strong>Hands-on therapy may ease endometriosis pain, but the evidence is thinner than it looks. Both randomised trials combined massage-type care with other treatments, one of them was spinal manipulation rather than massage, and the only study of massage on its own had no comparison group.</strong> A massage chair can offer lower-back pressure and heat as part of a pain-day routine. It cannot treat endometriosis, and nothing should delay a diagnosis.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>The massage trial was a package:</strong> 44 women with endometriosis pelvic pain did four weeks of hydrotherapy combined with Swedish massage. Period pain and pain during sex improved, but overall quality of life did not change [1]</p>
+<p><strong>The "manual therapy" trial was manipulation:</strong> In 41 women, an 8-week protocol of spinal thrust techniques and abdominal and pelvic mobilisation reduced pain, with the improvement still present six months later [2]</p>
+<p><strong>Massage alone has one small uncontrolled study:</strong> 23 women given 20 sessions of abdominal and sacral massage reported less pain, but with no comparison group [3]</p>
+<p><strong>Local beats general:</strong> A 2026 meta-analysis found physiotherapy reduced endometriosis pain, and techniques applied locally to the painful area outperformed generally applied ones [4]</p></div>
+<h2>Does massage help endometriosis pain?</h2>
+<p>Endometriosis affects an estimated 10 percent of women of reproductive age, roughly 190 million people worldwide. There is no cure, and the World Health Organization notes that long delays in diagnosis are common [5]. So it is no surprise that people look for anything that eases the pain between medical appointments.</p>
+<p>The research on massage specifically is small, and it needs reading carefully:</p>
+<table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Participants</th>
+<th>What was actually delivered</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rodriguez-Ruiz 2024 [1]</td>
+<td>44 women, randomised</td>
+<td>Hydrotherapy plus Swedish massage in an immersive spa setting, 4 weeks</td>
+<td>Period pain (large effect) and pain during sex (moderate) improved; overall quality of life did not</td>
+</tr>
+<tr>
+<td>Munoz-Gomez 2023 [2]</td>
+<td>41 women, randomised vs placebo</td>
+<td>Spinal manipulation of the neck, mid-back and pelvis, plus abdominal, ligament, pelvic floor and cranial techniques, 8 weeks</td>
+<td>Less pain and better lumbar mobility, with pain gains held at 6 months</td>
+</tr>
+<tr>
+<td>Valiani 2010 [3]</td>
+<td>23 women, no control</td>
+<td>Pressure-point massage on the abdomen and sacrum, 20 sessions</td>
+<td>Pain lower after treatment and six weeks later</td>
+</tr>
+</tbody>
+</table>
+<p>Read the middle column. In the first trial, warm water and the setting were delivered alongside the massage, so nobody can say how much of the benefit came from the massage itself. The second trial is often summarised as "manual therapy," but its protocol was high-velocity spinal manipulation and visceral techniques, which is a different discipline. Only the third study tested massage alone, and without a comparison group it cannot separate the massage from placebo or the natural ebb and flow of symptoms.</p>
+<p>None of this means massage does nothing. It means the accurate claim is modest: hands-on care, combined with other treatments, eased pain in small trials.</p>
+<h2>What the reviews say</h2>
+<p>Several recent reviews have pooled "physiotherapy" or "physical therapy" for endometriosis, and they are generally positive. A network meta-analysis of 33 trials and 2,323 women ranked physical therapy highest among non-drug options for overall pain and period pain [6].</p>
+<p>The catch is what that category contains. In a 2025 review of 17 trials, about a third tested electrotherapy, a third tested exercise, and the rest were pelvic floor work, Swedish massage and other approaches [7]. In the 2026 meta-analysis above, electrotherapy and laser devices produced the largest effects [4]. So these reviews support physiotherapy as a field. They do not produce a number you can attach to massage, and we do not.</p>
+<p>The detail from that 2026 analysis that matters most for chair shoppers is the last one: <strong>locally applied techniques beat generally applied ones</strong> [4]. A massage chair is about as general as treatment gets.</p>
+<h2>Where a massage chair fits</h2>
+<p>Endometriosis pain often sits in the lower abdomen and lower back [8]. A chair cannot touch the abdomen, but its rollers do reach the lower back and sacrum, which happens to be one of the areas worked in the massage-only study [3]. Pair that with lumbar heat and you have something that can make a bad day more bearable.</p>
+<p>On heat specifically: the strong trial evidence for heat comes from ordinary period pain (primary dysmenorrhea), where an abdominal heat patch worn about 12 hours a day performed as well as ibuprofen [9]. Endometriosis is a different condition, those trials did not include it, and a chair session is far shorter than a 12-hour patch. Heat is a sensible comfort measure, but treat the numbers from period-pain studies as not transferable. Our explainers on <a href="/learn/heat-therapy">heat therapy</a> and <a href="/learn/heated-massage-chairs">heated massage chairs</a> cover what chair heaters actually deliver.</p>
+<p>For the overlapping question of period pain without endometriosis, see <a href="/learn/massage-and-menstrual-cramps">massage and menstrual cramps</a>.</p>
+<h2>How a massage chair delivers this</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Can a chair do it?</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hydrotherapy plus whole-body Swedish massage</td>
+<td><strong>No</strong></td>
+<td>The randomised massage trial's package [1]</td>
+</tr>
+<tr>
+<td>Spinal manipulation and pelvic techniques</td>
+<td><strong>No</strong></td>
+<td>Clinician-delivered protocol [2]</td>
+</tr>
+<tr>
+<td>Abdominal pressure-point work</td>
+<td><strong>No</strong></td>
+<td>Chairs do not work the abdomen [3]</td>
+</tr>
+<tr>
+<td>Pressure on the lower back and sacrum</td>
+<td><strong>Partly</strong></td>
+<td>Rollers reach the area, though no study tested a chair [3]</td>
+</tr>
+<tr>
+<td>Lumbar heat</td>
+<td><strong>Yes, on heated models</strong></td>
+<td>Comfort measure; heat trials were in ordinary period pain [9]</td>
+</tr>
+<tr>
+<td>Treat or slow endometriosis</td>
+<td><strong>No</strong></td>
+<td>No cure exists; medical and surgical care manage it [5]</td>
+</tr>
+</tbody>
+</table>
+<h2>Safety and when to see a doctor</h2>
+<p>Get assessed if you have painful periods that disrupt your life, pain during or after sex, pain when you go to the toilet, or trouble getting pregnant. The NHS notes that endometriosis can take a long time to diagnose because its symptoms overlap with adenomyosis, fibroids, pelvic inflammatory disease and IBS [8]. Relief from heat or massage should never become the reason you stop pushing for answers.</p>
+<p>On flare days, go gentle. Women in the hammam trial had heightened pressure sensitivity in the pelvic region at baseline [1], and a strong lower-back roller program is not what a flaring body wants.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Does massage help endometriosis?</strong></summary>
+<p>Possibly, for pain, in a modest way. Controlled trials found benefit when massage-type care was combined with other treatments [1][2], and one small uncontrolled study found pain relief from massage alone [3]. No study shows massage affects the disease itself.</p>
+</details>
+<details>
+<summary><strong>Can a massage chair help endometriosis pain?</strong></summary>
+<p>It can offer lower-back pressure and heat, which some people find soothing on pain days. No study has tested a chair for endometriosis, and the best review found local treatments work better than general ones [4].</p>
+</details>
+<details>
+<summary><strong>Is heat good for endometriosis pain?</strong></summary>
+<p>Heat is a reasonable comfort measure. The strongest heat trials were in ordinary period pain rather than endometriosis [9], so expect relief to vary.</p>
+</details>
+<details>
+<summary><strong>Is it safe to use a massage chair with endometriosis?</strong></summary>
+<p>For most people, yes, at gentle settings. Pelvic and lower-back tenderness can be heightened during flares [1], so lower the intensity and stop if pain increases.</p>
+</details>
+<details>
+<summary><strong>Can massage replace medical treatment for endometriosis?</strong></summary>
+<p>No. Medical care with pain relief and hormones comes first, with surgery if needed [8]. Massage is at most an add-on for comfort.</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>For endometriosis, the useful features are narrow: good lower-back and sacral roller coverage, lumbar heat you can switch on independently of the massage, and a gentle intensity floor for flare days. Our guide to <a href="/learn/massage-and-lower-back-pain">massage and lower back pain</a> covers the lumbar side, and the <a href="/best/lower-back-pain">best massage chairs for lower back pain</a> roundup lists models with strong lumbar heat and coverage. For how massage affects pain more broadly, see <a href="/learn/massage-and-pain">massage and pain</a>.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to shortlist chairs with lumbar heat and adjustable lower-back intensity.</p>
+<p><em>This article is general information, not medical advice. If you have pelvic pain, painful periods or pain during sex, see a doctor. Endometriosis is often diagnosed late, and early assessment matters.</em></p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Rodriguez-Ruiz A, Arcos-Azubel C, Ruiz-Perez M, et al. <em>The benefits of an integral HAMMAM experience combining hydrotherapy and Swedish massage on pain, subjective well-being and quality of life in women with endometriosis-related chronic pelvic pain: a randomized controlled trial.</em> Medicina (Kaunas). 2024;60(10):1677. PMID: 39459464. <a href="https://doi.org/10.3390/medicina60101677">Link</a></p>
+<p>[2] Munoz-Gomez E, Alcaraz-Martinez AM, Molla-Casanova S, et al. <em>Effectiveness of a manual therapy protocol in women with pelvic pain due to endometriosis: a randomized clinical trial.</em> Journal of Clinical Medicine. 2023;12(9):3310. PMID: 37176750. <a href="https://doi.org/10.3390/jcm12093310">Link</a></p>
+<p>[3] Valiani M, Ghasemi N, Bahadoran P, Heshmat R. <em>The effects of massage therapy on dysmenorrhea caused by endometriosis.</em> Iranian Journal of Nursing and Midwifery Research. 2010;15(4):167-171. PMID: 21589790. <a href="https://pubmed.ncbi.nlm.nih.gov/21589790/">Link</a></p>
+<p>[4] Can G, das Virgens IPA, Feher B, et al. <em>Physiotherapy for endometriosis-associated pelvic pain: a systematic review and meta-analysis.</em> Pain Medicine. 2026;27(1):95-103. PMID: 40705433. <a href="https://doi.org/10.1093/pm/pnaf083">Link</a></p>
+<p>[5] World Health Organization. <em>Endometriosis.</em> Fact sheet, 15 October 2025. <a href="https://www.who.int/news-room/fact-sheets/detail/endometriosis">Link</a></p>
+<p>[6] Zheng X, Wang Y, Li H, et al. <em>Comparative effectiveness of non-pharmacological interventions for pain and quality of life in women with endometriosis: a systematic review and network meta-analysis.</em> Journal of Pain Research. 2026;19:577080. PMID: 41743446. <a href="https://doi.org/10.2147/JPR.S577080">Link</a></p>
+<p>[7] Rodriguez-Ruiz A, Sierra-Artal B, Lozano-Lozano M, Artacho-Cordon F. <em>Impact of physical rehabilitation on endometriosis and adenomyosis-related symptoms: a systematic review and meta-analysis.</em> Journal of Clinical Medicine. 2025;14(23):8284. PMID: 41375589. <a href="https://doi.org/10.3390/jcm14238284">Link</a></p>
+<p>[8] National Health Service. <em>Endometriosis.</em> <a href="https://www.nhs.uk/conditions/endometriosis/">Link</a></p>
+<p>[9] Akin MD, Weingand KW, Hengehold DA, et al. <em>Continuous low-level topical heat in the treatment of dysmenorrhea.</em> Obstetrics and Gynecology. 2001;97(3):343-349. <a href="https://pubmed.ncbi.nlm.nih.gov/11239634/">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-multiple-sclerosis",
+    title: "Massage and Multiple Sclerosis: Fatigue, Heat, and What a Chair Can Do",
+    excerpt: "Small trials suggest massage can ease fatigue, pain and stress in multiple sclerosis, but no guideline recommends it and the spasticity evidence is mixed. The biggest chair-specific issue is heat: most people with MS are heat sensitive.",
+    order: 136,
+    publishedAt: "2026-10-03",
+    body: `<p><strong>Massage may help with fatigue, pain, stress and quality of life in multiple sclerosis, based on a handful of small trials. No guideline recommends it, and the evidence on spasticity is mixed, so do not buy a chair expecting it to loosen stiff muscles.</strong> The most important thing for a chair shopper with MS is not the massage at all. It is the heater: an estimated 60 to 80 percent of people with MS get a temporary worsening of symptoms when their body heats up.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>Heat sensitivity is the norm, not the exception:</strong> An estimated 60 to 80 percent of people with MS experience temporary worsening of symptoms with heat exposure [1]</p>
+<p><strong>The best trial is encouraging but small:</strong> 70 people with MS who had two 50-minute Swedish massages a week for six weeks reported better quality of life and lower stress, anxiety, depression, pain and fatigue than usual care [2]</p>
+<p><strong>The fatigue meta-analysis is weaker than it sounds:</strong> A pooled estimate across six studies favoured massage, but all six were non-randomised, results varied widely, and the authors found signs of publication bias [3]</p>
+<p><strong>No guideline recommendation:</strong> The American Academy of Neurology's 2014 guideline on complementary therapies in MS made no recommendation for massage [4]</p></div>
+<h2>Is massage good for MS?</h2>
+<p>It looks helpful for how people feel, with real limits on how sure we can be. The research comes down to a few studies:</p>
+<table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Design</th>
+<th>What was tested</th>
+<th>What it found</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Naderi 2024 [2]</td>
+<td>Randomised, 70 people</td>
+<td>Whole-body Swedish massage twice weekly, 6 weeks, vs usual care</td>
+<td>Better quality of life; lower stress, anxiety, depression, pain and fatigue; better sleep</td>
+</tr>
+<tr>
+<td>Negahban 2013 [5]</td>
+<td>Randomised pilot, 48 people in 4 groups</td>
+<td>Swedish massage vs exercise vs both vs neither, 5 weeks</td>
+<td>Massage reduced pain more than exercise did</td>
+</tr>
+<tr>
+<td>Backus 2016 [6]</td>
+<td>Single group, 24 people</td>
+<td>Weekly massage, 6 weeks</td>
+<td>Less fatigue and pain. No change in spasticity</td>
+</tr>
+<tr>
+<td>Salarvand 2021 [3]</td>
+<td>Meta-analysis</td>
+<td>6 non-randomised studies of fatigue</td>
+<td>Pooled result favoured massage; high variability and likely publication bias</td>
+</tr>
+</tbody>
+</table>
+<p>None of the randomised trials used a sham treatment, so some of the benefit may come from attention, touch and rest rather than anything specific to massage. That is not nothing for a condition where fatigue and stress are daily burdens, but it is a reason to expect modest, short-lived relief.</p>
+<p>The U.S. National Center for Complementary and Integrative Health sums it up plainly: "Very few studies have been conducted on massage for symptoms associated with multiple sclerosis" [7].</p>
+<h2>What about spasticity?</h2>
+<p>This is where marketing outruns the evidence. The 2024 trial reported lower spasticity scores after six weeks of massage [2]. The 2016 pilot measured spasticity the same way and found no significant change [6]. Two small studies pointing in different directions is not a basis for a claim, and the neurology guideline did not endorse massage for any MS symptom [4].</p>
+<p>So treat any spasticity relief as a pleasant surprise rather than the reason to buy. Spasticity is something to manage with your neurologist and physiotherapist.</p>
+<h2>The heat question</h2>
+<p>This is the chair-specific finding that matters most.</p>
+<p>Multiple sclerosis strips the insulating myelin from nerve fibres, and damaged fibres conduct signals poorly when they warm up. That is why an estimated 60 to 80 percent of people with MS notice their symptoms get temporarily worse with heat [1]. The effect is named Uhthoff's phenomenon, after the doctor who described vision blurring in MS patients after exercise or a hot bath [8].</p>
+<p>Two facts keep this in proportion. First, a heat flare is temporary, usually lasting under 24 hours, and it is not a relapse or new damage [9]. Second, a 2016 review argues that the historic blanket ban on warmth in MS was broader than the evidence needed [8].</p>
+<p>What nobody has measured is whether a chair's heater, which warms a patch of your lower back or calves, raises your core temperature enough to trigger symptoms. So the sensible approach is cautious testing:</p>
+<ul>
+<li><strong>Start every new chair with heat off.</strong></li>
+<li>If you want to try it, use the lowest setting for a short session.</li>
+<li>If numbness, weakness, blurred vision or fatigue flare up, switch heat off, get out of the chair, and cool down. It should pass.</li>
+</ul>
+<p>Our guide to <a href="/learn/heated-massage-chairs">heated massage chairs</a> explains how chair heaters work and why you want one you can switch off independently of the massage.</p>
+<h2>Other things MS changes about chair use</h2>
+<p><strong>Numbness.</strong> If you have reduced sensation in your back or legs, you may not feel when pressure or heat is too strong. Use moderate intensity over numb areas. The same logic applies in <a href="/learn/massage-and-diabetic-neuropathy">massage and diabetic neuropathy</a>.</p>
+<p><strong>Balance.</strong> Loss of balance and dizziness are common in MS [10], and getting out of a reclined chair is a classic fall moment. Return to upright slowly and sit for a moment before standing. A <a href="/learn/lift-assist-massage-chairs">lift-assist chair</a> is worth considering if transfers are already difficult.</p>
+<p><strong>Fatigue.</strong> On high-fatigue days, a shorter session is better than a long one that leaves you drained.</p>
+<h2>How a massage chair delivers this</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Can a chair do it?</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Whole-body Swedish-style massage</td>
+<td><strong>Partly</strong></td>
+<td>Rollers and airbags cover the back, shoulders, legs and feet, without a therapist adapting to you [2][5]</td>
+</tr>
+<tr>
+<td>Slow back massage</td>
+<td><strong>Partly</strong></td>
+<td>The style closest to chair rollers among the fatigue studies [3]</td>
+</tr>
+<tr>
+<td>Reduce spasticity</td>
+<td><strong>Not established</strong></td>
+<td>Trial results are mixed [2][6]</td>
+</tr>
+<tr>
+<td>Heat</td>
+<td><strong>Yes, and it needs caution</strong></td>
+<td>Most people with MS are heat sensitive [1]</td>
+</tr>
+<tr>
+<td>Change the course of MS</td>
+<td><strong>No</strong></td>
+<td>Nothing suggests massage affects relapses or progression</td>
+</tr>
+</tbody>
+</table>
+<p>For what Swedish massage involves, see our <a href="/learn/swedish-massage-explained">Swedish massage explainer</a>.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Is it safe to use a massage chair with MS?</strong></summary>
+<p>For most people, yes, with three adjustments: start with heat off, use moderate pressure over any numb areas, and get up slowly. Talk to your neurologist if you have significant sensory loss or balance problems. NCCIH describes the risk of harm from massage as low [7].</p>
+</details>
+<details>
+<summary><strong>Can a heated massage chair make MS worse?</strong></summary>
+<p>Heat can temporarily worsen symptoms in most people with MS [1]. It is not a relapse and usually passes within 24 hours [9]. Start with heat off and test it carefully.</p>
+</details>
+<details>
+<summary><strong>Does massage help MS fatigue?</strong></summary>
+<p>Small studies suggest it may [2][3][6], but the evidence is low quality. Expect modest relief.</p>
+</details>
+<details>
+<summary><strong>Does massage help MS spasticity?</strong></summary>
+<p>The evidence is mixed: one trial found improvement and another found none [2][6]. Do not rely on a chair for spasticity.</p>
+</details>
+<details>
+<summary><strong>Does massage slow MS?</strong></summary>
+<p>No. There is no evidence that massage affects relapses or progression. Disease-modifying treatment is your neurologist's area.</p>
+</details>
+<details>
+<summary><strong>What about reflexology?</strong></summary>
+<p>The neurology guideline rated reflexology possibly effective for tingling and numbness, at its lowest confidence level [4]. A chair's foot rollers are not the same as point-specific reflexology.</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>For MS, look for three things: heat on its own switch, a gentle intensity floor, and an easy exit, whether that is a modest recline range or a lift-assist base. Our <a href="/learn/special-populations">special populations guide</a> covers general precautions, and our <a href="/best/stress-relief">best massage chairs for stress relief</a> roundup focuses on the gentler, relaxation-led programs that match where the MS evidence is strongest.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to shortlist chairs with separately switchable heat and gentle programs.</p>
+<p><em>This article is general information, not medical advice. Talk to your neurologist before starting massage, especially if you have heat sensitivity, significant numbness, or balance problems.</em></p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Davis SL, Wilson TE, White AT, Frohman EM. <em>Thermoregulation in multiple sclerosis.</em> Journal of Applied Physiology. 2010;109(5):1531-1537. PMID: 20671034. <a href="https://doi.org/10.1152/japplphysiol.00460.2010">Link</a></p>
+<p>[2] Naderi A, Rezvani MH, Aminian-Far A, Hamood-Ahvazi S. <em>Can a six-week Swedish massage reduce mood disorders and enhance the quality of life in individuals with multiple sclerosis? A randomized control clinical trial.</em> Explore (NY). 2024;20(5):103032. PMID: 39018656. <a href="https://doi.org/10.1016/j.explore.2024.103032">Link</a></p>
+<p>[3] Salarvand S, Heidari ME, Farahi K, et al. <em>Effectiveness of massage therapy on fatigue and pain in patients with multiple sclerosis: a systematic review and meta-analysis.</em> Multiple Sclerosis Journal: Experimental, Translational and Clinical. 2021;7(2). PMID: 34188950. <a href="https://doi.org/10.1177/20552173211022779">Link</a></p>
+<p>[4] Yadav V, Bever C, Bowen J, et al. <em>Summary of evidence-based guideline: complementary and alternative medicine in multiple sclerosis.</em> Neurology. 2014;82(12):1083-1092. PMID: 24663230. <a href="https://doi.org/10.1212/WNL.0000000000000250">Link</a></p>
+<p>[5] Negahban H, Rezaie S, Goharpey S. <em>Massage therapy and exercise therapy in patients with multiple sclerosis: a randomized controlled pilot study.</em> Clinical Rehabilitation. 2013;27(12):1126-1136. PMID: 23828184. <a href="https://doi.org/10.1177/0269215513491586">Link</a></p>
+<p>[6] Backus D, Manella C, Bender A, Sweatman M. <em>Impact of massage therapy on fatigue, pain, and spasticity in people with multiple sclerosis: a pilot study.</em> International Journal of Therapeutic Massage and Bodywork. 2016;9(4):4-13. PMID: 27974947. <a href="https://doi.org/10.3822/ijtmb.v9i4.327">Link</a></p>
+<p>[7] National Center for Complementary and Integrative Health. <em>Multiple Sclerosis and Complementary Health Approaches: What the Science Says.</em> <a href="https://www.nccih.nih.gov/health/providers/digest/multiple-sclerosis-and-complementary-health-approaches-science">Link</a></p>
+<p>[8] Opara JA, Brola W, Wylegala AA, Wylegala E. <em>Uhthoff's phenomenon 125 years later: what do we know today?</em> Journal of Medicine and Life. 2016;9(1):101-105. PMID: 27974923. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5152601/">Link</a></p>
+<p>[9] Panginikkod S, Rayi A, Rocha Cabrero F, Rukmangadachar LA. <em>Uhthoff Phenomenon.</em> StatPearls, NCBI Bookshelf. PMID: 29261916. <a href="https://www.ncbi.nlm.nih.gov/books/NBK470244/">Link</a></p>
+<p>[10] Cleveland Clinic. <em>Multiple Sclerosis (MS).</em> Last updated 25 January 2024. <a href="https://my.clevelandclinic.org/health/diseases/17248-multiple-sclerosis">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-muscle-cramps",
+    title: "Massage and Muscle Cramps: What Works for Night Cramps, and When a Cramp Is Not a Cramp",
+    excerpt: "Massage reduced leg cramps in small trials of dialysis patients, but nobody has tested it for ordinary night cramps, where stretching is the most-studied option. Here is what helps, what a chair can do, and the calf pain you should never massage.",
+    order: 137,
+    publishedAt: "2026-10-03",
+    body: `<p><strong>Massage reduced leg cramps in small trials of people on kidney dialysis, and doctors' guidance suggests massage and stretching as reasonable things to try. But no trial has tested massage for ordinary night cramps, and the treatments that have been tested, stretching programs, give mixed results.</strong> A massage chair with calf airbags can knead the muscle that cramps most. Before you rely on one, rule out the calf pain that looks like a cramp and is not: a blood clot.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p><strong>Dialysis trials are positive:</strong> In 26 dialysis patients, 20 minutes of lower-leg massage during each session cut cramping at home by 1.3 episodes a week, against 0.2 in the usual-care group [1]</p>
+<p><strong>Ordinary night cramps have no massage trial:</strong> A Cochrane review of non-drug treatments found three eligible trials, and all three tested stretching [2]</p>
+<p><strong>Stretching gives mixed results:</strong> Nightly calf and hamstring stretching reduced night cramps in 80 adults over 55 [3], but calf stretching alone did not work in a 191-person trial [4]</p>
+<p><strong>Guidance rates massage as worth a try:</strong> American Family Physician says passive stretching and deep tissue massage "may be suggested as a therapeutic trial," on expert-opinion-level evidence [5]</p></div>
+<h2>Does massage help leg cramps?</h2>
+<p>It depends which cramps. The only randomised trials of massage for cramps were done in people having hemodialysis, where cramps are common and linked to fluid being removed during treatment.</p>
+<table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Who</th>
+<th>What was done</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mastnardo 2016 [1]</td>
+<td>26 dialysis patients</td>
+<td>20-minute lower-leg massage each session, 3 times a week, 2 weeks</td>
+<td>Fewer cramps at home; no significant change during dialysis</td>
+</tr>
+<tr>
+<td>Parlak 2024 [6]</td>
+<td>36 dialysis patients</td>
+<td>Lower-leg massage, 6 sessions over 2 weeks</td>
+<td>Fewer and milder cramps, and better sleep scores</td>
+</tr>
+<tr>
+<td>Cetin 2026 [7]</td>
+<td>94 dialysis patients</td>
+<td>Foot and lower-leg massage with aromatherapy oil or plain oil, 4 weeks, vs no massage</td>
+<td>Cramps and pain fell in both massage groups</td>
+</tr>
+</tbody>
+</table>
+<p>That last trial is worth a second look. Its "placebo" group was massaged with baby oil, and those patients improved too. That makes it quiet evidence for massage itself.</p>
+<p>For the night cramps that wake ordinary people, mostly older adults, the picture is different. The 2021 Cochrane review searched for every non-drug, non-invasive treatment tested for at least four weeks. It found three trials, and every one tested a stretching routine [2]. Nobody has run a massage trial in this group.</p>
+<p>So massage for night cramps rests on clinical guidance rather than trials. American Family Physician suggests passive stretching and deep tissue massage as a therapeutic trial [5], and Cleveland Clinic lists massage, with your hands or a roller, among the things most likely to help [8].</p>
+<h2>What to do during a cramp</h2>
+<p>Cleveland Clinic's advice for stopping a cramp is practical: stretch the muscle, massage it with your hands or a massage roller, stand up and walk around, and apply heat or ice [8]. For a calf cramp, the stretch is pulling your toes up toward your shin.</p>
+<p>A massage chair is not the fastest tool here. Getting into a chair, starting a program and waiting for the calf airbags to cycle takes longer than standing on the floor and leaning into a stretch. Where a chair can help is afterward, when the muscle is sore, and as part of an evening routine.</p>
+<h2>Preventing night cramps</h2>
+<p>The best-studied prevention is stretching before bed. In a Dutch trial of 80 adults over 55, stretching the calves and hamstrings every night for six weeks cut cramp frequency and severity compared with doing nothing [3]. A British trial of calf stretching alone found no effect [4], and the Cochrane review rates the overall evidence as low to very low certainty [2].</p>
+<p>Some chairs include stretch programs that move the legs and hips. Those are not the same as the standing calf and hamstring stretches in the trial, but they can be part of the same wind-down routine. Our guide to <a href="/learn/massage-chair-stretch-program">massage chair stretch programs</a> explains what they actually move.</p>
+<p>One theory worth knowing: lying down tends to leave the foot pointed, with the calf muscle shortened, which may make it easier to cramp [5]. If your chair's leg rest leaves your toes pointed for a long session, that is a reasonable thing to change.</p>
+<h2>When a cramp is not a cramp</h2>
+<p>This section matters more than anything above it.</p>
+<p><strong>A blood clot in the calf can feel like a cramp.</strong> Mayo Clinic lists deep vein thrombosis symptoms as leg swelling, leg pain, cramping or soreness often starting in the calf, a change in skin colour, and warmth [9]. Calf airbags squeeze exactly that tissue. If calf pain is on one side, does not release, and comes with swelling, warmth or colour change, do not massage it. Get checked. If you also feel short of breath or have chest pain, the NHS says to call emergency services [10].</p>
+<p>Other patterns that need a clinician rather than a chair [5][8]:</p>
+<ul>
+<li><strong>Calf pain that comes on when you walk and eases when you stop</strong> is claudication, a sign of narrowed leg arteries, not a cramp.</li>
+<li><strong>Cramps that wake you at night, happen often, or come with numbness or swelling</strong> deserve a check-up.</li>
+<li><strong>New cramps after starting a medication.</strong> Several drugs are associated with leg cramps, so ask your pharmacist [5].</li>
+</ul>
+<p>And two myths to drop. Doctors' guidance says night cramps are probably caused by muscle fatigue and nerve misfiring, not by low potassium, low magnesium or dehydration, and routine blood tests are usually unnecessary [5]. Quinine, once a standard cramp remedy, is no longer recommended because of the risk of serious side effects [5][11].</p>
+<h2>How a massage chair delivers this</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Can a chair do it?</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Knead and compress the calves</td>
+<td><strong>Yes, on chairs with calf airbags or rollers</strong></td>
+<td>Closest match to the dialysis trials, though no chair was tested [1][6]</td>
+</tr>
+<tr>
+<td>Stop a cramp in progress</td>
+<td><strong>Poorly</strong></td>
+<td>Standing, walking and stretching are faster [8]</td>
+</tr>
+<tr>
+<td>Bedtime calf and hamstring stretching</td>
+<td><strong>Partly, on some models</strong></td>
+<td>The trial stretches were done standing [3]</td>
+</tr>
+<tr>
+<td>Heat</td>
+<td><strong>Yes, on heated models</strong></td>
+<td>Listed as self-care [8]; not tested for cramps</td>
+</tr>
+<tr>
+<td>Find the cause</td>
+<td><strong>No</strong></td>
+<td>Vascular, nerve and medication causes need a clinician [5]</td>
+</tr>
+</tbody>
+</table>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Does massage help leg cramps?</strong></summary>
+<p>It reduced cramps in small trials of dialysis patients [1][6][7], and doctors' guidance suggests it as worth trying for night cramps [5]. No trial has tested it for ordinary night cramps.</p>
+</details>
+<details>
+<summary><strong>Can a massage chair stop a cramp?</strong></summary>
+<p>Not quickly. Stretching the calf and walking around are faster [8]. A chair's calf airbags are more useful for soreness afterward and as part of an evening routine.</p>
+</details>
+<details>
+<summary><strong>Are leg cramps caused by low potassium or magnesium?</strong></summary>
+<p>Usually not. American Family Physician says night cramps have not been linked to electrolyte problems or dehydration [5].</p>
+</details>
+<details>
+<summary><strong>When is calf pain not a cramp?</strong></summary>
+<p>When it is one-sided, persistent, and comes with swelling, warmth or colour change. That can be a blood clot [9]. Do not massage it; get checked.</p>
+</details>
+<details>
+<summary><strong>Should I take quinine for cramps?</strong></summary>
+<p>No. It is no longer recommended for leg cramps because of potential toxicity [5][11].</p>
+</details>
+<h2>Finding a chair that fits</h2>
+<p>For cramp-prone legs, look for calf airbags or rollers you can control on their own, adjustable leg-rest angle, and lower-leg heat. Our guides to <a href="/learn/massage-and-circulation">massage and circulation</a> and <a href="/learn/massage-and-restless-leg-syndrome">massage and restless leg syndrome</a> cover the other common leg complaints, and if your legs are numb or tingling, read <a href="/learn/massage-and-diabetic-neuropathy">massage and diabetic neuropathy</a> first. If you have visible varicose veins, see <a href="/learn/massage-and-varicose-veins">massage and varicose veins</a> for the pressure rules. Night cramps are most common in older adults, and our <a href="/best/seniors">best massage chairs for seniors</a> roundup focuses on gentle, adjustable leg programs.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to shortlist chairs with adjustable calf airbags and leg heat.</p>
+<p><em>This article is general information, not medical advice. One-sided calf pain with swelling, warmth or colour change can be a blood clot and needs prompt medical assessment.</em></p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Mastnardo D, Lewis JM, Hall K, et al. <em>Intradialytic massage for leg cramps among hemodialysis patients: a pilot randomized controlled trial.</em> International Journal of Therapeutic Massage and Bodywork. 2016;9(2):3-8. PMID: 27257445. <a href="https://doi.org/10.3822/ijtmb.v9i2.305">Link</a></p>
+<p>[2] Hawke F, Sadler SG, Katzberg HD, et al. <em>Non-drug therapies for the secondary prevention of lower limb muscle cramps.</em> Cochrane Database of Systematic Reviews. 2021;5:CD008496. PMID: 33998664. <a href="https://doi.org/10.1002/14651858.CD008496.pub3">Link</a></p>
+<p>[3] Hallegraeff JM, van der Schans CP, de Ruiter R, de Greef MH. <em>Stretching before sleep reduces the frequency and severity of nocturnal leg cramps in older adults: a randomised trial.</em> Journal of Physiotherapy. 2012;58(1):17-22. PMID: 22341378. <a href="https://doi.org/10.1016/S1836-9553(12)70068-1">Link</a></p>
+<p>[4] Coppin RJ, Wicke DM, Little PS. <em>Managing nocturnal leg cramps: calf-stretching exercises and cessation of quinine treatment: a factorial randomised controlled trial.</em> British Journal of General Practice. 2005;55(512):186-191. PMID: 15808033. <a href="https://pubmed.ncbi.nlm.nih.gov/15808033/">Link</a></p>
+<p>[5] Allen RE, Kirby KA. <em>Nocturnal leg cramps.</em> American Family Physician. 2012;86(4):350-355. PMID: 22963024. <a href="https://www.aafp.org/pubs/afp/issues/2012/0815/p350.html">Link</a></p>
+<p>[6] Parlak AG, Akgun Sahin Z. <em>The effect of massage on cramp frequency, cramp severity, and sleep quality of hemodialysis patients: a randomized controlled trial.</em> Hemodialysis International. 2024;28(4):405-418. PMID: 39013840. <a href="https://doi.org/10.1111/hdi.13169">Link</a></p>
+<p>[7] Cetin S, Tasci S, Kocyigit I, Saz A. <em>The effect of aromatherapy massage on cramp frequency, pain intensity, and quality of life in hemodialysis patients with muscle cramps: a randomized, placebo-controlled, mixed study.</em> Holistic Nursing Practice. 2026;40(4):258-272. PMID: 39787573. <a href="https://doi.org/10.1097/HNP.0000000000000715">Link</a></p>
+<p>[8] Cleveland Clinic. <em>Muscle Spasms (Muscle Cramps).</em> Last updated 20 October 2023. <a href="https://my.clevelandclinic.org/health/symptoms/21190-muscle-cramps">Link</a></p>
+<p>[9] Mayo Clinic. <em>Deep vein thrombosis (DVT): Symptoms and causes.</em> <a href="https://www.mayoclinic.org/diseases-conditions/deep-vein-thrombosis/symptoms-causes/syc-20352557">Link</a></p>
+<p>[10] National Health Service. <em>DVT (deep vein thrombosis).</em> <a href="https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/">Link</a></p>
+<p>[11] Katzberg HD, Khan AH, So YT. <em>Assessment: symptomatic treatment for muscle cramps (an evidence-based review).</em> Neurology. 2010;74(8):691-696. PMID: 20177124. <a href="https://doi.org/10.1212/WNL.0b013e3181d0ccca">Link</a></p>`,
+  },
+
 ]
 
 // ── HELPERS ─────────────────────────────────────────────────────────────────────────────────
