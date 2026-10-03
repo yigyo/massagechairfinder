@@ -687,6 +687,21 @@ export default async function ChairPage({ params }: { params: { slug: string } }
           </p>
         </div>
 
+        {/* Related guides (opt-in; only for chairs whose strongest ranking signal belongs to a category guide, not this review) */}
+        {c.relatedGuides && c.relatedGuides.length > 0 && (
+          <div className="mb-10">
+            <p className="text-sm text-warm-gray">
+              Looking for this as a category rather than this specific model? See our{" "}
+              {c.relatedGuides.map((g, i) => (
+                <span key={g.slug}>
+                  <Link href={"/learn/" + g.slug} className="text-bronze hover:text-gold">{g.label}</Link>
+                  {i < (c.relatedGuides as { slug: string; label: string }[]).length - 1 ? " and our " : "."}
+                </span>
+              ))}
+            </p>
+          </div>
+        )}
+
         {/* Spec table */}
         <div className="mb-12">
           <h2 className="text-2xl font-serif text-navy mb-4">Specs</h2>
