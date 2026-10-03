@@ -177,6 +177,10 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-varicose-veins",
       "massage-and-sleep-apnea",
       "massage-and-pacemaker",
+      "massage-and-carpal-tunnel",
+      "massage-and-endometriosis",
+      "massage-and-multiple-sclerosis",
+      "massage-and-muscle-cramps",
     ],
   },
 ]
