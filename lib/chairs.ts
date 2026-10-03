@@ -1849,13 +1849,13 @@ export const CHAIRS: Chair[] = [
   {    id: 'theramedic-flex',
     name: 'Theramedic Flex',
     brand: 'Theramedic',
-    active: true, goodwinActive: false, mcfActive: false,  // 2026-09-27: affiliateUrl confirmed 404 at osakimassagechair.com. Candidates found, neither wired (no confirmed affiliate program): titanchair.com/products/theramedic-flex ($1,999) and brand site theramedicchair.com/products/theramedicflexedition ($2,999, titled 'Flex Edition' -- confirm same SKU before using). Needs Yigyo decision on new affiliate relationship.
-    priceMin: 3499,
+    active: true, goodwinActive: false, mcfActive: true,  // 2026-10-03: reactivated. Old osakimassagechair.com URL 404'd 09-27. Re-wired to brand-direct theramedicchair.com 'Flex Edition' (In Stock, Add to Cart, $2,999); listing specs match this entry exactly (Flex SL-track, 260 lb, 4 in clearance, zero gravity, heat, foot). titanchair.com listing returned 404 on 10-03.
+    priceMin: 2999,  // theramedicchair.com 2026-10-03
     affiliateTier: 'A',
-    affiliateRetailer: 'osakimassagechair.com',
-    affiliateCommission: '5% (Rakuten)',
+    affiliateRetailer: 'theramedicchair.com',
+    affiliateCommission: 'none (direct retailer link)',
     goodwinStatus: 'none',
-    affiliateUrl: 'https://osakimassagechair.com/products/theramedic-flex',
+    affiliateUrl: 'https://theramedicchair.com/products/theramedicflexedition',
     imageUrl: '/images/chairs/theramedic-flex.jpg',
     track: 'Flex', roller: '2D',
     spaceSaving: true, wallClearanceIn: 4,
