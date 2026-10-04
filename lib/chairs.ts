@@ -376,7 +376,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 4,
-    priceMin: 11999,  // 2026-09-27: APPLIED per guardrail -- $11,999 held across two consecutive audits (09-20, 09-27), no strikethrough, in stock. Band moved mid ($3,000-$4,999) -> premium ($8,000-$11,999). Propagated: /best/3000-to-5000 (removed), compare page vs Genesis Max (reframed), brand/article prose. 2026-08-16: 'Save $8,000 While Supplies Last' promo, $3,999 (was 6999)
+    priceMin: 11999,  // 2026-09-27: APPLIED per guardrail -- $11,999 held across two consecutive audits (09-20, 09-27), no strikethrough, in stock. Band moved mid ($3,000-$4,999) -> premium ($8,000-$11,999). Propagated: /best/3000-to-5000 (removed), compare page vs Genesis Max (reframed), brand/article prose. 2026-08-16: 'Save $8,000 While Supplies Last' promo, $3,999 (was 6999). 2026-10-04: massagechairstore.com buy box reads $5,999.00 (page explicitly labels $11,999 as "Originally", confirming $5,999 is the live sale price, not a misread). Delta is 50%, over the 25% guardrail -- NOT applied. First observation of this figure; hold for reconfirmation next audit.
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -1897,7 +1897,7 @@ export const CHAIRS: Chair[] = [
     name: 'Ogawa Active XL 3D Massage Chair (OG-6300)',
     brand: 'Ogawa',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 2999,  // wishrockrelaxation.com re-verified 2026-06-01 via meta+JSON-LD+all variants ($2,999.99, no strikethrough); the 5-25 jump to 5899 was incorrect
+    priceMin: 2999,  // wishrockrelaxation.com re-verified 2026-06-01 via meta+JSON-LD+all variants ($2,999.99, no strikethrough); the 5-25 jump to 5899 was incorrect. 2026-10-04: og:price:amount meta tag AND rendered buy-box price both read $5,899.99 (no strikethrough) on 2 of 3 color variants (Black/Black, Gun Metal/Brown), screenshot-confirmed -- not a single-method misread this time. Delta is 96.7%, over the 25% guardrail, so NOT applied; holding for reconfirmation on the next audit before updating priceMin.
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -1917,7 +1917,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 merged duplicate Goodwin shadow
     goodwinLookupKey: 'ogawa master drive duo le 4d+3d',
     priceMin: 9399,
-    inStock: false,  // 2026-09-27: wishrockrelaxation.com shows 'Notify Me'/'Request a Quote', no Add to Cart. Same price ($9,399.99) confirmed IN STOCK at the brand's own site, ogawaworldusa.com -- candidate new affiliate source, needs Yigyo decision (no confirmed program today).
+    inStock: true,  // 2026-10-04: back in stock at wishrockrelaxation.com -- working Add to Cart confirmed directly (not just a page-text read), $9,499.99 (-41% off $15,999.99 list), within tolerance of catalog price. Reverses the 2026-09-27 OOS reading. The compare page referencing this chair (osaki-os-pro-maestro-le-vs-ogawa-og8901) needs no changes.
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -1976,7 +1976,7 @@ export const CHAIRS: Chair[] = [
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 merged duplicate Goodwin shadow
     goodwinLookupKey: 'ogawa master drive duo 4d+3d',
-    priceMin: 15999,
+    priceMin: 15999,  // 2026-10-04: confirmed live and in stock (ADD TO CART active, no sold-out marker) for the default Burgandy/Black variant at $15,999.99, matching catalog exactly. A same-day sub-agent read of this chair as "Sold Out" was a false positive, independently checked and overturned -- this site renders sold-out/add-to-cart markers for non-default color variants in the same DOM, which a naive read can pick up. No change made.
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -2117,7 +2117,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://www.relaxonchair.com/products/jasper-full-body-massage-chair?ref=gxoncaks',
-    amazonAsin: 'B0D325QC32',  // 2026-09-27: still no buy box (confirmed 3rd consecutive audit). 2026-09-06 / 2026-07-26: same finding -- Amazon listing live + correct product but NO featured buy box ('See All Buying Options' only). amazonUrl dropped; primary relaxonchair.com in stock. Re-wire when a featured offer returns.
+    amazonAsin: 'B0D325QC32',  // 2026-10-04: still no buy box (confirmed 4th consecutive audit). 2026-09-27 / 2026-09-06 / 2026-07-26: same finding -- Amazon listing live + correct product but NO featured buy box ('See All Buying Options' only). amazonUrl dropped; primary relaxonchair.com in stock. Re-wire when a featured offer returns.
     imageUrl: '/images/chairs/relax-on-chair-jasper.jpg',
     track: 'SL', roller: null,
     zeroGravity: true, heat: true, foot: true,
@@ -2881,7 +2881,7 @@ export const CHAIRS: Chair[] = [
     name: 'TLIFE 160 Zero Gravity',
     brand: 'TLIFE',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 999,  // amazon.com browser check 2026-09-20: $999.99 buy box (-17% off typical $1,199.99, 'Only 7 left'), B0F2FMVT7M did NOT redirect this run. Same band. Earlier: 2026-09-06 $1,199.99 deal (redirected to B0F2FP5DP5), 2026-08-16 $1,199.99 (was 1349)
+    priceMin: 999,  // amazon.com browser check 2026-09-20: $999.99 buy box (-17% off typical $1,199.99, 'Only 7 left'), B0F2FMVT7M did NOT redirect this run. Same band. Earlier: 2026-09-06 $1,199.99 deal (redirected to B0F2FP5DP5), 2026-08-16 $1,199.99 (was 1349). 2026-10-04: B0F2FMVT7M redirected to B0F2FP5DP5 again (title/price/stock still matched this catalog entry); intermittent -- not swapping the ASIN until it's stable across runs.
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -3224,7 +3224,7 @@ export const CHAIRS: Chair[] = [
     heat: true,
     aiScanning: true,
     petiteConfirmed: true,
-    aiNotes: 'Lowest weight capacity in the catalog at 220 lbs. Screen hard on weight before recommending. The listing prints two conflicting figures, 220 lbs in the structured spec block and 240 lbs in a lower block whose labels and values are visibly misaligned; the conservative 220 is recorded. Height recorded as the narrower of the two stated ranges. S-track, so not a glute or hamstring solution. Sold out at the verifying retailer (gameroomempire.com) since at least 2026-07. 2026-09-27: in stock at massagechairs.com/products/inada-robo-4d for $6,999 -- notably below our $9,999-$11,999 catalog range, possibly a different configuration; verify before wiring as a new affiliate source.',
+    aiNotes: 'Lowest weight capacity in the catalog at 220 lbs. Screen hard on weight before recommending. The listing prints two conflicting figures, 220 lbs in the structured spec block and 240 lbs in a lower block whose labels and values are visibly misaligned; the conservative 220 is recorded. Height recorded as the narrower of the two stated ranges. S-track, so not a glute or hamstring solution. Sold out at the verifying retailer (gameroomempire.com) since at least 2026-07. 2026-09-27: in stock at massagechairs.com/products/inada-robo-4d for $6,999 -- notably below our $9,999-$11,999 catalog range, possibly a different configuration; verify before wiring as a new affiliate source. 2026-10-04: reconfirmed independently (not just a sub-agent read) -- massagechairs.com still shows "In stock, ready to ship" at $6,999.00, correct product title and configuration. Delta from priceMin ($9,999) is 30%, over the 25% repoint threshold in the propagation guardrail -- still holding, not wired as affiliateUrl. This is the SECOND consecutive confirmation (09-27, 10-04); repoint affiliateUrl to massagechairs.com if it reads the same again next audit.',
   },
 
   // ── OSAKI (backfill) ───────────────────────────────────────────────────────
