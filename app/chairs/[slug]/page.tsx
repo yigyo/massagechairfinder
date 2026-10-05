@@ -453,6 +453,42 @@ export default async function ChairPage({ params }: { params: { slug: string } }
     } : {}),
   }
 
+  // BreadcrumbList, mirroring the visible breadcrumb nav rendered below
+  // (All chairs > brand > chair name). No visible markup change; this only
+  // describes navigation structure that already exists on the page. Chair
+  // pages were the one major template still missing this (brand and
+  // compare pages already carry it).
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://www.massagechairfinder.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'All Chairs',
+        item: 'https://www.massagechairfinder.com/chairs',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: c.brand,
+        item: `https://www.massagechairfinder.com/brands/${brandSlug}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        name: categoryName(c.name),
+        item: `https://www.massagechairfinder.com/chairs/${params.slug}`,
+      },
+    ],
+  }
+
   // The FAQ block below is rendered on every chair page but was never emitted as
   // structured data, so 145 pages were ineligible for FAQ rich results and gave AI
   // engines no machine-readable Q&A to cite. Emitted as a @graph next to Product.
@@ -471,6 +507,10 @@ export default async function ChairPage({ params }: { params: { slug: string } }
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {faqSchema && (
         <script
