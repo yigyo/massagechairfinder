@@ -205,7 +205,7 @@ export default function LuracoVsMAK1Page() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You want to spend less. It is the lower-priced of the two.</span></li>
           </ul>
           <div className="mt-4">
-            <a href="https://massagechairwarehouse.com/products/luraco-i9-max-plus-massage-chair" target="_blank" rel="noopener noreferrer"
+            <a href="https://gameroomempire.com/products/luraco-i9-max-plus-massage-chair" target="_blank" rel="noopener noreferrer"
               className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded hover:bg-opacity-90 transition-colors">
               Shop the i9 Max Plus
             </a>
