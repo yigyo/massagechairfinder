@@ -1,0 +1,149 @@
+# Audit FAILED - coverage not met (2026-10-06)
+
+Targets required: 130. Chairs actually probed in Step 2: 0. Per the coverage rule no audit report was written.
+
+## Cause
+The routine's sandbox egress proxy denies CONNECT (HTTP 403, organization network policy) to most retailer hosts, so affiliate URLs could not be fetched. No stock, price or redirect data was collected; none was inferred.
+
+- Hosts with homepage reachable (probe not run, coverage rule already failed): 24 chairs on osakimassagechair.com, relaxe.co, relaxonchair.com, syncamassagechair.com
+- massagechairstore.com homepage returned 403 (would be PROBE_BLOCKED): 5 chairs
+- Egress proxy denied CONNECT: 101 chairs
+
+## Fix
+Allow the retailer domains in the environment network policy (or set it to Full/Trusted access) at https://code.claude.com/docs/en/claude-code-on-the-web, then re-run.
+
+## Step 1 (structural health): exit 0, 160 chair IDs, CATALOG HEALTH OK with 2 warnings
+- AMAZON WATCHLIST: bodyfriend-falcon-xd: zero Bodyfriend listings on Amazon 2026-06-07; verify ASIN B0D97TGBYS
+- AMAZON WATCHLIST: relaxonchair-jasper holds ASIN B0D325QC32 with no amazonUrl; verify listing
+
+## Chairs not checked (all 130)
+- osaki-os-pro-yamato [EGRESS_BLOCKED] www.massagechairs.com
+- osaki-os-pro-admiral-ii [EGRESS_BLOCKED] www.massagechairs.com
+- osaki-os-pro-maestro-le [REACHABLE] osakimassagechair.com
+- osaki-os-pro-4d-duomax [REACHABLE] osakimassagechair.com
+- infinity-dynasty-4d [BOT_BLOCKED_403] massagechairstore.com
+- infinity-celebrity [EGRESS_BLOCKED] www.massagechairplanet.com
+- infinity-genesis-max [BOT_BLOCKED_403] massagechairstore.com
+- infinity-circadian-4d-dualflex [BOT_BLOCKED_403] massagechairstore.com
+- human-touch-laevo-zg [EGRESS_BLOCKED] www.humantouch.com
+- human-touch-super-novo-3 [EGRESS_BLOCKED] www.humantouch.com
+- luraco-i9-max-plus [EGRESS_BLOCKED] gameroomempire.com
+- luraco-theater-sofy [EGRESS_BLOCKED] gameroomempire.com
+- daiwa-legacy-4 [EGRESS_BLOCKED] www.massagechairheaven.com
+- daiwa-black-panther-supreme-hybrid [EGRESS_BLOCKED] www.massagechairheaven.com
+- daiwa-supreme-hybrid [EGRESS_BLOCKED] www.massagechairheaven.com
+- daiwa-pegasus-hybrid [EGRESS_BLOCKED] www.massagechairheaven.com
+- daiwa-hubble-plus-4d [EGRESS_BLOCKED] www.massagechairheaven.com
+- daiwa-pegasus-2-smart [EGRESS_BLOCKED] www.massagechairheaven.com
+- daiwa-hubble-3d [EGRESS_BLOCKED] www.massagechairheaven.com
+- daiwa-relax-2-zero-3d [EGRESS_BLOCKED] www.massagechairheaven.com
+- daiwa-majesty-2d [EGRESS_BLOCKED] www.massagechairheaven.com
+- kyota-genki-m380 [BOT_BLOCKED_403] massagechairstore.com
+- kyota-yugana-m780 [EGRESS_BLOCKED] gameroomempire.com
+- kyota-konbi-m728-dualpro-4d [BOT_BLOCKED_403] massagechairstore.com
+- amamedics-hilux-4d [REACHABLE] osakimassagechair.com
+- jpmedics-kumo-4d [EGRESS_BLOCKED] gameroomempire.com
+- jpmedics-kaze-duo [EGRESS_BLOCKED] www.massagechairplanet.com
+- panasonic-mak1 [EGRESS_BLOCKED] www.massagechairs.com
+- panasonic-maf1 [EGRESS_BLOCKED] www.primemassagechairs.com
+- titan-3d-prestige [EGRESS_BLOCKED] www.massagechairs.com
+- titan-pro-vigor-4d [EGRESS_BLOCKED] gameroomempire.com
+- synca-wellness-circ [REACHABLE] syncamassagechair.com
+- synca-wellness-circ-plus [REACHABLE] syncamassagechair.com
+- synca-wellness-circ-3 [REACHABLE] syncamassagechair.com
+- synca-wellness-kurodo [REACHABLE] syncamassagechair.com
+- inner-balance-jin [REACHABLE] syncamassagechair.com
+- inner-balance-jin-2 [REACHABLE] syncamassagechair.com
+- synca-wellness-jp3000 [REACHABLE] syncamassagechair.com
+- fujiiryoki-cyber-relax-ai [REACHABLE] syncamassagechair.com
+- fujiiryoki-cyber-relax-ai-executive [REACHABLE] syncamassagechair.com
+- fujiiryoki-calm-plus [REACHABLE] syncamassagechair.com
+- fujiiryoki-cyber-relax-elite [REACHABLE] syncamassagechair.com
+- fujiiryoki-cyber-relax-pro [REACHABLE] syncamassagechair.com
+- dcore-d-core-2 [REACHABLE] syncamassagechair.com
+- dcore-cirrus-jp [REACHABLE] syncamassagechair.com
+- dcore-stratus-jp [REACHABLE] syncamassagechair.com
+- kahuna-dios-6800 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- kahuna-dios-1288 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- kahuna-dios-flexa [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- kahuna-hm-kappa [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- kahuna-em-8500 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- kahuna-dios-7300 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- kahuna-sm-7300s [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- kahuna-hm-078 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- kahuna-hm-5000 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- ador-3d-allure [REACHABLE] osakimassagechair.com
+- theramedic-flex [EGRESS_BLOCKED] theramedicchair.com
+- kanji-4d-shogun-duo [REACHABLE] osakimassagechair.com
+- ogawa-og6300 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- ogawa-og8901 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- ogawa-og6400 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- ogawa-og8801 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- ogawa-og8900 [EGRESS_BLOCKED] www.wishrockrelaxation.com
+- relaxe-shiatsu [REACHABLE] relaxe.co
+- ohco-m8-neo-le [EGRESS_BLOCKED] www.johnsonfitness.com
+- relaxonchair-jasper [EGRESS_BLOCKED] www.relaxonchair.com
+- relaxonchair-mk-v-plus [REACHABLE] relaxonchair.com
+- relaxonchair-yukon-4d [EGRESS_BLOCKED] www.relaxonchair.com
+- ceragem-m10 [EGRESS_BLOCKED] gameroomempire.com
+- ergotec-et-180-pluto [EGRESS_BLOCKED] gameroomempire.com
+- koyo-303ts [EGRESS_BLOCKED] gameroomempire.com
+- medical-breakthrough-5 [EGRESS_BLOCKED] gameroomempire.com
+- medical-breakthrough-6 [EGRESS_BLOCKED] gameroomempire.com
+- medical-breakthrough-6-plus [EGRESS_BLOCKED] gameroomempire.com
+- medical-breakthrough-7 [EGRESS_BLOCKED] gameroomempire.com
+- medical-breakthrough-7-plus [EGRESS_BLOCKED] gameroomempire.com
+- medical-breakthrough-8 [EGRESS_BLOCKED] gameroomempire.com
+- medical-breakthrough-8-plus [EGRESS_BLOCKED] gameroomempire.com
+- medical-breakthrough-9 [EGRESS_BLOCKED] gameroomempire.com
+- medical-breakthrough-9-plus [EGRESS_BLOCKED] gameroomempire.com
+- medical-breakthrough-x [EGRESS_BLOCKED] gameroomempire.com
+- positive-posture-brio-plus [EGRESS_BLOCKED] gameroomempire.com
+- positive-posture-brio-sport [EGRESS_BLOCKED] gameroomempire.com
+- positive-posture-solara [EGRESS_BLOCKED] gameroomempire.com
+- sharper-image-relieve-3d [EGRESS_BLOCKED] gameroomempire.com
+- sharper-image-revival [EGRESS_BLOCKED] gameroomempire.com
+- svago-lite-2 [EGRESS_BLOCKED] gameroomempire.com
+- svago-zgr [EGRESS_BLOCKED] gameroomempire.com
+- svago-newton [EGRESS_BLOCKED] gameroomempire.com
+- rockertech-bliss [EGRESS_BLOCKED] www.massagechairheaven.com
+- rockertech-sensation-4d [EGRESS_BLOCKED] www.massagechairheaven.com
+- ohco-m8-neo [EGRESS_BLOCKED] www.johnsonfitness.com
+- nouhaus-new-classic [EGRESS_BLOCKED] www.nouhaus.com
+- nouhaus-aurora [EGRESS_BLOCKED] www.nouhaus.com
+- nouhaus-noucampo [EGRESS_BLOCKED] www.nouhaus.com
+- nouhaus-luna [EGRESS_BLOCKED] www.nouhaus.com
+- nouhaus-orbit [EGRESS_BLOCKED] www.nouhaus.com
+- relx-20-mode [EGRESS_BLOCKED] www.amazon.com
+- culanta-sl-track [EGRESS_BLOCKED] www.amazon.com
+- tlife-160-zg [EGRESS_BLOCKED] www.amazon.com
+- healthrelife-4d-15-mode [EGRESS_BLOCKED] www.amazon.com
+- ktentito-g6 [EGRESS_BLOCKED] www.amazon.com
+- mythia-a303c [EGRESS_BLOCKED] www.amazon.com
+- healthrelife-4d-20-mode [EGRESS_BLOCKED] www.amazon.com
+- casinta-4d [EGRESS_BLOCKED] www.amazon.com
+- cozzia-quantum [EGRESS_BLOCKED] cozzia.com
+- cozzia-qi-xe-pro [EGRESS_BLOCKED] cozzia.com
+- irest-a306 [EGRESS_BLOCKED] massagechairsbuy.com
+- cozzia-qi-se-duo [EGRESS_BLOCKED] cozzia.com
+- cozzia-qi-xe-pro-duo [EGRESS_BLOCKED] cozzia.com
+- cozzia-qi-se [EGRESS_BLOCKED] cozzia.com
+- titan-zena-vending [REACHABLE] osakimassagechair.com
+- titan-v03-vending [REACHABLE] osakimassagechair.com
+- zarifa-z-dream [EGRESS_BLOCKED] www.zarifausa.com
+- zarifa-z-smart-plus [EGRESS_BLOCKED] www.zarifausa.com
+- inada-dreamwave [EGRESS_BLOCKED] gameroomempire.com
+- inada-robo [EGRESS_BLOCKED] gameroomempire.com
+- osaki-os-highpointe-4d [EGRESS_BLOCKED] gameroomempire.com
+- titan-tp-epic-4d [EGRESS_BLOCKED] osakiusa.com
+- titan-rejuv-4d [EGRESS_BLOCKED] osakiusa.com
+- titan-grande-xl-big-tall [EGRESS_BLOCKED] osakiusa.com
+- titan-axiom-le-s50 [EGRESS_BLOCKED] osakiusa.com
+- titan-tp-cosmo [EGRESS_BLOCKED] osakiusa.com
+- titan-ti-h7 [EGRESS_BLOCKED] osakiusa.com
+- titan-telos [EGRESS_BLOCKED] osakiusa.com
+- titan-ti-reflex-3d [EGRESS_BLOCKED] osakiusa.com
+- titan-gemini-s50 [EGRESS_BLOCKED] osakiusa.com
+- titan-pro-4d-endor [EGRESS_BLOCKED] osakiusa.com
+- titan-4d-ion [EGRESS_BLOCKED] osakiusa.com
+- osaki-os-pro-maestro-4d [EGRESS_BLOCKED] osakiusa.com
