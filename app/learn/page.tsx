@@ -181,6 +181,7 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-endometriosis",
       "massage-and-multiple-sclerosis",
       "massage-and-muscle-cramps",
+      "massage-and-balance-and-falls",
     ],
   },
 ]
