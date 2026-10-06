@@ -376,7 +376,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 4,
-    priceMin: 11999,  // 2026-09-27: APPLIED per guardrail -- $11,999 held across two consecutive audits (09-20, 09-27), no strikethrough, in stock. Band moved mid ($3,000-$4,999) -> premium ($8,000-$11,999). Propagated: /best/3000-to-5000 (removed), compare page vs Genesis Max (reframed), brand/article prose. 2026-08-16: 'Save $8,000 While Supplies Last' promo, $3,999 (was 6999). 2026-10-04: massagechairstore.com buy box reads $5,999.00 (page explicitly labels $11,999 as "Originally", confirming $5,999 is the live sale price, not a misread). Delta is 50%, over the 25% guardrail -- NOT applied. First observation of this figure; hold for reconfirmation next audit.
+    priceMin: 5999,  // 2026-10-06: APPLIED per user confirmation -- massagechairstore.com verified at $5,999.00 sale price, page explicitly labels $11,999 as "Originally" (not a misread). Overrides the 25% guardrail hold on explicit user sign-off. Band moves premium ($8,000-$11,999) -> upper-mid (<$8,000); checked /best/*, compare pages, nav-data, local-brands, local-articles and chat route for inada-robo/infinity-dynasty-4d references -- none found referencing this chair by price band, so no propagation needed. History: $11,999 itself was only applied 2026-09-27 after two consecutive confirmations (09-20, 09-27); the 2026-08-16 promo price ($3,999) was a different, temporary 'while supplies last' discount, not this standing sale price.
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -1897,7 +1897,7 @@ export const CHAIRS: Chair[] = [
     name: 'Ogawa Active XL 3D Massage Chair (OG-6300)',
     brand: 'Ogawa',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 2999,  // wishrockrelaxation.com re-verified 2026-06-01 via meta+JSON-LD+all variants ($2,999.99, no strikethrough); the 5-25 jump to 5899 was incorrect. 2026-10-04: og:price:amount meta tag AND rendered buy-box price both read $5,899.99 (no strikethrough) on 2 of 3 color variants (Black/Black, Gun Metal/Brown), screenshot-confirmed -- not a single-method misread this time. Delta is 96.7%, over the 25% guardrail, so NOT applied; holding for reconfirmation on the next audit before updating priceMin.
+    priceMin: 5899,  // 2026-10-06: APPLIED per user confirmation -- wishrockrelaxation.com verified at $5,899.99, no strikethrough, matching the 2026-10-04 screenshot-confirmed reading (2 of 3 color variants, og:price:amount meta + rendered buy-box). Overrides the 25% guardrail hold on explicit user sign-off. Prior history: 2026-06-01 re-verify found $2,999.99 correct and a same-day $5,899 reading wrong; 2026-10-04 independently reconfirmed $5,899.99 via 2 separate methods, ruling out a repeat misread.
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -3207,13 +3207,12 @@ export const CHAIRS: Chair[] = [
     active: true,
     goodwinActive: false,
     mcfActive: true,
-    inStock: false,
-    priceMin: 9999,
-    priceMax: 11999,
+    inStock: true,
+    priceMin: 6999,
     affiliateTier: 'C',
-    affiliateRetailer: 'gameroomempire.com',
+    affiliateRetailer: 'massagechairs.com',
     goodwinStatus: 'none',
-    affiliateUrl: 'https://gameroomempire.com/products/inada-robo-massage-chair',
+    affiliateUrl: 'https://www.massagechairs.com/products/inada-robo-4d',
     imageUrl: 'https://gameroomempire.com/cdn/shop/products/inada-robo-1.jpg?v=1679595319',
     track: 'S',
     roller: '4D',
@@ -3224,7 +3223,7 @@ export const CHAIRS: Chair[] = [
     heat: true,
     aiScanning: true,
     petiteConfirmed: true,
-    aiNotes: 'Lowest weight capacity in the catalog at 220 lbs. Screen hard on weight before recommending. The listing prints two conflicting figures, 220 lbs in the structured spec block and 240 lbs in a lower block whose labels and values are visibly misaligned; the conservative 220 is recorded. Height recorded as the narrower of the two stated ranges. S-track, so not a glute or hamstring solution. Sold out at the verifying retailer (gameroomempire.com) since at least 2026-07. 2026-09-27: in stock at massagechairs.com/products/inada-robo-4d for $6,999 -- notably below our $9,999-$11,999 catalog range, possibly a different configuration; verify before wiring as a new affiliate source. 2026-10-04: reconfirmed independently (not just a sub-agent read) -- massagechairs.com still shows "In stock, ready to ship" at $6,999.00, correct product title and configuration. Delta from priceMin ($9,999) is 30%, over the 25% repoint threshold in the propagation guardrail -- still holding, not wired as affiliateUrl. This is the SECOND consecutive confirmation (09-27, 10-04); repoint affiliateUrl to massagechairs.com if it reads the same again next audit.',
+    aiNotes: 'Lowest weight capacity in the catalog at 220 lbs. Screen hard on weight before recommending. The listing prints two conflicting figures, 220 lbs in the structured spec block and 240 lbs in a lower block whose labels and values are visibly misaligned; the conservative 220 is recorded. Height recorded as the narrower of the two stated ranges. S-track, so not a glute or hamstring solution. 2026-10-06: REPOINTED per user request -- gameroomempire.com has been sold out since at least 2026-07 with no restock; massagechairs.com confirmed live for the third time (09-27, 10-04, and a direct check today), "Add to Cart" present, no sold-out text, regular price $9,999.00 / sale price $6,999.00, correct product title and configuration (INADA ROBO 4D). affiliateRetailer and affiliateUrl switched from gameroomempire.com to massagechairs.com; priceMin updated 9999 -> 6999 and priceMax removed since the retailer lists one sale price, not a range. imageUrl left pointing at the gameroomempire.com CDN asset (still resolves); revisit if it goes stale. Checked /best/*, compare pages, nav-data, local-brands, local-articles and chat route -- this chair is not referenced in any of them, so no price-band propagation needed despite the premium ($9,999) -> upper-mid (<$8,000) band crossing.',
   },
 
   // ── OSAKI (backfill) ───────────────────────────────────────────────────────
