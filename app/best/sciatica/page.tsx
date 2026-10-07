@@ -46,6 +46,31 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair for sciatica?",
+    a: "It depends on budget and where the pain concentrates. The Synca Wellness CirC 3 is the strongest entry-level SL-track pick under $3,000. The JPMedics Kumo 4D reaches deepest into the hamstring for sciatica that extends past the glutes. For buyers over 300 lbs, the Kyota Genki M380 confirms fit up to 330 lbs. All five picks on this page use an L-track or SL-track roller, the minimum requirement for sciatic relief.",
+  },
+  {
+    q: "Can a massage chair help sciatica pain?",
+    a: "A massage chair can ease the muscle tension that often triggers or worsens sciatic pain, particularly tightness in the piriformis and glutes where the sciatic nerve runs. It is not a substitute for medical treatment of a herniated disc or nerve compression, but repeated pressure on the glutes and lumbar can reduce the muscular component of the pain.",
+  },
+  {
+    q: "Does an S-track massage chair help with sciatica?",
+    a: "No. S-track rollers stop at the lower lumbar and never reach the glutes or piriformis, where sciatic compression typically originates. An L-track or SL-track chair is required to address sciatica directly.",
+  },
+  {
+    q: "Is zero gravity recline important for sciatica relief?",
+    a: "Yes. Reclining into zero gravity shifts body weight forward and off the lumbar discs and sacral joints, so the roller reaches the decompressed spine more effectively than in an upright seated position. All five chairs on this page include zero gravity.",
+  },
+]
+
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -57,8 +82,31 @@ export default function BestSciaticaPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Sciatica", item: "https://www.massagechairfinder.com/best/sciatica" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -245,6 +293,18 @@ export default function BestSciaticaPage() {
           </Link>{' '}
           takes about three minutes.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

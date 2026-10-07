@@ -51,6 +51,31 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair for seniors?",
+    a: "It depends on body size and pressure tolerance. The Kyota Genki M380 is the most forgiving high-capacity pick at 330 lbs. The Inner Balance Jin 2.0 is the most space-saving option at 2 inches of wall clearance. For buyers who cannot tolerate roller pressure at all, the Human Touch Laevo ZG uses airbag compression instead of a roller track.",
+  },
+  {
+    q: "Are massage chairs safe for seniors?",
+    a: "Massage chairs are generally safe for seniors starting at low intensity and building up over sessions, but anyone with osteoporosis, significant spinal stenosis, recent surgery, or an implanted medical device should consult a physician before use. Seniors with these conditions are usually better served by an airbag-based chair like the Laevo ZG rather than a roller track.",
+  },
+  {
+    q: "What weight capacity should a senior massage chair have?",
+    a: "The six picks on this page confirm capacities from 270 to 330 lbs. If body weight is within 30 lbs of a chair's listed capacity, the roller mechanism often cannot reach full depth, so it is worth sizing up a tier when close to the limit.",
+  },
+  {
+    q: "Is zero gravity good for seniors?",
+    a: "Yes. Reclining into zero gravity takes pressure off the lumbar spine and distributes weight more evenly, which is particularly helpful for seniors managing chronic lower back or hip pain. All six picks on this page include zero gravity recline.",
+  },
+]
+
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -62,8 +87,31 @@ export default function BestSeniorsPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Seniors", item: "https://www.massagechairfinder.com/best/seniors" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -249,6 +297,18 @@ export default function BestSeniorsPage() {
           <Link href="/learn/zero-gravity" className="text-bronze hover:text-gold transition-colors">zero gravity</Link>{" "}
           guide explains the recline position that takes weight off the spine.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

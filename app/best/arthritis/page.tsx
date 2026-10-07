@@ -51,6 +51,31 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair for arthritis?",
+    a: "It depends on budget and where the arthritis is located. The Medical Breakthrough 6 is the strongest entry point in the $3,000-$4,999 band for hip and lower-back arthritis. The Osaki OS-Pro Maestro LE 2.0 covers the fullest range, from neck through glutes, for buyers with arthritis in multiple areas. The Kahuna HM-078 and Ogawa Master Drive DUO LE confirm the highest weight capacities, at 350 and 320 lbs.",
+  },
+  {
+    q: "Do massage chairs help with arthritis pain?",
+    a: "Massage chairs with heat and gentle, adjustable roller pressure can ease joint stiffness and muscle tension around arthritic joints, particularly in the lower back, hips, and shoulders. They work best as a complement to a treatment plan from a doctor or physical therapist, not a replacement for one.",
+  },
+  {
+    q: "What should I look for in a massage chair for arthritis?",
+    a: "Pressure control is the first filter, since arthritic joints need very light sessions on high-pain days. Heat at the lumbar, and ideally the calves and feet, reduces stiffness and makes lower-intensity sessions more effective. Track type determines which joints the roller can reach: L-track or SL-track for hip and sacroiliac arthritis, since S-track stops at the lumbar.",
+  },
+  {
+    q: "Can someone with rheumatoid arthritis use a massage chair?",
+    a: "The picks on this page are built for osteoarthritis. Buyers with rheumatoid arthritis should avoid high-intensity sessions during active flares and confirm with their rheumatologist whether heat features are appropriate, starting at minimum pressure and increasing only once pain levels are stable.",
+  },
+]
+
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -62,8 +87,31 @@ export default function BestArthritisPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Arthritis", item: "https://www.massagechairfinder.com/best/arthritis" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -240,6 +288,18 @@ export default function BestArthritisPage() {
         <p className="text-charcoal leading-relaxed">
           All picks above are appropriate for osteoarthritis. Buyers with rheumatoid arthritis should avoid high-intensity sessions during active flares and confirm with their rheumatologist whether heat features are appropriate. Start at minimum pressure settings and increase only when pain levels are stable.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">
