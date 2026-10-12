@@ -13782,6 +13782,219 @@ A 670-person NIH-funded trial found a tailored Tai Chi program cut fall incidenc
 <p>[5] Li F, Harmer P, Fitzgerald K, et al. <em>Effectiveness of a Therapeutic Tai Ji Quan Intervention vs a Multimodal Exercise Intervention to Prevent Falls Among Older Adults at High Risk of Falling: A Randomized Clinical Trial.</em> JAMA Internal Medicine. 2018;178(10):1301-1310. PMID: 30208396.</p>
 <p>[6] National Institute on Aging (NIH). <em>Falls and Fractures in Older Adults: Causes and Prevention.</em> <a href="https://www.nia.nih.gov/health/falls-and-falls-prevention/falls-and-fractures-older-adults-causes-and-prevention">Link</a></p>`,
   },
+  {
+    slug: "massage-and-herniated-disc",
+    title: "Massage for a Herniated Disc: Is It Safe, Does It Help, and Can You Use a Massage Chair?",
+    excerpt: "Massage can ease the muscle tension around a herniated disc but does not fix the disc, and forceful pressure can make it worse. What the evidence shows, the emergency signs, and the safe way to use a massage chair.",
+    order: 139,
+    publishedAt: "2026-10-12",
+    body: `<p><strong>Massage can ease the muscle tension and pain around a herniated disc, but it does not fix the disc, and forceful pressure on the spine can make a disc problem worse.</strong> Most herniated discs improve over time without surgery [1]. Gentle soft-tissue work fits as one part of a recovery plan built around staying active and exercise [2][5], not as a treatment on its own. A massage chair can be used once a doctor has ruled out the emergency signs, at low intensity, away from the injured level, and never during a flare where pain is shooting down the leg.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p>Mayo Clinic: herniated discs are most common in the lower back, many cause no symptoms, symptoms typically improve over time, and most people do not need surgery [1].<br>
+The largest review of massage for back pain (25 trials, 3,096 people) found short-term benefit, but it included only non-specific back pain, not diagnosed disc herniations [4].<br>
+UK guidance (NICE) recommends manual therapy, including soft-tissue work, only as part of a treatment package that includes exercise [5].<br>
+A systematic review of massage adverse events (40 reports, 138 events) named disc herniation first among the main complications of massage, while finding such events rare [3].</p></div>
+<h2>Does massage help a herniated disc?</h2>
+<p>It can help the pain around one; it does not repair one. A herniation is structural: part of the disc's soft center pushes through a tear in its outer layer and can press on a nerve [1]. No massage technique moves that material back. What massage can do is reduce the protective muscle spasm and general back pain that come with it, which is the outcome the back-pain trials measured [4].</p>
+<p>The catch is that those trials studied back pain without a specific diagnosis. There is no good-quality trial of massage alone for a confirmed herniation. Guidelines therefore treat it as an add-on. NICE places manual therapy inside a package with exercise [5], and a review of 27 manual-therapy trials for nerve-root pain found the most effective lumbar approach combined mobilization, traction, and core strengthening rather than soft-tissue work alone [6]. For the leg-pain side of this picture, see <a href="/learn/massage-and-sciatica">massage and sciatica</a>.</p>
+<h2>Is massage safe with a herniated disc?</h2>
+<p>Gentle massage is generally low risk; forceful spinal pressure is not. The safety review that found adverse events rare also listed disc herniation as the leading complication reported, along with nerve injury and spinal cord injury [3]. The direction of risk is clear: deep, focused pressure over the spine is the wrong tool for an injured disc.</p>
+<p>Before any massage, rule out the emergency signs both Mayo Clinic and the NHS list [1][2]:</p>
+<ul>
+<li>Numbness around the bottom, genitals, or inner thighs (saddle area)</li>
+<li>Trouble urinating, or loss of bladder or bowel control</li>
+<li>Loss of feeling in one or both legs, or weakness that is getting worse</li>
+</ul>
+<p>Any of these needs emergency care the same day, not a massage.</p>
+<h2>What the evidence covers</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>What the evidence shows</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Does a herniated disc usually get better?</td>
+<td>Yes, symptoms typically improve over time; most people avoid surgery</td>
+<td>[1][2]</td>
+</tr>
+<tr>
+<td>Does massage help back pain?</td>
+<td>Short-term benefit for non-specific back pain</td>
+<td>[4]</td>
+</tr>
+<tr>
+<td>Does massage help a diagnosed herniation specifically?</td>
+<td>No good-quality massage-only trials exist</td>
+<td>[4][6]</td>
+</tr>
+<tr>
+<td>Where does massage fit?</td>
+<td>As part of a package with exercise</td>
+<td>[5]</td>
+</tr>
+<tr>
+<td>Can massage make it worse?</td>
+<td>Disc herniation is a reported complication of forceful massage</td>
+<td>[3]</td>
+</tr>
+</tbody>
+</table>
+<h2>How a massage chair delivers this</h2>
+<p><strong>Fully replicates: gentle soft-tissue pressure and heat on the muscles around the spine, daily.</strong> That is the part of a recovery plan massage contributes [4][5], and a chair makes it available every day at a dose you control. For chair features that matter for back pain generally, see <a href="/learn/massage-chairs-for-lower-back-pain">massage chairs for lower back pain</a>.</p>
+<p><strong>Partially replicates: positioning.</strong> Most chairs recline, many to a <a href="/learn/zero-gravity">zero-gravity position</a>. If sitting upright aggravates your symptoms, a reclined position is the first one to try. No study shows recline treats a disc, so judge it by how your symptoms respond.</p>
+<p><strong>Cannot replicate: diagnosis, exercise therapy, traction or mobilization from a clinician [6], or the judgment to back off.</strong> A chair cannot tell an irritated nerve from a tight muscle, and its rollers apply real force; a published case report describes a spinal fracture in an osteoporotic woman during automated chair use [7].</p>
+<p><strong>How to use a massage chair with a herniated disc:</strong></p>
+<ol>
+<li>Get a diagnosis and your clinician's go-ahead first.</li>
+<li>During a flare, skip roller work on the injured region. Heat and light airbag work on the legs or shoulders are the lower-risk options.</li>
+<li>Anywhere near the spine, use the lowest roller intensity and minimum 3D or 4D depth. Turn off tapping and percussion at that level.</li>
+<li>Skip stretch programs that twist or strongly arch the back until your clinician clears them.</li>
+<li>Stop right away if pain travels further down the leg or arm, or if numbness or weakness appears or worsens.</li>
+<li>A neck (cervical) herniation follows the same rules for the neck rollers. See <a href="/learn/massage-and-neck-shoulder-pain">massage and neck and shoulder pain</a>.</li>
+</ol>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Can you use a massage chair with a herniated disc?</strong></summary>
+<p>Often yes, after a clinician has ruled out the emergency signs, and only gently: low intensity, no rollers on the injured level during a flare, and an immediate stop if symptoms spread down a limb [1][3].</p>
+</details>
+<details>
+<summary><strong>Is massage good for a bulging or slipped disc?</strong></summary>
+<p>It can ease the surrounding muscle pain as part of a plan that includes staying active and exercise [2][5]. It does not move the disc back into place, and deep pressure over the spine can make things worse [3].</p>
+</details>
+<details>
+<summary><strong>Should I avoid deep tissue massage with a herniated disc?</strong></summary>
+<p>Yes, over the spine. Forceful pressure is the type of massage linked to disc complications in the safety literature [3]. Light to moderate work on the surrounding muscles is the safer choice.</p>
+</details>
+<details>
+<summary><strong>How long does a herniated disc take to heal?</strong></summary>
+<p>Symptoms typically improve over time, and most people do not need surgery [1]. The NHS advises seeing a GP if pain has not improved after a few weeks [2].</p>
+</details>
+<details>
+<summary><strong>What are the signs I should not get a massage at all?</strong></summary>
+<p>Numbness in the saddle area, bladder or bowel problems, or worsening leg weakness. These are emergency signs [1][2].</p>
+</details>
+<h2>Choosing a chair if you have a disc history</h2>
+<p>The features that matter most are control features: several intensity steps, adjustable roller depth, the ability to target or skip specific zones, and good heat. Those let you keep pressure off the injured level. <a href="/best/lower-back-pain">Our picks for lower back pain</a> prioritize that kind of control, and our <a href="/learn/are-massage-chairs-safe">overview of massage chair safety</a> covers other conditions that change how a chair should be used.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your back, your height, and the features you need to keep pressure where you want it.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Mayo Clinic. <em>Herniated disk: Symptoms and causes.</em> <a href="https://www.mayoclinic.org/diseases-conditions/herniated-disk/symptoms-causes/syc-20354095">Link</a></p>
+<p>[2] NHS. <em>Slipped disc.</em> <a href="https://www.nhs.uk/conditions/slipped-disc/">Link</a></p>
+<p>[3] Yin P, Gao N, Wu J, Litscher G, Xu S. <em>Adverse events of massage therapy in pain-related conditions: a systematic review.</em> Evidence-Based Complementary and Alternative Medicine. 2014;2014:480956. PMID: 25197310.</p>
+<p>[4] Furlan AD, Giraldo M, Baskwill A, Irvin E, Imamura M. <em>Massage for low-back pain.</em> Cochrane Database of Systematic Reviews. 2015;(9):CD001929. <a href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001929.pub3/full">Link</a></p>
+<p>[5] National Institute for Health and Care Excellence. <em>Low back pain and sciatica in over 16s: assessment and management.</em> NICE guideline NG59. <a href="https://www.nice.org.uk/guidance/ng59">Link</a></p>
+<p>[6] Kuligowski T, Skrzek A, Cieślik B. <em>Manual Therapy in Cervical and Lumbar Radiculopathy: A Systematic Review of the Literature.</em> International Journal of Environmental Research and Public Health. 2021;18(11):6176. <a href="https://www.mdpi.com/1660-4601/18/11/6176">Link</a></p>
+<p>[7] Jeon CH, Chung NS, Lee HD, Won SH. <em>Vertebral compression fracture caused by an electrical automated massage chair.</em> Osteoporosis International. 2019;30(7):1533-1536. PMID: 31016352.</p>`,
+  },
+  {
+    slug: "massage-and-soreness",
+    title: "Sore After a Massage? What Is Normal, How Long It Lasts, and When to Worry",
+    excerpt: "Soreness after a massage is common and usually fades within a day and a half. What the research shows, why it happens, the warning signs that are not normal, and how to set a massage chair so it does not leave you sore.",
+    order: 140,
+    publishedAt: "2026-10-12",
+    body: `<p><strong>Mild soreness after a massage is normal and usually gone within a day and a half.</strong> In the one survey built to ask clients directly, about 1 in 10 reported minor discomfort afterward, most of it starting within 12 hours and clearing within 36 hours, with no serious side effects [1]. The cause is almost always pressure your tissue was not used to. Sharp pain, numbness spreading down a limb, a swollen one-sided calf, or soreness past a couple of days are the exceptions worth taking seriously.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p>In a survey of 100 massage clients (91 completed), 10 percent reported minor discomfort after the session. Most of it began within 12 hours and lasted 36 hours or less, and no major side effects occurred [1].<br>
+Cleveland Clinic puts typical post-massage soreness at a few hours to about a day and a half, and says soreness lasting longer than a couple of days should be checked by a provider [2].<br>
+A systematic review of 2003 to 2013 reports found 40 reports describing 138 adverse events across all massage, and concluded the incidence of such events is low [3].<br>
+After hard exercise, appropriately dosed massage does the opposite: across 11 controlled studies and 504 people, massage within two hours of exercise reduced muscle soreness at 24 hours [5].</p></div>
+<h2>Why am I sore after a massage?</h2>
+<p>Your muscles got pressure they were not used to. Cleveland Clinic groups post-massage soreness with post-workout soreness: pressure on tight or knotted tissue, a local inflammatory response, deeper-than-usual technique, and individual sensitivity [2]. That is why the pattern is predictable. The soreness sits in the areas that got the most work, it is worst after a first massage or a jump in intensity, and it fades over a day or so.</p>
+<p>It is also why the same tool can both cause and relieve soreness. After a hard workout, massage at the right pressure reduces delayed onset muscle soreness [5]. After an unusually deep session on untrained tissue, it can leave you tender. Pressure dose is the variable that decides which one you get.</p>
+<h2>How long does soreness last after a massage?</h2>
+<p>Usually less than 36 hours. That is the window in both the client survey [1] and Cleveland Clinic's guidance, which describes a few hours to about a day and a half [2]. If you are still clearly sore on day three, or it is getting worse rather than better, it is no longer the ordinary kind.</p>
+<h2>Normal soreness vs. a warning sign</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Ordinary post-massage soreness</th>
+<th>Get it checked</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>When it starts</td>
+<td>Hours later, often the next morning [1]</td>
+<td>Sharp pain that started during the session</td>
+</tr>
+<tr>
+<td>Where</td>
+<td>Diffuse tenderness in the areas worked</td>
+<td>One precise spot, or pain shooting down an arm or leg</td>
+</tr>
+<tr>
+<td>Nerve symptoms</td>
+<td>None</td>
+<td>Numbness, tingling, or weakness [3]</td>
+</tr>
+<tr>
+<td>Calf</td>
+<td>Even, mild tenderness</td>
+<td>One-sided calf pain with swelling, warmth, or skin color change, a possible blood clot [7]</td>
+</tr>
+<tr>
+<td>Duration</td>
+<td>Better within about a day and a half [2]</td>
+<td>Lasting past a couple of days, or worsening [2]</td>
+</tr>
+</tbody>
+</table>
+<p>The calf row matters most. Mayo Clinic describes deep vein thrombosis as causing leg pain, cramping or soreness that often starts in the calf [7]. If that is what you have, stop massaging the leg entirely, including chair calf airbags, and get it evaluated.</p>
+<p>Serious injuries from massage are rare. The two major safety reviews describe them as uncommon and concentrated in forceful, non-Swedish technique [3][4]. Ordinary next-day tenderness does not appear in either review as an injury, because it is not one.</p>
+<h2>What helps soreness after a massage</h2>
+<p>Cleveland Clinic's list is practical: water, gentle stretching, a warm bath or shower, heat or wrapped ice on the sore area, light activity such as walking, and rest from strenuous exercise if you are new to massage [2]. None of these is required; the soreness resolves on its own. What does help is not repeating deep pressure on tissue that is still sore. For the separate idea that soreness means "toxins" are leaving the muscle, see the FAQ below.</p>
+<h2>How a massage chair delivers this (and why chairs cause first-week soreness)</h2>
+<p><strong>Fully replicates: the pressure dose.</strong> Everything that predicts soreness in hands-on massage is a setting on a chair: roller intensity, airbag strength, program length, and how far 3D or 4D rollers extend into the tissue (see <a href="/learn/roller-dimensions">how roller dimensions work</a>). New owners who start on the strongest auto program are giving themselves a first deep-tissue session, and the next-morning tenderness is the same phenomenon.</p>
+<p><strong>Partially replicates: the recovery benefit.</strong> Moderate chair sessions after exercise apply the same kind of mechanical pressure the soreness-reduction trials used [5], which is why chairs are popular for <a href="/learn/massage-and-recovery">everyday and athletic recovery</a>.</p>
+<p><strong>Cannot replicate: a therapist's feedback loop.</strong> A therapist eases off when tissue guards or you flinch. A chair finishes its program regardless. Cleveland Clinic's advice to speak up when pressure turns painful [2] becomes, in a chair, "press stop." The pressure is real: a published case report describes an osteoporotic spinal compression fracture during automated massage chair use, with the authors warning against deep settings for anyone with or at risk of osteoporosis [6] (more in <a href="/learn/massage-and-osteoporosis">massage and osteoporosis</a>).</p>
+<p><strong>Chair settings that prevent most soreness:</strong></p>
+<ul>
+<li>Start at the lowest intensity with roller depth at minimum for the first week.</li>
+<li>Run one short program per day at first. Our <a href="/learn/massage-and-session-length">session length guide</a> covers how much is enough.</li>
+<li>Raise one variable at a time, a few days apart.</li>
+<li>Skip areas that are still sore from yesterday.</li>
+<li>Stop for sharp pain or any numbness. Do not push through.</li>
+</ul>
+<p>For the chair-specific version of this question, including back soreness during the break-in period, see <a href="/learn/how-to-use-a-massage-chair">how to use a massage chair</a>. The broader safety picture is in <a href="/learn/are-massage-chairs-safe">are massage chairs safe</a>.</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Is it normal to be sore after a massage?</strong></summary>
+<p>Yes. Mild soreness is the most common after-effect, reported by about 1 in 10 clients in a direct survey [1], and it usually clears within a day and a half [2].</p>
+</details>
+<details>
+<summary><strong>Does soreness after a massage mean toxins are being released?</strong></summary>
+<p>No study supports that. The explanation for soreness is mechanical and inflammatory: pressure on tissue that was not used to it [2]. Drinking water is reasonable general advice, but it is not flushing toxins out of muscle.</p>
+</details>
+<details>
+<summary><strong>Why is my back sore after using a massage chair?</strong></summary>
+<p>Usually because the intensity or roller depth was higher than your tissue was used to. Drop to the lowest setting, shorten sessions, and build up over a week or two. Sharp pain or numbness is different and is a reason to stop and get checked.</p>
+</details>
+<details>
+<summary><strong>Should I massage a sore muscle again the next day?</strong></summary>
+<p>Give tissue that is still clearly sore a rest, or use a very light setting on it. Repeating deep pressure on already-tender tissue is the most common way to turn a day of soreness into several.</p>
+</details>
+<details>
+<summary><strong>When is soreness after a massage a concern?</strong></summary>
+<p>When it lasts past a couple of days or worsens [2], when it comes with numbness, tingling, or weakness [3], or when one calf is painful and swollen, which needs prompt evaluation for a clot [7].</p>
+</details>
+<h2>Choosing a chair you can turn down</h2>
+<p>The feature that prevents post-massage soreness is not more power; it is fine control. Look for adjustable roller depth, several intensity steps, and airbag strength settings you can lower separately from the rollers. If recovery after training is the main goal, <a href="/best/athlete-recovery">our picks for athlete recovery</a> prioritize exactly that adjustability.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your body, your pressure tolerance, and what you want the chair to do, in a few minutes.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Cambron JA, Dexheimer J, Coe P, Swenson R. <em>Side-effects of massage therapy: a cross-sectional study of 100 clients.</em> Journal of Alternative and Complementary Medicine. 2007;13(8):793-796. PMID: 17983334.</p>
+<p>[2] Cleveland Clinic. <em>How To Relieve Muscle Soreness After a Massage.</em> 2 February 2024. <a href="https://health.clevelandclinic.org/why-does-my-body-feel-worse-after-a-massage/">Link</a></p>
+<p>[3] Yin P, Gao N, Wu J, Litscher G, Xu S. <em>Adverse events of massage therapy in pain-related conditions: a systematic review.</em> Evidence-Based Complementary and Alternative Medicine. 2014;2014:480956. PMID: 25197310.</p>
+<p>[4] Ernst E. <em>The safety of massage therapy.</em> Rheumatology (Oxford). 2003;42(9):1101-1106. PMID: 12777645.</p>
+<p>[5] Guo J, Li L, Gong Y, et al. <em>Massage Alleviates Delayed Onset Muscle Soreness after Strenuous Exercise: A Systematic Review and Meta-Analysis.</em> Frontiers in Physiology. 2017;8:747. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5623674/">Link</a></p>
+<p>[6] Jeon CH, Chung NS, Lee HD, Won SH. <em>Vertebral compression fracture caused by an electrical automated massage chair.</em> Osteoporosis International. 2019;30(7):1533-1536. PMID: 31016352.</p>
+<p>[7] Mayo Clinic. <em>Deep vein thrombosis (DVT): Symptoms and causes.</em> <a href="https://www.mayoclinic.org/diseases-conditions/deep-vein-thrombosis/symptoms-causes/syc-20352557">Link</a></p>`,
+  },
 
 ]
 
