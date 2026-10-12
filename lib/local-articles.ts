@@ -1066,6 +1066,18 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Smaller brand entries in the catalog also include Relaxe, Cozzia, RockerTech, Ador, Ergotec, Ceragem, and Theramedic. These brands have limited catalog depth or newer US market presence. Evaluate specific models on their own merits rather than treating brand as a quality proxy in this tier.</p>
 
+<h2>Checking a brand's actual service record before you buy</h2>
+
+<p>Brand reputation in this category is often built on marketing and review-site rankings that do not reflect how a company behaves after your chair breaks. A more useful signal is a brand's complaint record with the Better Business Bureau, which is public and free to check in about fifteen minutes before you buy. The <a href="/learn/massage-chair-warranty-guide">warranty guide</a> covers how to read that record in detail: look at the complaint mix rather than the raw count, and watch for repeated patterns like parts shipped before diagnosis or tickets closed for non-response. Applied across brands, a few patterns stand out as of this writing.</p>
+
+<p><strong>Titan</strong> carries the heaviest Better Business Bureau complaint volume of any brand checked, concentrated in warranty refusals, repeated failed repairs, and unresponsive support over a rolling three-year window. <strong>Osaki</strong>, which shares a parent company with Titan, shows a similar pattern in owner reviews and complaint records, including chairs failing within the first year of ownership and warranty claims denied rather than honored. Neither brand lacks a legitimate place in the market and the specific model still matters more than the brand label, but buyers evaluating either should budget extra time to research that model's service history rather than relying on brand reputation alone.</p>
+
+<p><strong>Daiwa</strong> (distributed in the US as US Jaclean) sits in the middle, with moderate complaint volume over the same window, concentrated in warranty-denial disputes and repeat breakdowns after a repair visit.</p>
+
+<p><strong>Infinity and Kyota</strong> share a parent distributor (Infinite Creative Enterprises) and, notably, a clean record: close to the lowest complaint volume of any brand checked, and the rare complaint on file was resolved with a full chair swap rather than a denied claim. In a category where warranty follow-through is one of the most common buyer regrets, a parent company with a genuinely clean three-year complaint history is a real, checkable trust signal rather than marketing language.</p>
+
+<p>Two caveats on reading this kind of data. Complaint volume scales loosely with how many chairs a brand actually sells, so a larger catalog shows more complaints in absolute terms even at the same failure rate, which is why the mix matters more than the count. And this is a snapshot as of this writing; company behavior changes, so treat it as a starting point for your own fifteen-minute check at the time you are actually buying, not a permanent verdict.</p>
+
 <h2>How to use brand as a filter, not a destination</h2>
 
 <p>The most useful way to apply brand to your decision is as a final filter after you have already narrowed by track type, budget, and body fit, not as a starting point. A buyer who determines they need an SL-track chair in the mid to upper-mid tier has already eliminated most of the catalog. Within the remaining options, brand becomes a tiebreaker: warranty depth, parts availability, and whether the US support infrastructure is strong enough to justify the purchase.</p>
@@ -1092,6 +1104,11 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <details>
 <summary><strong>Which brand has the best warranty?</strong></summary>
 <p>Luraco offers some of the strongest warranty coverage in the market, which is part of what justifies the price premium for a US-assembled product. Among the larger-catalog brands, Osaki and Infinity both offer multi-year structural warranties on their mid-range and premium models. Warranty terms vary by model, not just brand. Check the roller mechanism and structural frame coverage separately from parts and labor, since those often differ.</p>
+</details>
+
+<details>
+<summary><strong>Which massage chair brands actually stand behind their warranty?</strong></summary>
+<p>Checking Better Business Bureau complaint records by distributor is the most reliable free signal, and it takes about fifteen minutes. As of this writing, Infinity and Kyota (both under the Infinite Creative Enterprises parent) show the cleanest three-year complaint record among major brands, while Titan and Osaki show the heaviest complaint volume, concentrated in warranty and repair disputes. The <a href="/learn/massage-chair-warranty-guide">warranty guide</a> explains how to run this check yourself and which patterns in a complaint file actually matter.</p>
 </details>`,
   },
 
@@ -3212,7 +3229,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'Warranty terms for massage chairs vary more than most buyers realize, and the gaps between coverage categories matter when an upper-mid-tier chair breaks in year three. Here is what to look for before you buy.',
     order: 38,
     publishedAt: '2026-05-03',
-    updatedAt: '2026-09-15',
+    updatedAt: '2026-10-12',
     body: `
 <p>A massage chair warranty is not a single thing. Most manufacturers break their coverage into four or five separate categories with different term lengths, and the category that fails most often is typically covered for the shortest period. Understanding the warranty structure before you buy is one of the most practical things you can do when spending several thousand dollars on a piece of furniture you expect to use daily.</p>
 
@@ -3339,6 +3356,8 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Check the share classified as Service or Repair.</strong> BBB categorizes complaints by type. A file weighted heavily toward service and repair, rather than sales or advertising, tells you the chairs are being sold fine and then failing the owner afterward. That is the failure mode that costs you.</p>
 
+<p><strong>Check whether complaints say "Answered" or "Resolved."</strong> The Better Business Bureau marks each complaint file by how the company closed it, and the two words mean different things. "Answered" means the company replied; it does not mean the customer got what they asked for. "Resolved" means the complainant confirmed the outcome satisfied them. A file with a long run of "Answered" closures and few "Resolved" ones is a company that responds to complaints without actually fixing the underlying problem, which is a worse signal than a smaller number of complaints that mostly end up marked Resolved.</p>
+
 <p><strong>Read for repeated patterns, not one-off bad days.</strong> Four patterns show up again and again in massage chair service complaints, and each one has a question you can ask before you pay:</p>
 
 <ul>
@@ -3424,6 +3443,9 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h3>Are extended warranties worth buying?</h3>
 <p>It depends entirely on what the base warranty already covers. If mechanisms and electrical are covered for 3 or more years with in-home service, an extended plan mostly buys you years 4 and 5. If the manufacturer covers mechanisms for only 1 year, an extended plan from a reputable provider is closer to a baseline necessity. Read the exclusions list, particularly the definition of improper use.</p>
+
+<h3>What is the difference between a BBB complaint marked "Answered" and one marked "Resolved"?</h3>
+<p>"Answered" means the company replied to the complaint. It says nothing about whether the customer was satisfied. "Resolved" means the person who filed the complaint confirmed the outcome worked for them. When you check a distributor's complaint file before buying, a long run of Answered closures with few marked Resolved is a sign the company responds without actually fixing the problem.</p>
 
 <h2>The Bottom Line</h2>
 
@@ -10001,7 +10023,7 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
     excerpt: "For most healthy adults, a massage chair is safe to use at moderate settings, and the most alarming claims online (that it compresses nerves or causes lasting damage) are not what the evidence supports. The real safety story is narrower and more useful: a handful of medical conditions call for a doctor's clearance first, certain settings can aggravate an existing problem, and soreness after early sessions is usually normal break-in rather than harm. This guide covers who should be cautious, who should ask a clinician before using one, and how to use a chair so it helps instead of hurts.",
     order: 61,
     publishedAt: "2026-07-02",
-    updatedAt: "2026-08-31",
+    updatedAt: "2026-10-12",
     body: `<p>For most healthy adults, a massage chair is safe to use at moderate settings. It relaxes the muscles along the spine, improves circulation, and helps you wind down, and used sensibly it carries about the same risk profile as a manual massage. The widely shared fears (that a chair pinches nerves or causes lasting injury) overstate the danger for the general population. The accurate version is narrower: a short list of conditions warrant caution, a few settings can aggravate an existing problem, and most early-session soreness is normal rather than a warning sign.</p>
 
 <h2>Are massage chairs safe for most people?</h2>
@@ -10062,6 +10084,12 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 
 <p>Manufacturers frequently classify these episodes as the chair functioning as designed at an intensity the user selected. Whether or not that is a fair characterization in any given case, it is a practical reason to treat the power control as your release mechanism rather than assuming a program will end on its own. The same rule applies to anyone who cannot exit the chair unassisted, which is covered in the section above.</p>
 
+<h2>What the real-world complaint and injury record actually shows</h2>
+
+<p>Complaints about massage chairs that reach outside ordinary owner reviews are rare, but a few recurring patterns are worth naming directly rather than ignoring. A widely viewed consumer-investigation television segment raised safety questions about chair intensity settings and compared chair massage to professional massage on safety grounds. That is a reasonable question to ask, and the practical answer is the one this guide already gives: start at low intensity, keep early sessions short, and stop if something feels wrong rather than pushing through. Separately, a documented case reviewed by a consumer protection authority involved a leg and calf massage attachment one user described as too powerful, with calf swelling a doctor later confirmed. That case lines up with what this guide already flags above: the leg and foot unit is the part of a chair most likely to cause a real injury when the fit is wrong or the intensity is too high, which is exactly why setting leg length correctly and starting gentle matter more than any other setting.</p>
+
+<p>None of this changes the overall picture. At moderate settings with correct fit, massage chairs are safe for the large majority of healthy adults, and the injury reports that do surface trace back to the same few causes already covered in this guide (too much intensity, incorrect leg length, or using a chair when an underlying condition called for caution first), not to a defect unique to any one brand or model.</p>
+
 <h2>How to use this when choosing a chair</h2>
 
 <p>Safety is partly a buying decision, not only a usage one. If you have a condition that calls for caution, prioritize chairs with adjustable intensity, a gentle low end, and a body scan that positions the rollers accurately, and steer away from chairs marketed purely on maximum power. Match the chair to your body and your medical situation, not to the longest feature list. The <a href="/finder">chair finder</a> filters by body type and needs so you can narrow to chairs that fit your situation, and the free <a href="/buyers-guide">Buyer's Guide</a> walks through the same decisions at your own pace. When a medical condition is in play, the right sequence is clinician first, then chair.</p>
@@ -10105,6 +10133,11 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <details>
 <summary><strong>How do I get my foot out of a massage chair foot roller?</strong></summary>
 <p>Stop the chair by cutting power rather than trying to force the foot free. The rollers stop instantly, but any inflated airbag around the calf or foot takes several seconds to deflate, and pulling during that window is how ankles get hurt. Once the pressure is off, lift the leg rest by hand and slide the foot straight out. Setting the leg length correctly before the session is what prevents it from happening again.</p>
+</details>
+
+<details>
+<summary><strong>Has a massage chair actually injured someone?</strong></summary>
+<p>Documented cases exist but they are uncommon relative to the number of chairs in daily use, and they trace back to the same causes covered in this guide: intensity set too high, a leg or foot unit used at the wrong fit, or a pre-existing condition that called for caution first. One reviewed case involved calf swelling confirmed by a doctor after a high-intensity leg massage session. The practical takeaway is the same regardless of the specific case: start gentle, set the leg length correctly, and stop if something feels wrong.</p>
 </details>
 
 <p>For the groups that need extra care, <a href="/learn/special-populations">massage for special populations</a> and <a href="/learn/massage-and-blood-thinners">massage and blood thinners</a> go deeper. When you are ready to match a chair to your body and your situation, the <a href="/finder">chair finder</a> narrows the field to chairs that fit.</p>`,
