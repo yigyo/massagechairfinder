@@ -847,7 +847,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 2,
-    priceMin: 2999,  // 2026-09-20: APPLIED. massagechairstore.com buy box $2,999 on two consecutive audits (09-06 and 09-20), 'Save $5,000 Limited Time Sale' off $7,999 list. Crossed upper-mid -> entry. Price flip-flopped 2999/7999 between 07-26 and 09-06, so site prose is now written band-neutral (entry to upper-mid depending on promotion) to avoid rewrites on the next flip.
+    priceMin: 7999,  // 2026-10-11: flipped back. massagechairstore.com buy box $7,999 (confirmed on two independent fetches), promo sale expired. Crossed entry -> upper-mid. Site prose already written band-neutral per the 09-20 note, so no propagation edits needed; re-check next audit in case it flips back to the ~$2,999 sale price.
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -1475,13 +1475,13 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://syncamassagechair.com/products/jin2?ref=massagechairfinder',
     imageUrl: '/images/chairs/inner-balance-jin-2-0.jpg',
-    track: 'L', roller: '2D',
+    track: 'SL', roller: '2D',  // 2026-10-11: corrected L->SL per syncamassagechair.com title+body (consistently SL-Track).
     spaceSaving: true, wallClearanceIn: 2,
     weightCapacityLbs: 300,
     zeroGravityStages: 3,
     zeroGravity: true, heat: true, foot: true,
     plusSizeConfirmed: true,
-    aiNotes: 'L-track. 2D roller. 3-stage zero gravity. Space-saving 2" wall clearance. 300 lb capacity. Upgraded Jin with deeper recline stages.',
+    aiNotes: 'SL-track. 2D roller. 3-stage zero gravity. Space-saving 2" wall clearance. 300 lb capacity. Upgraded Jin with deeper recline stages.',
     reviewRating:      4.9,
     reviewCount:       8,
     reviewSource:      "syncamassagechair.com",
@@ -1778,7 +1778,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.wishrockrelaxation.com/products/kahuna-massage-chair-sm-7300s?aff=47',
     imageUrl: '/images/chairs/kahuna-sm-7300s.jpg',
-    track: 'L', roller: '2D',
+    track: 'SL', roller: '2D',  // 2026-10-11: corrected L->SL; retailer headline+spec table say SL, and aiNotes already described it as SL-track.
     heightMaxIn: 74,
     zeroGravity: true, zeroGravityStages: 3, heat: true, stretch: true, foot: true, aiScanning: true,
     aiNotes: 'Big and tall SL-track 2D. 6-roller system. Heat to lumbar, calf, and feet. Three-stage zero gravity. Stretch. Designed for larger users. Via Wish Rock Relaxation. Verified May 2026.',
@@ -1813,7 +1813,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.wishrockrelaxation.com/products/kahuna-hm-5000-massage-chair?aff=47',
     imageUrl: '/images/chairs/kahuna-hm-5000.jpg',
-    track: 'L', roller: '2D',
+    track: 'SL', roller: '2D',  // 2026-10-11: corrected L->SL; retailer headline+spec table say SL, and aiNotes already described it as SL-track.
     heightMaxIn: 74, weightCapacityLbs: 290,
     zeroGravity: true, heat: false, foot: true, calf: true,
     spaceSaving: true,
@@ -2976,7 +2976,7 @@ export const CHAIRS: Chair[] = [
     name: 'CASINTA 4D',
     brand: 'CASINTA',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 949,  // amazon.com browser check 2026-09-20: $949.99 buy box (-21% off typical $1,199.99, 'Only 15 left'); same band. 2026-09-06: $1,099.99 (was 1199)
+    priceMin: 1299,  // 2026-10-11: amazon.com buy box $1,299.99 (primary retailer), 'Only 1 left in stock' -- up from $949.99 on 09-20. Same band (<$3,000 entry).
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
