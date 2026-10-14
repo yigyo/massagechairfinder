@@ -127,6 +127,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: "The retailer owns your return window. The brand or its distributor owns the warranty, the parts, and the technician. Here is who to call, by channel.",
     order: 121,
     publishedAt: "2026-08-12",
+    updatedAt: "2026-10-14",
     body: `<p>Whoever sold you the chair is usually not whoever fixes it. In almost every case the retailer owns your return window and very little else, while the brand or its United States distributor owns the warranty, the parts, and the technician who shows up. That split is the single biggest reason a repair turns into a standoff. By the time a chair fails, the retailer's window has closed and the distributor is the only party left with the authority to help. Before you pay, find out which company actually takes the service call, and confirm the return window is long enough to outlast one full repair attempt.</p>
 
 <h2>Who fixes a massage chair bought from Costco, Amazon, or a big-box store?</h2>
@@ -230,6 +231,14 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>The last one is worth pressing on. Get the answer in writing either way, because a support agent's verbal yes two years from now is not something you can hold anyone to. Our <a href="/learn/massage-chair-warranty-guide">warranty guide</a> covers how the parts and labor terms are written and where the gap between them opens up, and if you are still choosing, the <a href="/finder">chair finder</a> narrows the catalog to chairs that fit your body, your room, and your price band.</p>
 
+<h2>Can You Actually Get the Part? Parts Availability by Brand</h2>
+
+<p>Service rights mean little if the part itself does not exist to send. Before the labor-coverage math above matters at all, confirm the brand will sell you a replacement part once the chair is out of warranty or bought secondhand. Not every brand will.</p>
+
+<p><strong>Real Relax</strong> is a documented case where buyers hit this wall directly. A reviewer asking where to source a replacement mainboard for a Real Relax Favor 6 reported that the company would not supply the part and would not refer buyers to anyone who could, calling it a major red flag for the brand. That is a parts-sourcing dead end, not a service-network problem you can work around with a third-party technician, because a contracted technician still needs the manufacturer's part to do the repair.</p>
+
+<p>This is a brand-level policy question, not a one-off. Ask it before you buy, while the seller still wants the sale: will you sell a replacement mainboard, remote, or motor assembly to me directly once the warranty ends, and will you sell one to a secondhand owner who was not the original purchaser? A brand that answers yes in writing has given you a chair you can keep running for a decade. A brand that will not answer, or routes every repair through its own paid service with no retail parts option, has given you a chair with a service lifespan set by whoever is still answering the phone. The <a href="/learn/massage-chair-repair-guide">repair guide</a> covers this policy question in more depth, including which brands have a confirmed refusal-to-sell pattern for in-production chairs.</p>
+
 <h2>What to do if you already bought and nobody will own it</h2>
 
 <p>Start by identifying the distributor rather than the retailer. The warranty document, the registration card, or the brand's support page will name the company that actually holds the obligation, and that is the party to address. Put the request in writing with dates, describe the fault rather than naming the part you think is broken, and ask for a diagnosis before any part is shipped. Shipping a guessed part is the step that starts most of the long repair cycles in this category.</p>
@@ -268,6 +277,11 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <details>
 <summary><strong>Who pays to remove the old chair on a warranty replacement?</strong></summary>
 <p>Frequently the owner does, at least in part. A warranty replacement covers the chair, but the freight and white glove handling to deliver the new unit and take the defective one away are usually billed separately, and a swap means two trips rather than one. Confirm the freight and removal terms before accepting a replacement, and see the <a href="/learn/massage-chair-warranty-guide">warranty guide</a> for how these costs are typically split.</p>
+</details>
+
+<details>
+<summary><strong>Will a massage chair brand sell me parts if I am out of warranty?</strong></summary>
+<p>It depends entirely on the brand, and some will not sell parts to anyone outside an active warranty or service contract. Real Relax is a documented example: a buyer looking for a replacement mainboard reported the company would not supply one or refer them to a source that could. Ask this question in writing before you buy, not after something fails.</p>
 </details>`,
   },
   {
@@ -1741,7 +1755,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: "For buyers with chronic lower back or neck pain who would use a chair daily, the answer is yes for most of them. The math holds up and the daily access advantage is real. The caveat is that the calculation depends on how often you would actually use it.",
     order: 15,
     publishedAt: "2026-05-03",
-    updatedAt: "2026-09-16",
+    updatedAt: "2026-10-14",
     body: `<p>For buyers with chronic lower back or neck pain who would use a chair daily, the answer is yes for most of them. The math holds up, the access advantage is real, and the daily ownership of relief is something recurring appointments cannot provide. The caveat is that "worth it" depends on how often you would actually use it. A chair used three times per week is a different calculation from one used every day.</p>
 
 <h2>The cost comparison that actually matters</h2>
@@ -1783,6 +1797,14 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>Most reputable retailers offer a 30-day in-home trial period. This is not the same as buying from Amazon and hoping for a free return. In-home trial programs let you live with the chair in your actual space and use it under real conditions before committing. The return fee is typically a few hundred dollars, which is meaningful but far from the full purchase price.</p>
 
 <p>For buyers who are on the fence about whether they would actually use it, the trial removes most of the fear. The question "what if I buy a chair this expensive and never use it?" becomes "what if I risk a few hundred dollars to find out?" That is a different decision.</p>
+
+<h2>Worried It Becomes a $3,000 Side Table? How Much to Risk Before You Know</h2>
+
+<p>"I'm afraid it'll be idle for a while, how much is the right price to buy one?" is one of the most common versions of this question, and it has a real answer. The right price is not the chair you want once you are sure you will use it daily. It is the chair that still feels like a reasonable decision if your actual usage lands at three sessions a week instead of seven for the first few months, because that is the realistic range for a brand-new habit, not a sign the purchase failed.</p>
+
+<p>Treat the first 30 days as the test, not the verdict. This is exactly what the in-home trial above is for: it tells you your real weekly rate while the return window is still open, instead of guessing at it from a showroom visit. If you are genuinely unsure whether the habit will stick, that uncertainty is itself useful information, and it argues for a chair in the entry to mid tier rather than the top of your budget. A chair you can afford to have sit as occasional furniture for a few months while the habit forms is a very different financial decision than one that has to earn its keep from week one to make sense at all.</p>
+
+<p>The buyers who regret the purchase almost never regret the chair itself. They regret buying at the top of what they could justify before they had any real data on their own usage rate. Buy at a price where "it sat for a month before I got into the habit" is a shrug, not a crisis, and let the trial period tell you the rest.</p>
 
 <h2>Does track type change the value math?</h2>
 
@@ -3626,7 +3648,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'The most common reason a massage chair comes back has nothing to do with price or features. It is because the massage is too rough. Here is how to evaluate pressure range before you commit.',
     order: 41,
     publishedAt: '2026-05-07',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-14',
     body: `
 <p>The most common reason a massage chair comes back has nothing to do with price, aesthetics, features, or fit. It is because the massage is too rough. A buyer spends three months researching roller types, track coverage, and warranty terms, and then the chair arrives, turns on for the first time, and the pressure is uncomfortable enough that they never use it again.</p>
 
@@ -3688,6 +3710,18 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Budget for the exit before you buy, not after the chair arrives and disappoints. Ask the seller for the exact return shipping cost in dollars, not a description like "reasonable" or "at cost," and get it in writing in the same message where you confirm the trial length. The <a href="/learn/massage-chair-trial-period">trial period guide</a> covers how these windows work and what to confirm before the clock starts. If the number is not disclosed up front, assume it will land closer to the $275 to $580 range in these complaint records than to anything smaller, and weigh that figure against how confident you actually are in the fit and pressure match before you order.</p>
 
+<h2>What to Inspect Before You Sign for Delivery</h2>
+
+<p>A white-glove crew wants a signature before they leave, and that signature is often the last chance to catch damage before the return process above becomes your only recourse. One documented complaint describes a chair delivered with a cracked leg hidden under duct tape, discovered only after the delivery team had gone and the paperwork was signed. Once a delivery is signed for as accepted, arguing damage after the fact is a materially harder case to make than refusing the delivery on the spot.</p>
+
+<p>Before you sign anything, unwrap enough of the chair to check the legs, the base, and any visible frame seams for cracks, dents, or repairs disguised as factory finish. Tape, filler, or touch-up paint in a spot that should be a clean molded surface is a reason to refuse the delivery and document it in front of the crew, not to sign and hope a claim goes smoothly later. If the crew will not wait while you inspect, that itself is worth noting in writing at the time.</p>
+
+<h2>Financing Red Flags to Check Before You Sign</h2>
+
+<p>The same complaint that described the hidden crack also described the financing attached to it: terms advertised as 0% APR for five years that turned out to be a six-month promotional window before the rate jumped to 29.99%. On a chair in the thousands of dollars, that is the difference between a manageable payment plan and a debt that grows faster than most buyers expect.</p>
+
+<p>Before you sign financing paperwork, confirm three things in writing, not from what the salesperson says out loud: the exact length of any 0% or promotional period, the rate that applies the day it ends, and whether interest accrues retroactively from the purchase date if the balance is not paid off in time (a structure called deferred interest, which can mean owing interest on the full original balance, not just what is left). Read the figure on the page you are about to sign, not the number quoted during the sales conversation, and get a copy of the full terms before you commit to the chair itself.</p>
+
 <h2>Frequently Asked Questions</h2>
 
 <details>
@@ -3698,6 +3732,16 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <details>
 <summary><strong>Why is return shipping so expensive on a massage chair?</strong></summary>
 <p>Because it ships as freight, not as a parcel. A massage chair weighs 200 to 250 pounds and typically arrives by the same white-glove crew and freight carrier used for delivery. Sending it back requires a scheduled pickup and the same freight-class shipping in reverse, which costs real money regardless of the direction it travels. That is a structural cost of the product category, not a markup a specific retailer is adding.</p>
+</details>
+
+<details>
+<summary><strong>What should I check before accepting delivery of a massage chair?</strong></summary>
+<p>Unwrap enough of the chair to inspect the legs, base, and frame seams before you sign anything. A documented complaint describes a chair delivered with a cracked leg hidden under duct tape that was only found after the crew had left and the delivery was signed for. If anything looks off, including touch-up paint or filler where a clean molded surface should be, refuse the delivery and document it on the spot rather than signing and filing a claim later.</p>
+</details>
+
+<details>
+<summary><strong>What does "0% APR for 5 years" actually mean on massage chair financing?</strong></summary>
+<p>Confirm it in writing before you assume it is real. One documented case involved financing advertised as 0% APR for five years that was actually a six-month promotional window before the rate jumped to 29.99%. Ask for the exact promotional period length, the rate after it ends, and whether interest accrues retroactively on the full balance if it is not paid off in time, and get the answer from the paperwork you are about to sign, not from the sales conversation.</p>
 </details>
 
 <p>The <a href="/learn/airbag-massage">airbag massage guide</a> covers compression intensity in more detail, and the <a href="/learn/how-to-buy">buying framework</a> walks through how to sequence all of the major decisions, with pressure preference as the starting point.</p>
