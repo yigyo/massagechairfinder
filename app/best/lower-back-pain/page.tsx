@@ -49,6 +49,31 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair for lower back pain?",
+    a: "It depends on budget and body size. The Synca Wellness CirC 3 is the strongest entry-level SL-track pick under $3,000. The Amamedics Hilux 4D has the widest confirmed height range for buyers who need to verify fit. For buyers who want the most targeted lumbar and sacral coverage, the Kahuna Dios-7300's dual-track roller system works both sides of the lower back at once. All five picks on this page are SL-track chairs with zero gravity, the baseline requirement for lower back relief.",
+  },
+  {
+    q: "Can a massage chair help with chronic lower back pain?",
+    a: "Chronic lower back pain typically involves the lumbar vertebrae, the sacroiliac joint, and the surrounding musculature, all of which respond to the sustained, repeated pressure a massage chair delivers across multiple daily sessions. An SL-track chair is the right starting point because the lumbar region connects directly to the sacrum, and sacral tension is usually part of the picture even when the pain is described as strictly lower back.",
+  },
+  {
+    q: "Is S-track or SL-track better for lower back pain?",
+    a: "SL-track. S-track chairs follow the spine from the neck to the lumbar and then stop, which is sufficient for upper-back and neck tension but cannot reach the lumbar-sacral junction or the glutes, where lower back pain is usually centered. SL-track chairs extend the roller path under the seat and into the glutes, covering the full problem zone in one continuous pass.",
+  },
+  {
+    q: "What pressure setting is best for lower back pain?",
+    a: "Start at the lightest setting and increase over weeks, not sessions. Most massage chair returns happen because the massage is too rough, not too light, and the lumbar area is often sensitive for buyers dealing with chronic pain. All five chairs on this page have adjustable pressure.",
+  },
+]
+
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -60,8 +85,31 @@ export default function BestLowerBackPainPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Lower Back Pain", item: "https://www.massagechairfinder.com/best/lower-back-pain" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Breadcrumb */}
       <div className="mb-4">
@@ -299,6 +347,18 @@ export default function BestLowerBackPainPage() {
           </Link>{'  '}
           takes about three minutes.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       {/* CTA block */}

@@ -36,6 +36,31 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair for neck and shoulder pain?",
+    a: "It depends on whether the pain is isolated to the upper body or also involves the lower back. The Panasonic MAF1 is the strongest S-track mid-range pick for neck and shoulder pain alone. The Panasonic MAK1 is a premium S-track option with infrared-heated rollers that follow the massage path. For buyers who also carry lower back tension, the Osaki OS-Pro Maestro LE covers both zones in one SL-track pass.",
+  },
+  {
+    q: "Is S-track or SL-track better for neck and shoulder pain?",
+    a: "S-track is sufficient, and often preferable, when neck and shoulder pain is the sole concern, since the chair's full roller path can focus on the cervical and thoracic spine without extending into the lower body. SL-track is the better choice when neck pain also involves lower back or hip tension, a common combination for desk workers, since it covers both zones in one chair.",
+  },
+  {
+    q: "Do I need shoulder airbags for shoulder pain, or do rollers cover it?",
+    a: "Rollers handle the spine, but shoulder and rotator cuff tension responds primarily to airbag compression. When comparing chairs for shoulder pain specifically, look for models that include dedicated shoulder airbags rather than just arm and calf airbags.",
+  },
+  {
+    q: "Is zero gravity necessary for neck and shoulder pain relief?",
+    a: "Not necessarily. Two of the S-track picks on this page, the Panasonic MAF1 and MAK1, do not include zero gravity recline and are still effective for neck work because they prioritize roller precision over recline positions. Zero gravity matters more when lower back decompression is also a goal, which is the case for SL-track picks like the Maestro LE.",
+  },
+]
+
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -47,8 +72,31 @@ export default function BestNeckShouldersPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Neck and Shoulder Pain", item: "https://www.massagechairfinder.com/best/neck-shoulders" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -227,6 +275,18 @@ export default function BestNeckShouldersPage() {
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}
           uses pain location as a primary filter and will surface the appropriate track type based on your answers.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

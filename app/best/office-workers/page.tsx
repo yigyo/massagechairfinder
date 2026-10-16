@@ -51,6 +51,31 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair for office workers and desk jobs?",
+    a: "It depends on budget and how widespread the tension is. The Synca Wellness CirC+ is the strongest entry point in the Under $3,000 band. The Relax On Chair YUKON-4D allows independent pressure control for buyers with uneven tension between the neck and lower back. For total-body desk tension from neck through hips, the Osaki OS-Pro Maestro LE's full SL-track and airbag coverage is the single-chair solution.",
+  },
+  {
+    q: "Why do desk workers need an SL-track chair instead of L-track or S-track?",
+    a: "An L-track roller starts at the upper back and misses the neck and cervical region entirely, where screen posture creates the most tension. SL-track covers from the neck through the glutes, addressing both the cervical tension that builds from screen posture and the lower back compression from long sitting, which is why all six picks on this page are SL-track.",
+  },
+  {
+    q: "Does body scanning matter for an office worker's massage chair?",
+    a: "It matters most for buyers with inconsistent posture. The roller needs to start at the right height relative to the shoulders or it misses the primary tension area. The RockerTech Sensation 4D's TrueFit body scanning detects shoulder height and maps the roller path each session, so neck and upper trapezius coverage stays accurate regardless of how you sit down.",
+  },
+  {
+    q: "How often should a desk worker use a massage chair?",
+    a: "The most effective pattern is a 20-minute session immediately after work, before the day's tension has time to set, at moderate rather than maximum pressure. Daily shorter sessions at moderate intensity are more effective for desk-related tension than occasional sessions at full intensity.",
+  },
+]
+
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -62,8 +87,31 @@ export default function BestOfficeWorkersPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Office Workers", item: "https://www.massagechairfinder.com/best/office-workers" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -232,6 +280,18 @@ export default function BestOfficeWorkersPage() {
           <Link href="/learn/how-to-use-a-massage-chair" className="text-bronze hover:text-gold transition-colors">first-timer&apos;s guide</Link>{" "}
           for session length and intensity guidance.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">
