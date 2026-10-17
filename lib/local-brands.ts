@@ -45,8 +45,8 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     origin: "US brand; chairs manufactured in China",
     warrantyNote: "Typically 3 years comprehensive on most models. Confirm per model before purchase.",
     bestFor: "Buyers with both upper-back and lower-body pain who want 4D roller intensity and full SL-track coverage, and who are prepared to spend in the upper-mid tier or above.",
-    seoTitle: "Infinity Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "Infinity focuses on 4D SL-track technology in the premium segment. Here is what the brand delivers, who it is right for, and which models to consider.",
+    seoTitle: "Infinity Massage Chairs: 4D Roller, L-Track Lineup",
+    seoDescription: "Infinity builds 4D roller massage chairs on an L-track (one Flex-track flagship) in the upper-mid to premium tier. Here is what each model offers and who it fits.",
     description: [
       "<p>Infinity massage chairs are built around one idea carried the length of the lineup: every active model in our catalog uses a 4D roller, from the Dynasty 4D in the $3,000-$4,999 band up to the Circadian 4D DualFlex at $12,000 and up. That is unusual in a category where 4D is normally held back for the top of a range. The brand suits buyers whose lower back pain runs into the hips and who want variable roller depth to control intensity. Buyers shopping the entry tier should look elsewhere, because Infinity does not compete below $3,000.</p>",
       "<p>Infinity positions itself at the premium end of the market, with a catalog built around 4D rollers and full SL-track coverage. The SL-track design, which follows the spine from neck through the glutes, is the right recommendation for buyers whose lower back pain extends into the hips or sacrum. Infinity's execution of this track type is consistent across their lineup, and the 4D roller mechanism adds variable speed and pressure control that 3D rollers do not offer.</p>",
@@ -399,8 +399,8 @@ export const LOCAL_BRANDS: LocalBrand[] = [
     origin: "Sold direct via relaxe.co",
     warrantyNote: "Confirm per model before purchase.",
     bestFor: "Buyers in the Under $3,000 band who want a 53-inch SL-track, 330-pound capacity, and near-wall placement. One of the most accessible full-coverage SL-track chairs in the catalog.",
-    seoTitle: "Relaxe Massage Chairs: Brand Overview and Buying Guide",
-    seoDescription: "Relaxe offers an SL-track shiatsu massage chair in the Under $3,000 band with 53-inch track length and 330-pound capacity, sold direct to consumers. Here is what to expect.",
+    seoTitle: "Relaxe Massage Chair: SL-Track Shiatsu, Under $3,000",
+    seoDescription: "Relaxe's single chair is an SL-track shiatsu massage chair in the Under $3,000 band, with a 53-inch track and 330-pound capacity, sold direct via relaxe.co.",
     description: [
       "<p>Relaxe is a direct-to-consumer brand selling via relaxe.co, currently represented by a single model: the Shiatsu (Under $3,000). At this price, the specifications stand out. The Shiatsu uses a 53-inch SL-track, near the upper end of what mid-range chairs offer, with space-saving 2-inch wall clearance and a confirmed 330-pound weight capacity. That combination of full SL-track coverage, tight wall clearance, and high weight limit in the Under $3,000 band is distinctive in the market.</p>",
       "<p>The roller mechanism is 2D, which is the expected trade-off at this price. Buyers who prioritize roller depth control and adjustable intensity will need to spend more for 3D or 4D technology. But buyers whose primary needs are full SL-track coverage and space-saving placement, without a hard requirement for advanced roller dimensions, will find the Shiatsu competitive against similarly priced options. The confirmed height range of 61 to 76 inches covers most buyers from 5 ft 1 in to 6 ft 4 in.</p>",
