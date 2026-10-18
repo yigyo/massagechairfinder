@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/titan-3d-prestige-vs-ogawa-og6400" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/titan-3d-prestige-vs-ogawa-og6400"),
   title: 'Titan 3D Prestige vs Ogawa OG-6400: SL-Track 3D',
-  description: 'Two mid-tier SL-track 3D chairs priced within $200 of each other. The Titan reclines within an inch of the wall; the OG-6400 carries a 320 lb rating and a dual roller system. Here is the full comparison.',
+  description: 'Two SL-track 3D chairs priced within $200 of each other, though the OG-6400 recently crossed into the next band up. The Titan reclines within an inch of the wall; the OG-6400 carries a 320 lb rating and a dual roller system. Here is the full comparison.',
 }
 
 export default function Titan3dPrestigeVsOg6400Page() {
@@ -49,11 +49,11 @@ export default function Titan3dPrestigeVsOg6400Page() {
       </nav>
 
       <h1 className="text-4xl font-serif mb-4">
-        Titan 3D Prestige vs Ogawa Active XL Duo (OG-6400): The Mid-Tier SL-Track 3D Decision
+        Titan 3D Prestige vs Ogawa Active XL Duo (OG-6400): The SL-Track 3D Decision
       </h1>
 
       <p className="text-warm-gray text-lg mb-8">
-        These two land within about two hundred dollars of each other in the same mid tier, and both are SL-track 3D chairs with zero gravity and heat. The real split is physical: the Titan is one of the tightest space-savers in its class, while the OG-6400 trades wall clearance for a higher weight rating and a dual roller system. Here is what separates them.
+        These two land within about two hundred dollars of each other, though the OG-6400 recently crossed into the next price band up, and both are SL-track 3D chairs with zero gravity and heat. The real split is physical: the Titan is one of the tightest space-savers in its class, while the OG-6400 trades wall clearance for a higher weight rating and a dual roller system. Here is what separates them.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-10">
@@ -69,7 +69,7 @@ export default function Titan3dPrestigeVsOg6400Page() {
             <Image src="/images/chairs/ogawa-active-xl-duo-3d-2d-og-6400.jpg" alt="Ogawa Active XL Duo OG-6400 massage chair" width={400} height={300} className="w-full h-full object-contain p-4" />
           </div>
           <p className="text-sm font-semibold text-navy">Ogawa Active XL Duo (OG-6400)</p>
-          <p className="text-sm text-charcoal">$3,000-$4,999</p>
+          <p className="text-sm text-charcoal">$5,000-$7,999</p>
         </div>
       </div>
 
@@ -92,7 +92,7 @@ export default function Titan3dPrestigeVsOg6400Page() {
           </thead>
           <tbody>
             {[
-              ['Price band', '$3,000-$4,999', '$3,000-$4,999'],
+              ['Price band', '$3,000-$4,999', '$5,000-$7,999'],
               ['Track', 'SL-track', 'SL-track'],
               ['Roller', '3D', 'Dual 3D and 2D'],
               ['Heat', 'Yes', 'Yes'],

@@ -21,7 +21,7 @@ const COMPARISONS = [
     slug: 'titan-3d-prestige-vs-ogawa-og6400',
     chairA: 'Titan 3D Prestige',
     chairB: 'Ogawa Active XL Duo (OG-6400)',
-    tier: '$3,000-$4,999',
+    tier: 'Mid to upper-mid tier',
     summary: 'Two mid-tier SL-track 3D chairs priced within $200. The Titan reclines within an inch of the wall; the OG-6400 carries a 320 lb rating and a dual roller system.',
   },
   {
@@ -84,8 +84,8 @@ const COMPARISONS = [
     slug: 'ogawa-og6400-vs-titan-pro-vigor-4d',
     chairA: 'Ogawa Active XL Duo 3D',
     chairB: 'Titan Pro-Vigor 4D',
-    tier: 'Mid to upper-mid tier',
-    summary: 'The Ogawa is a tier lower in price, with 320 lb plus-size fit and 11-inch wall clearance. The Pro-Vigor 4D adds heated rollers and 4D precision for buyers under 260 lbs.',
+    tier: '$5,000-$7,999',
+    summary: 'Both now land in the upper-mid tier within $800 of each other. The Ogawa adds 320 lb plus-size fit and 11-inch wall clearance. The Pro-Vigor 4D adds heated rollers and 4D precision for buyers under 260 lbs.',
   },
   {
     slug: 'kahuna-sm-7300s-vs-relaxonchair-yukon-4d',

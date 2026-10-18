@@ -30,8 +30,8 @@ const EDITORIAL: Record<string, Editorial> = {
     why: "The Synca Wellness CirC+ is the strongest entry point for office workers who want a real massage chair without an upper-mid-tier commitment. The SL-track covers neck through glutes, the 3D roller provides depth control for the cervical and upper thoracic regions where desk tension accumulates, and the space-saving design makes it practical for apartment bedrooms or home office setups. In the Under $3,000 band, it is the starting point for buyers who want to test whether a massage chair will address their desk-related tension before investing more.",
   },
   "ogawa-og6400": {
-    label: "Best mid-range for larger office workers",
-    why: "The Ogawa Active XL Duo 3D is the strongest mid-range pick for office workers who are heavier or broader than average. At 320 lbs confirmed plus-size capacity with an 11-inch wall clearance and SL-track 3D coverage, it handles more body types than most chairs in its price tier. The dual roller system uses a primary 3D roller for the spine and a secondary roller for supplemental coverage, a design that produces thorough upper back and shoulder-area work. In the $3,000-$4,999 band, it occupies the mid-range with a feature set more typical of upper-mid-tier chairs.",
+    label: "Best upper-mid pick for larger office workers",
+    why: "The Ogawa Active XL Duo 3D is a strong pick for office workers who are heavier or broader than average. At 320 lbs confirmed plus-size capacity with an 11-inch wall clearance and SL-track 3D coverage, it handles more body types than most chairs near its price. The dual roller system uses a primary 3D roller for the spine and a secondary roller for supplemental coverage, a design that produces thorough upper back and shoulder-area work. In the $5,000-$7,999 band, it brings more roller hardware than many mid-tier chairs.",
   },
   "relaxonchair-yukon-4d": {
     label: "Best precision control for desk tension",
@@ -268,7 +268,7 @@ export default function BestOfficeWorkersPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          Start with budget. In the Under $3,000 band, the Synca CirC+ is the entry point for buyers who want SL-track coverage without overcommitting. In the $3,000-$4,999 band, the Ogawa Active XL Duo is the right call for larger-framed buyers who need a confirmed higher weight capacity. The upper-mid tier is where precision control and body scanning become available.
+          Start with budget. In the Under $3,000 band, the Synca CirC+ is the entry point for buyers who want SL-track coverage without overcommitting. In the $5,000-$7,999 band, the Ogawa Active XL Duo is the right call for larger-framed buyers who need a confirmed higher weight capacity, alongside the YUKON-4D's precision control and body scanning.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If your tension is uneven across the spine, the Relax On Chair YUKON-4D ($5,000-$7,999) allows independent zone pressure control. If your posture changes significantly depending on how tired you are, the RockerTech Sensation 4D ($5,000-$7,999) adjusts the roller path per session. For full-chain tension from neck through hips, the Osaki Maestro LE ($8,000-$11,999) is the single-chair solution.

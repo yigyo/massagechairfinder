@@ -15,7 +15,7 @@ const PICK_IDS = [
   "inner-balance-jin",
   "healthrelife-4d-15-mode",
   "synca-wellness-circ-plus",
-  "relx-20-mode",
+  "relaxe-shiatsu",
   "luraco-i9-max-plus",
 ]
 
@@ -41,9 +41,9 @@ const EDITORIAL: Record<string, Editorial> = {
     label: "Best design-forward chair for a visible space",
     why: "The CirC+ is the pick when the chair sits where guests see it. Synca builds for a cleaner, more furniture-like look than most massage chairs, and the CirC+ keeps a space-saving 6-inch wall clearance, a confirmed 300 lb capacity, SL-track 3D rollers, AI body scanning, heat, and calf and foot coverage. A 5.0 rating, across a smaller review set, reflects a chair that reads as an amenity rather than equipment.",
   },
-  "relx-20-mode": {
+  "relaxe-shiatsu": {
     label: "Best proven pick for high-traffic placement",
-    why: "The RELX Full Body 20-Mode has the largest review base on this list, a 4.5 rating across 457 reviews, the kind of track record that matters when a chair will be used by hundreds of different guests. Twenty preset modes and zero gravity recline give variety with one-touch operation, and SL-track coverage runs the full spine. For a high-traffic lobby or a pay-per-use installation, proven reliability across many users is the deciding factor.",
+    why: "The Relaxe Shiatsu carries the largest review base in this group, a 4.8 rating across 894 reviews, the kind of track record that matters when a chair sees constant turnover from different guests. SL-track coverage runs the full spine, zero gravity, heat, and foot rollers round out a complete session, and a space-saving 2-inch wall clearance plus a confirmed 330 lb capacity make it practical for a high-traffic lobby or pay-per-use installation where reliability across many users is the deciding factor.",
   },
   "luraco-i9-max-plus": {
     label: "Best luxury flagship for a resort spa",

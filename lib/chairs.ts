@@ -847,14 +847,14 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 2,
-    priceMin: 7999,  // 2026-10-11: flipped back. massagechairstore.com buy box $7,999 (confirmed on two independent fetches), promo sale expired. Crossed entry -> upper-mid. Site prose already written band-neutral per the 09-20 note, so no propagation edits needed; re-check next audit in case it flips back to the ~$2,999 sale price.
+    priceMin: 2799,  // 2026-10-18: amazonUrl is the resolved channel (massagechairstore.com is not in APPROVED_DIRECT), buy box returned with title/model confirmed correct, price $2,799 (list $4,999) -- down from 7999, a -65% swing crossing upper-mid -> entry. LARGE AND UNUSUAL MOVE: massagechairstore.com direct still shows $7,999. Re-verify next audit before trusting as stable; this may be a temporary Amazon deal.
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
     amazonUrl: 'https://www.amazon.com/dp/B08T4BXGP3/?tag=massagechairf-20',
-    amazonAsin: 'B08T4BXGP3',  // 2026-09-20 browser check: featured offer BACK, buy box $2,999 (List $4,999), 'usually ships 13-14 days'. Re-wired. History: no buy box 08-16 and 09-06; if it disappears again drop amazonUrl per the no-buy-box rule.
+    amazonAsin: 'B08T4BXGP3',  // 2026-10-18 browser check: buy box $2,799 (List $4,999), 'ships 13-14 days', title confirmed correct. 2026-09-20: buy box $2,999. History: no buy box 08-16 and 09-06; if it disappears again drop amazonUrl per the no-buy-box rule.
     imageUrl: '/images/chairs/kyota-genki-m380.jpg',
     goodwinLookupKey: 'kyota genki',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Kyota-Genki-M380-massage-chair.jpg?v=1776836198',
@@ -1672,8 +1672,7 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.wishrockrelaxation.com/products/kahuna-dios-6800-6d-massage-chair?aff=47',
-    amazonUrl: 'https://www.amazon.com/dp/B0F4G3FGY2/?tag=massagechairf-20',
-    amazonAsin: 'B0F4G3FGY2',
+    amazonAsin: 'B0F4G3FGY2',  // 2026-10-18: DEAD on Amazon -- 'Currently unavailable', no price, no buy box. amazonUrl dropped. Primary wishrockrelaxation.com (APPROVED_DIRECT) unaffected and confirmed in stock.
     imageUrl: '/images/chairs/kahuna-dios-6800-6d.jpg',
     track: 'SL', roller: '6D', trackLengthIn: 50,
     zeroGravity: true, heat: true, foot: true,
@@ -1759,8 +1758,7 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.wishrockrelaxation.com/products/kahuna-dios-7300-7d-massage-chair?aff=47',
-    amazonUrl: 'https://www.amazon.com/dp/B0F4FP5JHW/?tag=massagechairf-20',
-    amazonAsin: 'B0F4FP5JHW',
+    amazonAsin: 'B0F4FP5JHW',  // 2026-10-18: WRONG PRODUCT -- ASIN now resolves to an unrelated Culanta-brand chair. amazonUrl dropped. Primary wishrockrelaxation.com (APPROVED_DIRECT) unaffected and confirmed in stock.
     imageUrl: '/images/chairs/kahuna-dios-7300-7d.jpg',
     track: 'SL', roller: '7D',
     zeroGravity: true, heat: true, foot: true, calf: true, aiScanning: true,
@@ -1937,7 +1935,7 @@ export const CHAIRS: Chair[] = [
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 merged duplicate Goodwin shadow
     goodwinLookupKey: 'ogawa active xl duo 3d+2d',
-    priceMin: 4799, priceMax: 5899,  // wishrockrelaxation.com verified live 2026-06-01 (sale 4799.99, list 5899)
+    priceMin: 5199,  // wishrockrelaxation.com verified 2026-10-18: buy box $5,199.99 (was 4799, +8.3%). Crossed mid -> upper-mid band.
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -2117,7 +2115,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://www.relaxonchair.com/products/jasper-full-body-massage-chair?ref=gxoncaks',
-    amazonAsin: 'B0D325QC32',  // 2026-10-04: still no buy box (confirmed 4th consecutive audit). 2026-09-27 / 2026-09-06 / 2026-07-26: same finding -- Amazon listing live + correct product but NO featured buy box ('See All Buying Options' only). amazonUrl dropped; primary relaxonchair.com in stock. Re-wire when a featured offer returns.
+    amazonAsin: 'B0D325QC32',  // 2026-10-18: still no buy box (confirmed 5th consecutive audit). 2026-10-04 / 2026-09-27 / 2026-09-06 / 2026-07-26: same finding -- Amazon listing live + correct product but NO featured buy box ('See All Buying Options' only). amazonUrl dropped; primary relaxonchair.com in stock. Re-wire when a featured offer returns.
     imageUrl: '/images/chairs/relax-on-chair-jasper.jpg',
     track: 'SL', roller: null,
     zeroGravity: true, heat: true, foot: true,
@@ -2185,8 +2183,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black?ref=gxoncaks',
-    amazonUrl: 'https://www.amazon.com/dp/B07FYRRZGR/?tag=massagechairf-20',  // verified live 2026-06-22 (purchasable via See All Buying Options)
-    amazonAsin: 'B07FYRRZGR',
+    amazonAsin: 'B07FYRRZGR',  // 2026-10-18: WRONG PRODUCT -- ASIN now resolves to an unrelated HealthRelife-brand chair. amazonUrl dropped. Primary relaxonchair.com (APPROVED_DIRECT) unaffected and confirmed in stock.
     imageUrl: '/images/chairs/relax-on-chair-mk-v-plus.jpg',
     track: 'L', roller: null,
     spaceSaving: true, wallClearanceIn: 3.5,
@@ -2251,10 +2248,9 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://www.relaxonchair.com/products/yukon-4d-full-body-massage-chair?ref=gxoncaks',
-    amazonUrl: 'https://www.amazon.com/dp/B08X8Y3PX7/?tag=massagechairf-20',
-    amazonAsin: 'B08X8Y3PX7',
+    amazonAsin: 'B08X8Y3PX7',  // 2026-10-18: WRONG PRODUCT -- ASIN now resolves to an unrelated KTENTITO-brand chair. amazonUrl dropped. Primary relaxonchair.com (APPROVED_DIRECT) unaffected and confirmed in stock.
     imageUrl: '/images/chairs/relax-on-chair-yukon-4d.jpg',
-    track: 'SL', roller: '4D',
+    track: 'SL', roller: '4D',  // 2026-10-18: relaxonchair.com now markets this as "J-Track" (not in our Track enum); keeping SL pending a human spec review.
     zeroGravity: true, heat: true,
     reviewRating:      3.67,
     reviewCount:       3,
@@ -2349,8 +2345,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'gameroomempire.com',
     affiliateUrl: 'https://gameroomempire.com/products/medical-breakthrough-6',
-    amazonUrl: 'https://www.amazon.com/dp/B07FPY2GL8/?tag=massagechairf-20',
-    amazonAsin: 'B07FPY2GL8',
+    amazonAsin: 'B07FPY2GL8',  // 2026-10-18: LIVE BUG FOUND AND FIXED -- ASIN now resolves to an unrelated MYTHIA-brand chair. gameroomempire.com is NOT in APPROVED_DIRECT, so resolveAffiliateUrl was sending real buyers to the wrong chair on Amazon. amazonUrl dropped; resolution now correctly falls back to gameroomempire.com (confirmed in stock, price matches).
     imageUrl: '/images/chairs/medical-breakthrough-6.jpg',
     track: 'L', roller: '4D',
     weightCapacityLbs: 300,
@@ -2635,7 +2630,7 @@ export const CHAIRS: Chair[] = [
     name: 'Svago ZGR',
     brand: 'Svago',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 2199,
+    priceMin: 1999,  // 2026-10-18: amazonUrl is the resolved channel (gameroomempire.com is not in APPROVED_DIRECT). Amazon buy box $1,999 (was 2199, -9.1%). Listing title shows as "ZGR Plus SV-395" -- re-confirm same SKU next audit.
     affiliateTier: 'A',
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'gameroomempire.com',
@@ -2656,7 +2651,7 @@ export const CHAIRS: Chair[] = [
     name: 'Svago Newton',
     brand: 'Svago',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 3199,
+    priceMin: 3499,  // 2026-10-18: amazonUrl is the resolved channel (gameroomempire.com is not in APPROVED_DIRECT). Amazon buy box $3,499 (was 3199, +9.4%), title "Svago ZGR Newton SV-630" matches.
     affiliateTier: 'A',
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'gameroomempire.com',
@@ -2777,7 +2772,7 @@ export const CHAIRS: Chair[] = [
     name: 'Nouhaus Nou Campo',
     brand: 'Nouhaus',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 2099,  // nouhaus.com verified 2026-09-06: default Mellow Sand variant $2,099.99 (other colors $2,299.99); same band
+    priceMin: 2299,  // 2026-10-18: amazonUrl is the resolved channel (nouhaus.com is not in APPROVED_DIRECT). Amazon buy box $2,299.99 (was 2099, +9.6%), title matches exactly. nouhaus.com direct still shows 2099.99 for Mellow Sand but is not the link buyers actually land on.
     affiliateTier: null,
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
@@ -2804,8 +2799,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
     affiliateUrl: 'https://www.nouhaus.com/products/nouhaus-luna-zero-gravity-massage-chair',
-    amazonUrl: 'https://www.amazon.com/dp/B0D763LCYX/?tag=massagechairf-20',
-    amazonAsin: 'B0D763LCYX',
+    amazonAsin: 'B0D763LCYX',  // 2026-10-18: LIVE BUG FOUND AND FIXED -- ASIN now resolves to a Kyota Genki M380, not a Nouhaus Luna at all. nouhaus.com is NOT in APPROVED_DIRECT, so resolveAffiliateUrl was sending real buyers to the wrong chair on Amazon. amazonUrl dropped; resolution now correctly falls back to nouhaus.com (confirmed in stock, price matches).
     imageUrl: '/images/chairs/nouhaus-luna.jpg',
     track: 'SL', roller: '3D',
     zeroGravity: true, heat: true,
@@ -2842,8 +2836,9 @@ export const CHAIRS: Chair[] = [
     id: 'relx-20-mode',
     name: 'RELX Full Body 20-Mode',
     brand: 'RELX',
-    active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1899,  // 2026-09-27: Buy box now $1,899.99, list price $2,699.99 struck through (sale live). Same band (<$3,000), no propagation needed. Watch: may revert to ~$2,699 when sale ends. 2026-09-20: APPLIED $2,699.99, no deal badge. 2026-07-13: $1,899.99 from $2,899.99 list
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-10-18: DEACTIVATED -- sole listing (amazon.com, ASIN B0FJGWZS5L) now resolves to an unrelated Dios/Kahuna LM6800 chair and is itself 'Currently unavailable'. No valid purchase path. Cleared from app/best/hotels-hospitality (swapped in relaxe-shiatsu).
+    inStock: false,
+    priceMin: 1899,  // last confirmed price 2026-09-27 before deactivation
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2862,7 +2857,7 @@ export const CHAIRS: Chair[] = [
     name: 'Culanta SL-Track Shiatsu',
     brand: 'Culanta',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 999,  // amazon.com verified 2026-08-16: $999.99 limited deal, 'Only 1 left' (was 1099) -- same band, likely reverts
+    priceMin: 1199,  // amazon.com verified 2026-10-18: buy box $1,199.99 (was 999, +20.1%). Same band (entry, under $3,000).
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2880,8 +2875,9 @@ export const CHAIRS: Chair[] = [
     id: 'tlife-160-zg',
     name: 'TLIFE 160 Zero Gravity',
     brand: 'TLIFE',
-    active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 999,  // amazon.com browser check 2026-09-20: $999.99 buy box (-17% off typical $1,199.99, 'Only 7 left'), B0F2FMVT7M did NOT redirect this run. Same band. Earlier: 2026-09-06 $1,199.99 deal (redirected to B0F2FP5DP5), 2026-08-16 $1,199.99 (was 1349). 2026-10-04: B0F2FMVT7M redirected to B0F2FP5DP5 again (title/price/stock still matched this catalog entry); intermittent -- not swapping the ASIN until it's stable across runs.
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-10-18: DEACTIVATED -- sole listing (amazon.com, ASIN B0F2FMVT7M) now resolves to an unrelated RELAXONCHAIR Jasper listing with no normal buy box ('High price' warning, See All Buying Options only). No valid purchase path. Not referenced on any rendered surface.
+    inStock: false,
+    priceMin: 999,  // last confirmed price 2026-09-20 before deactivation
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2956,8 +2952,9 @@ export const CHAIRS: Chair[] = [
     id: 'healthrelife-4d-20-mode',
     name: 'HealthRelife 4D 20-Mode',
     brand: 'HealthRelife',
-    active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 2399,  // amazon.com verified 2026-07-13 via browser (was 2699; now $2,399 from $2,999 list)
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-10-18: DEACTIVATED -- sole listing (amazon.com, ASIN B0D87C16Q8) now resolves to an unrelated Svago Lite 2 recliner. No valid purchase path. Not referenced on any rendered surface.
+    inStock: false,
+    priceMin: 2399,  // last confirmed price 2026-07-13 before deactivation
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2975,8 +2972,9 @@ export const CHAIRS: Chair[] = [
     id: 'casinta-4d',
     name: 'CASINTA 4D',
     brand: 'CASINTA',
-    active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1299,  // 2026-10-11: amazon.com buy box $1,299.99 (primary retailer), 'Only 1 left in stock' -- up from $949.99 on 09-20. Same band (<$3,000 entry).
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-10-18: DEACTIVATED -- sole listing (amazon.com, ASIN B0GHWHX93Y) now resolves to an unrelated Svago ZGR Plus recliner. No valid purchase path. Not referenced on any rendered surface.
+    inStock: false,
+    priceMin: 1299,  // last confirmed price 2026-10-11 before deactivation
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -3241,8 +3239,7 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '(Amazon Associates, tag massagechairf-20)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://gameroomempire.com/products/osaki-os-highpointe-4d-massage-chair',
-    amazonUrl: 'https://www.amazon.com/dp/B0BXPYT8G7?tag=massagechairf-20',
-    amazonAsin: 'B0BXPYT8G7',
+    amazonAsin: 'B0BXPYT8G7',  // 2026-10-18: LIVE BUG FOUND AND FIXED -- ASIN now resolves to a Svago ZGR Newton recliner, not an Osaki OS-Highpointe at all. gameroomempire.com is NOT in APPROVED_DIRECT, so resolveAffiliateUrl was sending real buyers to the wrong chair on Amazon. amazonUrl dropped; resolution now correctly falls back to gameroomempire.com (confirmed in stock, price matches).
     imageUrl: 'https://gameroomempire.com/cdn/shop/products/3.5HighPointe_Black_695x695_36d32f6e-d5f0-47f2-be2b-b27b2e235a86.jpg?v=1679594000',
     track: 'SL',
     roller: '4D',

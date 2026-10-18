@@ -30,11 +30,11 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "lower-back-pain"
     },
     {
-      label: "Best Massage Chairs for Petite Buyers",
+      label: "Best Massage Chairs for Petite Buyers (2026): Under 5'2\\\" Fit",
       slug: "petite-buyers"
     },
     {
-      label: "Best Massage Chairs for Seniors",
+      label: "Best Massage Chairs for Seniors (2026): 6 Zero Gravity + Heat Picks",
       slug: "seniors"
     },
     {
@@ -72,7 +72,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "gyms-wellness-centers"
     },
     {
-      label: "Best Massage Chairs for Petite Buyers",
+      label: "Best Massage Chairs for Petite Buyers (2026): Under 5'2\\\" Fit",
       slug: "petite-buyers"
     },
     {
@@ -90,7 +90,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "daiwa-majesty-2d": [
     {
-      label: "Best Massage Chairs for Petite Buyers",
+      label: "Best Massage Chairs for Petite Buyers (2026): Under 5'2\\\" Fit",
       slug: "petite-buyers"
     },
     {
@@ -110,7 +110,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "heavy-duty"
     },
     {
-      label: "Best Massage Chairs for Sciatica",
+      label: "Best Massage Chairs for Sciatica (2026): 5 L/SL-Track Picks",
       slug: "sciatica"
     }
   ],
@@ -126,15 +126,11 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "senior-living-facilities"
     },
     {
-      label: "Best Massage Chairs for Seniors",
+      label: "Best Massage Chairs for Seniors (2026): 6 Zero Gravity + Heat Picks",
       slug: "seniors"
     }
   ],
   "infinity-dynasty-4d": [
-    {
-      label: "Best Massage Chairs $3,000 to $5,000",
-      slug: "3000-to-5000"
-    },
     {
       label: "Best Massage Chairs for Senior Living Facilities",
       slug: "senior-living-facilities"
@@ -174,7 +170,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "heavy-duty"
     },
     {
-      label: "Best Massage Chairs for Seniors",
+      label: "Best Massage Chairs for Seniors (2026): 6 Zero Gravity + Heat Picks",
       slug: "seniors"
     },
     {
@@ -198,7 +194,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "premium"
     },
     {
-      label: "Best Massage Chairs for Sciatica",
+      label: "Best Massage Chairs for Sciatica (2026): 5 L/SL-Track Picks",
       slug: "sciatica"
     },
     {
@@ -212,7 +208,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "lower-back-pain"
     },
     {
-      label: "Best Massage Chairs for Sciatica",
+      label: "Best Massage Chairs for Sciatica (2026): 5 L/SL-Track Picks",
       slug: "sciatica"
     },
     {
@@ -226,7 +222,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "3000-to-5000"
     },
     {
-      label: "Best Massage Chairs for Arthritis",
+      label: "Best Massage Chairs for Arthritis (2026): 4D Roller + Heat",
       slug: "arthritis"
     },
     {
@@ -270,7 +266,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "heavy-duty"
     },
     {
-      label: "Best Massage Chairs for Sciatica",
+      label: "Best Massage Chairs for Sciatica (2026): 5 L/SL-Track Picks",
       slug: "sciatica"
     },
     {
@@ -278,7 +274,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "senior-living-facilities"
     },
     {
-      label: "Best Massage Chairs for Seniors",
+      label: "Best Massage Chairs for Seniors (2026): 6 Zero Gravity + Heat Picks",
       slug: "seniors"
     },
     {
@@ -294,7 +290,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "kyota-yugana-m780": [
     {
-      label: "Best Massage Chairs for Arthritis",
+      label: "Best Massage Chairs for Arthritis (2026): 4D Roller + Heat",
       slug: "arthritis"
     },
     {
@@ -302,7 +298,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "heavy-duty"
     },
     {
-      label: "Best Massage Chairs for Petite Buyers",
+      label: "Best Massage Chairs for Petite Buyers (2026): Under 5'2\\\" Fit",
       slug: "petite-buyers"
     },
     {
@@ -310,7 +306,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "premium"
     },
     {
-      label: "Best Massage Chairs for Seniors",
+      label: "Best Massage Chairs for Seniors (2026): 6 Zero Gravity + Heat Picks",
       slug: "seniors"
     },
     {
@@ -334,17 +330,17 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "luraco-theater-sofy": [
     {
-      label: "Best Massage Chairs for Petite Buyers",
+      label: "Best Massage Chairs for Petite Buyers (2026): Under 5'2\\\" Fit",
       slug: "petite-buyers"
     }
   ],
   "medical-breakthrough-6": [
     {
-      label: "Best Massage Chairs for Arthritis",
+      label: "Best Massage Chairs for Arthritis (2026): 4D Roller + Heat",
       slug: "arthritis"
     },
     {
-      label: "Best Massage Chairs for Seniors",
+      label: "Best Massage Chairs for Seniors (2026): 6 Zero Gravity + Heat Picks",
       slug: "seniors"
     }
   ],
@@ -368,7 +364,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "ogawa-og8901": [
     {
-      label: "Best Massage Chairs for Arthritis",
+      label: "Best Massage Chairs for Arthritis (2026): 4D Roller + Heat",
       slug: "arthritis"
     },
     {
@@ -388,7 +384,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "osaki-os-pro-maestro-le": [
     {
-      label: "Best Massage Chairs for Arthritis",
+      label: "Best Massage Chairs for Arthritis (2026): 4D Roller + Heat",
       slug: "arthritis"
     },
     {
@@ -440,7 +436,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "neck-shoulders"
     },
     {
-      label: "Best Massage Chairs for Petite Buyers",
+      label: "Best Massage Chairs for Petite Buyers (2026): Under 5'2\\\" Fit",
       slug: "petite-buyers"
     },
     {
@@ -475,6 +471,10 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
     }
   ],
   "relaxe-shiatsu": [
+    {
+      label: "Best Massage Chairs for Hotels and Hospitality",
+      slug: "hotels-hospitality"
+    },
     {
       label: "Best Massage Chairs for Small Spaces",
       slug: "small-spaces"
@@ -514,15 +514,9 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "office-workers"
     }
   ],
-  "relx-20-mode": [
-    {
-      label: "Best Massage Chairs for Hotels and Hospitality",
-      slug: "hotels-hospitality"
-    }
-  ],
   "rockertech-bliss": [
     {
-      label: "Best Massage Chairs for Arthritis",
+      label: "Best Massage Chairs for Arthritis (2026): 4D Roller + Heat",
       slug: "arthritis"
     }
   ],
@@ -562,7 +556,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "lower-back-pain"
     },
     {
-      label: "Best Massage Chairs for Sciatica",
+      label: "Best Massage Chairs for Sciatica (2026): 5 L/SL-Track Picks",
       slug: "sciatica"
     },
     {
