@@ -184,6 +184,10 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-balance-and-falls",
       "massage-and-herniated-disc",
       "massage-and-soreness",
+      "massage-and-headache-after-massage",
+      "massage-and-pinched-nerve",
+      "massage-and-knee-pain",
+      "massage-and-it-band",
     ],
   },
 ]
