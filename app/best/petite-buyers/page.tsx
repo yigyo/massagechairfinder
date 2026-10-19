@@ -51,6 +51,30 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair for someone under 5 foot 2 inches?",
+    a: "It depends on budget and what matters most. The Luraco Theater Sofy is the most accessible confirmed-petite chair, built for commercial use and rated from 5 foot 0 inches. The Kyota Yugana M780 adds body scanning that maps your actual shoulder position each session. For a premium pick, the Daiwa Legacy 4 pairs a 49-inch L-track with a confirmed 4 foot 8 inch lower bound.",
+  },
+  {
+    q: "Why do most massage chairs not fit petite bodies well?",
+    a: "The roller start position is calibrated to an average body, typically around 5 foot 8 inches. On a shorter buyer, that position lands too high: the neck roller contacts the mid-back instead of the cervical spine, and the lumbar roller sits above the true lumbar vertebrae. Confirmed fit data at the buyer's actual height is more reliable than a spec sheet maximum.",
+  },
+  {
+    q: "Does body scanning matter for petite buyers?",
+    a: "Yes, more than for an average-height buyer. The Kyota Yugana M780's TrueFit scan reads spine curvature and length before each session and repositions the roller start point to the buyer's actual shoulder height, rather than assuming an average body.",
+  },
+  {
+    q: "What else should petite buyers check besides height?",
+    a: "Seat width and foot roller calibration. A chair sized for a wider body can leave airbag coverage missing the outer hip and thigh on a petite frame, and foot rollers calibrated to an average foot length may not engage correctly on smaller feet. These are secondary to height but worth checking on a specific model.",
+  },
+]
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -62,8 +86,31 @@ export default function BestPetiteBuyersPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Petite Buyers", item: "https://www.massagechairfinder.com/best/petite-buyers" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -235,6 +282,18 @@ export default function BestPetiteBuyersPage() {
           <Link href="/learn/body-fit" className="text-bronze hover:text-gold transition-colors">body fit guide</Link>{" "}
           covers how to evaluate chair dimensions in detail, including what to look for on retailer spec pages before purchasing.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

@@ -56,6 +56,30 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair for a small room or apartment?",
+    a: "The JPMedics KaZe Duo needs only 1 inch of wall clearance, the tightest in the catalog, with a dual 4D roller and 320-lb capacity. For a tighter budget, the Synca Wellness CirC Plus needs 6 inches of clearance and sits in the Under $3,000 band. The Inner Balance Jin needs 2 inches and is one of the few space-saving chairs at that price confirmed to 300 lbs.",
+  },
+  {
+    q: "How does a space-saving massage chair recline without 12 to 18 inches of wall clearance?",
+    a: "A space-saving mechanism slides the chair base forward as the backrest reclines, so the chair stays roughly in the same floor position instead of swinging backward into the wall. A 1-inch wall clearance chair can sit almost flush against a wall and still fully recline.",
+  },
+  {
+    q: "Does a space-saving design trade off massage quality?",
+    a: "Not based on the chairs on this page. The Daiwa Legacy 4 and the Kahuna HM-5000 both pair space-saving clearance with full L-track or SL-track coverage and zero gravity, with body scanning on the Legacy 4, the same specs found on non-space-saving chairs at the same price tiers.",
+  },
+  {
+    q: "What wall clearance number should I actually measure for?",
+    a: "Measure the clearance behind where the chair will sit at maximum recline, not just its footprint when upright. The wall clearance figures on this page reflect the gap needed at full recline, which is the number that determines whether the chair fits your room.",
+  },
+]
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -67,8 +91,31 @@ export default function BestSmallSpacesPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Small Spaces", item: "https://www.massagechairfinder.com/best/small-spaces" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -249,6 +296,18 @@ export default function BestSmallSpacesPage() {
           <Link href="/learn/will-a-massage-chair-ruin-your-living-room" className="text-bronze hover:text-gold transition-colors">will a massage chair ruin your living room</Link>{' '}
           guide handles the aesthetics and whether a compact chair gives up massage quality.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

@@ -61,6 +61,30 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair for someone over 6 foot 3 inches?",
+    a: "The Luraco i9 Max Plus has the highest confirmed maximum in the catalog at 6 foot 10 inches. For buyers who also need higher weight capacity, the Daiwa Black Panther Supreme Hybrid is confirmed to 6 foot 6 inches at 300 lbs with a HybriFlex track that extends further under the glutes. The Kyota Genki M380 is the entry point, confirmed to 6 foot 5 inches.",
+  },
+  {
+    q: "Why does a chair's maximum rated height not guarantee a good fit?",
+    a: "The rated maximum usually reflects the tallest buyer whose head clears the headrest, not whether the roller track reaches the full spine at that height. A tall buyer in a chair rated for their height can still find the lumbar roller landing mid-back rather than at the true lumbar vertebrae, which is why confirmed retailer fit data matters more than the spec sheet number alone.",
+  },
+  {
+    q: "Does track length matter more for tall buyers?",
+    a: "Yes. The distance from the neck to the tailbone is longer on a tall body, so a short track simply cannot reach the full spine. The AmaMedics Hilux 4D's 53-inch track and the Daiwa Black Panther's HybriFlex track were both picked for this page specifically because they extend further than standard-length tracks.",
+  },
+  {
+    q: "What weight capacity should a tall buyer look for?",
+    a: "Height and weight capacity are separate specs, and a tall buyer is not automatically a heavy one, but the two often need checking together. The Luraco i9 Max Plus and the Daiwa Legacy 4 both confirm 300 lbs alongside their tall-buyer height data, which covers most tall-and-broader frames in this catalog.",
+  },
+]
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -72,8 +96,31 @@ export default function BestTallPeoplePage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Tall People", item: "https://www.massagechairfinder.com/best/tall-people" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -250,6 +297,18 @@ export default function BestTallPeoplePage() {
           <Link href="/learn/body-fit" className="text-bronze hover:text-gold transition-colors">body fit guide</Link>{' '}
           explains how to evaluate chair dimensions against your proportions before purchasing.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">
