@@ -847,14 +847,14 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 2,
-    priceMin: 2799,  // 2026-10-18: amazonUrl is the resolved channel (massagechairstore.com is not in APPROVED_DIRECT), buy box returned with title/model confirmed correct, price $2,799 (list $4,999) -- down from 7999, a -65% swing crossing upper-mid -> entry. LARGE AND UNUSUAL MOVE: massagechairstore.com direct still shows $7,999. Re-verify next audit before trusting as stable; this may be a temporary Amazon deal.
+    priceMin: 2799,  // 2026-10-18: amazonUrl is the resolved channel (massagechairstore.com is not in APPROVED_DIRECT), buy box returned with title/model confirmed correct, price $2,799 (list $4,999) -- down from 7999, a -65% swing crossing upper-mid -> entry. 2026-10-20 SPOT-CHECK (per Yigyo request): still $2,799.00, same list $4,999.00, title/model unchanged, buy box present ('Add to cart'/'Buy Now'), ships 13-14 days -- price is holding, not a one-day flash deal. massagechairstore.com direct still shows $7,999. Continue monitoring next regular audit; no longer flagged as unverified.
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
     amazonUrl: 'https://www.amazon.com/dp/B08T4BXGP3/?tag=massagechairf-20',
-    amazonAsin: 'B08T4BXGP3',  // 2026-10-18 browser check: buy box $2,799 (List $4,999), 'ships 13-14 days', title confirmed correct. 2026-09-20: buy box $2,999. History: no buy box 08-16 and 09-06; if it disappears again drop amazonUrl per the no-buy-box rule.
+    amazonAsin: 'B08T4BXGP3',  // 2026-10-20 browser check: buy box $2,799 (List $4,999), title/model confirmed correct, stable vs. 2026-10-18. 2026-09-20: buy box $2,999. History: no buy box 08-16 and 09-06; if it disappears again drop amazonUrl per the no-buy-box rule.
     imageUrl: '/images/chairs/kyota-genki-m380.jpg',
     goodwinLookupKey: 'kyota genki',
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/Kyota-Genki-M380-massage-chair.jpg?v=1776836198',
@@ -2991,12 +2991,12 @@ export const CHAIRS: Chair[] = [
     id: 'cozzia-quantum',
     name: 'Cozzia Quantum',
     brand: 'Cozzia',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-10-20: ARCHIVED -- sold out at cozzia.com (our affiliate retailer) across 3+ consecutive audit cycles (confirmed again 2026-10-18) with no confirmed alternate affiliate program (massagechairplanet.com/products/cozzia-cz800-quantum-massage-chair ($10,999) is not a wired retailer). Archived per Yigyo's 2026-10-20 decision rather than continuing to carry as active with no purchase path. Not referenced on any rendered surface.
     priceMin: 15999,
     affiliateTier: null,
     affiliateRetailer: 'cozzia.com',
     goodwinStatus: 'none',
-    inStock: false,  // 2026-09-27: 'Sold Out' at cozzia.com (our affiliate retailer). Found in stock at massagechairplanet.com/products/cozzia-cz800-quantum-massage-chair ($10,999) -- not a confirmed affiliate program, flagged for Yigyo review, not wired.
+    inStock: false,  // 2026-10-20: ARCHIVED (see active-flag comment above). Last confirmed list price $15,999 before archiving.
     affiliateUrl: 'https://cozzia.com/products/quantum',
     imageUrl: 'https://cozzia.com/cdn/shop/files/CZ_800_-_Silver_and_black-nobackground.png?v=1785421613',
     track: 'Flex', roller: '5D',
@@ -3009,12 +3009,12 @@ export const CHAIRS: Chair[] = [
     id: 'cozzia-qi-xe-pro',
     name: 'Cozzia Qi XE Pro',
     brand: 'Cozzia',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-10-20: ARCHIVED -- sold out at cozzia.com (our affiliate retailer) across 3+ consecutive audit cycles (confirmed again 2026-10-18) with no confirmed alternate affiliate program (midwest-mattress.com/product/cozzia-cz-716/ ($8,999) is not a wired retailer). Archived per Yigyo's 2026-10-20 decision rather than continuing to carry as active with no purchase path. Not referenced on any rendered surface.
     priceMin: 12849,
     affiliateTier: null,
     affiliateRetailer: 'cozzia.com',
     goodwinStatus: 'none',
-    inStock: false,  // 2026-09-27: 'Sold Out' at cozzia.com (our affiliate retailer). Found in stock at midwest-mattress.com/product/cozzia-cz-716/ ($8,999) -- not a confirmed affiliate program, flagged for Yigyo review, not wired.
+    inStock: false,  // 2026-10-20: ARCHIVED (see active-flag comment above). Last confirmed list price $12,849 before archiving.
     affiliateUrl: 'https://cozzia.com/products/cz-716',
     imageUrl: 'https://cozzia.com/cdn/shop/files/CZ-716-Champagne-champagne_1.png?v=1783960491',
     track: 'L', roller: '4D', trackLengthIn: 53,
@@ -3046,12 +3046,12 @@ export const CHAIRS: Chair[] = [
     id: 'cozzia-qi-se-duo',
     name: 'Cozzia Qi SE Duo',
     brand: 'Cozzia',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-10-20: ARCHIVED -- sold out at cozzia.com (our affiliate retailer) across 3+ consecutive audit cycles (confirmed again 2026-10-18) with no confirmed alternate affiliate program (exclusivefurniture.com/products/cozzia-qi-se-duo-cz-712-massage-chair ($8,999.99) is not a wired retailer). Archived per Yigyo's 2026-10-20 decision rather than continuing to carry as active with no purchase path. Not referenced on any rendered surface.
     priceMin: 13999,
     affiliateTier: null,
     affiliateRetailer: 'cozzia.com',
     goodwinStatus: 'none',
-    inStock: false,  // 2026-09-27: 'Sold Out' at cozzia.com (our affiliate retailer). Found in stock at exclusivefurniture.com/products/cozzia-qi-se-duo-cz-712-massage-chair ($8,999.99) -- not a confirmed affiliate program, flagged for Yigyo review, not wired.
+    inStock: false,  // 2026-10-20: ARCHIVED (see active-flag comment above). Last confirmed list price $13,999 before archiving.
     affiliateUrl: 'https://cozzia.com/products/qi-se-duo',
     imageUrl: 'https://cozzia.com/cdn/shop/files/P1251155_fdbd7d5a-9ca9-4505-baeb-36dee8ea5b0c.png?v=1783960572',
     track: 'Flex', roller: '4D',
@@ -3064,12 +3064,12 @@ export const CHAIRS: Chair[] = [
     id: 'cozzia-qi-xe-pro-duo',
     name: 'Cozzia Qi XE Pro Duo',
     brand: 'Cozzia',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-10-20: ARCHIVED -- sold out at cozzia.com (our affiliate retailer) across 3+ consecutive audit cycles (confirmed again 2026-10-18) with no confirmed alternate affiliate program (massagechairplanet.com/products/cozzia-cz718-qi-xe-pro-duo-massage-chair ($9,999) is not a wired retailer). Archived per Yigyo's 2026-10-20 decision rather than continuing to carry as active with no purchase path. Not referenced on any rendered surface.
     priceMin: 14999,
     affiliateTier: null,
     affiliateRetailer: 'cozzia.com',
     goodwinStatus: 'none',
-    inStock: false,  // 2026-09-27: 'Sold Out' at cozzia.com (our affiliate retailer). Found in stock at massagechairplanet.com/products/cozzia-cz718-qi-xe-pro-duo-massage-chair ($9,999) -- not a confirmed affiliate program, flagged for Yigyo review, not wired.
+    inStock: false,  // 2026-10-20: ARCHIVED (see active-flag comment above). Last confirmed list price $14,999 before archiving.
     affiliateUrl: 'https://cozzia.com/products/qi-xe-pro-duo',
     imageUrl: 'https://cozzia.com/cdn/shop/files/P1238025_1_0c694055-9f6d-4812-90a6-570f29a502d2.png?v=1783960378',
     track: 'Flex', roller: '4D',
@@ -3082,12 +3082,12 @@ export const CHAIRS: Chair[] = [
     id: 'cozzia-qi-se',
     name: 'Cozzia Qi SE',
     brand: 'Cozzia',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-10-20: ARCHIVED -- sold out at cozzia.com (our affiliate retailer) across 3+ consecutive audit cycles (confirmed again 2026-10-18) with no confirmed alternate affiliate program (nbmattress.com/products/cozzia-qi-se ($10,449) is not a wired retailer). Archived per Yigyo's 2026-10-20 decision rather than continuing to carry as active with no purchase path. Not referenced on any rendered surface.
     priceMin: 11449,
     affiliateTier: null,
     affiliateRetailer: 'cozzia.com',
     goodwinStatus: 'none',
-    inStock: false,  // 2026-09-27: 'Sold Out' at cozzia.com (our affiliate retailer). Found in stock at nbmattress.com/products/cozzia-qi-se ($10,449) -- not a confirmed affiliate program, flagged for Yigyo review, not wired.
+    inStock: false,  // 2026-10-20: ARCHIVED (see active-flag comment above). Last confirmed list price $11,449 before archiving.
     affiliateUrl: 'https://cozzia.com/products/qi-se',
     imageUrl: 'https://cozzia.com/cdn/shop/files/3Q-black-pearl-black-carousel-cz711.png?v=1783960558',
     track: 'L', roller: '4D',
