@@ -66,6 +66,30 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "Does a higher weight capacity rating mean a massage chair works better for heavier buyers?",
+    a: "Not automatically. A chair's listed weight capacity describes the structural maximum, the point above which the frame risks damage. It does not describe the point at which massage becomes less effective, because roller pressure tends to decrease as load increases when the spring tension in the mechanism is calibrated for average weight ranges. Chairs with 320-lb or higher capacity are generally engineered with more mechanical headroom.",
+  },
+  {
+    q: "What does Plus Size Confirmed mean on this page?",
+    a: "It means the retailer has specifically verified effective massage performance at or near the maximum weight rating, not just structural safety. That is a higher bar than a chair simply listing a weight capacity number on a spec sheet.",
+  },
+  {
+    q: "Which massage chair on this list has the highest weight capacity?",
+    a: "The Kahuna HM-078 Hubot has the highest confirmed weight capacity on this list at 350 lbs, confirmed up to 6 foot 2 inches. The Kyota Genki M380, Osaki OS-Pro 4D DuoMax, and Kanji 4D Shogun Duo are all confirmed at 330 lbs.",
+  },
+  {
+    q: "What is the best heavy-duty massage chair for a buyer who is also tall?",
+    a: "The Luraco i9 Max Plus is confirmed at 300 lbs and 6 foot 10 inches, the widest body fit range in this catalog, which matters for heavier buyers who are also tall. The Kyota Yugana M780 (4 foot 8 inches to 6 foot 2 inches, 300 lbs) is the space-saving alternative at a lower price.",
+  },
+]
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -77,8 +101,31 @@ export default function BestHeavyDutyPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Heavy-Duty Massage Chairs", item: "https://www.massagechairfinder.com/best/heavy-duty" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -255,6 +302,18 @@ export default function BestHeavyDutyPage() {
           <Link href="/learn/body-fit" className="text-bronze hover:text-gold transition-colors">body fit guide</Link>{' '}
           explains how weight capacity is measured and what to ask retailers about effective performance ranges.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

@@ -61,6 +61,30 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What actually differentiates massage chairs above $5,000?",
+    a: "Above $5,000, the category differentiates primarily by roller sophistication, body fit confirmation, and build longevity rather than track coverage. Most premium chairs are SL-track, L-track, or Flex-track, and all include zero gravity. The questions worth asking at this tier are which roller mechanism, how well-confirmed the body fit is, and what the warranty actually covers.",
+  },
+  {
+    q: "What is the difference between 3D and 4D rollers?",
+    a: "3D rollers adjust depth. 4D rollers add variable speed and rhythm on top of depth adjustment. Beyond 4D, claims of 5D or AI-driven rollers are mostly marketing language rather than a distinct roller mechanism.",
+  },
+  {
+    q: "Is L-track or SL-track better for lower back and glute pain at the premium tier?",
+    a: "An L-track chair in the $8,000 to $11,999 band with 4D rollers often delivers more nuanced glute and hamstring massage than an SL-track chair at the same price, because the L-track mechanism can focus more of its design budget on the lower body zone. If your primary pain is lower back and glutes with minimal upper-back involvement, L-track is worth considering even in the premium tier.",
+  },
+  {
+    q: "What warranty coverage should I expect on a premium massage chair?",
+    a: "Most premium chairs carry 3 to 5 years on parts and labor. Anything shorter at this price point is worth asking the retailer about directly before you buy.",
+  },
+]
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -72,8 +96,31 @@ export default function BestPremiumPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Premium Massage Chairs", item: "https://www.massagechairfinder.com/best/premium" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -248,6 +295,18 @@ export default function BestPremiumPage() {
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}
           surfaces premium options when budget allows and filters by pain pattern and body fit.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

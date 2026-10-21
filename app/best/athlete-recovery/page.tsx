@@ -51,6 +51,30 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What track type is best for sports recovery massage chairs?",
+    a: "L-track or SL-track is required. The roller must reach the glutes and upper hamstrings, where the most significant lower-body muscle damage from training accumulates. An S-track stops at the lumbar and misses this zone entirely.",
+  },
+  {
+    q: "How soon after training should I use a massage chair?",
+    a: "In the first 0 to 30 minutes after training, use light airbag compression only at low intensity and avoid deep roller work while acute inflammation is highest. The 30 to 90 minute window is the better time for medium intensity roller work on the back and glutes, full calf and foot compression, and sessions of 20 to 25 minutes. On day two and rest days, full-depth 4D roller work is appropriate.",
+  },
+  {
+    q: "Why does roller depth need to be adjustable day to day for recovery?",
+    a: "Post-training muscle tissue is in a different state on day one than day three. Lighter passes suit day one when inflammation is highest, deeper work suits day two as the tissue recovers. Genuine 4D depth control is what supports this kind of session-to-session adjustment.",
+  },
+  {
+    q: "Which chair on this list is built specifically for athletes who train legs hard?",
+    a: "The Positive Posture Brio Sport is designed with athletic recovery as an explicit use case. Its L-track extends under the seat to cover the glutes and hamstrings, which matters for buyers whose primary training load is in the lower body, and its stretch program delivers a genuine hip flexor elongation that runners, cyclists, and lifters with tight hip flexors will notice after the first few sessions.",
+  },
+]
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -62,8 +86,31 @@ export default function BestAthleteRecoveryPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Sports Recovery", item: "https://www.massagechairfinder.com/best/athlete-recovery" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -242,6 +289,18 @@ export default function BestAthleteRecoveryPage() {
         <p className="text-charcoal leading-relaxed">
           On day two and rest days, full-depth 4D roller work is appropriate. Morning sessions decompress the spine and loosen overnight stiffness, and stretch programs are well-suited for this window. Before training, short light sessions of 10 to 15 minutes at low intensity can increase circulation without fatiguing tissue before high-intensity work.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">
