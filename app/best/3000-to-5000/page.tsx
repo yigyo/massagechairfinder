@@ -41,6 +41,30 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What does the $3,000 to $5,000 range add over chairs under $3,000?",
+    a: "This range introduces 4D rollers, which add variable speed and rhythm to each stroke rather than fixed-speed 3D motion, and it is where specialist options appear: a dedicated S-track chair built for neck and upper-back work, and chairs with the widest confirmed height ranges in the mid-tier catalog.",
+  },
+  {
+    q: "Is the entry-tier Osaki OS-Pro Admiral II still worth considering at this budget?",
+    a: "Yes, if value density matters more than roller sophistication or specialist track types. The Admiral II has strong confirmed body fit data and a 49-inch track at a lower price than anything in the $3,000 to $5,000 range. The chairs above it justify the extra cost through 4D rollers, specialist tracks, or extreme space-saving design; if none of those is a priority, the Admiral II remains the better value.",
+  },
+  {
+    q: "Which chair in this range is built for neck and upper-back pain specifically?",
+    a: "The Panasonic MAF1 is the S-track specialist here. S-track focuses the entire roller path on the cervical spine and thoracic vertebrae, which is the right design when pain is concentrated in the neck and upper back with no lower-back involvement.",
+  },
+  {
+    q: "The Panasonic MAF1 has no zero gravity. Is that a dealbreaker?",
+    a: "Not necessarily, but it is worth confirming before buying. Panasonic's engineering on this chair prioritizes roller precision over recline positions, so buyers who specifically want a zero-gravity recline alongside S-track neck and upper-back focus should weigh that trade-off against the other picks on this page, all of which include zero gravity.",
+  },
+]
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -52,8 +76,31 @@ export default function Best3000To5000Page() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs $3,000 to $5,000", item: "https://www.massagechairfinder.com/best/3000-to-5000" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -237,6 +284,18 @@ export default function Best3000To5000Page() {
           <Link href="/learn/massage-chair-price-tiers" className="text-bronze hover:text-gold transition-colors">price tier breakdown</Link>{' '}
           maps each band to what it buys.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

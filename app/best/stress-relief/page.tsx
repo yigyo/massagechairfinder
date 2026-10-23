@@ -46,6 +46,30 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "Does a more intense massage chair relieve stress better?",
+    a: "No. The research shows session count does more work than session intensity, and excessive intensity is the most common reason massage chairs get returned. A chair with moderate 2D rollers used nightly will do more for stress than a 4D flagship used on weekends.",
+  },
+  {
+    q: "What features matter most for stress relief?",
+    a: "Three features carry real weight: zero gravity, because the recline itself supports the shift toward parasympathetic dominance; heat, because warmth adds to the relaxation response; and a genuine foot module, because the strongest evidence connecting massage to mood and sleep runs through sustained pressure on the foot.",
+  },
+  {
+    q: "How quickly does a massage chair session reduce stress?",
+    a: "The shift is measurable and starts fast. Moderate-pressure massage moves the nervous system toward parasympathetic dominance within roughly ten minutes, and a randomized trial of an automatic massage chair recorded about a 22 percent drop in heart rate and a 12 percent drop in muscle tone during sessions.",
+  },
+  {
+    q: "Do I need a premium massage chair for stress relief, or is a cheaper one enough?",
+    a: "A cheaper chair you actually use every day beats an expensive one you use twice a week. The Synca CirC, the lowest-priced SL-track chair in this group, still carries the three features that matter most for the stress response: zero gravity, heat, and foot rollers.",
+  },
+]
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -57,8 +81,31 @@ export default function BestStressReliefPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Stress Relief", item: "https://www.massagechairfinder.com/best/stress-relief" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -234,6 +281,18 @@ export default function BestStressReliefPage() {
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}
           takes about three minutes.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

@@ -41,6 +41,30 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "When is the best time to use a massage chair before bed?",
+    a: "The evidence points to a session roughly 90 to 120 minutes before bed rather than immediately beforehand. The session lowers arousal and muscle tone, and the body needs a window to carry that state into sleep onset.",
+  },
+  {
+    q: "Does a massage chair actually help you fall asleep?",
+    a: "A massage chair does not sedate you. It removes physical barriers to the sleep your nervous system is already trying to produce: muscular tension, elevated arousal, and the restless legs that keep you shifting position.",
+  },
+  {
+    q: "Should a bedtime massage chair session be firm or gentle?",
+    a: "Keep pressure moderate. Deep, firm work raises arousal at precisely the point in the evening you want it dropping, so a gentle 2D roller or a dialed-down 4D session both beat a chair run at maximum intensity.",
+  },
+  {
+    q: "Why does foot and calf coverage matter for a sleep-focused chair?",
+    a: "The strongest evidence linking massage to sleep quality runs through sustained pressure on the foot, and calf coverage specifically addresses the restless-legs pattern that keeps people awake. All four chairs on this page were selected partly because they offer full foot and calf coverage.",
+  },
+]
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -52,8 +76,31 @@ export default function BestSleepPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs for Sleep", item: "https://www.massagechairfinder.com/best/sleep" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -232,6 +279,18 @@ export default function BestSleepPage() {
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{' '}
           takes about three minutes.
         </p>
+      </div>
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">
