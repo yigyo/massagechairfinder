@@ -263,7 +263,7 @@ export default function Best3000To5000Page() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your pain is neck and shoulders only, the Panasonic MAF1 is the S-track specialist in this tier. If your pain spans the full back or is concentrated in the lower back, the Hilux 4D covers more ground with better roller quality. If room size is the constraint, the Dynasty 4D folds to 2 inches from the wall, the tightest clearance among these picks.
+          If your pain is neck and shoulders only, the Panasonic MAF1 is the S-track specialist in this tier. If your pain spans the full back or is concentrated in the lower back, the Hilux 4D covers more ground with better roller quality. If room size is the constraint, the Hilux 4D is the only pick in this group with a confirmed wall clearance, at 4.7 inches.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           For buyers above 6&apos;3&quot; or above 270 lbs, the Hilux 4D accommodates the widest range. Note that the Panasonic MAF1 does not include zero gravity, which is a trade-off worth confirming before purchasing.
