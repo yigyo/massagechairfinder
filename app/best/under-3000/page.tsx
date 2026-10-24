@@ -42,6 +42,32 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair under $3,000?",
+    a: "It depends on body fit and budget. The Synca CirC is the lowest-priced pick in the catalog. The Synca CirC Plus adds a longer track and space-saving 6-inch wall clearance. The Relaxe Shiatsu confirms the highest weight capacity in this tier at 330 lbs. The Kahuna HM-5000 is the only SL-track chair here with a space-saving recline mechanism.",
+  },
+  {
+    q: "What changes as you spend more within the under-$3,000 tier?",
+    a: "Three things improve toward the top of this tier: roller quality moves from 2D to 3D with adjustable depth, track length extends further under the glutes for lower back and sacral coverage, and confirmed height and weight specs from the retailer become available, giving evidence the chair actually fits before you buy.",
+  },
+  {
+    q: "Which massage chair under $3,000 fits a larger or taller buyer?",
+    a: "The Relaxe Shiatsu confirms a 330 lb weight capacity and a height range of 61 to 76 inches, both the highest in this tier. Its 53-inch SL-track is also the longest roller path among the four picks on this page.",
+  },
+  {
+    q: "Is there a space-saving SL-track option under $3,000?",
+    a: "The Kahuna HM-5000 is the only SL-track chair in this tier with a space-saving recline mechanism, combined with zero gravity, foot and calf massage, and hip airbags. The Synca CirC Plus is also space-saving, at 6 inches of wall clearance, though its track is shorter.",
+  },
+]
+
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -53,8 +79,32 @@ export default function BestUnder3000Page() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs Under $3,000", item: "https://www.massagechairfinder.com/best/under-3000" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -238,6 +288,19 @@ export default function BestUnder3000Page() {
           <Link href="/learn/body-fit" className="text-bronze hover:text-gold transition-colors">body fit guide</Link>{' '}
           covers height, shoulder width, and weight limits.
         </p>
+      </div>
+
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

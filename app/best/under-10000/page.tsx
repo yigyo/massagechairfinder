@@ -51,6 +51,32 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair under $10,000?",
+    a: "It depends on the pain pattern. For lower back pain that radiates into the hips and glutes, choose an L-track pick: the Kyota Yugana M780, Positive Posture Brio Plus, or Infinity Genesis Max. For pain that spans the full back including neck and shoulders, the SL-track Kahuna Dios-7300 or Osaki OS-Pro Maestro LE 2.0 cover more ground. For buyers above 265 lbs, the Ogawa Master Drive DUO LE confirms 320 lbs.",
+  },
+  {
+    q: "Is it worth spending close to $10,000 instead of $7,000?",
+    a: "The $7,000 to $10,000 range is where 4D roller quality peaks before diminishing returns set in. Above $10,000, you are largely paying for brand prestige and incremental refinements in feel rather than new capability. At $7,000 to $9,999 you already get genuine 4D performance, full L-track or SL-track coverage, and serious airbag compression.",
+  },
+  {
+    q: "What changes at the $7,000 tier that you do not get at $5,000?",
+    a: "Full-body airbag systems become standard rather than partial, covering shoulders, arms, hips, calves, and feet in a single session. The 4D roller rhythm is noticeably less repetitive than cheaper 4D systems, and the chairs generally use better upholstery and longer-lasting mechanical components.",
+  },
+  {
+    q: "Which massage chair under $10,000 fits a larger body?",
+    a: "The Ogawa Master Drive DUO LE confirms a 320 lb plus-size capacity, the highest of the six chairs on this page, alongside a 53-inch SL-track that reaches the full spine. For buyers who need lower-body coverage specifically, the Kyota Yugana M780 and Infinity Genesis Max are both L-track with a confirmed 300 lb capacity.",
+  },
+]
+
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -62,8 +88,32 @@ export default function BestUnder10kPage() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs Under $10,000", item: "https://www.massagechairfinder.com/best/under-10000" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -247,6 +297,19 @@ export default function BestUnder10kPage() {
           <Link href="/learn/4d-vs-3d-massage-chair-rollers" className="text-bronze hover:text-gold transition-colors">4D vs 3D rollers</Link>{" "}
           guide explains the roller technology most chairs in this tier use.
         </p>
+      </div>
+
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">

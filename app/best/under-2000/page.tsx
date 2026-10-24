@@ -46,6 +46,32 @@ const EDITORIAL: Record<string, Editorial> = {
   },
 }
 
+
+interface Faq {
+  q: string
+  a: string
+}
+
+const FAQS: Faq[] = [
+  {
+    q: "What is the best massage chair under $2,000?",
+    a: "It depends on what matters most. The Synca CirC 3 has the highest weight capacity in this group at 300 lbs. The Synca CirC is the most affordable and, along with the CirC Plus, one of only two 3D-roller options here. The Inner Balance Jin is the only chair in this group confirmed to fit within 2 inches of a wall.",
+  },
+  {
+    q: "Do massage chairs under $2,000 have adjustable roller depth?",
+    a: "Most do not. 2D rollers, which move in two axes but cannot vary how far they press into the back, are standard at this price. The Synca CirC and CirC Plus are the exceptions, using 3D rollers that let pressure depth be adjusted.",
+  },
+  {
+    q: "Why might a massage chair under $2,000 feel too intense at first?",
+    a: "Intensity is adjustable within a narrower range at this tier than on mid-tier chairs, and the pressure on the first session is often stronger than buyers expect. Most entry-chair returns happen because the massage is too rough, not too light, so start at the lowest setting and adjust upward.",
+  },
+  {
+    q: "Is there a massage chair under $2,000 that fits close to a wall?",
+    a: "The Inner Balance Jin requires only 2 inches of wall clearance, the tightest recline footprint of any chair in this price range. It is an L-track chair with a confirmed 300 lb weight capacity, zero gravity, and lumbar heat.",
+  },
+]
+
+
 function fmtFt(inches: number): string {
   const ft = Math.floor(inches / 12)
   const inPart = inches % 12
@@ -57,8 +83,32 @@ export default function BestUnder2000Page() {
     .map(id => MCF_CHAIRS.find(c => c.id === id))
     .filter(Boolean) as typeof MCF_CHAIRS
 
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.massagechairfinder.com/" },
+      { "@type": "ListItem", position: 2, name: "Best chairs by use case", item: "https://www.massagechairfinder.com/best" },
+      { "@type": "ListItem", position: 3, name: "Best Massage Chairs Under $2,000", item: "https://www.massagechairfinder.com/best/under-2000" },
+    ],
+  }
+
   return (
     <div className="section">
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="mb-4">
         <Link href="/best" className="text-bronze hover:text-gold text-sm">
@@ -250,6 +300,19 @@ export default function BestUnder2000Page() {
           <Link href="/learn/massage-chair-repair-guide" className="text-bronze hover:text-gold transition-colors">repair guide</Link>{' '}
           explains what actually happens when an entry chair breaks and why the distributor behind it matters more than the warranty length.
         </p>
+      </div>
+
+
+      <div className="mb-12 max-w-2xl">
+        <h2 className="text-2xl font-serif font-semibold text-navy mb-5">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {FAQS.map((faq) => (
+            <details key={faq.q} className="bg-white border border-sand rounded-lg p-5">
+              <summary className="font-serif font-semibold text-navy cursor-pointer">{faq.q}</summary>
+              <p className="text-charcoal leading-relaxed mt-3">{faq.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
 
       <div className="bg-sand rounded-xl p-6 text-center max-w-lg">
