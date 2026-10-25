@@ -278,7 +278,7 @@ export default function BestUnder2000Page() {
           Both chairs above are legitimate starting points. The gap between this entry tier and the top of the under-$3,000 range is meaningful. The Kahuna LM-6800S, near the top of that range, adds confirmed body fit data (5'0&quot; to 6'0&quot;), three-stage zero gravity, a verified 45-inch track length, and a retailer with a stronger service record.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          At the top of the under-$3,000 range, the Osaki OS-Pro Admiral II adds 3D rollers, a 49-inch track, body scanning, and a 270-lb weight capacity. These are not marginal upgrades over the entry starting point.
+          At the top of the under-$3,000 range, the Osaki OS-Pro Admiral II adds 3D rollers, a 49-inch track, body scanning, and a 270-lb weight capacity. These are not marginal upgrades over the entry starting point. (Note: as of late October 2026 this chair is temporarily out of stock at its primary retailer; it remains in the catalog pending reconfirmation.)
         </p>
         <p className="text-charcoal leading-relaxed">
           If the entry price point is a hard limit, both chairs above are sound choices. If budget is the primary constraint but not absolute, the{' '}

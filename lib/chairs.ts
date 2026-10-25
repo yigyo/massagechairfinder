@@ -240,13 +240,14 @@ export const CHAIRS: Chair[] = [
     id: 'osaki-os-pro-admiral-ii',
     name: 'Osaki OS-Pro Admiral II',
     brand: 'Osaki',
-    active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 switched to massagechairs.com (in stock); osakimassagechair was OOS
+    active: true, goodwinActive: true, mcfActive: true,  // 2026-10-25 audit: first confirmed OUT OF STOCK this cycle -- massagechairs.com now shows all 8 variants Sold Out (page heading references an "Admiral SE (coming soon)" successor); previously In Stock (Grey) as of 2026-10-18. Checked massagechairheaven.com (carries it at $4499, also sold out) and massagechairwarehouse.com (domain now redirects elsewhere, appears defunct) -- no in-stock source found. Per the project's two-run convention (see osaki-os-champ), HOLDING active -- re-confirm OOS at the next audit before deactivating.
     priceMin: 2999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairs.com',
     affiliateCommission: 'none (no confirmed Osaki/Rakuten program; 2026-10-04 Heath confirmed no application was made)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://www.massagechairs.com/products/osaki-os-pro-admiral-3d',
+    inStock: false,  // 2026-10-25: all 8 variants Sold Out at massagechairs.com (primary retailer). See dated comment above.
     // amazonAsin B09HW3F2BB DROPPED 2026-09-20: 'Currently unavailable. We don't know when or if this item will be back in stock' on 08-16, 09-06 and 09-20. Primary massagechairs.com in stock $2,999 (Grey only; Black, Brown, Taupe Sold Out).
     imageUrl: '/images/chairs/osaki-os-pro-admiral-ii.jpg',
     goodwinLookupKey: 'osaki os-pro admiral ii',
@@ -3174,9 +3175,9 @@ export const CHAIRS: Chair[] = [
     id: 'inada-dreamwave',
     name: 'Inada DreamWave',
     brand: 'Inada',
-    active: true,
+    active: false,  // 2026-10-25 audit: DEACTIVATED -- sold out at gameroomempire.com ("Request Custom Quote", no Add to Cart). Checked massagechairstore.com (not carried), massagechairwarehouse.com (redirects to gameroomempire.com), massagechairs.com (not carried), massagechairheaven.com (carries it but its own page states it is discontinued, points to D.Core 2 instead). No in-stock source found anywhere. Appears genuinely discontinued industry-wide, not just at this retailer.
     goodwinActive: false,
-    mcfActive: true,
+    mcfActive: false,
     inStock: false,
     priceMin: 6999,
     affiliateTier: 'C',
@@ -3504,7 +3505,7 @@ export const CHAIRS: Chair[] = [
     goodwinActive: false,
     mcfActive: true,
     inStock: true,
-    priceMin: 3499,
+    priceMin: 4499,  // 2026-10-25 audit: osakiusa.com live price $4499 (was $3499, +28.6%); double-checked via direct re-fetch of buy-box, promo appears to have ended.
     affiliateTier: 'A',
     affiliateRetailer: 'osakiusa.com',
     goodwinStatus: 'none',
