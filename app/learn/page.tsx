@@ -188,6 +188,10 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-pinched-nerve",
       "massage-and-knee-pain",
       "massage-and-it-band",
+      "massage-and-upper-back-pain",
+      "massage-and-hip-pain",
+      "massage-and-shin-splints",
+      "massage-and-toxins",
     ],
   },
 ]
