@@ -444,7 +444,12 @@ export async function POST(req: NextRequest) {
           const anthropicStream = await anthropic.messages.stream({
             model: 'claude-haiku-4-5-20251001',
             max_tokens: 1024,
-            system: systemPrompt,
+            // Cache the large static system prompt (instructions + full catalog).
+            // Repeat reads within 5 minutes bill at 0.1x input, so each quiz step
+            // after the first costs a fraction of re-sending the catalog.
+            system: [
+              { type: 'text', text: systemPrompt, cache_control: { type: 'ephemeral' } },
+            ],
             messages: updatedMessages as Array<{ role: 'user' | 'assistant'; content: string }>,
           })
 
