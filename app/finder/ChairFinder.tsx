@@ -314,6 +314,7 @@ export default function ChairFinder() {
     const decoder = new TextDecoder()
     let buffer = ''
     let accumulated = ''
+    let streamError = ''
 
     while (true) {
       const { done, value } = await reader.read()
@@ -325,12 +326,22 @@ export default function ChairFinder() {
         if (!line.startsWith('data: ')) continue
         try {
           const data = JSON.parse(line.slice(6))
+          if (data.error) {
+            streamError = String(data.error)
+            break
+          }
           if (data.done) break
           if (data.text) accumulated += data.text
         } catch {
           // ignore parse errors
         }
       }
+    }
+    // Server reported a failure mid-stream (e.g. upstream API error). Surface it
+    // instead of returning an empty string, which rendered a blank question
+    // with only a Continue pill.
+    if (streamError || !accumulated.trim()) {
+      throw new Error(streamError || 'Empty response from /api/chat')
     }
     return accumulated
   }, [])
