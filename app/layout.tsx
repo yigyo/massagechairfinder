@@ -11,6 +11,9 @@ import ChromeGate from '@/components/ChromeGate'
 import Script from 'next/script'
 import { OG_IMAGE } from '@/lib/seo'
 
+// Emily chat widget on/off switch. Off since 2026-10-28; flip to true to restore.
+const EMILY_CHAT_ENABLED = false
+
 const notoSerif = Noto_Serif({
   subsets: ['latin'],
   weight: ['400', '700'],
@@ -97,14 +100,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           async
           defer
         />
-        {/* Emily AI Chair Advisor */}
-        <Script id="emily-chat-config" strategy="beforeInteractive">
-          {`window.MCFChatConfig = { backendUrl: 'https://emily-chat-backend.vercel.app' };`}
-        </Script>
-        <Script
-          src="https://emily-chat-backend.vercel.app/widget.js"
-          strategy="afterInteractive"
-        />
+        {/* Emily AI Chair Advisor: switched off 2026-10-28 to stop API spend
+            (Sonnet + full knowledge base on every message). Backend
+            emily-chat-backend.vercel.app is still deployed; set
+            EMILY_CHAT_ENABLED to true below to bring the widget back. */}
+        {EMILY_CHAT_ENABLED && (
+          <>
+            <Script id="emily-chat-config" strategy="beforeInteractive">
+              {`window.MCFChatConfig = { backendUrl: 'https://emily-chat-backend.vercel.app' };`}
+            </Script>
+            <Script
+              src="https://emily-chat-backend.vercel.app/widget.js"
+              strategy="afterInteractive"
+            />
+          </>
+        )}
       </body>
     </html>
   )
