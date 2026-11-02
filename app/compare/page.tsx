@@ -101,6 +101,13 @@ const COMPARISONS = [
     tier: '$8,000-$11,999',
     summary: 'Both S-track for upper and mid-back. The Daiwa is the lower-priced of the two, with confirmed 4\'8" to 6\'6" fit. The JP-3000 has a 5D roller and Japanese manufacturing.',
   },
+  {
+    slug: 'jpmedics-kumo-4d-vs-jpmedics-kaze-duo',
+    chairA: 'JPMedics Kumo 4D',
+    chairB: 'JPMedics KaZe Duo',
+    tier: 'Premium to ultra-premium tier',
+    summary: 'The Kumo 4D costs less and confirms stretch programs and body scanning. The KaZe Duo is a space-saving design that reclines 1 inch from the wall and adds a dual 4D roller mechanism.',
+  },
 ]
 
 export default function ComparePage() {
