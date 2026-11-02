@@ -192,6 +192,9 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-hip-pain",
       "massage-and-shin-splints",
       "massage-and-toxins",
+      "massage-and-spinal-stenosis",
+      "massage-and-scoliosis",
+      "massage-and-constipation",
     ],
   },
 ]
