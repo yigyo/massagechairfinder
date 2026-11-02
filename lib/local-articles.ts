@@ -15161,6 +15161,346 @@ For general postpartum SI joint discomfort, moderate daily sessions are typicall
 <p>[3] Chou R, Deyo R, Friedly J, et al. <em>Nonpharmacologic Therapies for Low Back Pain: A Systematic Review for an American College of Physicians Clinical Practice Guideline.</em> Annals of Internal Medicine. 2017;166(7):493-505.</p>
 <p>[4] Cherkin DC, Sherman KJ, Kahn J, et al. <em>A Comparison of the Effects of 2 Types of Massage and Usual Care on Chronic Low Back Pain.</em> Annals of Internal Medicine. 2011;155(1):1-9.</p>`,
   },
+  {
+    slug: "massage-and-constipation",
+    title: "Massage for Constipation: What Works, and Why a Massage Chair Is Not the Tool",
+    excerpt: "Abdominal massage can add about 1.6 bowel movements a week for adults with chronic constipation, but it works on the belly, which massage chairs do not reach. What the research shows and how to do it yourself.",
+    order: 151,
+    publishedAt: "2026-11-02",
+    body: `<p><strong>Abdominal massage helps chronic constipation in adults: a review of 23 studies found about 1.6 more bowel movements a week, with fewer symptoms [2]. It works best alongside other treatment, not instead of it, because it did not reduce laxative use [1][2].</strong> The catch for chair shoppers: the evidence is for massage on the belly, and massage chairs do not massage the abdomen. No study has tested a massage chair for constipation. A chair can help you relax, but the bowel benefit comes from a few minutes of self-massage lying down.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p>A 2025 meta-analysis of 23 studies and 1,431 adults found abdominal massage added about 1.6 bowel movements per week and shortened gut transit time by about 21 hours. Laxative use did not drop [2].<br>
+In the first randomized trial (60 adults), people who added abdominal massage to their laxatives had fewer constipation symptoms and less abdominal pain after 8 weeks [1].<br>
+In a 204-person trial of opioid-induced constipation, self-massage twice a day for 4 weeks improved constipation severity, straining and bloating [5].<br>
+In a 189-person trial in multiple sclerosis, abdominal massage missed its main goal, though it increased bowel movements slightly [6].</p></div>
+<h2>Does massage help constipation?</h2>
+<table>
+<thead>
+<tr>
+<th>Type of massage</th>
+<th>What the evidence shows</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abdominal massage, chronic constipation</td>
+<td>More bowel movements per week and fewer symptoms across several meta-analyses. Studies vary a lot</td>
+<td>[2][3][4]</td>
+</tr>
+<tr>
+<td>Abdominal massage plus laxatives</td>
+<td>Better than laxatives alone, but did not reduce laxative use</td>
+<td>[1][2]</td>
+</tr>
+<tr>
+<td>Self-massage, opioid-induced constipation</td>
+<td>Improved severity, straining and bloating in one large trial</td>
+<td>[5]</td>
+</tr>
+<tr>
+<td>Abdominal massage in MS and other neurological conditions</td>
+<td>Small or uncertain benefit; Cochrane rates the evidence low-certainty</td>
+<td>[6][7]</td>
+</tr>
+<tr>
+<td>Foot reflexology</td>
+<td>Small, mixed studies. In one trial it did no better than ordinary foot massage</td>
+<td>[8][9]</td>
+</tr>
+<tr>
+<td>Massage chair</td>
+<td>Never studied for constipation or bowel function</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>Side effects in the trials were few and mild [2][4], although many studies did not report them [3].</p>
+<h2>Can a massage chair help with constipation?</h2>
+<p>Not directly. Every positive study above used massage on the abdomen, usually clockwise strokes following the large intestine. Massage chairs work the back, hips, legs and feet. Even the device studies that found benefit used belt-style devices on the belly, not chairs [4].</p>
+<p>A chair can help indirectly. Massage shifts the body toward its rest-and-digest state, which is explained in <a href="/learn/massage-and-digestion">massage and digestion</a> and <a href="/learn/massage-and-parasympathetic-nervous-system">the parasympathetic nervous system</a>. That is a mechanism, not a tested constipation treatment.</p>
+<p>The same goes for foot rollers marketed as reflexology. One trial found reflexology worked no better than a plain foot massage for bowel symptoms [8]. See <a href="/learn/does-reflexology-work">does reflexology work</a> for the broader evidence.</p>
+<h2>How a massage chair delivers this</h2>
+<p><strong>Fully replicates: nothing in the constipation research.</strong> The benefit comes from abdominal massage.</p>
+<p><strong>Partially replicates: relaxation.</strong> A chair session can lower tension, which may help indirectly. No study has measured bowel outcomes after chair use.</p>
+<p><strong>Cannot replicate: clockwise abdominal massage along the colon.</strong> That part you do yourself, lying down.</p>
+<h2>How to do abdominal self-massage</h2>
+<p>An NHS physiotherapy leaflet describes this approach [10]:</p>
+<ol>
+<li>Lie on your back with a pillow under your knees.</li>
+<li>Using the flat of your hand, stroke clockwise around your belly: up the right side, across under the ribs, and down the left side, for about 2 minutes.</li>
+<li>Add gentle kneading and vibration along the same path.</li>
+<li>Repeat regularly. In the opioid trial people did it twice a day [5], and trials ran for 4 to 8 weeks [1][5].</li>
+</ol>
+<p>The same leaflet says abdominal massage is not suitable if you have an abdominal wound less than 6 weeks old, an unstable spinal injury, or are pregnant [10].</p>
+<h2>First steps that come before massage</h2>
+<p>Fiber, fluid and movement are first-line. NIDDK recommends 22 to 34 grams of fiber a day for adults, added gradually, with plenty of liquids and regular activity [11]. The NHS adds a regular toilet routine and resting your feet on a low stool [12]. Cleveland Clinic advises calling a provider before using laxatives for more than 2 weeks [13].</p>
+<p><strong>See a doctor</strong> for blood in your stool, losing weight without trying, a sudden or lasting change in your bowel habits, constant or severe belly pain, vomiting, fever, or constipation that lasts more than 3 weeks [11][12][13][14].</p>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Does abdominal massage help constipation?</strong></summary>
+<p>Yes, modestly. Reviews find about 1.6 more bowel movements a week on average, with fewer symptoms [2]. Results vary between studies, and it works as an add-on to other care [1].</p>
+</details>
+<details>
+<summary><strong>Can a massage chair help me poop?</strong></summary>
+<p>Not directly. Chairs do not massage the abdomen, which is where the evidence comes from. A chair may help you relax; pair it with self abdominal massage.</p>
+</details>
+<details>
+<summary><strong>How long does abdominal massage take to work?</strong></summary>
+<p>The trials ran for 4 to 8 weeks [1][5]. Give it several weeks of regular practice before judging it.</p>
+</details>
+<details>
+<summary><strong>Is foot massage or reflexology good for constipation?</strong></summary>
+<p>The evidence is weak. In one trial reflexology did no better than ordinary foot massage [8].</p>
+</details>
+<details>
+<summary><strong>Can massage replace laxatives?</strong></summary>
+<p>No. Massage did not reduce laxative use in the trials [1][2]. Talk to your doctor before changing medication.</p>
+</details>
+<h2>Choosing a chair</h2>
+<p>If relaxation is the goal, look for good heat, a slow full-body program and comfortable recline. Our <a href="/best/stress-relief">picks for stress relief</a> focus on those features. Just do not expect a chair to replace the self-massage above.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to find a chair matched to how you want to unwind.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Lamas K, Lindholm L, Stenlund H, et al. <em>Effects of abdominal massage in management of constipation: a randomized controlled trial.</em> International Journal of Nursing Studies. 2009;46(6):759-767. PMID: 19217105.</p>
+<p>[2] Huang SY, Chiao CY, Chien LY. <em>Effectiveness of abdominal massage on chronic constipation in adults: a systematic review and meta-analysis.</em> International Journal of Nursing Studies. 2025;161:104936. PMID: 39531948.</p>
+<p>[3] Lin Z, Wang D, Fei X, et al. <em>Effect of abdominal massage on constipation: a systematic review and meta-analysis of randomized controlled studies.</em> Complementary Medicine Research. 2025;32(6):522-541. PMID: 41212789.</p>
+<p>[4] Delgado ME, Benet J, Herrero-Fresneda I. <em>Safety and efficacy of manual and automated abdominal colonic massage for chronic constipation: a systematic review and meta-analysis.</em> Clinical and Translational Gastroenterology. 2026;17(7):e01027. PMID: 41919979.</p>
+<p>[5] Yildirim D, Can G, Koknel Talu G. <em>The efficacy of abdominal massage in managing opioid-induced constipation.</em> European Journal of Oncology Nursing. 2019;41:110-119. PMID: 31358243.</p>
+<p>[6] McClurg D, Harris F, Goodman K, et al. <em>Abdominal massage plus advice, compared with advice only, for neurogenic bowel dysfunction in MS: a RCT.</em> Health Technology Assessment. 2018;22(58):1-134. PMID: 30375324.</p>
+<p>[7] Todd CL, Johnson EE, Stewart F, et al. <em>Conservative, physical and surgical interventions for managing faecal incontinence and constipation in adults with central neurological diseases.</em> Cochrane Database of Systematic Reviews. 2024;10:CD002115. PMID: 39470206.</p>
+<p>[8] Tovey P. <em>A single-blind trial of reflexology for irritable bowel syndrome.</em> British Journal of General Practice. 2002;52(474):19-23. PMID: 11791811.</p>
+<p>[9] Guven SD. Reflexology versus abdominal massage in older adults with constipation, randomized trial. Gastroenterology Nursing. 2023;46(6):445-454. PMID: 37639563.</p>
+<p>[10] Torbay and South Devon NHS Foundation Trust Physiotherapy. <em>Self-abdominal massage.</em> <a href="https://www.torbayandsouthdevon.nhs.uk/uploads/25773.pdf">Link</a></p>
+<p>[11] NIDDK. <em>Eating, diet and nutrition for constipation; symptoms and causes of constipation.</em> <a href="https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition">Link</a></p>
+<p>[12] NHS. <em>Constipation.</em> <a href="https://www.nhs.uk/conditions/constipation/">Link</a></p>
+<p>[13] Cleveland Clinic. <em>Constipation.</em> <a href="https://my.clevelandclinic.org/health/diseases/4059-constipation">Link</a></p>
+<p>[14] NHS. <em>Bowel cancer symptoms.</em> <a href="https://www.nhs.uk/conditions/bowel-cancer/symptoms/">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-scoliosis",
+    title: "Massage for Scoliosis in Adults: What It Can and Cannot Do, and How to Use a Massage Chair",
+    excerpt: "Massage does not straighten a scoliosis curve, and no trial has tested it in adults. What the research shows about adult scoliosis pain, what helps, and how to use a massage chair with a curved spine.",
+    order: 152,
+    publishedAt: "2026-11-02",
+    body: `<p><strong>Massage does not straighten a scoliosis curve, and no well-designed trial has tested massage in adults with scoliosis. The aim of non-surgical care in adults is easing pain, not changing the curve [9][10].</strong> Massage may help with muscle tension and short-term comfort, as it does for low back pain in general [8]. A massage chair can play that role at home, with two cautions: chairs are not designed around a curved spine, and older adults with scoliosis often have osteoporosis too [1][10].</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p>In a study of 75 healthy volunteers aged 60 or older, 68 percent had a scoliosis curve, yet the size of the curve did not track with how much pain people had [2].<br>
+A systematic review found the evidence for every non-surgical treatment of adult scoliosis is low level, and no option stands out as preferred [3].<br>
+In a 130-person trial, adults doing a 20-week program of targeted exercise plus cognitive behavioral therapy cut disability scores by 12 points more than with general physiotherapy. Their curves barely changed [4].<br>
+The NHS says back exercises and physiotherapy are unlikely to improve the curvature, but may help with pain [9].</p></div>
+<h2>What adult scoliosis is</h2>
+<p>Scoliosis is a sideways curve of the spine. In adults it comes in two main forms [1][10][11]:</p>
+<ul>
+<li><strong>Degenerative (de novo) scoliosis:</strong> starts in adulthood as discs and joints wear unevenly. Mayo Clinic describes this wear-and-tear type as the more common one in adults [11].</li>
+<li><strong>Idiopathic scoliosis that persists or progresses:</strong> a curve that was present earlier in life and continues into adulthood.</li>
+</ul>
+<p>Back pain is the main reason adults seek care, followed by leg pain [1]. Osteoporosis is a frequent companion, especially after menopause, and can help a curve progress [1][10].</p>
+<p><strong>Get emergency care</strong> for back pain with numbness around the genitals or bottom, symptoms in both legs, or new bladder or bowel problems [15]. For other low back warning signs, see <a href="/learn/massage-and-lower-back-pain">massage and lower back pain</a>.</p>
+<h2>Can massage help scoliosis?</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>What the evidence shows</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Does massage straighten the curve?</td>
+<td>No evidence that it does. Non-surgical care targets symptoms, not the curve</td>
+<td>[9][10]</td>
+</tr>
+<tr>
+<td>Does massage ease scoliosis pain?</td>
+<td>Not tested in good-quality adult trials. General low back pain studies show short-term relief</td>
+<td>[8]</td>
+</tr>
+<tr>
+<td>What non-surgical care has evidence?</td>
+<td>Structured exercise plus CBT reduced disability in one trial; overall evidence is weak</td>
+<td>[3][4][5]</td>
+</tr>
+<tr>
+<td>Does non-surgical care change quality of life?</td>
+<td>Observational studies found no significant change over two years</td>
+<td>[6][7]</td>
+</tr>
+<tr>
+<td>Are spinal manipulation or soft braces proven to fix the curve?</td>
+<td>No, per Mayo Clinic</td>
+<td>[12]</td>
+</tr>
+</tbody>
+</table>
+<p>The takeaway: massage is a comfort measure for the muscles around a curved spine, not a treatment for the curve itself. If you want something with evidence behind it, ask a physical therapist about a structured, scoliosis-specific exercise program [4].</p>
+<h2>How a massage chair delivers this</h2>
+<p><strong>Fully replicates: warmth and broad pressure on the back muscles.</strong> Heat and general rolling can feel good on muscles that work harder to hold a curved spine.</p>
+<p><strong>Partially replicates: general muscle relaxation.</strong> Massage gives short-term relief for low back pain in general, though the evidence is low quality and not scoliosis-specific [8]. <a href="/learn/body-scanning">Body scanning</a> sets roller travel to your shoulder height and back length, but no chair is designed or tested for a curved, rotated spine. In our assessment, pressure may land harder on one side.</p>
+<p><strong>Cannot replicate: what a clinician does.</strong> A therapist can adjust pressure side to side and work around the curve. Exercise programs that reduced disability in trials need guidance [4]. Nothing a chair does will correct a curve.</p>
+<p><strong>Using a chair with scoliosis:</strong></p>
+<ol>
+<li>Start on the lowest roller intensity and a short session.</li>
+<li>Pay attention to whether one side feels pressed harder. If it does, lower intensity or switch to a program that skips that area.</li>
+<li>Use heat and <a href="/learn/airbag-massage">airbag</a> compression at moderate settings rather than deep roller work.</li>
+<li>Keep intensity low if you have osteoporosis or a past fracture. A case report describes a spinal fracture during massage chair use in an older woman with osteoporosis [13]. See <a href="/learn/massage-and-osteoporosis">massage and osteoporosis</a>.</li>
+<li>If you have had spinal fusion surgery, ask your surgeon before using a chair. No study covers chairs after fusion.</li>
+<li>Stop if pain increases during or after a session.</li>
+</ol>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Can massage fix scoliosis?</strong></summary>
+<p>No. No study shows massage changes a scoliosis curve. In adults, treatment focuses on relieving symptoms [9][10].</p>
+</details>
+<details>
+<summary><strong>Is a massage chair good for scoliosis?</strong></summary>
+<p>It can be a comfort tool for muscle tension, used at low intensity. No study has tested massage chairs in people with scoliosis, and chairs are not designed around a curved spine.</p>
+</details>
+<details>
+<summary><strong>Can a massage chair make scoliosis worse?</strong></summary>
+<p>There is no evidence that a chair worsens a curve. The realistic risks are uneven pressure on a rotated spine and fracture risk with high intensity if you also have osteoporosis [13][14].</p>
+</details>
+<details>
+<summary><strong>What helps adult scoliosis pain the most?</strong></summary>
+<p>The best trial evidence is for a structured exercise program combined with cognitive behavioral therapy, which reduced disability more than general physiotherapy [4]. Most adults with scoliosis do not need surgery [9].</p>
+</details>
+<details>
+<summary><strong>Does a bigger curve mean more pain?</strong></summary>
+<p>Not reliably. In older volunteers, curve size did not correlate with pain scores [2].</p>
+</details>
+<h2>Choosing a chair if you have scoliosis</h2>
+<p>Look for fine intensity control, the option to target or skip areas, good heat and a body scan. For back pain features more broadly, see our guide to <a href="/learn/massage-chairs-for-lower-back-pain">massage chairs for lower back pain</a> and our <a href="/best/lower-back-pain">picks for lower back pain</a>.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your body, your space and the intensity control you need.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Aebi M. <em>The adult scoliosis.</em> European Spine Journal. 2005;14(10):925-948. PMID: 16328223.</p>
+<p>[2] Schwab F, Dubey A, Gamez L, et al. <em>Adult scoliosis: prevalence, SF-36, and nutritional parameters in an elderly volunteer population.</em> Spine. 2005;30(9):1082-1085. PMID: 15864163.</p>
+<p>[3] Everett CR, Patel RK. <em>A systematic literature review of nonsurgical treatment in adult scoliosis.</em> Spine. 2007;32(19 Suppl):S130-S134. PMID: 17728680.</p>
+<p>[4] Monticone M, Ambrosini E, Cazzaniga D, et al. <em>Adults with idiopathic scoliosis improve disability after motor and cognitive rehabilitation: results of a randomised controlled trial.</em> European Spine Journal. 2016;25(10):3120-3129. PMID: 27015689.</p>
+<p>[5] Alanazi MH, Parent EC, Dennett E. <em>Effect of stabilization exercise on back pain, disability and quality of life in adults with scoliosis: a systematic review.</em> European Journal of Physical and Rehabilitation Medicine. 2018;54(5):647-653. PMID: 29144110.</p>
+<p>[6] Glassman SD, Carreon LY, Shaffrey CI, et al. <em>The costs and benefits of nonoperative management for adult scoliosis.</em> Spine. 2010;35(5):578-582. PMID: 20118843.</p>
+<p>[7] Teles AR, Mattei TA, Righesso O, et al. <em>Effectiveness of operative and nonoperative care for adult spinal deformity: systematic review of the literature.</em> Global Spine Journal. 2017;7(2):170-178. PMID: 28507887.</p>
+<p>[8] Furlan AD, Giraldo M, Baskwill A, et al. <em>Massage for low-back pain.</em> Cochrane Database of Systematic Reviews. 2015;(9):CD001929. PMID: 26329399.</p>
+<p>[9] NHS. <em>Scoliosis: treatment in adults.</em> <a href="https://www.nhs.uk/conditions/scoliosis/treatment-in-adults/">Link</a></p>
+<p>[10] Cleveland Clinic. <em>Scoliosis.</em> <a href="https://my.clevelandclinic.org/health/diseases/15837-scoliosis">Link</a></p>
+<p>[11] Mayo Clinic News Network. <em>Mayo Clinic Q and A: scoliosis in adults.</em> <a href="https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-qa-scoliosis-in-adults/">Link</a></p>
+<p>[12] Mayo Clinic. <em>Scoliosis: diagnosis and treatment.</em> <a href="https://www.mayoclinic.org/diseases-conditions/scoliosis/diagnosis-treatment/drc-20350721">Link</a></p>
+<p>[13] Jeon CH, Chung NS, Lee HD, et al. <em>Case report: electrical automated massage chair use can induce osteoporotic vertebral compression fracture.</em> Osteoporosis International. 2019;30(7):1533-1536. PMID: 31016352.</p>
+<p>[14] NCCIH. <em>Massage therapy: what you need to know.</em> <a href="https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know">Link</a></p>
+<p>[15] NHS. <em>Back pain.</em> <a href="https://www.nhs.uk/conditions/back-pain/">Link</a></p>`,
+  },
+  {
+    slug: "massage-and-spinal-stenosis",
+    title: "Massage for Spinal Stenosis: What the Research Shows and How to Use a Massage Chair Safely",
+    excerpt: "No trial has tested massage for spinal stenosis. Exercise plus hands-on therapy has the best non-surgical evidence. What helps, which chair settings to avoid, and the warning signs that need urgent care.",
+    order: 153,
+    publishedAt: "2026-11-02",
+    body: `<p><strong>No study has tested massage or massage chairs as a treatment for spinal stenosis. The best non-surgical evidence supports a program of exercise plus hands-on therapy from a clinician [3], and in one trial physical therapy matched surgery on physical function at two years [4].</strong> A massage chair can still be a comfort tool: stenosis usually feels better sitting and leaning forward [1][6], which is the position a chair puts you in. Two settings need care: skip neck programs if you have stenosis in your neck, and avoid stretch programs that arch your back.</p>
+<h2>Key research findings at a glance</h2>
+<div style="background: rgba(209,128,62,0.06); border: 1px solid rgba(209,128,62,0.25); border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;"><p>Lumbar spinal stenosis affects about 11 percent of US adults and becomes more common with age. Pain is typically provoked by arching the back and relieved by bending forward [1].<br>
+A 2022 review of non-surgical treatments found moderate-quality evidence for a combined program of hands-on therapy and exercise, and found epidural steroid injections were not effective [3].<br>
+In a 169-person trial of adults 50 and older, physical function improved 19.2 points with physical therapy and 22.4 points with surgery at two years, a difference that was not significant [4].<br>
+Without surgery, about one third of people improve over up to three years and about half stay the same [1].</p></div>
+<h2>What spinal stenosis feels like</h2>
+<p>Spinal stenosis is a narrowing of the canal that carries the spinal nerves. In the low back it typically causes pain, heaviness or tingling in the buttocks and legs when you walk or stand, and relief when you sit or bend forward [1][6][7]. An international panel of 279 clinicians rated relief when leaning on a shopping cart or bicycle as one of the most telling signs [5]. AAOS notes it is most common after age 60 [6].</p>
+<p>Stenosis in the neck (cervical stenosis) is different. When it presses on the spinal cord, it can cause clumsy hands, trouble with buttons or handwriting, and poor balance [8].</p>
+<p><strong>Get emergency care</strong> for numbness in the groin, genitals or around the bottom, new bladder or bowel problems, or weakness in both legs. These are signs of cauda equina syndrome [6][9]. <strong>Get prompt care</strong> for worsening weakness or numbness, or new hand clumsiness or balance problems [7][8].</p>
+<h2>Does massage help spinal stenosis?</h2>
+<table>
+<thead>
+<tr>
+<th>Treatment</th>
+<th>What the evidence shows</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Massage alone</td>
+<td>Never tested as a stenosis treatment. Listed by AAOS as one option that may help manage symptoms</td>
+<td>[6]</td>
+</tr>
+<tr>
+<td>Exercise plus hands-on therapy</td>
+<td>Moderate-quality evidence of benefit, the strongest non-surgical finding. The earlier Cochrane review found good-quality evidence lacking for every option</td>
+<td>[2][3]</td>
+</tr>
+<tr>
+<td>Physical therapy vs surgery</td>
+<td>Similar physical function at two years, though 57 percent of the therapy group later had surgery</td>
+<td>[4]</td>
+</tr>
+<tr>
+<td>Epidural steroid injections</td>
+<td>Not effective in the 2022 review</td>
+<td>[3]</td>
+</tr>
+<tr>
+<td>General low back pain massage</td>
+<td>Short-term relief, low-quality evidence, not stenosis-specific</td>
+<td>[10]</td>
+</tr>
+</tbody>
+</table>
+<p>The pattern: the treatments with evidence are active and guided by a clinician. Massage sits in the supportive column. For low back pain without stenosis, see <a href="/learn/massage-and-lower-back-pain">massage and lower back pain</a>, and for leg pain from a pinched nerve root, see <a href="/learn/massage-and-sciatica">massage and sciatica</a>.</p>
+<h2>Is a massage chair safe with spinal stenosis?</h2>
+<p>Serious harm from massage is rare [11][12], but the reported cases cluster in exactly the places stenosis affects. A review of massage harms found 138 adverse events across 40 reports, including disc herniation and spinal cord injury, often linked to forceful manipulation [11]. Separate case reports describe spinal cord compression after neck massage [13], and a spinal compression fracture in an older woman with undiagnosed osteoporosis during massage chair use [14]. AAOS states that manipulation should never be used for spinal cord compression [8].</p>
+<p>No study has looked at massage chair use in people with known stenosis. That means the settings below are precautions based on how stenosis behaves, not tested rules.</p>
+<h2>How a massage chair delivers this</h2>
+<p><strong>Fully replicates: a seated, forward-flexed resting position with heat.</strong> Sitting eases stenosis symptoms for most people [1][6]. A chair with lumbar heat lets you rest in that position. A moderate recline usually keeps your hips flexed; full <a href="/learn/zero-gravity">zero-gravity</a> recline is fine if it feels comfortable, but no study shows it opens the spinal canal.</p>
+<p><strong>Partially replicates: muscle relaxation in the low back.</strong> General massage research shows short-term relief for low back pain [10]. That evidence does not come from people with stenosis.</p>
+<p><strong>Cannot replicate: the treatments with evidence.</strong> Exercise and clinician-guided hands-on therapy [3][4]. A chair cannot decompress a narrowed canal.</p>
+<p><strong>Using a chair with spinal stenosis:</strong></p>
+<ol>
+<li>Rule out the red flags above.</li>
+<li>Start on the lowest roller intensity with lumbar heat.</li>
+<li>Turn off neck programs and neck airbags if you have cervical stenosis or any hand clumsiness or balance change [8][13].</li>
+<li>Skip stretch programs that arch your back, since arching provokes symptoms [1].</li>
+<li>Keep intensity low if you have osteoporosis or are at risk [14]. See <a href="/learn/massage-and-osteoporosis">massage and osteoporosis</a>.</li>
+<li>Stop if leg symptoms increase during or after a session.</li>
+</ol>
+<h2>Frequently asked questions</h2>
+<details>
+<summary><strong>Is massage good for spinal stenosis?</strong></summary>
+<p>It has not been tested as a stenosis treatment. It may ease muscle tension around the low back, but the evidence points to exercise plus hands-on therapy from a clinician [3].</p>
+</details>
+<details>
+<summary><strong>Is zero gravity good for spinal stenosis?</strong></summary>
+<p>Sitting and bending forward ease stenosis for most people [1], so a reclined, hips-flexed position is often comfortable. No study shows zero-gravity recline treats or decompresses stenosis.</p>
+</details>
+<details>
+<summary><strong>Can I use a massage chair with cervical stenosis?</strong></summary>
+<p>Avoid the neck programs. AAOS advises against manipulation with spinal cord compression [8], and cord injuries after neck massage have been reported [13]. Ask your spine specialist before using any neck setting.</p>
+</details>
+<details>
+<summary><strong>Can a massage chair make stenosis worse?</strong></summary>
+<p>It can if intensity is too high, if a stretch program arches your back, or if neck settings press on a narrowed cervical spine. Use low settings and stop if symptoms increase.</p>
+</details>
+<details>
+<summary><strong>Will spinal stenosis keep getting worse?</strong></summary>
+<p>Not always. Without surgery, about one third of people improve and about half stay the same over up to three years [1].</p>
+</details>
+<h2>Choosing a chair if you have spinal stenosis</h2>
+<p>Look for adjustable or switchable neck rollers and airbags, lumbar heat, fine intensity control and an easy-to-reach stop button. Our <a href="/best/seniors">picks for seniors</a> favor gentle settings and easy entry and exit. For low back features more broadly, see our guide to <a href="/learn/massage-chairs-for-lower-back-pain">massage chairs for lower back pain</a>.</p>
+<p><strong><a href="/finder">Try the Chair Finder</a></strong> to get a shortlist matched to your body, your space and the settings you need to control.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] Katz JN, Zimmerman ZE, Mass H, et al. <em>Diagnosis and management of lumbar spinal stenosis: a review.</em> JAMA. 2022;327(17):1688-1699. PMID: 35503342.</p>
+<p>[2] Ammendolia C, Stuber KJ, Rok E, et al. <em>Nonoperative treatment for lumbar spinal stenosis with neurogenic claudication.</em> Cochrane Database of Systematic Reviews. 2013;(8):CD010712. PMID: 23996271.</p>
+<p>[3] Ammendolia C, Hofkirchner C, Plener J, et al. <em>Non-operative treatment for lumbar spinal stenosis with neurogenic claudication: an updated systematic review.</em> BMJ Open. 2022;12(1):e057724. PMID: 35046008.</p>
+<p>[4] Delitto A, Piva SR, Moore CG, et al. <em>Surgery versus nonsurgical treatment of lumbar spinal stenosis: a randomized trial.</em> Annals of Internal Medicine. 2015;162(7):465-473. PMID: 25844995.</p>
+<p>[5] Tomkins-Lane C, Melloh M, Lurie J, et al. <em>Consensus on the clinical diagnosis of lumbar spinal stenosis: results of an international Delphi study.</em> Spine. 2016;41(15):1239-1246. PMID: 26839989.</p>
+<p>[6] AAOS OrthoInfo. <em>Lumbar spinal stenosis.</em> <a href="https://orthoinfo.aaos.org/en/diseases--conditions/lumbar-spinal-stenosis/">Link</a></p>
+<p>[7] MedlinePlus. <em>Spinal stenosis.</em> <a href="https://medlineplus.gov/ency/article/000441.htm">Link</a></p>
+<p>[8] AAOS OrthoInfo. <em>Cervical spondylotic myelopathy: spinal cord compression.</em> <a href="https://orthoinfo.aaos.org/en/diseases--conditions/cervical-spondylotic-myelopathy-spinal-cord-compression/">Link</a></p>
+<p>[9] NHS. <em>Back pain.</em> <a href="https://www.nhs.uk/conditions/back-pain/">Link</a></p>
+<p>[10] Furlan AD, Giraldo M, Baskwill A, et al. <em>Massage for low-back pain.</em> Cochrane Database of Systematic Reviews. 2015;(9):CD001929. PMID: 26329399.</p>
+<p>[11] Yin P, Gao N, Wu J, et al. <em>Adverse events of massage therapy in pain-related conditions: a systematic review.</em> Evidence-Based Complementary and Alternative Medicine. 2014;2014:480956. PMID: 25197310.</p>
+<p>[12] NCCIH. <em>Massage therapy: what you need to know.</em> <a href="https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know">Link</a></p>
+<p>[13] Lee TH, Chiu JW, Chan RC. <em>Cervical cord injury after massage.</em> American Journal of Physical Medicine and Rehabilitation. 2011;90(10):856-859. PMID: 21862908.</p>
+<p>[14] Jeon CH, Chung NS, Lee HD, et al. <em>Case report: electrical automated massage chair use can induce osteoporotic vertebral compression fracture.</em> Osteoporosis International. 2019;30(7):1533-1536. PMID: 31016352.</p>`,
+  },
 
 ]
 
