@@ -136,6 +136,15 @@ export default function BestTallPeoplePage() {
         Updated April 2026. All five chairs below are confirmed for buyers at 6'3&quot; or above, with retailer-confirmed height validation from spec pages where noted.
       </p>
 
+      <div className="mb-10 max-w-2xl flex flex-col sm:flex-row sm:items-center gap-3 rounded-lg px-5 py-4" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
+        <p className="text-sm text-charcoal flex-1">
+          Want a shortlist for your body, room, and budget? The Chair Finder takes about 3 minutes.
+        </p>
+        <Link href="/finder?src=best-top" className="btn-primary text-sm text-center whitespace-nowrap">
+          Find My Chair
+        </Link>
+      </div>
+
       <div className="bg-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">Why confirmed height data matters more than rated height</h2>
         <p className="text-charcoal leading-relaxed mb-3">

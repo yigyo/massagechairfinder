@@ -238,6 +238,14 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             <p className="text-lg text-charcoal leading-relaxed">{article.excerpt}</p>
           </div>
         )}
+        <div className="mb-8 flex flex-col sm:flex-row sm:items-center gap-3 rounded-lg px-5 py-4" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
+          <p className="text-sm text-charcoal flex-1">
+            Want a shortlist for your body, room, and budget? The Chair Finder takes about 3 minutes.
+          </p>
+          <Link href="/finder?src=learn-top" className="btn-primary text-sm text-center whitespace-nowrap">
+            Find My Chair
+          </Link>
+        </div>
         {(() => {
           const processedHtml = autolink(article.body, params.slug)
           const [firstHalf, secondHalf] = splitHtmlAtMidpoint(processedHtml)
