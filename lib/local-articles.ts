@@ -3251,7 +3251,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'Warranty terms for massage chairs vary more than most buyers realize, and the gaps between coverage categories matter when an upper-mid-tier chair breaks in year three. Here is what to look for before you buy.',
     order: 38,
     publishedAt: '2026-05-03',
-    updatedAt: '2026-10-12',
+    updatedAt: '2026-11-04',
     body: `
 <p>A massage chair warranty is not a single thing. Most manufacturers break their coverage into four or five separate categories with different term lengths, and the category that fails most often is typically covered for the shortest period. Understanding the warranty structure before you buy is one of the most practical things you can do when spending several thousand dollars on a piece of furniture you expect to use daily.</p>
 
@@ -3455,6 +3455,8 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h3>Does buying from an unauthorized retailer void the warranty?</h3>
 <p>It often does. Manufacturers commonly honor warranties only for chairs sold through authorized channels, so a discounted chair from a marketplace seller can arrive with no coverage at all. Verify the retailer with the manufacturer before you buy, not after.</p>
+
+<p>Marketplace resellers are the most common way this plays out. A Better Business Bureau complaint filed against Titan Chair on September 19, 2023 shows the pattern directly: the buyer had purchased through the Amazon reseller Spreetail and was told the warranty did not apply because "Spreetail is not an authorized seller of their products and would not be covered." The same question applies to any chair bought through Amazon or another marketplace listing rather than the brand's own site or a retailer it names as authorized, and it is worth asking even at a big-box retailer like Costco. The store being reputable does not confirm the specific listing is covered. Ask the manufacturer directly, by name of the seller, before you buy.</p>
 
 <h3>What does a massage chair repair cost after the warranty ends?</h3>
 <p>It varies by component, but roller and mechanism work is the expensive case because it is both a costly part and labor-intensive to reach. Owners frequently report several hundred dollars in parts and non-refundable labor, and repeat visits when the fault was diagnosed remotely rather than in person.</p>

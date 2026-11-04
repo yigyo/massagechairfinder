@@ -1,26 +1,26 @@
 {
   "articles": {
-    "hash": "f4f539f974803cf9",
-    "revised": "2026-10-24"
+    "hash": "db41bebe5af07d83",
+    "revised": "2026-11-04"
   },
   "best": {
-    "hash": "91266ce25ee6a1dd",
-    "revised": "2026-10-24"
+    "hash": "ca3090bfced36d56",
+    "revised": "2026-11-04"
   },
   "brands": {
-    "hash": "272a0eca4154cb25",
-    "revised": "2026-10-24"
+    "hash": "b998927209949c56",
+    "revised": "2026-11-04"
   },
   "chairs": {
-    "hash": "e50f0f549e8deb3f",
-    "revised": "2026-10-24"
+    "hash": "d8b4a30610fa3f82",
+    "revised": "2026-11-04"
   },
   "compare": {
-    "hash": "822eb3172bbd2d67",
-    "revised": "2026-10-24"
+    "hash": "d60a06fbf9f884ae",
+    "revised": "2026-11-04"
   },
   "core": {
-    "hash": "71e0ebaf9d6f4fe2",
-    "revised": "2026-09-05"
+    "hash": "0a700c5c76e0590c",
+    "revised": "2026-11-04"
   }
 }
