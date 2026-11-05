@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "S-DELIVERYDAY-2026-11-02",
+    "status": "pending",
+    "board": "buyer-mistakes",
+    "image": "pinterest-queue/assets/S-DELIVERYDAY-2026-11-02.png",
+    "title": "What massage chair delivery day actually looks like",
+    "description": "A 200 to 300 pound massage chair does not arrive the way a normal package does. White glove, threshold, and curbside delivery each hand you a different amount of the unboxing and placement work. What each one actually includes before you pick a shipping option.",
+    "link": "https://www.massagechairfinder.com/learn/massage-chair-delivery-types",
+    "campaign": "delivery-day",
+    "alt_text": "Diagram of the parts inside a massage chair"
+  },
+  {
+    "id": "S-WARRLABOR-2026-11-02",
+    "status": "pending",
+    "board": "buyer-mistakes",
+    "image": "pinterest-queue/assets/S-WARRLABOR-2026-11-02.png",
+    "title": "The warranty clock buyers miss: parts vs labor",
+    "description": "Parts coverage on a massage chair often runs 3 to 5 years. Labor coverage, the part that pays someone to install the free part, often runs only 1 year. The gap between those two clocks is where a \"free\" repair quietly stops being free.",
+    "link": "https://www.massagechairfinder.com/learn/massage-chair-warranty-guide",
+    "campaign": "warranty-labor-clock",
+    "alt_text": "Massage chair air compression element"
+  }
+]
