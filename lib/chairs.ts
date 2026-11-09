@@ -240,14 +240,14 @@ export const CHAIRS: Chair[] = [
     id: 'osaki-os-pro-admiral-ii',
     name: 'Osaki OS-Pro Admiral II',
     brand: 'Osaki',
-    active: true, goodwinActive: true, mcfActive: true,  // 2026-10-25 audit: first confirmed OUT OF STOCK this cycle -- massagechairs.com now shows all 8 variants Sold Out (page heading references an "Admiral SE (coming soon)" successor); previously In Stock (Grey) as of 2026-10-18. Checked massagechairheaven.com (carries it at $4499, also sold out) and massagechairwarehouse.com (domain now redirects elsewhere, appears defunct) -- no in-stock source found. Per the project's two-run convention (see osaki-os-champ), HOLDING active -- re-confirm OOS at the next audit before deactivating.
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-11-09 audit: SECOND consecutive OUT OF STOCK confirmation (all 8 variants Sold Out at massagechairs.com, also OOS at massagechairheaven.com; massagechairplanet.com and osakiusa.com product URLs for this model both redirect to their homepage -- not carried). Page still references "Admiral SE (coming soon)" successor, consistent with a real model transition, not a flash restock gap. Per the project's two-run convention (see osaki-os-champ / Inada DreamWave precedent), DEACTIVATED -- moved to Archive tab. No PICK_IDS or compare-page references found; two /learn article mentions (wall-clearance, SL-track specs) left as factual historical references per the "kept for historical reference" convention.
     priceMin: 2999,
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairs.com',
     affiliateCommission: 'none (no confirmed Osaki/Rakuten program; 2026-10-04 Heath confirmed no application was made)',
     goodwinStatus: 'none',
     affiliateUrl: 'https://www.massagechairs.com/products/osaki-os-pro-admiral-3d',
-    inStock: false,  // 2026-10-25: all 8 variants Sold Out at massagechairs.com (primary retailer). See dated comment above.
+    inStock: false,  // 2026-11-09: SECOND consecutive Sold Out confirmation (all 8 variants) -- deactivated this cycle, see dated comment above.
     // amazonAsin B09HW3F2BB DROPPED 2026-09-20: 'Currently unavailable. We don't know when or if this item will be back in stock' on 08-16, 09-06 and 09-20. Primary massagechairs.com in stock $2,999 (Grey only; Black, Brown, Taupe Sold Out).
     imageUrl: '/images/chairs/osaki-os-pro-admiral-ii.jpg',
     goodwinLookupKey: 'osaki os-pro admiral ii',
@@ -442,7 +442,7 @@ export const CHAIRS: Chair[] = [
     name: 'Infinity Genesis Max 4D',
     brand: 'Infinity',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 9299,  // verified 2026-04-27 (on sale from $12,999 MSRP)
+    priceMin: 8699,  // 2026-11-09: massagechairstore.com buy box $8,699 (list $11,999), down from catalog $9,299 (-6.45%, >5% threshold) -- updated. Same price band (upper-mid/premium boundary unaffected: 8000-11999). Previously verified 2026-04-27 at $9,299.
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -506,7 +506,7 @@ export const CHAIRS: Chair[] = [
     name: 'Human Touch Laevo ZG',
     brand: 'Human Touch',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 4499,  // humantouch.com verified 2026-08-16: back to $4,499 (was 4999; price cycles between 4499/4999) -- same band
+    priceMin: 3999,  // 2026-11-09: humantouch.com buy box $3,999 (sale; struck-through regular $4,499 matches prior catalog value) -- updated, -11.1% vs prior 4499, >5% threshold. Same price band (mid, 3000-4999). Price has cycled 4499/4999/3999 historically -- re-confirm next audit in case it reverts when sale ends.
     affiliateTier: 'B',
     affiliateRetailer: 'humantouch.com',
     affiliateCommission: 'Awin / direct',
@@ -2631,7 +2631,7 @@ export const CHAIRS: Chair[] = [
     name: 'Svago ZGR',
     brand: 'Svago',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 1999,  // 2026-10-18: amazonUrl is the resolved channel (gameroomempire.com is not in APPROVED_DIRECT). Amazon buy box $1,999 (was 2199, -9.1%). Listing title shows as "ZGR Plus SV-395" -- re-confirm same SKU next audit.
+    priceMin: 1999,  // 2026-10-18: amazonUrl is the resolved channel (gameroomempire.com is not in APPROVED_DIRECT). Amazon buy box $1,999 (was 2199, -9.1%). Listing title shows as "ZGR Plus SV-395" -- re-confirm same SKU next audit. 2026-11-09: gameroomempire.com direct price now $2,199.99, but that is NOT the resolved channel -- Amazon access blocked this audit (see report), so left unchanged pending re-verification.
     affiliateTier: 'A',
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'gameroomempire.com',
@@ -2652,7 +2652,7 @@ export const CHAIRS: Chair[] = [
     name: 'Svago Newton',
     brand: 'Svago',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 3499,  // 2026-10-18: amazonUrl is the resolved channel (gameroomempire.com is not in APPROVED_DIRECT). Amazon buy box $3,499 (was 3199, +9.4%), title "Svago ZGR Newton SV-630" matches.
+    priceMin: 3499,  // 2026-10-18: amazonUrl is the resolved channel (gameroomempire.com is not in APPROVED_DIRECT). Amazon buy box $3,499 (was 3199, +9.4%), title "Svago ZGR Newton SV-630" matches. 2026-11-09: gameroomempire.com direct price now $3,999.99, but that is NOT the resolved channel -- Amazon access blocked this audit (see report), so left unchanged pending re-verification.
     affiliateTier: 'A',
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'gameroomempire.com',
@@ -2773,7 +2773,7 @@ export const CHAIRS: Chair[] = [
     name: 'Nouhaus Nou Campo',
     brand: 'Nouhaus',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 2299,  // 2026-10-18: amazonUrl is the resolved channel (nouhaus.com is not in APPROVED_DIRECT). Amazon buy box $2,299.99 (was 2099, +9.6%), title matches exactly. nouhaus.com direct still shows 2099.99 for Mellow Sand but is not the link buyers actually land on.
+    priceMin: 2299,  // 2026-10-18: amazonUrl is the resolved channel (nouhaus.com is not in APPROVED_DIRECT). Amazon buy box $2,299.99 (was 2099, +9.6%), title matches exactly. nouhaus.com direct still shows 2099.99 for Mellow Sand but is not the link buyers actually land on. 2026-11-09: nouhaus.com direct price still $2,099.99 -- Amazon access blocked this audit (see report), so left unchanged pending re-verification.
     affiliateTier: null,
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
@@ -3029,7 +3029,7 @@ export const CHAIRS: Chair[] = [
     name: 'iRest A306',
     brand: 'iRest',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 2550,
+    priceMin: 2198,
     inStock: true,
     affiliateTier: null,
     affiliateRetailer: 'massagechairsbuy.com',
