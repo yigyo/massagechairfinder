@@ -195,6 +195,10 @@ const CATEGORIES: { label: string; description: string; slugs: string[] }[] = [
       "massage-and-spinal-stenosis",
       "massage-and-scoliosis",
       "massage-and-constipation",
+      "massage-and-muscle-knots",
+      "massage-and-muscle-spasms",
+      "massage-and-piriformis-syndrome",
+      "massage-and-stiff-neck",
     ],
   },
 ]
