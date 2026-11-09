@@ -3652,7 +3652,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'The most common reason a massage chair comes back has nothing to do with price or features. It is because the massage is too rough. Here is how to evaluate pressure range before you commit.',
     order: 41,
     publishedAt: '2026-05-07',
-    updatedAt: '2026-10-14',
+    updatedAt: '2026-11-09',
     body: `
 <p>The most common reason a massage chair comes back has nothing to do with price, aesthetics, features, or fit. It is because the massage is too rough. A buyer spends three months researching roller types, track coverage, and warranty terms, and then the chair arrives, turns on for the first time, and the pressure is uncomfortable enough that they never use it again.</p>
 
@@ -3720,6 +3720,16 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Before you sign anything, unwrap enough of the chair to check the legs, the base, and any visible frame seams for cracks, dents, or repairs disguised as factory finish. Tape, filler, or touch-up paint in a spot that should be a clean molded surface is a reason to refuse the delivery and document it in front of the crew, not to sign and hope a claim goes smoothly later. If the crew will not wait while you inspect, that itself is worth noting in writing at the time.</p>
 
+<h2>How to Tell a "New" Massage Chair Is Actually a Return</h2>
+
+<p>Check the outer box for a return or RMA sticker, confirm the accessory bag (remote, power cable, and any owner's manual) is still factory-sealed, and look for scuffed leather or a missing original box before you sign for delivery or open the packaging. If any of those checks fail, you are likely holding a previous buyer's return resold as new, not a chair that was merely damaged in transit, and it is worth documenting immediately rather than discovering it after the return window has closed.</p>
+
+<p>This is a different problem from the shipping damage covered above. A cracked leg under duct tape tells you something broke between the warehouse and your door. A chair with a return sticker, no power cable, and someone else's fingerprints on the leather tells you a different buyer already rejected or returned this exact unit, and the listing never said so. Multiple buyers of budget-tier marketplace chairs have described receiving units in resealed boxes with a visible RMA or return sticker, a missing power cable, and scuff marks inconsistent with a factory-fresh product, sold and priced as new.</p>
+
+<p>The checklist to run before you sign for delivery or discard the box: photograph the outer box and any shipping label before opening it, in case you need to prove the condition it arrived in; check whether the accessory compartment's tape or shrink-wrap is intact rather than re-taped; count the included accessories against the manual's packing list, since a missing power cable or remote holster is the most commonly reported gap; and run a hand over the leather and armrests under good light for scuffs, scratches, or cleaning residue a factory-fresh unit would not have. None of these checks takes more than a few minutes, and all of them are easier to do standing in front of the box than after you have already set up and used the chair.</p>
+
+<p>If you find a return sticker, a resealed accessory bag, or visible wear on a chair billed as new, contact the seller in writing the same day, before you use the chair, and ask directly whether the unit was previously sold, returned, or used as a display or demo model. A seller who answers honestly may offer a discount or a straightforward swap. A seller who will not answer, or who disputes photos taken before first use, is the situation the <a href="/learn/massage-chair-trial-period">trial period</a> exists for: the return clock is still running, and a documented prior-return discovery is a stronger basis for a no-cost return or a credit card dispute than a vague "I don't like it" return would be. This pattern has come up most often with budget-tier chairs bought through third-party marketplace listings rather than brand-direct or established retailers; the <a href="/learn/massage-chair-reliability">reliability guide</a> covers why marketplace-sourced budget chairs carry more of this risk than other channels.</p>
+
 <h2>Financing Red Flags to Check Before You Sign</h2>
 
 <p>The same complaint that described the hidden crack also described the financing attached to it: terms advertised as 0% APR for five years that turned out to be a six-month promotional window before the rate jumped to 29.99%. On a chair in the thousands of dollars, that is the difference between a manageable payment plan and a debt that grows faster than most buyers expect.</p>
@@ -3741,6 +3751,11 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <details>
 <summary><strong>What should I check before accepting delivery of a massage chair?</strong></summary>
 <p>Unwrap enough of the chair to inspect the legs, base, and frame seams before you sign anything. A documented complaint describes a chair delivered with a cracked leg hidden under duct tape that was only found after the crew had left and the delivery was signed for. If anything looks off, including touch-up paint or filler where a clean molded surface should be, refuse the delivery and document it on the spot rather than signing and filing a claim later.</p>
+</details>
+
+<details>
+<summary><strong>How can I tell if my "new" massage chair is actually a used return?</strong></summary>
+<p>Check the outer box for a return or RMA sticker, confirm the accessory bag (power cable, remote, manual) is still factory-sealed, and inspect the leather for scuffs or cleaning residue before you sign for delivery. Multiple buyers of budget-tier marketplace chairs have reported exactly this combination on units sold and priced as new. Photograph the box before opening it and contact the seller in writing the same day if anything looks off.</p>
 </details>
 
 <details>
