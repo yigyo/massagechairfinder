@@ -165,7 +165,7 @@ export default function KumoVsKazeDuoPage() {
             <li className="flex items-baseline gap-2"><span className="text-navy">›</span><span>You have room behind the chair to recline and do not need a space-saving design.</span></li>
           </ul>
           <div className="mt-4">
-            <a href="https://gameroomempire.com/products/jpmedics-kumo-4d-massage-chair" target="_blank" rel="noopener noreferrer"
+            <a href="https://gameroomempire.com/products/jpmedics-kumo-4d-massage-chair?aff=108" target="_blank" rel="noopener noreferrer"
               className="inline-block bg-navy text-white text-sm font-medium px-4 py-2 rounded hover:bg-opacity-90 transition-colors">
               Shop the Kumo 4D
             </a>
