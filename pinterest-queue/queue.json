@@ -26,5 +26,27 @@
     "pin_id": "1090645234837521896",
     "pin_url": "https://www.pinterest.com/pin/1090645234837521896/",
     "posted_at": "2026-11-05T17:01:00Z"
+  },
+  {
+    "id": "S-RESOLDRETURN-2026-11-09",
+    "status": "pending",
+    "board": "buyer-mistakes",
+    "image": "pinterest-queue/assets/S-RESOLDRETURN-2026-11-09.png",
+    "title": "5 signs your massage chair is actually a return",
+    "description": "A massage chair sold as new should arrive in a sealed box with its full accessory kit. A return or RMA sticker, a missing power cable, or scuffed leather are signs a different buyer already sent this exact unit back. What to check before you sign for delivery.",
+    "link": "https://www.massagechairfinder.com/learn/why-massage-chairs-get-returned",
+    "campaign": "resold-return",
+    "alt_text": "Massage chair in a living room"
+  },
+  {
+    "id": "S-BRANDRECORD-2026-11-09",
+    "status": "pending",
+    "board": "brand-profiles",
+    "image": "pinterest-queue/assets/S-BRANDRECORD-2026-11-09.png",
+    "title": "Check this before you buy a massage chair brand",
+    "description": "A brand name on the box does not tell you how the company behaves after your chair breaks. A free check of its Better Business Bureau complaint record tells you a lot more: look at the complaint mix, not just the raw count, and watch for parts shipped before diagnosis or tickets closed for non-response.",
+    "link": "https://www.massagechairfinder.com/learn/brands-overview",
+    "campaign": "brand-service-record",
+    "alt_text": "Massage chair in a home setting"
   }
 ]
