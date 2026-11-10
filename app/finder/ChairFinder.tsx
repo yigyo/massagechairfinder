@@ -94,11 +94,16 @@ function generateSessionId(): string {
   return 'finder_' + Math.random().toString(36).slice(2) + Date.now().toString(36)
 }
 
+// House rule: no em or en dashes in anything a reader sees, including AI text.
+function noDashes(s: string): string {
+  return s.replace(/\s*[\u2014\u2013]\s*/g, ', ')
+}
+
 function parseOptions(text: string): { text: string; options: string[] } {
   const m = text.match(/\[options:\s*([^\]]+)\]/i)
-  if (!m) return { text, options: [] }
+  if (!m) return { text: noDashes(text), options: [] }
   const options = m[1].split('|').map((s) => s.trim()).filter(Boolean)
-  const cleanText = text.replace(/\[options:[^\]]+\]/gi, '').trim()
+  const cleanText = noDashes(text.replace(/\[options:[^\]]+\]/gi, '').trim())
   return { text: cleanText, options }
 }
 
@@ -118,12 +123,13 @@ function parseChairs(fullText: string): Chair[] {
       const headerLine = nlIdx > -1 ? trimmed.slice(0, nlIdx).trim() : trimmed
       const body = nlIdx > -1 ? trimmed.slice(nlIdx).trim() : ''
       const hMatch = headerLine.match(/^\d+\.\s+(.+?)(?:\s+[—–]\s+|\s+-\s+)(.+)$/)
-      const name = hMatch ? hMatch[1].trim() : headerLine.replace(/^\d+\.\s+/, '').trim()
+      // Drop any " | price" tail the model adds to the header; bands come from chairs.ts.
+      const name = (hMatch ? hMatch[1].trim() : headerLine.replace(/^\d+\.\s+/, '').trim()).split(/\s+\|\s+/)[0].trim()
       const price = hMatch ? hMatch[2].trim() : ''
       return {
         name,
         price,
-        body: body
+        body: noDashes(body)
           .replace(/There['']s no rush[^.]*\./gi, '')
           .replace(/massagechairfinder\.com[^\s]*/gi, '')
           .replace(/goodwinmassagechairs\.com[^\s]*/gi, '')
