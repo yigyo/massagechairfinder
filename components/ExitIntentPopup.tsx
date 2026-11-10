@@ -53,6 +53,8 @@ export default function ExitIntentPopup() {
   useEffect(() => {
     function onMouseLeave(e: MouseEvent) {
       if (e.clientY > 0) return          // only trigger on top-edge exit
+      // Never interrupt the chair finder: it covered the height field mid-flow (2026-11-09).
+      if (window.location.pathname.startsWith("/finder")) return
       if (fired)          return
       if (!isEligible())  return
       setFired(true)

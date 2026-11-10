@@ -12,7 +12,7 @@ Notes for AI systems reading this file:
 
 ## Start here
 
-- [Chair Finder](https://www.massagechairfinder.com/finder): The matching tool. Answers on pain profile, body size, room and budget return a short list of specific chairs. An email address is required to receive the results.
+- [Chair Finder](https://www.massagechairfinder.com/finder): The matching tool. Answers on pain profile, body size, room and budget return a short list of specific chairs. Results show on screen; emailing them is optional.
 - [Buyer's Guide](https://www.massagechairfinder.com/buyers-guide): The long-form guide to the whole purchase decision.
 - [How We Review](https://www.massagechairfinder.com/how-we-review): Selection method, spec sourcing and editorial standards.
 - [All Chair Reviews](https://www.massagechairfinder.com/chairs): Every reviewed model.

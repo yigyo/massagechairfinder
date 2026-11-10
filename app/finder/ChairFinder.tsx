@@ -1,8 +1,8 @@
 'use client'
 
 import React, { useState, useRef, useCallback } from 'react'
-import { finderStart, finderEmailSubmit, finderComplete, emailOptIn } from '@/lib/gtag'
-import { MCF_CHAIRS } from '@/lib/chairs'
+import { finderStart, finderEmailSubmit, finderComplete, emailOptIn, affiliateClick } from '@/lib/gtag'
+import { MCF_CHAIRS, priceBand, resolveAffiliateUrl } from '@/lib/chairs'
 import TurnstileWidget, { TurnstileHandle } from '@/components/TurnstileWidget'
 
 // ─── TYPES ─────────────────────────────────────────────────────────────────────
@@ -65,6 +65,28 @@ function getChairImage(name: string): string {
     if (lower.includes(norm(key))) return img
   }
   return ''
+}
+
+// ─── RESULTS: CATALOG MATCH (bands, internal page, earning link) ──────────────
+function catalogMatch(name: string) {
+  const norm = (s: string) => s.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim()
+  const n = norm(name)
+  const keyed = MCF_CHAIRS
+    .filter(c => c.inStock !== false)
+    .map(c => ({ c, key: norm(c.goodwinLookupKey ?? deriveMatchKey(c.name)) }))
+    .sort((a, b) => b.key.length - a.key.length)
+  return keyed.find(x => x.key && n.includes(x.key))?.c
+}
+
+// Prices show as bands only. Drop any sentence in the AI reasoning that quotes an
+// exact dollar figure rather than rewriting it.
+function stripPriceSentences(body: string): string {
+  return body
+    .split('\n')
+    .map(line => (line.match(/[^.!?]+[.!?]*\s*/g) || [line]).filter(s => !/\$\s?\d/.test(s)).join('').trim())
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
 }
 
 // ─── HELPERS ───────────────────────────────────────────────────────────────────
@@ -352,7 +374,10 @@ export default function ChairFinder() {
 
     // Record quiz answer before sending
     const qType = detectQuestionType(questionText)
-    if (qType) {
+    // A bridge "Continue" or the opening token is not an answer; never let it
+    // overwrite a recorded one (it replaced the pain area on 2026-11-09).
+    const isAnswer = text !== 'Continue' && text !== '__begin__'
+    if (qType && isAnswer) {
       if (qType.startsWith('feature_')) {
         if (text.toLowerCase() === 'yes') {
           const featureName = qType.replace('feature_', '').replace(/_/g, ' ')
@@ -549,7 +574,7 @@ export default function ChairFinder() {
             {isStreaming ? 'Loading...' : 'Find My Chair \u2192'}
           </button>
           <p style={{ marginTop: 24, fontSize: 13, color: '#9B9B95' }}>
-            Takes about 3 minutes &nbsp;&bull;&nbsp; Results delivered to your inbox
+            Takes about 3 minutes &nbsp;&bull;&nbsp; See your matches right away, no email needed
           </p>
           <hr style={{ border: 'none', borderTop: '1px solid #E8DFD3', margin: '44px 0' }} />
           <div style={{ display: 'flex', justifyContent: 'center', gap: 32, flexWrap: 'wrap' }}>
@@ -744,109 +769,143 @@ export default function ChairFinder() {
         </div>
       )}
 
-      {/* ── EMAIL GATE ─────────────────────────────────────────────────── */}
+      {/* ── RESULTS (shown on screen; email is optional, 2026-11-09) ─── */}
       {phase === 'email_gate' && (
-        <div style={{ animation: 'mcfFadeUp 0.45s ease', maxWidth: 560 }}>
-          {!emailSent ? (
-            <>
-              <h2 style={{ fontSize: 'clamp(24px,4vw,32px)', fontWeight: 700, color: '#1C2331', lineHeight: 1.2, fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 28 }}>
-                We found {chairs.length > 0 ? chairs.length : 'a few'} {chairs.length === 1 ? 'chair' : 'chairs'} matching your needs.
-              </h2>
+        <div style={{ animation: 'mcfFadeUp 0.45s ease', maxWidth: 640 }}>
+          <h2 style={{ fontSize: 'clamp(24px,4vw,32px)', fontWeight: 700, color: '#1C2331', lineHeight: 1.2, fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 24 }}>
+            {chairs.length > 0
+              ? `Your ${chairs.length === 1 ? 'best match' : `top ${chairs.length} matches`}`
+              : 'Your matches'}
+          </h2>
 
-              <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 10 }}>
-                <input
-                  type="email"
-                  value={emailInput}
-                  onChange={(e) => setEmailInput(e.target.value)}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') { e.preventDefault(); handleSendResults() }
-                  }}
-                  placeholder="Your email address"
-                  style={{
-                    flex: 1, minWidth: 220, border: '1.5px solid #D4CFC9', borderRadius: 10,
-                    padding: '14px 16px', fontSize: 16, fontFamily: 'inherit',
-                    color: '#1C2331', background: '#fff', outline: 'none',
-                  }}
-                />
-                <button
-                  onClick={handleSendResults}
-                  disabled={emailSending || !emailInput.trim()}
-                  style={{
-                    background: '#C04832', color: '#fff', border: 'none', borderRadius: 10,
-                    padding: '14px 28px', fontSize: 16, fontWeight: 600, cursor: 'pointer',
-                    fontFamily: 'inherit', whiteSpace: 'nowrap',
-                    opacity: emailSending || !emailInput.trim() ? 0.6 : 1,
-                  }}
-                >
-                  {emailSending ? 'Sending...' : 'Send My Results'}
-                </button>
-              </div>
-              <p style={{ fontSize: 12, color: '#9B9B95', marginBottom: 8 }}>
-                By submitting, you agree to receive email from Massage Chair Finder. Unsubscribe anytime.
-              </p>
-              <p style={{ fontSize: 12, color: '#9B9B95', marginBottom: 20 }}>
-                Your top chairs will arrive in your inbox shortly.
-              </p>
-
-              {/* Your criteria -- moved below email capture */}
-              <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 16 }}>
-                Your criteria
-              </p>
-
-              {/* Quiz summary table */}
-              <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: 32 }}>
-                <tbody>
-                  {[
-                    { key: 'pain',     label: 'Pain area' },
-                    { key: 'goal',     label: 'Goal' },
-                    { key: 'height',   label: 'Height' },
-                    { key: 'weight',   label: 'Weight' },
-                    { key: 'pressure', label: 'Pressure preference' },
-                    { key: 'budget',   label: 'Budget' },
-                    { key: 'room',     label: 'Room space' },
-                    { key: 'timeline', label: 'Timeline' },
-                  ].filter(row => quizAnswers[row.key]).map((row, i, arr) => (
-                    <tr key={row.key}>
-                      <td style={{ fontSize: 14, color: '#6B6B65', padding: '9px 0', borderBottom: '0.5px solid #E8DFD3', width: '44%' }}>{row.label}</td>
-                      <td style={{ fontSize: 14, color: '#1C2331', fontWeight: 500, padding: '9px 0', borderBottom: '0.5px solid #E8DFD3' }}>{quizAnswers[row.key]}</td>
-                    </tr>
-                  ))}
-                  {quizFeatures.length > 0 && (
-                    <tr>
-                      <td style={{ fontSize: 14, color: '#6B6B65', padding: '9px 0' }}>Features requested</td>
-                      <td style={{ fontSize: 14, color: '#1C2331', fontWeight: 500, padding: '9px 0' }}>
-                        {quizFeatures.map(f => f.split(' ').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')).join(', ')}
-                      </td>
-                    </tr>
-                  )}
-                </tbody>
-              </table>
-
-              <div style={{ marginTop: 8 }}>
-                <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
-                  Start over with different answers
-                </button>
-              </div>
-            </>
-          ) : (
-            <div style={{ textAlign: 'center', paddingTop: 40 }}>
-              <div style={{ fontSize: 40, marginBottom: 20 }}>✓</div>
-              <h2 style={{ fontSize: 'clamp(24px,4vw,32px)', fontWeight: 700, color: '#1C2331', fontFamily: 'Noto Serif, Georgia, serif', marginBottom: 14 }}>
-                Check your inbox.
-              </h2>
-              <p style={{ fontSize: 17, color: '#6B6B65', lineHeight: 1.65, maxWidth: 420, margin: '0 auto 36px' }}>
-                Your chair matches are on the way. While you wait, the Learning Center covers everything you need to compare chairs confidently.
-              </p>
-              <a href="/learn" style={{ color: '#D1803E', fontWeight: 600, fontSize: 16, textDecoration: 'none' }}>
-                Browse the Learning Center &rarr;
-              </a>
-              <div style={{ marginTop: 36 }}>
-                <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
-                  Start over with different answers
-                </button>
-              </div>
+          {chairs.length > 0 ? (
+            <div style={{ display: 'grid', gap: 16, marginBottom: 36 }}>
+              {chairs.map((c, idx) => {
+                const cat = catalogMatch(c.name)
+                const shopUrl = cat ? resolveAffiliateUrl(cat) : (c.url || undefined)
+                const body = stripPriceSentences(c.body)
+                return (
+                  <div key={c.name + idx} style={{ border: '1px solid #E8DFD3', borderRadius: 12, padding: 20, background: '#fff' }}>
+                    <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
+                      {c.imageUrl && (
+                        <img src={c.imageUrl} alt={c.name} style={{ width: 110, height: 88, objectFit: 'contain', flex: '0 0 auto' }} />
+                      )}
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        <p style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#D1803E', margin: '0 0 4px' }}>
+                          {idx === 0 ? 'Best fit' : `Match ${idx + 1}`}
+                        </p>
+                        <p style={{ fontSize: 19, fontWeight: 700, color: '#1C2331', margin: '0 0 4px', fontFamily: 'Noto Serif, Georgia, serif' }}>{c.name}</p>
+                        {cat && <p style={{ fontSize: 13, color: '#6B6B65', margin: 0 }}>{priceBand(cat).label}: {priceBand(cat).range}</p>}
+                      </div>
+                    </div>
+                    {body && (
+                      <p style={{ fontSize: 15, color: '#3A3A36', lineHeight: 1.65, margin: '14px 0 0', whiteSpace: 'pre-line' }}>{body}</p>
+                    )}
+                    <div style={{ display: 'flex', gap: 18, flexWrap: 'wrap', marginTop: 16, alignItems: 'center' }}>
+                      {cat && (
+                        <a href={`/chairs/${cat.id}`} style={{ color: '#1C2331', fontWeight: 600, fontSize: 15, textDecoration: 'underline', textUnderlineOffset: 3 }}>
+                          Read the full review
+                        </a>
+                      )}
+                      {shopUrl && (
+                        <a
+                          href={shopUrl}
+                          target="_blank"
+                          rel="sponsored noopener"
+                          onClick={() => { if (cat) affiliateClick({ chairSlug: cat.id, chairName: cat.name, brand: cat.brand, retailer: cat.affiliateRetailer ?? '', linkText: 'Check price' }) }}
+                          style={{ background: '#C04832', color: '#fff', borderRadius: 10, padding: '11px 22px', fontSize: 15, fontWeight: 600, textDecoration: 'none' }}
+                        >
+                          Check price
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                )
+              })}
             </div>
-          )}
+          ) : rawFallback ? (
+            <p style={{ fontSize: 16, color: '#3A3A36', lineHeight: 1.7, whiteSpace: 'pre-line', marginBottom: 36 }}>{stripPriceSentences(rawFallback)}</p>
+          ) : null}
+
+          {/* Optional: email the list */}
+          <div style={{ background: '#F5F1EB', borderRadius: 12, padding: 20, marginBottom: 32 }}>
+            {!emailSent ? (
+              <>
+                <p style={{ fontSize: 17, fontWeight: 700, color: '#1C2331', margin: '0 0 6px' }}>Want this list in your inbox?</p>
+                <p style={{ fontSize: 14, color: '#6B6B65', margin: '0 0 14px' }}>We will send your matches with the reasoning so you can come back to them while you compare.</p>
+                <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 8 }}>
+                  <input
+                    type="email"
+                    value={emailInput}
+                    onChange={(e) => setEmailInput(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') { e.preventDefault(); handleSendResults() }
+                    }}
+                    placeholder="Your email address"
+                    style={{
+                      flex: 1, minWidth: 220, border: '1.5px solid #D4CFC9', borderRadius: 10,
+                      padding: '13px 16px', fontSize: 16, fontFamily: 'inherit',
+                      color: '#1C2331', background: '#fff', outline: 'none',
+                    }}
+                  />
+                  <button
+                    onClick={handleSendResults}
+                    disabled={emailSending || !emailInput.trim()}
+                    style={{
+                      background: '#1C2331', color: '#fff', border: 'none', borderRadius: 10,
+                      padding: '13px 24px', fontSize: 15, fontWeight: 600, cursor: 'pointer',
+                      fontFamily: 'inherit', whiteSpace: 'nowrap',
+                      opacity: emailSending || !emailInput.trim() ? 0.6 : 1,
+                    }}
+                  >
+                    {emailSending ? 'Sending...' : 'Email My Matches'}
+                  </button>
+                </div>
+                <p style={{ fontSize: 12, color: '#9B9B95', margin: 0 }}>
+                  By submitting, you agree to receive email from Massage Chair Finder. Unsubscribe anytime.
+                </p>
+              </>
+            ) : (
+              <p style={{ fontSize: 16, color: '#1C2331', fontWeight: 600, margin: 0 }}>
+                Sent. Check your inbox for your matches.
+              </p>
+            )}
+          </div>
+
+          <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#D1803E', marginBottom: 16 }}>
+            Your criteria
+          </p>
+          <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: 32 }}>
+            <tbody>
+              {[
+                { key: 'pain',     label: 'Pain area' },
+                { key: 'goal',     label: 'Goal' },
+                { key: 'height',   label: 'Height' },
+                { key: 'weight',   label: 'Weight' },
+                { key: 'pressure', label: 'Pressure preference' },
+                { key: 'budget',   label: 'Budget' },
+                { key: 'room',     label: 'Room space' },
+                { key: 'timeline', label: 'Timeline' },
+              ].filter(row => quizAnswers[row.key]).map((row) => (
+                <tr key={row.key}>
+                  <td style={{ fontSize: 14, color: '#6B6B65', padding: '9px 0', borderBottom: '0.5px solid #E8DFD3', width: '44%' }}>{row.label}</td>
+                  <td style={{ fontSize: 14, color: '#1C2331', fontWeight: 500, padding: '9px 0', borderBottom: '0.5px solid #E8DFD3' }}>{quizAnswers[row.key]}</td>
+                </tr>
+              ))}
+              {quizFeatures.length > 0 && (
+                <tr>
+                  <td style={{ fontSize: 14, color: '#6B6B65', padding: '9px 0' }}>Features requested</td>
+                  <td style={{ fontSize: 14, color: '#1C2331', fontWeight: 500, padding: '9px 0' }}>
+                    {quizFeatures.map(f => f.split(' ').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')).join(', ')}
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+
+          <button onClick={restart} style={{ background: 'none', border: 'none', color: '#B0ACA7', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', textDecoration: 'underline', textUnderlineOffset: 2, padding: 0 }}>
+            Start over with different answers
+          </button>
         </div>
       )}
           <TurnstileWidget

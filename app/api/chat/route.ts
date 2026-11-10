@@ -108,6 +108,8 @@ Tag outputs:
 - Full body: pain:full-body + prefer track:sl-track
 - General tension: pain:general-tension + no track requirement
 
+After the buyer picks any Q1 option, or names a pain area in their own words, accept it as their final answer. Do NOT ask a follow-up, clarification, or confirmation about pain location, even when the chosen option names several areas (for example "Lower back, hips, and glutes" means all three). Your very next message is Q3 with its options tag.
+
 ### Q3: GOAL
 
 Ask: "What matters most to you about having a massage chair at home?"
