@@ -325,6 +325,8 @@ export default function ChairFinder() {
   const turnstileTokenRef = useRef<string>("")
   const turnstileWidgetRef = useRef<TurnstileHandle>(null)
   const turnCountRef = useRef(0)
+  // Conversation sent with every request so a new serverless instance never loses it.
+  const historyRef = useRef<Array<{ role: 'user' | 'assistant'; content: string }>>([])
   const textInputRef = useRef<HTMLInputElement>(null)
 
   const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -334,7 +336,7 @@ export default function ChairFinder() {
     const resp = await fetch('/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ sessionId: sessionIdRef.current, message, mode: 'finder', website: "" }),
+      body: JSON.stringify({ sessionId: sessionIdRef.current, message, mode: 'finder', website: "", history: historyRef.current }),
     })
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
 
@@ -371,6 +373,11 @@ export default function ChairFinder() {
     if (streamError || !accumulated.trim()) {
       throw new Error(streamError || 'Empty response from /api/chat')
     }
+    historyRef.current = [
+      ...historyRef.current,
+      { role: 'user', content: message },
+      { role: 'assistant', content: accumulated },
+    ]
     return accumulated
   }, [])
 
@@ -489,6 +496,7 @@ export default function ChairFinder() {
   // ─── START ──────────────────────────────────────────────────────────────────
   const startFinder = useCallback(async () => {
     turnCountRef.current = 0
+    historyRef.current = []
     setTurnCount(0)
     setQuizAnswers({})
     setQuizFeatures([])

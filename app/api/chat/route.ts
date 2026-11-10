@@ -386,15 +386,33 @@ function selectPrompt(mode: string): string {
   return FINDER_PROMPT // default: finder
 }
 
+function sanitizeHistory(raw: unknown): Array<{ role: string; content: string }> | null {
+  if (!Array.isArray(raw)) return null
+  if (raw.length > 60) return null
+  const out: Array<{ role: string; content: string }> = []
+  for (const m of raw) {
+    if (!m || typeof m !== 'object') return null
+    const { role, content } = m as { role?: unknown; content?: unknown }
+    if ((role !== 'user' && role !== 'assistant') || typeof content !== 'string' || content.length > 6000) return null
+    out.push({ role, content })
+  }
+  // Must alternate user/assistant starting with user, or the API rejects it.
+  for (let i = 0; i < out.length; i++) {
+    if (out[i].role !== (i % 2 === 0 ? 'user' : 'assistant')) return null
+  }
+  return out
+}
+
 // ─── ROUTE HANDLER ─────────────────────────────────────────────────────────────
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json()
-    const { sessionId, message, mode, website } = body as {
+    const { sessionId, message, mode, website, history: clientHistory } = body as {
       sessionId?: string
       message?: string
       mode?: string
       website?: string
+      history?: unknown
     }
 
     // Honeypot: legitimate clients never set this.
@@ -432,7 +450,11 @@ export async function POST(req: NextRequest) {
     }
 
     const systemPrompt = selectPrompt(mode || 'finder')
-    const history = getSession(sessionId)
+    // Prefer the history the client sends. The in-memory Map only survives while
+    // requests land on the same serverless instance; when they did not, the finder
+    // lost the conversation mid-flow and re-asked earlier questions (2026-11-09).
+    const sanitized = sanitizeHistory(clientHistory)
+    const history = sanitized ?? getSession(sessionId)
     const updatedMessages = [
       ...history,
       { role: 'user', content: message },
