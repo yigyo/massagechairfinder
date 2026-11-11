@@ -2742,7 +2742,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'Start here before your first session. The right starting intensity, session length, and positioning make the difference between a chair you use daily and one you stop using after a week.',
     order: 32,
     publishedAt: '2026-05-03',
-    updatedAt: '2026-09-07',
+    updatedAt: '2026-11-11',
     body: `
 <p>Most buyers spend weeks choosing a massage chair and about three minutes learning how to use it. That is backwards. The way you set up your first few sessions shapes whether the chair becomes a daily habit or a piece of furniture you feel vaguely guilty about.</p>
 
@@ -2805,6 +2805,16 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>Use auto programs for the first two weeks. The pre-set programs are calibrated to move through different zones in a sequence that works well for most bodies. They also prevent you from spending 20 minutes massaging only your shoulders because that is what you noticed first.</p>
 
 <p>Once you understand how the chair moves and which zones respond best, start exploring manual mode. Manual mode lets you target a specific area, hold on a tight spot, and control every variable. It takes longer to learn but produces better results for targeted pain relief.</p>
+
+<h2>Why Does My Massage Chair Stop After 15 Minutes?</h2>
+
+<p>Because the program ended, not because the chair failed. Most auto programs run a fixed cycle, commonly 15 to 20 minutes depending on the model, and when the cycle finishes the chair stops the rollers, deflates the airbags, and usually returns to upright on its own. That auto-off is deliberate. It keeps a session in the range where mechanical massage relieves muscle rather than overworks it, and it stops the motors from running indefinitely if you walk away or doze off.</p>
+
+<p>If you want a longer session, you have three options. First, look for a timer or time setting on the remote. Many chairs let you set session length, often in 5-minute steps, before or during a program, and some tuck it into a settings menu instead of a dedicated button; the owner's manual lists the range your model allows. Second, start a second program when the first one ends. Two different programs back to back cover more ground than one program repeated. Third, switch to manual mode, which on many chairs runs to the time you set rather than a preset sequence. Some models cap session length by design, and on those no setting will extend it. That cap is a design choice, not a defect.</p>
+
+<p>A chair that stops well before its program should end is a different problem. The usual causes are motors tripping their thermal protection after several long sessions in a row, a loose plug or an overloaded power strip, and a body scan that did not complete because you shifted or sat forward while it ran. Let the chair rest for 30 minutes, plug it straight into a wall outlet, and restart while sitting all the way back. If it keeps cutting out early or shows an error code, treat it as a fault and start with the <a href="/learn/massage-chair-repair-guide">massage chair repair guide</a> before you call the warranty line.</p>
+
+<p>One caution before you chase longer sessions: the auto-off timer is a convenience, not a safety system. If you tend to fall asleep in the chair, keep it to a single program at moderate intensity and know where the power switch is, as covered in <a href="/learn/are-massage-chairs-safe">are massage chairs safe</a>. Longer is rarely better anyway. A daily 20-minute session does more than an occasional hour, which is the same point the session-length section above makes.</p>
 
 <h2>Making Sense of the Remote and Programs</h2>
 
@@ -2918,6 +2928,9 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h3>Why does my back feel bruised after using a massage chair?</h3>
 <p>A bruised feeling, and especially visible marks, means the roller depth or airbag pressure is beyond what your tissue can take, not that your back is adapting. Drop the depth to minimum and the session to 10 minutes. If you take blood thinners or have osteoporosis, stop and check with your doctor before the next session, since both raise bruising risk from mechanical massage.</p>
+
+<h3>Can I make my massage chair run longer than 15 minutes?</h3>
+<p>Usually, yes. Look for a timer or time setting on the remote, which on many chairs adjusts session length in 5-minute steps, or start a second program when the first one ends. Some models cap session length by design and cannot be extended. If the chair stops partway through a program instead of at the end, that points to overheating protection, a power problem, or a fault rather than the timer.</p>
 
 <h3>Is it normal for a massage chair to hurt even at the lowest setting?</h3>
 <p>For the first week or two, sometimes, particularly on a 3D or 4D chair whose lowest depth is still firm. A folded towel between your back and the backrest takes the edge off while your muscles adapt. If the chair still hurts at its gentlest settings after two weeks of short daily sessions, it is stronger than your pressure tolerance and you should use the return window rather than keep pushing.</p>
