@@ -852,7 +852,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
-    goodwinStatus: 'none',
+    goodwinStatus: 'affiliate',  // 2026-11-11: tagged amazonUrl is the live channel, earns today per the scoring.ts invariant
     affiliateUrl: 'https://massagechairstore.com/kyota-genki-m380-massage-chair/',
     amazonUrl: 'https://www.amazon.com/dp/B08T4BXGP3/?tag=massagechairf-20',
     amazonAsin: 'B08T4BXGP3',  // 2026-10-20 browser check: buy box $2,799 (List $4,999), title/model confirmed correct, stable vs. 2026-10-18. 2026-09-20: buy box $2,999. History: no buy box 08-16 and 09-06; if it disappears again drop amazonUrl per the no-buy-box rule.
