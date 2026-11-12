@@ -1,7 +1,7 @@
 {
   "articles": {
-    "hash": "95243e5c7c80caaf",
-    "revised": "2026-11-09"
+    "hash": "8d8ff4fb74a17f59",
+    "revised": "2026-11-12"
   },
   "best": {
     "hash": "ca3090bfced36d56",
@@ -12,15 +12,15 @@
     "revised": "2026-11-04"
   },
   "chairs": {
-    "hash": "8ac00f80f5df2c40",
-    "revised": "2026-11-09"
+    "hash": "4596493c54502d71",
+    "revised": "2026-11-12"
   },
   "compare": {
     "hash": "bc6f811a0fa7b8b0",
     "revised": "2026-11-09"
   },
   "core": {
-    "hash": "0a700c5c76e0590c",
-    "revised": "2026-11-04"
+    "hash": "98c9f6f88dde449e",
+    "revised": "2026-11-12"
   }
 }
