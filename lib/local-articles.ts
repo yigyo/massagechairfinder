@@ -690,7 +690,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'Most massage chairs are built for a specific range of bodies. Here is how to find out whether a chair will actually fit you, before you spend several thousand dollars and find out it will not.',
     order: 4,
     publishedAt: '2026-04-27',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-11-13',
     body: `<p>Most massage chair descriptions list a height range somewhere in the specs. Most buyers glance at it, confirm they are vaguely within the numbers, and move on. This is a mistake.</p>
 
 <p>The height spec is not a suggestion. It describes the physical range the chair's roller track was engineered to travel. A buyer who is two inches outside that range does not get a slightly off massage. They get a roller that misses their neck, or one that presses into their lower back at the wrong angle. A chair that fits is transformative. A chair that does not fit gets used twice and then becomes an expensive end table.</p>
@@ -813,6 +813,31 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>The most common proportion-related fit issue is leg length. Most massage chairs include an automatic or manual footrest extension to adjust for leg length. Buyers with longer legs relative to their height benefit from chairs with a wider extension range. Buyers with shorter legs may find that even at minimum extension, the footrest angle puts pressure on the wrong part of the calf.</p>
 
+<h3>Spring-loaded vs powered leg extension: the fit detail a spec sheet hides</h3>
+
+<p><strong>A powered leg extension holds its own position; a spring-loaded one only extends as far as your legs push it, and holding it there takes steady force from your calves and feet.</strong> For a buyer whose legs need the footrest at or near full extension, that difference decides whether the calf and foot massage works properly.</p>
+
+<p>Both mechanisms appear on listings as an "extendable footrest," so the distinction is easy to miss. They work differently:</p>
+
+<ul>
+<li><strong>Spring-loaded (manual).</strong> The leg rest slides out when you press down and outward with your feet, and a spring pulls it back toward the seat. There is no motor and usually no lock. It stays where your legs hold it.</li>
+<li><strong>Powered (automatic).</strong> A motor drives the leg rest out, either from a button on the remote or automatically during the body scan. Once it reaches its position it stays there without any effort from you.</li>
+</ul>
+
+<h4>Why it matters most for tall buyers</h4>
+
+<p>A spring-loaded leg rest works well when the extension you need is short. The spring is barely loaded and your legs rest naturally. The trouble starts when you need most or all of the travel. At that point the spring is pulling back hard, and the only thing holding the leg rest out is you pressing against it. Owners describe two consequences. The calf airbags and rollers press against muscles that are already tensed to hold the leg rest out, so the calf massage feels weaker and less relaxing than it should. And when attention drifts, the leg rest creeps back, which moves the foot rollers off the soles and onto the heels or arches.</p>
+
+<p>This shows up clearly in owner reviews. In one recent batch of warehouse-club reviews for a spring-loaded chair, half the reviewers mentioned holding the extension out with leg force. That is not a defect. The chair does what a spring-loaded design does. It is a fit mismatch between the mechanism and the buyer's leg length, and it only becomes visible after a few full sessions.</p>
+
+<h4>What the catalog shows</h4>
+
+<p>Several chairs in our catalog list a spring-loaded extendable footrest: the <a href="/chairs/titan-ti-h7">Titan Ti-H7</a> and <a href="/chairs/titan-telos">Titan Telos</a> (both Under $3,000) and the <a href="/chairs/titan-4d-ion">Titan 4D ION (RT5653)</a> ($3,000-$4,999). Powered extension is available lower than many buyers expect: the <a href="/chairs/titan-ti-reflex-3d">Titan TI Reflex 3D</a> (Under $3,000) lists an automatic extendable footrest, the <a href="/chairs/titan-pro-4d-endor">Titan Pro 4D Endor</a> ($3,000-$4,999) lists automatic foot extension, and the <a href="/chairs/osaki-os-highpointe-4d">Osaki OS-Highpointe 4D</a> ($3,000-$4,999) lists an 8-inch automatic legrest extension.</p>
+
+<h4>How to tell which one a chair has</h4>
+
+<p>Read the listing wording closely. "Spring-loaded" or "manual" means you hold it. "Automatic," "auto-extending," or "powered" means a motor does. If the listing only says "extendable footrest," ask the retailer two questions: does the leg rest extend from the remote, and does it stay in place on its own once extended? If you are over six feet or your height is mostly in your legs, treat a powered extension as a requirement rather than a nice extra. The <a href="/finder">chair finder</a> asks for your height so the shortlist starts from chairs whose stated range fits you.</p>
+
 <p>A few practical notes on proportions:</p>
 
 <p>If you have lower back pain that radiates into your hips and glutes, body fit interacts with track type in a specific way. An SL-track chair (which extends the roller path under the glutes) needs to be long enough to actually reach your gluteus muscles. A buyer who is 5'3" with a compact torso may find that an SL-track chair reaches their glutes fine. A buyer who is 5'11" with a long torso may find the same chair's roller track ends at their lower lumbar. If glute massage is part of what you need, confirm the track length in inches before purchasing.</p>
@@ -868,6 +893,9 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h3>Does a higher weight capacity mean a wider seat?</h3>
 <p>No. Weight capacity is a structural load rating for the frame, rails and recline motors. It is not a measurement of the space between the side panels, and chairs with the same rating can seat very differently. If width is your concern, ask for the interior seat width and the shoulder airbag opening as separate numbers rather than using the capacity figure as a proxy for room.</p>
+
+<h3>Is a spring-loaded leg extension a problem if I am tall?</h3>
+<p>It can be. A spring-loaded leg rest stays extended only while your legs push against it, so at or near full extension you are holding steady pressure through the whole session. That tenses the calves the chair is trying to massage and lets the foot rollers drift off position. If you need most of the extension range, choose a chair whose listing says the footrest extends automatically or by motor.</p>
 `,
   },
 
