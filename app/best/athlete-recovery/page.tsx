@@ -6,8 +6,8 @@ import { pageOpenGraph } from '@/lib/seo'
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/athlete-recovery" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/athlete-recovery"),
-  title: "Best Massage Chairs for Athletes and Sports Recovery (2026)",
-  description: "The best massage chairs for sports recovery combine SL-track or L-track roller coverage with serious leg compression, 4D roller depth control, and stretch programs. Six picks verified for post-training use across price ranges.",
+  title: "6 Best Massage Chairs for Sports Recovery (2026)",
+  description: "Sports recovery chairs need SL-track or L-track coverage, deep leg compression, and stretch programs. These 6 picks are verified for post-training use.",
 }
 
 const PICK_IDS = [

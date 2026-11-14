@@ -6,8 +6,8 @@ import { pageOpenGraph } from '@/lib/seo'
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/under-10000" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/under-10000"),
-  title: "Best Massage Chairs Under $10,000 (2026)",
-  description: "The $7,000 to $10,000 tier is where 4D roller quality peaks before diminishing returns set in. Six chairs verified for this price range, from L-track picks for lower back pain to SL-track options for full-spine coverage.",
+  title: "Best Massage Chairs Under $10,000 (2026): 6 Picks",
+  description: "The $7,000-$10,000 tier is where 4D roller quality peaks. These 6 chairs span L-track picks for back pain to SL-track for full-spine coverage.",
 }
 
 const PICK_IDS = [
