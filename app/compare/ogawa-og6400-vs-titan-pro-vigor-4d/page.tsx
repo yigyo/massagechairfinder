@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/ogawa-og6400-vs-titan-pro-vigor-4d" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/ogawa-og6400-vs-titan-pro-vigor-4d"),
   title: "Ogawa Active XL Duo vs Titan Pro-Vigor 4D",
-  description: 'The Ogawa OG-6400 and Titan Pro-Vigor 4D now land in the same upper-mid price tier. The Ogawa adds a 320 lb verified capacity and 11-inch wall clearance. The Titan Pro-Vigor 4D adds heated rollers and a 4D roller system. Here is how to choose.',
+  description: 'The Ogawa OG-6400 (after a 2026-11-15 price drop) and Titan Pro-Vigor 4D are no longer in the same price tier: the OG-6400 is now the cheaper, mid-tier pick. The Ogawa adds a 320 lb verified capacity and 11-inch wall clearance. The Titan Pro-Vigor 4D adds heated rollers and a 4D roller system. Here is how to choose.',
 }
 
 export default function ComparePage() {
@@ -52,7 +52,7 @@ export default function ComparePage() {
 
       <h1 className="text-4xl font-serif mb-3">Ogawa Active XL Duo 3D vs Titan Pro-Vigor 4D</h1>
       <p className="text-warm-gray mb-8 max-w-2xl">
-        The Ogawa OG-6400 and the Titan Pro-Vigor 4D now land in the same upper-mid price tier. The Ogawa handles significantly more weight: 320 lbs verified plus-size versus 260 lbs. The Pro-Vigor 4D adds heated rollers and a 4D roller system for more nuanced pressure control. The decision comes down to body fit versus roller technology.
+        The Ogawa OG-6400 dropped into the mid price tier on 2026-11-15 and is no longer in the same band as the Titan Pro-Vigor 4D, which remains upper-mid. The Ogawa handles significantly more weight: 320 lbs verified plus-size versus 260 lbs. The Pro-Vigor 4D adds heated rollers and a 4D roller system for more nuanced pressure control. The decision comes down to body fit versus roller technology.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-10">
@@ -106,7 +106,7 @@ export default function ComparePage() {
           </thead>
           <tbody>
             {[
-              ['Price band', '$5,000-$7,999', '$5,000-$7,999'],
+              ['Price band', '$3,000-$4,999', '$5,000-$7,999'],
               ['Track', 'SL-track', 'SL-track'],
               ['Roller', '3D (dual system)', '4D'],
               ['Weight Capacity', '320 lbs', '260 lbs'],

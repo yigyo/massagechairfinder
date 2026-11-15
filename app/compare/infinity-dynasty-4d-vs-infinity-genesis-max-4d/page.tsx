@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/infinity-dynasty-4d-vs-infinity-genesis-max-4d" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/infinity-dynasty-4d-vs-infinity-genesis-max-4d"),
   title: "Infinity Dynasty 4D vs Genesis Max 4D, Which Is Right for You?",
-  description: 'The Infinity Dynasty 4D and Genesis Max 4D share the same L-track and 4D roller and now sit in the same premium tier. The Genesis Max is the lower-priced pick and adds confirmed stretch programs; the Dynasty costs more but has confirmed petite and plus-size fit data.',
+  description: 'The Infinity Dynasty 4D and Genesis Max 4D share the same L-track and 4D roller, but after a 2026-11-15 Black Friday price drop the Dynasty is now the far cheaper, mid-tier pick while the Genesis Max remains in the premium tier. The Genesis Max adds confirmed stretch programs; the Dynasty has confirmed petite and plus-size fit data.',
 }
 
 export default function DynastyVsGenesisMaxPage() {
@@ -55,7 +55,7 @@ export default function DynastyVsGenesisMaxPage() {
       <p className="text-warm-gray text-lg mb-8">
         Both chairs come from Infinity and both use a 49-inch L-track with a 4D roller. On paper
         they look nearly identical, and after a 2026-09 price change they now sit in the same
-        premium tier ($8,000-$11,999), and the Genesis Max is now the lower-priced of the two.
+        premium tier ($8,000-$11,999). The Dynasty dropped to the mid tier ($3,000-$4,999) on a 2026-11-15 Black Friday promo and is now by far the cheaper of the two, though expect this to revert after Black Friday; recheck pricing before relying on this comparison.
         The Dynasty still carries confirmed petite and plus-size fit data the Genesis Max does not
         publish. Which one fits your situation is the question this page answers.
       </p>
@@ -113,7 +113,7 @@ export default function DynastyVsGenesisMaxPage() {
           </thead>
           <tbody>
             {[
-              ['Price band', '$8,000-$11,999', '$8,000-$11,999'],
+              ['Price band', '$3,000-$4,999', '$8,000-$11,999'],
               ['Track type', 'L-track', 'L-track'],
               ['Track length', '49 inches', '49 inches'],
               ['Roller type', '4D', '4D'],

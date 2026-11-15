@@ -25,7 +25,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'panasonic-maf1': {
     label: 'Best S-track for neck and upper-back focus',
-    why: "The Panasonic MAF1 is the S-track specialist recommendation in this range, priced a tier above this page's ceiling. S-track focuses the entire roller path on the cervical spine and thoracic vertebrae, which is the right design when pain is concentrated in the neck and upper back with no lower-back involvement. 4D rollers, infrared-heated massage heads, confirmed 4'8\" to 6'2\" and 264 lbs, space-saving recline. Note: no zero gravity. Panasonic's engineering prioritizes roller precision over recline positions.",
+    why: "The Panasonic MAF1 is the S-track specialist recommendation in this range, now priced within this page's range after a 2026-11-15 price drop to $4,799. S-track focuses the entire roller path on the cervical spine and thoracic vertebrae, which is the right design when pain is concentrated in the neck and upper back with no lower-back involvement. 4D rollers, infrared-heated massage heads, confirmed 4'8\" to 6'2\" and 264 lbs, space-saving recline. Note: no zero gravity. Panasonic's engineering prioritizes roller precision over recline positions.",
   },
   'amamedics-hilux-4d': {
     label: 'Best SL-track 4D, widest body fit',

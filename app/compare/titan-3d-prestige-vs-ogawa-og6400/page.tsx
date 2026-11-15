@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/compare/titan-3d-prestige-vs-ogawa-og6400" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/compare/titan-3d-prestige-vs-ogawa-og6400"),
   title: 'Titan 3D Prestige vs Ogawa OG-6400: SL-Track 3D',
-  description: 'Two SL-track 3D chairs priced within $200 of each other, though the OG-6400 recently crossed into the next band up. The Titan reclines within an inch of the wall; the OG-6400 carries a 320 lb rating and a dual roller system. Here is the full comparison.',
+  description: 'Two SL-track 3D chairs now in the same $3,000-$4,999 band after a 2026-11-15 price drop brought the OG-6400 back down. The Titan reclines within an inch of the wall; the OG-6400 carries a 320 lb rating and a dual roller system. Here is the full comparison.',
 }
 
 export default function Titan3dPrestigeVsOg6400Page() {
@@ -53,7 +53,7 @@ export default function Titan3dPrestigeVsOg6400Page() {
       </h1>
 
       <p className="text-warm-gray text-lg mb-8">
-        These two land within about two hundred dollars of each other, though the OG-6400 recently crossed into the next price band up, and both are SL-track 3D chairs with zero gravity and heat. The real split is physical: the Titan is one of the tightest space-savers in its class, while the OG-6400 trades wall clearance for a higher weight rating and a dual roller system. Here is what separates them.
+        These two are now in the same price band after the OG-6400's 2026-11-15 price drop brought it back down to $3,000-$4,999, and both are SL-track 3D chairs with zero gravity and heat. The real split is physical: the Titan is one of the tightest space-savers in its class, while the OG-6400 trades wall clearance for a higher weight rating and a dual roller system. Here is what separates them.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-10">
@@ -92,7 +92,7 @@ export default function Titan3dPrestigeVsOg6400Page() {
           </thead>
           <tbody>
             {[
-              ['Price band', '$3,000-$4,999', '$5,000-$7,999'],
+              ['Price band', '$3,000-$4,999', '$3,000-$4,999'],
               ['Track', 'SL-track', 'SL-track'],
               ['Roller', '3D', 'Dual 3D and 2D'],
               ['Heat', 'Yes', 'Yes'],

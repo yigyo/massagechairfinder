@@ -377,7 +377,7 @@ export const CHAIRS: Chair[] = [
     active: true, goodwinActive: true, mcfActive: true,
   reviewRating: 5.0,
   reviewCount: 4,
-    priceMin: 5999,  // 2026-10-06: APPLIED per user confirmation -- massagechairstore.com verified at $5,999.00 sale price, page explicitly labels $11,999 as "Originally" (not a misread). Overrides the 25% guardrail hold on explicit user sign-off. Band moves premium ($8,000-$11,999) -> upper-mid (<$8,000); checked /best/*, compare pages, nav-data, local-brands, local-articles and chat route for inada-robo/infinity-dynasty-4d references -- none found referencing this chair by price band, so no propagation needed. History: $11,999 itself was only applied 2026-09-27 after two consecutive confirmations (09-20, 09-27); the 2026-08-16 promo price ($3,999) was a different, temporary 'while supplies last' discount, not this standing sale price.
+    priceMin: 3599,  // 2026-11-15 weekly audit: massagechairstore.com (resolved channel, direct) confirmed live price $3,599 ('Early Black Friday Deal'; page's own $11,999 'original' also != old catalog value so not just promo-vs-list), was 5999 (-40%), crossed upper-mid -> mid band -- likely reverts after Black Friday, re-check next audit. History: see prior comment chain for earlier moves (3999 promo -> 11999 -> 5999 -> now 3599).
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -442,7 +442,7 @@ export const CHAIRS: Chair[] = [
     name: 'Infinity Genesis Max 4D',
     brand: 'Infinity',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 8699,  // 2026-11-09: massagechairstore.com buy box $8,699 (list $11,999), down from catalog $9,299 (-6.45%, >5% threshold) -- updated. Same price band (upper-mid/premium boundary unaffected: 8000-11999). Previously verified 2026-04-27 at $9,299.
+    priceMin: 9299,  // 2026-11-15 weekly audit: massagechairstore.com (resolved channel, direct) confirmed live price $9,299 ('originally $12,999'), was 8699 (+6.9%), same band. Price has flip-flopped between 8699 and 9299 across recent audits -- worth a closer look if it keeps oscillating.
     affiliateTier: 'A',
     affiliateRetailer: 'massagechairstore.com',
     affiliateCommission: '5-10% (Impact)',
@@ -1220,7 +1220,7 @@ export const CHAIRS: Chair[] = [
     name: 'Panasonic MAF1',
     brand: 'Panasonic',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 5999,  // verified 2026-05-01 from primemassagechairs.com
+    priceMin: 4799,  // 2026-11-15 weekly audit: primemassagechairs.com (resolved channel, direct) confirmed live sale price $4,799 (page's own 'original' $6,999 also != old catalog value), was 5999 (-20%), crossed upper-mid -> mid band
     affiliateTier: 'A',
     affiliateRetailer: 'primemassagechairs.com',
     affiliateCommission: 'Prime Massage Chairs referral program',
@@ -1759,7 +1759,8 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.wishrockrelaxation.com/products/kahuna-dios-7300-7d-massage-chair?aff=47',
-    amazonAsin: 'B0F4FP5JHW',  // 2026-10-18: WRONG PRODUCT -- ASIN now resolves to an unrelated Culanta-brand chair. amazonUrl dropped. Primary wishrockrelaxation.com (APPROVED_DIRECT) unaffected and confirmed in stock.
+    amazonAsin: 'B0F4FP5JHW',
+    amazonUrl: 'https://www.amazon.com/dp/B0F4FP5JHW/?tag=massagechairf-20',  // 2026-11-15 weekly audit: RE-VERIFIED CORRECT -- ASIN now resolves to 'Kahuna SM7300' (Dios-line, 'Visit the Dios Store'), title/brand match confirmed, buy box live at $9,499, in stock. The 2026-10-18 wrong-product finding appears to have been a resolved ASIN hijack. Primary wishrockrelaxation.com (APPROVED_DIRECT) remains the resolved buyer link either way, at $8,999 -- no priceMin change.
     imageUrl: '/images/chairs/kahuna-dios-7300-7d.jpg',
     track: 'SL', roller: '7D',
     zeroGravity: true, heat: true, foot: true, calf: true, aiScanning: true,
@@ -1936,7 +1937,7 @@ export const CHAIRS: Chair[] = [
     brand: 'Ogawa',
     active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 merged duplicate Goodwin shadow
     goodwinLookupKey: 'ogawa active xl duo 3d+2d',
-    priceMin: 5199,  // wishrockrelaxation.com verified 2026-10-18: buy box $5,199.99 (was 4799, +8.3%). Crossed mid -> upper-mid band.
+    priceMin: 3499,  // 2026-11-15 weekly audit: wishrockrelaxation.com (resolved channel, APPROVED_DIRECT) confirmed live price $3,499.99, sale -- page's own 'original' price is $5,899.99 (also != old catalog value), was 5199 (-32.7%), crossed upper-mid -> mid band
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -2184,7 +2185,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://relaxonchair.com/products/mk-v-plus-full-body-massage-chair-black?ref=gxoncaks',
-    amazonAsin: 'B07FYRRZGR',  // 2026-10-18: WRONG PRODUCT -- ASIN now resolves to an unrelated HealthRelife-brand chair. amazonUrl dropped. Primary relaxonchair.com (APPROVED_DIRECT) unaffected and confirmed in stock.
+    amazonAsin: 'B07FYRRZGR',
+    amazonUrl: 'https://www.amazon.com/dp/B07FYRRZGR/?tag=massagechairf-20',  // 2026-11-15 weekly audit: RE-VERIFIED CORRECT -- ASIN now resolves to 'RELAXONCHAIR [MK-V Plus...]', title/brand match confirmed, buy box live at $2,499, in stock ('Only 6 left'). The 2026-10-18 wrong-product finding appears to have been a resolved ASIN hijack. Primary relaxonchair.com (APPROVED_DIRECT) remains the resolved buyer link either way -- no priceMin change.
     imageUrl: '/images/chairs/relax-on-chair-mk-v-plus.jpg',
     track: 'L', roller: null,
     spaceSaving: true, wallClearanceIn: 3.5,
@@ -2249,7 +2251,8 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://www.relaxonchair.com/products/yukon-4d-full-body-massage-chair?ref=gxoncaks',
-    amazonAsin: 'B08X8Y3PX7',  // 2026-10-18: WRONG PRODUCT -- ASIN now resolves to an unrelated KTENTITO-brand chair. amazonUrl dropped. Primary relaxonchair.com (APPROVED_DIRECT) unaffected and confirmed in stock.
+    amazonAsin: 'B08X8Y3PX7',
+    amazonUrl: 'https://www.amazon.com/dp/B08X8Y3PX7/?tag=massagechairf-20',  // 2026-11-15 weekly audit: RE-VERIFIED CORRECT -- ASIN now resolves to 'RELAXONCHAIR [YUKON-4D...]', title/brand match confirmed, buy box live at $6,499, in stock. The 2026-10-18 wrong-product finding appears to have been a resolved ASIN hijack. Primary relaxonchair.com (APPROVED_DIRECT) remains the resolved buyer link either way -- no priceMin change.
     imageUrl: '/images/chairs/relax-on-chair-yukon-4d.jpg',
     track: 'SL', roller: '4D',  // 2026-10-18: relaxonchair.com now markets this as "J-Track" (not in our Track enum); keeping SL pending a human spec review.
     zeroGravity: true, heat: true,
@@ -2631,7 +2634,7 @@ export const CHAIRS: Chair[] = [
     name: 'Svago ZGR',
     brand: 'Svago',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 1999,  // 2026-10-18: amazonUrl is the resolved channel (gameroomempire.com is not in APPROVED_DIRECT). Amazon buy box $1,999 (was 2199, -9.1%). Listing title shows as "ZGR Plus SV-395" -- re-confirm same SKU next audit. 2026-11-09: gameroomempire.com direct price now $2,199.99, but that is NOT the resolved channel -- Amazon access blocked this audit (see report), so left unchanged pending re-verification.
+    priceMin: 2299,  // 2026-11-15 weekly audit: CORRECTION -- gameroomempire.com IS in APPROVED_DIRECT (prior comments assumed otherwise, which was stale), so it (via massagechairwarehouse.com) is the actual resolved channel, not Amazon. Confirmed live price $2,299.99 there, was 1999 (+15%), same entry band. Amazon buy box separately re-confirmed at $1,999 (informational only, not the resolved link since gameroomempire.com IS approved-direct).
     affiliateTier: 'A',
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'gameroomempire.com',
@@ -2711,7 +2714,7 @@ export const CHAIRS: Chair[] = [
     name: 'OHCO M.8 NEO',
     brand: 'OHCO',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 14999,
+    priceMin: 16999,  // 2026-11-15 weekly audit: johnsonfitness.com (resolved channel, direct) confirmed live price $16,999, was 14999 (+13.3%), same ultra-premium band
     affiliateTier: null,
     goodwinStatus: 'none',
     affiliateRetailer: 'johnsonfitness.com',
@@ -2858,7 +2861,7 @@ export const CHAIRS: Chair[] = [
     name: 'Culanta SL-Track Shiatsu',
     brand: 'Culanta',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1199,  // amazon.com verified 2026-10-18: buy box $1,199.99 (was 999, +20.1%). Same band (entry, under $3,000).
+    priceMin: 999,  // 2026-11-15 weekly audit: Amazon (resolved channel) confirmed live buy-box price $999.98 ('Limited time deal', list $1,199.99), was 1199 (-16.6%), same entry band. Price has flip-flopped between ~999 and ~1199 across recent audits.
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -3353,7 +3356,7 @@ export const CHAIRS: Chair[] = [
     goodwinActive: false,
     mcfActive: true,
     inStock: true,
-    priceMin: 1399,
+    priceMin: 799,  // 2026-11-15 weekly audit: osakiusa.com (resolved channel, direct) confirmed live price $799, was 1399 (-42.9%), same entry band
     affiliateTier: 'A',
     affiliateRetailer: 'osakiusa.com',
     goodwinStatus: 'none',
@@ -3505,7 +3508,7 @@ export const CHAIRS: Chair[] = [
     goodwinActive: false,
     mcfActive: true,
     inStock: true,
-    priceMin: 4499,  // 2026-10-25 audit: osakiusa.com live price $4499 (was $3499, +28.6%); double-checked via direct re-fetch of buy-box, promo appears to have ended.
+    priceMin: 2999,  // 2026-11-15 weekly audit: osakiusa.com (resolved channel, direct) confirmed live price $2,999, was 4499 (-33.3%), crossed mid -> entry band. Prior history: 2026-10-25 was $4,499 (up from $3,499) -- price has been fluctuating, re-check next audit.
     affiliateTier: 'A',
     affiliateRetailer: 'osakiusa.com',
     goodwinStatus: 'none',
@@ -3526,7 +3529,7 @@ export const CHAIRS: Chair[] = [
     goodwinActive: false,
     mcfActive: true,
     inStock: true,
-    priceMin: 3499,
+    priceMin: 3299,  // 2026-11-15 weekly audit: osakiusa.com (resolved channel, direct) confirmed live price $3,299, was 3499 (-5.7%), same mid band
     affiliateTier: 'A',
     affiliateRetailer: 'osakiusa.com',
     goodwinStatus: 'none',
