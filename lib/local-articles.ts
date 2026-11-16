@@ -3292,7 +3292,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'Warranty terms for massage chairs vary more than most buyers realize, and the gaps between coverage categories matter when an upper-mid-tier chair breaks in year three. Here is what to look for before you buy.',
     order: 38,
     publishedAt: '2026-05-03',
-    updatedAt: '2026-11-04',
+    updatedAt: '2026-11-16',
     body: `
 <p>A massage chair warranty is not a single thing. Most manufacturers break their coverage into four or five separate categories with different term lengths, and the category that fails most often is typically covered for the shortest period. Understanding the warranty structure before you buy is one of the most practical things you can do when spending several thousand dollars on a piece of furniture you expect to use daily.</p>
 
@@ -3458,6 +3458,19 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>This is why the length of mechanism coverage matters more than the headline warranty number, and why <a href="/learn/how-long-do-massage-chairs-last">how long massage chairs last</a> is worth reading alongside this guide. A 10-year frame warranty is close to meaningless if the roller mechanism is covered for one year and a mechanism replacement in year four costs a meaningful fraction of what you paid for the chair. When you compare two chairs at the same price, compare the mechanism and labor terms, not the biggest number on the page.</p>
 
+<h3>When It Breaks Just After the Warranty Ends</h3>
+
+<p>One story comes up again and again in owner comment threads: a five-year warranty, a chair that fails five years and one month after purchase, and a company that offers nothing. Once the end date passes you have no contractual claim, but you are not always out of options. Four checks are worth making before you pay for the repair yourself.</p>
+
+<ol>
+<li><strong>Confirm when coverage actually started.</strong> Some warranties run from the delivery or registration date rather than the order date. Your warranty document and your delivery confirmation settle it, and a few weeks of difference can put the failure back inside the window.</li>
+<li><strong>Look for an earlier report of the same symptom.</strong> If you emailed or called support about the noise, the weak roller, or the error code while you were still covered, that ticket is your strongest argument that the defect began in warranty. Attach it to the claim.</li>
+<li><strong>Ask in writing for a goodwill repair or parts at cost.</strong> The company is not obliged to say yes, and often will not, but a short written request naming the chair, the purchase date, and the failure costs you nothing. A discount on the part or a labor-only charge is an easier yes than a free repair.</li>
+<li><strong>Check your credit card benefits.</strong> Some cards extend the manufacturer warranty on purchases made with them. That claim goes to the card issuer, not the chair company, so it does not depend on the manufacturer cooperating.</li>
+</ol>
+
+<p>If none of that lands, the decision becomes a cost question. The <a href="/learn/massage-chair-repair-guide">repair guide</a> covers who actually fixes a chair once coverage is gone and what to have ready before you call. Before you buy, the protection is a warranty whose mechanism and labor coverage outlasts how long you plan to own the chair, which is why <a href="/learn/massage-chair-reliability">massage chair reliability</a> and the coverage terms belong in the same comparison.</p>
+
 <h2>Extended Warranties: Are They Worth It?</h2>
 
 <p>Extended warranties from third-party providers are offered at checkout by many massage chair retailers. The value of these depends almost entirely on how the base manufacturer warranty is structured and what the extended coverage actually adds.</p>
@@ -3501,6 +3514,9 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h3>What does a massage chair repair cost after the warranty ends?</h3>
 <p>It varies by component, but roller and mechanism work is the expensive case because it is both a costly part and labor-intensive to reach. Owners frequently report several hundred dollars in parts and non-refundable labor, and repeat visits when the fault was diagnosed remotely rather than in person.</p>
+
+<h3>My massage chair broke right after the warranty expired. Can I still get it fixed for free?</h3>
+<p>Not by right, but check three things first. Confirm whether coverage ran from the order date or the delivery date, since that can move the end date by weeks. Find any support ticket you opened about the same symptom while you were covered, because it shows the defect started in warranty. Then ask in writing for a goodwill repair or parts at cost, and check whether your credit card extends manufacturer warranties on purchases.</p>
 
 <h3>What should I do if the massage chair company will not answer my emails?</h3>
 <p>Move everything into writing with dates, reply on the existing ticket rather than opening new ones, and find out from your card issuer exactly how long you have to dispute the charge, because that deadline is usually shorter than a slow repair queue and it is the one that expires permanently. If you bought through a retailer, escalate there next. If that fails, file with the Better Business Bureau and your state attorney general's consumer protection division; complaint records show unanswered cases moving within a day or two once a public filing exists.</p>
