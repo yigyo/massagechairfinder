@@ -54,7 +54,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'luraco-i9-max-plus': {
     label: 'Wide body fit, made in USA',
-    why: "The Luraco is confirmed at 300 lbs and 6'10\", the widest body fit range in the catalog. Relevant for heavier buyers who are also tall. The only USA-manufactured massage chair in the catalog, with a 10-year warranty. L-track, 3D rollers, body scanning, heat, zero gravity, full-body stretch.",
+    why: "The Luraco is confirmed at 300 lbs and 6'10\", among the widest body fit ranges in the catalog. Relevant for heavier buyers who are also tall. Made in the United States. L-track, 3D rollers, body scanning, heat, zero gravity, full-body stretch.",
   },
   'ergotec-et-180-pluto': {
     label: "Highest capacity in the Under $3,000 band",

@@ -567,7 +567,7 @@ export const CHAIRS: Chair[] = [
     petiteConfirmed: true, heightMaxIn: 82, weightCapacityLbs: 300,
     zeroGravity: true, heat: true, foot: true, calf: true, stretch: true, aiScanning: true,
     tallConfirmed: true, plusSizeConfirmed: true, madeInUSA: true,
-    aiNotes: 'Tallest chair in catalog, confirmed to 6\'10". Only USA-manufactured massage chair. 10-year warranty. Split L-Track with 3D roller. Verified April 2026.',
+    aiNotes: 'Tied tallest in catalog with the Luraco Model 3 Hybrid SL Medical, confirmed to 6\'10". USA-manufactured. 10-year warranty. Split L-Track with 3D roller. Verified April 2026.',
     seoTitleOverride: "Luraco i9 Max Plus Review: USA-Made, 300 lb, Fits to 6'10\"",
     seoDescriptionOverride: "Luraco i9 Max Plus review: USA-made L-track chair, AI body scanning, 300 lb weight capacity, fits up to 6'10\". Full specs, fit, and our verdict.",
     relatedGuides: [

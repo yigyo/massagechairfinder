@@ -6,8 +6,8 @@ import { pageOpenGraph } from '@/lib/seo'
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/tall-people" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/tall-people"),
-  title: 'Best Massage Chairs for Tall People (2026)',
-  description: "Massage chairs for tall buyers must confirm effective coverage at heights of 6'3\" and above, not just structural clearance. Five chairs verified for buyers 6'3\" to 6'10\".",
+  title: 'Best Massage Chairs for Tall People, Including Big and Tall (2026)',
+  description: "Nine massage chairs confirmed by their listings for tall buyers from 6'5\" to 6'10\", including big and tall picks rated to 300 lbs or more. Fit data, track length and capacity compared.",
 }
 
 const PICK_IDS = [
@@ -18,7 +18,8 @@ const PICK_IDS = [
   'luraco-i9-max-plus',
   'positive-posture-brio-sport',
   'daiwa-black-panther-supreme-hybrid',
-  'kahuna-sm-7300s',
+  'kyota-yutaka-m898',
+  'luraco-model-3-hybrid-sl-medical',
 ]
 
 interface Editorial {
@@ -33,7 +34,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'amamedics-hilux-4d': {
     label: 'Best SL-track for tall buyers',
-    why: 'The Hilux 4D is confirmed for 4\'11" to 6\'7", the widest confirmed height range of any SL-track chair in the catalog. The 53-inch track is one of the longer SL-track systems available, which helps ensure the roller reaches the lumbar on taller bodies. 4D rollers, heated roller element, space-saving. The 270-lb weight limit is the constraint: tall buyers who also need higher capacity should see the Daiwa Legacy 4 or Luraco below.',
+    why: 'The Hilux 4D is confirmed for 4\'11" to 6\'7", the tallest confirmed maximum of any SL-track chair on this page. The 53-inch track is one of the longer SL-track systems available, which helps ensure the roller reaches the lumbar on taller bodies. 4D rollers, heated roller element, space-saving. The 270-lb weight limit is the constraint: tall buyers who also need higher capacity should see the Daiwa Legacy 4 or Luraco below.',
   },
   'daiwa-majesty-2d': {
     label: 'Widest confirmed range in the $5,000-$7,999 band',
@@ -41,23 +42,27 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   'daiwa-legacy-4': {
     label: 'Best L-track range for tall buyers',
-    why: 'The Legacy 4 is confirmed from 4\'8" to 6\'6" with a 49-inch L-track, body scanning, two-stage zero gravity, and 300-lb capacity. Space-saving 3.25-inch wall clearance. For tall buyers specifically focused on lower back and glute coverage rather than full spine, this is the pick in the upper mid-range. 3D rollers.',
+    why: 'The Legacy 4 is confirmed from 4\'8" to 6\'6" with a 49-inch L-track, body scanning, two-stage zero gravity, and 300-lb capacity. Space-saving 3.25-inch wall clearance. For tall buyers specifically focused on lower back and glute coverage rather than full spine, this is the pick in the $8,000-$11,999 band. 3D rollers.',
   },
   'luraco-i9-max-plus': {
-    label: 'Tallest confirmed in the catalog',
-    why: 'The Luraco i9 Max Plus is confirmed for buyers up to 6\'10", the highest verified maximum height in this catalog. It is the only massage chair in the catalog manufactured in the United States. L-track with 3D rollers, zero gravity, body scanning, heat, stretch, 10-year warranty, 300 lbs. For buyers above 6\'6" who need confirmed fit data, this is the only chair in the catalog that documents their height range.',
+    label: 'Confirmed to 6\'10" at 300 lbs',
+    why: 'The Luraco i9 Max Plus is confirmed for buyers from 4\'11" to 6\'10" at 300 lbs, tied with the Luraco Model 3 below for the highest verified maximum height in this catalog. Made in the United States. L-track with 3D rollers, zero gravity, body scanning, heat, stretch, and calf and foot massage. For buyers above 6\'6" who also carry a broader frame, it is one of two chairs here that confirm both numbers at the top of the range.',
   },
   'positive-posture-brio-sport': {
     label: 'Wide confirmed height fit, L-track 4D',
     why: "The Positive Posture Brio Sport is confirmed for buyers from 5'0\" to 6'5\" with a 47-inch L-track, 4D rollers, heat, and foot massage in the $8,000-$11,999 band. The 47-inch track length combined with the confirmed height range means the roller path is designed to reach the true lumbar on taller bodies. 265-lb weight capacity. No zero gravity on this model. For tall buyers who want confirmed height fit with 4D roller depth at the premium tier, this is the documented-fit option.",
   },
   'daiwa-black-panther-supreme-hybrid': {
-    label: 'Widest confirmed height range: 4\'8" to 6\'6"',
-    why: "The Black Panther Supreme Hybrid is confirmed for 4 foot 8 inches to 6 foot 6 inches at 300 lbs, the broadest verified height range in this catalog. The HybriFlex track extends further under the glutes than a standard SL-track, which matters more for taller buyers because the distance from the neck to the tailbone is longer and most chairs do not reach the full length. Heat, stretch, zero gravity, 3D rollers, foot rollers. In the $12,000 and up band, this is the premium pick for tall buyers who cannot find a chair that actually fits.",
+    label: 'Wide confirmed height range: 4\'8" to 6\'6"',
+    why: "The Black Panther Supreme Hybrid is confirmed for 4 foot 8 inches to 6 foot 6 inches at 300 lbs, one of the broadest verified height ranges in this catalog. The HybriFlex track extends further under the glutes than a standard SL-track, which matters more for taller buyers because the distance from the neck to the tailbone is longer and most chairs do not reach the full length. Heat, stretch, zero gravity, 3D rollers, foot rollers. In the $12,000 and up band, this is the premium pick for tall buyers who cannot find a chair that actually fits.",
   },
-  'kahuna-sm-7300s': {
-    label: 'Designed for larger frames, 6-roller SL-track',
-    why: "The SM-7300S was built specifically for buyers on the larger end of the size range. The 6-roller system contacts a wider surface area per pass than a 2-roller mechanism, which matters when a broader back is trying to match a roller path designed for an average frame. SL-track with stretch, three-stage zero gravity, heat to lumbar and legs, AI body scanning. Confirmed up to 6 foot 2 inches. For buyers who are taller and broader, and whose main frustration is that chairs feel like they are missing parts of their back, the 6-roller system directly addresses that.",
+  'kyota-yutaka-m898': {
+    label: 'Lowest-priced pick confirmed past 6\'6"',
+    why: "The Yutaka M898 is confirmed from 5'4\" to 6'7\" at 300 lbs, which makes it the lowest-priced chair on this page that clears 6'6\" and the value pick for big and tall buyers. The 49-inch L-track reaches under the glutes, the rollers are 4D, and zero gravity, body scan, heat, and calf and foot massage are all listed. It needs only 2 inches of wall clearance. The 5'4\" minimum is the trade-off: it is a poor match for a household that shares one chair with a much shorter partner.",
+  },
+  'luraco-model-3-hybrid-sl-medical': {
+    label: 'Longest track for tall buyers',
+    why: "The Model 3 Hybrid SL Medical is confirmed from 4'7\" to 6'10\" at 300 lbs, and its retailer lists it as a big and tall chair. Its 60-inch split L-track is the longest on this page, and track length is the spec that decides whether the rollers still reach the lower back and glutes on a long torso. 3D rollers, full-body stretch, zero gravity, body scan, and heat to the lower back and feet. Made in the United States. Its 4'7\" minimum is also the lowest on this page, so a much shorter partner can share it.",
   },
 }
 
@@ -68,8 +73,12 @@ interface Faq {
 
 const FAQS: Faq[] = [
   {
+    q: "What is the best big and tall massage chair?",
+    a: "Pick a chair whose listing confirms your height and your weight together. In this catalog the Luraco Model 3 Hybrid SL Medical and the Luraco i9 Max Plus both confirm 6 foot 10 inches and 300 lbs. The Kyota Yutaka M898 confirms 6 foot 7 inches and 300 lbs at a lower price, and the Kyota Genki M380 confirms 6 foot 5 inches and 330 lbs at the entry end. Buyers who need more than 300 lbs should start from the heavy-duty list, where capacity is the first filter and height is the second.",
+  },
+  {
     q: "What is the best massage chair for someone over 6 foot 3 inches?",
-    a: "The Luraco i9 Max Plus has the highest confirmed maximum in the catalog at 6 foot 10 inches. For buyers who also need higher weight capacity, the Daiwa Black Panther Supreme Hybrid is confirmed to 6 foot 6 inches at 300 lbs with a HybriFlex track that extends further under the glutes. The Kyota Genki M380 is the entry point, confirmed to 6 foot 5 inches.",
+    a: "The Luraco i9 Max Plus and the Luraco Model 3 Hybrid SL Medical share the highest confirmed maximum in the catalog at 6 foot 10 inches. For buyers who also need higher weight capacity, the Daiwa Black Panther Supreme Hybrid is confirmed to 6 foot 6 inches at 300 lbs with a HybriFlex track that extends further under the glutes. The Kyota Genki M380 is the entry point, confirmed to 6 foot 5 inches.",
   },
   {
     q: "Why does a chair's maximum rated height not guarantee a good fit?",
@@ -130,10 +139,13 @@ export default function BestTallPeoplePage() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs for Tall People</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
+        The best massage chair for a tall person is one whose listing confirms your height and whose roller track is long enough to reach your lower back. In this catalog the Luraco Model 3 Hybrid SL Medical and the Luraco i9 Max Plus confirm the tallest fit, to 6'10&quot;, at 300 lbs, which also makes them the big and tall picks. Below them, the Kyota Yutaka M898 confirms 6'7&quot; at 300 lbs and the Kyota Genki M380 confirms 6'5&quot; at 330 lbs, both at lower price bands.
+      </p>
+      <p className="text-charcoal max-w-2xl mb-3">
         Massage chairs list maximum height accommodations, but the spec sheet number does not always mean the chair delivers effective coverage at that height. A buyer at 6'3&quot; in a chair rated to 6'3&quot; may find the lumbar roller lands mid-back rather than at the true lumbar vertebrae. This page covers chairs with confirmed tall-buyer fit data, sourced from retailer pages rather than manufacturer marketing sheets.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated April 2026. All five chairs below are confirmed for buyers at 6'3&quot; or above, with retailer-confirmed height validation from spec pages where noted.
+        Updated November 2026. All nine chairs below are confirmed by their retailer listings for buyers at 6'5&quot; or taller.
       </p>
 
       <div className="mb-10 max-w-2xl flex flex-col sm:flex-row sm:items-center gap-3 rounded-lg px-5 py-4" style={{ background: '#F5F1EB', border: '1px solid #E8DFD3' }}>
@@ -294,10 +306,12 @@ export default function BestTallPeoplePage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If your height is between 6'3&quot; and 6'6&quot;, you have four confirmed options above across a range of prices and track types. The Hilux 4D is the SL-track pick; the Legacy 4 and Majesty 2D are the L-track picks at two different price bands; the Genki M380 is the high-capacity L-track option.
+          If your height is between 6'3&quot; and 6'6&quot;, every chair above is confirmed for you, so narrow by track and price. The Hilux 4D is the SL-track pick; the Legacy 4 and Majesty 2D are L-track picks at two different price bands; the Genki M380 carries the highest weight capacity on the page at 330 lbs.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
-          If you are above 6'6&quot;, the Luraco i9 Max Plus is the only chair in this catalog confirmed to that range (6'10&quot;). The Legacy 4 and Majesty 2D confirm to 6'6&quot; and may work depending on your proportions, but the Luraco has the explicit verification.
+          If you are above 6'6&quot;, four chairs confirm past that line: the Kyota Yutaka M898 and AmaMedics Hilux 4D to 6'7&quot;, and the Luraco i9 Max Plus and Model 3 Hybrid SL Medical to 6'10&quot;. If you are also broad or heavy, the two Luracos and the Yutaka pair that height with 300 lbs, while the Hilux stops at 270. For capacity above 300 lbs, start from the{' '}
+          <Link href="/best/heavy-duty" className="text-bronze hover:text-gold transition-colors">heavy-duty massage chairs</Link>{' '}
+          list instead.
         </p>
         <p className="text-charcoal leading-relaxed">
           The{' '}
