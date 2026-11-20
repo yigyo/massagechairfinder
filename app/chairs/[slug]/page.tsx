@@ -154,7 +154,10 @@ function bodyFitSummary(chair: Chair): string {
     parts.push(`Weight capacity: ${chair.weightCapacityLbs} lbs.`)
   }
   if (chair.petiteConfirmed) {
-    parts.push(`Confirmed to fit users at 5'0". This is one of the few chairs in this category with a confirmed petite lower bound.`)
+    const fmt = (n: number) => `${Math.floor(n / 12)}'${n % 12}"`
+    parts.push(chair.heightMinIn
+      ? `Petite-friendly: the listed minimum user height is ${fmt(chair.heightMinIn)}.`
+      : `Petite-friendly: confirmed to fit users at 5'0".`)
   }
   if (chair.tallConfirmed && chair.heightMaxIn) {
     const fmt = (n: number) => `${Math.floor(n / 12)}'${n % 12}"`
