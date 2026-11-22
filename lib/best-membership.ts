@@ -18,7 +18,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "3000-to-5000"
     },
     {
-      label: "Best Massage Chairs for Athletes and Sports Recovery",
+      label: "6 Best Massage Chairs for Sports Recovery",
       slug: "athlete-recovery"
     },
     {
@@ -42,7 +42,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "stress-relief"
     },
     {
-      label: "Best Massage Chairs for Tall People",
+      label: "Best Massage Chairs for Tall People, Including Big and Tall",
       slug: "tall-people"
     },
     {
@@ -62,7 +62,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "premium"
     },
     {
-      label: "Best Massage Chairs for Tall People",
+      label: "Best Massage Chairs for Tall People, Including Big and Tall",
       slug: "tall-people"
     }
   ],
@@ -80,11 +80,11 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "premium"
     },
     {
-      label: "Best Massage Chairs for Small Spaces",
+      label: "Best Small and Compact Massage Chairs for Tight Spaces",
       slug: "small-spaces"
     },
     {
-      label: "Best Massage Chairs for Tall People",
+      label: "Best Massage Chairs for Tall People, Including Big and Tall",
       slug: "tall-people"
     }
   ],
@@ -94,7 +94,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "petite-buyers"
     },
     {
-      label: "Best Massage Chairs for Tall People",
+      label: "Best Massage Chairs for Tall People, Including Big and Tall",
       slug: "tall-people"
     }
   ],
@@ -142,11 +142,11 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "infinity-genesis-max": [
     {
-      label: "Best Massage Chairs for Athletes and Sports Recovery",
+      label: "6 Best Massage Chairs for Sports Recovery",
       slug: "athlete-recovery"
     },
     {
-      label: "Best Massage Chairs Under $10,000",
+      label: "Best Massage Chairs Under $10,000 (2026): 6 Picks",
       slug: "under-10000"
     }
   ],
@@ -156,7 +156,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "hotels-hospitality"
     },
     {
-      label: "Best Massage Chairs for Small Spaces",
+      label: "Best Small and Compact Massage Chairs for Tight Spaces",
       slug: "small-spaces"
     },
     {
@@ -180,7 +180,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "jpmedics-kaze-duo": [
     {
-      label: "Best Massage Chairs for Small Spaces",
+      label: "Best Small and Compact Massage Chairs for Tight Spaces",
       slug: "small-spaces"
     }
   ],
@@ -212,7 +212,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "sciatica"
     },
     {
-      label: "Best Massage Chairs Under $10,000",
+      label: "Best Massage Chairs Under $10,000 (2026): 6 Picks",
       slug: "under-10000"
     }
   ],
@@ -236,18 +236,12 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "kahuna-hm-5000": [
     {
-      label: "Best Massage Chairs for Small Spaces",
+      label: "Best Small and Compact Massage Chairs for Tight Spaces",
       slug: "small-spaces"
     },
     {
       label: "Best Massage Chairs Under $3,000",
       slug: "under-3000"
-    }
-  ],
-  "kahuna-sm-7300s": [
-    {
-      label: "Best Massage Chairs for Tall People",
-      slug: "tall-people"
     }
   ],
   "kanji-4d-shogun-duo": [
@@ -278,7 +272,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "seniors"
     },
     {
-      label: "Best Massage Chairs for Tall People",
+      label: "Best Massage Chairs for Tall People, Including Big and Tall",
       slug: "tall-people"
     }
   ],
@@ -310,8 +304,14 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "seniors"
     },
     {
-      label: "Best Massage Chairs Under $10,000",
+      label: "Best Massage Chairs Under $10,000 (2026): 6 Picks",
       slug: "under-10000"
+    }
+  ],
+  "kyota-yutaka-m898": [
+    {
+      label: "Best Massage Chairs for Tall People, Including Big and Tall",
+      slug: "tall-people"
     }
   ],
   "luraco-i9-max-plus": [
@@ -324,7 +324,13 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "hotels-hospitality"
     },
     {
-      label: "Best Massage Chairs for Tall People",
+      label: "Best Massage Chairs for Tall People, Including Big and Tall",
+      slug: "tall-people"
+    }
+  ],
+  "luraco-model-3-hybrid-sl-medical": [
+    {
+      label: "Best Massage Chairs for Tall People, Including Big and Tall",
       slug: "tall-people"
     }
   ],
@@ -344,22 +350,10 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "seniors"
     }
   ],
-  "ogawa-og6300": [
-    {
-      label: "Best Massage Chairs for Senior Living Facilities",
-      slug: "senior-living-facilities"
-    }
-  ],
   "ogawa-og6400": [
     {
-      label: "Best Massage Chairs for Office Workers and Desk Jobs",
+      label: "6 Best Massage Chairs for Office Workers",
       slug: "office-workers"
-    }
-  ],
-  "ogawa-og8900": [
-    {
-      label: "Best Massage Chairs for Senior Living Facilities",
-      slug: "senior-living-facilities"
     }
   ],
   "ogawa-og8901": [
@@ -368,7 +362,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "arthritis"
     },
     {
-      label: "Best Massage Chairs Under $10,000",
+      label: "Best Massage Chairs Under $10,000 (2026): 6 Picks",
       slug: "under-10000"
     }
   ],
@@ -388,7 +382,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "arthritis"
     },
     {
-      label: "Best Massage Chairs for Athletes and Sports Recovery",
+      label: "6 Best Massage Chairs for Sports Recovery",
       slug: "athlete-recovery"
     },
     {
@@ -404,7 +398,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "neck-shoulders"
     },
     {
-      label: "Best Massage Chairs for Office Workers and Desk Jobs",
+      label: "6 Best Massage Chairs for Office Workers",
       slug: "office-workers"
     },
     {
@@ -416,7 +410,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "stress-relief"
     },
     {
-      label: "Best Massage Chairs Under $10,000",
+      label: "Best Massage Chairs Under $10,000 (2026): 6 Picks",
       slug: "under-10000"
     }
   ],
@@ -456,17 +450,17 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "premium"
     },
     {
-      label: "Best Massage Chairs Under $10,000",
+      label: "Best Massage Chairs Under $10,000 (2026): 6 Picks",
       slug: "under-10000"
     }
   ],
   "positive-posture-brio-sport": [
     {
-      label: "Best Massage Chairs for Athletes and Sports Recovery",
+      label: "6 Best Massage Chairs for Sports Recovery",
       slug: "athlete-recovery"
     },
     {
-      label: "Best Massage Chairs for Tall People",
+      label: "Best Massage Chairs for Tall People, Including Big and Tall",
       slug: "tall-people"
     }
   ],
@@ -476,7 +470,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "hotels-hospitality"
     },
     {
-      label: "Best Massage Chairs for Small Spaces",
+      label: "Best Small and Compact Massage Chairs for Tight Spaces",
       slug: "small-spaces"
     },
     {
@@ -500,17 +494,17 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "relaxonchair-mk-v-plus": [
     {
-      label: "Best Massage Chairs for Small Spaces",
+      label: "Best Small and Compact Massage Chairs for Tight Spaces",
       slug: "small-spaces"
     }
   ],
   "relaxonchair-yukon-4d": [
     {
-      label: "Best Massage Chairs for Athletes and Sports Recovery",
+      label: "6 Best Massage Chairs for Sports Recovery",
       slug: "athlete-recovery"
     },
     {
-      label: "Best Massage Chairs for Office Workers and Desk Jobs",
+      label: "6 Best Massage Chairs for Office Workers",
       slug: "office-workers"
     }
   ],
@@ -522,7 +516,7 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "rockertech-sensation-4d": [
     {
-      label: "Best Massage Chairs for Office Workers and Desk Jobs",
+      label: "6 Best Massage Chairs for Office Workers",
       slug: "office-workers"
     }
   ],
@@ -570,11 +564,11 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
       slug: "hotels-hospitality"
     },
     {
-      label: "Best Massage Chairs for Office Workers and Desk Jobs",
+      label: "6 Best Massage Chairs for Office Workers",
       slug: "office-workers"
     },
     {
-      label: "Best Massage Chairs for Small Spaces",
+      label: "Best Small and Compact Massage Chairs for Tight Spaces",
       slug: "small-spaces"
     },
     {
@@ -588,13 +582,13 @@ export const BEST_MEMBERSHIP: Record<string, BestMembership[]> = {
   ],
   "synca-wellness-kurodo": [
     {
-      label: "Best Massage Chairs for Office Workers and Desk Jobs",
+      label: "6 Best Massage Chairs for Office Workers",
       slug: "office-workers"
     }
   ],
   "titan-pro-vigor-4d": [
     {
-      label: "Best Massage Chairs for Athletes and Sports Recovery",
+      label: "6 Best Massage Chairs for Sports Recovery",
       slug: "athlete-recovery"
     },
     {

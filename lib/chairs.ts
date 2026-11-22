@@ -1694,7 +1694,8 @@ export const CHAIRS: Chair[] = [
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://www.wishrockrelaxation.com/products/kahuna-dios-6800-6d-massage-chair?aff=47',
-    amazonAsin: 'B0F4G3FGY2',  // 2026-10-18: DEAD on Amazon -- 'Currently unavailable', no price, no buy box. amazonUrl dropped. Primary wishrockrelaxation.com (APPROVED_DIRECT) unaffected and confirmed in stock.
+    amazonUrl: 'https://www.amazon.com/dp/B0F4G3FGY2/?tag=massagechairf-20',  // 2026-11-22 weekly audit: RE-VERIFIED CORRECT AND LIVE -- ASIN now resolves to "Kahuna Dios Massage Chair 6D Dual Core Air Roller SL-Track Dios-6800" (title leads with "Kahuna LM6800" but description confirms Dios-6800), buy box live at $3,999, in stock. The 2026-10-18 "dead" finding has resolved. Zero-risk re-wire: wishrockrelaxation.com (APPROVED_DIRECT) remains the resolved buyer link either way -- no priceMin change.
+    amazonAsin: 'B0F4G3FGY2',
     imageUrl: '/images/chairs/kahuna-dios-6800-6d.jpg',
     track: 'SL', roller: '6D', trackLengthIn: 50,
     zeroGravity: true, heat: true, foot: true,
@@ -1870,8 +1871,9 @@ export const CHAIRS: Chair[] = [
   {    id: 'theramedic-flex',
     name: 'Theramedic Flex',
     brand: 'Theramedic',
-    active: true, goodwinActive: false, mcfActive: true,  // 2026-10-03: reactivated. Old osakimassagechair.com URL 404'd 09-27. Re-wired to brand-direct theramedicchair.com 'Flex Edition' (In Stock, Add to Cart, $2,999); listing specs match this entry exactly (Flex SL-track, 260 lb, 4 in clearance, zero gravity, heat, foot). titanchair.com listing returned 404 on 10-03.
-    priceMin: 2999,  // theramedicchair.com 2026-10-03
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-11-22: deactivated. CRITICAL finding confirmed a second independent time this cycle (first flagged 2026-11-15): theramedicchair.com/products/theramedicflexedition now returns a genuine 404; retailer homepage loads fine, so the brand appears to have dropped this model, not a sitewide outage.
+    inStock: false,
+    priceMin: 2999,  // theramedicchair.com 2026-10-03 (stale -- see deactivation note above)
     affiliateTier: 'A',
     affiliateRetailer: 'theramedicchair.com',
     affiliateCommission: 'none (direct retailer link)',
@@ -1917,8 +1919,9 @@ export const CHAIRS: Chair[] = [
     id: 'ogawa-og6300',
     name: 'Ogawa Active XL 3D Massage Chair (OG-6300)',
     brand: 'Ogawa',
-    active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 5899,  // 2026-10-06: APPLIED per user confirmation -- wishrockrelaxation.com verified at $5,899.99, no strikethrough, matching the 2026-10-04 screenshot-confirmed reading (2 of 3 color variants, og:price:amount meta + rendered buy-box). Overrides the 25% guardrail hold on explicit user sign-off. Prior history: 2026-06-01 re-verify found $2,999.99 correct and a same-day $5,899 reading wrong; 2026-10-04 independently reconfirmed $5,899.99 via 2 separate methods, ruling out a repeat misread.
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-11-22: deactivated. CRITICAL finding confirmed a second independent time this cycle (first flagged 2026-11-15): direct product URL returns a genuine 404 (screenshot-verified), and a site search for "OG-6300" returns zero product results (only an unrelated blog mention). No in-stock replacement found at any approved retailer (massagechairwarehouse.com, massagechairstore.com, osakimassagechair.com, massagechairheaven.com, recovathlete.com, syncamassagechair.com, titanchair.com, humantouch.com, kahunachair.com, massagechairs.com).
+    inStock: false,
+    priceMin: 5899,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -1976,7 +1979,8 @@ export const CHAIRS: Chair[] = [
     id: 'ogawa-og8801',
     name: 'Ogawa Master Drive AI 2.0 4D Massage Chair (OG-8801)',
     brand: 'Ogawa',
-    active: true, goodwinActive: false, mcfActive: true,
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-11-22: deactivated. CRITICAL finding confirmed a second independent time this cycle (first flagged 2026-11-15): direct product URL returns a genuine 404 (screenshot-verified), and a site search for "OG-8801" returns "No products were found matching your selection." No in-stock replacement found at any approved retailer.
+    inStock: false,
     priceMin: 12999,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
@@ -1995,9 +1999,10 @@ export const CHAIRS: Chair[] = [
     id: 'ogawa-og8900',
     name: 'Ogawa Master Drive DUO 4D+3D Massage Chair (OG-8900)',
     brand: 'Ogawa',
-    active: true, goodwinActive: true, mcfActive: true,  // 2026-06-01 merged duplicate Goodwin shadow
+    active: false, goodwinActive: false, mcfActive: false,  // 2026-11-22: deactivated. CRITICAL finding confirmed a second independent time this cycle (first flagged 2026-11-15): direct product URL returns a genuine 404 (screenshot-verified), and a site search for "OG-8900" returns zero product results (only an unrelated blog mention). No in-stock replacement found at any approved retailer. Supersedes the 2026-10-04 in-stock note below, which is now stale.
+    inStock: false,
     goodwinLookupKey: 'ogawa master drive duo 4d+3d',
-    priceMin: 15999,  // 2026-10-04: confirmed live and in stock (ADD TO CART active, no sold-out marker) for the default Burgandy/Black variant at $15,999.99, matching catalog exactly. A same-day sub-agent read of this chair as "Sold Out" was a false positive, independently checked and overturned -- this site renders sold-out/add-to-cart markers for non-default color variants in the same DOM, which a naive read can pick up. No change made.
+    priceMin: 15999,
     affiliateTier: 'A',
     affiliateRetailer: 'wishrockrelaxation.com',
     goodwinStatus: 'affiliate',
@@ -2138,7 +2143,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'relaxonchair.com',
     affiliateUrl: 'https://www.relaxonchair.com/products/jasper-full-body-massage-chair?ref=gxoncaks',
-    amazonAsin: 'B0D325QC32',  // 2026-10-18: still no buy box (confirmed 5th consecutive audit). 2026-10-04 / 2026-09-27 / 2026-09-06 / 2026-07-26: same finding -- Amazon listing live + correct product but NO featured buy box ('See All Buying Options' only). amazonUrl dropped; primary relaxonchair.com in stock. Re-wire when a featured offer returns.
+    amazonAsin: 'B0D325QC32',  // 2026-11-22: still no buy box (confirmed 6th consecutive audit, 2026-10-18 / 2026-10-04 / 2026-09-27 / 2026-09-06 / 2026-07-26 same finding) -- Amazon listing live + correct product (title matches) but NO featured buy box ('See All Buying Options' / 'High price' only). amazonUrl stays dropped; primary relaxonchair.com (APPROVED_DIRECT) in stock, unaffected. Re-wire when a featured offer returns.
     imageUrl: '/images/chairs/relax-on-chair-jasper.jpg',
     track: 'SL', roller: null,
     zeroGravity: true, heat: true, foot: true,
@@ -2370,7 +2375,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'gameroomempire.com',
     affiliateUrl: 'https://gameroomempire.com/products/medical-breakthrough-6?aff=108',
-    amazonAsin: 'B07FPY2GL8',  // 2026-10-18: LIVE BUG FOUND AND FIXED -- ASIN now resolves to an unrelated MYTHIA-brand chair. gameroomempire.com is NOT in APPROVED_DIRECT, so resolveAffiliateUrl was sending real buyers to the wrong chair on Amazon. amazonUrl dropped; resolution now correctly falls back to gameroomempire.com (confirmed in stock, price matches).
+    amazonAsin: 'B07FPY2GL8',  // 2026-11-22 weekly audit: re-checked, STILL resolves to the unrelated "Medical Breakthrough 6 v4" variant at $6,999 -- confirmed wrong product again, do not wire. Now moot either way: gameroomempire.com is confirmed APPROVED_DIRECT (since 2026-11-15), so it is the resolved buyer link regardless of this ASIN's state. (2026-10-18 original finding below, superseded.)
     imageUrl: '/images/chairs/medical-breakthrough-6.jpg',
     track: 'L', roller: '4D',
     weightCapacityLbs: 300,
@@ -2656,7 +2661,7 @@ export const CHAIRS: Chair[] = [
     name: 'Svago ZGR',
     brand: 'Svago',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 2299,  // 2026-11-15 weekly audit: CORRECTION -- gameroomempire.com IS in APPROVED_DIRECT (prior comments assumed otherwise, which was stale), so it (via massagechairwarehouse.com) is the actual resolved channel, not Amazon. Confirmed live price $2,299.99 there, was 1999 (+15%), same entry band. Amazon buy box separately re-confirmed at $1,999 (informational only, not the resolved link since gameroomempire.com IS approved-direct).
+    priceMin: 2299,  // 2026-11-15 weekly audit: CORRECTION -- gameroomempire.com IS in APPROVED_DIRECT (prior comments assumed otherwise, which was stale), so it (via massagechairwarehouse.com) is the actual resolved channel, not Amazon. Confirmed live price $2,299.99 there, was 1999 (+15%), same entry band. 2026-11-22: price re-confirmed $2,299.99 at gameroomempire.com, no change. Amazon ASIN B07CS1MTW3 re-checked this cycle and resolves to "Svago ZGR Plus SV-395", a distinct, differently-priced Svago SKU from the plain "ZGR" this catalog entry names -- flagging for human review (not auto-corrected: informational only either way, since gameroomempire.com is the resolved buyer link, not Amazon).
     affiliateTier: 'A',
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'gameroomempire.com',
@@ -2677,7 +2682,7 @@ export const CHAIRS: Chair[] = [
     name: 'Svago Newton',
     brand: 'Svago',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 3499,  // 2026-10-18: amazonUrl is the resolved channel (gameroomempire.com is not in APPROVED_DIRECT). Amazon buy box $3,499 (was 3199, +9.4%), title "Svago ZGR Newton SV-630" matches. 2026-11-09: gameroomempire.com direct price now $3,999.99, but that is NOT the resolved channel -- Amazon access blocked this audit (see report), so left unchanged pending re-verification.
+    priceMin: 3999,  // 2026-11-22 weekly audit: CORRECTION -- gameroomempire.com IS in APPROVED_DIRECT (confirmed 2026-11-15), so it is the actual resolved channel, not Amazon (the 2026-10-18 comment above was stale on this point, same error already fixed for svago-zgr). Confirmed live price $3,999.99 at gameroomempire.com directly, was 3499 (+14.3%), same mid band. Amazon buy box separately re-verified correct at $3,199 (informational only, not the resolved link).
     affiliateTier: 'A',
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'gameroomempire.com',
@@ -2736,7 +2741,7 @@ export const CHAIRS: Chair[] = [
     name: 'OHCO M.8 NEO',
     brand: 'OHCO',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 16999,  // 2026-11-15 weekly audit: johnsonfitness.com (resolved channel, direct) confirmed live price $16,999, was 14999 (+13.3%), same ultra-premium band
+    priceMin: 14999,  // 2026-11-22 weekly audit: johnsonfitness.com (resolved channel, direct) confirmed live price $14,999, was 16999 (-11.8%), same ultra-premium band. Price has now round-tripped twice in two cycles (14999 -> 16999 -> 14999) -- looks like a cycling sale, not a durable repricing. Track type still shown by retailer as "MaxTrack" vs. catalog "SL" (carried over from 2026-11-15, unresolved, needs human spec review).
     affiliateTier: null,
     goodwinStatus: 'none',
     affiliateRetailer: 'johnsonfitness.com',
@@ -2755,7 +2760,7 @@ export const CHAIRS: Chair[] = [
     name: 'Nouhaus New Classic',
     brand: 'Nouhaus',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 1499,  // nouhaus.com verified 2026-07-26 (was 1399; now $1,499.99 direct. Amazon shows temporary deal $1,274.99 -- may revert; using stable direct price)
+    priceMin: 1349,  // 2026-11-22 weekly audit: amazonUrl is the resolved channel (nouhaus.com is not in APPROVED_DIRECT). Amazon buy box confirmed $1,349.99 (title "NOUHAUS Heated Classic Massage Chair..." -- matches; Nouhaus's own brand module labels this line "New Classic Series"), was 1499 (-9.9%), same entry band. nouhaus.com direct still shows $1,499.99 but is not the link buyers land on.
     affiliateTier: null,
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
@@ -2777,7 +2782,7 @@ export const CHAIRS: Chair[] = [
     name: 'Nouhaus Aurora',
     brand: 'Nouhaus',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 2299,
+    priceMin: 1954,  // 2026-11-22 weekly audit: amazonUrl is the resolved channel (nouhaus.com is not in APPROVED_DIRECT). Amazon buy box confirmed $1,954.99, title matches exactly, in stock, was 2299 (-15.0%), same entry band. nouhaus.com direct separately checked, shows $2,299.99, but is not the link buyers land on.
     affiliateTier: null,
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
@@ -2798,7 +2803,7 @@ export const CHAIRS: Chair[] = [
     name: 'Nouhaus Nou Campo',
     brand: 'Nouhaus',
     active: true, goodwinActive: true, mcfActive: true,
-    priceMin: 2299,  // 2026-10-18: amazonUrl is the resolved channel (nouhaus.com is not in APPROVED_DIRECT). Amazon buy box $2,299.99 (was 2099, +9.6%), title matches exactly. nouhaus.com direct still shows 2099.99 for Mellow Sand but is not the link buyers actually land on. 2026-11-09: nouhaus.com direct price still $2,099.99 -- Amazon access blocked this audit (see report), so left unchanged pending re-verification.
+    priceMin: 1954,  // 2026-11-22 weekly audit: amazonUrl remains the resolved channel (nouhaus.com is not in APPROVED_DIRECT). Amazon buy box confirmed $1,954.99, title matches exactly, in stock ("Only 20 left"), was 2299 (-15.0%), same entry band. nouhaus.com direct separately checked this cycle, shows $2,099.99 -- that figure was nearly used in error before catching that Amazon, not nouhaus.com, is the actual resolved link.
     affiliateTier: null,
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
@@ -2825,7 +2830,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'affiliate',
     affiliateRetailer: 'nouhaus.com',
     affiliateUrl: 'https://www.nouhaus.com/products/nouhaus-luna-zero-gravity-massage-chair',
-    amazonAsin: 'B0D763LCYX',  // 2026-10-18: LIVE BUG FOUND AND FIXED -- ASIN now resolves to a Kyota Genki M380, not a Nouhaus Luna at all. nouhaus.com is NOT in APPROVED_DIRECT, so resolveAffiliateUrl was sending real buyers to the wrong chair on Amazon. amazonUrl dropped; resolution now correctly falls back to nouhaus.com (confirmed in stock, price matches).
+    amazonAsin: 'B0D763LCYX',  // 2026-11-22 weekly audit: RE-VERIFIED CORRECT -- ASIN now resolves to "Nouhaus Luna Massage Chair Full Body with Zero Gravity Recline...", buy box live at $2,999.99, in stock ("Only 5 left"), matching catalog price exactly. The 2026-10-18 wrong-product finding has resolved. NOT wired yet: nouhaus.com is NOT in APPROVED_DIRECT, so setting amazonUrl WOULD switch the resolved buyer link from nouhaus.com direct to Amazon -- a real channel/commission decision, not a zero-risk re-wire. Holding pending Yigyo's decision (carried over from 2026-11-15).
     imageUrl: '/images/chairs/nouhaus-luna.jpg',
     track: 'SL', roller: '3D',
     zeroGravity: true, heat: true,
@@ -2922,7 +2927,7 @@ export const CHAIRS: Chair[] = [
     name: 'HealthRelife 4D 15-Mode',
     brand: 'HealthRelife',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1699,  // amazon.com observed 2026-06-07
+    priceMin: 1499,  // 2026-11-22 weekly audit: Amazon (sole/resolved channel) confirmed live buy-box price $1,499.00, was 1699 (-11.8%), same entry band, no propagation needed.
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -2960,7 +2965,7 @@ export const CHAIRS: Chair[] = [
     name: 'MYTHIA A303C 4D',
     brand: 'MYTHIA',
     active: true, goodwinActive: false, mcfActive: true,
-    priceMin: 1399,  // amazon.com featured buy-box verified 2026-07-26 (was 1799 = stale list price; featured price now $1,399, -22%)
+    priceMin: 1262,  // 2026-11-22 weekly audit: Amazon (sole/resolved channel) confirmed live buy-box price $1,262.55, was 1399 (-9.8%), same entry band, no propagation needed.
     affiliateTier: 'C',
     affiliateRetailer: 'amazon.com',
     affiliateCommission: 'Amazon Associates',
@@ -3265,7 +3270,8 @@ export const CHAIRS: Chair[] = [
     affiliateCommission: '(Amazon Associates, tag massagechairf-20)',
     goodwinStatus: 'affiliate',
     affiliateUrl: 'https://gameroomempire.com/products/osaki-os-highpointe-4d-massage-chair?aff=108',
-    amazonAsin: 'B0BXPYT8G7',  // 2026-10-18: LIVE BUG FOUND AND FIXED -- ASIN now resolves to a Svago ZGR Newton recliner, not an Osaki OS-Highpointe at all. gameroomempire.com is NOT in APPROVED_DIRECT, so resolveAffiliateUrl was sending real buyers to the wrong chair on Amazon. amazonUrl dropped; resolution now correctly falls back to gameroomempire.com (confirmed in stock, price matches).
+    amazonUrl: 'https://www.amazon.com/dp/B0BXPYT8G7/?tag=massagechairf-20',  // 2026-11-22 weekly audit: RE-VERIFIED CORRECT -- this settles a conflict between the 2026-10-18 "wrong product" finding and the 2026-11-15 report's "re-verifies as correct" claim. Fresh check today: title is an exact match ("Osaki OS-Highpointe 4D SL-Track Massage Chair..."), buy box live at $4,999, matching catalog exactly (no price change). The 2026-10-18 wrong-product reading appears to have been either a transient marketplace mix-up or a since-corrected ASIN relisting. Zero-risk re-wire: gameroomempire.com is now confirmed APPROVED_DIRECT (since 2026-11-15), so it remains the resolved buyer link either way.
+    amazonAsin: 'B0BXPYT8G7',
     imageUrl: 'https://gameroomempire.com/cdn/shop/products/3.5HighPointe_Black_695x695_36d32f6e-d5f0-47f2-be2b-b27b2e235a86.jpg?v=1679594000',
     track: 'SL',
     roller: '4D',

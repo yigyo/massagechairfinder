@@ -7,16 +7,14 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.massagechairfinder.com/best/senior-living-facilities" },
   openGraph: pageOpenGraph("https://www.massagechairfinder.com/best/senior-living-facilities"),
   title: "Best Massage Chairs for Senior Living Facilities (2026)",
-  description: "The best massage chairs for senior living facilities prioritize high weight capacity, simple controls, easy entry and exit, and durable build over advanced features. Six picks for common areas and wellness rooms.",
+  description: "The best massage chairs for senior living facilities prioritize high weight capacity, simple controls, easy entry and exit, and durable build over advanced features. Four picks for common areas and wellness rooms.",
 }
 
 const PICK_IDS = [
-  "ogawa-og6300",
   "kyota-genki-m380",
   "human-touch-laevo-zg",
   "infinity-dynasty-4d",
   "jpmedics-kumo-4d",
-  "ogawa-og8900",
 ]
 
 interface Editorial {
@@ -25,10 +23,6 @@ interface Editorial {
 }
 
 const EDITORIAL: Record<string, Editorial> = {
-  "ogawa-og6300": {
-    label: "Best value for outfitting a common area",
-    why: "The Active XL 3D is the workhorse pick for a shared space on a facility budget. SL-track coverage runs the full spine from neck to glutes, the 320 lb weight capacity handles residents of widely varying size, and zero gravity recline takes pressure off the lower back while also making the chair easier to get into and out of. In the Under $3,000 band it is affordable enough to place in more than one common room, and its Plus Size Confirmed designation means the fit is verified rather than estimated.",
-  },
   "kyota-genki-m380": {
     label: "Easiest for residents and staff to operate",
     why: "The Genki M380 carries the highest confirmed weight capacity in the catalog at 330 lbs and the simplest control scheme on this list. Its 2D roller runs straightforward auto programs without the layered menus of a 4D chair, which matters when residents and activity staff need to start a session with one button. L-track covers the lower back, glutes, and upper thighs where chronic pain concentrates in older adults, and the fit is confirmed up to 6'5\". It is the most forgiving, lowest-friction chair to place in front of a rotating group of residents. Its price has moved between the entry and upper-mid bands with retailer promotions through 2026, so check the current band badge.",
@@ -44,10 +38,6 @@ const EDITORIAL: Record<string, Editorial> = {
   "jpmedics-kumo-4d": {
     label: "Best premium pick for a flagship wellness room",
     why: "The Kumo 4D pairs 4D roller depth with AI body scanning that reads each resident's spine length and curvature before adjusting the roller path, so a single chair adapts across a rotating group rather than running one fixed program. L-track coverage, 320 lb capacity, confirmed fit up to 6'3\", heat, and zero gravity round it out. In the $8,000-$11,999 band it is a considered investment for a community that markets wellness amenities to prospective residents and their families.",
-  },
-  "ogawa-og8900": {
-    label: "Best flagship for a marquee amenity space",
-    why: "The Master Drive DUO is the most-reviewed chair on this list by a wide margin, with 894 verified reviews behind a 4.8 rating, the kind of track record that reassures a committee signing off on a five-figure purchase. It combines SL-track 4D rollers, body scanning, 320 lb capacity, and a 1-inch wall clearance that lets a large chair sit nearly flush against a wall in a lobby or wellness suite. This is the pick when the chair is part of the community's first impression.",
   },
 }
 
@@ -120,7 +110,7 @@ export default function BestSeniorLivingFacilitiesPage() {
 
       <h1 className="text-4xl font-serif mb-4">Best Massage Chairs for Senior Living Facilities</h1>
       <p className="text-lg text-charcoal max-w-2xl mb-3">
-        The best massage chairs for senior living facilities prioritize high weight capacity, simple one-touch controls, easy entry and exit, and durable build over the advanced programming a single home user might want. A chair that serves a rotating group of residents has to fit a wide range of bodies, survive frequent daily starts, and be operable by residents and activity staff alike. The six chairs below are chosen for shared facility use across common areas and wellness rooms, from an entry-band value workhorse to a flagship amenity piece.
+        The best massage chairs for senior living facilities prioritize high weight capacity, simple one-touch controls, easy entry and exit, and durable build over the advanced programming a single home user might want. A chair that serves a rotating group of residents has to fit a wide range of bodies, survive frequent daily starts, and be operable by residents and activity staff alike. The four chairs below are chosen for shared facility use across common areas and wellness rooms, from an easy-operation workhorse to a premium pick for a flagship wellness room.
       </p>
       <p className="text-charcoal max-w-2xl mb-3">
         Buying for a facility is a different problem than buying for a home. Confirm one thing before anything else: most residential massage chair warranties exclude commercial or facility settings, so a chair placed in a shared space can fall outside standard coverage unless the retailer confirms multi-user use in writing. That question often shapes total cost of ownership more than the sticker price. Every chair here is drawn from the models we have researched and verified pricing and specifications for, and each spec cited comes from the manufacturer or retailer spec sheet, not estimates.
