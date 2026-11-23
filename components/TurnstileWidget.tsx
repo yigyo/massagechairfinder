@@ -70,7 +70,10 @@ const TurnstileWidget = forwardRef<TurnstileHandle, Props>(function TurnstileWid
       if (widgetIdRef.current) return
       widgetIdRef.current = window.turnstile.render(containerRef.current, {
         sitekey: siteKey,
-        size: "invisible",
+        // "invisible" is not a valid size value; the api.js render call threw on it,
+        // so no form ever received a token. interaction-only keeps the widget hidden
+        // unless Cloudflare needs the visitor to click.
+        appearance: "interaction-only",
         action: action || "submit",
         callback: (token: string) => onTokenRef.current(token),
         "error-callback": () => {
