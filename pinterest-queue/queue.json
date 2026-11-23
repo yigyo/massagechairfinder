@@ -82,5 +82,27 @@
     "pin_id": "1090645234838420625",
     "pin_url": "https://www.pinterest.com/pin/1090645234838420625/",
     "posted_at": "2026-11-16T11:12:08Z"
+  },
+  {
+    "id": "S-SHUTOFF-2026-11-23",
+    "status": "pending",
+    "board": "buyer-mistakes",
+    "image": "pinterest-queue/assets/S-SHUTOFF-2026-11-23.png",
+    "title": "Fell asleep in your massage chair? Read this first",
+    "description": "A massage chair session timer normally ends the program on its own, but it is software, and owners occasionally report a chair that kept running for hours. Three habits keep a nap low risk, plus what to check before you sit in a mall or airport massage chair.",
+    "link": "https://www.massagechairfinder.com/learn/are-massage-chairs-safe",
+    "campaign": "chair-shutoff",
+    "alt_text": "Woman asleep in a massage chair at night under the headline: fell asleep in your massage chair?"
+  },
+  {
+    "id": "S-THERAPIST-2026-11-23",
+    "status": "pending",
+    "board": "conditions-wellness",
+    "image": "pinterest-queue/assets/S-THERAPIST-2026-11-23.png",
+    "title": "Massage chair or massage therapist? Who each one helps",
+    "description": "A massage chair works for daily, low-effort relief you can dial down, which is why owners with arthritis and chronic pain use one every evening. A massage therapist finds and works one specific knot by hand. What each one does well and what each costs over a year.",
+    "link": "https://www.massagechairfinder.com/learn/massage-chair-vs-massage-therapist",
+    "campaign": "chair-vs-therapist",
+    "alt_text": "Smiling older woman relaxing in a brown massage chair under the headline: massage chair or massage therapist?"
   }
 ]
