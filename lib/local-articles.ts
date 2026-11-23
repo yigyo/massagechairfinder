@@ -10187,7 +10187,7 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
     excerpt: "For most healthy adults, a massage chair is safe to use at moderate settings, and the most alarming claims online (that it compresses nerves or causes lasting damage) are not what the evidence supports. The real safety story is narrower and more useful: a handful of medical conditions call for a doctor's clearance first, certain settings can aggravate an existing problem, and soreness after early sessions is usually normal break-in rather than harm. This guide covers who should be cautious, who should ask a clinician before using one, and how to use a chair so it helps instead of hurts.",
     order: 61,
     publishedAt: "2026-07-02",
-    updatedAt: "2026-10-12",
+    updatedAt: "2026-11-23",
     body: `<p>For most healthy adults, a massage chair is safe to use at moderate settings. It relaxes the muscles along the spine, improves circulation, and helps you wind down, and used sensibly it carries about the same risk profile as a manual massage. The widely shared fears (that a chair pinches nerves or causes lasting injury) overstate the danger for the general population. The accurate version is narrower: a short list of conditions warrant caution, a few settings can aggravate an existing problem, and most <a href="/learn/massage-and-soreness">early-session soreness</a> is normal rather than a warning sign.</p>
 
 <h2>Are massage chairs safe for most people?</h2>
@@ -10248,6 +10248,14 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 
 <p>Manufacturers frequently classify these episodes as the chair functioning as designed at an intensity the user selected. Whether or not that is a fair characterization in any given case, it is a practical reason to treat the power control as your release mechanism rather than assuming a program will end on its own. The same rule applies to anyone who cannot exit the chair unassisted, which is covered in the section above.</p>
 
+<h2>Is it safe to fall asleep in a massage chair?</h2>
+
+<p>Dozing off during a gentle program is common and usually harmless, because home chairs run a timed session and stop on their own when it ends, typically somewhere between fifteen and thirty minutes. The risk is treating that timer as a guarantee. The auto-shutoff is software, and owners occasionally report the failure mode that matters: a chair that kept running long after the session should have ended, leaving them bruised and sore the next day. A massage that feels pleasant at minute ten can do real damage when the same pressure runs for hours on a body that is no longer telling you to stop.</p>
+
+<p>Three habits keep a nap in the chair low risk. Pick a light intensity before you start if there is any chance you will drift off, since a deep-tissue setting is exactly the one you do not want running unattended. Use the shortest session length the remote offers rather than the longest, and get in the habit of switching the chair off at its body or the wall when you get up, so a chair that missed its own stop does not sit powered. If you want to use the chair to wind down before bed, our guide to <a href="/learn/massage-and-falling-asleep">massage and falling asleep</a> covers the settings that help without leaving you in the chair overnight, and <a href="/learn/massage-and-session-length">massage and session length</a> explains why longer sessions do not add benefit.</p>
+
+<p>Public chairs in malls and airports deserve more caution than the one in your living room, not less. You cannot see where the power switch is, the program is fixed, the intensity is set for an average adult, and nobody is checking how worn the leg unit is. Before you sit in one, find the stop button on the panel, keep the session short, and do not let a child use one unattended. The broader differences between public and home units are covered in <a href="/learn/commercial-massage-chairs">commercial massage chairs</a>, and households sharing one home chair will find the setup advice in <a href="/learn/multi-user-households">multi-user households</a> useful.</p>
+
 <h2>What the real-world complaint and injury record actually shows</h2>
 
 <p>Complaints about massage chairs that reach outside ordinary owner reviews are rare, but a few recurring patterns are worth naming directly rather than ignoring. A widely viewed consumer-investigation television segment raised safety questions about chair intensity settings and compared chair massage to professional massage on safety grounds. That is a reasonable question to ask, and the practical answer is the one this guide already gives: start at low intensity, keep early sessions short, and stop if something feels wrong rather than pushing through. Separately, a documented case reviewed by a consumer protection authority involved a leg and calf massage attachment one user described as too powerful, with calf swelling a doctor later confirmed. That case lines up with what this guide already flags above: the leg and foot unit is the part of a chair most likely to cause a real injury when the fit is wrong or the intensity is too high, which is exactly why setting leg length correctly and starting gentle matter more than any other setting.</p>
@@ -10303,6 +10311,11 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 <summary><strong>Has a massage chair actually injured someone?</strong></summary>
 <p>Documented cases exist but they are uncommon relative to the number of chairs in daily use, and they trace back to the same causes covered in this guide: intensity set too high, a leg or foot unit used at the wrong fit, or a pre-existing condition that called for caution first. One reviewed case involved calf swelling confirmed by a doctor after a high-intensity leg massage session. The practical takeaway is the same regardless of the specific case: start gentle, set the leg length correctly, and stop if something feels wrong.</p>
 </details>
+<details>
+<summary><strong>Is it safe to fall asleep in a massage chair?</strong></summary>
+<p>Usually, at a light setting, because the session timer ends the program on its own. Do not rely on the timer alone: owners occasionally report a chair that kept running past its session. Choose a light intensity and the shortest session length if you might doze off, and switch the chair off at its body or the wall when you get up.</p>
+</details>
+
 
 <p>For the groups that need extra care, <a href="/learn/special-populations">massage for special populations</a> and <a href="/learn/massage-and-blood-thinners">massage and blood thinners</a> go deeper. When you are ready to match a chair to your body and your situation, the <a href="/finder">chair finder</a> narrows the field to chairs that fit.</p>`,
   },
