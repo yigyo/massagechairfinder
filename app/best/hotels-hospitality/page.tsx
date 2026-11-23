@@ -47,7 +47,7 @@ const EDITORIAL: Record<string, Editorial> = {
   },
   "luraco-i9-max-plus": {
     label: "Best luxury flagship for a resort spa",
-    why: "The i9 Max Plus is the flagship for a luxury resort or destination spa where the chair is part of the experience. Luraco is built in the United States, and the i9 Max Plus is the tallest-fit chair in the catalog, confirmed up to 6'10\", with L-track coverage, 3D rollers, AI body scanning, heat, and a 300 lb capacity. In the $12,000 and up band it is a considered amenity investment for a property marketing wellness at the high end.",
+    why: "The i9 Max Plus is the flagship for a luxury resort or destination spa where the chair is part of the experience. Luraco is built in the United States, and the i9 Max Plus is confirmed up to 6'10\", one of the tallest fits in the catalog, with L-track coverage, 3D rollers, AI body scanning, heat, and a 300 lb capacity. In the $8,000-$11,999 band it is a considered amenity investment for a property marketing wellness at the high end.",
   },
 }
 
@@ -298,7 +298,7 @@ export default function BestHotelsHospitalityPage() {
           For a space where the chair is on display, the Synca Wellness CirC+ (Under $3,000) reads as furniture rather than equipment, and the HealthRelife 4D 15-Mode (Under $3,000) adds 4D movement and a wide preset menu at a price that scales to several rooms.
         </p>
         <p className="text-charcoal leading-relaxed">
-          For a luxury resort or destination spa, the Luraco i9 Max Plus ($12,000 and up) is the flagship, built in the United States with the tallest confirmed fit in the catalog. The{" "}
+          For a luxury resort or destination spa, the Luraco i9 Max Plus ($8,000-$11,999) is the flagship, built in the United States with one of the tallest confirmed fits in the catalog. The{" "}
           <Link href="/finder" className="text-bronze hover:text-gold transition-colors">chair finder</Link>{" "}
           narrows by feature priority, footprint, and budget if you are matching a chair to a specific space.
         </p>
