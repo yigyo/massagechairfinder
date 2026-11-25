@@ -1413,6 +1413,8 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If you are still working out which chair fits your pain profile, budget, and body type, the <a href="/finder">chair finder</a> will narrow the field based on those variables. Heat placement is one of the factors it weighs in its recommendations.</p>
 
+<h2>Frequently asked questions</h2>
+
 <details>
 <summary><strong>Do all massage chairs have heat?</strong></summary>
 <p>No, but most do. In our verified catalog of 44 chairs, 37 include a heat feature. The seven without heat are mostly budget and entry-level models: the Synca Kagra 4D, JPMedics Kozue 5D, both Panasonic Real Pro models (MAJ7 and MA73), the Real Relax Favor-06 and PS3100, and the Cozzia Qi XE Pro Duo. If heat is important to your situation, it is worth confirming the specific model includes it rather than assuming, but for most mid-range and premium chairs it is present.</p>
@@ -1487,6 +1489,8 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 <p>If lower back and hip pain is your primary concern and your upper back is not significantly involved, an L-track chair can deliver more targeted glute coverage at a lower price than a comparable SL-track model. The Kahuna LM-6800 and JPMedics Kumo 4D are L-track chairs frequently recommended for buyers in that situation.</p>
 
 <p>For buyers whose primary concern is pressure intensity, track type is secondary to roller dimension. A 3D or 4D roller on any track type allows depth adjustment. A 2D roller on an SL-track covers the right area but at fixed pressure only. If you tend toward sensitivity, an SL-track chair with a 3D roller and adjustable depth gives you both coverage and control.</p>
+
+<h2>Frequently asked questions</h2>
 
 <details>
 <summary>Do all SL-track chairs cover the same area?</summary>
