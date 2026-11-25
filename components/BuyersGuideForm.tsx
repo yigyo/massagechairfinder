@@ -58,7 +58,7 @@ export default function BuyersGuideForm({
       <div className="text-center py-2">
         <p className="font-semibold text-navy mb-1">Your guide is ready.</p>
         <p className="text-sm text-warm-gray mb-3">
-          Download it now and keep it handy while you compare chairs.
+          Download it now. A copy is also on its way to your inbox (check spam or promotions if you do not see it).
         </p>
         <a
           href="/massage-chair-finder-buyers-guide.pdf"
