@@ -350,6 +350,8 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>When you are ready to move from screening reviews to choosing a chair, skip the review lottery entirely and start from your own needs. The <a href="/finder">chair finder</a> matches chairs to your body, your priorities, and your budget, and the <a href="/buyers-guide">Buyer's Guide</a> walks through the specs that actually change the experience. If you want to see how the reviewing question plays out against a human practitioner, <a href="/learn/massage-chair-vs-massage-therapist">massage chair versus massage therapist</a> compares the two on cost and outcome, and if you are shopping a specific band, the <a href="/best/3000-to-5000">best chairs from 3000 to 5000</a> shows how the trade-offs shift as you move up in price.</p>
 
+<h2>Frequently asked questions</h2>
+
 <details>
 <summary><strong>Are most massage chair reviews online fake?</strong></summary>
 <p>Not all of them, but a large share are written to sell rather than to inform, because the price point rewards it. The useful move is not to assume every review is fake, it is to run each one through a quick filter for missing downsides, vague language, launch-week timing, and a single Buy Now call to action. Real feedback survives that filter.</p>
