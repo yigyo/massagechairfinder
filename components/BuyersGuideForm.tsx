@@ -56,11 +56,18 @@ export default function BuyersGuideForm({
   if (status === "success") {
     return (
       <div className="text-center py-2">
-        <p className="font-semibold text-navy mb-1">Check your inbox.</p>
-        <p className="text-sm text-warm-gray">
-          The Buyer&apos;s Guide is on its way. Check your spam folder if it
-          does not arrive within a few minutes.
+        <p className="font-semibold text-navy mb-1">Your guide is ready.</p>
+        <p className="text-sm text-warm-gray mb-3">
+          Download it now and keep it handy while you compare chairs.
         </p>
+        <a
+          href="/massage-chair-finder-buyers-guide.pdf"
+          target="_blank"
+          rel="noopener"
+          className="inline-block btn-primary text-sm py-2.5 px-5"
+        >
+          Download the Buyer&apos;s Guide (PDF)
+        </a>
       </div>
     )
   }
