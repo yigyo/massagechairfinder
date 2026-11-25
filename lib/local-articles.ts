@@ -1361,7 +1361,8 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
     excerpt: 'Most massage chairs include heat, but not all heat is equal. Placement matters more than presence. Lumbar heat combined with roller massage is genuinely useful for chronic back pain. Foot heat is a comfort bonus. Here is how to think about it.',
     order: 8,
     publishedAt: '2026-04-29',
-    body: `<p>Most massage chairs include heat. That statement is true, and almost useless on its own. The more useful version: 37 of the 44 chairs in our verified catalog have a heat feature, almost every one of those applies that heat to the lumbar zone, and the real question is not whether a chair has heat but where the heat is placed, what it actually does during a massage, and whether heat matters for the kind of relief you are looking for.</p>
+    updatedAt: '2026-11-25',
+    body: `<p>Most massage chairs include heat. That statement is true, and almost useless on its own. The more useful version: most chairs in our verified catalog have a heat feature, almost every one of those applies that heat to the lumbar zone, and the real question is not whether a chair has heat but where the heat is placed, what it actually does during a massage, and whether heat matters for the kind of relief you are looking for.</p>
 
 <p>The short answer: lumbar heat combined with roller massage is genuinely more effective than roller massage alone for chronic back pain. The mechanism is real, not marketing. Foot heat, on the other hand, is a comfort feature, not a therapeutic one. Heated rollers are rare and represent the most effective heat application available in the category. Everything else falls somewhere in between, and placement matters far more than wattage.</p>
 
@@ -1391,7 +1392,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Basic resistive heating uses an electric coil to warm the area, similar in principle to an electric blanket. Most chairs from the entry through mid tiers use this method. It is effective for surface warming and for reducing muscle guarding, but it does not penetrate deeply into muscle tissue on its own.</p>
 
-<p>Some chairs use far-infrared heat technology, which is associated with deeper tissue penetration. The Luraco i9 Max Plus ($12,000 and up) is marketed specifically as a medical-grade massage chair, and its heat application is part of that positioning. For buyers with specific therapeutic goals rather than general daily use, the distinction between surface and infrared heat is worth investigating with the specific brand.</p>
+<p>Some chairs use far-infrared heat technology, which is associated with deeper tissue penetration. The Luraco i9 Max Plus ($8,000-$11,999) is marketed specifically as a medical-grade massage chair, and its heat application is part of that positioning. For buyers with specific therapeutic goals rather than general daily use, the distinction between surface and infrared heat is worth investigating with the specific brand.</p>
 
 <p>Coverage area is the second variable most buyers overlook. Some chairs heat a narrow band along the lumbar spine. Others heat a broader section of the back. Neither the product page description nor the spec sheet typically quantifies this, so the most reliable signal is confirmation from buyers who own the specific chair and have used it for the condition you have. Verified user reports on heat coverage are more useful than marketing descriptions.</p>
 
@@ -1417,7 +1418,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <details>
 <summary><strong>Do all massage chairs have heat?</strong></summary>
-<p>No, but most do. In our verified catalog of 44 chairs, 37 include a heat feature. The seven without heat are mostly budget and entry-level models: the Synca Kagra 4D, JPMedics Kozue 5D, both Panasonic Real Pro models (MAJ7 and MA73), the Real Relax Favor-06 and PS3100, and the Cozzia Qi XE Pro Duo. If heat is important to your situation, it is worth confirming the specific model includes it rather than assuming, but for most mid-range and premium chairs it is present.</p>
+<p>No, but most do. Chairs without any heat feature are a small minority of our verified catalog. If heat is important to your situation, it is worth confirming the specific model includes it rather than assuming, but for most mid-range and premium chairs it is present.</p>
 </details>
 
 <details>
