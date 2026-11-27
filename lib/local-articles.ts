@@ -433,7 +433,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>The reason SL-track chairs are not the automatic recommendation for everyone comes down to two factors: price and upper-back precision. SL-track chairs tend to cost more than comparable S-track or L-track chairs because the extended mechanism requires a longer frame and more complex engineering. And for buyers whose pain is exclusively in the neck and upper back, the additional length adds cost without adding benefit.</p>
 
-<p>SL-track chairs in our catalog include the <strong>Osaki OS-Pro Admiral II</strong> (49-inch track), the <strong>Ogawa Master Drive LE 4D</strong>, the <strong>Ogawa Master Drive AI 2.0 4D</strong>, and the <strong>Ogawa Active XL 3D</strong>. The Admiral II is one of the most-recommended chairs in this category for buyers who want SL-track coverage in the mid price tier.</p>
+<p>SL-track chairs in our catalog include the <strong>iRest A306</strong> (53-inch track, Under $3,000), the <strong>Relaxe Shiatsu</strong> (53-inch track, Under $3,000), the <strong>Osaki OS-Highpointe 4D</strong> ($3,000-$4,999) and the <strong>Amamedics Hilux 4D</strong> (53-inch track, $3,000-$4,999). The iRest A306 is the lowest-priced of these with a confirmed fit range, 5 ft 3 in to 6 ft 2 in.</p>
 
 <h2>Flex-track: the hybrid approach</h2>
 
@@ -951,7 +951,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Space-saving chairs, also called zero-wall or wall-hugger chairs, solve this differently. Instead of swinging backward as they recline, these chairs slide the seat forward on a track. The backrest stays close to the wall while the leg rest extends in front of the user. The mechanical result is that the chair needs only a few inches of clearance from the wall rather than a foot and a half.</p>
 
-<p>Among the chairs in our catalog with confirmed wall clearance measurements, the range is narrow but the distinction matters. Several models require only 2 inches from the wall: the <a href="/chairs/osaki-os-pro-admiral-ii">Osaki OS-Pro Admiral II</a>, the <a href="/chairs/infinity-dynasty-4d">Infinity Dynasty 4D</a>, and the <a href="/chairs/infinity-genesis-max">Infinity Genesis Max 4D</a>. The <a href="/chairs/kahuna-lm-6800">Kahuna LM-6800</a> and <a href="/chairs/kahuna-lm-6800s">Kahuna LM-6800S</a> require 3 inches. These figures come from manufacturer specifications and describe the minimum clearance the reclining mechanism needs to function correctly.</p>
+<p>Among the chairs in our catalog with confirmed wall clearance measurements, the range is narrow but the distinction matters. Several models require only 2 inches from the wall: the <a href="/chairs/relaxe-shiatsu">Relaxe Shiatsu</a>, the <a href="/chairs/infinity-dynasty-4d">Infinity Dynasty 4D</a>, and the <a href="/chairs/infinity-genesis-max">Infinity Genesis Max 4D</a>. The <a href="/chairs/kahuna-lm-6800">Kahuna LM-6800</a> and <a href="/chairs/kahuna-lm-6800s">Kahuna LM-6800S</a> require 3 inches. These figures come from manufacturer specifications and describe the minimum clearance the reclining mechanism needs to function correctly.</p>
 
 <p>The practical difference is significant for room planning. A traditional chair positioned 15 inches from the wall uses 15 inches of floor space the chair itself does not occupy. A space-saving chair at 2 inches from the wall reclaims that floor entirely. In a room where every foot matters, this is often the difference between a chair that fits and one that does not.</p>
 
@@ -1063,7 +1063,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Osaki and Infinity are the two brands you will encounter most frequently when shopping in the US market. Both operate as US-based distributors with manufacturing in China. Both offer broad catalogs that span budget entry-level chairs to high-end premium models. Neither is a monolithic quality statement. The right way to think about them is as umbrella brands rather than engineering lineages.</p>
 
-<p><strong>Osaki</strong> is the larger of the two in terms of catalog breadth. The Osaki OS-Pro Admiral II (Under $3,000) is a reliable entry-tier SL-track chair that consistently ranks well for value. The Osaki OS-Pro Maestro LE 2.0 ($8,000-$11,999) steps up in roller quality and program depth. At the top, the Osaki OS-Pro 4D DuoMax ($12,000 and up) is a dual-roller premium system. Osaki also owns the Titan brand, which shares manufacturing with Osaki but is positioned as the value line, functionally similar chairs at lower prices with fewer features and shorter warranty terms.</p>
+<p><strong>Osaki</strong> is the larger of the two in terms of catalog breadth. The Osaki Ai 4D Yoga Flex ($3,000-$4,999) is the entry point to the current lineup, an SL-track 4D chair with a leg-stretch mechanism. The Osaki OS-Pro Maestro LE 2.0 ($8,000-$11,999) steps up in roller quality and program depth. At the top, the Osaki OS-Pro 4D DuoMax ($12,000 and up) is a dual-roller premium system. Osaki also owns the Titan brand, which shares manufacturing with Osaki but is positioned as the value line, functionally similar chairs at lower prices with fewer features and shorter warranty terms.</p>
 
 <p><strong>Infinity</strong> skews toward the higher end. The Infinity Dynasty 4D ($8,000-$11,999) and the Infinity Genesis Max 4D ($8,000-$11,999) are serious chairs targeted at buyers who want near-luxury performance without crossing into the ultra-premium Japanese segment. Infinity's mid-range options fill the mid through premium tiers with competitive feature sets.</p>
 
@@ -1456,7 +1456,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>This single continuous path is what separates SL-track chairs from the alternatives. An S-track roller runs out of track at the lumbar and cannot reach the glutes. An L-track roller reaches the glutes, but some L-track designs reduce upper-shoulder reach to accommodate the longer lower extension. An SL-track resolves both limitations by extending the total rail length to cover the full body.</p>
 
-<p>The longer mechanism requires a larger chair frame and more complex engineering, which is the primary reason SL-track chairs tend to cost more than comparable S-track or L-track chairs at the same roller quality tier. The <a href="/chairs/osaki-os-pro-admiral-ii">Osaki OS-Pro Admiral II</a> has a confirmed 49-inch SL-track, roughly 10 to 15 inches longer than a standard S-track rail on an entry-level chair.</p>
+<p>The longer mechanism requires a larger chair frame and more complex engineering, which is the primary reason SL-track chairs tend to cost more than comparable S-track or L-track chairs at the same roller quality tier. The <a href="/chairs/irest-a306">iRest A306</a> has a confirmed 53-inch SL-track, considerably longer than a standard S-track rail on an entry-level chair.</p>
 
 <h2>SL-track vs S-track vs L-track: coverage comparison</h2>
 
@@ -1495,7 +1495,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <details>
 <summary>Do all SL-track chairs cover the same area?</summary>
-<p>Not exactly. SL-track length varies by chair. The Osaki OS-Pro Admiral II has a confirmed 49-inch track. Some entry-level SL-track chairs run shorter, which means the roller stops higher in the glute region. For taller buyers, a longer SL-track ensures the coverage extends far enough. When comparing SL-track chairs, check whether the track length is confirmed and compare it to your torso length if possible.</p>
+<p>Not exactly. SL-track length varies by chair. The iRest A306 has a confirmed 53-inch track. Some entry-level SL-track chairs run shorter, which means the roller stops higher in the glute region. For taller buyers, a longer SL-track ensures the coverage extends far enough. When comparing SL-track chairs, check whether the track length is confirmed and compare it to your torso length if possible.</p>
 </details>
 
 <details>
@@ -1788,7 +1788,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Entry tier: entry-level S-track or L-track chairs with 2D rollers, basic airbag coverage, and short warranty terms. Viable for light use and lower physical demands, but not for buyers with significant chronic pain or daily use expectations.</p>
 
-<p>Entry to mid tier: SL-track becomes available, roller quality improves, zero gravity and heat are standard. The Kahuna LM-6800S and Osaki OS-Pro Admiral II live here. These are capable chairs for the core buyer.</p>
+<p>Entry to mid tier: SL-track becomes available, roller quality improves, zero gravity and heat are standard. The iRest A306 and the Relaxe Shiatsu live here. These are capable chairs for the core buyer.</p>
 
 <p>Mid to upper-mid tier: meaningful step up in roller quality (3D and 4D), better airbag coverage, body scanning, improved warranty terms. Chairs like the AmaMedics Hilux 4D and Infinity Dynasty 4D. This is the range where daily serious use becomes a realistic expectation.</p>
 
@@ -4073,7 +4073,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>This is where the most meaningful upgrades happen. SL-track coverage, rollers that extend from the neck through the glutes, becomes standard rather than optional. 3D rollers, which add forward depth to the massage, are the floor rather than the ceiling. Body scanning, which adjusts roller positioning to your spine shape, is typically included.</p>
 
-<p>Airbag systems in this tier offer more coverage zones and more adjustment range. Chairs like the Kahuna LM-6800S and the Osaki OS-Pro Admiral II sit in this range and offer legitimate full-body coverage with meaningful customization. Zero gravity recline becomes a standard feature rather than a premium add-on.</p>
+<p>Airbag systems in this tier offer more coverage zones and more adjustment range. Chairs like the iRest A306 and the Relaxe Shiatsu sit in this range and offer legitimate full-body coverage with meaningful customization. Zero gravity recline becomes a standard feature rather than a premium add-on.</p>
 
 <p>Warranty terms improve significantly here. Quality mid-range chairs offer 2-3 years on rollers and electrical components with in-home service included. This is the difference that matters: a technician who comes to your house rather than a shipping label that costs a few hundred dollars each way.</p>
 
@@ -11582,11 +11582,11 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 
 <p>Plan for two numbers, not one. The first is the reclined footprint: most full-size chairs slide and tilt forward as they recline, so the depth you need is measured with the chair fully back, not sitting upright. The second is wall clearance: the gap the chair needs behind it so the backrest can lie down without hitting the wall. This second number is where space-saving design earns its name, and it varies enormously across the catalog.</p>
 
-<p>A space-saving or wall-hugging chair glides its base forward as it reclines, so the backrest drops into the space the seat vacated instead of swinging back into the wall. Among the space-saving models we have verified, the tightest need as little as 1 to 2 inches of wall clearance: the Titan 3D Prestige reclines in about 1 inch, and the Osaki OS-Pro Admiral II needs about 2 inches. A chair without that mechanism can need far more. The Ogawa Active XL Duo, for example, calls for roughly 11 inches of clearance behind it. That is close to a foot of dead space against your wall, and it is the kind of number that turns a chair from a corner piece into a room-planning problem. For the full walkthrough of measuring your space, see our <a href="/learn/room-fit">room fit guide</a>, and for how the recline mechanism itself works, see <a href="/learn/wall-hugger">how wall-hugger chairs work</a>.</p>
+<p>A space-saving or wall-hugging chair glides its base forward as it reclines, so the backrest drops into the space the seat vacated instead of swinging back into the wall. Among the space-saving models we have verified, the tightest need as little as 1 to 2 inches of wall clearance: the Titan 3D Prestige reclines in about 1 inch, and the Relaxe Shiatsu needs about 2 inches. A chair without that mechanism can need far more. The Ogawa Active XL Duo, for example, calls for roughly 11 inches of clearance behind it. That is close to a foot of dead space against your wall, and it is the kind of number that turns a chair from a corner piece into a room-planning problem. For the full walkthrough of measuring your space, see our <a href="/learn/room-fit">room fit guide</a>, and for how the recline mechanism itself works, see <a href="/learn/wall-hugger">how wall-hugger chairs work</a>.</p>
 
 <h2>Do compact massage chairs give up massage quality?</h2>
 
-<p>No. This is the most common fear about small-footprint chairs, and it comes from a misunderstanding of what makes a chair compact. Compactness is about the recline mechanism, which is the wall clearance, not about the rollers. A wall-hugging chair can carry the exact same SL-track and the same 3D or 4D roller as a large one. The Titan 3D Prestige and the Osaki OS-Pro Admiral II both wall-hug and both run a full SL-track, which follows the spine from the neck all the way under the glutes. The Synca Wellness CirC+ does the same in the Entry tier. None of them trades away spinal coverage to save floor space.</p>
+<p>No. This is the most common fear about small-footprint chairs, and it comes from a misunderstanding of what makes a chair compact. Compactness is about the recline mechanism, which is the wall clearance, not about the rollers. A wall-hugging chair can carry the exact same SL-track and the same 3D or 4D roller as a large one. The Titan 3D Prestige and the Relaxe Shiatsu both wall-hug and both run a full SL-track, which follows the spine from the neck all the way under the glutes. The Synca Wellness CirC+ does the same in the Entry tier. None of them trades away spinal coverage to save floor space.</p>
 
 <p>What actually changes as a chair gets smaller or cheaper is roller depth and body-fit range, not footprint. A 2D roller presses in and out; a 3D or 4D roller also pushes further out from the track for deeper, more adjustable pressure. That is the real intensity lever, and it is set by the roller spec, not by how much wall clearance the chair needs. So judge a compact chair the way you would judge any chair: on its track type and roller (covered in our <a href="/learn/track-types">track types guide</a>) and its <a href="/learn/body-fit">body fit range</a>, and treat the small footprint as a bonus rather than a compromise.</p>
 
@@ -11594,7 +11594,7 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 
 <p>Every chair below is space-saving, currently in our catalog, and keeps a full SL-track so you are not trading coverage for footprint. Prices are shown as tiers rather than exact figures, because listed prices move.</p>
 
-<p>In the Entry tier (Under $3,000), the Synca Wellness CirC+ is an SL-track chair with a modest footprint, and the Osaki OS-Pro Admiral II reclines in about 2 inches of clearance while keeping a full SL-track. In the Mid tier ($3,000 to $4,999), the Titan 3D Prestige adds a 3D roller for deeper pressure and still reclines in roughly 1 inch, which is about as space-efficient as the catalog gets. For a curated list built around exactly this problem, see our <a href="/best/small-spaces">best massage chairs for small spaces</a>, and to match one to your room, body, and budget in a couple of minutes, use the <a href="/finder">chair finder</a>.</p>
+<p>In the Entry tier (Under $3,000), the Synca Wellness CirC+ is an SL-track chair with a modest footprint, and the Relaxe Shiatsu reclines in about 2 inches of clearance while keeping a full 53-inch SL-track. In the Mid tier ($3,000 to $4,999), the Titan 3D Prestige adds a 3D roller for deeper pressure and still reclines in roughly 1 inch, which is about as space-efficient as the catalog gets. For a curated list built around exactly this problem, see our <a href="/best/small-spaces">best massage chairs for small spaces</a>, and to match one to your room, body, and budget in a couple of minutes, use the <a href="/finder">chair finder</a>.</p>
 
 <h2>How to use this to narrow your choices</h2>
 
@@ -11626,7 +11626,7 @@ Massage raises serotonin, the substrate the body converts to melatonin, supplyin
 
 <details>
 <summary><strong>What is the smallest massage chair that still gives a full-back massage?</strong></summary>
-<p>Look for a wall-hugging chair that keeps a full SL-track, such as the Titan 3D Prestige or the Osaki OS-Pro Admiral II. The SL-track preserves full spine-to-glute coverage while the space-saving base keeps the footprint and wall clearance down, so you get the complete massage path without the room-planning problem.</p>
+<p>Look for a wall-hugging chair that keeps a full SL-track, such as the Titan 3D Prestige or the Relaxe Shiatsu. The SL-track preserves full spine-to-glute coverage while the space-saving base keeps the footprint and wall clearance down, so you get the complete massage path without the room-planning problem.</p>
 </details>`,
   },
   {

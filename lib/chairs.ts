@@ -337,7 +337,7 @@ export const CHAIRS: Chair[] = [
     goodwinStatus: 'none',
     affiliateUrl: 'https://kahunachair.com/lm-6800s-2/',
     inStock: false,
-    alternativeIds: ['osaki-os-pro-admiral-ii'],
+    alternativeIds: ['irest-a306'],
     goodwinLookupKey: 'kahuna lm-6800s',  // MUST come before 'kahuna lm-6800' in lookup
     goodwinImageUrl: 'https://cdn.shopify.com/s/files/1/0661/9758/5995/files/kahuna-lm-6800S-massage-chair.jpg?v=1776902669',
     track: 'SL', roller: '2D', trackLengthIn: 45,
@@ -1137,7 +1137,7 @@ export const CHAIRS: Chair[] = [
     affiliateTier: 'A', goodwinStatus: 'none',
     track: 'SL', roller: '2D',
     zeroGravity: true, heat: true,
-    alternativeIds: ['osaki-os-pro-admiral-ii'],
+    alternativeIds: ['irest-a306'],
     aiNotes: 'DISCONTINUED -- do not recommend.',
   },
 

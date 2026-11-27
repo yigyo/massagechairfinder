@@ -52,8 +52,8 @@ const FAQS: Faq[] = [
     a: "This range introduces 4D rollers, which add variable speed and rhythm to each stroke rather than fixed-speed 3D motion, and it is where specialist options appear: a dedicated S-track chair built for neck and upper-back work, and chairs with the widest confirmed height ranges in the mid-tier catalog.",
   },
   {
-    q: "Is the entry-tier Osaki OS-Pro Admiral II still worth considering at this budget?",
-    a: "Yes, if value density matters more than roller sophistication or specialist track types. The Admiral II has strong confirmed body fit data and a 49-inch track at a lower price than anything in the $3,000 to $5,000 range. The chairs above it justify the extra cost through 4D rollers, specialist tracks, or extreme space-saving design; if none of those is a priority, the Admiral II remains the better value. (Note: as of late October 2026 it is temporarily out of stock at its primary retailer.)",
+    q: "Is an entry-tier chair under $3,000 still worth considering at this budget?",
+    a: "Yes, if value density matters more than roller sophistication or specialist track types. The iRest A306 has a confirmed fit from 5 ft 3 in to 6 ft 2 in, a 330 lb capacity and a 53-inch SL-track with a 3D roller, at a lower price than anything in the $3,000 to $5,000 range. The chairs above it justify the extra cost through 4D rollers, specialist tracks, or extreme space-saving design; if none of those is a priority, the entry tier is the better value.",
   },
   {
     q: "Which chair in this range is built for neck and upper-back pain specifically?",
@@ -113,7 +113,7 @@ export default function Best3000To5000Page() {
         The $3,000 to $5,000 range is where the catalog diverges by use case. From the middle of this range up to just above its ceiling you have several distinct options: a 4D SL-track chair with the widest confirmed height range in this tier, an S-track specialist for neck and upper-back focus, and a 3D SL-track with 1-inch wall clearance. The right pick depends entirely on your pain pattern and room constraints.
       </p>
       <p className="text-warm-gray text-sm mb-10 max-w-2xl">
-        Updated May 2026. Note: the entry-tier Osaki OS-Pro Admiral II remains one of the most competitive chairs in the full catalog, though it is temporarily out of stock as of late October 2026. If your budget is flexible downward, it is worth considering alongside these picks once it restocks. See the{' '}
+        Updated November 2026. If your budget is flexible downward, the entry-tier iRest A306 (3D roller, 53-inch SL-track, 330 lb capacity) is worth considering alongside these picks. See the{' '}
         <Link href="/best/under-3000" className="text-bronze hover:text-gold transition-colors">under-$3,000 page</Link>.
       </p>
 
@@ -123,7 +123,7 @@ export default function Best3000To5000Page() {
           The $3,000 to $5,000 range introduces 4D rollers, which add variable speed and rhythm to each stroke rather than fixed-speed 3D motion. For buyers with chronic tension who have found lower-tier chairs feel repetitive or mechanical, 4D is a meaningful upgrade. It is also the tier where specialist options appear: a dedicated S-track chair optimized for neck and upper-back work, and chairs with the widest confirmed height ranges in the mid-tier catalog.
         </p>
         <p className="text-charcoal leading-relaxed">
-          The trade-off compared to the entry-tier Admiral II is primarily value density. The Admiral II has strong confirmed body fit data and a 49-inch track at a lower price (temporarily out of stock as of late October 2026). The chairs above justify the additional spend through roller sophistication, specialist track types, or extreme space-saving. If none of those features are your priority, the Admiral II remains the better value once it restocks.
+          The trade-off compared to the entry-tier iRest A306 is primarily value density. The A306 has confirmed body fit data and a 53-inch track at a lower price. The chairs above justify the additional spend through roller sophistication, specialist track types, or extreme space-saving. If none of those features are your priority, the A306 remains the better value.
         </p>
       </div>
 

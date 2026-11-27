@@ -27,7 +27,7 @@ interface Editorial {
 const EDITORIAL: Record<string, Editorial> = {
   'relaxe-shiatsu': {
     label: 'Best for tall or heavier builds',
-    why: "The Relaxe Shiatsu is confirmed at 330 lbs with a confirmed height range of 61 to 76 inches, the highest weight capacity on this page. The 53-inch SL-track is one of the longer roller paths in the catalog, and the space-saving 2-inch wall clearance fits tight rooms. 2D rollers, zero gravity, heat. For buyers whose dimensions exceed what the Admiral II can confirm, this is the pick, at a price well under this page's ceiling.",
+    why: "The Relaxe Shiatsu is confirmed at 330 lbs with a confirmed height range of 61 to 76 inches, the highest weight capacity on this page. The 53-inch SL-track is one of the longer roller paths in the catalog, and the space-saving 2-inch wall clearance fits tight rooms. 2D rollers, zero gravity, heat. For buyers taller than 6 ft 2 in who want a confirmed fit, this is the pick, at a price well under this page's ceiling.",
   },
   'panasonic-maf1': {
     label: 'Best for neck and upper-back focus',
@@ -160,7 +160,7 @@ export default function BestUnder5000Page() {
           and body scanning at the top of the entry tier. In the mid-tier, SL-track 3D with 1-inch wall clearance becomes available. In the upper mid-tier, 4D roller quality enters the picture for both SL-track full-coverage and S-track upper-body focus.
         </p>
         <p className="text-charcoal leading-relaxed">
-          The most common question in this range is whether to stay with the entry-tier Admiral II or stretch up to the upper mid-tier for 4D. The answer depends on whether variable roller speed and depth makes a functional difference for your specific pain pattern. For buyers with chronic, deep muscle tension, 4D is a meaningful step up. For buyers who are new to massage chairs or have sensitive backs, entry-tier 3D with adjustable depth is a sound starting point. The{' '}
+          The most common question in this range is whether to stay with an entry-tier 3D chair such as the iRest A306 or stretch up to the upper mid-tier for 4D. The answer depends on whether variable roller speed and depth makes a functional difference for your specific pain pattern. For buyers with chronic, deep muscle tension, 4D is a meaningful step up. For buyers who are new to massage chairs or have sensitive backs, entry-tier 3D with adjustable depth is a sound starting point. The{' '}
           <Link href="/learn/massage-chair-price-tiers" className="text-bronze hover:text-gold transition-colors">price tier guide</Link>{' '}
           breaks down what each budget level actually buys.
         </p>
@@ -302,7 +302,7 @@ export default function BestUnder5000Page() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          If lower back pain is the primary concern, the Admiral II (SL-track, 3D, entry tier) or the Hilux 4D (SL-track, 4D, mid-tier) are the two picks depending on whether roller sophistication justifies the additional spend for your situation. If neck and upper back is the primary concern, the MAF1&apos;s S-track 4D setup is the specialist pick.
+          If lower back pain is the primary concern, the iRest A306 (SL-track, 3D, entry tier) or the Hilux 4D (SL-track, 4D, mid-tier) are the two picks depending on whether roller sophistication justifies the additional spend for your situation. If neck and upper back is the primary concern, the MAF1&apos;s S-track 4D setup is the specialist pick.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           For buyers with height above 6&apos;1&quot; or weight above 270 lbs, the Relaxe Shiatsu (up to 6&apos;4&quot;, 330 lbs) or Hilux 4D (up to 6&apos;7&quot;) are the confirmed-fit options in this range. If you are unsure whether your measurements fall inside a chair&apos;s range, the{' '}

@@ -267,7 +267,7 @@ export default function BestUnder3000Page() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to narrow from here</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For most buyers in this tier, the decision comes down to body fit. If you are 5&apos;2&quot; to 6&apos;1&quot; and under 270 lbs, the Admiral II is the pick. If you are taller than 6&apos;1&quot; or heavier than 270 lbs, the Relaxe Shiatsu accommodates up to 6&apos;4&quot; and 330 lbs at a similar price.
+          For most buyers in this tier, the decision comes down to body fit. The Relaxe Shiatsu has the widest confirmed range on this page, 5&apos;1&quot; to 6&apos;4&quot; and up to 330 lbs. If you want a 3D roller instead of 2D, the iRest A306 is confirmed for 5&apos;3&quot; to 6&apos;2&quot; and 330 lbs at a lower price.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If budget is strictly in the lower half of this tier and that cannot change, both entry picks above are sound. The gap between the floor of the catalog and the top of this tier is real, but not everyone needs the upgrade.
