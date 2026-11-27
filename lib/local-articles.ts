@@ -423,7 +423,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>The tradeoff is coverage of the upper back. Because the L-track extends so far downward, it sometimes covers slightly less of the upper thoracic and cervical spine compared to a well-designed S-track. This is not a universal rule, it depends on the specific chair and track length, but it is worth noting for buyers whose primary pain is neck or upper-shoulder tension.</p>
 
-<p>L-track chairs in our catalog include the <strong>Infinity Dynasty 4D</strong> (49-inch track), the <strong>Infinity Genesis Max 4D</strong> (49-inch track), the <strong>AmaMedics Hilux 4D</strong> (53-inch track, the longest confirmed in the catalog), the <strong>Kahuna LM-6800</strong> (45-inch track), and the <strong>Daiwa Legacy 4</strong> (49-inch track). The AmaMedics Hilux's 53-inch track provides the deepest glute and hamstring coverage of any L-track chair we have researched.</p>
+<p>L-track chairs in our catalog include the <strong>Infinity Dynasty 4D</strong> (49-inch track), the <strong>Infinity Genesis Max 4D</strong> (49-inch track), the <strong>AmaMedics Hilux 4D</strong> (53-inch track, the longest confirmed in the catalog), the <strong>Kyota Yutaka M898 4D</strong> (49-inch track), and the <strong>Daiwa Legacy 4</strong> (49-inch track). The AmaMedics Hilux's 53-inch track provides the deepest glute and hamstring coverage of any L-track chair we have researched.</p>
 
 <h2>SL-track: full coverage from neck to glutes</h2>
 
@@ -547,7 +547,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Yes, but only in a specific way. The depth control in a 3D chair is the more functionally significant upgrade over 2D. Moving from 3D to 4D is a refinement of massage feel, not a structural change in what the chair can do.</p>
 
-<p>Most buyers who try a quality 3D chair find it entirely satisfying. The consistent stroke and adjustable depth deliver genuine therapeutic value for back pain, tension, and circulation. The Kahuna LM-6800, for example, is a well-regarded 3D chair that buyers with chronic lower back pain report using daily without any sense that they are missing something.</p>
+<p>Most buyers who try a quality 3D chair find it entirely satisfying. The consistent stroke and adjustable depth deliver genuine therapeutic value for back pain, tension, and circulation.</p>
 
 <p>The buyers for whom 4D makes a noticeable difference tend to be in one of two groups. The first group has experienced regular professional massage and is attuned to the rhythm variation a human therapist provides. For them, the mechanical consistency of even a good 3D system can feel slightly off. The second group has tried massage chairs before and found the experience "too robotic" to use regularly. For those buyers, 4D rhythm variation is not a luxury feature but a practical answer to a usage problem.</p>
 
@@ -642,7 +642,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>A two-stage zero gravity chair adds a second, deeper recline, a further tilt backward that brings the body closer to fully horizontal and elevates the legs higher. In the second stage, the spinal decompression is more pronounced and the sensation of weight reduction is noticeably greater. Most buyers who use two-stage zero gravity regularly describe the second stage as the position where the massage feels most effective.</p>
 
-<p>Among the chairs in our catalog with confirmed two-stage zero gravity: the <strong>Kahuna LM-6800</strong>, the <strong>Kahuna LM-6800S</strong>, the <strong>AmaMedics Hilux 4D</strong>, the <strong>Ogawa Master Drive LE 4D</strong>, and the <strong>Ogawa Active XL 3D</strong>. If two-stage is important to you, confirm it in the specifications. Not all chairs are explicit about stage count in their marketing materials.</p>
+<p>Among the chairs in our catalog with confirmed two-stage zero gravity: the <strong>AmaMedics Hilux 4D</strong>, the <strong>Osaki OS-Highpointe 4D</strong>, the <strong>Daiwa Solace</strong>, the <strong>Daiwa Legacy 4</strong>, and the <strong>Titan Pro-Vigor 4D</strong>. If two-stage is important to you, confirm it in the specifications. Not all chairs are explicit about stage count in their marketing materials.</p>
 
 <h2>Zero gravity vs a zero gravity recliner</h2>
 
@@ -780,9 +780,9 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
   <li><strong>Infinity Dynasty 4D</strong>: confirmed 300 lbs</li>
   <li><strong>Kyota Genki M380</strong>: confirmed 330 lbs</li>
   <li><strong>Luraco i9 Max Plus</strong>: confirmed 300 lbs</li>
-  <li><strong>Kahuna LM-6800S</strong>: confirmed 300 lbs</li>
-  <li><strong>Ogawa Master Drive LE and AI 2.0</strong>: confirmed 320 lbs</li>
-  <li><strong>Ogawa Active XL 3D</strong>: confirmed 320 lbs (designed specifically for larger frames)</li>
+  <li><strong>Kyota Yutaka M898 4D</strong>: confirmed 300 lbs</li>
+  <li><strong>Ogawa Master Drive DUO LE 4D+3D</strong>: confirmed 320 lbs</li>
+  <li><strong>Osaki Atlas XL 4D and Duke XL 4D</strong>: confirmed 400 lbs (designed specifically for larger frames)</li>
 </ul>
 
 <p>One chair in the catalog sits notably lower: the Panasonic MAK1 has a confirmed weight limit of 264 lbs, despite its premium price point. If weight capacity is a constraint, the MAK1 is worth noting as an exception at the high end of the market.</p>
@@ -793,7 +793,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Most massage chairs have a seat width of 18 to 21 inches. The shoulder airbags are positioned to apply compression inward from the sides of the seat back. For a buyer with a narrower frame, wide-set airbags may squeeze at angles that feel wrong. For a broader-shouldered buyer, tight shoulder compartments may not make full contact, reducing compression effectiveness.</p>
 
-<p>The <strong>Ogawa Active XL 3D</strong> is specifically engineered for broader frames, with a seat four inches wider than Ogawa's standard models and its shoulder width is 23 inches, compared to the typical 18 to 19 inches. If you are broad through the shoulders or have a larger build generally, the Active XL was designed with your proportions in mind.</p>
+<p>The <strong>Osaki Atlas XL 4D</strong> and <strong>Duke XL 4D</strong> are built for broader frames: Osaki lists a 26-inch shoulder width and a 23-inch seat width on both, against the 18 to 21 inch seat width typical of the category. If you are broad through the shoulders or have a larger build generally, those two were designed with your proportions in mind.</p>
 
 <p>For most buyers, shoulder width does not require active research. But if you have had the experience of feeling compressed or constrained in a chair during a store demo, shoulder width is likely the cause, and it is worth checking the spec before purchasing.</p>
 
@@ -951,7 +951,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>Space-saving chairs, also called zero-wall or wall-hugger chairs, solve this differently. Instead of swinging backward as they recline, these chairs slide the seat forward on a track. The backrest stays close to the wall while the leg rest extends in front of the user. The mechanical result is that the chair needs only a few inches of clearance from the wall rather than a foot and a half.</p>
 
-<p>Among the chairs in our catalog with confirmed wall clearance measurements, the range is narrow but the distinction matters. Several models require only 2 inches from the wall: the <a href="/chairs/relaxe-shiatsu">Relaxe Shiatsu</a>, the <a href="/chairs/infinity-dynasty-4d">Infinity Dynasty 4D</a>, and the <a href="/chairs/infinity-genesis-max">Infinity Genesis Max 4D</a>. The <a href="/chairs/kahuna-lm-6800">Kahuna LM-6800</a> and <a href="/chairs/kahuna-lm-6800s">Kahuna LM-6800S</a> require 3 inches. These figures come from manufacturer specifications and describe the minimum clearance the reclining mechanism needs to function correctly.</p>
+<p>Among the chairs in our catalog with confirmed wall clearance measurements, the range is narrow but the distinction matters. Several models require only 2 inches from the wall: the <a href="/chairs/relaxe-shiatsu">Relaxe Shiatsu</a>, the <a href="/chairs/infinity-dynasty-4d">Infinity Dynasty 4D</a>, and the <a href="/chairs/infinity-genesis-max">Infinity Genesis Max 4D</a>. The <a href="/chairs/daiwa-solace">Daiwa Solace</a> requires 3 inches and the <a href="/chairs/osaki-jp-nexus-4d">Osaki JP-Nexus 4D</a> 3.5 inches. These figures come from manufacturer specifications and describe the minimum clearance the reclining mechanism needs to function correctly.</p>
 
 <p>The practical difference is significant for room planning. A traditional chair positioned 15 inches from the wall uses 15 inches of floor space the chair itself does not occupy. A space-saving chair at 2 inches from the wall reclaims that floor entirely. In a room where every foot matters, this is often the difference between a chair that fits and one that does not.</p>
 
@@ -1128,7 +1128,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p><strong>Svago</strong> straddles the line between zero gravity recliners and light massage chairs. The ZGR (Under $3,000) and Newton ($3,000-$4,999) are not heavy-duty massage chairs in the same sense as an SL-track system: they are zero gravity recliners with massage functions. Relevant for buyers who want the zero gravity positioning benefit at a lower price than a full massage chair delivers.</p>
 
-<p><strong>Nouhaus</strong> covers the entry through mid tiers with five models including the Aurora, Nou Campo, Luna, and Orbit. Entry and mid-range competition for buyers who find the Kahuna LM-6800S range interesting.</p>
+<p><strong>Nouhaus</strong> covers the entry through mid tiers with five models including the Aurora, Nou Campo, Luna, and Orbit. Entry and mid-range competition for buyers shopping the Under $3,000 band.</p>
 
 <p><strong>Sharper Image</strong> offers the Relieve 3D ($3,000-$4,999) and Revival ($3,000-$4,999) as brand-name entry points. The Sharper Image name carries consumer recognition that helps with buyer confidence at lower price points.</p>
 
@@ -1487,7 +1487,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <p>If your pain is exclusively in the neck, shoulders, and upper back, an S-track chair may provide better upper-back precision at the same price point. Some S-track chairs invest the mechanical budget that would otherwise go to the L-extension into tighter roller calibration for the neck and shoulder area.</p>
 
-<p>If lower back and hip pain is your primary concern and your upper back is not significantly involved, an L-track chair can deliver more targeted glute coverage at a lower price than a comparable SL-track model. The Kahuna LM-6800 and JPMedics Kumo 4D are L-track chairs frequently recommended for buyers in that situation.</p>
+<p>If lower back and hip pain is your primary concern and your upper back is not significantly involved, an L-track chair can deliver more targeted glute coverage at a lower price than a comparable SL-track model. The Kyota Zenyu M338 (Under $3,000) and the JPMedics Kumo 4D ($8,000-$11,999) are L-track chairs that fit that situation at opposite ends of the price range.</p>
 
 <p>For buyers whose primary concern is pressure intensity, track type is secondary to roller dimension. A 3D or 4D roller on any track type allows depth adjustment. A 2D roller on an SL-track covers the right area but at fixed pressure only. If you tend toward sensitivity, an SL-track chair with a 3D roller and adjustable depth gives you both coverage and control.</p>
 
@@ -1541,7 +1541,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <h2>Which chairs use 4D roller systems</h2>
 
-<p>4D roller chairs currently in our catalog include the <strong>Ogawa Master Drive LE 4D</strong>, the <strong>Ogawa Master Drive AI 2.0 4D</strong>, the <strong>AmaMedics Hilux 4D</strong>, the <strong>Infinity Dynasty 4D</strong>, and the <strong>Infinity Genesis Max 4D</strong>.</p>
+<p>4D roller chairs currently in our catalog include the <strong>Ogawa Master Drive DUO LE 4D+3D</strong>, the <strong>Osaki OS-Highpointe 4D</strong>, the <strong>AmaMedics Hilux 4D</strong>, the <strong>Infinity Dynasty 4D</strong>, and the <strong>Infinity Genesis Max 4D</strong>.</p>
 
 <p>These chairs are spread across multiple track types. The Ogawa Master Drive LE and AmaMedics Hilux use SL-track with 4D rollers. The Infinity Dynasty 4D and Genesis Max 4D use L-track. Track type is a separate and often more consequential decision than roller dimension for buyers with specific pain locations. If you are choosing between an SL-track 3D chair and an L-track 4D chair, track coverage should be the deciding variable, not roller type. The <a href="/learn/track-types">track types guide</a> explains this in full.</p>
 
@@ -1810,7 +1810,7 @@ export const LOCAL_ARTICLES: LocalArticle[] = [
 
 <details>
 <summary><strong>Are there good options in the entry tier?</strong></summary>
-<p>Yes. The Kahuna LM-6800S, in the Under $3,000 band, is a legitimate chair with SL-track coverage. The limitation is roller quality and warranty depth rather than the core massage experience. For buyers who cannot stretch further, it is a real option worth considering. See the <a href="/best/under-3000">best chairs under $3,000</a> for the full comparison.</p>
+<p>Yes. The iRest A306, in the Under $3,000 band, is a legitimate chair with a 53-inch SL-track, a 3D roller and a confirmed fit from 5 ft 3 in to 6 ft 2 in. The limitation is roller quality and warranty depth rather than the core massage experience. For buyers who cannot stretch further, it is a real option worth considering. See the <a href="/best/under-3000">best chairs under $3,000</a> for the full comparison.</p>
 </details>
 
 <p>The <a href="/learn/how-to-buy">buying framework guide</a> walks through the decision sequence from physical need through budget and track type. The <a href="/learn/brands-overview">brands overview</a> explains what each brand name actually tells you about build quality and support. The <a href="/finder">chair finder</a> filters the full catalog by your specific requirements.</p>`,

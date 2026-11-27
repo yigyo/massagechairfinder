@@ -291,7 +291,7 @@ export default function BestSeniorLivingFacilitiesPage() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">How to choose for your community</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          For a standard common room on a defined budget, the Ogawa Active XL 3D (Under $3,000) is the value anchor: full SL-track coverage at a price low enough to place in more than one room. The Genki M380 brings the highest weight capacity and the simplest controls on this list; its price has swung between the entry and upper-mid bands with retailer promotions this year, so check the current band badge before you budget.
+          For a standard common room on a defined budget, the Genki M380 brings the highest weight capacity and the simplest controls on this list; its price has swung between the entry and upper-mid bands with retailer promotions this year, so check the current band badge before you budget.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           If the program serves residents who cannot tolerate roller pressure, the Human Touch Laevo ZG is a different category, not a compromise. It is the right tool for frail residents, and pairing it with one roller chair in the same space lets staff match the chair to the resident.

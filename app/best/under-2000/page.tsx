@@ -275,7 +275,7 @@ export default function BestUnder2000Page() {
       <div className="bg-white border border-sand rounded-xl p-6 mb-10 max-w-2xl">
         <h2 className="text-xl font-serif font-semibold text-navy mb-3">The case for spending more</h2>
         <p className="text-charcoal leading-relaxed mb-3">
-          Both chairs above are legitimate starting points. The gap between this entry tier and the top of the under-$3,000 range is meaningful. The Kahuna LM-6800S, near the top of that range, adds confirmed body fit data (5'0&quot; to 6'0&quot;), three-stage zero gravity, a verified 45-inch track length, and a retailer with a stronger service record.
+          Both chairs above are legitimate starting points. The gap between this entry tier and the top of the under-$3,000 range is meaningful. The Relaxe Shiatsu, near the top of that range, adds confirmed body fit data (5&apos;1&quot; to 6&apos;4&quot;), a 330-lb capacity, a verified 53-inch track length, and 2 inches of wall clearance.
         </p>
         <p className="text-charcoal leading-relaxed mb-3">
           At the top of the under-$3,000 range, the iRest A306 adds 3D rollers, a 53-inch track, body scanning, and a 330-lb weight capacity. These are not marginal upgrades over the entry starting point.
